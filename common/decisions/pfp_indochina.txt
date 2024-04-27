@@ -1,0 +1,87 @@
+pfp_category = {
+	pfp_indochina = {
+		allowed = {
+			NOT = {
+				original_tag = CAM #Cambodia
+				original_tag = LAO #Laos
+				original_tag = VIN #Vietnam
+				original_tag = P16 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			#Southern Indochina
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_southern_indochina
+				controls_state = 286 #Southern Indochina
+			}
+			#Laos
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_laos
+				controls_state = 670 #Laos
+			}
+			#Tonkin
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_tonkin
+				controls_state = 671 #Tonkin
+			}
+			#Cambodia
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_cambodia
+				controls_state = 741 #Cambodia
+			}
+			#Batambang
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_batambang
+				controls_state = 925 #Batambang
+			}
+			#South Annam
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_south_annam
+				controls_state = 927 #South Annam
+			}
+			#North Annam
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_north_annam
+				controls_state = 928 #North Annam
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 670 #Southern Indochina
+				controls_state = 671 #Tonkin
+				controls_state = 741 #Cambodia
+			}
+			NOT = {
+				original_tag = CAM #Cambodia
+				original_tag = LAO #Laos
+				original_tag = VIN #Vietnam
+				original_tag = P16 #Indochina
+				has_global_flag = pfp_indochina_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states
+			custom_effect_tooltip = pfp_indochina_transfer_states
+			custom_effect_tooltip = pfp_indochina_puppet
+
+			#Create formable puppet with all its states and then puppet
+      hidden_effect = {
+        set_variable = { is_creating_formable_puppet = yes }
+        pfp_release_indochina = yes
+
+        if = {
+          limit = { has_dlc = "Together for Victory" }
+          set_autonomy = { target = P16 autonomy_state = autonomy_military_administration }
+        }
+        else = {
+          puppet = P16
+        }
+        clear_variable = is_creating_formable_puppet
+      }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

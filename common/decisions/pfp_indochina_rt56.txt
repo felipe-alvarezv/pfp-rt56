@@ -1,0 +1,402 @@
+pfp_category_territories_indochina = {
+	pfp_indochina_luang_prabang = {
+		allowed = {
+			NOT = {
+				original_tag = P16 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_luang_prabang
+				controls_state = 926 #Luang Prabang
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			P16 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P16 #Indochina
+				has_global_flag = pfp_indochina_luang_prabang_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_luang_prabang
+			custom_effect_tooltip = pfp_indochina_transfer_states_luang_prabang
+			hidden_effect = {
+				#Luang Prabang
+				926 = { add_core_of = P16 }
+				P16 = { transfer_state = 926 }
+				set_global_flag = pfp_indochina_luang_prabang_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indochina_champasak = {
+		allowed = {
+			NOT = {
+				original_tag = P16 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_champasak
+				controls_state = 924 #Champasak
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			P16 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P16 #Indochina
+				has_global_flag = pfp_indochina_champasak_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_champasak
+			custom_effect_tooltip = pfp_indochina_transfer_states_champasak
+			hidden_effect = {
+				#Champasak
+				924 = { add_core_of = P16 }
+				P16 = { transfer_state = 924 }
+				set_global_flag = pfp_indochina_champasak_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indochina_kedah = {
+		allowed = {
+			NOT = {
+				original_tag = P16 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_kedah
+				controls_state = 914 #Kedah
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			P16 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P16 #Indochina
+				has_global_flag = pfp_indochina_kedah_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_kedah
+			custom_effect_tooltip = pfp_indochina_transfer_states_kedah
+			hidden_effect = {
+				#Kedah
+				914 = { add_core_of = P16 }
+				P16 = { transfer_state = 914 }
+				set_global_flag = pfp_indochina_kedah_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indochina_pahang = {
+		allowed = {
+			NOT = {
+				original_tag = P16 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_pahang
+				controls_state = 915 #Pahang
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			P16 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P16 #Indochina
+				has_global_flag = pfp_indochina_pahang_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_pahang
+			custom_effect_tooltip = pfp_indochina_transfer_states_pahang
+			hidden_effect = {
+				#Pahang
+				915 = { add_core_of = P16 }
+				P16 = { transfer_state = 915 }
+				set_global_flag = pfp_indochina_pahang_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indochina_terengganu = {
+		allowed = {
+			NOT = {
+				original_tag = P16 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_terengganu
+				controls_state = 960 #Terengganu
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			P16 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P16 #Indochina
+				has_global_flag = pfp_indochina_terengganu_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_terengganu
+			custom_effect_tooltip = pfp_indochina_transfer_states_terengganu
+			hidden_effect = {
+				#Terengganu
+				960 = { add_core_of = P16 }
+				P16 = { transfer_state = 960 }
+				set_global_flag = pfp_indochina_terengganu_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indochina_johor = {
+		allowed = {
+			NOT = {
+				original_tag = P16 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_johor
+				controls_state = 951 #Johor
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			P16 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P16 #Indochina
+				has_global_flag = pfp_indochina_johor_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_johor
+			custom_effect_tooltip = pfp_indochina_transfer_states_johor
+			hidden_effect = {
+				#Johor
+				951 = { add_core_of = P16 }
+				P16 = { transfer_state = 951 }
+				set_global_flag = pfp_indochina_johor_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indochina_riau_islands = {
+		allowed = {
+			NOT = {
+				original_tag = P16 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_riau_islands
+				controls_state = 909 #Riau Islands
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			P16 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P16 #Indochina
+				has_global_flag = pfp_indochina_riau_islands_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_riau_islands
+			custom_effect_tooltip = pfp_indochina_transfer_states_riau_islands
+			hidden_effect = {
+				#Riau Islands
+				909 = { add_core_of = P16 }
+				P16 = { transfer_state = 909 }
+				set_global_flag = pfp_indochina_riau_islands_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indochina_bago = {
+		allowed = {
+			NOT = {
+				original_tag = P16 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_bago
+				controls_state = 1020 #Bago
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			P16 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P16 #Indochina
+				has_global_flag = pfp_indochina_bago_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_bago
+			custom_effect_tooltip = pfp_indochina_transfer_states_bago
+			hidden_effect = {
+				#Bago
+				1020 = { add_core_of = P16 }
+				P16 = { transfer_state = 1020 }
+				set_global_flag = pfp_indochina_bago_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indochina_shanland = {
+		allowed = {
+			NOT = {
+				original_tag = P16 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_shanland
+				controls_state = 1018 #Shanland
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			P16 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P16 #Indochina
+				has_global_flag = pfp_indochina_shanland_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_shanland
+			custom_effect_tooltip = pfp_indochina_transfer_states_shanland
+			hidden_effect = {
+				#Shanland
+				1018 = { add_core_of = P16 }
+				P16 = { transfer_state = 1018 }
+				set_global_flag = pfp_indochina_shanland_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indochina_sagaing = {
+		allowed = {
+			NOT = {
+				original_tag = P16 #Indochina
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indochina_required_states_sagaing
+				controls_state = 1019 #Sagaing
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indochina_flag
+			P16 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P16 #Indochina
+				has_global_flag = pfp_indochina_sagaing_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indochina_coring_states_sagaing
+			custom_effect_tooltip = pfp_indochina_transfer_states_sagaing
+			hidden_effect = {
+				#Sagaing
+				1019 = { add_core_of = P16 }
+				P16 = { transfer_state = 1019 }
+				set_global_flag = pfp_indochina_sagaing_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

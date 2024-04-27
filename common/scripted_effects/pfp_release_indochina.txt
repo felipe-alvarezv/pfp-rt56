@@ -1,0 +1,32 @@
+#Scripted effect to release Indochina (P16)
+pfp_release_indochina = {
+  hidden_effect = {
+    #Add cores to Indochinese territory
+    286 = { add_core_of = P16 } #Southern Indochina
+    670 = { add_core_of = P16 } #Laos
+    671 = { add_core_of = P16 } #Tonkin
+    741 = { add_core_of = P16 } #Cambodia
+    925 = { add_core_of = P16 } #Batambang
+    927 = { add_core_of = P16 } #South Annam
+    928 = { add_core_of = P16 } #North Annam
+
+    #Set formable puppet as owner and controller of all its cored states
+    every_state = {
+      limit = { is_core_of = P16 }
+      transfer_state_to = P16
+    }
+
+    #Transfer all technology to formable puppet
+    P16 = { transfer_technology = yes }
+
+    #Set global flag to prevent future decision use
+    set_global_flag = pfp_indochina_flag
+
+    #Set the released country flag for overlord
+    ROOT = { set_country_flag = pfp_indochina_country_flag }
+
+    #Send event to all nations about the formable puppet
+    set_temp_variable = { temp_country_tag = P16 }
+    news_event = { id = pfp_news.01 }
+  }
+}

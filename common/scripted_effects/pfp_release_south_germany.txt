@@ -1,0 +1,29 @@
+#Scripted effect to release South Germany (P25)
+pfp_release_south_germany = {
+	hidden_effect = {
+		#Add cores to South German territory
+    50 = { add_core_of = P25 } #Wurttemberg
+    52 = { add_core_of = P25 } #Oberbayern
+    53 = { add_core_of = P25 } #Niederbayern
+    54 = { add_core_of = P25 } #Franken
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P25 }
+			transfer_state_to = P25
+		}
+
+		#Transfer all technology to formable puppet
+		P25 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_south_germany_flag
+
+		#Set the released country flag for overlord
+		ROOT = { set_country_flag = pfp_south_germany_country_flag }
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P25 }
+    news_event = { id = pfp_news.01 }
+	}
+}

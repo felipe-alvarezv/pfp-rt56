@@ -1,0 +1,7 @@
+﻿#West Germany - P31 - Localisation
+l_english:
+ #Decisions Information
+ pfp_west_germany_required_states_baden:0 "Controls §YBaden§!."
+ pfp_west_germany_required_states_frankfurt:0 "Controls §YFrankfurt§!."
+ pfp_west_germany_required_states_ostrhineland:0 "Controls §YOstrhineland§!."
+ pfp_west_germany_required_states_saarland:0 "Controls §YSaarland§!."

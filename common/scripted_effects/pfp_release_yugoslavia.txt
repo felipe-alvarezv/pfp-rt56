@@ -1,0 +1,46 @@
+#Scripted effect to release Yugoslavia (P50)
+pfp_release_yugoslavia = {
+	hidden_effect = {
+		#Add cores to Yugoslavian territory
+    45 = { add_core_of = P50 } #Vojvodina
+    102 = { add_core_of = P50 } #North Slovenia
+    103 = { add_core_of = P50 } #Dalmatia
+    104 = { add_core_of = P50 } #Bosnia
+    105 = { add_core_of = P50 } #Montenegro
+    106 = { add_core_of = P50 } #Macedonia
+    107 = { add_core_of = P50 } #Serbia
+    108 = { add_core_of = P50 } #Morava
+    109 = { add_core_of = P50 } #Croatia
+    764 = { add_core_of = P50 } #West Banat
+    802 = { add_core_of = P50 } #Kosovo
+    803 = { add_core_of = P50 } #Southern Serbia
+    804 = { add_core_of = P50 } #Herzegovina
+    853 = { add_core_of = P50 } #Ljubljana
+	959 = { add_core_of = P50 } #Slavonia
+	952 = { add_core_of = P50 } #Syrmia
+	962 = { add_core_of = P50 } #Posavina
+	961 = { add_core_of = P50 } #Banja Luka
+	958 = { add_core_of = P50 } #Kvarner
+	953 = { add_core_of = P50 } #Mitrovica
+	963 = { add_core_of = P50 } #West Sandzak
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P50 }
+			transfer_state_to = P50
+		}
+
+		#Transfer all technology to formable puppet
+		P50 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_yugoslavia_flag
+
+		#Set the released country flag for overlord
+		ROOT = { set_country_flag = pfp_yugoslavia_country_flag }
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P50 }
+    news_event = { id = pfp_news.01 }
+	}
+}

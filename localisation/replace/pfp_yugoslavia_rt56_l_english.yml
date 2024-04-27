@@ -1,0 +1,14 @@
+﻿#Yugoslavia - P50 - Localisation
+l_english:
+ #Decisions Information
+ pfp_yugoslavia_required_states_slavonia:0 "Controls §YSlavonia§!."
+ pfp_yugoslavia_required_states_syrmia:0 "Controls §YSyrmia§!."
+ pfp_yugoslavia_required_states_posavina:0 "Controls §YPosavina§!."
+ pfp_yugoslavia_required_states_banja_luka:0 "Controls §YBanja Luka§!."
+ pfp_yugoslavia_required_states_kvarner:0 "Controls §YKvarner§!."
+ pfp_yugoslavia_required_states_mitrovica:0 "Controls §YMitrovica§!."
+ pfp_yugoslavia_required_states_west_sandzak:0 "Controls §YWest Sandzak§!."
+ pfp_yugoslavia_debar:0 "Transfer Debar"
+ pfp_yugoslavia_required_states_debar:0 "Controls §YDebar§!."
+ pfp_yugoslavia_coring_states_debar:0 "§YSouth Asia§! gains core on §YDebar§!.\n"
+ pfp_yugoslavia_transfer_states_debar:0 "§YSouth Asia§! becomes owner and controller of §YDebar§!.\n"

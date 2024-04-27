@@ -80,6 +80,11 @@ pfp_category = {
 				tooltip = pfp_west_germany_required_states_ostrhineland
 				controls_state = 989 #Ostrhineland
 			}
+			#Southern Schleswig
+			custom_trigger_tooltip = {
+				tooltip = pfp_west_germany_required_states_souther_schleswig
+				controls_state = 998 #Southern Schleswig
+			}
 			#Saarland
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_saarland

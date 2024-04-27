@@ -14,7 +14,6 @@ pfp_release_scandinavia = {
 		143 = { add_core_of = P24 } #Trondelag
 		144 = { add_core_of = P24 } #Nordland
 		666 = { add_core_of = P24 } #Norrbotten
-		911 = { add_core_of = P24 } #Fyn
 		1025 = { add_core_of = P24 } #Fyn
 		1026 = { add_core_of = P24 } #Ostergotland
 		969 = { add_core_of = P24 } #Bohuslan

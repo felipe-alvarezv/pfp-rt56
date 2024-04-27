@@ -1,0 +1,80 @@
+pfp_category = {
+	pfp_caribbean = {
+		allowed = {
+			NOT = {
+				original_tag = CUB #Cuba
+				original_tag = DOM #Dominican Republic
+				original_tag = HAI #Haiti
+				original_tag = JAM #Jamaica
+				original_tag = P06 #Caribbean
+			}
+		}
+		available = {
+			is_subject = no
+			#Cuba
+			custom_trigger_tooltip = {
+				tooltip = pfp_caribbean_required_states_cuba
+				controls_state = 315 #Cuba
+			}
+			#Haiti
+			custom_trigger_tooltip = {
+				tooltip = pfp_caribbean_required_states_haiti
+				controls_state = 318 #Haiti
+			}
+			#Dominican Republic
+			custom_trigger_tooltip = {
+				tooltip = pfp_caribbean_required_states_dominican_republic
+				controls_state = 319 #Dominican Republic
+			}
+			#Jamaica
+			custom_trigger_tooltip = {
+				tooltip = pfp_caribbean_required_states_jamaica
+				controls_state = 689 #Jamaica
+			}
+			#La Habana
+			custom_trigger_tooltip = {
+				tooltip = pfp_caribbean_required_states_la_habana
+				controls_state = 994 #La Habana
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 315 #Cuba
+				controls_state = 318 #Haiti
+				controls_state = 319 #Dominican Republic
+				controls_state = 689 #Jamaica
+			}
+			NOT = {
+				original_tag = CUB #Cuba
+				original_tag = DOM #Dominican Republic
+				original_tag = HAI #Haiti
+				original_tag = JAM #Jamaica
+				original_tag = P06 #Caribbean
+				has_global_flag = pfp_caribbean_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_caribbean_coring_states
+			custom_effect_tooltip = pfp_caribbean_transfer_states
+			custom_effect_tooltip = pfp_caribbean_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				set_variable = { is_creating_formable_puppet = yes }
+				pfp_release_caribbean = yes
+
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+					set_autonomy = { target = P06 autonomy_state = autonomy_military_administration }
+				}
+				else = {
+					puppet = P06
+				}
+				clear_variable = is_creating_formable_puppet
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

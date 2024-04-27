@@ -1,0 +1,84 @@
+pfp_category_territories_caribbean = {
+	pfp_caribbean_virgin_islands = {
+		allowed = {
+			NOT = {
+				original_tag = P06 #Caribbean
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_caribbean_required_states_virgin_islands
+				controls_state = 972 #Virgin Islands
+			}
+		}
+		visible = {
+			has_global_flag = pfp_caribbean_flag
+			P06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P06 #Caribbean
+				has_global_flag = pfp_caribbean_virgin_islands_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_caribbean_coring_states_virgin_islands
+			custom_effect_tooltip = pfp_caribbean_transfer_states_virgin_islands
+			hidden_effect = {
+				#Virgin Islands
+				972 = { add_core_of = P06 }
+				P06 = { transfer_state = 972 }
+				set_global_flag = pfp_caribbean_virgin_islands_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_caribbean_guantanamo_bay = {
+		allowed = {
+			NOT = {
+				original_tag = CUB #Cuba
+				original_tag = P06 #Caribbean
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_caribbean_required_states_guantanamo_bay
+				controls_state = 1050 #Guantanamo Bay
+			}
+		}
+		visible = {
+			has_global_flag = pfp_caribbean_flag
+			P06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = CUB #Cuba
+				original_tag = P06 #Caribbean
+				has_global_flag = pfp_caribbean_guantanamo_bay_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_caribbean_coring_states_guantanamo_bay
+			custom_effect_tooltip = pfp_caribbean_transfer_states_guantanamo_bay
+			hidden_effect = {
+				#Guantanamo Bay
+				1050 = { add_core_of = P06 }
+				P06 = { transfer_state = 1050 }
+				set_global_flag = pfp_caribbean_guantanamo_bay_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

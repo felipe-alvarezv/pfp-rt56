@@ -1,0 +1,87 @@
+pfp_category_territories_colombia = {
+	pfp_colombia_northern_panama = {
+		allowed = {
+			NOT = {
+				original_tag = PAN #Panama
+				original_tag = P01 #Colombia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_colombia_required_states_northern_panama
+				controls_state = 937 #Northern Panama
+			}
+		}
+		visible = {
+			has_global_flag = pfp_colombia_flag
+			P01 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = PAN #Panama
+				original_tag = P01 #Colombia
+				has_global_flag = pfp_colombia_northern_panama_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_colombia_coring_states_northern_panama
+			custom_effect_tooltip = pfp_colombia_transfer_states_northern_panama
+			hidden_effect = {
+				#Northern Panama
+				937 = { add_core_of = P01 }
+				P01 = { transfer_state = 937 }
+				set_global_flag = pfp_colombia_northern_panama_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_colombia_apure = {
+		allowed = {
+			NOT = {
+				original_tag = COL #Colombia
+				original_tag = P01 #Colombia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_colombia_required_states_apure
+				controls_state = 948 #Apure
+			}
+		}
+		visible = {
+			has_global_flag = pfp_colombia_flag
+			P01 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = COL #Colombia
+				original_tag = P01 #Colombia
+				has_global_flag = pfp_colombia_apure_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_colombia_coring_states_apure
+			custom_effect_tooltip = pfp_colombia_transfer_states_apure
+			hidden_effect = {
+				#Apure
+				948 = { add_core_of = P01 }
+				P01 = { transfer_state = 948 }
+				set_global_flag = pfp_colombia_apure_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}

@@ -1,0 +1,47 @@
+#Scripted effect to release Central Asia (P51)
+pfp_release_central_asia = {
+	hidden_effect = {
+		#Add cores to Central Asian territory
+    402 = { add_core_of = P51 } #Akhtubinsk
+    404 = { add_core_of = P51 } #Kyzyl Orda
+    405 = { add_core_of = P51 } #Tashkent
+    406 = { add_core_of = P51 } #Guryev
+    407 = { add_core_of = P51 } #Ural'sk
+    583 = { add_core_of = P51 } #Kostanay
+    584 = { add_core_of = P51 } #Ashkhabad
+    585 = { add_core_of = P51 } #Navoi
+    586 = { add_core_of = P51 } #Alma-Ata
+    587 = { add_core_of = P51 } #Ust Urt
+    588 = { add_core_of = P51 } #Semipalatinsk
+    589 = { add_core_of = P51 } #Ayaguz
+    590 = { add_core_of = P51 } #Akmolinsk
+    732 = { add_core_of = P51 } #Pamir
+    742 = { add_core_of = P51 } #Stalinbad
+    823 = { add_core_of = P51 } #Karakalpakstan
+    830 = { add_core_of = P51 } #Bukhara
+    831 = { add_core_of = P51 } #Khiva
+    832 = { add_core_of = P51 } #Tashauz
+    881 = { add_core_of = P51 } #Karagandy
+		882 = { add_core_of = P51 } #Pavlodar
+    985 = { add_core_of = P51 } #Asgabat
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P51 }
+			transfer_state_to = P51
+		}
+
+		#Transfer all technology to formable puppet
+		P51 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_central_asia_flag
+
+		#Set the released country flag for overlord
+		ROOT = { set_country_flag = pfp_central_asia_country_flag }
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P51 }
+    news_event = { id = pfp_news.01 }
+	}
+}

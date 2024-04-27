@@ -1,0 +1,29 @@
+#Scripted effect to release Colombia (P01)
+pfp_release_colombia = {
+  hidden_effect = {
+    # Add cores to Colombia territory
+    306 = { add_core_of = P01 } #Cundinamarca
+    486 = { add_core_of = P01 } #Meta
+    493 = { add_core_of = P01 } #La Libertad
+    1051 = { add_core_of = P01 } #Choco
+
+    #Set formable puppet as owner and controller of all its cored states
+    every_state = {
+      limit = { is_core_of = P01 }
+      transfer_state_to = P01
+    }
+
+    #Transfer all technology to formable puppet
+    P01 = { transfer_technology = yes }
+
+    #Set global flag to prevent future decision use
+    set_global_flag = pfp_colombia_flag
+
+    #Set the released country flag for overlord
+    ROOT = { set_country_flag = pfp_colombia_country_flag }
+
+    #Send event to all nations about the formable puppet
+    set_temp_variable = { temp_country_tag = P01 }
+    news_event = { id = pfp_news.01 }
+  }
+}

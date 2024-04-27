@@ -1,0 +1,33 @@
+#Scripted effect to release Danube (P09)
+pfp_release_danube = {
+	hidden_effect = {
+	#Add cores to Danubian territory
+    43 = { add_core_of = P09 } #Northern Hungary
+    76 = { add_core_of = P09 } #North Transylvania
+    82 = { add_core_of = P09 } #Banat
+    83 = { add_core_of = P09 } #Crisana
+    84 = { add_core_of = P09 } #Transylvania
+    154 = { add_core_of = P09 } #Alföld
+    155 = { add_core_of = P09 } #Transdanubia
+	913 = { add_core_of = P09 } #Solt-Kiskun
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P09 }
+			transfer_state_to = P09
+		}
+
+		#Transfer all technology to formable puppet
+		P09 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_danube_flag
+
+		#Set the released country flag for overlord
+		ROOT = { set_country_flag = pfp_danube_country_flag }
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P09 }
+    news_event = { id = pfp_news.01 }
+	}
+}

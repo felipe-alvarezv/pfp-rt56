@@ -1,0 +1,92 @@
+pfp_category = {
+	pfp_finland = {
+		allowed = {
+			NOT = {
+				original_tag = FIN #Finland
+				original_tag = P12 #Greater Finland
+			}
+		}
+		available = {
+			is_subject = no
+			#Uusimaa
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_uusimaa
+				controls_state = 111 #Uusimaa
+			}
+			#Lappi
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_lappi
+				controls_state = 148 #Lappi
+			}
+			#Vaasa
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_vaasa
+				controls_state = 149 #Vaasa
+			}
+			#Kuopio
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_kuopio
+				controls_state = 150 #Kuopio
+			}
+			#Turku
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_turku
+				controls_state = 1036 #Turku
+			}
+			#Hame
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_hame
+				controls_state = 1037 #Hame
+			}
+			#Kymi
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_kymi
+				controls_state = 1038 #Kymi
+			}
+			#Oulu
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_oulu
+				controls_state = 1039 #Oulu
+			}
+			#Mikkeli
+			custom_trigger_tooltip = {
+				tooltip = pfp_finland_required_states_mikkeli
+				controls_state = 1040 #Mikkeli
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 111 #Uusimaa
+				controls_state = 150 #Kuopio
+			}
+			NOT = {
+				original_tag = FIN #Finland
+				original_tag = P12 #Greater Finland
+				has_global_flag = pfp_finland_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_finland_coring_states
+			custom_effect_tooltip = pfp_finland_transfer_states
+			custom_effect_tooltip = pfp_finland_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				set_variable = { is_creating_formable_puppet = yes }
+				pfp_release_finland = yes
+
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+					set_autonomy = { target = P12 autonomy_state = autonomy_military_administration }
+				}
+				else = {
+					puppet = P12
+				}
+				clear_variable = is_creating_formable_puppet
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -1,0 +1,48 @@
+#Scripted effect to release Anglo-Celtic Isles (P02)
+pfp_release_anglo_celtic_isles = {
+  hidden_effect = {
+    #Add cores to Anglo-Celtic Isles territory
+    113 = { add_core_of = P02 } #Leinster
+    119 = { add_core_of = P02 } #Northern Ireland
+    120 = { add_core_of = P02 } #Scottish Highlands
+    121 = { add_core_of = P02 } #Lothian
+    122 = { add_core_of = P02 } #Wales
+    123 = { add_core_of = P02 } #South-West England
+    125 = { add_core_of = P02 } #East Anglia
+    126 = { add_core_of = P02 } #Greater London Area
+    127 = { add_core_of = P02 } #Sussex
+    128 = { add_core_of = P02 } #West Midlands
+    129 = { add_core_of = P02 } #East Midlands
+    130 = { add_core_of = P02 } #Yorkshire
+    131 = { add_core_of = P02 } #Northumberland
+    132 = { add_core_of = P02 } #Lancashire
+    133 = { add_core_of = P02 } #Lanark
+    134 = { add_core_of = P02 } #Connaught
+    135 = { add_core_of = P02 } #Munster
+    136 = { add_core_of = P02 } #Aberdeenshire
+    338 = { add_core_of = P02 } #Gloucestershire
+    1041 = { add_core_of = P02 } #Cumbria
+    1042 = { add_core_of = P02 } #Isle of Man
+    970 = { add_core_of = P02 } #Shetland Islands
+    971 = { add_core_of = P02 } #Orkney
+
+    #Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P02 }
+			transfer_state_to = P02
+		}
+
+		#Transfer all technology to formable puppet
+		P02 = { transfer_technology = yes }
+
+    #Set global flag to prevent future decision use
+    set_global_flag = pfp_anglo_celtic_isles_flag
+
+    #Set the released country flag for overlord
+    ROOT = { set_country_flag = pfp_anglo_celtic_isles_country_flag }
+
+    #Send event to all nations about the formable puppet
+    set_temp_variable = { temp_country_tag = P02 }
+    news_event = { id = pfp_news.01 }
+  }
+}

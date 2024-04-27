@@ -1,0 +1,472 @@
+pfp_category_territories_arabia = {
+	pfp_arabia_basrah = {
+		allowed = {
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = P03 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_basrah
+				controls_state = 1045 #Basrah
+			}
+		}
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			P03 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = P03 #Arabia
+				has_global_flag = pfp_arabia_basrah_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_basrah
+			custom_effect_tooltip = pfp_arabia_transfer_states_basrah
+			hidden_effect = {
+				#Basrah
+				1045 = { add_core_of = P03 }
+				P03 = { transfer_state = 1045 }
+				set_global_flag = pfp_arabia_basrah_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_arabia_karbala_najaf = {
+		allowed = {
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = P03 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_karbala_najaf
+				controls_state = 1046 #Karbala-Najaf
+			}
+		}
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			P03 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = P03 #Arabia
+				has_global_flag = pfp_arabia_karbala_najaf_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_karbala_najaf
+			custom_effect_tooltip = pfp_arabia_transfer_states_karbala_najaf
+			hidden_effect = {
+				#Karbala-Najaf
+				1046 = { add_core_of = P03 }
+				P03 = { transfer_state = 1046 }
+				set_global_flag = pfp_arabia_karbala_najaf_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_arabia_sulymaniyah = {
+		allowed = {
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = P03 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_sulymaniyah
+				controls_state = 1048 #Sulymaniyah
+			}
+		}
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			P03 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = P03 #Arabia
+				has_global_flag = pfp_arabia_sulymaniyah_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_sulymaniyah
+			custom_effect_tooltip = pfp_arabia_transfer_states_sulymaniyah
+			hidden_effect = {
+				#Sulymaniyah
+				1048 = { add_core_of = P03 }
+				P03 = { transfer_state = 1048 }
+				set_global_flag = pfp_arabia_sulymaniyah_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_arabia_erbil = {
+		allowed = {
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = P03 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_erbil
+				controls_state = 1049 #Erbil
+			}
+		}
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			P03 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = P03 #Arabia
+				has_global_flag = pfp_arabia_erbil_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_erbil
+			custom_effect_tooltip = pfp_arabia_transfer_states_erbil
+			hidden_effect = {
+				#Erbil
+				1049 = { add_core_of = P03 }
+				P03 = { transfer_state = 1049 }
+				set_global_flag = pfp_arabia_erbil_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_arabia_dulaim = {
+		allowed = {
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = P03 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_dulaim
+				controls_state = 1047 #Dulaim
+			}
+		}
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			P03 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = P03 #Arabia
+				has_global_flag = pfp_arabia_dulaim_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_dulaim
+			custom_effect_tooltip = pfp_arabia_transfer_states_dulaim
+			hidden_effect = {
+				#Dulaim
+				1047 = { add_core_of = P03 }
+				P03 = { transfer_state = 1047 }
+				set_global_flag = pfp_arabia_dulaim_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_arabia_mafraq = {
+		allowed = {
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = P03 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_mafraq
+				controls_state = 1021 #Mafraq
+			}
+		}
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			P03 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = P03 #Arabia
+				has_global_flag = pfp_arabia_mafraq_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_mafraq
+			custom_effect_tooltip = pfp_arabia_transfer_states_mafraq
+			hidden_effect = {
+				#Mafraq
+				1021 = { add_core_of = P03 }
+				P03 = { transfer_state = 1021 }
+				set_global_flag = pfp_arabia_mafraq_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_arabia_maan = {
+		allowed = {
+			NOT = {
+				original_tag = JOR #Jordan
+				original_tag = P03 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_maan
+				controls_state = 1022 #Ma'an
+			}
+		}
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			P03 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = JOR #Jordan
+				original_tag = P03 #Arabia
+				has_global_flag = pfp_arabia_maan_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_maan
+			custom_effect_tooltip = pfp_arabia_transfer_states_maan
+			hidden_effect = {
+				#Ma'an
+				1022 = { add_core_of = P03 }
+				P03 = { transfer_state = 1022 }
+				set_global_flag = pfp_arabia_maan_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_arabia_beersheba = {
+		allowed = {
+			NOT = {
+				original_tag = ISR #Israel
+				original_tag = PAL #Palestine
+				original_tag = P03 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_beersheba
+				controls_state = 1017 #Beersheba
+			}
+		}
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			P03 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = ISR #Israel
+				original_tag = PAL #Palestine
+				original_tag = P03 #Arabia
+				has_global_flag = pfp_arabia_beersheba_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_beersheba
+			custom_effect_tooltip = pfp_arabia_transfer_states_beersheba
+			hidden_effect = {
+				#Beersheba
+				1017 = { add_core_of = P03 }
+				P03 = { transfer_state = 1017 }
+				set_global_flag = pfp_arabia_beersheba_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_arabia_jerusalem = {
+		allowed = {
+			NOT = {
+				original_tag = ISR #Israel
+				original_tag = PAL #Palestine
+				original_tag = P03 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_jerusalem
+				controls_state = 1016 #Jerusalem
+			}
+		}
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			P03 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = ISR #Israel
+				original_tag = PAL #Palestine
+				original_tag = P03 #Arabia
+				has_global_flag = pfp_arabia_jerusalem_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_jerusalem
+			custom_effect_tooltip = pfp_arabia_transfer_states_jerusalem
+			hidden_effect = {
+				#Jerusalem
+				1016 = { add_core_of = P03 }
+				P03 = { transfer_state = 1016 }
+				set_global_flag = pfp_arabia_jerusalem_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_arabia_west_bank = {
+		allowed = {
+			NOT = {
+				original_tag = ISR #Israel
+				original_tag = PAL #Palestine
+				original_tag = P03 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_west_bank
+				controls_state = 966 #West Bank
+			}
+		}
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			P03 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = ISR #Israel
+				original_tag = PAL #Palestine
+				original_tag = P03 #Arabia
+				has_global_flag = pfp_arabia_west_bank_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_west_bank
+			custom_effect_tooltip = pfp_arabia_transfer_states_west_bank
+			hidden_effect = {
+				#West Bank
+				966 = { add_core_of = P03 }
+				P03 = { transfer_state = 966 }
+				set_global_flag = pfp_arabia_west_bank_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_arabia_gaza = {
+		allowed = {
+			NOT = {
+				original_tag = ISR #Israel
+				original_tag = PAL #Palestine
+				original_tag = P03 #Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_gaza
+				controls_state = 949 #Gaza
+			}
+		}
+		visible = {
+			has_global_flag = pfp_arabia_flag
+			P03 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = ISR #Israel
+				original_tag = PAL #Palestine
+				original_tag = P03 #Arabia
+				has_global_flag = pfp_arabia_gaza_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_gaza
+			custom_effect_tooltip = pfp_arabia_transfer_states_gaza
+			hidden_effect = {
+				#Gaza
+				949 = { add_core_of = P03 }
+				P03 = { transfer_state = 949 }
+				set_global_flag = pfp_arabia_gaza_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

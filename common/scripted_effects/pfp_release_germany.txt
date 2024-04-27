@@ -1,0 +1,45 @@
+#Scripted effect to release Germany (P13)
+pfp_release_germany = {
+	hidden_effect = {
+		#Add cores to German territory
+		42 = { add_core_of = P13 } #Moselland
+		51 = { add_core_of = P13 } #Rhineland
+		55 = { add_core_of = P13 } #Hessen
+		56 = { add_core_of = P13 } #Weser-Ems
+		57 = { add_core_of = P13 } #Westfalen
+		58 = { add_core_of = P13 } #Schleswig-Holstein
+		59 = { add_core_of = P13 } #Hannover
+		60 = { add_core_of = P13 } #Thuringen
+		61 = { add_core_of = P13 } #Mecklenburg
+		62 = { add_core_of = P13 } #Vorpommern
+		64 = { add_core_of = P13 } #Brandenburg
+		65 = { add_core_of = P13 } #Sachsen
+		50 = { add_core_of = P13 } #Wurttemberg
+		52 = { add_core_of = P13 } #Oberbayern
+		53 = { add_core_of = P13 } #Niederbayern
+		54 = { add_core_of = P13 } #Franken
+		923 = { add_core_of = P13 } # Baden
+		922 = { add_core_of = P13 } #Frankfurt
+		1053 = { add_core_of = P13 } #Saarland
+		989 = { add_core_of = P13 } #Ostrhineland
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P13 }
+			transfer_state_to = P13
+		}
+
+		#Transfer all technology to formable puppet
+		P13 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_germany_flag
+
+		#Set the released country flag for overlord
+		ROOT = { set_country_flag = pfp_germany_country_flag }
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P13 }
+    news_event = { id = pfp_news.01 }
+	}
+}

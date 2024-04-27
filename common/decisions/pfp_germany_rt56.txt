@@ -1,0 +1,86 @@
+pfp_category_territories_germany = {
+	pfp_germany_styria = {
+		allowed = {
+			NOT = {
+				original_tag = P13 #Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_germany_required_states_styria
+				controls_state = 1054 #Styria
+			}
+		}
+		visible = {
+			has_global_flag = pfp_germany_flag
+			P13 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P13 #Germany
+				has_global_flag = pfp_germany_styria_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_germany_coring_states_styria
+			custom_effect_tooltip = pfp_germany_transfer_states_styria
+			hidden_effect = {
+				#Styria
+				1054 = { add_core_of = P13 }
+				P13 = { transfer_state = 1054 }
+				set_global_flag = pfp_germany_styria_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_germany_litorale = {
+		allowed = {
+			NOT = {
+				original_tag = ITA #Italy
+				original_tag = YUG #Yugoslavia
+				original_tag = P13 #Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_germany_required_states_litorale
+				controls_state = 736 #Litorale
+			}
+		}
+		visible = {
+			has_global_flag = pfp_germany_flag
+			P13 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = ITA #Italy
+				original_tag = YUG #Yugoslavia
+				original_tag = P13 #Germany
+				has_global_flag = pfp_germany_litorale_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_germany_coring_states_litorale
+			custom_effect_tooltip = pfp_germany_transfer_states_litorale
+			hidden_effect = {
+				#Litorale
+				736 = { add_core_of = P13 }
+				P13 = { transfer_state = 736 }
+				set_global_flag = pfp_germany_litorale_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

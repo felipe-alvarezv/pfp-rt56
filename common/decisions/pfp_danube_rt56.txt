@@ -1,0 +1,436 @@
+pfp_category_territories_danube = {
+	pfp_danube_lower_styria = {
+		allowed = {
+			NOT = {
+				original_tag = SLV #Slovenia
+				original_tag = YUG #Yugoslavia
+				original_tag = P09 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_danube_required_states_lower_styria
+				controls_state = 102 #Lower Styria
+			}
+		}
+		visible = {
+			has_global_flag = pfp_danube_flag
+			P09 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = YUG #Yugoslavia
+				original_tag = SLV #Slovenia
+				original_tag = P09 #Danube
+				has_global_flag = pfp_danube_lower_styria_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_danube_coring_states_lower_styria
+			custom_effect_tooltip = pfp_danube_transfer_states_lower_styria
+			hidden_effect = {
+				#Lower Styria
+				102 = { add_core_of = P09 }
+				P09 = { transfer_state = 102 }
+				set_global_flag = pfp_danube_lower_styria_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_danube_styria = {
+		allowed = {
+			NOT = {
+				original_tag = SLV #Slovenia
+				original_tag = YUG #Yugoslavia
+				original_tag = P09 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_danube_required_states_styria
+				controls_state = 1054 #Styria
+			}
+		}
+		visible = {
+			has_global_flag = pfp_danube_flag
+			P09 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = YUG #Yugoslavia
+				original_tag = SLV #Slovenia
+				original_tag = P09 #Danube
+				has_global_flag = pfp_danube_styria_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_danube_coring_states_styria
+			custom_effect_tooltip = pfp_danube_transfer_states_styria
+			hidden_effect = {
+				#Styria
+				1054 = { add_core_of = P09 }
+				P09 = { transfer_state = 1054 }
+				set_global_flag = pfp_danube_styria_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_danube_prekmurje = {
+		allowed = {
+			NOT = {
+				original_tag = SLV #Slovenia
+				original_tag = YUG #Yugoslavia
+				original_tag = P09 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_danube_required_states_prekmurje
+				controls_state = 956 #Prekmurje
+			}
+		}
+		visible = {
+			has_global_flag = pfp_danube_flag
+			P09 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = YUG #Yugoslavia
+				original_tag = SLV #Slovenia
+				original_tag = P09 #Danube
+				has_global_flag = pfp_danube_prekmurje_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_danube_coring_states_prekmurje
+			custom_effect_tooltip = pfp_danube_transfer_states_prekmurje
+			hidden_effect = {
+				#Prekmurje
+				956 = { add_core_of = P09 }
+				P09 = { transfer_state = 956 }
+				set_global_flag = pfp_danube_prekmurje_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_danube_uzhorod = {
+		allowed = {
+			NOT = {
+				original_tag = CZE #Czechoslovakia
+				original_tag = HUN #Hungary
+				original_tag = P09 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_danube_required_states_uzhorod
+				controls_state = 996 #Uzhorod
+			}
+		}
+		visible = {
+			has_global_flag = pfp_danube_flag
+			P09 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = HUN #Hungary
+				original_tag = CZE #Czechoslovakia
+				original_tag = P09 #Danube
+				has_global_flag = pfp_danube_uzhorod_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_danube_coring_states_uzhorod
+			custom_effect_tooltip = pfp_danube_transfer_states_uzhorod
+			hidden_effect = {
+				#Uzhorod
+				996 = { add_core_of = P09 }
+				P09 = { transfer_state = 996 }
+				set_global_flag = pfp_danube_uzhorod_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_danube_friuli = {
+		allowed = {
+			NOT = {
+				original_tag = ITA #Italy
+				original_tag = P09 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_danube_required_states_friuli
+				controls_state = 912 #Friuli
+			}
+		}
+		visible = {
+			has_global_flag = pfp_danube_flag
+			P09 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = ITA #Italy
+				original_tag = P09 #Danube
+				has_global_flag = pfp_danube_friuli_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_danube_coring_states_friuli
+			custom_effect_tooltip = pfp_danube_transfer_states_friuli
+			hidden_effect = {
+				#Friuli
+				912 = { add_core_of = P09 }
+				P09 = { transfer_state = 912 }
+				set_global_flag = pfp_danube_friuli_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_danube_kvarner = {
+		allowed = {
+			NOT = {
+				original_tag = CRO #Croatia
+				original_tag = YUG #Yugoslavia
+				original_tag = P09 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_danube_required_states_kvarner
+				controls_state = 958 #Kvarner
+			}
+		}
+		visible = {
+			has_global_flag = pfp_danube_flag
+			P09 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = CRO #Croatia
+				original_tag = YUG #Yugoslavia
+				original_tag = P09 #Danube
+				has_global_flag = pfp_danube_kvarner_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_danube_coring_states_kvarner
+			custom_effect_tooltip = pfp_danube_transfer_states_kvarner
+			hidden_effect = {
+				#Kvarner
+				958 = { add_core_of = P09 }
+				P09 = { transfer_state = 958 }
+				set_global_flag = pfp_danube_kvarner_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_danube_banja_luka = {
+		allowed = {
+			NOT = {
+				original_tag = YUG #Yugoslavia
+				original_tag = P09 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_danube_required_states_banja_luka
+				controls_state = 961 #Banja Luka
+			}
+		}
+		visible = {
+			has_global_flag = pfp_danube_flag
+			P09 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = YUG #Yugoslavia
+				original_tag = P09 #Danube
+				has_global_flag = pfp_danube_banja_luka_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_danube_coring_states_banja_luka
+			custom_effect_tooltip = pfp_danube_transfer_states_banja_luka
+			hidden_effect = {
+				#Banja Luka
+				961 = { add_core_of = P09 }
+				P09 = { transfer_state = 961 }
+				set_global_flag = pfp_danube_banja_luka_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_danube_posavina = {
+		allowed = {
+			NOT = {
+				original_tag = YUG #Yugoslavia
+				original_tag = P09 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_danube_required_states_posavina
+				controls_state = 962 #Posavina
+			}
+		}
+		visible = {
+			has_global_flag = pfp_danube_flag
+			P09 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = YUG #Yugoslavia
+				original_tag = P09 #Danube
+				has_global_flag = pfp_danube_posavina_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_danube_coring_states_posavina
+			custom_effect_tooltip = pfp_danube_transfer_states_posavina
+			hidden_effect = {
+				#Posavina
+				962 = { add_core_of = P09 }
+				P09 = { transfer_state = 962 }
+				set_global_flag = pfp_danube_posavina_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_danube_slavonia = {
+		allowed = {
+			NOT = {
+				original_tag = CRO #Croatia
+				original_tag = YUG #Yugoslavia
+				original_tag = P09 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_danube_required_states_slavonia
+				controls_state = 959 #Slavonia
+			}
+		}
+		visible = {
+			has_global_flag = pfp_danube_flag
+			P09 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = CRO #Croatia
+				original_tag = YUG #Yugoslavia
+				original_tag = P09 #Danube
+				has_global_flag = pfp_danube_slavonia_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_danube_coring_states_slavonia
+			custom_effect_tooltip = pfp_danube_transfer_states_slavonia
+			hidden_effect = {
+				#Slavonia
+				959 = { add_core_of = P09 }
+				P09 = { transfer_state = 959 }
+				set_global_flag = pfp_danube_slavonia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_danube_syrmia = {
+		allowed = {
+			NOT = {
+				original_tag = CRO #Croatia
+				original_tag = YUG #Yugoslavia
+				original_tag = P09 #Danube
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_danube_required_states_syrmia
+				controls_state = 952 #Syrmia
+			}
+		}
+		visible = {
+			has_global_flag = pfp_danube_flag
+			P09 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = CRO #Croatia
+				original_tag = YUG #Yugoslavia
+				original_tag = P09 #Danube
+				has_global_flag = pfp_danube_syrmia_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_danube_coring_states_syrmia
+			custom_effect_tooltip = pfp_danube_transfer_states_syrmia
+			hidden_effect = {
+				#Syrmia
+				952 = { add_core_of = P09 }
+				P09 = { transfer_state = 952 }
+				set_global_flag = pfp_danube_syrmia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

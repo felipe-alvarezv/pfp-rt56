@@ -1,0 +1,15 @@
+﻿#Prussia - P33 - Localisation
+l_english:
+ #Decisions Information
+ pfp_prussia_ostrhineland:0 "Transfer Ostrhineland"
+ pfp_prussia_required_states_ostrhineland:0 "Controls §YOstrhineland§!."
+ pfp_prussia_coring_states_ostrhineland:0 "§YPrussia§! gains core on §YOstrhineland§!.\n"
+ pfp_prussia_transfer_states_ostrhineland:0 "§YPrussia§! becomes owner and controller of §YOstrhineland§!.\n"
+ pfp_prussia_saarland:0 "Transfer Saarland"
+ pfp_prussia_required_states_saarland:0 "Controls §YSaarland§!."
+ pfp_prussia_coring_states_saarland:0 "§YPrussia§! gains core on §YSaarland§!.\n"
+ pfp_prussia_transfer_states_saarland:0 "§YPrussia§! becomes owner and controller of §YSaarland§!.\n"
+ pfp_prussia_frankfurt:0 "Transfer Frankfurt"
+ pfp_prussia_required_states_frankfurt:0 "Controls §YFrankfurt§!."
+ pfp_prussia_coring_states_frankfurt:0 "§YPrussia§! gains core on §YFrankfurt§!.\n"
+ pfp_prussia_transfer_states_frankfurt:0 "§YPrussia§! becomes owner and controller of §YFrankfurt§!.\n"

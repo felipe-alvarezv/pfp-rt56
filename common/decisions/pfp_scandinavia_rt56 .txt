@@ -1,0 +1,162 @@
+pfp_category_territories_scandinavia = {
+	pfp_scandinavia_sudurland = {
+		allowed = {
+			NOT = {
+				original_tag = P06 #Scandinavia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_sudurland
+				controls_state = 1043 #Sudurland
+			}
+		}
+		visible = {
+			has_global_flag = pfp_scandinavia_flag
+			P06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P06 #Scandinavia
+				has_global_flag = pfp_scandinavia_sudurland_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_scandinavia_coring_states_sudurland
+			custom_effect_tooltip = pfp_scandinavia_transfer_states_sudurland
+			hidden_effect = {
+				#Sudurland
+				1043 = { add_core_of = P06 }
+				P06 = { transfer_state = 1043 }
+				set_global_flag = pfp_scandinavia_sudurland_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_scandinavia_bornholm = {
+		allowed = {
+			NOT = {
+				original_tag = P06 #Scandinavia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_bornholm
+				controls_state = 1024 #Bornholm
+			}
+		}
+		visible = {
+			has_global_flag = pfp_scandinavia_flag
+			P06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P06 #Scandinavia
+				has_global_flag = pfp_scandinavia_bornholm_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_scandinavia_coring_states_bornholm
+			custom_effect_tooltip = pfp_scandinavia_transfer_states_bornholm
+			hidden_effect = {
+				#Bornholm
+				1024 = { add_core_of = P06 }
+				P06 = { transfer_state = 1024 }
+				set_global_flag = pfp_scandinavia_bornholm_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_scandinavia_northern_schleswig = {
+		allowed = {
+			NOT = {
+				original_tag = P06 #Scandinavia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_northern_schleswig
+				controls_state = 964 #Northern Schleswig
+			}
+		}
+		visible = {
+			has_global_flag = pfp_scandinavia_flag
+			P06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P06 #Scandinavia
+				has_global_flag = pfp_scandinavia_northern_schleswig_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_scandinavia_coring_states_northern_schleswig
+			custom_effect_tooltip = pfp_scandinavia_transfer_states_northern_schleswig
+			hidden_effect = {
+				#Northern Schleswig
+				964 = { add_core_of = P06 }
+				P06 = { transfer_state = 964 }
+				set_global_flag = pfp_scandinavia_northern_schleswig_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_scandinavia_southern_schleswig = {
+		allowed = {
+			NOT = {
+				original_tag = P06 #Scandinavia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_southern_schleswig
+				controls_state = 998 #Southern Schleswig
+			}
+		}
+		visible = {
+			has_global_flag = pfp_scandinavia_flag
+			P06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P06 #Scandinavia
+				has_global_flag = pfp_scandinavia_southern_schleswig_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_scandinavia_coring_states_southern_schleswig
+			custom_effect_tooltip = pfp_scandinavia_transfer_states_southern_schleswig
+			hidden_effect = {
+				#Southern Schleswig
+				998 = { add_core_of = P06 }
+				P06 = { transfer_state = 998 }
+				set_global_flag = pfp_scandinavia_southern_schleswig_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

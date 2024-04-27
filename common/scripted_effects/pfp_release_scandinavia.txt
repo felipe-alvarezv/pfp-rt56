@@ -1,0 +1,53 @@
+#Scripted effect to release Scandinavia (P24)
+pfp_release_scandinavia = {
+	hidden_effect = {
+		#Add cores to Scandinavian territory
+		37 = { add_core_of = P24 } #Sjaelland
+		38 = { add_core_of = P24 } #Gavleborg
+		99 = { add_core_of = P24 } #Jylland
+		110 = { add_core_of = P24 } #Oslofjord
+		138 = { add_core_of = P24 } #Skane
+		139 = { add_core_of = P24 } #Smaland
+		140 = { add_core_of = P24 } #Vastergotland
+		141 = { add_core_of = P24 } #Sodermanland
+		142 = { add_core_of = P24 } #Vestlandet
+		143 = { add_core_of = P24 } #Trondelag
+		144 = { add_core_of = P24 } #Nordland
+		666 = { add_core_of = P24 } #Norrbotten
+		911 = { add_core_of = P24 } #Fyn
+		1025 = { add_core_of = P24 } #Fyn
+		1026 = { add_core_of = P24 } #Ostergotland
+		969 = { add_core_of = P24 } #Bohuslan
+		1030 = { add_core_of = P24 } #Varmland
+		1028 = { add_core_of = P24 } #Dalarna
+		1031 = { add_core_of = P24 } #Opplandene
+		1032 = { add_core_of = P24 } #Telemark
+		967 = { add_core_of = P24 } #Sorlandet
+		1025 = { add_core_of = P24 } #Fyn
+		1026 = { add_core_of = P24 } #Ostergotland
+		969 = { add_core_of = P24 } #Bohuslan
+		1029 = { add_core_of = P24 } #Vasterbotten
+		1033 = { add_core_of = P24 } #Helgeland
+		1034 = { add_core_of = P24 } #Troms
+		1035 = { add_core_of = P24 } #Finnmark
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P24 }
+			transfer_state_to = P24
+		}
+
+		#Transfer all technology to formable puppet
+		P24 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_scandinavia_flag
+
+		#Set the released country flag for overlord
+		ROOT = { set_country_flag = pfp_scandinavia_country_flag }
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P24 }
+    news_event = { id = pfp_news.01 }
+	}
+}

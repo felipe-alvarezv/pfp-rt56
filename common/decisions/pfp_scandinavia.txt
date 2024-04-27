@@ -1,0 +1,184 @@
+pfp_category = {
+	pfp_scandinavia = {
+		allowed = {
+			NOT = {
+				original_tag = DEN #Denmark
+				original_tag = ICE #Iceland
+				original_tag = NOR #Norway
+				original_tag = SWE #Sweden
+				original_tag = P24 #Scandinavia
+			}
+		}
+		available = {
+			is_subject = no
+			#Sjaelland
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_sjaelland
+				controls_state = 37 #Sjaelland
+			}
+			#Gavleborg
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_gavleborg
+				controls_state = 38 #Gavleborg
+			}
+			#Jylland
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_jylland
+				controls_state = 99 #Jylland
+			}
+			#Oslofjord
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_oslofjord
+				controls_state = 110 #Oslofjord
+			}
+			#Skane
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_skane
+				controls_state = 138 #Skane
+			}
+			#Smaland
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_smaland
+				controls_state = 139 #Smaland
+			}
+			#Vastergotland
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_vastergotland
+				controls_state = 140 #Vastergotland
+			}
+			#Sodermanland
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_sodermanland
+				controls_state = 141 #Sodermanland
+			}
+			#Vestlandet
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_vestlandet
+				controls_state = 142 #Vestlandet
+			}
+			#Trondelag
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_trondelag
+				controls_state = 143 #Trondelag
+			}
+			#Nordland
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_nordland
+				controls_state = 144 #Nordland
+			}
+			#Norrbotten
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_norrbotten
+				controls_state = 666 #Norrbotten
+			}
+			#Fyn
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_fyn
+				controls_state = 911 #Fyn
+			}
+			#Fyn
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_fyn
+				controls_state = 1025 #Fyn
+			}
+			#Ostergotland
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_ostergotland
+				controls_state = 1026 #Ostergotland
+			}
+			#Bohuslan
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_bohuslan
+				controls_state = 969 #Bohuslan
+			}
+			#Varmland
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_varmland
+				controls_state = 1030 #Varmland
+			}
+			#Dalarna
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_dalarna
+				controls_state = 1028 #Dalarna
+			}
+			#Opplandene
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_opplandene
+				controls_state = 1031 #Opplandene
+			}
+			#Telemark
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_telemark
+				controls_state = 1032 #Telemark
+			}
+			#Sorlandet
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_sorlandet
+				controls_state = 967 #Sorlandet
+			}
+			#Jamtland
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_jamtland
+				controls_state = 968 #Jamtland
+			}
+			#Vasterbotten
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_vasterbotten
+				controls_state = 1029 #Vasterbotten
+			}
+			#Helgeland
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_helgeland
+				controls_state = 1033 #Helgeland
+			}
+			#Troms
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_troms
+				controls_state = 1034 #Troms
+			}
+			#Finnmark
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_finnmark
+				controls_state = 1035 #Finnmark
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 37 #Sjaelland
+				controls_state = 110 #Oslofjord
+				controls_state = 141 #Sodermanland
+			}
+			NOT = {
+				original_tag = DEN #Denmark
+				original_tag = ICE #Iceland
+				original_tag = NOR #Norway
+				original_tag = SWE #Sweden
+				original_tag = P24 #Scandinavia
+				has_global_flag = pfp_scandinavia_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_scandinavia_coring_states
+			custom_effect_tooltip = pfp_scandinavia_transfer_states
+			custom_effect_tooltip = pfp_scandinavia_puppet
+
+			#Create formable puppet with all its states and then puppet
+      hidden_effect = {
+        set_variable = { is_creating_formable_puppet = yes }
+        pfp_release_scandinavia = yes
+
+        if = {
+          limit = { has_dlc = "Together for Victory" }
+          set_autonomy = { target = P24 autonomy_state = autonomy_military_administration }
+        }
+        else = {
+          puppet = P24
+        }
+        clear_variable = is_creating_formable_puppet
+      }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -82,7 +82,7 @@ pfp_category = {
 			}
 			#Southern Schleswig
 			custom_trigger_tooltip = {
-				tooltip = pfp_west_germany_required_states_souther_schleswig
+				tooltip = pfp_west_germany_required_states_southern_schleswig
 				controls_state = 998 #Southern Schleswig
 			}
 			#Saarland

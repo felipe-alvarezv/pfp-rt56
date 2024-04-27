@@ -1,0 +1,105 @@
+pfp_category = {
+	pfp_northeastern_us = {
+		allowed = {
+			NOT = {
+				original_tag = USA #United States
+				original_tag = P20 #Northeastern U.S.
+			}
+		}
+		available = {
+			is_subject = no
+			#New England
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_new_england
+				controls_state = 357 #New England
+			}
+			#New York
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_new_york
+				controls_state = 358 #New York
+			}
+			#New Jersey
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_new_jersey
+				controls_state = 359 #New Jersey
+			}
+			#Pennsylvania
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_pennsylvania
+				controls_state = 360 #Pennsylvania
+			}
+			#Maryland
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_maryland
+				controls_state = 361 #Maryland
+			}
+			#New Hampshire
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_new_hampshire
+				controls_state = 921 #New Hampshire
+			}
+			#Vermont
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_vermont
+				controls_state = 990 #Vermont
+			}
+			#Massachusetts
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_massachusetts
+				controls_state = 991 #Massachusetts
+			}
+			#Connecticut
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_connecticut
+				controls_state = 993 #Connecticut
+			}
+			#Rhode Island
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_rhode_island
+				controls_state = 992 #Rhode Island
+			}
+			#Delaware
+			custom_trigger_tooltip = {
+				tooltip = pfp_northeastern_us_required_states_delaware
+				controls_state = 1023 #Delaware
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 357 #New England
+				controls_state = 358 #New York
+				controls_state = 359 #New Jesey
+				controls_state = 360 #Pennsylvania
+				controls_state = 361 #Maryland
+			}
+			NOT = {
+				original_tag = USA #United States
+				original_tag = P20 #Northeastern U.S.
+				has_global_flag = pfp_northeastern_us_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_northeastern_us_coring_states
+			custom_effect_tooltip = pfp_northeastern_us_transfer_states
+			custom_effect_tooltip = pfp_northeastern_us_puppet
+
+			#Create formable puppet with all its states and then puppet
+      hidden_effect = {
+        set_variable = { is_creating_formable_puppet = yes }
+        pfp_release_northeastern_us = yes
+
+        if = {
+          limit = { has_dlc = "Together for Victory" }
+          set_autonomy = { target = P20 autonomy_state = autonomy_military_administration }
+        }
+        else = {
+          puppet = P20
+        }
+        clear_variable = is_creating_formable_puppet
+      }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

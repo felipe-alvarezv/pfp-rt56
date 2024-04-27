@@ -1,0 +1,38 @@
+#Scripted effect to release Indonesia (P17)
+pfp_release_indonesia = {
+  hidden_effect = {
+    #Add cores to Indonesian territory
+    334 = { add_core_of = P17 } #Kalimantan
+    335 = { add_core_of = P17 } #Java
+    667 = { add_core_of = P17 } #Lesser Sunda Islands
+    668 = { add_core_of = P17 } #The Moluccas
+    672 = { add_core_of = P17 } #Sumatra
+    673 = { add_core_of = P17 } #Sulawesi
+    738 = { add_core_of = P17 } #Aru Islands
+    974 = { add_core_of = P17 } #North Sumatra
+    976 = { add_core_of = P17 } #Central Java
+    446 = { add_core_of = P17 } #East Java
+    975 = { add_core_of = P17 } #North Sulawesi
+    977 = { add_core_of = P17 } #West Kalimantan
+    978 = { add_core_of = P17 } #Central Kalimantan
+
+    #Set formable puppet as owner and controller of all its cored states
+    every_state = {
+      limit = { is_core_of = P17 }
+      transfer_state_to = P17
+    }
+
+    #Transfer all technology to formable puppet
+    P17 = { transfer_technology = yes }
+
+    #Set global flag to prevent future decision use
+    set_global_flag = pfp_indonesia_flag
+
+    #Set the released country flag for overlord
+    ROOT = { set_country_flag = pfp_indonesia_country_flag }
+
+    #Send event to all nations about the formable puppet
+    set_temp_variable = { temp_country_tag = P17 }
+    news_event = { id = pfp_news.01 }
+  }
+}

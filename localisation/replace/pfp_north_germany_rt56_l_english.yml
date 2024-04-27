@@ -1,0 +1,16 @@
+﻿#North Germany - P19 - Localisation
+l_english:
+ #Decisions Information
+ pfp_north_germany_required_states_ostrhineland:0 "Controls §YOstrhineland§!."
+ pfp_north_germany_moselland:0 "Transfer Moselland"
+ pfp_north_germany_required_states_moselland:0 "Controls §YMoselland§!."
+ pfp_north_germany_coring_states_moselland:0 "§YNorth Germany§! gains core on §YMoselland§!.\n"
+ pfp_north_germany_transfer_states_moselland:0 "§YNorth Germany§! becomes owner and controller of §YMoselland§!.\n"
+ pfp_north_germany_saarland:0 "Transfer Saarland"
+ pfp_north_germany_required_states_saarland:0 "Controls §YSaarland§!."
+ pfp_north_germany_coring_states_saarland:0 "§YNorth Germany§! gains core on §YSaarland§!.\n"
+ pfp_north_germany_transfer_states_saarland:0 "§YNorth Germany§! becomes owner and controller of §YSaarland§!.\n"
+ pfp_north_germany_frankfurt:0 "Transfer Frankfurt"
+ pfp_north_germany_required_states_frankfurt:0 "Controls §YFrankfurt§!."
+ pfp_north_germany_coring_states_frankfurt:0 "§YNorth Germany§! gains core on §YFrankfurt§!.\n"
+ pfp_north_germany_transfer_states_frankfurt:0 "§YNorth Germany§! becomes owner and controller of §YFrankfurt§!.\n"

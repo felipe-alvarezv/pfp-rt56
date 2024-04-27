@@ -1,0 +1,124 @@
+pfp_category_territories_north_africa = {
+	pfp_north_africa_suez = {
+		allowed = {
+			NOT = {
+				original_tag = EGY #Egypt
+				original_tag = P30 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_suez
+				controls_state = 911 #Suez
+			}
+		}
+		visible = {
+			has_global_flag = pfp_north_africa_flag
+			P30 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = EGY #Egypt
+				original_tag = P30 #North Africa
+				has_global_flag = pfp_north_africa_suez_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_north_africa_coring_states_suez
+			custom_effect_tooltip = pfp_north_africa_transfer_states_suez
+			hidden_effect = {
+				#Suez
+				911 = { add_core_of = P30 }
+				P30 = { transfer_state = 911 }
+				set_global_flag = pfp_north_africa_suez_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_north_africa_batna = {
+		allowed = {
+			NOT = {
+				original_tag = P30 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_batna
+				controls_state = 933 #Batna
+			}
+		}
+		visible = {
+			has_global_flag = pfp_north_africa_flag
+			P30 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P30 #North Africa
+				has_global_flag = pfp_north_africa_batna_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_north_africa_coring_states_batna
+			custom_effect_tooltip = pfp_north_africa_transfer_states_batna
+			hidden_effect = {
+				#Batna
+				933 = { add_core_of = P30 }
+				P30 = { transfer_state = 933 }
+				set_global_flag = pfp_north_africa_batna_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_north_africa_east_suez = {
+		allowed = {
+			NOT = {
+				original_tag = P30 #North Africa
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_africa_required_states_east_suez
+				controls_state = 995 #East Suez
+			}
+		}
+		visible = {
+			has_global_flag = pfp_north_africa_flag
+			P30 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P30 #North Africa
+				has_global_flag = pfp_north_africa_east_suez_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_north_africa_coring_states_east_suez
+			custom_effect_tooltip = pfp_north_africa_transfer_states_east_suez
+			hidden_effect = {
+				#East Suez
+				995 = { add_core_of = P30 }
+				P30 = { transfer_state = 995 }
+				set_global_flag = pfp_north_africa_east_suez_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

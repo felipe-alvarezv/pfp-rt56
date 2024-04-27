@@ -23,6 +23,7 @@ pfp_release_scandinavia = {
 		1031 = { add_core_of = P24 } #Opplandene
 		1032 = { add_core_of = P24 } #Telemark
 		967 = { add_core_of = P24 } #Sorlandet
+		968 = { add_core_of = P24 } #Jamtland
 		1025 = { add_core_of = P24 } #Fyn
 		1026 = { add_core_of = P24 } #Ostergotland
 		969 = { add_core_of = P24 } #Bohuslan

@@ -1,0 +1,36 @@
+#Scripted effect to release South Africa (P36)
+pfp_release_south_africa = {
+	hidden_effect = {
+		#Add cores to South African territory
+    275 = { add_core_of = P36 } #Transvaal
+    541 = { add_core_of = P36 } #Khomas
+    542 = { add_core_of = P36 } #Bechuanaland
+    681 = { add_core_of = P36 } #Cape
+    719 = { add_core_of = P36 } #Natal
+    893 = { add_core_of = P36 } #Karas
+    894 = { add_core_of = P36 } #Kunene
+    895 = { add_core_of = P36 } #Otjozondjupa
+	940 = { add_core_of = P36 } #Orange Free State
+	938 = { add_core_of = P36 } #Basutoland
+	939 = { add_core_of = P36 } #Swaziland
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P36 }
+			transfer_state_to = P36
+		}
+
+		#Transfer all technology to formable puppet
+		P36 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_south_africa_flag
+
+		#Set the released country flag for overlord
+		ROOT = { set_country_flag = pfp_south_africa_country_flag }
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P36 }
+    news_event = { id = pfp_news.01 }
+	}
+}

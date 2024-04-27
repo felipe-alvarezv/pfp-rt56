@@ -1,0 +1,162 @@
+pfp_category_territories_south_asia = {
+	pfp_south_asia_kandahar = {
+		allowed = {
+			NOT = {
+				original_tag = P37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_south_asia_required_states_kandahar
+				controls_state = 1010 #Kandahar
+			}
+		}
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			P37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P37 #South Asia
+				has_global_flag = pfp_south_asia_kandahar_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_kandahar
+			custom_effect_tooltip = pfp_south_asia_transfer_states_kandahar
+			hidden_effect = {
+				#Kandahar
+				1010 = { add_core_of = P37 }
+				P37 = { transfer_state = 1010 }
+				set_global_flag = pfp_south_asia_kandahar_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_south_asia_bamian = {
+		allowed = {
+			NOT = {
+				original_tag = P37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_south_asia_required_states_bamian
+				controls_state = 1009 #Bamian
+			}
+		}
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			P37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P37 #South Asia
+				has_global_flag = pfp_south_asia_bamian_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_bamian
+			custom_effect_tooltip = pfp_south_asia_transfer_states_bamian
+			hidden_effect = {
+				#Bamian
+				1009 = { add_core_of = P37 }
+				P37 = { transfer_state = 1009 }
+				set_global_flag = pfp_south_asia_bamian_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_south_asia_faryab = {
+		allowed = {
+			NOT = {
+				original_tag = P37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_south_asia_required_states_faryab
+				controls_state = 1008 #Faryab
+			}
+		}
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			P37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P37 #South Asia
+				has_global_flag = pfp_south_asia_faryab_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_faryab
+			custom_effect_tooltip = pfp_south_asia_transfer_states_faryab
+			hidden_effect = {
+				#Faryab
+				1008 = { add_core_of = P37 }
+				P37 = { transfer_state = 1008 }
+				set_global_flag = pfp_south_asia_faryab_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_south_asia_badakhshan = {
+		allowed = {
+			NOT = {
+				original_tag = P37 #South Asia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_south_asia_required_states_badakhshan
+				controls_state = 1011 #Badakhshan
+			}
+		}
+		visible = {
+			has_global_flag = pfp_south_asia_flag
+			P37 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P37 #South Asia
+				has_global_flag = pfp_south_asia_badakhshan_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_south_asia_coring_states_badakhshan
+			custom_effect_tooltip = pfp_south_asia_transfer_states_badakhshan
+			hidden_effect = {
+				#Badakhshan
+				1011 = { add_core_of = P37 }
+				P37 = { transfer_state = 1011 }
+				set_global_flag = pfp_south_asia_badakhshan_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

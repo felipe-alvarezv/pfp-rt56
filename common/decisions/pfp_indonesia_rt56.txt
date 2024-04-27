@@ -1,0 +1,322 @@
+pfp_category_territories_indonesia = {
+	pfp_indonesia_north_borneo = {
+		allowed = {
+			NOT = {
+				original_tag = P17 #Indonesia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_north_borneo
+				controls_state = 333 #North Borneo
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indonesia_flag
+			P17 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P17 #Indonesia
+				has_global_flag = pfp_indonesia_north_borneo_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indonesia_coring_states_north_borneo
+			custom_effect_tooltip = pfp_indonesia_transfer_states_north_borneo
+			hidden_effect = {
+				#North Borneo
+				333 = { add_core_of = P17 }
+				P17 = { transfer_state = 333 }
+				set_global_flag = pfp_indonesia_north_borneo_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indonesia_sabah = {
+		allowed = {
+			NOT = {
+				original_tag = P17 #Indonesia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_sabah
+				controls_state = 916 #Sabah
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indonesia_flag
+			P17 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P17 #Indonesia
+				has_global_flag = pfp_indonesia_sabah_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indonesia_coring_states_sabah
+			custom_effect_tooltip = pfp_indonesia_transfer_states_sabah
+			hidden_effect = {
+				#Sabah
+				916 = { add_core_of = P17 }
+				P17 = { transfer_state = 916 }
+				set_global_flag = pfp_indonesia_sabah_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indonesia_brunei = {
+		allowed = {
+			NOT = {
+				original_tag = P17 #Indonesia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_brunei
+				controls_state = 1014 #Brunei
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indonesia_flag
+			P17 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P17 #Indonesia
+				has_global_flag = pfp_indonesia_brunei_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indonesia_coring_states_brunei
+			custom_effect_tooltip = pfp_indonesia_transfer_states_brunei
+			hidden_effect = {
+				#Brunei
+				1014 = { add_core_of = P17 }
+				P17 = { transfer_state = 1014 }
+				set_global_flag = pfp_indonesia_brunei_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indonesia_johor = {
+		allowed = {
+			NOT = {
+				original_tag = P17 #Indonesia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_johor
+				controls_state = 951 #Johor
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indonesia_flag
+			P17 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P17 #Indonesia
+				has_global_flag = pfp_indonesia_johor_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indonesia_coring_states_johor
+			custom_effect_tooltip = pfp_indonesia_transfer_states_johor
+			hidden_effect = {
+				#Johor
+				951 = { add_core_of = P17 }
+				P17 = { transfer_state = 951 }
+				set_global_flag = pfp_indonesia_johor_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indonesia_riau_islands = {
+		allowed = {
+			NOT = {
+				original_tag = P17 #Indonesia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_riau_islands
+				controls_state = 909 #Riau Islands
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indonesia_flag
+			P17 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P17 #Indonesia
+				has_global_flag = pfp_indonesia_riau_islands_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indonesia_coring_states_riau_islands
+			custom_effect_tooltip = pfp_indonesia_transfer_states_riau_islands
+			hidden_effect = {
+				#Riau Islands
+				909 = { add_core_of = P17 }
+				P17 = { transfer_state = 909 }
+				set_global_flag = pfp_indonesia_riau_islands_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indonesia_kedah = {
+		allowed = {
+			NOT = {
+				original_tag = P17 #Indonesia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_kedah
+				controls_state = 914 #Kedah
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indonesia_flag
+			P17 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P17 #Indonesia
+				has_global_flag = pfp_indonesia_kedah_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indonesia_coring_states_kedah
+			custom_effect_tooltip = pfp_indonesia_transfer_states_kedah
+			hidden_effect = {
+				#Kedah
+				914 = { add_core_of = P17 }
+				P17 = { transfer_state = 914 }
+				set_global_flag = pfp_indonesia_kedah_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indonesia_pahang = {
+		allowed = {
+			NOT = {
+				original_tag = P17 #Indonesia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_pahang
+				controls_state = 915 #Pahang
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indonesia_flag
+			P17 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P17 #Indonesia
+				has_global_flag = pfp_indonesia_pahang_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indonesia_coring_states_pahang
+			custom_effect_tooltip = pfp_indonesia_transfer_states_pahang
+			hidden_effect = {
+				#Pahang
+				915 = { add_core_of = P17 }
+				P17 = { transfer_state = 915 }
+				set_global_flag = pfp_indonesia_pahang_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	pfp_indonesia_terengganu = {
+		allowed = {
+			NOT = {
+				original_tag = P17 #Indonesia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_terengganu
+				controls_state = 960 #Terengganu
+			}
+		}
+		visible = {
+			has_global_flag = pfp_indonesia_flag
+			P17 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P17 #Indonesia
+				has_global_flag = pfp_indonesia_terengganu_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_indonesia_coring_states_terengganu
+			custom_effect_tooltip = pfp_indonesia_transfer_states_terengganu
+			hidden_effect = {
+				#Terengganu
+				960 = { add_core_of = P17 }
+				P17 = { transfer_state = 960 }
+				set_global_flag = pfp_indonesia_terengganu_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -153,19 +153,19 @@ pfp_category = {
 			custom_effect_tooltip = pfp_central_asia_puppet
 
 			#Create formable puppet with all its states and then puppet
-      hidden_effect = {
-        set_variable = { is_creating_formable_puppet = yes }
-        pfp_release_central_asia = yes
+			hidden_effect = {
+				set_variable = { is_creating_formable_puppet = yes }
+				pfp_release_central_asia = yes
 
-        if = {
-          limit = { has_dlc = "Together for Victory" }
-          set_autonomy = { target = P51 autonomy_state = autonomy_military_administration }
-        }
-        else = {
-          puppet = P51
-        }
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+					set_autonomy = { target = P51 autonomy_state = autonomy_military_administration }
+				}
+				else = {
+					puppet = P51
+				}
 				clear_variable = is_creating_formable_puppet
-      }
+			}
 		}
 		ai_will_do = {
 			factor = 0

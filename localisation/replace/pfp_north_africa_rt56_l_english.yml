@@ -1,11 +1,11 @@
 ﻿#North Africa - P30 -Localisation
 l_english:
- #Decisions Localisation
- pfp_north_africa_batna:0 "Transfer Batna"
- pfp_north_africa_required_states_batna:0 "Controls §YBatna§!."
- pfp_north_africa_coring_states_batna:0 "§YNorth Africa§! gains core on §YBatna§!.\n"
- pfp_north_africa_transfer_states_batna:0 "§YNorth Africa§! becomes owner and controller of §YBatna§!.\n"
- pfp_north_africa_east_suez:0 "Transfer East Suez"
- pfp_north_africa_required_states_east_suez:0 "Controls §YEast Suez§!."
- pfp_north_africa_coring_states_east_suez:0 "§YNorth Africa§! gains core on §YEast Suez§!.\n"
- pfp_north_africa_transfer_states_east_suez:0 "§YNorth Africa§! becomes owner and controller of §YEast Suez§!.\n"
+	#Decisions Localisation
+	pfp_north_africa_batna:0 "Transfer Batna"
+	pfp_north_africa_required_states_batna:0 "Controls §YBatna§!."
+	pfp_north_africa_coring_states_batna:0 "§YNorth Africa§! gains core on §YBatna§!.\n"
+	pfp_north_africa_transfer_states_batna:0 "§YNorth Africa§! becomes owner and controller of §YBatna§!.\n"
+	pfp_north_africa_east_suez:0 "Transfer East Suez"
+	pfp_north_africa_required_states_east_suez:0 "Controls §YEast Suez§!."
+	pfp_north_africa_coring_states_east_suez:0 "§YNorth Africa§! gains core on §YEast Suez§!.\n"
+	pfp_north_africa_transfer_states_east_suez:0 "§YNorth Africa§! becomes owner and controller of §YEast Suez§!.\n"

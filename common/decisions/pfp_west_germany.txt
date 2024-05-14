@@ -100,8 +100,8 @@ pfp_category = {
 				original_tag = GER #Germany
 				original_tag = WGR #West Germany
 				original_tag = P31 #West Germany
-        has_global_flag = pfp_west_germany_flag
-      }
+				has_global_flag = pfp_west_germany_flag
+			}
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_west_germany_coring_states
@@ -109,19 +109,19 @@ pfp_category = {
 			custom_effect_tooltip = pfp_west_germany_puppet
 
 			#Create formable puppet with all its states and then puppet
-      hidden_effect = {
-        set_variable = { is_creating_formable_puppet = yes }
-        pfp_release_west_germany = yes
+			hidden_effect = {
+				set_variable = { is_creating_formable_puppet = yes }
+				pfp_release_west_germany = yes
 
-        if = {
-          limit = { has_dlc = "Together for Victory" }
-          set_autonomy = { target = P31 autonomy_state = autonomy_military_administration }
-        }
-        else = {
-          puppet = P31
-        }
-        clear_variable = is_creating_formable_puppet
-      }
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+					set_autonomy = { target = P31 autonomy_state = autonomy_military_administration }
+				}
+				else = {
+					puppet = P31
+				}
+				clear_variable = is_creating_formable_puppet
+			}
 		}
 		ai_will_do = {
 			factor = 0

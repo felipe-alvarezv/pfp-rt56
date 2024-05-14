@@ -2,22 +2,22 @@
 pfp_release_north_germany = {
 	hidden_effect = {
 		#Add cores to North German territory
-    989 = { add_core_of = P19 } #Ostrhineland
-    51 = { add_core_of = P19 } #Rhineland
-    55 = { add_core_of = P19 } #Hessen
-    56 = { add_core_of = P19 } #Weser-Ems
-    57 = { add_core_of = P19 } #Westfalen
-    58 = { add_core_of = P19 } #Schleswig-Holstein
-    59 = { add_core_of = P19 } #Hannover
-    60 = { add_core_of = P19 } #Thuringen
-    61 = { add_core_of = P19 } #Mecklenburg
-    62 = { add_core_of = P19 } #Vorpommern
-    63 = { add_core_of = P19 } #Hinterpommern
-    64 = { add_core_of = P19 } #Brandenburg
-    65 = { add_core_of = P19 } #Sachsen
-    66 = { add_core_of = P19 } #Niederschlesien
-    67 = { add_core_of = P19 } #Oberschlesien
-    68 = { add_core_of = P19 } #Ostmark
+		989 = { add_core_of = P19 } #Ostrhineland
+		51 = { add_core_of = P19 } #Rhineland
+		55 = { add_core_of = P19 } #Hessen
+		56 = { add_core_of = P19 } #Weser-Ems
+		57 = { add_core_of = P19 } #Westfalen
+		58 = { add_core_of = P19 } #Schleswig-Holstein
+		59 = { add_core_of = P19 } #Hannover
+		60 = { add_core_of = P19 } #Thuringen
+		61 = { add_core_of = P19 } #Mecklenburg
+		62 = { add_core_of = P19 } #Vorpommern
+		63 = { add_core_of = P19 } #Hinterpommern
+		64 = { add_core_of = P19 } #Brandenburg
+		65 = { add_core_of = P19 } #Sachsen
+		66 = { add_core_of = P19 } #Niederschlesien
+		67 = { add_core_of = P19 } #Oberschlesien
+		68 = { add_core_of = P19 } #Ostmark
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
@@ -36,6 +36,6 @@ pfp_release_north_germany = {
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P19 }
-    news_event = { id = pfp_news.01 }
+		news_event = { id = pfp_news.01 }
 	}
 }

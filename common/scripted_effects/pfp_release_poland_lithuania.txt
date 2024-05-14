@@ -2,18 +2,18 @@
 pfp_release_poland_lithuania = {
 	hidden_effect = {
 		#Add cores to Polish-Lithuanian territory
-    10 = { add_core_of = P34 } #Warszawa
-    11 = { add_core_of = P34 } #Kaunas
-    87 = { add_core_of = P34 } #Lodz
-    90 = { add_core_of = P34 } #Kielce
-    92 = { add_core_of = P34 } #Lublin
-    97 = { add_core_of = P34 } #Białystok
-    98 = { add_core_of = P34 } #Plock
-    189 = { add_core_of = P34 } #Zemaitija
-    784 = { add_core_of = P34 } #Wilno
-    814 = { add_core_of = P34 } #Suduva
-    815 = { add_core_of = P34 } #Aukstaitija
-	934 = { add_core_of = P34 } #Suwalki
+		10 = { add_core_of = P34 } #Warszawa
+		11 = { add_core_of = P34 } #Kaunas
+		87 = { add_core_of = P34 } #Lodz
+		90 = { add_core_of = P34 } #Kielce
+		92 = { add_core_of = P34 } #Lublin
+		97 = { add_core_of = P34 } #Białystok
+		98 = { add_core_of = P34 } #Plock
+		189 = { add_core_of = P34 } #Zemaitija
+		784 = { add_core_of = P34 } #Wilno
+		814 = { add_core_of = P34 } #Suduva
+		815 = { add_core_of = P34 } #Aukstaitija
+		934 = { add_core_of = P34 } #Suwalki
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
@@ -32,6 +32,6 @@ pfp_release_poland_lithuania = {
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P34 }
-    news_event = { id = pfp_news.01 }
+		news_event = { id = pfp_news.01 }
 	}
 }

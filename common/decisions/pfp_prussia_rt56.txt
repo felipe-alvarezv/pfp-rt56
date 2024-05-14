@@ -7,7 +7,7 @@ pfp_category_territories_prussia = {
 		}
 		available = {
 			is_subject = no
-			custom_trigger_tooltip = {
+				custom_trigger_tooltip = {
 				tooltip = pfp_prussia_required_states_ostrhineland
 				controls_state = 989 #Ostrhineland
 			}
@@ -96,8 +96,8 @@ pfp_category_territories_prussia = {
 			has_global_flag = pfp_prussia_flag
 			P33 = {
 				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
+				is_puppet_of = FROM
+				is_in_faction_with = FROM
 				}
 			}
 			NOT = {

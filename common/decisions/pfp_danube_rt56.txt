@@ -276,7 +276,7 @@ pfp_category_territories_danube = {
 			}
 		}
 		visible = {
-			has_global_flag = pfp_danube_flag
+		has_global_flag = pfp_danube_flag
 			P09 = {
 				OR = {
 					is_puppet_of = FROM
@@ -356,8 +356,8 @@ pfp_category_territories_danube = {
 		available = {
 			is_subject = no
 			custom_trigger_tooltip = {
-				tooltip = pfp_danube_required_states_slavonia
-				controls_state = 959 #Slavonia
+			tooltip = pfp_danube_required_states_slavonia
+			controls_state = 959 #Slavonia
 			}
 		}
 		visible = {
@@ -413,7 +413,7 @@ pfp_category_territories_danube = {
 				}
 			}
 			NOT = {
-				original_tag = CRO #Croatia
+			original_tag = CRO #Croatia
 				original_tag = YUG #Yugoslavia
 				original_tag = P09 #Danube
 				has_global_flag = pfp_danube_syrmia_flag

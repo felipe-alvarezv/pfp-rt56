@@ -206,7 +206,7 @@ pfp_category_territories_arabia = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+		factor = 0
 		}
 	}
 	pfp_arabia_mafraq = {
@@ -317,10 +317,10 @@ pfp_category_territories_arabia = {
 				}
 			}
 			NOT = {
-				original_tag = ISR #Israel
-				original_tag = PAL #Palestine
-				original_tag = P03 #Arabia
-				has_global_flag = pfp_arabia_beersheba_flag
+			original_tag = ISR #Israel
+			original_tag = PAL #Palestine
+			original_tag = P03 #Arabia
+			has_global_flag = pfp_arabia_beersheba_flag
 			}
 		}
 		complete_effect = {

@@ -190,8 +190,8 @@ pfp_category_territories_germany = {
 			}
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_southern_schleswig
-			custom_effect_tooltip = pfp_germany_transfer_states_southern_schleswig
+		custom_effect_tooltip = pfp_germany_coring_states_southern_schleswig
+		custom_effect_tooltip = pfp_germany_transfer_states_southern_schleswig
 			hidden_effect = {
 				#Southern Schleswig
 				998 = { add_core_of = P13 }

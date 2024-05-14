@@ -160,45 +160,45 @@ pfp_category_territories_scandinavia = {
 		}
 	}
 	pfp_scandinavia_jan_mayen = {
-    allowed = {
-      NOT = {
-        original_tag = NOR #Norway
-        original_tag = P24 #Scandinavia
-      }
-    }
-    available = {
-      is_subject = no
-      custom_trigger_tooltip = {
-        tooltip = pfp_scandinavia_required_states_jan_mayen
-        controls_state = 1027 #Jan Mayen
-      }
-    }
-    visible = {
-      has_global_flag = pfp_scandinavia_flag
-      P24 = {
-        OR = {
-          is_puppet_of = FROM
-          is_in_faction_with = FROM
-        }
-      }
-      NOT = {
-        original_tag = NOR #Norway
-        original_tag = P24 #Scandinavia
-        has_global_flag = pfp_scandinavia_jan_mayen_flag
-      }
-    }
-    complete_effect = {
-      custom_effect_tooltip = pfp_scandinavia_coring_states_jan_mayen
-      custom_effect_tooltip = pfp_scandinavia_transfer_states_jan_mayen
-      hidden_effect = {
-        #Jan Mayen
-        1027 = { add_core_of = P24 }
-        P24 = { transfer_state = 1027 }
-        set_global_flag = pfp_scandinavia_jan_mayen_flag
-      }
-    }
-    ai_will_do = {
-      factor = 0
-    }
-  }
+		allowed = {
+			NOT = {
+				original_tag = NOR #Norway
+				original_tag = P24 #Scandinavia
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_scandinavia_required_states_jan_mayen
+				controls_state = 1027 #Jan Mayen
+			}
+		}
+		visible = {
+			has_global_flag = pfp_scandinavia_flag
+			P24 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = NOR #Norway
+				original_tag = P24 #Scandinavia
+				has_global_flag = pfp_scandinavia_jan_mayen_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_scandinavia_coring_states_jan_mayen
+			custom_effect_tooltip = pfp_scandinavia_transfer_states_jan_mayen
+			hidden_effect = {
+				#Jan Mayen
+				1027 = { add_core_of = P24 }
+				P24 = { transfer_state = 1027 }
+				set_global_flag = pfp_scandinavia_jan_mayen_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }

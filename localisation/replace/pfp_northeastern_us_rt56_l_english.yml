@@ -1,9 +1,9 @@
 ﻿#Northeastern U.S. - P20 - Localisation
 l_english:
- #Decisions Information
- pfp_northeastern_us_required_states_new_hampshire:0 "Controls §YNew Hampshire§!."
- pfp_northeastern_us_required_states_vermont:0 "Controls §YVermont§!."
- pfp_northeastern_us_required_states_massachusetts:0 "Controls §YMassachusetts§!."
- pfp_northeastern_us_required_states_connecticut:0 "Controls §YConnecticut§!."
- pfp_northeastern_us_required_states_rhode_island:0 "Controls §YRhode Island§!."
- pfp_northeastern_us_required_states_delaware:0 "Controls §YDelaware§!."
+	#Decisions Information
+	pfp_northeastern_us_required_states_new_hampshire:0 "Controls §YNew Hampshire§!."
+	pfp_northeastern_us_required_states_vermont:0 "Controls §YVermont§!."
+	pfp_northeastern_us_required_states_massachusetts:0 "Controls §YMassachusetts§!."
+	pfp_northeastern_us_required_states_connecticut:0 "Controls §YConnecticut§!."
+	pfp_northeastern_us_required_states_rhode_island:0 "Controls §YRhode Island§!."
+	pfp_northeastern_us_required_states_delaware:0 "Controls §YDelaware§!."

@@ -83,5 +83,4 @@ pfp_category_territories_colombia = {
 			factor = 0
 		}
 	}
-
 }

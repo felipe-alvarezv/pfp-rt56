@@ -2,22 +2,22 @@
 pfp_release_west_germany = {
 	hidden_effect = {
 		#Add cores to West German territory
-    42 = { add_core_of = P31 } #Moselland
-    50 = { add_core_of = P31 } #Wurttemberg
-    51 = { add_core_of = P31 } #Rhineland
-    52 = { add_core_of = P31 } #Oberbayern
-    53 = { add_core_of = P31 } #Niederbayern
-    54 = { add_core_of = P31 } #Franken
-    55 = { add_core_of = P31 } #Hessen
-    56 = { add_core_of = P31 } #Weser-Ems
-    57 = { add_core_of = P31 } #Westfalen
-    58 = { add_core_of = P31 } #Schleswig-Holstein
-    59 = { add_core_of = P31 } #Hannover
-	923 = { add_core_of = P31 } #Baden
-	922 = { add_core_of = P31 } #Frankfurt
-	989 = { add_core_of = P31 } #Ostrhineland
-	1053 = { add_core_of = P31 } #Saarland
-	998 = { add_core_of = P31 } #Southern Schleswig
+		42 = { add_core_of = P31 } #Moselland
+		50 = { add_core_of = P31 } #Wurttemberg
+		51 = { add_core_of = P31 } #Rhineland
+		52 = { add_core_of = P31 } #Oberbayern
+		53 = { add_core_of = P31 } #Niederbayern
+		54 = { add_core_of = P31 } #Franken
+		55 = { add_core_of = P31 } #Hessen
+		56 = { add_core_of = P31 } #Weser-Ems
+		57 = { add_core_of = P31 } #Westfalen
+		58 = { add_core_of = P31 } #Schleswig-Holstein
+		59 = { add_core_of = P31 } #Hannover
+		923 = { add_core_of = P31 } #Baden
+		922 = { add_core_of = P31 } #Frankfurt
+		989 = { add_core_of = P31 } #Ostrhineland
+		1053 = { add_core_of = P31 } #Saarland
+		998 = { add_core_of = P31 } #Southern Schleswig
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
@@ -36,6 +36,6 @@ pfp_release_west_germany = {
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P31 }
-    news_event = { id = pfp_news.01 }
+		news_event = { id = pfp_news.01 }
 	}
 }

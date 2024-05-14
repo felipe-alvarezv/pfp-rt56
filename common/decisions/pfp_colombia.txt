@@ -47,7 +47,7 @@ pfp_category = {
 			custom_effect_tooltip = pfp_colombia_puppet
 
 			#Create formable puppet with all its states and then puppet
-			hidden_effect = {
+				hidden_effect = {
 				set_variable = { is_creating_formable_puppet = yes }
 				pfp_release_colombia = yes
 

@@ -1,30 +1,30 @@
 #Scripted effect to release Caribbean (P06)
 pfp_release_caribbean = {
-  hidden_effect = {
-    #Add cores to Caribbean territory
-    315 = { add_core_of = P06 } #Cuba
-    318 = { add_core_of = P06 } #Haiti
-    319 = { add_core_of = P06 } #Dominican Republic
-    689 = { add_core_of = P06 } #Jamaica
-    994 = { add_core_of = P06 } #La Habana
+	hidden_effect = {
+		#Add cores to Caribbean territory
+		315 = { add_core_of = P06 } #Cuba
+		318 = { add_core_of = P06 } #Haiti
+		319 = { add_core_of = P06 } #Dominican Republic
+		689 = { add_core_of = P06 } #Jamaica
+		994 = { add_core_of = P06 } #La Habana
 
-    #Set formable puppet as owner and controller of all its cored states
-    every_state = {
-      limit = { is_core_of = P06 }
-      transfer_state_to = P06
-    }
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P06 }
+			transfer_state_to = P06
+		}
 
-    #Transfer all technology to formable puppet
-    P06 = { transfer_technology = yes }
+		#Transfer all technology to formable puppet
+		P06 = { transfer_technology = yes }
 
-    #Set global flag to prevent future decision use
-    set_global_flag = pfp_caribbean_flag
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_caribbean_flag
 
-    #Set the released country flag for overlord
-    ROOT = { set_country_flag = pfp_caribbean_country_flag }
+		#Set the released country flag for overlord
+		ROOT = { set_country_flag = pfp_caribbean_country_flag }
 
-    #Send event to all nations about the formable puppet
-    set_temp_variable = { temp_country_tag = P06 }
-    news_event = { id = pfp_news.01 }
-  }
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P06 }
+		news_event = { id = pfp_news.01 }
+	}
 }

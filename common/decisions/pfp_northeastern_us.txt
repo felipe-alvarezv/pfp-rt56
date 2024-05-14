@@ -84,19 +84,19 @@ pfp_category = {
 			custom_effect_tooltip = pfp_northeastern_us_puppet
 
 			#Create formable puppet with all its states and then puppet
-      hidden_effect = {
-        set_variable = { is_creating_formable_puppet = yes }
-        pfp_release_northeastern_us = yes
+			hidden_effect = {
+				set_variable = { is_creating_formable_puppet = yes }
+				pfp_release_northeastern_us = yes
 
-        if = {
-          limit = { has_dlc = "Together for Victory" }
-          set_autonomy = { target = P20 autonomy_state = autonomy_military_administration }
-        }
-        else = {
-          puppet = P20
-        }
-        clear_variable = is_creating_formable_puppet
-      }
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+					set_autonomy = { target = P20 autonomy_state = autonomy_military_administration }
+				}
+				else = {
+					puppet = P20
+				}
+				clear_variable = is_creating_formable_puppet
+			}
 		}
 		ai_will_do = {
 			factor = 0

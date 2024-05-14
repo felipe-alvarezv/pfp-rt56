@@ -1,13 +1,12 @@
 ﻿#Caribbean - P06 - Localisation
 l_english:
- #Decisions Information
- pfp_caribbean_required_states_la_habana:0 "Controls §YLa Habana§!."
- pfp_caribbean_virgin_islands:0 "Transfer Virgin Islands"
- pfp_caribbean_required_states_virgin_islands:0 "Controls §YVirgin Islands§!."
- pfp_caribbean_coring_states_virgin_islands:0 "§YCaribbean§! gains core on §YVirgin Islands§!.\n"
- pfp_caribbean_transfer_states_virgin_islands:0 "§YCaribbean§! becomes owner and controller of §YVirgin Islands§!.\n"
- pfp_caribbean_guantanamo_bay:0 "Transfer Guantanamo Bay"
- pfp_caribbean_required_states_guantanamo_bay:0 "Controls §YGuantanamo Bay§!."
- pfp_caribbean_coring_states_guantanamo_bay:0 "§YCaribbean§! gains core on §YGuantanamo Bay§!.\n"
- pfp_caribbean_transfer_states_guantanamo_bay:0 "§YCaribbean§! becomes owner and controller of §YGuantanamo Bay§!.\n"
-
+    #Decisions Information
+    pfp_caribbean_required_states_la_habana:0 "Controls §YLa Habana§!."
+    pfp_caribbean_virgin_islands:0 "Transfer Virgin Islands"
+    pfp_caribbean_required_states_virgin_islands:0 "Controls §YVirgin Islands§!."
+    pfp_caribbean_coring_states_virgin_islands:0 "§YCaribbean§! gains core on §YVirgin Islands§!.\n"
+    pfp_caribbean_transfer_states_virgin_islands:0 "§YCaribbean§! becomes owner and controller of §YVirgin Islands§!.\n"
+    pfp_caribbean_guantanamo_bay:0 "Transfer Guantanamo Bay"
+    pfp_caribbean_required_states_guantanamo_bay:0 "Controls §YGuantanamo Bay§!."
+    pfp_caribbean_coring_states_guantanamo_bay:0 "§YCaribbean§! gains core on §YGuantanamo Bay§!.\n"
+    pfp_caribbean_transfer_states_guantanamo_bay:0 "§YCaribbean§! becomes owner and controller of §YGuantanamo Bay§!.\n"

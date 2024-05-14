@@ -2,11 +2,11 @@
 pfp_release_south_germany = {
 	hidden_effect = {
 		#Add cores to South German territory
-    50 = { add_core_of = P25 } #Wurttemberg
-    52 = { add_core_of = P25 } #Oberbayern
-    53 = { add_core_of = P25 } #Niederbayern
-    54 = { add_core_of = P25 } #Franken
-	923 = { add_core_of = P25 } #Baden
+		50 = { add_core_of = P25 } #Wurttemberg
+		52 = { add_core_of = P25 } #Oberbayern
+		53 = { add_core_of = P25 } #Niederbayern
+		54 = { add_core_of = P25 } #Franken
+		923 = { add_core_of = P25 } #Baden
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
@@ -25,6 +25,6 @@ pfp_release_south_germany = {
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P25 }
-    news_event = { id = pfp_news.01 }
+		news_event = { id = pfp_news.01 }
 	}
 }

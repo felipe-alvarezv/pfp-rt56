@@ -29,10 +29,10 @@ pfp_category_territories_indochina = {
 			custom_effect_tooltip = pfp_indochina_coring_states_luang_prabang
 			custom_effect_tooltip = pfp_indochina_transfer_states_luang_prabang
 			hidden_effect = {
-				#Luang Prabang
-				926 = { add_core_of = P16 }
-				P16 = { transfer_state = 926 }
-				set_global_flag = pfp_indochina_luang_prabang_flag
+			#Luang Prabang
+			926 = { add_core_of = P16 }
+			P16 = { transfer_state = 926 }
+			set_global_flag = pfp_indochina_luang_prabang_flag
 			}
 		}
 		ai_will_do = {
@@ -41,16 +41,16 @@ pfp_category_territories_indochina = {
 	}
 	pfp_indochina_champasak = {
 		allowed = {
-			NOT = {
-				original_tag = P16 #Indochina
-			}
+		NOT = {
+		original_tag = P16 #Indochina
+		}
 		}
 		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_indochina_required_states_champasak
-				controls_state = 924 #Champasak
-			}
+		is_subject = no
+		custom_trigger_tooltip = {
+		tooltip = pfp_indochina_required_states_champasak
+		controls_state = 924 #Champasak
+		}
 		}
 		visible = {
 			has_global_flag = pfp_indochina_flag
@@ -82,14 +82,14 @@ pfp_category_territories_indochina = {
 	pfp_indochina_kedah = {
 		allowed = {
 			NOT = {
-				original_tag = P16 #Indochina
+			original_tag = P16 #Indochina
 			}
 		}
 		available = {
 			is_subject = no
 			custom_trigger_tooltip = {
-				tooltip = pfp_indochina_required_states_kedah
-				controls_state = 914 #Kedah
+			tooltip = pfp_indochina_required_states_kedah
+			controls_state = 914 #Kedah
 			}
 		}
 		visible = {
@@ -202,7 +202,7 @@ pfp_category_territories_indochina = {
 	pfp_indochina_johor = {
 		allowed = {
 			NOT = {
-				original_tag = P16 #Indochina
+			original_tag = P16 #Indochina
 			}
 		}
 		available = {
@@ -376,8 +376,8 @@ pfp_category_territories_indochina = {
 			has_global_flag = pfp_indochina_flag
 			P16 = {
 				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
+				is_puppet_of = FROM
+				is_in_faction_with = FROM
 				}
 			}
 			NOT = {

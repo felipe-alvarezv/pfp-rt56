@@ -2,17 +2,17 @@
 pfp_release_northeastern_us = {
 	hidden_effect = {
 		#Add cores to Northeastern U.S. territory
-    357 = { add_core_of = P20 } #New England
-    358 = { add_core_of = P20 } #New York
-    359 = { add_core_of = P20 } #New Jersey
-    360 = { add_core_of = P20 } #Pennsylvania
-    361 = { add_core_of = P20 } #Maryland
-	921 = { add_core_of = P20 } #New Hampshire
-	990 = { add_core_of = P20 } #Vermont
-	991 = { add_core_of = P20 } #Massachusetts
-	993 = { add_core_of = P20 } #Connecticut
-	992 = { add_core_of = P20 } #Rhode Island
-	1023 = { add_core_of = P20 } #Delaware
+		357 = { add_core_of = P20 } #New England
+		358 = { add_core_of = P20 } #New York
+		359 = { add_core_of = P20 } #New Jersey
+		360 = { add_core_of = P20 } #Pennsylvania
+		361 = { add_core_of = P20 } #Maryland
+		921 = { add_core_of = P20 } #New Hampshire
+		990 = { add_core_of = P20 } #Vermont
+		991 = { add_core_of = P20 } #Massachusetts
+		993 = { add_core_of = P20 } #Connecticut
+		992 = { add_core_of = P20 } #Rhode Island
+		1023 = { add_core_of = P20 } #Delaware
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {
@@ -31,6 +31,6 @@ pfp_release_northeastern_us = {
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P20 }
-    news_event = { id = pfp_news.01 }
+		news_event = { id = pfp_news.01 }
 	}
 }

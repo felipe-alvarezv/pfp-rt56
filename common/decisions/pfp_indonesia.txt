@@ -17,7 +17,7 @@ pfp_category = {
 			#Java
 			custom_trigger_tooltip = {
 				tooltip = pfp_indonesia_required_states_java
-				controls_state = 335 #Java
+				controls_state = 335 #Java	
 			}
 			#Lesser Sunda Islands
 			custom_trigger_tooltip = {
@@ -94,19 +94,19 @@ pfp_category = {
 			custom_effect_tooltip = pfp_indonesia_puppet
 
 			#Create formable puppet with all its states and then puppet
-      hidden_effect = {
-        set_variable = { is_creating_formable_puppet = yes }
-        pfp_release_indonesia = yes
+			hidden_effect = {
+				set_variable = { is_creating_formable_puppet = yes }
+				pfp_release_indonesia = yes
 
-        if = {
-          limit = { has_dlc = "Together for Victory" }
-          set_autonomy = { target = P17 autonomy_state = autonomy_military_administration }
-        }
-        else = {
-          puppet = P17
-        }
-        clear_variable = is_creating_formable_puppet
-      }
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+					set_autonomy = { target = P17 autonomy_state = autonomy_military_administration }
+				}
+				else = {
+					puppet = P17
+				}
+				clear_variable = is_creating_formable_puppet
+			}
 		}
 		ai_will_do = {
 			factor = 0

@@ -1,0 +1,78 @@
+pfp_category = {
+	pfp_transcaucasia = {
+		allowed = {
+			NOT = {
+				original_tag = ARM #Armenia
+				original_tag = AZR #Azerbaijan
+				original_tag = GEO #Georgia
+				original_tag = P28 #Transcaucasia
+			}
+		}
+		available = {
+			is_subject = no
+			#Azerbaijan
+			custom_trigger_tooltip = {
+				tooltip = pfp_transcaucasia_required_states_azerbaijan
+				controls_state = 229 #Azerbaijan
+			}
+			#Armenia
+			custom_trigger_tooltip = {
+				tooltip = pfp_transcaucasia_required_states_armenia
+				controls_state = 230 #Armenia
+			}
+			#Georgia
+			custom_trigger_tooltip = {
+				tooltip = pfp_transcaucasia_required_states_georgia
+				controls_state = 231 #Georgia
+			}
+			#Abkhazia
+			custom_trigger_tooltip = {
+				tooltip = pfp_transcaucasia_required_states_abkhazia
+				controls_state = 826 #Abkhazia
+			}
+			#Nakhchivan
+			custom_trigger_tooltip = {
+				tooltip = pfp_transcaucasia_required_states_nakhchivan
+				controls_state = 1044# Nakhchivan
+			}
+		}
+		visible = {
+			OR = {
+				controls_state = 229 #Azerbaijan
+				controls_state = 230 #Armenia
+				controls_state = 231 #Georgia
+				controls_state = 826 #Abkhazia
+			}
+			NOT = {
+				original_tag = ARM #Armenia
+				original_tag = AZR #Azerbaijan
+				original_tag = GEO #Georgia
+				original_tag = P28 #Transcaucasia
+				has_global_flag = pfp_transcaucasia_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_transcaucasia_coring_states
+			custom_effect_tooltip = pfp_transcaucasia_transfer_states
+			custom_effect_tooltip = pfp_transcaucasia_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				set_variable = { is_creating_formable_puppet = yes }
+				pfp_release_transcaucasia = yes
+
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+					set_autonomy = { target = P28 autonomy_state = autonomy_military_administration }
+				}
+				else = {
+					puppet = P28
+				}
+				clear_variable = is_creating_formable_puppet
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

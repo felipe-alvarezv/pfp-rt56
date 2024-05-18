@@ -1,0 +1,30 @@
+#Scripted effect to release Transcaucasia (P28)
+pfp_release_transcaucasia = {
+	hidden_effect = {
+		#Add cores to Transcaucasian territory
+		229 = { add_core_of = P28 } #Azerbaijan
+		230 = { add_core_of = P28 } #Armenia
+		231 = { add_core_of = P28 } #Georgia
+		826 = { add_core_of = P28 } #Abkhazia
+		1044 = { add_core_of = P28 } #Nakhchivan
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P28 }
+			transfer_state_to = P28
+		}
+
+		#Transfer all technology to formable puppet
+		P28 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_transcaucasia_flag
+
+		#Set the released country flag for overlord
+		ROOT = { set_country_flag = pfp_transcaucasia_country_flag }
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P28 }
+		news_event = { id = pfp_news.01 }
+	}
+}

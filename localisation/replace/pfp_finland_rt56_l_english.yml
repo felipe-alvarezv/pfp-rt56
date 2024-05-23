@@ -1,0 +1,5 @@
+#P12 - Benelux - Localisation
+l_english:
+	#Decisions Localisation
+	pfp_finland_required_states_vaasa:0 "Controls §YPohjanmaa§!."
+	pfp_finland_required_states_kuopio:0 "Controls §YSavo§!."

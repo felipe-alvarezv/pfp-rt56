@@ -2,11 +2,16 @@
 l_english:
 	#Decisions Information
 	pfp_indonesia_required_states_north_sumatra:0 "Controls §YNorth Sumatra§!."
+	pfp_indonesia_required_states_java:0 "Controls §YWest Java§!."
 	pfp_indonesia_required_states_central_java:0 "Controls §YCentral Java§!."
 	pfp_indonesia_required_states_east_java:0 "Controls §YEast Java§!."
+	pfp_indonesia_required_states_the_moluccas:0 "Controls §YMoluccan Islands§!."
 	pfp_indonesia_required_states_north_sulawesi:0 "Controls §YNorth Sulawesi§!."
+	pfp_indonesia_required_states_kalimantan:0 "Controls §East YKalimantan§!."
 	pfp_indonesia_required_states_west_kalimantan:0 "Controls §YWest Kalimantan§!."
 	pfp_indonesia_required_states_central_kalimantan:0 "Controls §YCentral Kalimantan§!."
+	pfp_indonesia_required_states_sumatra:0 "Controls §YSouth Sumatra§!."
+	pfp_indonesia_required_states_sulawesi:0 "Controls §YSouth Sulawesi§!."
 	pfp_indonesia_north_borneo:0 "Transfer North Borneo"
 	pfp_indonesia_required_states_north_borneo:0 "Controls §YNorth Borneo§!."
 	pfp_indonesia_coring_states_north_borneo:0 "§YIndonesia§! gains core on §YNorth Borneo§!.\n"

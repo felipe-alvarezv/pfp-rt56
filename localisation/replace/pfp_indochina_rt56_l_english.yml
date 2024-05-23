@@ -4,6 +4,7 @@ l_english:
 	pfp_indochina_required_states_batambang:0 "Controls §YBatambang§!."
 	pfp_indochina_required_states_south_annam:0 "Controls §YSouth Annam§!."
 	pfp_indochina_required_states_north_annam:0 "Controls §YNorth Annam§!."
+	pfp_indochina_required_states_southern_indochina:0 "Controls §YCochinchina§!."
 	pfp_indochina_luang_prabang:0 "Transfer Luang Prabang"
 	pfp_indochina_required_states_luang_prabang:0 "Controls §YLuang Prabang§!."
 	pfp_indochina_coring_states_luang_prabang:0 "§YIndochina§! gains core on §YLuang Prabang§!.\n"

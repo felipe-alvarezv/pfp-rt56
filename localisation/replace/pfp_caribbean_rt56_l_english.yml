@@ -1,6 +1,7 @@
 ﻿#Caribbean - P06 - Localisation
 l_english:
 	#Decisions Information
+	pfp_caribbean_required_states_cuba:0 "Controls §YSantiago de Cuba§!."
 	pfp_caribbean_required_states_la_habana:0 "Controls §YLa Habana§!."
 	pfp_caribbean_virgin_islands:0 "Transfer Virgin Islands"
 	pfp_caribbean_required_states_virgin_islands:0 "Controls §YVirgin Islands§!."

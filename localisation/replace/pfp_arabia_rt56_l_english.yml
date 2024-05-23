@@ -1,6 +1,8 @@
 ﻿#Arabia - P03 - Localisation
 l_english:
 	#Decisions Localisation
+	pfp_arabia_required_states_najiran:0 "Controls §YJafurah§!."
+	pfp_arabia_required_states_rub_al_khali:0 "Controls §YRub' al Khali§!."
 	pfp_arabia_basrah:0 "Transfer Basrah"
 	pfp_arabia_required_states_basrah:0 "Controls §YBasrah§!."
 	pfp_arabia_coring_states_basrah:0 "§YArabia§! gains core on §YBasrah§!.\n"

@@ -53,11 +53,11 @@ pfp_category = {
 				tooltip = pfp_germany_required_states_westfalen
 				controls_state = 57 #Westfalen
 			}
-			#Schleswig-Holstein
-			custom_trigger_tooltip = {
-				tooltip = pfp_germany_required_states_schleswig_holstein
-				controls_state = 58 #Schleswig-Holstein
-			}
+			#Holstein
+      		custom_trigger_tooltip = {
+        		tooltip = pfp_germany_required_states_holstein
+        		controls_state = 58 #Holstein
+      		}
 			#Hannover
 			custom_trigger_tooltip = {
 				tooltip = pfp_germany_required_states_hannover

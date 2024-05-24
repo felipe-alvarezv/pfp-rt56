@@ -1,6 +1,10 @@
 ﻿#Danube - P09 - Localisation
 l_english:
 	#Decisions Information
+	pfp_danube_north_slovenia:0 "Transfer Lower Styria"
+	pfp_danube_required_states_north_slovenia:0 "Controls §YLower Styria§!."
+	pfp_danube_coring_states_north_slovenia:0 "§YDanube§! gains core on §YLower Styria§!.\n"
+	pfp_danube_transfer_states_north_slovenia:0 "§YDanube§! becomes owner and controller of §YLower Styria§!.\n"
 	pfp_danube_required_states_solt_kiskun:0 "Controls §YSolt-Kiskun§!."
 	pfp_danube_lower_styria:0 "Transfer Lower Styria"
 	pfp_danube_required_states_lower_styria:0 "Controls §YLower Styria§!."
@@ -41,4 +45,16 @@ l_english:
 	pfp_danube_syrmia:0 "Transfer Syrmia"
 	pfp_danube_required_states_syrmia:0 "Controls §YSyrmia§!."
 	pfp_danube_coring_states_syrmia:0 "§YCaribbean§! gains core on §YSyrmia§!.\n"
-	pfp_danube_transfer_states_syrmia:0 "§YCaribbean§! becomes owner and controller of §YSyrmia§!.\n" 
+	pfp_danube_transfer_states_syrmia:0 "§YCaribbean§! becomes owner and controller of §YSyrmia§!.\n"
+	pfp_danube_bosnia:0 "Transfer Sarajevo"
+	pfp_danube_required_states_bosnia:0 "Controls §YSarajevo§!."
+	pfp_danube_coring_states_bosnia:0 "§YDanube§! gains core on §YSarajevo§!.\n"
+	pfp_danube_transfer_states_bosnia:0 "§YDanube§! becomes owner and controller of §YSarajevo§!.\n"
+	pfp_danube_croatia:0 "Transfer Zagreb"
+	pfp_danube_required_states_croatia:0 "Controls §YZagreb§!."
+	pfp_danube_coring_states_croatia:0 "§YDanube§! gains core on §YZagreb§!.\n"
+	pfp_danube_transfer_states_croatia:0 "§YDanube§! becomes owner and controller of §YZagreb§!.\n"
+	pfp_danube_herzegovina:0 "Transfer Mostar"
+	pfp_danube_required_states_herzegovina:0 "Controls §YMostar§!."
+	pfp_danube_coring_states_herzegovina:0 "§YDanube§! gains core on §YMostar§!.\n"
+	pfp_danube_transfer_states_herzegovina:0 "§YDanube§! becomes owner and controller of §YMostar§!.\n"

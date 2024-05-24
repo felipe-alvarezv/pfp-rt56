@@ -1,6 +1,7 @@
 ﻿#South Asia - P37 - Localisation
 l_english:
 	#Decisions Information
+	pfp_south_asia_required_states_baluchistan:0 "Controls §YBalochistan§!."
 	pfp_south_asia_kandahar:0 "Transfer Kandahar"
 	pfp_south_asia_required_states_kandahar:0 "Controls §YKandahar§!."
 	pfp_south_asia_coring_states_kandahar:0 "§YSouth Asia§! gains core on §YKandahar§!.\n"

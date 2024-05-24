@@ -22,3 +22,7 @@ l_english:
 	pfp_south_germany_required_states_saarland:0 "Controls §YSaarland§!."
 	pfp_south_germany_coring_states_saarland:0 "§YSouth Germany§! gains core on §YSaarland§!.\n"
 	pfp_south_germany_transfer_states_saarland:0 "§YSouth Germany§! becomes owner and controller of §YSaarland§!.\n"
+	pfp_south_germany_north_slovenia:0 "Transfer Lower Styria"
+	pfp_south_germany_required_states_north_slovenia:0 "Controls §YLower Styria§!."
+	pfp_south_germany_coring_states_north_slovenia:0 "§YSouth Germany§! gains core on §YLower Styria§!.\n"
+	pfp_south_germany_transfer_states_north_slovenia:0 "§YSouth Germany§! becomes owner and controller of §YLower Styria§!.\n"

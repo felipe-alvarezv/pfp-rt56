@@ -1,6 +1,7 @@
 ﻿#North Germany - P19 - Localisation
 l_english:
 	#Decisions Information
+	pfp_north_germany_required_states_ostmark:0 "Controls §YNeumark§!."
 	pfp_north_germany_required_states_ostrhineland:0 "Controls §YOstrhineland§!."
 	pfp_north_germany_moselland:0 "Transfer Moselland"
 	pfp_north_germany_required_states_moselland:0 "Controls §YMoselland§!."

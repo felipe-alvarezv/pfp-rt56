@@ -1,0 +1,7 @@
+#Bulgaria - P49 - Localisation
+l_english:
+	#Decisions Localisation
+	pfp_bulgaria_southern_serbia:0 "Transfer Pirot"
+	pfp_bulgaria_required_states_southern_serbia:0 "Controls §YPirot§!."
+	pfp_bulgaria_coring_states_southern_serbia:0 "§YBulgaria§! gains core on §YPirot§!.\n"
+	pfp_bulgaria_transfer_states_southern_serbia:0 "§YBulgaria§! becomes owner and controller of §YPirot§!.\n"

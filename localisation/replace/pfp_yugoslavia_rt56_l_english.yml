@@ -1,6 +1,11 @@
 ﻿#Yugoslavia - P50 - Localisation
 l_english:
 	#Decisions Information
+	pfp_yugoslavia_required_states_serbia:0 "Controls §YCentral Serbia§!."
+	pfp_yugoslavia_required_states_bosnia:0 "Controls §YSarajevo§!."
+	pfp_yugoslavia_required_states_croatia:0 "Controls §YZagreb§!."
+	pfp_yugoslavia_required_states_southern_serbia:0 "Controls §YPirot§!."
+	pfp_yugoslavia_required_states_north_slovenia:0 "Controls §YLower Styria§!."
 	pfp_yugoslavia_required_states_slavonia:0 "Controls §YSlavonia§!."
 	pfp_yugoslavia_required_states_syrmia:0 "Controls §YSyrmia§!."
 	pfp_yugoslavia_required_states_posavina:0 "Controls §YPosavina§!."

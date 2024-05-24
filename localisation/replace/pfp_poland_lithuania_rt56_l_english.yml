@@ -10,3 +10,7 @@ l_english:
 	pfp_poland_lithuania_required_states_outer_wilno:0 "Controls §YOuter Wilno§!."
 	pfp_poland_lithuania_coring_states_outer_wilno:0 "§YPoland-Lithuania§! gains core on §YOuter Wilno§!.\n"
 	pfp_poland_lithuania_transfer_states_outer_wilno:0 "§YPoland-Lithuania§! becomes owner and controller of §YOuter Wilno§!.\n"
+	pfp_poland_lithuania_ostmark:0 "Transfer Neumark"
+	pfp_poland_lithuania_required_states_ostmark:0 "Controls §YNeumark§!."
+	pfp_poland_lithuania_coring_states_ostmark:0 "§YPoland-Lithuania§! gains core on §YNeumark§!.\n"
+	pfp_poland_lithuania_transfer_states_ostmark:0 "§YPoland-Lithuania§! becomes owner and controller of §YNeumark§!.\n"

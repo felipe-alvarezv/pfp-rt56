@@ -1,6 +1,7 @@
 ﻿#Prussia - P33 - Localisation
 l_english:
 	#Decisions Information
+	pfp_prussia_required_states_ostmark:0 "Controls §YNeumark§!."
 	pfp_prussia_ostrhineland:0 "Transfer Ostrhineland"
 	pfp_prussia_required_states_ostrhineland:0 "Controls §YOstrhineland§!."
 	pfp_prussia_coring_states_ostrhineland:0 "§YPrussia§! gains core on §YOstrhineland§!.\n"

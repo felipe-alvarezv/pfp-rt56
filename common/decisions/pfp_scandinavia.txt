@@ -16,10 +16,10 @@ pfp_category = {
 				tooltip = pfp_scandinavia_required_states_sjaelland
 				controls_state = 37 #Sjaelland
 			}
-			#Gavleborg
+			#Gävleborg
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_gavleborg
-				controls_state = 38 #Gavleborg
+				controls_state = 38 #Gävleborg
 			}
 			#Jylland
 			custom_trigger_tooltip = {
@@ -31,10 +31,10 @@ pfp_category = {
 				tooltip = pfp_scandinavia_required_states_oslofjord
 				controls_state = 110 #Oslofjord
 			}
-			#Skane
+			#Skåne
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_skane
-				controls_state = 138 #Skane
+				controls_state = 138 #Skåne
 			}
 			#Smaland
 			custom_trigger_tooltip = {
@@ -46,10 +46,10 @@ pfp_category = {
 				tooltip = pfp_scandinavia_required_states_vastergotland
 				controls_state = 140 #Vastergotland
 			}
-			#Sodermanland
+			#Södermanland
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_sodermanland
-				controls_state = 141 #Sodermanland
+				controls_state = 141 #Södermanland
 			}
 			#Vestlandet
 			custom_trigger_tooltip = {
@@ -76,20 +76,20 @@ pfp_category = {
 				tooltip = pfp_scandinavia_required_states_fyn
 				controls_state = 1025 #Fyn
 			}
-			#Ostergotland
+			#Östergötland
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_ostergotland
-				controls_state = 1026 #Ostergotland
+				controls_state = 1026 #Östergötland
 			}
-			#Bohuslan
+			#Bohuslän
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_bohuslan
-				controls_state = 969 #Bohuslan
+				controls_state = 969 #Bohuslän
 			}
-			#Varmland
+			#Värmland
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_varmland
-				controls_state = 1030 #Varmland
+				controls_state = 1030 #Värmland
 			}
 			#Dalarna
 			custom_trigger_tooltip = {
@@ -106,20 +106,20 @@ pfp_category = {
 				tooltip = pfp_scandinavia_required_states_telemark
 				controls_state = 1032 #Telemark
 			}
-			#Sorlandet
+			#Sørlandet
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_sorlandet
-				controls_state = 967 #Sorlandet
+				controls_state = 967 #Sørlandet
 			}
-			#Jamtland
+			#Jämtland
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_jamtland
-				controls_state = 968 #Jamtland
+				controls_state = 968 #Jämtland
 			}
-			#Vasterbotten
+			#Västerbotten
 			custom_trigger_tooltip = {
 				tooltip = pfp_scandinavia_required_states_vasterbotten
-				controls_state = 1029 #Vasterbotten
+				controls_state = 1029 #Västerbotten
 			}
 			#Helgeland
 			custom_trigger_tooltip = {
@@ -141,7 +141,7 @@ pfp_category = {
 			OR = {
 				controls_state = 37 #Sjaelland
 				controls_state = 110 #Oslofjord
-				controls_state = 141 #Sodermanland
+				controls_state = 141 #Södermanland
 			}
 			NOT = {
 				original_tag = DEN #Denmark

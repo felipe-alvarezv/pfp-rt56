@@ -15,3 +15,7 @@ l_english:
 	pfp_north_germany_required_states_frankfurt:0 "Controls §YFrankfurt§!."
 	pfp_north_germany_coring_states_frankfurt:0 "§YNorth Germany§! gains core on §YFrankfurt§!.\n"
 	pfp_north_germany_transfer_states_frankfurt:0 "§YNorth Germany§! becomes owner and controller of §YFrankfurt§!.\n"
+	pfp_north_germany_schleswig:0 "Transfer Southern Schleswig"
+	pfp_north_germany_required_states_schleswig:0 "Controls §YSouthern Schleswig§!."
+	pfp_north_germany_coring_states_schleswig:0 "§YPrussia§! gains core on §YSouthern Schleswig§!.\n"
+	pfp_north_germany_transfer_states_schleswig:0 "§YPrussia§! becomes owner and controller of §YSouthern Schleswig§!.\n"

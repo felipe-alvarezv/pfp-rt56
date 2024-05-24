@@ -64,10 +64,10 @@ pfp_category = {
 				tooltip = pfp_indonesia_required_states_north_sulawesi
 				controls_state = 975 #North Sulawesi
 			}
-			#West Kalimantan
+			#Inner Borneo
 			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_ west_kalimantan
-				controls_state = 977 #West Kalimantan
+				tooltip = pfp_indonesia_required_states_inner_borneo
+				controls_state = 977 #Inner Borneo
 			}
 			#East Kalimantan
 			custom_trigger_tooltip = {

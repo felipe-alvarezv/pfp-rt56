@@ -7,7 +7,7 @@ pfp_release_north_germany = {
 		55 = { add_core_of = P19 } #Hessen
 		56 = { add_core_of = P19 } #Weser-Ems
 		57 = { add_core_of = P19 } #Westfalen
-		58 = { add_core_of = P19 } #Schleswig-Holstein
+		58 = { add_core_of = P19 } #Holstein
 		59 = { add_core_of = P19 } #Hannover
 		60 = { add_core_of = P19 } #Thuringen
 		61 = { add_core_of = P19 } #Mecklenburg

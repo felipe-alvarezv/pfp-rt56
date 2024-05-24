@@ -119,7 +119,7 @@ pfp_category_territories_scandinavia = {
 			factor = 0
 		}
 	}
-	pfp_scandinavia_southern_schleswig = {
+	pfp_scandinavia_schleswig = {
 		allowed = {
 			NOT = {
 				original_tag = P24 #Scandinavia
@@ -128,7 +128,7 @@ pfp_category_territories_scandinavia = {
 		available = {
 			is_subject = no
 			custom_trigger_tooltip = {
-				tooltip = pfp_scandinavia_required_states_southern_schleswig
+				tooltip = pfp_scandinavia_required_states_schleswig
 				controls_state = 998 #Southern Schleswig
 			}
 		}
@@ -142,17 +142,17 @@ pfp_category_territories_scandinavia = {
 			}
 			NOT = {
 				original_tag = P24 #Scandinavia
-				has_global_flag = pfp_scandinavia_southern_schleswig_flag
+				has_global_flag = pfp_scandinavia_schleswig_flag
 			}
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_scandinavia_coring_states_southern_schleswig
-			custom_effect_tooltip = pfp_scandinavia_transfer_states_southern_schleswig
+			custom_effect_tooltip = pfp_scandinavia_coring_states_schleswig
+			custom_effect_tooltip = pfp_scandinavia_transfer_states_schleswig
 			hidden_effect = {
 				#Southern Schleswig
 				998 = { add_core_of = P24 }
 				P24 = { transfer_state = 998 }
-				set_global_flag = pfp_scandinavia_southern_schleswig_flag
+				set_global_flag = pfp_scandinavia_schleswig_flag
 			}
 		}
 		ai_will_do = {

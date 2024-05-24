@@ -125,4 +125,44 @@ pfp_category_territories_north_germany = {
 			factor = 0
 		}
 	}
+	pfp_north_germany_schleswig = {
+		allowed = {
+			NOT = {
+				original_tag = P19 #North Germany
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_germany_required_states_schleswig
+				controls_state = 998 #Schleswig
+			}
+		}
+		visible = {
+			has_global_flag = pfp_north_germany_flag
+			P19 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P19 #North Germany
+				has_global_flag = pfp_north_germany_schleswig_flag
+			}
+		}
+		complete_effect = {
+		custom_effect_tooltip = pfp_north_germany_coring_states_schleswig
+		custom_effect_tooltip = pfp_north_germany_transfer_states_schleswig
+			hidden_effect = {
+				#Schleswig
+				998 = { add_core_of = P19 }
+				P19 = { transfer_state = 998 }
+				set_global_flag = pfp_north_germany_schleswig_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }

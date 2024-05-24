@@ -13,7 +13,7 @@ pfp_release_indonesia = {
 		976 = { add_core_of = P17 } #Central Java
 		446 = { add_core_of = P17 } #East Java
 		975 = { add_core_of = P17 } #North Sulawesi
-		977 = { add_core_of = P17 } #West Kalimantan
+		977 = { add_core_of = P17 } #Inner Borneo
 		978 = { add_core_of = P17 } #East Kalimantan
 
 		#Set formable puppet as owner and controller of all its cored states

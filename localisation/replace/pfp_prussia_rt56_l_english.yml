@@ -14,3 +14,7 @@ l_english:
 	pfp_prussia_required_states_frankfurt:0 "Controls §YFrankfurt§!."
 	pfp_prussia_coring_states_frankfurt:0 "§YPrussia§! gains core on §YFrankfurt§!.\n"
 	pfp_prussia_transfer_states_frankfurt:0 "§YPrussia§! becomes owner and controller of §YFrankfurt§!.\n"
+	pfp_prussia_schleswig:0 "Transfer Southern Schleswig"
+	pfp_prussia_required_states_schleswig:0 "Controls §YSouthern Schleswig§!."
+	pfp_prussia_coring_states_schleswig:0 "§YPrussia§! gains core on §YSouthern Schleswig§!.\n"
+	pfp_prussia_transfer_states_schleswig:0 "§YPrussia§! becomes owner and controller of §YSouthern Schleswig§!.\n"

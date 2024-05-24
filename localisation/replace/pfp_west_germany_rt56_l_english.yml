@@ -5,4 +5,7 @@ l_english:
 	pfp_west_germany_required_states_frankfurt:0 "Controls §YFrankfurt§!."
 	pfp_west_germany_required_states_ostrhineland:0 "Controls §YOstrhineland§!."
 	pfp_west_germany_required_states_saarland:0 "Controls §YSaarland§!."
-	pfp_west_germany_required_states_southern_schleswig:0 "Controls §YSouthern Schleswig§!."
+	pfp_west_germany_schleswig:0 "Transfer Southern Schleswig"
+	pfp_west_germany_required_states_schleswig:0 "Controls §YSouthern Schleswig§!."
+	pfp_west_germany_coring_states_schleswig:0 "§YWest Germany§! gains core on §YSouthern Schleswig§!.\n"
+	pfp_west_germany_transfer_states_schleswig:0 "§YWest Germany§! becomes owner and controller of §YSouthern Schleswig§!.\n"

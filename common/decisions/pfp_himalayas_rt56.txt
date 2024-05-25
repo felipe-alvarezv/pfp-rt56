@@ -1,0 +1,42 @@
+pfp_category_territories_himalayas = {
+	pfp_himalayas_sikkim = {
+		allowed = {
+			NOT = {
+				original_tag = P52 #Himalayas
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_himalayas_required_states_sikkim
+				controls_state = 1013 #Sikkim
+			}
+		}
+		visible = {
+			has_global_flag = pfp_himalayas_flag
+			P06 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P52 #Himalayas
+				has_global_flag = pfp_himalayas_sikkim_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_himalayas_coring_states_sikkim
+			custom_effect_tooltip = pfp_himalayas_transfer_states_sikkim
+			hidden_effect = {
+				#Sikkim
+				1013 = { add_core_of = P06 }
+				P06 = { transfer_state = 1013 }
+				set_global_flag = pfp_himalayas_sikkim_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

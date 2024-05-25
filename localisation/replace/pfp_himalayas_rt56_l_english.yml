@@ -1,0 +1,18 @@
+﻿#P52 - Himalayas - Localisation
+l_english:
+	#Decisions Localisation
+	pfp_himalayas_required_states_nagqu:0 "Controls §YChang-Tang§!."
+	pfp_himalayas_required_states_shigatse:0 "Controls §YÜ-Tsang§!."
+	pfp_himalayas_required_states_ngari:0 "Controls §YNgari Khorsum§!."
+	pfp_himalayas_arunachal_pradesh:0 "Transfer Lhoyü"
+  pfp_himalayas_required_states_arunachal_pradesh:0 "Controls §YLhoyü§!."
+  pfp_himalayas_coring_states_arunachal_pradesh:0 "§YHimalayas§! gains core on §YLhoyü§!.\n"
+  pfp_himalayas_transfer_states_arunachal_pradesh:0 "§YHimalayas§! becomes owner and controller of §YLhoyü§!.\n"
+	pfp_himalayas_xikang:0 "Transfer Western Kham"
+	pfp_himalayas_required_states_xikang:0 "Controls §YWestern Kham§!."
+	pfp_himalayas_coring_states_xikang:0 "§YHimalayas§! gains core on §YWestern Kham§!.\n"
+	pfp_himalayas_transfer_states_xikang:0 "§YHimalayas§! becomes owner and controller of §YWestern Kham§!.\n"
+	pfp_himalayas_sikkim:0 "Transfer Sikkim"
+	pfp_himalayas_required_states_sikkim:0 "Controls §YSikkim§!."
+	pfp_himalayas_coring_states_sikkim:0 "§YHimalayas§! gains core on §YSikkim§!.\n"
+	pfp_himalayas_transfer_states_sikkim:0 "§YHimalayas§! becomes owner and controller of §YSikkim§!.\n"

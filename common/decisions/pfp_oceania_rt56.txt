@@ -1,0 +1,42 @@
+pfp_category_territories_oceania = {
+	pfp_oceania_easter_island = {
+		allowed = {
+			NOT = {
+				original_tag = P27 #Oceania
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = pfp_oceania_required_states_easter_island
+				controls_state = 1074 #Easter Island
+			}
+		}
+		visible = {
+			has_global_flag = pfp_oceania_flag
+			P27 = {
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = {
+				original_tag = P27 #Oceania
+				has_global_flag = pfp_oceania_easter_island_flag
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_easter_island
+			custom_effect_tooltip = pfp_oceania_transfer_states_easter_island
+			hidden_effect = {
+				#Easter Island
+				1074 = { add_core_of = P27 }
+				P27 = { transfer_state = 1074 }
+				set_global_flag = pfp_oceania_easter_island_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

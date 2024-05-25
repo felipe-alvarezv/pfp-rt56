@@ -14,7 +14,7 @@ pfp_category_territories_himalayas = {
 		}
 		visible = {
 			has_global_flag = pfp_himalayas_flag
-			P06 = {
+			P52 = {
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
@@ -30,8 +30,8 @@ pfp_category_territories_himalayas = {
 			custom_effect_tooltip = pfp_himalayas_transfer_states_sikkim
 			hidden_effect = {
 				#Sikkim
-				1013 = { add_core_of = P06 }
-				P06 = { transfer_state = 1013 }
+				1013 = { add_core_of = P52 }
+				P52 = { transfer_state = 1013 }
 				set_global_flag = pfp_himalayas_sikkim_flag
 			}
 		}

@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = BOT #Botswana
-				original_tag = NMB #Namibia
 				original_tag = SAF #South Africa
 				original_tag = P36 #South Africa
 			}
@@ -14,11 +13,6 @@ pfp_category = {
 			custom_trigger_tooltip = {
 				tooltip = pfp_south_africa_required_states_transvaal
 				controls_state = 275 #Transvaal
-			}
-			#Khomas
-			custom_trigger_tooltip = {
-				tooltip = pfp_south_africa_required_states_khomas
-				controls_state = 541 #Khomas
 			}
 			#Bechuanaland
 			custom_trigger_tooltip = {
@@ -34,21 +28,6 @@ pfp_category = {
 			custom_trigger_tooltip = {
 				tooltip = pfp_south_africa_required_states_natal
 				controls_state = 719 #Natal
-			}
-			#Karas
-			custom_trigger_tooltip = {
-				tooltip = pfp_south_africa_required_states_karas
-				controls_state = 893 #Karas
-			}
-			#Kunene
-			custom_trigger_tooltip = {
-				tooltip = pfp_south_africa_required_states_kunene
-				controls_state = 894 #Kunene
-			}
-			#Otjozondjupa
-			custom_trigger_tooltip = {
-				tooltip = pfp_south_africa_required_states_otjozondjupa
-				controls_state = 895 #Otjozondjupa
 			}
 			#Orange Free State
 			custom_trigger_tooltip = {
@@ -74,7 +53,6 @@ pfp_category = {
 			}
 			NOT = {
 				original_tag = BOT #Botswana
-				original_tag = NMB #Namibia
 				original_tag = SAF #South Africa
 				original_tag = P36 #South Africa
 				has_global_flag = pfp_south_africa_flag

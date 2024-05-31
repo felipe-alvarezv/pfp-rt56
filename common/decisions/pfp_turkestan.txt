@@ -1,5 +1,5 @@
 pfp_category = {
-	pfp_central_asia = {
+	pfp_turkestan = {
 		allowed = {
 			NOT = {
 				original_tag = BUK #Bukhara
@@ -10,119 +10,119 @@ pfp_category = {
 				original_tag = TAJ #Tajikistan
 				original_tag = TMS #Turkmenistan
 				original_tag = UZB #Uzbekistan
-				original_tag = P51 #Central Asia
+				original_tag = P51 #Turkestan
 			}
 		}
 		available = {
 			is_subject = no
 			#Akhtubinsk
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_akhtubinsk
+				tooltip = pfp_turkestan_required_states_akhtubinsk
 				controls_state = 402 #Akhtubinsk
 			}
 			#Kyzyl Orda
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_kyzyl_orda
+				tooltip = pfp_turkestan_required_states_kyzyl_orda
 				controls_state = 404 #Kyzyl Orda
 			}
 			#Tashkent
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_tashkent
+				tooltip = pfp_turkestan_required_states_tashkent
 				controls_state = 405 #Tashkent
 			}
 			#Guryev
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_guryev
+				tooltip = pfp_turkestan_required_states_guryev
 				controls_state = 406 #Guryev
 			}
 			#Ural'sk
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_uralsk
+				tooltip = pfp_turkestan_required_states_uralsk
 				controls_state = 407 #Ural'sk
 			}
 			#Kostanay
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_kostanay
+				tooltip = pfp_turkestan_required_states_kostanay
 				controls_state = 583 #Kostanay
 			}
 			#Ashkhabad
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_ashkhabad
+				tooltip = pfp_turkestan_required_states_ashkhabad
 				controls_state = 584 #Ashkhabad
 			}
 			#Navoi
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_navoi
+				tooltip = pfp_turkestan_required_states_navoi
 				controls_state = 585 #Navoi
 			}
 			#Alma-Ata
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_alma_ata
+				tooltip = pfp_turkestan_required_states_alma_ata
 				controls_state = 586 #Alma-Ata
 			}
 			#Ust Urt
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_ust_urt
+				tooltip = pfp_turkestan_required_states_ust_urt
 				controls_state = 587 #Ust Urt
 			}
 			#Semipalatinsk
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_semipalatinsk
+				tooltip = pfp_turkestan_required_states_semipalatinsk
 				controls_state = 588 #Semipalatinsk
 			}
 			#Ayaguz
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_ayaguz
+				tooltip = pfp_turkestan_required_states_ayaguz
 				controls_state = 589 #Ayaguz
 			}
 			#Akmolinsk
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_akmolinsk
+				tooltip = pfp_turkestan_required_states_akmolinsk
 				controls_state = 590 #Akmolinsk
 			}
 			#Pamir
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_pamir
+				tooltip = pfp_turkestan_required_states_pamir
 				controls_state = 732 #Pamir
 			}
 			#Stalinabad
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_stalinabad
+				tooltip = pfp_turkestan_required_states_stalinabad
 				controls_state = 742 #Stalinabad
 			}
 			#Karakalpakstan
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_karakalpakstan
+				tooltip = pfp_turkestan_required_states_karakalpakstan
 				controls_state = 823 #Karakalpakstan
 			}
 			#Bukhara
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_bukhara
+				tooltip = pfp_turkestan_required_states_bukhara
 				controls_state = 830 #Bukhara
 			}
 			#Khiva
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_khiva
+				tooltip = pfp_turkestan_required_states_khiva
 				controls_state = 831 #Khiva
 			}
 			#Tashauz
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_tashauz
+				tooltip = pfp_turkestan_required_states_tashauz
 				controls_state = 832 #Tashauz
 			}
 			#Karagandy
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_karagandy
+				tooltip = pfp_turkestan_required_states_karagandy
 				controls_state = 881 #Karagandy
 			}
 			#Pavlodar
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_pavlodar
+				tooltip = pfp_turkestan_required_states_pavlodar
 				controls_state = 882 #Pavlodar
 			}
 			#Asgabat
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_asia_required_states_asgabat
+				tooltip = pfp_turkestan_required_states_asgabat
 				controls_state = 985 #Asgabat
 			}
 		}
@@ -143,19 +143,19 @@ pfp_category = {
 				original_tag = TAJ #Tajikistan
 				original_tag = TMS #Turkmenistan
 				original_tag = UZB #Uzbekistan
-				original_tag = P51 #Central Asia
-				has_global_flag = pfp_central_asia_flag
+				original_tag = P51 #Turkestan
+				has_global_flag = pfp_turkestan_flag
 			}
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_central_asia_coring_states
-			custom_effect_tooltip = pfp_central_asia_transfer_states
-			custom_effect_tooltip = pfp_central_asia_puppet
+			custom_effect_tooltip = pfp_turkestan_coring_states
+			custom_effect_tooltip = pfp_turkestan_transfer_states
+			custom_effect_tooltip = pfp_turkestan_puppet
 
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
 				set_variable = { is_creating_formable_puppet = yes }
-				pfp_release_central_asia = yes
+				pfp_release_turkestan = yes
 
 				if = {
 					limit = { has_dlc = "Together for Victory" }

@@ -1,7 +1,7 @@
-#Scripted effect to release Anglo-Celtic Isles (P02)
-pfp_release_anglo_celtic_isles = {
+#Scripted effect to release Great Britain and Ireland (P02)
+pfp_release_great_britain_and_ireland = {
 	hidden_effect = {
-		#Add cores to Anglo-Celtic Isles territory
+		#Add cores to Great Britain and Ireland territory
 		113 = { add_core_of = P02 } #Leinster
 		119 = { add_core_of = P02 } #Northern Ireland
 		120 = { add_core_of = P02 } #Scottish Highlands
@@ -36,10 +36,10 @@ pfp_release_anglo_celtic_isles = {
 		P02 = { transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
-		set_global_flag = pfp_anglo_celtic_isles_flag
+		set_global_flag = pfp_great_britain_and_ireland_flag
 
 		#Set the released country flag for overlord
-		ROOT = { set_country_flag = pfp_anglo_celtic_isles_country_flag }
+		ROOT = { set_country_flag = pfp_great_britain_and_ireland_country_flag }
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P02 }

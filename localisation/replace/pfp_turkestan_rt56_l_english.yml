@@ -1,0 +1,6 @@
+﻿#Turkestan - P51 - Localisation
+l_english:
+	#Decisions Localisation
+	pfp_turkestan_required_states_ashkhabad:0 "Controls §YTurkmenia§!."
+	pfp_turkestan_required_states_asgabat:0 "Controls §YAşgabat§!."
+	pfp_turkestan_required_states_stalinabad:0 "Controls §YTajikistan§!."

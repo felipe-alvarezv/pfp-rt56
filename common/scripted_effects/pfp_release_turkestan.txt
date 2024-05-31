@@ -1,7 +1,7 @@
-#Scripted effect to release Central Asia (P51)
-pfp_release_central_asia = {
+#Scripted effect to release Turkestan (P51)
+pfp_release_turkestan = {
 	hidden_effect = {
-		#Add cores to Central Asian territory
+		#Add cores to Turkestann territory
 		402 = { add_core_of = P51 } #Akhtubinsk
 		404 = { add_core_of = P51 } #Kyzyl Orda
 		405 = { add_core_of = P51 } #Tashkent
@@ -35,10 +35,10 @@ pfp_release_central_asia = {
 		P51 = { transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
-		set_global_flag = pfp_central_asia_flag
+		set_global_flag = pfp_turkestan_flag
 
 		#Set the released country flag for overlord
-		ROOT = { set_country_flag = pfp_central_asia_country_flag }
+		ROOT = { set_country_flag = pfp_turkestan_country_flag }
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P51 }

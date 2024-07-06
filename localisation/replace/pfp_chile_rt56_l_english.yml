@@ -1,0 +1,6 @@
+﻿#Chile - P54 - Localisation
+l_english:
+	#Decisions Information
+	pfp_chile_tucuman:0 "Transfer Tucuman"
+	pfp_chile_coring_states_tucuman:0 "§YChile§! gains core on §YTucuman§!.\n"
+	pfp_chile_transfer_states_tucuman:0 "§YChile§! becomes owner and controller of §YTucuman§!.\n"

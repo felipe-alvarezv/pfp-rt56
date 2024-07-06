@@ -164,6 +164,9 @@ pfp_puppet_management = {
 			}
 			NOT = { has_global_flag = pfp_germany_schleswig_flag }
 		}
+		highlight_states = {
+			highlight_state_targets = { state = 998 } #Schleswig
+		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_germany_coring_states_schleswig
 			custom_effect_tooltip = pfp_germany_transfer_states_schleswig

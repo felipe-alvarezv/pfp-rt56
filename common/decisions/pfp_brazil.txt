@@ -1,0 +1,185 @@
+pfp_category = {
+	pfp_brazil = {
+		allowed = {
+			NOT = {
+				original_tag = BRA #Brazil
+				original_tag = P57 #PFP Brazil
+			}
+		}
+		available = {
+			is_subject = no
+			#Mato Grosso
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_mato_grosso
+				has_full_control_of_state = 280 #Mato Grosso
+			}
+			#Amazonas
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_amazonas
+				has_full_control_of_state = 495 #Amazonas
+			}
+			#Minas Gerais
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_minas_gerais
+				has_full_control_of_state = 496 #Minas Gerais
+			}
+			#Para
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_para
+				has_full_control_of_state = 497 #Para
+			}
+			#Rio Grande do Norte
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_rio_grande_do_norte
+				has_full_control_of_state = 498 #Rio Grande do Norte
+			}
+			#Bahia
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_bahia
+				has_full_control_of_state = 499 #Bahia
+			}
+			#Rio de Janeiro
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_rio_de_janeiro
+				has_full_control_of_state = 500 #Rio de Janeiro
+			}
+			#Sao Paulo
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_sao_paulo
+				has_full_control_of_state = 501 #Sao Paulo
+			}
+			#Rio Grande do Sul
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_rio_grande_do_sul
+				has_full_control_of_state = 502 #Rio Grande do Sul
+			}
+			#Santa Catarina
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_santa_catarina
+				has_full_control_of_state = 503 #Santa Catarina
+			}
+			#Punta Pora
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_punta_pora
+				has_full_control_of_state = 504 #Punta Pora
+			}
+			#Goias
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_goias
+				has_full_control_of_state = 505 #Goias
+			}
+			#Espirito Santo
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_espirito_santo
+				has_full_control_of_state = 999 #Espirito Santo
+			}
+			#Piaui
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_piaui
+				has_full_control_of_state = 1000 #Piaui
+			}
+			#Maranhao
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_maranhao
+				has_full_control_of_state = 1001 #Maranhao
+			}
+			#Parana
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_parana
+				has_full_control_of_state = 1002 #Parana
+			}
+			#Ceara
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_ceara
+				has_full_control_of_state = 1003 #Ceara
+			}
+			#Paraiba
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_paraiba
+				has_full_control_of_state = 1004 #Paraiba
+			}
+			#Pernambuco
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_pernambuco
+				has_full_control_of_state = 1005 #Pernambuco
+			}
+			#Alagoas
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_alagoas
+				has_full_control_of_state = 1006 #Alagoas
+			}
+			#Acre
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_acre
+				has_full_control_of_state = 1052 #Acre
+			}
+			#Amapa
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_amapa
+				has_full_control_of_state = 1056 #Amapa
+			}
+			#Tocantins
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_tocantins
+				has_full_control_of_state = 1057 #Tocatins
+			}
+			#Guapore
+			custom_trigger_tooltip = {
+				tooltip = pfp_brazil_required_states_guapore
+				has_full_control_of_state = 1058 #Guapore
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 500 #Rio de Janeiro
+				has_full_control_of_state = 501 #Sao Paulo
+			}
+			NOT = { has_global_flag = pfp_brazil_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 280 #Mato Grosso
+				state = 495 #Amazonas
+				state = 496 #Minas Gerais
+				state = 497 #Para
+				state = 498 #Rio Grande do Norte
+				state = 499 #Bahia
+				state = 500 #Rio de Janeiro
+				state = 501 #Sao Paulo
+				state = 502 #Rio Grande do Sul
+				state = 503 #Santa Catarina
+				state = 504 #Punta Pora
+				state = 505 #Goias
+				state = 999 #Espirito Santo
+				state = 1000 #Piaui
+				state = 1001 #Maranhao
+				state = 1002 #Parana
+				state = 1003 #Ceara
+				state = 1004 #Paraiba
+				state = 1005 #Pernambuco
+				state = 1006 #Alagoas
+				state = 1052 #Acre
+				state = 1056 #Amapa
+				state = 1057 #Tocatins
+				state = 1058 #Guapore
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_brazil_coring_states
+			custom_effect_tooltip = pfp_brazil_transfer_states
+			custom_effect_tooltip = pfp_brazil_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_brazil = yes
+				set_autonomy = { target = P57 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P57 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

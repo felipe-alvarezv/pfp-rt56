@@ -1,4 +1,4 @@
-pfp_category_territories_north_germany = {
+pfp_puppet_management = {
 	pfp_north_germany_moselland = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view

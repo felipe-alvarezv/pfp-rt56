@@ -1,4 +1,4 @@
-pfp_category_territories_oceania = {
+pfp_puppet_management = {
 	pfp_oceania_easter_island = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view

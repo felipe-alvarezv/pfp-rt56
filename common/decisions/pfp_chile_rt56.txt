@@ -1,0 +1,367 @@
+pfp_puppet_management = {
+	pfp_chile_tucuman = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P54 } 
+			has_global_flag = pfp_chile_flag
+			has_full_control_of_state = 508 #Tucuman
+	
+			508 = { #Tucuman
+				NOT = { is_core_of = FROM }
+			}
+	
+			P54 = { #Chile
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_chile_tucuman_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 508 } #Tucuman
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_chile_coring_states_tucuman
+			custom_effect_tooltip = pfp_chile_transfer_states_tucuman
+			hidden_effect = {
+				#Tucuman
+				508 = { add_core_of = P54 }
+				P54 = { transfer_state = 508 }
+				set_global_flag = pfp_chile_tucuman_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_chile_aysen = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P54 } 
+			has_global_flag = pfp_chile_flag
+			has_full_control_of_state = 1062 #Aysen
+	
+			1062 = { #Aysen
+				NOT = { is_core_of = FROM }
+			}
+	
+			P54 = { #Chile
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_chile_aysen_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1062 } #Aysen
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_chile_coring_states_aysen
+			custom_effect_tooltip = pfp_chile_transfer_states_aysen
+			hidden_effect = {
+				#Aysen
+				1062 = { add_core_of = P54 }
+				P54 = { transfer_state = 1062 }
+				set_global_flag = pfp_chile_aysen_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_chile_araucania = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P54 } 
+			has_global_flag = pfp_chile_flag
+			has_full_control_of_state = 1063 #Araucania
+	
+			1063 = { #Araucania
+				NOT = { is_core_of = FROM }
+			}
+	
+			P54 = { #Chile
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_chile_araucania_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1063 } #Araucania
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_chile_coring_states_araucania
+			custom_effect_tooltip = pfp_chile_transfer_states_araucania
+			hidden_effect = {
+				#Araucania
+				1063 = { add_core_of = P54 }
+				P54 = { transfer_state = 1063 }
+				set_global_flag = pfp_chile_araucania_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_chile_tierra_del_fuego = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P54 } 
+			has_global_flag = pfp_chile_flag
+			has_full_control_of_state = 1065 #Tierra del Fuego
+	
+			1065 = { #Tierra del Fuego
+				NOT = { is_core_of = FROM }
+			}
+	
+			P54 = { #Chile
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_chile_tierra_del_fuego_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1065 } #Tierra del Fuego
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_chile_coring_states_tierra_del_fuego
+			custom_effect_tooltip = pfp_chile_transfer_states_tierra_del_fuego
+			hidden_effect = {
+				#Tierra del Fuego
+				1065 = { add_core_of = P54 }
+				P54 = { transfer_state = 1065 }
+				set_global_flag = pfp_chile_tierra_del_fuego_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_chile_santa_cruz = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P54 } 
+			has_global_flag = pfp_chile_flag
+			has_full_control_of_state = 1066 #Santa Cruz
+	
+			1066 = { #Santa Cruz
+				NOT = { is_core_of = FROM }
+			}
+	
+			P54 = { #Chile
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_chile_santa_cruz_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1066 } #Santa Cruz
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_chile_coring_states_santa_cruz
+			custom_effect_tooltip = pfp_chile_transfer_states_santa_cruz
+			hidden_effect = {
+				#Santa Cruz
+				1066 = { add_core_of = P54 }
+				P54 = { transfer_state = 1066 }
+				set_global_flag = pfp_chile_santa_cruz_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_chile_chubut = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P54 } 
+			has_global_flag = pfp_chile_flag
+			has_full_control_of_state = 1067 #Chubut
+	
+			1067 = { #Chubut
+				NOT = { is_core_of = FROM }
+			}
+	
+			P54 = { #Chile
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_chile_chubut_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1067 } #Chubut
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_chile_coring_states_chubut
+			custom_effect_tooltip = pfp_chile_transfer_states_chubut
+			hidden_effect = {
+				#Chubut
+				1067 = { add_core_of = P54 }
+				P54 = { transfer_state = 1067 }
+				set_global_flag = pfp_chile_chubut_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_chile_san_luis_y_la_pampa = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P54 } 
+			has_global_flag = pfp_chile_flag
+			has_full_control_of_state = 1070 #San Luis y La Pampa
+	
+			1070 = { #San Luis y La Pampa
+				NOT = { is_core_of = FROM }
+			}
+	
+			P54 = { #Chile
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_chile_san_luis_y_la_pampa_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1070 } #San Luis y La Pampa
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_chile_coring_states_san_luis_y_la_pampa_rt56
+			custom_effect_tooltip = pfp_chile_transfer_states_san_luis_y_la_pampa_rt56
+			hidden_effect = {
+				#San Luis y La Pampa
+				1070 = { add_core_of = P54 }
+				P54 = { transfer_state = 1070 }
+				set_global_flag = pfp_chile_san_luis_y_la_pampa_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_chile_san_juan_y_la_rioja = {
+		visible = { original_tag = PFP }
+		complete_effect = { }
+		ai_will_do = { factor = 0 }
+	}
+	pfp_chile_tacna_moquegua = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P54 } 
+			has_global_flag = pfp_chile_flag
+			has_full_control_of_state = 1061 #Tacna-Moquegua
+	
+			1061 = { #Tacna-Moquegua
+				NOT = { is_core_of = FROM }
+			}
+	
+			P54 = { #Chile
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_chile_tacna_moquegua_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1061 } #Tacna-Moquegua
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_chile_coring_states_tacna_moquegua
+			custom_effect_tooltip = pfp_chile_transfer_states_tacna_moquegua
+			hidden_effect = {
+				#Tacna-Moquegua
+				1061 = { add_core_of = P54 }
+				P54 = { transfer_state = 1061 }
+				set_global_flag = pfp_chile_tacna_moquegua_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_chile_easter_island = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P54 } 
+			has_global_flag = pfp_chile_flag
+			has_full_control_of_state = 1074 #Easter Island
+	
+			1074 = { #Easter Island
+				NOT = { is_core_of = FROM }
+			}
+	
+			P54 = { #Chile
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_chile_easter_island_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1074 } #Easter Island
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_chile_coring_states_easter_island
+			custom_effect_tooltip = pfp_chile_transfer_states_easter_island
+			hidden_effect = {
+				#Easter Island
+				1074 = { add_core_of = P54 }
+				P54 = { transfer_state = 1074 }
+				set_global_flag = pfp_chile_easter_island_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_chile_arica_y_tarapaca = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P54 } 
+			has_global_flag = pfp_chile_flag
+			has_full_control_of_state = 1064 #Arica y Tarapaca
+	
+			1064 = { #Arica y Tarapaca
+				NOT = { is_core_of = FROM }
+			}
+	
+			P54 = { #Chile
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_chile_arica_y_tarapaca_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1064 } #Arica y Tarapaca
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_chile_coring_states_arica_y_tarapaca
+			custom_effect_tooltip = pfp_chile_transfer_states_arica_y_tarapaca
+			hidden_effect = {
+				#Arica y Tarapaca
+				1064 = { add_core_of = P54 }
+				P54 = { transfer_state = 1064 }
+				set_global_flag = pfp_chile_arica_y_tarapaca_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

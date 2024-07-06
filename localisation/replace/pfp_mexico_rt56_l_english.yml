@@ -1,0 +1,10 @@
+﻿#Mexico - P58 - Localisation
+l_english:
+#Decisions Information
+pfp_mexico_required_states_sinaloa:0 "Controls §YSinaloa§!."
+pfp_mexico_required_states_zacatecas:0 "Controls §YZacatecas§!."
+pfp_mexico_required_states_san_luis_potosi:0 "Controls §YSan Luis Potosi§!."
+pfp_mexico_required_states_puebla:0 "Controls §YPuebla§!."
+pfp_mexico_northern_panama:0 "Transfer Northern Panama"
+pfp_mexico_coring_states_northern_panama:0 "§YMexico§! gains core on §YNorthern Panama§!.\n"
+pfp_mexico_transfer_states_northern_panama:0 "§YMexico§! becomes owner and controller of §YNorthern Panama§!.\n"

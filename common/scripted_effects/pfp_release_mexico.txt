@@ -1,0 +1,39 @@
+#Scripted effect to release Mexico (P58)
+pfp_release_mexico = {
+	hidden_effect = {
+		#Add cores to Mexican territory
+		277 = { add_core_of = P58 } #Mexico City
+		474 = { add_core_of = P58 } #Yucatan
+		475 = { add_core_of = P58 } #Chiapas
+		476 = { add_core_of = P58 } #Oaxaca
+		477 = { add_core_of = P58 } #Veracruz
+		478 = { add_core_of = P58 } #Jalisco
+		479 = { add_core_of = P58 } #Tamauolipas
+		480 = { add_core_of = P58 } #Coahuila
+		481 = { add_core_of = P58 } #Sinaloa
+		482 = { add_core_of = P58 } #Chihuahua
+		483 = { add_core_of = P58 } #Sonora
+		484 = { add_core_of = P58 } #Baja California
+		485 = { add_core_of = P58 } #Guerrero
+		929 = { add_core_of = P58 } #Durango
+		930 = { add_core_of = P58 } #Zacatecas
+		931 = { add_core_of = P58 } #San Luis Potosi
+		932 = { add_core_of = P58 } #Puebla
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P58 }
+			transfer_state_to = P58
+		}
+
+		#Transfer all technology to formable puppet
+		P58 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_mexico_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P58 }
+		news_event = { id = pfp_news.01 }
+	}
+}

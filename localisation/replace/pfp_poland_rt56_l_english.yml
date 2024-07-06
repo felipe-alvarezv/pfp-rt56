@@ -1,7 +1,9 @@
 ﻿#Poland - P34 - Localisation
 l_english:
 	#Decisions Information
-	pfp_poland_required_states_suwalki:0 "Controls §YSuwalki§!."
+	pfp_poland_suwalki:0 "Transfer Suwalki"
+	pfp_poland_coring_states_suwalki:0 "§YPoland§! gains core on §YSuwalki§!.\n"
+	pfp_poland_transfer_states_suwalki:0 "§YPoland§! becomes owner and controller of §YSuwalki§!.\n"
 	pfp_poland_grodno:0 "Transfer Grodno"
 	pfp_poland_coring_states_grodno:0 "§YPoland§! gains core on §YGrodno§!.\n"
 	pfp_poland_transfer_states_grodno:0 "§YPoland§! becomes owner and controller of §YGrodno§!.\n"

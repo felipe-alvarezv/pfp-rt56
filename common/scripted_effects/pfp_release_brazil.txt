@@ -1,0 +1,49 @@
+#Scripted effect to release Brazil (P57)
+pfp_release_brazil = {
+	hidden_effect = {
+		#Add cores to Brazilian territory
+		280 = { add_core_of = P57 } #Mato Grosso
+		495 = { add_core_of = P57 } #Amazonas
+		496 = { add_core_of = P57 } #Minas Gerais
+		497 = { add_core_of = P57 } #Para
+		498 = { add_core_of = P57 } #Rio Grande do Norte
+		499 = { add_core_of = P57 } #Bahia
+		500 = { add_core_of = P57 } #Rio de Janeiro
+		501 = { add_core_of = P57 } #Sao Paulo
+		502 = { add_core_of = P57 } #Rio Grande do Sul
+		503 = { add_core_of = P57 } #Santa Catarina
+		504 = { add_core_of = P57 } #Punta Pora
+		505 = { add_core_of = P57 } #Goias
+		999 = { add_core_of = P57 } #Espirito Santo
+		1000 = { add_core_of = P57 } #Piaui
+		1001 = { add_core_of = P57 } #Maranhao
+		1002 = { add_core_of = P57 } #Parana
+		1003 = { add_core_of = P57 } #Ceara
+		1004 = { add_core_of = P57 } #Paraiba
+		1005 = { add_core_of = P57 } #Pernambuco
+		1006 = { add_core_of = P57 } #Alagoas
+		1052 = { add_core_of = P57 } #Acre
+		1056 = { add_core_of = P57 } #Amapa
+		1057 = { add_core_of = P57 } #Tocatins
+		1058 = { add_core_of = P57 } #Guapore
+
+		#Impassable Amazon Territories
+		1072 = { add_core_of = P57 } #Amazon
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P57 }
+			transfer_state_to = P57
+		}
+
+		#Transfer all technology to formable puppet
+		P57 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_brazil_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P57 }
+		news_event = { id = pfp_news.01 }
+	}
+}

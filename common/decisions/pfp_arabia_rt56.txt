@@ -345,7 +345,7 @@ pfp_puppet_management = {
 			NOT = { has_global_flag = pfp_arabia_west_bank_flag }
 		}
 		highlight_states = {
-			highlight_state_targets = { state = 291 } #West Bank
+			highlight_state_targets = { state = 966 } #West Bank
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_arabia_coring_states_west_bank

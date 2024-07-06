@@ -1,0 +1,83 @@
+pfp_category = {
+	pfp_rio_de_la_plata = {
+		allowed = {
+			NOT = {
+				original_tag = ARG #Argentina
+				original_tag = P55 #PFP Rio de la Plata
+			}
+		}
+		available = {
+			is_subject = no
+			#Buenos Aires
+			custom_trigger_tooltip = {
+				tooltip = pfp_rio_de_la_plata_required_states_buenos_aires
+				has_full_control_of_state = 278 #Buenos Aires
+			}
+			#Tucuman
+			custom_trigger_tooltip = {
+				tooltip = pfp_rio_de_la_plata_required_states_tucuman
+				has_full_control_of_state = 508 #Tucuman
+			}
+			#Chaco Austral
+			custom_trigger_tooltip = {
+				tooltip = pfp_rio_de_la_plata_required_states_chaco_austral
+				has_full_control_of_state = 509 #Chaco Austral
+			}
+			#Region Mesopotamica
+			custom_trigger_tooltip = {
+				tooltip = pfp_rio_de_la_plata_required_states_region_mesopotamica
+				has_full_control_of_state = 510 #Region Mesopotamica
+			}
+			#Santa Fe
+			custom_trigger_tooltip = {
+				tooltip = pfp_rio_de_la_plata_required_states_santa_fe
+				has_full_control_of_state = 1068 #Santa Fe
+			}
+			#Formosa
+			custom_trigger_tooltip = {
+				tooltip = pfp_rio_de_la_plata_required_states_formosa
+				has_full_control_of_state = 1069 #Formosa
+			}
+			#Los Andes
+			custom_trigger_tooltip = {
+				tooltip = pfp_rio_de_la_plata_required_states_los_andes
+				has_full_control_of_state = 1071 #Los Andes
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 278 #Buenos Aires
+				has_full_control_of_state = 508 #Tucuman
+			}
+			NOT = { has_global_flag = pfp_rio_de_la_plata_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 278 #Buenos Aires
+				state = 508 #Tucuman
+				state = 509 #Chaco Austral
+				state = 510 #Region Mesopotamica
+				state = 1068 #Santa Fe
+				state = 1069 #Formosa
+				state = 1071 #Los Andes
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_rio_de_la_plata_coring_states
+			custom_effect_tooltip = pfp_rio_de_la_plata_transfer_states
+			custom_effect_tooltip = pfp_rio_de_la_plata_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_rio_de_la_plata = yes
+				set_autonomy = { target = P55 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P55 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

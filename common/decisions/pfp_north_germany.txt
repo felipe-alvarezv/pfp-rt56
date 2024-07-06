@@ -10,11 +10,6 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
-			#Ostrhineland
-			custom_trigger_tooltip = {
-				tooltip = pfp_north_germany_required_states_ostrhineland
-				controls_state = 989 #Ostrhineland
-			}
 			#Rhineland
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_rhineland
@@ -90,19 +85,37 @@ pfp_category = {
 				tooltip = pfp_north_germany_required_states_ostmark
 				controls_state = 68 #Ostmark
 			}
+			#Ostrhineland
+			custom_trigger_tooltip = {
+				tooltip = pfp_north_germany_required_states_ostrhineland
+				controls_state = 989 #Ostrhineland
+			}
 		}
 		visible = {
-			OR = {
-				controls_state = 64 #Brandenburg
-			}
-			NOT = {
-				original_tag = DDR #East Germany
-				original_tag = GER #Germany
-				original_tag = WGR #West Germany
-				original_tag = P19 #North Germany
-				has_global_flag = pfp_north_germany_flag
+			has_full_control_of_state = 64 #Brandenburg
+			NOT = { has_global_flag = pfp_north_germany_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 51 #Rhineland
+				state = 55 #Hessen
+				state = 56 #Weser-Ems
+				state = 57 #Westfalen
+				state = 58 #Holstein
+				state = 59 #Hannover
+				state = 60 #Thuringen
+				state = 61 #Mecklenburg
+				state = 62 #Vorpommern
+				state = 63 #Hinterpommern
+				state = 64 #Brandenburg
+				state = 65 #Sachsen
+				state = 66 #Niederschlesien
+				state = 67 #Oberschlesien
+				state = 68 #Ostmark
+				state = 989 #Ostrhineland
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_north_germany_coring_states
 			custom_effect_tooltip = pfp_north_germany_transfer_states
@@ -110,21 +123,14 @@ pfp_category = {
 
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
-			set_variable = { is_creating_formable_puppet = yes }
-			pfp_release_north_germany = yes
-
-			if = {
-				limit = { has_dlc = "Together for Victory" }
+				pfp_release_north_germany = yes
 				set_autonomy = { target = P19 autonomy_state = autonomy_military_administration }
-			}
-			else = {
-				puppet = P19
-			}
-			clear_variable = is_creating_formable_puppet
+				
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P19 }
+				pfp_set_generic_portrait = yes
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 }

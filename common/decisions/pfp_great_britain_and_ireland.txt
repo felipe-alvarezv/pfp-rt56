@@ -4,10 +4,7 @@ pfp_category = {
         NOT = {
             original_tag = ENG #England
             original_tag = IRE #Ireland
-            original_tag = NIR #Northern Ireland
-            original_tag = SCO #Scotland
-            original_tag = WLS #Wales
-            original_tag = P02 #Great Britain and Ireland
+            original_tag = P02 #PFP Great Britain and Ireland
             }
         }
         available = {
@@ -15,136 +12,156 @@ pfp_category = {
             #Leinster
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_leinster
-                controls_state = 113 #Leinster
+                has_full_control_of_state = 113 #Leinster
             }
             #Northern Ireland
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_northern_ireland
-                controls_state = 119 #Northern Ireland
+                has_full_control_of_state = 119 #Northern Ireland
             }
             #Scottish Highlands
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_scottish_highlands
-                controls_state = 120 #Scottish Highlands
+                has_full_control_of_state = 120 #Scottish Highlands
             }
             #Lothian
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_lothian
-                controls_state = 121 #Lothian
+                has_full_control_of_state = 121 #Lothian
             }
             #Wales
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_wales
-                controls_state = 122 #Wales
+                has_full_control_of_state = 122 #Wales
             }
             #South-West England
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_south_west_england
-                controls_state = 123 #South-West England
+                has_full_control_of_state = 123 #South-West England
             }
             #East Anglia
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_east_anglia
-                controls_state = 125 #East Anglia
+                has_full_control_of_state = 125 #East Anglia
             }
             #Greater London Area
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_greater_london_area
-                controls_state = 126 #Greater London Area
+                has_full_control_of_state = 126 #Greater London Area
             }
             #Sussex
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_sussex
-                controls_state = 127 #Sussex
+                has_full_control_of_state = 127 #Sussex
             }
             #West Midlands
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_west_midlands
-                controls_state = 128 #West Midlands
+                has_full_control_of_state = 128 #West Midlands
             }
             #East Midlands
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_east_midlands
-                controls_state = 129 #East Midlands
+                has_full_control_of_state = 129 #East Midlands
             }
             #Yorkshire
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_yorkshire
-                controls_state = 130 #Yorkshire
+                has_full_control_of_state = 130 #Yorkshire
             }
             #Northumberland
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_northumberland
-                controls_state = 131 #Northumberland
+                has_full_control_of_state = 131 #Northumberland
             }
             #Lancashire
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_lancashire
-                controls_state = 132 #Lancashire
+                has_full_control_of_state = 132 #Lancashire
             }
             #Lanark
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_lanark
-                controls_state = 133 #Lanark
+                has_full_control_of_state = 133 #Lanark
             }
             #Connaught
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_connaught
-                controls_state = 134 #Connaught
+                has_full_control_of_state = 134 #Connaught
             }
             #Munster
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_munster
-                controls_state = 135 #Munster
+                has_full_control_of_state = 135 #Munster
             }
             #Aberdeenshire
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_aberdeenshire
-                controls_state = 136 #Aberdeenshire
+                has_full_control_of_state = 136 #Aberdeenshire
             }
             #Gloucestershire
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_gloucestershire
-                controls_state = 338 #Gloucestershire
+                has_full_control_of_state = 338 #Gloucestershire
             }
-            #Cumbria
-            custom_trigger_tooltip = {
-                tooltip = pfp_great_britain_and_ireland_required_states_cumbria
-                controls_state = 1041 #Cumbria
-            }
-            #Isle of Man
-            custom_trigger_tooltip = {
-                tooltip = pfp_great_britain_and_ireland_required_states_isle_of_man
-                controls_state = 1042 #Isle of Man
-            }
-            #Shetland Islands
-            custom_trigger_tooltip = {
+             #Shetland Islands
+             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_shetland_islands
-                controls_state = 970 #Shetland Islands
+                has_full_control_of_state = 970 #Shetland Islands
             }
             #Orkney
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_and_ireland_required_states_orkney
-                controls_state = 971 #Orkney
+                has_full_control_of_state = 971 #Orkney
+            }
+            #Cumbria
+            custom_trigger_tooltip = {
+                tooltip = pfp_great_britain_and_ireland_required_states_cumbria
+                has_full_control_of_state = 1041 #Cumbria
+            }
+            #Isle of Man
+            custom_trigger_tooltip = {
+                tooltip = pfp_great_britain_and_ireland_required_states_isle_of_man
+                has_full_control_of_state = 1042 #Isle of Man
             }
         }
         visible = {
             OR = {
-                controls_state = 113 #Dublin
-                controls_state = 121 #Lothian
-                controls_state = 122 #Wales
-                controls_state = 126 #London
+                has_full_control_of_state = 113 #Dublin
+                has_full_control_of_state = 121 #Lothian
+                has_full_control_of_state = 122 #Wales
+                has_full_control_of_state = 126 #London
             }
-            NOT = {
-                original_tag = ENG #England
-                original_tag = IRE #Ireland
-                original_tag = NIR #Northern Ireland
-                original_tag = SCO #Scotland
-                original_tag = WLS #Wales
-                original_tag = P02 #Great Britain and Ireland
-                has_global_flag = pfp_great_britain_and_ireland_flag
-            }   
+            NOT = { has_global_flag = pfp_great_britain_and_ireland_flag }
         }
+        highlight_states = {
+			highlight_state_targets = { 
+				state = 113 #Leinster
+				state = 119 #Northern Ireland
+				state = 120 #Scottish Highlands
+				state = 121 #Lothian
+				state = 122 #Wales
+				state = 123 #South-West England
+				state = 125 #East Anglia
+				state = 126 #Greater London Area
+				state = 127 #Sussex
+				state = 128 #West Midlands
+				state = 129 #East Midlands
+				state = 130 #Yorkshire
+				state = 131 #Northumberland
+				state = 132 #Lancashire
+				state = 133 #Lanark
+				state = 134 #Connaught
+				state = 135 #Munster
+				state = 136 #Aberdeenshire
+				state = 338 #Gloucestershire
+                state = 970 #Shetland Islands
+                state = 971 #Orkney
+				state = 1041 #Cumbria
+				state = 1042 #Isle of Man
+			}
+		}
+		icon = generic_military
         complete_effect = {
             custom_effect_tooltip = pfp_great_britain_and_ireland_coring_states
             custom_effect_tooltip = pfp_great_britain_and_ireland_transfer_states
@@ -152,21 +169,14 @@ pfp_category = {
 
             #Create formable puppet with all its states and then puppet
             hidden_effect = {
-                set_variable = { is_creating_formable_puppet = yes }
                 pfp_release_great_britain_and_ireland = yes
-
-                if = {
-                    limit = { has_dlc = "Together for Victory" }
-                    set_autonomy = { target = P02 autonomy_state = autonomy_military_administration }
-                }
-                else = {
-                    puppet = P02
-                }
-                clear_variable = is_creating_formable_puppet
+                set_autonomy = { target = P02 autonomy_state = autonomy_military_administration }
+               
+                #Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P02 }
+				pfp_set_generic_portrait = yes
             }
         }
-        ai_will_do = {
-            factor = 0
-        }
+        ai_will_do = { factor = 0 }
     }
 }

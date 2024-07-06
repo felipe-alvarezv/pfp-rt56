@@ -1,69 +1,63 @@
-pfp_category_territories_indochina = {
+pfp_puppet_management = {
 	pfp_indochina_luang_prabang = {
-		allowed = {
-			NOT = {
-				original_tag = P16 #Indochina
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_indochina_required_states_luang_prabang
-				controls_state = 926 #Luang Prabang
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
-			P16 = {
+			has_full_control_of_state = 926 #Luang Prabang
+
+			926 = { #Luang Prabang
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #PFP Indochina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = P16 #Indochina
-				has_global_flag = pfp_indochina_luang_prabang_flag
-			}
+			NOT = { has_global_flag = pfp_indochina_luang_prabang_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 926 } #Luang Prabang
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_indochina_coring_states_luang_prabang
 			custom_effect_tooltip = pfp_indochina_transfer_states_luang_prabang
 			hidden_effect = {
-			#Luang Prabang
-			926 = { add_core_of = P16 }
-			P16 = { transfer_state = 926 }
-			set_global_flag = pfp_indochina_luang_prabang_flag
+				#Luang Prabang
+				926 = { add_core_of = P16 }
+				P16 = { transfer_state = 926 }
+				set_global_flag = pfp_indochina_luang_prabang_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_indochina_champasak = {
-		allowed = {
-		NOT = {
-		original_tag = P16 #Indochina
-		}
-		}
-		available = {
-		is_subject = no
-		custom_trigger_tooltip = {
-		tooltip = pfp_indochina_required_states_champasak
-		controls_state = 924 #Champasak
-		}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
-			P16 = {
+			has_full_control_of_state = 924 #Champasak
+
+			924 = { #Champasak
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #PFP Indochina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = P16 #Indochina
-				has_global_flag = pfp_indochina_champasak_flag
-			}
+			NOT = { has_global_flag = pfp_indochina_champasak_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 924 } #Champasak
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_indochina_coring_states_champasak
@@ -75,35 +69,31 @@ pfp_category_territories_indochina = {
 				set_global_flag = pfp_indochina_champasak_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_indochina_kedah = {
-		allowed = {
-			NOT = {
-			original_tag = P16 #Indochina
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-			tooltip = pfp_indochina_required_states_kedah
-			controls_state = 914 #Kedah
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
-			P16 = {
+			has_full_control_of_state = 914 #Kedah
+
+			914 = { #Kedah
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #PFP Indochina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = P16 #Indochina
-				has_global_flag = pfp_indochina_kedah_flag
-			}
+			NOT = { has_global_flag = pfp_indochina_kedah_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 914 } #Kedah
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_indochina_coring_states_kedah
@@ -115,35 +105,31 @@ pfp_category_territories_indochina = {
 				set_global_flag = pfp_indochina_kedah_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_indochina_pahang = {
-		allowed = {
-			NOT = {
-				original_tag = P16 #Indochina
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_indochina_required_states_pahang
-				controls_state = 915 #Pahang
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
-			P16 = {
+			has_full_control_of_state = 915 #Pahang
+
+			915 = { #Pahang
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #PFP Indochina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = P16 #Indochina
-				has_global_flag = pfp_indochina_pahang_flag
-			}
+			NOT = { has_global_flag = pfp_indochina_pahang_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 915 } #Pahang
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_indochina_coring_states_pahang
@@ -155,35 +141,31 @@ pfp_category_territories_indochina = {
 				set_global_flag = pfp_indochina_pahang_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_indochina_terengganu = {
-		allowed = {
-			NOT = {
-				original_tag = P16 #Indochina
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_indochina_required_states_terengganu
-				controls_state = 960 #Terengganu
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
-			P16 = {
+			has_full_control_of_state = 960 #Terengganu
+
+			960 = { #Terengganu
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #PFP Indochina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = P16 #Indochina
-				has_global_flag = pfp_indochina_terengganu_flag
-			}
+			NOT = { has_global_flag = pfp_indochina_terengganu_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 960 } #Terengganu
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_indochina_coring_states_terengganu
@@ -195,35 +177,31 @@ pfp_category_territories_indochina = {
 				set_global_flag = pfp_indochina_terengganu_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_indochina_johor = {
-		allowed = {
-			NOT = {
-			original_tag = P16 #Indochina
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_indochina_required_states_johor
-				controls_state = 951 #Johor
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
-			P16 = {
+			has_full_control_of_state = 951 #Johor
+			
+			951 = { #Johor
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #PFP Indochina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = P16 #Indochina
-				has_global_flag = pfp_indochina_johor_flag
-			}
+			NOT = { has_global_flag = pfp_indochina_johor_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 951 } #Johor
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_indochina_coring_states_johor
@@ -235,35 +213,31 @@ pfp_category_territories_indochina = {
 				set_global_flag = pfp_indochina_johor_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_indochina_riau_islands = {
-		allowed = {
-			NOT = {
-				original_tag = P16 #Indochina
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_indochina_required_states_riau_islands
-				controls_state = 909 #Riau Islands
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
-			P16 = {
+			has_full_control_of_state = 909 #Riau Islands
+
+			909 = { #Riau Islands
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #PFP Indochina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = P16 #Indochina
-				has_global_flag = pfp_indochina_riau_islands_flag
-			}
+			NOT = { has_global_flag = pfp_indochina_riau_islands_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 909 } #Riau Islands
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_indochina_coring_states_riau_islands
@@ -275,35 +249,31 @@ pfp_category_territories_indochina = {
 				set_global_flag = pfp_indochina_riau_islands_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_indochina_bago = {
-		allowed = {
-			NOT = {
-				original_tag = P16 #Indochina
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_indochina_required_states_bago
-				controls_state = 1020 #Bago
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
-			P16 = {
+			has_full_control_of_state = 1020 #Bago
+
+			1020 = { #Bago
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #PFP Indochina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = P16 #Indochina
-				has_global_flag = pfp_indochina_bago_flag
-			}
+			NOT = { has_global_flag = pfp_indochina_bago_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1020 } #Bago
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_indochina_coring_states_bago
@@ -315,35 +285,31 @@ pfp_category_territories_indochina = {
 				set_global_flag = pfp_indochina_bago_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_indochina_shanland = {
-		allowed = {
-			NOT = {
-				original_tag = P16 #Indochina
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_indochina_required_states_shanland
-				controls_state = 1018 #Shanland
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
-			P16 = {
+			has_full_control_of_state = 1018 #Shanland
+
+			1018 = { #Shanland
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #PFP Indochina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = P16 #Indochina
-				has_global_flag = pfp_indochina_shanland_flag
-			}
+			NOT = { has_global_flag = pfp_indochina_shanland_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1018 } #Shanland
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_indochina_coring_states_shanland
@@ -355,35 +321,31 @@ pfp_category_territories_indochina = {
 				set_global_flag = pfp_indochina_shanland_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_indochina_sagaing = {
-		allowed = {
-			NOT = {
-				original_tag = P16 #Indochina
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_indochina_required_states_sagaing
-				controls_state = 1019 #Sagaing
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P16 }
 			has_global_flag = pfp_indochina_flag
-			P16 = {
+			has_full_control_of_state = 1019 #Sagaing
+
+			1019 = { #Sagaing
+				NOT = { is_core_of = FROM }
+			}
+
+			P16 = { #PFP Indochina
 				OR = {
-				is_puppet_of = FROM
-				is_in_faction_with = FROM
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = P16 #Indochina
-				has_global_flag = pfp_indochina_sagaing_flag
-			}
+			NOT = { has_global_flag = pfp_indochina_sagaing_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1019 } #Sagaing
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_indochina_coring_states_sagaing
@@ -395,8 +357,6 @@ pfp_category_territories_indochina = {
 				set_global_flag = pfp_indochina_sagaing_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 }

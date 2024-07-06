@@ -5,7 +5,7 @@ pfp_category = {
 				original_tag = CAM #Cambodia
 				original_tag = LAO #Laos
 				original_tag = VIN #Vietnam
-				original_tag = P16 #Indochina
+				original_tag = P16 #PFP Indochina
 			}
 		}
 		available = {
@@ -52,14 +52,20 @@ pfp_category = {
 				controls_state = 671 #Tonkin
 				controls_state = 741 #Cambodia
 			}
-			NOT = {
-				original_tag = CAM #Cambodia
-				original_tag = LAO #Laos
-				original_tag = VIN #Vietnam
-				original_tag = P16 #Indochina
-				has_global_flag = pfp_indochina_flag
+			NOT = { has_global_flag = pfp_indochina_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 286 #Southern Indochina
+				state = 670 #Laos
+				state = 671 #Tonkin
+				state = 741 #Cambodia
+				state = 925 #Batambang
+				state = 927 #South Annam
+				state = 928 #North Annam
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_indochina_coring_states
 			custom_effect_tooltip = pfp_indochina_transfer_states
@@ -67,21 +73,14 @@ pfp_category = {
 
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
-				set_variable = { is_creating_formable_puppet = yes }
 				pfp_release_indochina = yes
-
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-					set_autonomy = { target = P16 autonomy_state = autonomy_military_administration }
-				}
-				else = {
-					puppet = P16
-				}
-				clear_variable = is_creating_formable_puppet
+				set_autonomy = { target = P16 autonomy_state = autonomy_military_administration }
+				
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P16 }
+				pfp_set_generic_portrait = yes
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 }

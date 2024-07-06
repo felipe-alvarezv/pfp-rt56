@@ -59,12 +59,22 @@ pfp_category = {
 				controls_state = 111 #Uusimaa
 				controls_state = 150 #Kuopio
 			}
-			NOT = {
-				original_tag = FIN #Finland
-				original_tag = P12 #Greater Finland
-				has_global_flag = pfp_finland_flag
+			NOT = { has_global_flag = pfp_finland_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 111 #Uusimaa
+				state = 148 #Lappi
+				state = 149 #Vaasa
+				state = 150 #Kuopio
+				state = 1036 #Turku
+				state = 1037 #Hame
+				state = 1038 #Kymi
+				state = 1039 #Oulu
+				state = 1040 #Mikkeli
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_finland_coring_states
 			custom_effect_tooltip = pfp_finland_transfer_states
@@ -72,21 +82,14 @@ pfp_category = {
 
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
-				set_variable = { is_creating_formable_puppet = yes }
 				pfp_release_finland = yes
-
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-					set_autonomy = { target = P12 autonomy_state = autonomy_military_administration }
-				}
-				else = {
-					puppet = P12
-				}
-				clear_variable = is_creating_formable_puppet
+				set_autonomy = { target = P12 autonomy_state = autonomy_military_administration }
+				
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P12 }
+				pfp_set_generic_portrait = yes
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 }

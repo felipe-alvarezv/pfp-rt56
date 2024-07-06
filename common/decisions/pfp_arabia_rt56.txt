@@ -1,31 +1,27 @@
-pfp_category_territories_arabia = {
+pfp_puppet_management = {
 	pfp_arabia_basrah = {
-		allowed = {
-			NOT = {
-				original_tag = IRQ #Iraq
-				original_tag = P03 #Arabia
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_arabia_required_states_basrah
-				controls_state = 1045 #Basrah
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
-			P03 = {
+			has_full_control_of_state = 1045 #Basrah
+
+			1045 = { #Basrah
+				NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #PFP Arabia
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = IRQ #Iraq
-				original_tag = P03 #Arabia
-				has_global_flag = pfp_arabia_basrah_flag
-			}
+			NOT = { has_global_flag = pfp_arabia_basrah_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1045 } #Basrah
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_arabia_coring_states_basrah
@@ -37,37 +33,31 @@ pfp_category_territories_arabia = {
 				set_global_flag = pfp_arabia_basrah_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_arabia_karbala_najaf = {
-		allowed = {
-			NOT = {
-				original_tag = IRQ #Iraq
-				original_tag = P03 #Arabia
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_arabia_required_states_karbala_najaf
-				controls_state = 1046 #Karbala-Najaf
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
-			P03 = {
+			has_full_control_of_state = 1046 #Karbala-Najaf
+
+			1046 = { #Karbala-Najaf
+				NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #PFP Arabia
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = IRQ #Iraq
-				original_tag = P03 #Arabia
-				has_global_flag = pfp_arabia_karbala_najaf_flag
-			}
+			NOT = { has_global_flag = pfp_arabia_karbala_najaf_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1046 } #Karbala-Najaf
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_arabia_coring_states_karbala_najaf
@@ -79,37 +69,31 @@ pfp_category_territories_arabia = {
 				set_global_flag = pfp_arabia_karbala_najaf_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_arabia_sulymaniyah = {
-		allowed = {
-			NOT = {
-				original_tag = IRQ #Iraq
-				original_tag = P03 #Arabia
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_arabia_required_states_sulymaniyah
-				controls_state = 1048 #Sulymaniyah
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
-			P03 = {
+			has_full_control_of_state = 1048 #Sulymaniyah
+
+			1048 = { #Sulymaniyah
+				NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #PFP Arabia
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = IRQ #Iraq
-				original_tag = P03 #Arabia
-				has_global_flag = pfp_arabia_sulymaniyah_flag
-			}
+			NOT = { has_global_flag = pfp_arabia_sulymaniyah_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1048 } #Sulymaniyah
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_arabia_coring_states_sulymaniyah
@@ -121,37 +105,31 @@ pfp_category_territories_arabia = {
 				set_global_flag = pfp_arabia_sulymaniyah_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_arabia_erbil = {
-		allowed = {
-			NOT = {
-				original_tag = IRQ #Iraq
-				original_tag = P03 #Arabia
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_arabia_required_states_erbil
-				controls_state = 1049 #Erbil
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 }
 			has_global_flag = pfp_arabia_flag
-			P03 = {
+			has_full_control_of_state = 1049 #Erbil
+
+			1049 = { #Erbil
+				NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #PFP Arabia
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = IRQ #Iraq
-				original_tag = P03 #Arabia
-				has_global_flag = pfp_arabia_erbil_flag
-			}
+			NOT = { has_global_flag = pfp_arabia_erbil_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1049 } #Erbil
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_arabia_coring_states_erbil
@@ -163,37 +141,31 @@ pfp_category_territories_arabia = {
 				set_global_flag = pfp_arabia_erbil_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_arabia_dulaim = {
-		allowed = {
-			NOT = {
-				original_tag = IRQ #Iraq
-				original_tag = P03 #Arabia
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_arabia_required_states_dulaim
-				controls_state = 1047 #Dulaim
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
-			P03 = {
+			has_full_control_of_state = 1047 #Dulaim
+
+			1047 = { #Dulaim
+				NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #PFP Arabia
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = IRQ #Iraq
-				original_tag = P03 #Arabia
-				has_global_flag = pfp_arabia_dulaim_flag
-			}
+			NOT = { has_global_flag = pfp_arabia_dulaim_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1047 } #Dulaim
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_arabia_coring_states_dulaim
@@ -205,37 +177,31 @@ pfp_category_territories_arabia = {
 				set_global_flag = pfp_arabia_dulaim_flag
 			}
 		}
-		ai_will_do = {
-		factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_arabia_mafraq = {
-		allowed = {
-			NOT = {
-				original_tag = IRQ #Iraq
-				original_tag = P03 #Arabia
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_arabia_required_states_mafraq
-				controls_state = 1021 #Mafraq
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
-			P03 = {
+			has_full_control_of_state = 1021 #Mafraq
+
+			1021 = { #Mafraq
+				NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #PFP Arabia
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = IRQ #Iraq
-				original_tag = P03 #Arabia
-				has_global_flag = pfp_arabia_mafraq_flag
-			}
+			NOT = { has_global_flag = pfp_arabia_mafraq_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1021 } #Mafraq
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_arabia_coring_states_mafraq
@@ -247,37 +213,31 @@ pfp_category_territories_arabia = {
 				set_global_flag = pfp_arabia_mafraq_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_arabia_maan = {
-		allowed = {
-			NOT = {
-				original_tag = JOR #Jordan
-				original_tag = P03 #Arabia
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_arabia_required_states_maan
-				controls_state = 1022 #Ma'an
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 }
 			has_global_flag = pfp_arabia_flag
-			P03 = {
+			has_full_control_of_state = 1022 #Ma'an
+
+			1022 = { #Ma'an
+				NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #PFP Arabia
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = JOR #Jordan
-				original_tag = P03 #Arabia
-				has_global_flag = pfp_arabia_maan_flag
-			}
+			NOT = { has_global_flag = pfp_arabia_maan_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1022 } #Ma'an
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_arabia_coring_states_maan
@@ -289,39 +249,31 @@ pfp_category_territories_arabia = {
 				set_global_flag = pfp_arabia_maan_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_arabia_beersheba = {
-		allowed = {
-			NOT = {
-				original_tag = ISR #Israel
-				original_tag = PAL #Palestine
-				original_tag = P03 #Arabia
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_arabia_required_states_beersheba
-				controls_state = 1017 #Beersheba
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
-			P03 = {
+			has_full_control_of_state = 1017 #Beersheba
+
+			1017 = { #Beersheba
+				NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #PFP Arabia
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-			original_tag = ISR #Israel
-			original_tag = PAL #Palestine
-			original_tag = P03 #Arabia
-			has_global_flag = pfp_arabia_beersheba_flag
-			}
+			NOT = { has_global_flag = pfp_arabia_beersheba_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1017 } #Beersheba
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_arabia_coring_states_beersheba
@@ -333,39 +285,31 @@ pfp_category_territories_arabia = {
 				set_global_flag = pfp_arabia_beersheba_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_arabia_jerusalem = {
-		allowed = {
-			NOT = {
-				original_tag = ISR #Israel
-				original_tag = PAL #Palestine
-				original_tag = P03 #Arabia
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_arabia_required_states_jerusalem
-				controls_state = 1016 #Jerusalem
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
-			P03 = {
+			has_full_control_of_state = 1016 #Jerusalem
+
+			1016 = { #Jerusalem
+				NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #PFP Arabia
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = ISR #Israel
-				original_tag = PAL #Palestine
-				original_tag = P03 #Arabia
-				has_global_flag = pfp_arabia_jerusalem_flag
-			}
+			NOT = { has_global_flag = pfp_arabia_jerusalem_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1016 } #Jerusalem
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_arabia_coring_states_jerusalem
@@ -377,39 +321,31 @@ pfp_category_territories_arabia = {
 				set_global_flag = pfp_arabia_jerusalem_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_arabia_west_bank = {
-		allowed = {
-			NOT = {
-				original_tag = ISR #Israel
-				original_tag = PAL #Palestine
-				original_tag = P03 #Arabia
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_arabia_required_states_west_bank
-				controls_state = 966 #West Bank
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
-			P03 = {
+			has_full_control_of_state = 966 #West Bank
+
+			966 = { #West Bank
+				NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #PFP Arabia
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = ISR #Israel
-				original_tag = PAL #Palestine
-				original_tag = P03 #Arabia
-				has_global_flag = pfp_arabia_west_bank_flag
-			}
+			NOT = { has_global_flag = pfp_arabia_west_bank_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 291 } #West Bank
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_arabia_coring_states_west_bank
@@ -421,39 +357,31 @@ pfp_category_territories_arabia = {
 				set_global_flag = pfp_arabia_west_bank_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_arabia_gaza = {
-		allowed = {
-			NOT = {
-				original_tag = ISR #Israel
-				original_tag = PAL #Palestine
-				original_tag = P03 #Arabia
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_arabia_required_states_gaza
-				controls_state = 949 #Gaza
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
 			has_global_flag = pfp_arabia_flag
-			P03 = {
+			has_full_control_of_state = 949 #Gaza
+
+			949 = { #Gaza
+				NOT = { is_core_of = FROM }
+			}
+
+			P03 = { #PFP Arabia
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = ISR #Israel
-				original_tag = PAL #Palestine
-				original_tag = P03 #Arabia
-				has_global_flag = pfp_arabia_gaza_flag
-			}
+			NOT = { has_global_flag = pfp_arabia_gaza_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 949 } #Gaza
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_arabia_coring_states_gaza
@@ -465,8 +393,6 @@ pfp_category_territories_arabia = {
 				set_global_flag = pfp_arabia_gaza_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 }

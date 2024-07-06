@@ -3,8 +3,7 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = COL #Colombia
-				original_tag = ECU #Ecuador
-				original_tag = P01 #Colombia
+				original_tag = P01 #PFP Colombia
 			}
 		}
 		available = {
@@ -12,57 +11,55 @@ pfp_category = {
 			#Cundinamarca
 			custom_trigger_tooltip = {
 				tooltip = pfp_colombia_required_states_cundinamarca
-				controls_state = 306 #Cundinamarca
+				has_full_control_of_state = 306 #Cundinamarca
 			}
 			#Meta
 			custom_trigger_tooltip = {
 				tooltip = pfp_colombia_required_states_meta
-				controls_state = 486 #Meta
+				has_full_control_of_state = 486 #Meta
 			}
 			#La Libertad
 			custom_trigger_tooltip = {
 				tooltip = pfp_colombia_required_states_la_libertad
-				controls_state = 493 #La Libertad
+				has_full_control_of_state = 493 #La Libertad
 			}
 			#Choco
 			custom_trigger_tooltip = {
 				tooltip = pfp_colombia_required_states_choco
-				controls_state = 1051 #Choco
+				has_full_control_of_state = 1051 #Choco
 			}
 		}
 		visible = {
 			OR = {
-				controls_state = 306 #Cundinamarca
+				has_full_control_of_state = 306 #Cundinamarca
+				has_full_control_of_state = 493 #La Libertad
 			}
-			NOT = {
-				original_tag = COL #Colombia
-				original_tag = ECU #Ecuador
-				original_tag = P01 #Colombia
-				has_global_flag = pfp_colombia_flag
+			NOT = { has_global_flag = pfp_colombia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 306 #Cundinamarca
+				state = 486 #Meta
+				state = 493 #La Libertad
+				state = 1051 #Choco
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_colombia_coring_states
 			custom_effect_tooltip = pfp_colombia_transfer_states
 			custom_effect_tooltip = pfp_colombia_puppet
 
 			#Create formable puppet with all its states and then puppet
-				hidden_effect = {
-				set_variable = { is_creating_formable_puppet = yes }
+			hidden_effect = {
 				pfp_release_colombia = yes
-
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-					set_autonomy = { target = P01 autonomy_state = autonomy_military_administration }
-				}
-				else = {
-					puppet = P01
-				}
-				clear_variable = is_creating_formable_puppet
+				set_autonomy = { target = P01 autonomy_state = autonomy_military_administration }
+			
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P01 }
+				pfp_set_generic_portrait = yes
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 }

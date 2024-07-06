@@ -1,29 +1,27 @@
-pfp_category_territories_caribbean = {
+pfp_puppet_management = {
 	pfp_caribbean_virgin_islands = {
-		allowed = {
-			NOT = {
-				original_tag = P06 #Caribbean
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_caribbean_required_states_virgin_islands
-				controls_state = 972 #Virgin Islands
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P07 } 
 			has_global_flag = pfp_caribbean_flag
-			P06 = {
+			has_full_control_of_state = 972 #Virgin Islands
+
+			972 = { #Virgin Islands
+				NOT = { is_core_of = FROM }
+			}
+
+			P06 = { #PFP Caribbean
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = P06 #Caribbean
-				has_global_flag = pfp_caribbean_virgin_islands_flag
-			}
+			NOT = { has_global_flag = pfp_caribbean_virgin_islands_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 972 } #Virgin Islands
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_caribbean_coring_states_virgin_islands
@@ -35,37 +33,28 @@ pfp_category_territories_caribbean = {
 				set_global_flag = pfp_caribbean_virgin_islands_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 	pfp_caribbean_guantanamo_bay = {
-		allowed = {
-			NOT = {
-				original_tag = CUB #Cuba
-				original_tag = P06 #Caribbean
-			}
-		}
-		available = {
-			is_subject = no
-			custom_trigger_tooltip = {
-				tooltip = pfp_caribbean_required_states_guantanamo_bay
-				controls_state = 1050 #Guantanamo Bay
-			}
-		}
 		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P07 } 
 			has_global_flag = pfp_caribbean_flag
-			P06 = {
+			has_full_control_of_state = 1050 #Guantanamo Bay
+
+			1050 = { #Guantanamo Bay
+				NOT = { is_core_of = FROM }
+			}
+
+			P06 = { #PFP Caribbean
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = {
-				original_tag = CUB #Cuba
-				original_tag = P06 #Caribbean
-				has_global_flag = pfp_caribbean_guantanamo_bay_flag
-			}
+			NOT = { has_global_flag = pfp_caribbean_guantanamo_bay_flag }
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_caribbean_coring_states_guantanamo_bay
@@ -77,8 +66,6 @@ pfp_category_territories_caribbean = {
 				set_global_flag = pfp_caribbean_guantanamo_bay_flag
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 }

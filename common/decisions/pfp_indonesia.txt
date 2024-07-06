@@ -4,7 +4,7 @@ pfp_category = {
 			NOT = {
 				original_tag = INS #Dutch East Indies
 				original_tag = MAL #Malaysia
-				original_tag = P17 #Indonesia
+				original_tag = P17 #PFP Indonesia
 			}
 		}
 		available = {
@@ -81,11 +81,23 @@ pfp_category = {
 				controls_state = 335 #Java
 				controls_state = 672 #Sumatra
 			}
-			NOT = {
-				original_tag = INS #Dutch East Indies
-				original_tag = MAL #Malaysia
-				original_tag = P17 #Indonesia
-				has_global_flag = pfp_indonesia_flag
+			NOT = { has_global_flag = pfp_indonesia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 334 #Kalimantan
+				state = 335 #Java
+				state = 667 #Lesser Sunda Islands
+				state = 668 #The Moluccas
+				state = 672 #Sumatra
+				state = 673 #Sulawesi
+				state = 738 #Aru Islands
+				state = 974 #North Sumatra
+				state = 976 #Central Java
+				state = 446 #East Java
+				state = 975 #North Sulawesi
+				state = 977 #Inner Borneo
+				state = 978 #East Kalimantan
 			}
 		}
 		complete_effect = {
@@ -95,21 +107,14 @@ pfp_category = {
 
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
-				set_variable = { is_creating_formable_puppet = yes }
 				pfp_release_indonesia = yes
-
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-					set_autonomy = { target = P17 autonomy_state = autonomy_military_administration }
-				}
-				else = {
-					puppet = P17
-				}
-				clear_variable = is_creating_formable_puppet
+				set_autonomy = { target = P17 autonomy_state = autonomy_military_administration }
+				
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P17 }
+				pfp_set_generic_portrait = yes
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 }

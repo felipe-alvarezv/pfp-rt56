@@ -1,10 +1,7 @@
 pfp_category = {
     pfp_yugoslavia = {
         allowed = {
-            NOT = {
-                original_tag = YUG #Yugoslavia
-                original_tag = P50 #Yugoslavia
-            }
+            NOT = { original_tag = YUG } #Yugoslavia
         }
         available = {
             is_subject = no
@@ -121,12 +118,35 @@ pfp_category = {
                 controls_state = 107 #Serbia
                 controls_state = 109 #Croatia
             }
-            NOT = {
-                original_tag = YUG #Yugoslavia
-                original_tag = P50 #Yugoslavia
-                has_global_flag = pfp_yugoslavia_flag
+            NOT = { has_global_flag = pfp_yugoslavia_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = { 
+                state = 45 #Vojvodina
+                state = 102 #North Slovenia
+                state = 103 #Dalmatia
+                state = 104 #Bosnia
+                state = 105 #Montenegro
+                state = 106 #Macedonia
+                state = 107 #Serbia
+                state = 108 #Morava
+                state = 109 #Croatia
+                state = 764 #West Banat
+                state = 802 #Kosovo
+                state = 803 #Southern Serbia
+                state = 804 #Herzegovina
+                state = 853 #Ljubljana
+                state = 959 #Slavonia
+                state = 952 #Syrmia
+                state = 962 #Posavina
+                state = 961 #Banja Luka
+                state = 958 #Kvarner
+                state = 953 #Mitrovica
+                state = 963 #West Sandzak
+                
             }
         }
+        icon = generic_military
         complete_effect = {
             custom_effect_tooltip = pfp_yugoslavia_coring_states
             custom_effect_tooltip = pfp_yugoslavia_transfer_states
@@ -134,21 +154,14 @@ pfp_category = {
 
             #Create formable puppet with all its states and then puppet
             hidden_effect = {
-                set_variable = { is_creating_formable_puppet = yes }
                 pfp_release_yugoslavia = yes
-
-                if = {
-                    limit = { has_dlc = "Together for Victory" }
-                    set_autonomy = { target = P50 autonomy_state = autonomy_military_administration }
-                }
-                else = {
-                    puppet = P50
-                }
-                clear_variable = is_creating_formable_puppet
+                set_autonomy = { target = P50 autonomy_state = autonomy_military_administration }
+                
+                #Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P50 }
+				pfp_set_generic_portrait = yes
             }
         }
-        ai_will_do = {
-            factor = 0
-        }
+        ai_will_do = { factor = 0 }
     }
 }

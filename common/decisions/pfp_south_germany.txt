@@ -1,53 +1,50 @@
 pfp_category = {
 	pfp_south_germany = {
 		allowed = {
-			NOT = {
-				original_tag = DDR #East Germany
-				original_tag = GER #Germany
-				original_tag = WGR #West Germany
-				original_tag = P25 #South Germany
-			}
+			NOT = { original_tag = GER } #Germany
 		}
 		available = {
 			is_subject = no
 			#Wurttemberg
 			custom_trigger_tooltip = {
 				tooltip = pfp_south_germany_required_states_wurttemberg
-				controls_state = 50 #Wurttemberg
+				has_full_control_of_state = 50 #Wurttemberg
 			}
 			#Oberbayern
 			custom_trigger_tooltip = {
 				tooltip = pfp_south_germany_required_states_oberbayern
-				controls_state = 52 #Oberbayern
+				has_full_control_of_state = 52 #Oberbayern
 			}
 			#Niederbayern
 			custom_trigger_tooltip = {
 				tooltip = pfp_south_germany_required_states_niederbayern
-				controls_state = 53 #Niederbayern
+				has_full_control_of_state = 53 #Niederbayern
 			}
 			#Franken
 			custom_trigger_tooltip = {
 				tooltip = pfp_south_germany_required_states_franken
-				controls_state = 54 #Franken
+				has_full_control_of_state = 54 #Franken
 			}
 			#Baden
 			custom_trigger_tooltip = {
 				tooltip = pfp_south_germany_required_states_baden
-				controls_state = 923 #Baden
+				has_full_control_of_state = 923 #Baden
 			}
 		}
 		visible = {
-			OR = {
-				controls_state = 52 #Oberbayern
-			}
-			NOT = {
-				original_tag = DDR #East Germany
-				original_tag = GER #Germany
-				original_tag = WGR #West Germany
-				original_tag = P25 #South Germany
-				has_global_flag = pfp_south_germany_flag
+			has_full_control_of_state = 52 #Oberbayern
+			NOT = { has_global_flag = pfp_south_germany_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 50 #Wurttemberg
+				state = 52 #Oberbayern
+				state = 53 #Niederbayern
+				state = 54 #Franken
+				state = 923 #Baden
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_south_germany_coring_states
 			custom_effect_tooltip = pfp_south_germany_transfer_states
@@ -55,21 +52,14 @@ pfp_category = {
 
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
-				set_variable = { is_creating_formable_puppet = yes }
 				pfp_release_south_germany = yes
-
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-					set_autonomy = { target = P25 autonomy_state = autonomy_military_administration }
-				}
-				else = {
-					puppet = P25
-				}
-				clear_variable = is_creating_formable_puppet
+				set_autonomy = { target = P25 autonomy_state = autonomy_military_administration }
+				
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P25 }
+				pfp_set_generic_portrait = yes
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 }

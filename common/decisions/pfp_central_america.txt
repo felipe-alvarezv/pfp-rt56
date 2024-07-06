@@ -8,7 +8,7 @@ pfp_category = {
 				original_tag = HON #Honduras
 				original_tag = NIC #Nicaragua
 				original_tag = PAN #Panama
-				original_tag = P08 #Central America
+				original_tag = P08 #PFP Central America
 			}
 		}
 		available = {
@@ -16,59 +16,62 @@ pfp_category = {
 			#Panama
 			custom_trigger_tooltip = {
 				tooltip = pfp_central_america_required_states_panama
-				controls_state = 304 #Panama
+				has_full_control_of_state = 304 #Panama
 			}
 			#Honduras
 			custom_trigger_tooltip = {
 				tooltip = pfp_central_america_required_states_honduras
-				controls_state = 312 #Honduras
+				has_full_control_of_state = 312 #Honduras
 			}
 			#Guatemala
 			custom_trigger_tooltip = {
 				tooltip = pfp_central_america_required_states_guatemala
-				controls_state = 313 #Guatemala
+				has_full_control_of_state = 313 #Guatemala
 			}
 			#El Salvador
 			custom_trigger_tooltip = {
 				tooltip = pfp_central_america_required_states_el_salvador
-				controls_state = 314 #El Salvador
+				has_full_control_of_state = 314 #El Salvador
 			}
 			#Costa Rica
 			custom_trigger_tooltip = {
 				tooltip = pfp_central_america_required_states_costa_rica
-				controls_state = 316 #Costa Rica
+				has_full_control_of_state = 316 #Costa Rica
 			}
 			#Nicaragua
 			custom_trigger_tooltip = {
 				tooltip = pfp_central_america_required_states_nicaragua
-				controls_state = 317 #Nicaragua
+				has_full_control_of_state = 317 #Nicaragua
 			}
 			#Northern Panama
 			custom_trigger_tooltip = {
 				tooltip = pfp_central_america_required_states_northern_panama
-				controls_state = 937 #Northern Panama
+				has_full_control_of_state = 937 #Northern Panama
 			}
 		}
 		visible = {
 			OR = {
-				controls_state = 304 #Panama
-				controls_state = 312 #Honduras
-				controls_state = 313 #Guatemala
-				controls_state = 314 #El Salvador
-				controls_state = 316 #Costa Rica
-				controls_state = 317 #Nicaragua
+				has_full_control_of_state = 304 #Panama
+				has_full_control_of_state = 312 #Honduras
+				has_full_control_of_state = 313 #Guatemala
+				has_full_control_of_state = 314 #El Salvador
+				has_full_control_of_state = 316 #Costa Rica
+				has_full_control_of_state = 317 #Nicaragua
 			}
-			NOT = {
-				original_tag = COS #Costa Rica
-				original_tag = ELS #El Salvador
-				original_tag = GUA #Guatemala
-				original_tag = HON #Honduras
-				original_tag = NIC #Nicaragua
-				original_tag = PAN #Panama
-				original_tag = P08 #Central America
-				has_global_flag = pfp_central_america_flag
+			NOT = { has_global_flag = pfp_central_america_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 304 #Panama
+				state = 312 #Honduras
+				state = 313 #Guatemala
+				state = 314 #El Salvador
+				state = 316 #Costa Rica
+				state = 317 #Nicaragua
+				state = 937 #Northern Panama
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_central_america_coring_states
 			custom_effect_tooltip = pfp_central_america_transfer_states
@@ -76,21 +79,14 @@ pfp_category = {
 
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
-				set_variable = { is_creating_formable_puppet = yes }
 				pfp_release_central_america = yes
-
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-					set_autonomy = { target = P08 autonomy_state = autonomy_military_administration }
-				}
-				else = {
-					puppet = P08
-				}
-				clear_variable = is_creating_formable_puppet
+				set_autonomy = { target = P08 autonomy_state = autonomy_military_administration }
+				
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P08 }
+				pfp_set_generic_portrait = yes
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 }

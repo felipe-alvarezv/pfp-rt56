@@ -2,14 +2,9 @@ pfp_category = {
 	pfp_danube = {
 		allowed = {
 			NOT = {
-				original_tag = CRO #Croatia
-				original_tag = CZE #Czechoslovakia
 				original_tag = HUN #Hungary
 				original_tag = ROM #Romania
-				original_tag = SER #Serbia
-				original_tag = SLO #Slovakia
-				original_tag = YUG #Yugoslavia
-				original_tag = P09 #Danube
+				original_tag = P09 #PFP Danube
 			}
 		}
 		available = {
@@ -60,18 +55,21 @@ pfp_category = {
 				controls_state = 43 #Northern Hungary
 				controls_state = 76 #Northern Transylvania
 			}
-			NOT = {
-				original_tag = CRO #Croatia
-				original_tag = CZE #Czechoslovakia
-				original_tag = HUN #Hungary
-				original_tag = ROM #Romania
-				original_tag = SER #Serbia
-				original_tag = SLO #Slovakia
-				original_tag = YUG #Yugoslavia
-				original_tag = P09 #Danube
-				has_global_flag = pfp_danube_flag
+			NOT = { has_global_flag = pfp_danube_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 43 #Northern Hungary
+				state = 76 #North Transylvania
+				state = 82 #Banat
+				state = 83 #Crisana
+				state = 84 #Transylvania
+				state = 154 #Alfold
+				state = 155 #Transdanubia
+				state = 913 #Solt-Kiskun
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_danube_coring_states
 			custom_effect_tooltip = pfp_danube_transfer_states
@@ -79,21 +77,14 @@ pfp_category = {
 
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
-				set_variable = { is_creating_formable_puppet = yes }
 				pfp_release_danube = yes
-
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-					set_autonomy = { target = P09 autonomy_state = autonomy_military_administration }
-				}
-				else = {
-					puppet = P09
-				}
-				clear_variable = is_creating_formable_puppet
+				set_autonomy = { target = P09 autonomy_state = autonomy_military_administration }
+				
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P09 }
+				pfp_set_generic_portrait = yes
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 }

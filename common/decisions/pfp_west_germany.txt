@@ -1,103 +1,110 @@
 pfp_category = {
 	pfp_west_germany = {
 		allowed = {
-			NOT = {
-				original_tag = DDR #East Germany
-				original_tag = GER #Germany
-				original_tag = WGR #West Germany
-				original_tag = P31 #West Germany
-			}
+			NOT = { original_tag = GER } #Germany
 		}
 		available = {
 			is_subject = no
 			#Moselland
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_moselland
-				controls_state = 42 #Moselland
+				has_full_control_of_state = 42 #Moselland
 			}
 			#Wurttemberg
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_wurttemberg
-				controls_state = 50 #Wurttemberg
+				has_full_control_of_state = 50 #Wurttemberg
 			}
 			#Rhineland
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_rhineland
-				controls_state = 51 #Rhineland
+				has_full_control_of_state = 51 #Rhineland
 			}
 			#Oberbayern
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_oberbayern
-				controls_state = 52 #Oberbayern
+				has_full_control_of_state = 52 #Oberbayern
 			}
 			#Niederbayern
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_niederbayern
-				controls_state = 53 #Niederbayern
+				has_full_control_of_state = 53 #Niederbayern
 			}
 			#Franken
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_franken
-				controls_state = 54 #Franken
+				has_full_control_of_state = 54 #Franken
 			}
 			#Hessen
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_hessen
-				controls_state = 55 #Hessen
+				has_full_control_of_state = 55 #Hessen
 			}
 			#Weser-Ems
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_weser_ems
-				controls_state = 56 #Weser-Ems
+				has_full_control_of_state = 56 #Weser-Ems
 			}
 			#Westfalen
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_westfalen
-				controls_state = 57 #Westfalen
+				has_full_control_of_state = 57 #Westfalen
 			}
 			#Holstein
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_holstein
-				controls_state = 58 #Holstein
+				has_full_control_of_state = 58 #Holstein
 			}
 			#Hannover
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_hannover
-				controls_state = 59 #Hannover
+				has_full_control_of_state = 59 #Hannover
 			}
 			#Baden
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_baden
-				controls_state = 923 #Baden
+				has_full_control_of_state = 923 #Baden
 			}
 			#Frankfurt
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_frankfurt
-				controls_state = 922 #Frankfurt
+				has_full_control_of_state = 922 #Frankfurt
 			}
 			#Ostrhineland
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_ostrhineland
-				controls_state = 989 #Ostrhineland
+				has_full_control_of_state = 989 #Ostrhineland
 			}
 			#Saarland
 			custom_trigger_tooltip = {
 				tooltip = pfp_west_germany_required_states_saarland
-				controls_state = 1053 #Saarland
+				has_full_control_of_state = 1053 #Saarland
 			}
 		}
 		visible = {
-			OR = {
-				controls_state = 51 #Rhineland
-			}
-			NOT = {
-				original_tag = DDR #East Germany
-				original_tag = GER #Germany
-				original_tag = WGR #West Germany
-				original_tag = P31 #West Germany
-				has_global_flag = pfp_west_germany_flag
+			has_full_control_of_state = 51 #Rhineland
+			NOT = { has_global_flag = pfp_west_germany_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 42 #Moselland
+				state = 50 #Wurttemberg
+				state = 51 #Rhineland
+				state = 52 #Oberbayern
+				state = 53 #Niederbayern
+				state = 54 #Franken
+				state = 55 #Hessen
+				state = 56 #Weser-Ems
+				state = 57 #Westfalen
+				state = 58 #Holstein
+				state = 59 #Hannover
+				state = 923 #Baden
+				state = 922 #Frankfurt
+				state = 989 #Ostrhineland
+				state = 1053 #Saarland
 			}
 		}
+		icon = generic_military
 		complete_effect = {
 			custom_effect_tooltip = pfp_west_germany_coring_states
 			custom_effect_tooltip = pfp_west_germany_transfer_states
@@ -105,21 +112,14 @@ pfp_category = {
 
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
-				set_variable = { is_creating_formable_puppet = yes }
 				pfp_release_west_germany = yes
-
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-					set_autonomy = { target = P31 autonomy_state = autonomy_military_administration }
-				}
-				else = {
-					puppet = P31
-				}
-				clear_variable = is_creating_formable_puppet
+				set_autonomy = { target = P31 autonomy_state = autonomy_military_administration }
+				
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P31 }
+				pfp_set_generic_portrait = yes
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 0 }
 	}
 }

@@ -22,9 +22,6 @@ pfp_release_central_america = {
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_central_america_flag
 
-		#Set the released country flag for overlord
-		ROOT = { set_country_flag = pfp_central_america_country_flag }
-
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P08 }
 		news_event = { id = pfp_news.01 }

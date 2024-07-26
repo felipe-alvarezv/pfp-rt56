@@ -1,0 +1,6 @@
+﻿#Rio de la Plata - P55 - Localisation
+l_english:
+	#Decisions Information
+	pfp_rio_de_la_plata_tucuman:0 "Transfer Tucuman"
+	pfp_rio_de_la_plata_coring_states_tucuman:0 "§YRio de la Plata§! gains core on §YTucuman§!.\n"
+	pfp_rio_de_la_plata_transfer_states_tucuman:0 "§YRio de la Plata§! becomes owner and controller of §YTucuman§!.\n"

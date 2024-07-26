@@ -1,4 +1,40 @@
 pfp_puppet_management = {
+	pfp_rio_de_la_plata_tucuman = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P55 } 
+			has_global_flag = pfp_rio_de_la_plata_flag
+			has_full_control_of_state = 508 #Tucuman
+	
+			508 = { #Tucuman
+				NOT = { is_core_of = FROM }
+			}
+	
+			P55 = { #PFP Rio de la Plata
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_rio_de_la_plata_tucuman_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 508 } #Tucuman
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_rio_de_la_plata_coring_states_tucuman
+			custom_effect_tooltip = pfp_rio_de_la_plata_transfer_states_tucuman
+			hidden_effect = {
+				#Tucuman
+				508 = { add_core_of = P55 }
+				P55 = { transfer_state = 508 }
+				set_global_flag = pfp_rio_de_la_plata_tucuman_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
 	pfp_rio_de_la_plata_cerro_largo = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view

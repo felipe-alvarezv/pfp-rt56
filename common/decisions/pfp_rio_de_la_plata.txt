@@ -13,11 +13,6 @@ pfp_category = {
 				tooltip = pfp_rio_de_la_plata_required_states_buenos_aires
 				has_full_control_of_state = 278 #Buenos Aires
 			}
-			#Tucuman
-			custom_trigger_tooltip = {
-				tooltip = pfp_rio_de_la_plata_required_states_tucuman
-				has_full_control_of_state = 508 #Tucuman
-			}
 			#Chaco Austral
 			custom_trigger_tooltip = {
 				tooltip = pfp_rio_de_la_plata_required_states_chaco_austral
@@ -47,14 +42,12 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 278 #Buenos Aires
-				has_full_control_of_state = 508 #Tucuman
 			}
 			NOT = { has_global_flag = pfp_rio_de_la_plata_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { 
 				state = 278 #Buenos Aires
-				state = 508 #Tucuman
 				state = 509 #Chaco Austral
 				state = 510 #Region Mesopotamica
 				state = 1068 #Santa Fe

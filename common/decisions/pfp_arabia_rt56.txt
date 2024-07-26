@@ -395,4 +395,76 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
+	pfp_arabia_khasab = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 } 
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 979 #Khasab
+	
+			979 = { #Khasab
+				NOT = { is_core_of = FROM }
+			}
+	
+			P03 = { #PFP Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_khasab_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 979 } #Khasab
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_khasab
+			custom_effect_tooltip = pfp_arabia_transfer_states_khasab
+			hidden_effect = {
+				#Khasab
+				979 = { add_core_of = P03 }
+				P03 = { transfer_state = 979 }
+				set_global_flag = pfp_arabia_khasab_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_arabia_bahrain = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P03 }
+			has_global_flag = pfp_arabia_flag
+			has_full_control_of_state = 1007 #Bahrain
+	
+			1007 = { #Bahrain
+				NOT = { is_core_of = FROM }
+			}
+	
+			P03 = { #PFP Arabia
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_arabia_bahrain_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1007 } #Bahrain
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_coring_states_bahrain
+			custom_effect_tooltip = pfp_arabia_transfer_states_bahrain
+			hidden_effect = {
+				#Bahrain
+				1007 = { add_core_of = P03 }
+				P03 = { transfer_state = 1007 }
+				set_global_flag = pfp_arabia_bahrain_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
 }

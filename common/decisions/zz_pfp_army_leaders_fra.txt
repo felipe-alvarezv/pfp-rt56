@@ -1,0 +1,808 @@
+pfp_puppet_management = {
+	#Maxime Weygand
+	pfp_army_leader_fra_maxime_weygand = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = FRA #Check if country is France
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = FRA_maxime_weygand #Check if country has character
+			FRA_maxime_weygand = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_maxime_weygand } #Check if Maxime Weygand is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Maxime Weygand
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+
+					create_country_leader = {
+						name = "Maxime Weygand"
+						desc = ""
+						picture = GFX_portrait_FRA_maxime_weygand
+						ideology = marxism
+					}
+
+					create_country_leader = {
+						name = "Maxime Weygand"
+						desc = ""
+						picture = GFX_portrait_FRA_maxime_weygand
+						ideology = conservatism
+					}
+
+					create_country_leader = {
+						name = "Maxime Weygand"
+						desc = ""
+						picture = GFX_portrait_FRA_maxime_weygand
+						ideology = centrism
+					}
+
+					create_country_leader = {
+						name = "Maxime Weygand"
+						desc = ""
+						picture = GFX_portrait_FRA_maxime_weygand
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_fra_maxime_weygand
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Alphonse Georges
+	pfp_army_leader_fra_alphonse_georges = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = FRA #Check if country is France
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+			
+			has_character = FRA_alphonse_georges #Check if country has character
+			FRA_alphonse_georges = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_alphonse_georges } #Check if Alphonse Georges is already a leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Alphonse Georges
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+
+					create_country_leader = {
+						name = "Alphonse Georges"
+						desc = ""
+						picture = GFX_portrait_FRA_alphonse_georges
+						ideology = marxism
+					}
+
+					create_country_leader = {
+						name = "Alphonse Georges"
+						desc = ""
+						picture = GFX_portrait_FRA_alphonse_georges
+						ideology = conservatism
+					}
+
+					create_country_leader = {
+						name = "Alphonse Georges"
+						desc = ""
+						picture = GFX_portrait_FRA_alphonse_georges
+						ideology = centrism
+					}
+
+					create_country_leader = {
+						name = "Alphonse Georges"
+						desc = ""
+						picture = GFX_portrait_FRA_alphonse_georges
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_fra_alphonse_georges
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Maurice Gamelin
+	pfp_army_leader_fra_maurice_gamelin = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = FRA #Check if country is France
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = FRA_maurice_gamelin #Check if country has character
+			FRA_maurice_gamelin = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_maurice_gamelin } #Check if Maurice Gamelin is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Maurice Gamelin
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+
+					create_country_leader = {
+						name = "Maurice Gamelin"
+						desc = ""
+						picture = GFX_portrait_FRA_maurice_gamelin
+						ideology = marxism
+					}
+
+					create_country_leader = {
+						name = "Maurice Gamelin"
+						desc = ""
+						picture = GFX_portrait_FRA_maurice_gamelin
+						ideology = conservatism
+					}
+
+					create_country_leader = {
+						name = "Maurice Gamelin"
+						desc = ""
+						picture = GFX_portrait_FRA_maurice_gamelin
+						ideology = centrism
+					}
+
+					create_country_leader = {
+						name = "Maurice Gamelin"
+						desc = ""
+						picture = GFX_portrait_FRA_maurice_gamelin
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_fra_maurice_gamelin
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Antoine-Marie-Benoît Besson
+	pfp_army_leader_fra_antoinemariebenoit_besson = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = FRA #Check if country is France
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = FRA_antoinemariebenoit_besson #Check if country has character
+			FRA_antoinemariebenoit_besson = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_antoinemariebenoit_besson } #Check if Antoine-Marie-Benoît Besson is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Antoine-Marie-Benoît Besson
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Antoine-Marie-Benoît Besson"
+						desc = ""
+						picture = GFX_portrait_FRA_antoinemariebenoit_besson
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Antoine-Marie-Benoît Besson"
+						desc = ""
+						picture = GFX_portrait_FRA_antoinemariebenoit_besson
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Antoine-Marie-Benoît Besson"
+						desc = ""
+						picture = GFX_portrait_FRA_antoinemariebenoit_besson
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Antoine-Marie-Benoît Besson"
+						desc = ""
+						picture = GFX_portrait_FRA_antoinemariebenoit_besson
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_fra_antoinemariebenoit_besson
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Jean de Lattre de Tassigny
+	pfp_army_leader_fra_jean_de_lattre_de_tassigny = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = FRA #Check if country is France
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = FRA_jean_de_lattre_de_tassigny #Check if country has character
+			FRA_jean_de_lattre_de_tassigny = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_jean_de_lattre_de_tassigny } #Check if Jean de Lattre de Tassigny is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Jean de Lattre de Tassigny
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Jean de Lattre de Tassigny"
+						desc = ""
+						picture = GFX_portrait_FRA_jean_de_lattre_de_tassigny
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Jean de Lattre de Tassigny"
+						desc = ""
+						picture = GFX_portrait_FRA_jean_de_lattre_de_tassigny
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Jean de Lattre de Tassigny"
+						desc = ""
+						picture = GFX_portrait_FRA_jean_de_lattre_de_tassigny
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Jean de Lattre de Tassigny"
+						desc = ""
+						picture = GFX_portrait_FRA_jean_de_lattre_de_tassigny
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_fra_jean_de_lattre_de_tassigny
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Alphonese Juin
+	pfp_army_leader_fra_alphonse_juin = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = FRA #Check if country is France
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = FRA_alphonse_juin #Check if country has character
+			FRA_alphonse_juin = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_alphonse_juin } #Check if Alphonese Juin is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Alphonse Juin
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Alphonse Juin"
+						desc = ""
+						picture = GFX_portrait_FRA_alphonse_juin
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Alphonse Juin"
+						desc = ""
+						picture = GFX_portrait_FRA_alphonse_juin
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Alphonse Juin"
+						desc = ""
+						picture = GFX_portrait_FRA_alphonse_juin
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Alphonse Juin"
+						desc = ""
+						picture = GFX_portrait_FRA_alphonse_juin
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_fra_alphonse_juin
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Charles de Gaulle
+	pfp_army_leader_fra_charles_de_gaulle = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = FRA #Check if country is France
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = FRA_charles_de_gaulle #Check if country has character
+			FRA_charles_de_gaulle = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_charles_de_gaulle } #Check if Charles de Gaulle is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Charles de Gaulle
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Charles de Gaulle"
+						desc = ""
+						picture = GFX_portrait_FRA_charles_de_gaulle
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Charles de Gaulle"
+						desc = ""
+						picture = GFX_portrait_FRA_charles_de_gaulle
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Charles de Gaulle"
+						desc = ""
+						picture = GFX_portrait_FRA_charles_de_gaulle
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Charles de Gaulle"
+						desc = ""
+						picture = GFX_portrait_FRA_charles_de_gaulle
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_fra_charles_de_gaulle
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Philippe Leclerc
+	pfp_army_leader_fra_philippe_leclerc = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = FRA #Check if country is France
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = FRA_philippe_leclerc #Check if country has character
+			FRA_philippe_leclerc = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_philippe_leclerc } #Check if Philippe Leclerc is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Philippe Leclerc
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Philippe Leclerc"
+						desc = ""
+						picture = GFX_portrait_FRA_philippe_leclerc
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Philippe Leclerc"
+						desc = ""
+						picture = GFX_portrait_FRA_philippe_leclerc
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Philippe Leclerc"
+						desc = ""
+						picture = GFX_portrait_FRA_philippe_leclerc
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Philippe Leclerc"
+						desc = ""
+						picture = GFX_portrait_FRA_philippe_leclerc
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_fra_philippe_leclerc
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Henri Giraud
+	pfp_army_leader_fra_henri_giraud = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = FRA #Check if country is France
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = FRA_henri_giraud #Check if country has character
+			FRA_henri_giraud = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_henri_giraud } #Check if Henri Giraud is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Henri Giraud
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Henri Giraud"
+						desc = ""
+						picture = GFX_portrait_FRA_henri_giraud
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Henri Giraud"
+						desc = ""
+						picture = GFX_portrait_FRA_henri_giraud
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Henri Giraud"
+						desc = ""
+						picture = GFX_portrait_FRA_henri_giraud
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Henri Giraud"
+						desc = ""
+						picture = GFX_portrait_FRA_henri_giraud
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_fra_henri_giraud
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Charles Huntziger
+	pfp_army_leader_fra_charles_huntziger = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = FRA #Check if country is France
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = FRA_charles_huntziger #Check if country has character
+			FRA_charles_huntziger = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_charles_huntziger } #Check if Charles Huntziger is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Charles Huntziger
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Charles Huntziger"
+						desc = ""
+						picture = GFX_portrait_FRA_charles_huntziger
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Charles Huntziger"
+						desc = ""
+						picture = GFX_portrait_FRA_charles_huntziger
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Charles Huntziger"
+						desc = ""
+						picture = GFX_portrait_FRA_charles_huntziger
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Charles Huntziger"
+						desc = ""
+						picture = GFX_portrait_FRA_charles_huntziger
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_fra_charles_huntziger
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#René Olry
+	pfp_army_leader_fra_rene_olry = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = FRA #Check if country is France
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = FRA_rené_olry  #Check if country has character
+			FRA_rené_olry  = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_rene_olry } #Check if René Olry is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#René Olry
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "René Olry"
+						desc = ""
+						picture = GFX_portrait_FRA_rene_olry
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "René Olry"
+						desc = ""
+						picture = GFX_portrait_FRA_rene_olry
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "René Olry"
+						desc = ""
+						picture = GFX_portrait_FRA_rene_olry
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "René Olry"
+						desc = ""
+						picture = GFX_portrait_FRA_rene_olry
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_fra_rene_olry
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Gaston-Henri Billotte
+	pfp_army_leader_fra_gastonhenri_billotte = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = FRA #Check if country is France
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = FRA_gastonhenri_billotte #Check if country has character
+			FRA_gastonhenri_billotte = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_gastonhenri_billotte } #Check if Gaston-Henri Billotte is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Gaston-Henri Billotte
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Gaston-Henri Billotte"
+						desc = ""
+						picture = GFX_portrait_FRA_gastonhenri_billotte
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Gaston-Henri Billotte"
+						desc = ""
+						picture = GFX_portrait_FRA_gastonhenri_billotte
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Gaston-Henri Billotte"
+						desc = ""
+						picture = GFX_portrait_FRA_gastonhenri_billotte
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Gaston-Henri Billotte"
+						desc = ""
+						picture = GFX_portrait_FRA_gastonhenri_billotte
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_fra_gastonhenri_billotte
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#Henry Freydenberg
+	pfp_army_leader_fra_henry_freydenberg = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = FRA #Check if country is France
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = FRA_henry_freydenberg #Check if country has character
+			FRA_henry_freydenberg = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_henry_freydenberg } #Check if Henry Freydenberg is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#Henry Freydenberg
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "Henry Freydenberg"
+						desc = ""
+						picture = GFX_portrait_FRA_henry_freydenberg
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "Henry Freydenberg"
+						desc = ""
+						picture = GFX_portrait_FRA_henry_freydenberg
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "Henry Freydenberg"
+						desc = ""
+						picture = GFX_portrait_FRA_henry_freydenberg
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "Henry Freydenberg"
+						desc = ""
+						picture = GFX_portrait_FRA_henry_freydenberg
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_fra_henry_freydenberg
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

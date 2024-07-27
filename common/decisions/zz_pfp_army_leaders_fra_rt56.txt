@@ -1,0 +1,64 @@
+pfp_puppet_management = {
+	#René Olry
+	pfp_army_leader_fra_rene_olry = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_leadership
+			original_tag = FRA #Check if country is France
+
+			var:FROM.pfp_puppet_selection = {
+				is_puppet_of = FROM #Check if selection is puppet of FROM
+				has_country_leader = { name = "Military Junta" } 
+				has_government = FROM #Check to see if puppet has same government as FROM
+			}
+
+			has_character = FRA_rené_olry  #Check if country has character
+			FRA_rené_olry  = { is_army_leader = yes } #Check if currently General/Field Marshal
+			NOT = { has_global_flag = pfp_fra_rene_olry } #Check if René Olry is currently puppet leader
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_army_leader_appoint_desc
+			hidden_effect = {
+				#René Olry
+				var:FROM.pfp_puppet_selection = {
+					#Kill the current leaders of selection
+					kill_ideology_leader = communism
+					kill_ideology_leader = democratic
+					kill_ideology_leader = neutrality
+					kill_ideology_leader = fascism
+				
+					create_country_leader = {
+						name = "René Olry"
+						desc = ""
+						picture = GFX_portrait_FRA_rene_olry
+						ideology = marxism
+					}
+				
+					create_country_leader = {
+						name = "René Olry"
+						desc = ""
+						picture = GFX_portrait_FRA_rene_olry
+						ideology = conservatism
+					}
+				
+					create_country_leader = {
+						name = "René Olry"
+						desc = ""
+						picture = GFX_portrait_FRA_rene_olry
+						ideology = centrism
+					}
+				
+					create_country_leader = {
+						name = "René Olry"
+						desc = ""
+						picture = GFX_portrait_FRA_rene_olry
+						ideology = fascism_ideology
+					}
+				}
+				set_global_flag = pfp_fra_rene_olry
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

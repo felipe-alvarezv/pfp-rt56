@@ -1,7 +1,7 @@
-#Scripted effect to release Great Britain and Ireland (P02)
-pfp_release_great_britain_and_ireland = {
+#Scripted effect to release Great Britain (P02)
+pfp_release_great_britain = {
 	hidden_effect = {
-		#Add cores to Great Britain and Ireland territory
+		#Add cores to Great Britain territory
 		113 = { add_core_of = P02 } #Leinster
 		119 = { add_core_of = P02 } #Northern Ireland
 		120 = { add_core_of = P02 } #Scottish Highlands
@@ -36,7 +36,7 @@ pfp_release_great_britain_and_ireland = {
 		P02 = { transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
-		set_global_flag = pfp_great_britain_and_ireland_flag
+		set_global_flag = pfp_great_britain_flag
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P02 }

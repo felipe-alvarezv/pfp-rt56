@@ -1,0 +1,38 @@
+pfp_puppet_management = {
+	pfp_netherlands_eupen_malmedy = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P05 } 
+			has_global_flag = pfp_netherlands_flag
+			has_full_control_of_state = 965 #Eupen-Malmedy
+
+			965 = { #Eupen-Malmedy
+				NOT = { is_core_of = FROM }
+			}
+
+			P05 = { #PFP Netherlands
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_netherlands_eupen_malmedy_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 965 } #Eupen-Malmedy
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_netherlands_coring_states_eupen_malmedy
+			custom_effect_tooltip = pfp_netherlands_transfer_states_eupen_malmedy
+			hidden_effect = {
+				#Eupen-Malmedy
+				965 = { add_core_of = P05 }
+				P05 = { transfer_state = 965 }
+				set_global_flag = pfp_netherlands_eupen_malmedy_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

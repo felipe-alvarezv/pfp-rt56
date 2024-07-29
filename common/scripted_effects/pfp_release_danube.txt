@@ -1,12 +1,8 @@
-#Scripted effect to release Danube (P09)
-pfp_release_danube = {
+#Scripted effect to release Hungary (P09)
+pfp_release_hungary = {
 	hidden_effect = {
-		#Add cores to Danubian territory
+		#Add cores to Hungarian territory
 		43 = { add_core_of = P09 } #Northern Hungary
-		76 = { add_core_of = P09 } #North Transylvania
-		82 = { add_core_of = P09 } #Banat
-		83 = { add_core_of = P09 } #Crisana
-		84 = { add_core_of = P09 } #Transylvania
 		154 = { add_core_of = P09 } #Alföld
 		155 = { add_core_of = P09 } #Transdanubia
 		913 = { add_core_of = P09 } #Solt-Kiskun
@@ -21,7 +17,7 @@ pfp_release_danube = {
 		P09 = { transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
-		set_global_flag = pfp_danube_flag
+		set_global_flag = pfp_hungary_flag
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P09 }

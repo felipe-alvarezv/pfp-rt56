@@ -4,7 +4,7 @@ pfp_puppet_management = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P07 } 
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
 			has_global_flag = pfp_caribbean_flag
 			has_full_control_of_state = 972 #Virgin Islands
 
@@ -40,7 +40,7 @@ pfp_puppet_management = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P07 } 
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
 			has_global_flag = pfp_caribbean_flag
 			has_full_control_of_state = 1050 #Guantanamo Bay
 
@@ -55,6 +55,9 @@ pfp_puppet_management = {
 				}
 			}
 			NOT = { has_global_flag = pfp_caribbean_guantanamo_bay_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1050 } #Guantanamo Bay
 		}
 		complete_effect = {
 			custom_effect_tooltip = pfp_caribbean_coring_states_guantanamo_bay

@@ -1,180 +1,36 @@
 pfp_puppet_management = {
-	pfp_south_asia_kandahar = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P37 }
-			has_global_flag = pfp_south_asia_flag
-			has_full_control_of_state = 1010 #Kandahar
-
-			1010 = { #Kandahar
-				NOT = { is_core_of = FROM }
-			}
-
-			P37 = { #PFP South Asia
-				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
-				}
-			}
-			NOT = { has_global_flag = pfp_south_asia_kandahar_flag }
-		}
-		highlight_states = {
-			highlight_state_targets = { state = 1010 } #Kandahar
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_south_asia_coring_states_kandahar
-			custom_effect_tooltip = pfp_south_asia_transfer_states_kandahar
-			hidden_effect = {
-				#Kandahar
-				1010 = { add_core_of = P37 }
-				P37 = { transfer_state = 1010 }
-				set_global_flag = pfp_south_asia_kandahar_flag
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	pfp_south_asia_bamian = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P37 }
-			has_global_flag = pfp_south_asia_flag
-			has_full_control_of_state = 1009 #Bamian
-
-			1009 = { #Bamian
-				NOT = { is_core_of = FROM }
-			}
-
-			P37 = { #PFP South Asia
-				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
-				}
-			}
-			NOT = { has_global_flag = pfp_south_asia_bamian_flag }
-		}
-		highlight_states = {
-			highlight_state_targets = { state = 1009 } #Bamian
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_south_asia_coring_states_bamian
-			custom_effect_tooltip = pfp_south_asia_transfer_states_bamian
-			hidden_effect = {
-				#Bamian
-				1009 = { add_core_of = P37 }
-				P37 = { transfer_state = 1009 }
-				set_global_flag = pfp_south_asia_bamian_flag
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	pfp_south_asia_faryab = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P37 }
-			has_global_flag = pfp_south_asia_flag
-			has_full_control_of_state = 1008 #Faryab
-
-			1008 = { #Faryab
-				NOT = { is_core_of = FROM }
-			}
-
-			P37 = { #PFP South Asia
-				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
-				}
-			}
-			NOT = { has_global_flag = pfp_south_asia_faryab_flag }
-		}
-		highlight_states = {
-			highlight_state_targets = { state = 1008 } #Faryab
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_south_asia_coring_states_faryab
-			custom_effect_tooltip = pfp_south_asia_transfer_states_faryab
-			hidden_effect = {
-				#Faryab
-				1008 = { add_core_of = P37 }
-				P37 = { transfer_state = 1008 }
-				set_global_flag = pfp_south_asia_faryab_flag
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	pfp_south_asia_badakhshan = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P37 }
-			has_global_flag = pfp_south_asia_flag
-			has_full_control_of_state = 1011 #Badakhshan
-			
-			1011 = { #Badakhnshan
-				NOT = { is_core_of = FROM }
-			}
-
-			P37 = { #PFP South Asia
-				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
-				}
-			}
-			NOT = { has_global_flag = pfp_south_asia_badakhshan_flag }
-		}
-		highlight_states = {
-			highlight_state_targets = { state = 1011 } #Badakhshan
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_south_asia_coring_states_badakhshan
-			custom_effect_tooltip = pfp_south_asia_transfer_states_badakhshan
-			hidden_effect = {
-				#Badakhshan
-				1011 = { add_core_of = P37 }
-				P37 = { transfer_state = 1011 }
-				set_global_flag = pfp_south_asia_badakhshan_flag
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	pfp_south_asia_sikkim = {
+	pfp_india_sikkim = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P37 }
-			has_global_flag = pfp_south_asia_flag
+			has_global_flag = pfp_india_flag
 			has_full_control_of_state = 1013 #Sikkim
 			
 			1013 = { #Badakhnshan
 				NOT = { is_core_of = FROM }
 			}
 	
-			P37 = { #PFP South Asia
+			P37 = { #PFP India
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_south_asia_sikkim_flag }
+			NOT = { has_global_flag = pfp_india_sikkim_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 1013 } #Sikkim
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_south_asia_coring_states_sikkim
-			custom_effect_tooltip = pfp_south_asia_transfer_states_sikkim
+			custom_effect_tooltip = pfp_india_coring_states_sikkim
+			custom_effect_tooltip = pfp_india_transfer_states_sikkim
 			hidden_effect = {
 				#Sikkim
 				1013 = { add_core_of = P37 }
 				P37 = { transfer_state = 1013 }
-				set_global_flag = pfp_south_asia_sikkim_flag
+				set_global_flag = pfp_india_sikkim_flag
 			}
 		}
 		ai_will_do = { factor = 0 }

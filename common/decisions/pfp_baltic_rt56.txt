@@ -1,0 +1,110 @@
+pfp_puppet_management = {
+	pfp_baltic_suwalki = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 934 #Suwalki
+
+			934 = { #Suwalki
+				NOT = { is_core_of = FROM }
+			}
+
+			P04 = { #PFP Baltic
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_suwalki_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 934 } #Suwalki
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_suwalki
+			custom_effect_tooltip = pfp_baltic_transfer_states_suwalki
+			hidden_effect = {
+				#Suwalki
+				934 = { add_core_of = P04 }
+				P04 = { transfer_state = 934 }
+				set_global_flag = pfp_baltic_suwalki_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_baltic_grodno = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 935 #Grodno
+	
+			935 = { #Grodno
+				NOT = { is_core_of = FROM }
+			}
+	
+			P04 = { #PFP Baltic
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_grodno_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 935 } #Grodno
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_grodno
+			custom_effect_tooltip = pfp_baltic_transfer_states_grodno
+			hidden_effect = {
+				#Grodno
+				935 = { add_core_of = P04 }
+				P04 = { transfer_state = 935 }
+				set_global_flag = pfp_baltic_grodno_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_baltic_outer_wilno = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P04 } 
+			has_global_flag = pfp_baltic_flag
+			has_full_control_of_state = 936 #Outer Wilno
+	
+			936 = { #Outer Wilno
+				NOT = { is_core_of = FROM }
+			}
+	
+			P04 = { #PFP Baltic
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_baltic_outer_wilno_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 936 } #Outer Wilno
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_baltic_coring_states_outer_wilno
+			custom_effect_tooltip = pfp_baltic_transfer_states_outer_wilno
+			hidden_effect = {
+				#Outer Wilno
+				936 = { add_core_of = P04 }
+				P04 = { transfer_state = 936 }
+				set_global_flag = pfp_baltic_outer_wilno_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

@@ -1,361 +1,216 @@
 pfp_puppet_management = {
-	pfp_danube_lower_styria = {
+	pfp_hungary_uzhorod = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P09 }
-			has_global_flag = pfp_danube_flag
-			has_full_control_of_state = 102 #Lower Styria
-			
-
-			102 = { #Lower Styria
-				NOT = { is_core_of = FROM }
-			}
-
-			P09 = { #PFP Danube
-				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
-				}
-			}
-			NOT = { has_global_flag = pfp_danube_lower_styria_flag }
-		}
-		highlight_states = {
-			highlight_state_targets = { state = 102 } #Lower Styria
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_danube_coring_states_lower_styria
-			custom_effect_tooltip = pfp_danube_transfer_states_lower_styria
-			hidden_effect = {
-				#Lower Styria
-				102 = { add_core_of = P09 }
-				P09 = { transfer_state = 102 }
-				set_global_flag = pfp_danube_lower_styria_flag
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	pfp_danube_styria = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P09 }
-			has_global_flag = pfp_danube_flag
-			has_full_control_of_state = 1054 #Styria
-
-			1054 = { #Styria
-				NOT = { is_core_of = FROM }
-			}
-
-			P09 = { #PFP Danube
-				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
-				}
-			}
-			NOT = { has_global_flag = pfp_danube_styria_flag }
-		}
-		highlight_states = {
-			highlight_state_targets = { state = 1054 } #Styria
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_danube_coring_states_styria
-			custom_effect_tooltip = pfp_danube_transfer_states_styria
-			hidden_effect = {
-				#Styria
-				1054 = { add_core_of = P09 }
-				P09 = { transfer_state = 1054 }
-				set_global_flag = pfp_danube_styria_flag
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	pfp_danube_prekmurje = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P09 }
-			has_global_flag = pfp_danube_flag
-			has_full_control_of_state = 956 #Prekmurje
-
-			956 = { #Prekmurje
-				NOT = { is_core_of = FROM }
-			}
-
-			P09 = { #PFP Danube
-				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
-				}
-			}
-			NOT = { has_global_flag = pfp_danube_prekmurje_flag }
-		}
-		highlight_states = {
-			highlight_state_targets = { state = 956 } #Prekmurje
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_danube_coring_states_prekmurje
-			custom_effect_tooltip = pfp_danube_transfer_states_prekmurje
-			hidden_effect = {
-				#Prekmurje
-				956 = { add_core_of = P09 }
-				P09 = { transfer_state = 956 }
-				set_global_flag = pfp_danube_prekmurje_flag
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	pfp_danube_uzhorod = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P09 }
-			has_global_flag = pfp_danube_flag
+			has_global_flag = pfp_hungary_flag
 			has_full_control_of_state = 996 #Uzhorod
 
 			996 = { #Uzhorod
 				NOT = { is_core_of = FROM }
 			}
 
-			P09 = { #PFP Danube
+			P09 = { #PFP Hungary
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_danube_uzhorod_flag }
+			NOT = { has_global_flag = pfp_hungary_uzhorod_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 996 }
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_danube_coring_states_uzhorod
-			custom_effect_tooltip = pfp_danube_transfer_states_uzhorod
+			custom_effect_tooltip = pfp_hungary_coring_states_uzhorod
+			custom_effect_tooltip = pfp_hungary_transfer_states_uzhorod
 			hidden_effect = {
 				#Uzhorod
 				996 = { add_core_of = P09 }
 				P09 = { transfer_state = 996 }
-				set_global_flag = pfp_danube_uzhorod_flag
+				set_global_flag = pfp_hungary_uzhorod_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_danube_friuli = {
+	pfp_hungary_kvarner = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P09 }
-			has_global_flag = pfp_danube_flag
-			has_full_control_of_state = 912 #Friuli
-
-			912 = { #Friuli
-				NOT = { is_core_of = FROM }
-			}
-
-			P09 = { #PFP Danube
-				OR = {
-					is_puppet_of = FROM
-					is_in_faction_with = FROM
-				}
-			}
-			NOT = { has_global_flag = pfp_danube_friuli_flag }
-		}
-		highlight_states = {
-			highlight_state_targets = { state = 912 } #Friuli
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_danube_coring_states_friuli
-			custom_effect_tooltip = pfp_danube_transfer_states_friuli
-			hidden_effect = {
-				#Friuli
-				912 = { add_core_of = P09 }
-				P09 = { transfer_state = 912 }
-				set_global_flag = pfp_danube_friuli_flag
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
-	pfp_danube_kvarner = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P09 }
-			has_global_flag = pfp_danube_flag
+			has_global_flag = pfp_hungary_flag
 			has_full_control_of_state = 958 #Kvarner
 
 			958 = { #Kvarner
 				NOT = { is_core_of = FROM }
 			}
 
-			P09 = { #PFP Danube
+			P09 = { #PFP Hungary
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_danube_kvarner_flag }
+			NOT = { has_global_flag = pfp_hungary_kvarner_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 958 } #Kvarner
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_danube_coring_states_kvarner
-			custom_effect_tooltip = pfp_danube_transfer_states_kvarner
+			custom_effect_tooltip = pfp_hungary_coring_states_kvarner
+			custom_effect_tooltip = pfp_hungary_transfer_states_kvarner
 			hidden_effect = {
 				#Kvarner
 				958 = { add_core_of = P09 }
 				P09 = { transfer_state = 958 }
-				set_global_flag = pfp_danube_kvarner_flag
+				set_global_flag = pfp_hungary_kvarner_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_danube_banja_luka = {
+	pfp_hungary_banja_luka = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P09 }
-			has_global_flag = pfp_danube_flag
+			has_global_flag = pfp_hungary_flag
 			has_full_control_of_state = 961 #Banja Luka
 
 			961 = { #Banja Luka
 				NOT = { is_core_of = FROM }
 			}
 
-			P09 = { #PFP Danube
+			P09 = { #PFP Hungary
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_danube_banja_luka_flag }
+			NOT = { has_global_flag = pfp_hungary_banja_luka_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 961 } #Banja Luka
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_danube_coring_states_banja_luka
-			custom_effect_tooltip = pfp_danube_transfer_states_banja_luka
+			custom_effect_tooltip = pfp_hungary_coring_states_banja_luka
+			custom_effect_tooltip = pfp_hungary_transfer_states_banja_luka
 			hidden_effect = {
 				#Banja Luka
 				961 = { add_core_of = P09 }
 				P09 = { transfer_state = 961 }
-				set_global_flag = pfp_danube_banja_luka_flag
+				set_global_flag = pfp_hungary_banja_luka_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_danube_posavina = {
+	pfp_hungary_posavina = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P09 }
-			has_global_flag = pfp_danube_flag
+			has_global_flag = pfp_hungary_flag
 			has_full_control_of_state = 962 #Posavina
 
 			962 = { #Posavina
 				NOT = { is_core_of = FROM }
 			}
 
-			P09 = { #PFP Danube
+			P09 = { #PFP Hungary
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_danube_posavina_flag }
+			NOT = { has_global_flag = pfp_hungary_posavina_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 962 } #Posavina
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_danube_coring_states_posavina
-			custom_effect_tooltip = pfp_danube_transfer_states_posavina
+			custom_effect_tooltip = pfp_hungary_coring_states_posavina
+			custom_effect_tooltip = pfp_hungary_transfer_states_posavina
 			hidden_effect = {
 				#Posavina
 				962 = { add_core_of = P09 }
 				P09 = { transfer_state = 962 }
-				set_global_flag = pfp_danube_posavina_flag
+				set_global_flag = pfp_hungary_posavina_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_danube_slavonia = {
+	pfp_hungary_slavonia = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P09 }
-			has_global_flag = pfp_danube_flag
+			has_global_flag = pfp_hungary_flag
 			has_full_control_of_state = 959 #Slavonia
 
 			959 = { #Slavonia
 				NOT = { is_core_of = FROM }
 			}
 
-			P09 = { #PFP Danube
+			P09 = { #PFP Hungary
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_danube_slavonia_flag }
+			NOT = { has_global_flag = pfp_hungary_slavonia_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 959 } #Slavonia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_danube_coring_states_slavonia
-			custom_effect_tooltip = pfp_danube_transfer_states_slavonia
+			custom_effect_tooltip = pfp_hungary_coring_states_slavonia
+			custom_effect_tooltip = pfp_hungary_transfer_states_slavonia
 			hidden_effect = {
 				#Slavonia
 				959 = { add_core_of = P09 }
 				P09 = { transfer_state = 959 }
-				set_global_flag = pfp_danube_slavonia_flag
+				set_global_flag = pfp_hungary_slavonia_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_danube_syrmia = {
+	pfp_hungary_syrmia = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P09 }
-			has_global_flag = pfp_danube_flag
+			has_global_flag = pfp_hungary_flag
 			has_full_control_of_state = 952 #Syrmia
 
 			952 = { #Syrmia
 				NOT = { is_core_of = FROM }
 			}
 
-			P09 = { #PFP Danube
+			P09 = { #PFP Hungary
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_danube_syrmia_flag }
+			NOT = { has_global_flag = pfp_hungary_syrmia_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 952 } #Syrmia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_danube_coring_states_syrmia
-			custom_effect_tooltip = pfp_danube_transfer_states_syrmia
+			custom_effect_tooltip = pfp_hungary_coring_states_syrmia
+			custom_effect_tooltip = pfp_hungary_transfer_states_syrmia
 			hidden_effect = {
 				#Syrmia
 				952 = { add_core_of = P09 }
 				P09 = { transfer_state = 952 }
-				set_global_flag = pfp_danube_syrmia_flag
+				set_global_flag = pfp_hungary_syrmia_flag
 			}
 		}
 		ai_will_do = { factor = 0 }

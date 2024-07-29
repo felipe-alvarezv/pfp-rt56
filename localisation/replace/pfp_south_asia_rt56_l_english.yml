@@ -1,19 +1,6 @@
-﻿#South Asia - P37 - Localisation
+﻿#India - P37 - Localisation
 l_english:
 	#Decisions Information
-	pfp_south_asia_required_states_baluchistan:0 "Controls §YBalochistan§!."
-	pfp_south_asia_kandahar:0 "Transfer Kandahar"
-	pfp_south_asia_coring_states_kandahar:0 "§YSouth Asia§! gains core on §YKandahar§!.\n"
-	pfp_south_asia_transfer_states_kandahar:0 "§YSouth Asia§! becomes owner and controller of §YKandahar§!.\n"
-	pfp_south_asia_bamian:0 "Transfer Bamian"
-	pfp_south_asia_coring_states_bamian:0 "§YSouth Asia§! gains core on §YBamian§!.\n"
-	pfp_south_asia_transfer_states_bamian:0 "§YSouth Asia§! becomes owner and controller of §YBamian§!.\n"
-	pfp_south_asia_faryab:0 "Transfer Faryab"
-	pfp_south_asia_coring_states_faryab:0 "§YSouth Asia§! gains core on §YFaryab§!.\n"
-	pfp_south_asia_transfer_states_faryab:0 "§YSouth Asia§! becomes owner and controller of §YFaryab§!.\n"
-	pfp_south_asia_badakhshan:0 "Transfer Badakhshan"
-	pfp_south_asia_coring_states_badakhshan:0 "§YSouth Asia§! gains core on §YBadakhshan§!.\n"
-	pfp_south_asia_transfer_states_badakhshan:0 "§YSouth Asia§! becomes owner and controller of §YBadakhshan§!.\n"
-  pfp_south_asia_sikkim:0 "Transfer Sikkim"
-	pfp_south_asia_coring_states_sikkim:0 "§YSouth Asia§! gains core on §YSikkim§!.\n"
-	pfp_south_asia_transfer_states_sikkim:0 "§YSouth Asia§! becomes owner and controller of §YSikkim§!.\n"
+  pfp_india_sikkim:0 "Transfer Sikkim"
+	pfp_india_coring_states_sikkim:0 "§YIndia§! gains core on §YSikkim§!.\n"
+	pfp_india_transfer_states_sikkim:0 "§YIndia§! becomes owner and controller of §YSikkim§!.\n"

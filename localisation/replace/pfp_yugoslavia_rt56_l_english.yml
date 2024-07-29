@@ -15,5 +15,5 @@ l_english:
 	pfp_yugoslavia_required_states_west_sandzak:0 "Controls §YWest Sandzak§!."
 	pfp_yugoslavia_debar:0 "Transfer Debar"
 	pfp_yugoslavia_required_states_debar:0 "Controls §YDebar§!."
-	pfp_yugoslavia_coring_states_debar:0 "§YSouth Asia§! gains core on §YDebar§!.\n"
-	pfp_yugoslavia_transfer_states_debar:0 "§YSouth Asia§! becomes owner and controller of §YDebar§!.\n"
+	pfp_yugoslavia_coring_states_debar:0 "§YYugoslavia§! gains core on §YDebar§!.\n"
+	pfp_yugoslavia_transfer_states_debar:0 "§YYugoslavia§! becomes owner and controller of §YDebar§!.\n"

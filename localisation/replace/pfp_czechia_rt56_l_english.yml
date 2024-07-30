@@ -1,0 +1,6 @@
+﻿#Czechia - P59 - Localisation
+l_english:
+	#Decisions Information
+	pfp_czechia_uzhorod:0 "Transfer Uzhorod"
+	pfp_czechia_coring_states_uzhorod:0 "§YCzechia§! gains core on §YUzhorod§!.\n"
+	pfp_czechia_transfer_states_uzhorod:0 "§YCzechia§! becomes owner and controller of §YUzhorod§!.\n"

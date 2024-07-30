@@ -1,0 +1,110 @@
+pfp_puppet_management = {
+	pfp_great_britain_shetland_islands = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P02 } 
+			has_global_flag = pfp_great_britain_flag
+			has_full_control_of_state = 970 #Shetland
+	
+			970 = { #Shetland
+				NOT = { is_core_of = FROM }
+			}
+	
+			P02 = { #PFP Great Britain
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_great_britain_shetland_islands_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 970 } #Shetland
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_great_britain_coring_states_shetland_islands
+			custom_effect_tooltip = pfp_great_britain_transfer_states_shetland_islands
+			hidden_effect = {
+				#Shetland
+				970 = { add_core_of = P02 }
+				P02 = { transfer_state = 970 }
+				set_global_flag = pfp_great_britain_shetland_islands_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_great_britain_orkney = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P02 } 
+			has_global_flag = pfp_great_britain_flag
+			has_full_control_of_state = 971 #Orkney
+	
+			971 = { #Orkney
+				NOT = { is_core_of = FROM }
+			}
+	
+			P02 = { #PFP Great Britain
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_great_britain_orkney_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 971 } #Orkney
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_great_britain_coring_states_orkney
+			custom_effect_tooltip = pfp_great_britain_transfer_states_orkney
+			hidden_effect = {
+				#Orkney
+				971 = { add_core_of = P02 }
+				P02 = { transfer_state = 971 }
+				set_global_flag = pfp_great_britain_orkney_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_great_britain_isle_of_man = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P02 } 
+			has_global_flag = pfp_great_britain_flag
+			has_full_control_of_state = 1042 #Isle of Man
+	
+			1042 = { #Isle of Man
+				NOT = { is_core_of = FROM }
+			}
+	
+			P02 = { #PFP Great Britain
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_great_britain_isle_of_man_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1042 } #Isle of Man
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_great_britain_coring_states_isle_of_man
+			custom_effect_tooltip = pfp_great_britain_transfer_states_isle_of_man
+			hidden_effect = {
+				#Isle of Man
+				1042 = { add_core_of = P02 }
+				P02 = { transfer_state = 1042 }
+				set_global_flag = pfp_great_britain_isle_of_man_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

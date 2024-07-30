@@ -9,16 +9,6 @@ pfp_category = {
         }
         available = {
             is_subject = no
-            #Leinster
-            custom_trigger_tooltip = {
-                tooltip = pfp_great_britain_required_states_leinster
-                has_full_control_of_state = 113 #Leinster
-            }
-            #Northern Ireland
-            custom_trigger_tooltip = {
-                tooltip = pfp_great_britain_required_states_northern_ireland
-                has_full_control_of_state = 119 #Northern Ireland
-            }
             #Scottish Highlands
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_required_states_scottish_highlands
@@ -84,16 +74,6 @@ pfp_category = {
                 tooltip = pfp_great_britain_required_states_lanark
                 has_full_control_of_state = 133 #Lanark
             }
-            #Connaught
-            custom_trigger_tooltip = {
-                tooltip = pfp_great_britain_required_states_connaught
-                has_full_control_of_state = 134 #Connaught
-            }
-            #Munster
-            custom_trigger_tooltip = {
-                tooltip = pfp_great_britain_required_states_munster
-                has_full_control_of_state = 135 #Munster
-            }
             #Aberdeenshire
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_required_states_aberdeenshire
@@ -104,25 +84,10 @@ pfp_category = {
                 tooltip = pfp_great_britain_required_states_gloucestershire
                 has_full_control_of_state = 338 #Gloucestershire
             }
-             #Shetland Islands
-             custom_trigger_tooltip = {
-                tooltip = pfp_great_britain_required_states_shetland_islands
-                has_full_control_of_state = 970 #Shetland Islands
-            }
-            #Orkney
-            custom_trigger_tooltip = {
-                tooltip = pfp_great_britain_required_states_orkney
-                has_full_control_of_state = 971 #Orkney
-            }
             #Cumbria
             custom_trigger_tooltip = {
                 tooltip = pfp_great_britain_required_states_cumbria
                 has_full_control_of_state = 1041 #Cumbria
-            }
-            #Isle of Man
-            custom_trigger_tooltip = {
-                tooltip = pfp_great_britain_required_states_isle_of_man
-                has_full_control_of_state = 1042 #Isle of Man
             }
         }
         visible = {
@@ -136,8 +101,6 @@ pfp_category = {
         }
         highlight_states = {
 			highlight_state_targets = { 
-				state = 113 #Leinster
-				state = 119 #Northern Ireland
 				state = 120 #Scottish Highlands
 				state = 121 #Lothian
 				state = 122 #Wales
@@ -151,14 +114,9 @@ pfp_category = {
 				state = 131 #Northumberland
 				state = 132 #Lancashire
 				state = 133 #Lanark
-				state = 134 #Connaught
-				state = 135 #Munster
 				state = 136 #Aberdeenshire
 				state = 338 #Gloucestershire
-                state = 970 #Shetland Islands
-                state = 971 #Orkney
 				state = 1041 #Cumbria
-				state = 1042 #Isle of Man
 			}
 		}
 		icon = generic_military

@@ -1,0 +1,18 @@
+﻿#India - P37 - Localisation
+l_english:
+	#Decisions Information
+	pfp_india_magway:0 "Transfer Magway"
+	pfp_india_coring_states_magway:0 "§YIndia§! gains core on §YMagway§!.\n"
+	pfp_india_transfer_states_magway:0 "§YIndia§! becomes owner and controller of §YMagway§!.\n"
+  pfp_india_sikkim:0 "Transfer Sikkim"
+	pfp_india_coring_states_sikkim:0 "§YIndia§! gains core on §YSikkim§!.\n"
+	pfp_india_transfer_states_sikkim:0 "§YIndia§! becomes owner and controller of §YSikkim§!.\n"
+	pfp_india_shanland:0 "Transfer Shanland"
+	pfp_india_coring_states_shanland:0 "§YIndia§! gains core on §YShanland§!.\n"
+	pfp_india_transfer_states_shanland:0 "§YIndia§! becomes owner and controller of §YShanland§!.\n"
+	pfp_india_sagaing:0 "Transfer Sagaing"
+	pfp_india_coring_states_sagaing:0 "§YIndia§! gains core on §YSagaing§!.\n"
+	pfp_india_transfer_states_sagaing:0 "§YIndia§! becomes owner and controller of §YSagaing§!.\n"
+	pfp_india_bago:0 "Transfer Bago"
+	pfp_india_coring_states_bago:0 "§YIndia§! gains core on §YBago§!.\n"
+	pfp_india_transfer_states_bago:0 "§YIndia§! becomes owner and controller of §YBago§!.\n"

@@ -2,8 +2,6 @@
 pfp_release_great_britain = {
 	hidden_effect = {
 		#Add cores to Great Britain territory
-		113 = { add_core_of = P02 } #Leinster
-		119 = { add_core_of = P02 } #Northern Ireland
 		120 = { add_core_of = P02 } #Scottish Highlands
 		121 = { add_core_of = P02 } #Lothian
 		122 = { add_core_of = P02 } #Wales
@@ -14,17 +12,12 @@ pfp_release_great_britain = {
 		128 = { add_core_of = P02 } #West Midlands
 		129 = { add_core_of = P02 } #East Midlands
 		130 = { add_core_of = P02 } #Yorkshire
-		131 = { add_core_of = P02 } #Northumberland.
+		131 = { add_core_of = P02 } #Northumberland
 		132 = { add_core_of = P02 } #Lancashire
 		133 = { add_core_of = P02 } #Lanark
-		134 = { add_core_of = P02 } #Connaught
-		135 = { add_core_of = P02 } #Munster
 		136 = { add_core_of = P02 } #Aberdeenshire
 		338 = { add_core_of = P02 } #Gloucestershire
 		1041 = { add_core_of = P02 } #Cumbria
-		1042 = { add_core_of = P02 } #Isle of Man
-		970 = { add_core_of = P02 } #Shetland Islands
-		971 = { add_core_of = P02 } #Orkney
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {

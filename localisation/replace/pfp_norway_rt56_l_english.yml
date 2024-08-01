@@ -1,0 +1,6 @@
+﻿#Norway - P64 - Localisation
+l_english:
+	#Decisions Information
+	pfp_norway_required_states_ostlandet:0 "Controls §YOstlandet§!."
+	pfp_norway_required_states_nord_norge:0 "Controls §YNord-Norge§!."
+	pfp_norway_required_states_sorlandet:0 "Controls §YSorlandet§!."

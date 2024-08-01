@@ -1,0 +1,32 @@
+#Scripted effect to release Norway (P65)
+pfp_release_norway = {
+	hidden_effect = {
+		#Add cores to Norway
+		110 = { add_core_of = P65 } #Ostlandet
+		142 = { add_core_of = P65 } #Vestlandet
+		143 = { add_core_of = P65 } #Trondelag
+		144 = { add_core_of = P65 } #Nord-Norge
+		967 = { add_core_of = P65 } #Sorlandet
+		1031 = { add_core_of = P65 } #Opplandene
+		1032 = { add_core_of = P65 } #Telemark
+		1033 = { add_core_of = P65 } #Helgeland
+		1034 = { add_core_of = P65 } #Troms
+		1035 = { add_core_of = P65 } #Finnmark
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P65 }
+			transfer_state_to = P65
+		}
+
+		#Transfer all technology to formable puppet
+		P65 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_norway_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P65 }
+		news_event = { id = pfp_news.01 }
+	}
+}

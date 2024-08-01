@@ -1,0 +1,34 @@
+#Scripted effect to release Levant (P67)
+pfp_release_levant = {
+	hidden_effect = {
+		#Add cores to Levant
+		454 = { add_core_of = P67 } #Coastal Plain
+		455 = { add_core_of = P67 } #Ammam
+		553 = { add_core_of = P67 } #Lebanon
+		554 = { add_core_of = P67 } #Damascus
+		677 = { add_core_of = P67 } #Aleppo
+		680 = { add_core_of = P67 } #Deir-Az-Zur
+		949 = { add_core_of = P67 } #Gaza
+		966 = { add_core_of = P67 } #West Bank
+		1016 = { add_core_of = P67 } #Jerusalem
+		1017 = { add_core_of = P67 } #Beersheba
+		1021 = { add_core_of = P67 } #Mafraq
+		1022 = { add_core_of = P67 } #Ma'an
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P67 }
+			transfer_state_to = P67
+		}
+
+		#Transfer all technology to formable puppet
+		P67 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_levant_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P67 }
+		news_event = { id = pfp_news.01 }
+	}
+}

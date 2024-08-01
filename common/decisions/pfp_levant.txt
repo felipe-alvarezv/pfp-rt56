@@ -1,0 +1,112 @@
+pfp_category = {
+	pfp_levant = {
+		allowed = {
+			NOT = {
+				original_tag = ISR #Israel
+				original_tag = JOR #Jordan
+				original_tag = PAL #Palestine
+				original_tag = SYR #Syria
+				original_tag = P67 #PFP Levant
+			}
+		}
+		available = {
+			is_subject = no
+			#Coastal Plain
+			custom_trigger_tooltip = {
+				tooltip = pfp_levant_required_states_coastal_plain
+				has_full_control_of_state = 454 #Coastal Plain
+			}
+			#Ammam
+			custom_trigger_tooltip = {
+				tooltip = pfp_levant_required_states_ammam
+				has_full_control_of_state = 455 #Ammam
+			}
+			#Lebanon
+			custom_trigger_tooltip = {
+				tooltip = pfp_levant_required_states_lebanon
+				has_full_control_of_state = 553 #Damascus
+			}
+			#Aleppo
+			custom_trigger_tooltip = {
+				tooltip = pfp_levant_required_states_aleppo
+				has_full_control_of_state = 677 #Aleppo
+			}
+			#Deir-Az-Zur
+			custom_trigger_tooltip = {
+				tooltip = pfp_levant_required_states_deir_az_zur
+				has_full_control_of_state = 680 #Deir-Az-Zur
+			}
+			#Gaza
+			custom_trigger_tooltip = {
+				tooltip = pfp_levant_required_states_gaza
+				has_full_control_of_state = 949 #Gaza
+			}
+			#West Bank
+			custom_trigger_tooltip = {
+				tooltip = pfp_levant_required_states_west_bank
+				has_full_control_of_state = 966 #West Bank
+			}
+			#Jerusalem
+			custom_trigger_tooltip = {
+				tooltip = pfp_levant_required_states_jerusalem
+				has_full_control_of_state = 1016 #Jerusalem
+			}
+			#Beersheba
+			custom_trigger_tooltip = {
+				tooltip = pfp_levant_required_states_beersheba
+				has_full_control_of_state = 1017 #Beersheba
+			}
+			#Mafraq
+			custom_trigger_tooltip = {
+				tooltip = pfp_levant_required_states_mafraq
+				has_full_control_of_state = 1021 #Mafraq
+			}
+			#Ma'an
+			custom_trigger_tooltip = {
+				tooltip = pfp_levant_required_states_maan
+				has_full_control_of_state = 1022 #Ma'an
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 553 #Lebanon
+				has_full_control_of_state = 677 #Aleppo
+				has_full_control_of_state = 1016 #Jerusalem
+			}
+			NOT = { has_global_flag = pfp_levant_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 454 #Coastal Plain
+				state = 455 #Ammam
+				state = 553 #Lebanon
+				state = 554 #Damascus
+				state = 677 #Aleppo
+				state = 680 #Deir-Az-Zur
+				state = 949 #Gaza
+				state = 966 #West Bank
+				state = 1016 #Jerusalem
+				state = 1017 #Beersheba
+				state = 1021 #Mafraq
+				state = 1022 #Ma'an
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_levant_coring_states
+			custom_effect_tooltip = pfp_levant_transfer_states
+			custom_effect_tooltip = pfp_levant_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_levant = yes
+				set_autonomy = { target = P67 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P67 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

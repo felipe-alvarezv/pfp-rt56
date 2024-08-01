@@ -1,0 +1,14 @@
+﻿#Levant - P67 - Localisation
+l_english:
+	#Decisions Information
+	pfp_levant_required_states_coastal_plain:0 "Controls §YCoastal Plain§!."
+	pfp_levant_required_states_ammam:0 "Controls §YAmmam§!."
+	pfp_levant_required_states_gaza:0 "Controls §YGaza§!."
+	pfp_levant_required_states_west_bank:0 "Controls §YWest Bank§!."
+	pfp_levant_required_states_jerusalem:0 "Controls §YJerusalem§!."
+	pfp_levant_required_states_beersheba:0 "Controls §YBeersheba§!."
+	pfp_levant_required_states_mafraq:0 "Controls §YMafraq§!."
+	pfp_levant_required_states_maan:0 "Controls §YMa'an§!."
+	pfp_levant_east_suez:0 "Transfer East Suez"
+	pfp_levant_coring_states_east_suez:0 "§YLevant§! gains core on §YEast Suez§!.\n"
+	pfp_levant_transfer_states_east_suez:0 "§YLevant§! becomes owner and controller of §YEast Suez§!.\n"

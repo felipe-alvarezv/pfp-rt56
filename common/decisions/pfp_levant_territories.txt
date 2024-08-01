@@ -1,0 +1,74 @@
+pfp_puppet_management = {
+	pfp_levant_suez = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P67 } 
+			has_global_flag = pfp_levant_flag
+			has_full_control_of_state = 911 #Suez
+	
+			911 = { #Suez
+				NOT = { is_core_of = FROM }
+			}
+	
+			P67 = { #Levant
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_levant_suez_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 911 } #Suez
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_levant_coring_states_suez
+			custom_effect_tooltip = pfp_levant_transfer_states_suez
+			hidden_effect = {
+				#Suez
+				911 = { add_core_of = P67 }
+				P67 = { transfer_state = 911 }
+				set_global_flag = pfp_levant_suez_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_levant_east_suez = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P67 } 
+			has_global_flag = pfp_levant_flag
+			has_full_control_of_state = 995 #East Suez
+	
+			995 = { #East Suez
+				NOT = { is_core_of = FROM }
+			}
+	
+			P67 = { #Levant
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_levant_east_suez_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 995 } #East Suez
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_levant_coring_states_east_suez
+			custom_effect_tooltip = pfp_levant_transfer_states_east_suez
+			hidden_effect = {
+				#East Suez
+				995 = { add_core_of = P67 }
+				P67 = { transfer_state = 995 }
+				set_global_flag = pfp_levant_east_suez_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

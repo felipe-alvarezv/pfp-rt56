@@ -1,0 +1,6 @@
+﻿#French Alps - P64 - Localisation
+l_english:
+	#Decisions Information
+	pfp_french_alps_monaco:0 "Transfer Monaco"
+	pfp_french_alps_coring_states_monaco:0 "§YFrench Alps§! gains core on §YMonaco§!.\n"
+	pfp_french_alps_transfer_states_monaco:0 "§YFrench Alps§! becomes owner and controller of §YMonaco§!.\n"

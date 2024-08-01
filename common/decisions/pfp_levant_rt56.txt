@@ -1,5 +1,4 @@
 pfp_puppet_management = {
-	
 	pfp_levant_suez = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view

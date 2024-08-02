@@ -1,0 +1,27 @@
+#Scripted effect to release Iraq (P69)
+pfp_release_iraq = {
+	hidden_effect = {
+		#Add cores to Iraq
+		291 = { add_core_of = P69 } #Baghdad
+		675 = { add_core_of = P69 } #Al Sahra'a Al Janubiyah
+		1045 = { add_core_of = P69 } #Basrah
+		1046 = { add_core_of = P69 } #Karbala-Najaf
+		1047 = { add_core_of = P69 } #Dulaim
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P69 }
+			transfer_state_to = P69
+		}
+
+		#Transfer all technology to formable puppet
+		P69 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_iraq_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P69 }
+		news_event = { id = pfp_news.01 }
+	}
+}

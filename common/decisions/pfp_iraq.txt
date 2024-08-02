@@ -1,0 +1,71 @@
+pfp_category = {
+	pfp_iraq = {
+		allowed = {
+			NOT = {
+				original_tag = IRQ #Iraq
+				original_tag = P69 #PFP Iraq
+			}
+		}
+		available = {
+			is_subject = no
+			#Baghdad
+			custom_trigger_tooltip = {
+				tooltip = pfp_iraq_required_states_baghdad
+				has_full_control_of_state = 291 #Baghdad
+			}
+			#Al Sahra'a Al Janubiyah
+			custom_trigger_tooltip = {
+				tooltip = pfp_iraq_required_states_al_hajara
+				has_full_control_of_state = 675 #Al Sahra'a Al Janubiyah
+			}
+			#Basrah
+			custom_trigger_tooltip = {
+				tooltip = pfp_iraq_required_states_basrah
+				has_full_control_of_state = 1045 #Basrah
+			}
+			#Karbala-Najaf
+			custom_trigger_tooltip = {
+				tooltip = pfp_iraq_required_states_karbala_najaf
+				has_full_control_of_state = 1046 #Karbala-Najaf
+			}
+			#Dulaim
+			custom_trigger_tooltip = {
+				tooltip = pfp_iraq_required_states_dulaim
+				has_full_control_of_state = 1047 #Dulaim
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 291 #Baghdad
+				has_full_control_of_state = 675 #Al Sahra'a Al Janubiyah
+			}
+			NOT = { has_global_flag = pfp_iraq_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 291 #Baghdad
+				state = 675 #Al Sahra'a Al Janubiyah
+				state = 1045 #Basrah
+				state = 1046 #Karbala-Najaf
+				state = 1047 #Dulaim
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_iraq_coring_states
+			custom_effect_tooltip = pfp_iraq_transfer_states
+			custom_effect_tooltip = pfp_iraq_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_iraq = yes
+				set_autonomy = { target = P69 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P69 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

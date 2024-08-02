@@ -1,0 +1,13 @@
+﻿#Iraq - P69 - Localisation
+l_english:
+	#Decisions Information
+	pfp_iraq_required_states_al_hajara:0 "Controls §YAl Sahra'a Al Janubiyah§!."
+	pfp_iraq_required_states_basrah:0 "Controls §YBasrah§!."
+	pfp_iraq_required_states_karbala_najaf:0 "Controls §YKarbala-Najaf§!."
+	pfp_iraq_required_states_dulaim:0 "Controls §YDulaim§!."
+	pfp_iraq_sulymaniyah:0 "Transfer Sulymaniyah"
+	pfp_iraq_coring_states_sulymaniyah:0 "§YIraq§! gains core on §YSulymaniyah§!.\n"
+	pfp_iraq_transfer_states_sulymaniyah:0 "§YIraq§! becomes owner and controller of §YSulymaniyah§!.\n"
+	pfp_iraq_erbil:0 "Transfer Erbil"
+	pfp_iraq_coring_states_erbil:0 "§YIraq§! gains core on §YErbil§!.\n"
+	pfp_iraq_transfer_states_erbil:0 "§YIraq§! becomes owner and controller of §YErbil§!.\n"

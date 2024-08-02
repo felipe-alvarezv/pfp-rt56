@@ -1,0 +1,13 @@
+﻿#Kurdistan - P70 - Localisation
+l_english:
+	#Decisions Information
+	pfp_kurdistan_required_states_tibriz:0 "Controls §YAzarbaijan-e Sharqui§!."
+	pfp_kurdistan_azarbayjan_e_gharbi:0 "Transfer Azarbayjan-e Gharbi"
+	pfp_kurdistan_coring_states_azarbayjan_e_gharbi:0 "§YKurdistan§! gains core on §YAzarbayjan-e Gharbi§!.\n"
+	pfp_kurdistan_transfer_states_azarbayjan_e_gharbi:0 "§YKurdistan§! becomes owner and controller of §YAzarbayjan-e Gharbi§!.\n"
+	pfp_kurdistan_sulymaniyah:0 "Transfer Sulymaniyah"
+	pfp_kurdistan_coring_states_sulymaniyah:0 "§YKurdistan§! gains core on §YSulymaniyah§!.\n"
+	pfp_kurdistan_transfer_states_sulymaniyah:0 "§YKurdistan§! becomes owner and controller of §YSulymaniyah§!.\n"
+	pfp_kurdistan_erbil:0 "Transfer Erbil"
+	pfp_kurdistan_coring_states_erbil:0 "§YKurdistan§! gains core on §YErbil§!.\n"
+	pfp_kurdistan_transfer_states_erbil:0 "§YKurdistan§! becomes owner and controller of §YErbil§!.\n"

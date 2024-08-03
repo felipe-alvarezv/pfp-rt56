@@ -1,0 +1,114 @@
+pfp_category = {
+	pfp_sweden = {
+		allowed = {
+			NOT = {
+				original_tag = SWE #Sweden
+				original_tag = sweden #PFP Sweden
+			}
+		}
+		available = {
+			is_subject = no
+			#Gavleborg
+			custom_trigger_tooltip = {
+				tooltip = pfp_sweden_required_states_gavleborg
+				has_full_control_of_state = 38 #Gavleborg
+			}
+			#Skane
+			custom_trigger_tooltip = {
+				tooltip = pfp_sweden_required_states_skane
+				has_full_control_of_state = 138 #Skane
+			}
+			#Smaland
+			custom_trigger_tooltip = {
+				tooltip = pfp_sweden_required_states_smaland
+				has_full_control_of_state = 139 #Smaland
+			}
+			#Vastergotland
+			custom_trigger_tooltip = {
+				tooltip = pfp_sweden_required_states_vastergotland
+				has_full_control_of_state = 140 #Vastergotland
+			}
+			#Sodermanland
+			custom_trigger_tooltip = {
+				tooltip = pfp_sweden_required_states_sodermanland
+				has_full_control_of_state = 141 #Sodermanland
+			}
+			#Norbotten
+			custom_trigger_tooltip = {
+				tooltip = pfp_sweden_required_states_norbotten
+				has_full_control_of_state = 666 #Norbotten
+			}
+			#Jamtland
+			custom_trigger_tooltip = {
+				tooltip = pfp_sweden_required_states_jamtland
+				has_full_control_of_state = 968 #Jamtland
+			}
+			#Bohuslan
+			custom_trigger_tooltip = {
+				tooltip = pfp_sweden_required_states_bohuslan
+				has_full_control_of_state = 969 #Bohuslan
+			}
+			#Ostergotland
+			custom_trigger_tooltip = {
+				tooltip = pfp_sweden_required_states_ostergotland
+				has_full_control_of_state = 1026 #Ostergotland
+			}
+			#Dalarna
+			custom_trigger_tooltip = {
+				tooltip = pfp_sweden_required_states_dalarna
+				has_full_control_of_state = 1028 #Dalarna
+			}
+			#Vasterbotten
+			custom_trigger_tooltip = {
+				tooltip = pfp_sweden_required_states_vasterbotten
+				has_full_control_of_state = 1029 #Vasterbotten
+			}
+			#Varmland
+			custom_trigger_tooltip = {
+				tooltip = pfp_sweden_required_states_varmland
+				has_full_control_of_state = 1030 #Varmland
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 138 #Skane
+				has_full_control_of_state = 140 #Vastergotland
+				has_full_control_of_state = 141 #Sodermanland
+			}
+			NOT = { has_global_flag = pfp_sweden_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 38 #Gavleborg
+				state = 138 #Skane
+				state = 139 #Smaland
+				state = 140 #Vastergotland
+				state = 141 #Sodermanland
+				state = 666 #Norbotten
+				state = 968 #Jamtland
+				state = 969 #Bohuslan
+				state = 1026 #Ostergotland
+				state = 1028 #Dalarna
+				state = 1029 #Vasterbotten
+				state = 1030 #Varmland
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_sweden_coring_states
+			custom_effect_tooltip = pfp_sweden_transfer_states
+			custom_effect_tooltip = pfp_sweden_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_sweden = yes
+				set_autonomy = { target = P74 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P74 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

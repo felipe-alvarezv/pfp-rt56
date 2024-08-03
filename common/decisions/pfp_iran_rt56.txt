@@ -1,0 +1,74 @@
+pfp_puppet_management = {
+	pfp_iran_ardabil = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P71 } 
+			has_global_flag = pfp_iran_flag
+			has_full_control_of_state = 987 #Ardabil
+	
+			987 = { #Ardabil
+				NOT = { is_core_of = FROM }
+			}
+	
+			P71 = { #Iran
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_iran_ardabil_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 987 } #Ardabil
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_iran_coring_states_ardabil
+			custom_effect_tooltip = pfp_iran_transfer_states_ardabil
+			hidden_effect = {
+				#Ardabil
+				987 = { add_core_of = P71 }
+				P71 = { transfer_state = 987 }
+				set_global_flag = pfp_iran_ardabil_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_iran_azarbayjan_e_gharbi = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P71 } 
+			has_global_flag = pfp_iran_flag
+			has_full_control_of_state = 988 #Azarbayjan-e Gharbi
+	
+			988 = { #Azarbayjan-e Gharbi
+				NOT = { is_core_of = FROM }
+			}
+	
+			P71 = { #Iran
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_iran_azarbayjan_e_gharbi_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 988 } #Azarbayjan-e Gharbi
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_iran_coring_states_azarbayjan_e_gharbi
+			custom_effect_tooltip = pfp_iran_transfer_states_azarbayjan_e_gharbi
+			hidden_effect = {
+				#Azarbayjan-e Gharbi
+				988 = { add_core_of = P71 }
+				P71 = { transfer_state = 988 }
+				set_global_flag = pfp_iran_azarbayjan_e_gharbi_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

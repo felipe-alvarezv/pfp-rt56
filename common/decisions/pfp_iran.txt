@@ -1,0 +1,125 @@
+pfp_category = {
+	pfp_iran = {
+		allowed = {
+			NOT = {
+				original_tag = PER #Iran
+				original_tag = P71 #PFP Iran
+			}
+		}
+		available = {
+			is_subject = no
+			#Tehran
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_tehran
+				has_full_control_of_state = 266 #Tehran
+			}
+			#Sistan o Balochistan
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_sistan_o_balochistan
+				has_full_control_of_state = 410 #Sistan o Balochistan
+			}
+			#Esfahan o Yazd
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_esfahan_o_yazd
+				has_full_control_of_state = 411 #Esfahan o Yazd
+			}
+			#Fars
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_fars
+				has_full_control_of_state = 412 #Fars
+			}
+			#Kerman
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_kerman
+				has_full_control_of_state = 414 #Kerman
+			}
+			#Khorasan-e Razavi
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_khorasan_e_razavi
+				has_full_control_of_state = 416 #Khorasan-e Razavi
+			}
+			#Markazi
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_markazi
+				has_full_control_of_state = 417 #Markazi
+			}
+			#Semnan
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_semnan
+				has_full_control_of_state = 418 #Semnan
+			}
+			#Hormozgan
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_hormozgan
+				has_full_control_of_state = 980 #Hormozgan
+			}
+			#Bandar-e Bushehr
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_bandar_e_bushehr
+				has_full_control_of_state = 981 #Bandar-e Bushehr
+			}
+			#Khorasan-e Jonubi
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_khorasan_e_jonubi
+				has_full_control_of_state = 982 #Khorasan-e Jonubi
+			}
+			#Golestan
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_golestan
+				has_full_control_of_state = 983 #Golestan
+			}
+			#Mazandaran
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_mazandaran
+				has_full_control_of_state = 984 #Mazandaran
+			}
+			#Qazvin
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_qazvin
+				has_full_control_of_state = 986 #Qazvin
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 266 #Tehran
+				has_full_control_of_state = 412 #Fars
+			}
+			NOT = { has_global_flag = pfp_iran_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 266 #Tehran
+				state = 410 #Sistan o Balochistan
+				state = 411 #Esfahan o Yazd
+				state = 412 #Fars
+				state = 414 #Kerman
+				state = 416 #Khorasan-e Razavi
+				state = 417 #Markazi
+				state = 418 #Semnan
+				state = 980 #Hormozgan
+				state = 981 #Bandar-e Bushehr
+				state = 982 #Khorasan-e Jonubi
+				state = 983 #Golestan
+				state = 984 #Mazandaran
+				state = 986 #Qazvin
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_iran_coring_states
+			custom_effect_tooltip = pfp_iran_transfer_states
+			custom_effect_tooltip = pfp_iran_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_iran = yes
+				set_autonomy = { target = P71 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P71 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

@@ -1,0 +1,36 @@
+#Scripted effect to release Iran (P71)
+pfp_release_iran = {
+	hidden_effect = {
+		#Add cores to Iran
+		266 = { add_core_of = P71 } #Tehran
+		410 = { add_core_of = P71 } #Sistan o Balochistan
+		411 = { add_core_of = P71 } #Esfahan o Yazd
+		412 = { add_core_of = P71 } #Fars
+		414 = { add_core_of = P71 } #Kerman
+		416 = { add_core_of = P71 } #Khorasan-e Razavi
+		417 = { add_core_of = P71 } #Markazi
+		418 = { add_core_of = P71 } #Semnan
+		980 = { add_core_of = P71 } #Hormozgan
+		981 = { add_core_of = P71 } #Bandar-e Bushehr
+		982 = { add_core_of = P71 } #Khorasan-e Jonubi
+		983 = { add_core_of = P71 } #Golestan
+		984 = { add_core_of = P71 } #Mazandaran
+		986 = { add_core_of = P71 } #Qazvin
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P71 }
+			transfer_state_to = P71
+		}
+
+		#Transfer all technology to formable puppet
+		P71 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_iran_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P71 }
+		news_event = { id = pfp_news.01 }
+	}
+}

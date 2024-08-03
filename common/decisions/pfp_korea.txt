@@ -1,0 +1,77 @@
+pfp_category = {
+	pfp_korea = {
+		allowed = {
+			NOT = {
+				original_tag = KOR #Korea
+				original_tag = P72 #PFP Korea
+			}
+		}
+		available = {
+			is_subject = no
+			#Gyonggi
+			custom_trigger_tooltip = {
+				tooltip = pfp_korea_required_states_gyonggi
+				has_full_control_of_state = 525 #Gyonggi
+			}
+			#Pyeongan
+			custom_trigger_tooltip = {
+				tooltip = pfp_korea_required_states_pyeongan
+				has_full_control_of_state = 527 #Pyeongan
+			}
+			#Hwanghae
+			custom_trigger_tooltip = {
+				tooltip = pfp_korea_required_states_hwanghae
+				has_full_control_of_state = 917 #Hwanghae
+			}
+			#Hamgyong
+			custom_trigger_tooltip = {
+				tooltip = pfp_korea_required_states_hamgyong
+				has_full_control_of_state = 918 #Hamgyong
+			}
+			#Jeolla
+			custom_trigger_tooltip = {
+				tooltip = pfp_korea_required_states_jeolla
+				has_full_control_of_state = 919 #Jeolla
+			}
+			#Gyeongsang
+			custom_trigger_tooltip = {
+				tooltip = pfp_korea_required_states_gyeongsang
+				has_full_control_of_state = 920 #Gyeongsang
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 525 #Gyonggi
+				has_full_control_of_state = 527 #Pyeongan
+			}
+			NOT = { has_global_flag = pfp_korea_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 525 #Gyonggi
+				state = 527 #Pyeongan
+				state = 917 #Hwanghae
+				state = 918 #Hamgyong
+				state = 919 #Jeolla
+				state = 920 #Gyeongsang
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_korea_coring_states
+			custom_effect_tooltip = pfp_korea_transfer_states
+			custom_effect_tooltip = pfp_korea_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_korea = yes
+				set_autonomy = { target = P72 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P72 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

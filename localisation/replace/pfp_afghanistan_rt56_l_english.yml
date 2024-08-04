@@ -1,0 +1,9 @@
+﻿#Afghanistan - P76 - Localisation
+l_english:
+	#Decisions Localisation
+	pfp_afghanistan_required_states_kabulistan:0 "Controls §YKabulistan§!."
+	pfp_afghanistan_required_states_herat:0 "Controls §YHerat§!."
+	pfp_afghanistan_required_states_faryab:0 "Controls §YFaryab§!."
+	pfp_afghanistan_required_states_basmian:0 "Controls §YBasmian§!."
+	pfp_afghanistan_required_states_kandahar:0 "Controls §YKandahar§!."
+	pfp_afghanistan_required_states_badakhshan:0 "Controls §YBadakhshan§!."

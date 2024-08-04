@@ -1,0 +1,77 @@
+pfp_category = {
+	pfp_afghanistan = {
+		allowed = {
+			NOT = {
+				original_tag = AFG #Afghanistan
+				original_tag = P76 #PFP Afghanistan
+			}
+		}
+		available = {
+			is_subject = no
+			#Kabulistan
+			custom_trigger_tooltip = {
+				tooltip = pfp_afghanistan_required_states_kabulistan
+				has_full_control_of_state = 267 #Kabulistan
+			}
+			#Herat
+			custom_trigger_tooltip = {
+				tooltip = pfp_afghanistan_required_states_herat
+				has_full_control_of_state = 415 #Herat
+			}
+			#Faryab
+			custom_trigger_tooltip = {
+				tooltip = pfp_afghanistan_required_states_faryab
+				has_full_control_of_state = 1008 #Faryab
+			}
+			#Basmian
+			custom_trigger_tooltip = {
+				tooltip = pfp_afghanistan_required_states_basmian
+				has_full_control_of_state = 1009 #Basmian
+			}
+			#Kandahar
+			custom_trigger_tooltip = {
+				tooltip = pfp_afghanistan_required_states_kandahar
+				has_full_control_of_state = 1010 #Kandahar
+			}
+			#Badakhshan
+			custom_trigger_tooltip = {
+				tooltip = pfp_afghanistan_required_states_badakhshan
+				has_full_control_of_state = 1011 #Badakhshan
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 267 #Kabul
+				has_full_control_of_state = 415 #Herat
+			}
+			NOT = { has_global_flag = pfp_afghanistan_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 267 #Kabulistan
+				state = 415 #Herat
+				state = 1008 #Faryab
+				state = 1009 #Basmian
+				state = 1010 #Kandahar
+				state = 1011 #Badakhshan
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_afghanistan_coring_states
+			custom_effect_tooltip = pfp_afghanistan_transfer_states
+			custom_effect_tooltip = pfp_afghanistan_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_afghanistan = yes
+				set_autonomy = { target = P76 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P76 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

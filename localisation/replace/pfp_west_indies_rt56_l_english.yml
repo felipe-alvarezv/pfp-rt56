@@ -1,0 +1,13 @@
+﻿#West Indies - P06 - Localisation
+l_english:
+	#Decisions Information
+	pfp_west_indies_required_states_cuba:0 "Controls §YSantiago de Cuba§!."
+	pfp_west_indies_required_states_la_habana:0 "Controls §YLa Habana§!."
+	pfp_west_indies_virgin_islands:0 "Transfer Virgin Islands"
+	pfp_west_indies_required_states_virgin_islands:0 "Controls §YVirgin Islands§!."
+	pfp_west_indies_coring_states_virgin_islands:0 "§YWest Indies§! gains core on §YVirgin Islands§!.\n"
+	pfp_west_indies_transfer_states_virgin_islands:0 "§YWest Indies§! becomes owner and controller of §YVirgin Islands§!.\n"
+	pfp_west_indies_guantanamo_bay:0 "Transfer Guantanamo Bay"
+	pfp_west_indies_required_states_guantanamo_bay:0 "Controls §YGuantanamo Bay§!."
+	pfp_west_indies_coring_states_guantanamo_bay:0 "§YWest Indies§! gains core on §YGuantanamo Bay§!.\n"
+	pfp_west_indies_transfer_states_guantanamo_bay:0 "§YWest Indies§! becomes owner and controller of §YGuantanamo Bay§!.\n"

@@ -1,5 +1,5 @@
-#Scripted effect to release Rio de la Plata (P55)
-pfp_release_rio_de_la_plata = {
+#Scripted effect to release Argentina (P55)
+pfp_release_argentina = {
 	hidden_effect = {
 		#Add cores to Argentinian territory
 		278 = { add_core_of = P55 } #Buenos Aires
@@ -19,7 +19,7 @@ pfp_release_rio_de_la_plata = {
 		P55 = { transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
-		set_global_flag = pfp_rio_de_la_plata_flag
+		set_global_flag = pfp_argentina_flag
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P55 }

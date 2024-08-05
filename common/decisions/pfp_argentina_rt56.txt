@@ -1,257 +1,257 @@
 pfp_puppet_management = {
-	pfp_rio_de_la_plata_tucuman = {
+	pfp_argentina_tucuman = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P55 } 
-			has_global_flag = pfp_rio_de_la_plata_flag
+			has_global_flag = pfp_argentina_flag
 			has_full_control_of_state = 508 #Tucuman
 	
 			508 = { #Tucuman
 				NOT = { is_core_of = FROM }
 			}
 	
-			P55 = { #PFP Rio de la Plata
+			P55 = { #PFP Argentina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_rio_de_la_plata_tucuman_flag }
+			NOT = { has_global_flag = pfp_argentina_tucuman_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 508 } #Tucuman
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_rio_de_la_plata_coring_states_tucuman
-			custom_effect_tooltip = pfp_rio_de_la_plata_transfer_states_tucuman
+			custom_effect_tooltip = pfp_argentina_coring_states_tucuman
+			custom_effect_tooltip = pfp_argentina_transfer_states_tucuman
 			hidden_effect = {
 				#Tucuman
 				508 = { add_core_of = P55 }
 				P55 = { transfer_state = 508 }
-				set_global_flag = pfp_rio_de_la_plata_tucuman_flag
+				set_global_flag = pfp_argentina_tucuman_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_rio_de_la_plata_cerro_largo = {
+	pfp_argentina_cerro_largo = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P55 } 
-			has_global_flag = pfp_rio_de_la_plata_flag
+			has_global_flag = pfp_argentina_flag
 			has_full_control_of_state = 1059 #Cerro Largo
 	
 			1059 = { #Cerro Largo
 				NOT = { is_core_of = FROM }
 			}
 	
-			P55 = { #PFP Rio de la Plata
+			P55 = { #PFP Argentina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_rio_de_la_plata_cerro_largo_flag }
+			NOT = { has_global_flag = pfp_argentina_cerro_largo_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 1059 } #Cerro Largo
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_rio_de_la_plata_coring_states_cerro_largo
-			custom_effect_tooltip = pfp_rio_de_la_plata_transfer_states_cerro_largo
+			custom_effect_tooltip = pfp_argentina_coring_states_cerro_largo
+			custom_effect_tooltip = pfp_argentina_transfer_states_cerro_largo
 			hidden_effect = {
 				#Cerro Largo
 				1059 = { add_core_of = P55 }
 				P55 = { transfer_state = 1059 }
-				set_global_flag = pfp_rio_de_la_plata_cerro_largo_flag
+				set_global_flag = pfp_argentina_cerro_largo_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_rio_de_la_plata_paysandu = {
+	pfp_argentina_paysandu = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P55 } 
-			has_global_flag = pfp_rio_de_la_plata_flag
+			has_global_flag = pfp_argentina_flag
 			has_full_control_of_state = 1060 #Paysandu
 	
 			1060 = { #Paysandu
 				NOT = { is_core_of = FROM }
 			}
 	
-			P55 = { #PFP Rio de la Plata
+			P55 = { #PFP Argentina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_rio_de_la_plata_paysandu_flag }
+			NOT = { has_global_flag = pfp_argentina_paysandu_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 1060 } #Paysandu
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_rio_de_la_plata_coring_states_paysandu
-			custom_effect_tooltip = pfp_rio_de_la_plata_transfer_states_paysandu
+			custom_effect_tooltip = pfp_argentina_coring_states_paysandu
+			custom_effect_tooltip = pfp_argentina_transfer_states_paysandu
 			hidden_effect = {
 				#Paysandu
 				1060 = { add_core_of = P55 }
 				P55 = { transfer_state = 1060 }
-				set_global_flag = pfp_rio_de_la_plata_paysandu_flag
+				set_global_flag = pfp_argentina_paysandu_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_rio_de_la_plata_tierra_del_fuego = {
+	pfp_argentina_tierra_del_fuego = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P55 } 
-			has_global_flag = pfp_rio_de_la_plata_flag
+			has_global_flag = pfp_argentina_flag
 			has_full_control_of_state = 1065 #Tierra del Fuego
 	
 			1065 = { #Tierra del Fuego
 				NOT = { is_core_of = FROM }
 			}
 	
-			P55 = { #PFP Rio de la Plata
+			P55 = { #PFP Argentina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_rio_de_la_plata_tierra_del_fuego_flag }
+			NOT = { has_global_flag = pfp_argentina_tierra_del_fuego_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 1065 } #Tierra del Fuego
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_rio_de_la_plata_coring_states_tierra_del_fuego
-			custom_effect_tooltip = pfp_rio_de_la_plata_transfer_states_tierra_del_fuego
+			custom_effect_tooltip = pfp_argentina_coring_states_tierra_del_fuego
+			custom_effect_tooltip = pfp_argentina_transfer_states_tierra_del_fuego
 			hidden_effect = {
 				#Tierra del Fuego
 				1065 = { add_core_of = P55 }
 				P55 = { transfer_state = 1065 }
-				set_global_flag = pfp_rio_de_la_plata_tierra_del_fuego_flag
+				set_global_flag = pfp_argentina_tierra_del_fuego_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_rio_de_la_plata_santa_cruz_argentina = {
+	pfp_argentina_santa_cruz_argentina = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P55 } 
-			has_global_flag = pfp_rio_de_la_plata_flag
+			has_global_flag = pfp_argentina_flag
 			has_full_control_of_state = 1066 #Santa Cruz
 	
 			1066 = { #Santa Cruz
 				NOT = { is_core_of = FROM }
 			}
 	
-			P55 = { #PFP Rio de la Plata
+			P55 = { #PFP Argentina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_rio_de_la_plata_santa_cruz_argentina_flag }
+			NOT = { has_global_flag = pfp_argentina_santa_cruz_argentina_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 1066 } #Santa Cruz
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_rio_de_la_plata_coring_states_santa_cruz_argentina
-			custom_effect_tooltip = pfp_rio_de_la_plata_transfer_states_santa_cruz_argentina
+			custom_effect_tooltip = pfp_argentina_coring_states_santa_cruz_argentina
+			custom_effect_tooltip = pfp_argentina_transfer_states_santa_cruz_argentina
 			hidden_effect = {
 				#Santa Cruz
 				1066 = { add_core_of = P55 }
 				P55 = { transfer_state = 1066 }
-				set_global_flag = pfp_rio_de_la_plata_santa_cruz_argentina_flag
+				set_global_flag = pfp_argentina_santa_cruz_argentina_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_rio_de_la_plata_chubut = {
+	pfp_argentina_chubut = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P55 } 
-			has_global_flag = pfp_rio_de_la_plata_flag
+			has_global_flag = pfp_argentina_flag
 			has_full_control_of_state = 1067 #Chubut
 	
 			1067 = { #Chubut
 				NOT = { is_core_of = FROM }
 			}
 	
-			P55 = { #PFP Rio de la Plata
+			P55 = { #PFP Argentina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_rio_de_la_plata_chubut_flag }
+			NOT = { has_global_flag = pfp_argentina_chubut_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 1067 } #Chubut
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_rio_de_la_plata_coring_states_chubut
-			custom_effect_tooltip = pfp_rio_de_la_plata_transfer_states_chubut
+			custom_effect_tooltip = pfp_argentina_coring_states_chubut
+			custom_effect_tooltip = pfp_argentina_transfer_states_chubut
 			hidden_effect = {
 				#Chubut
 				1067 = { add_core_of = P55 }
 				P55 = { transfer_state = 1067 }
-				set_global_flag = pfp_rio_de_la_plata_chubut_flag
+				set_global_flag = pfp_argentina_chubut_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_rio_de_la_plata_san_luis_y_la_pampa = {
+	pfp_argentina_san_luis_y_la_pampa = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
 			has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P55 } 
-			has_global_flag = pfp_rio_de_la_plata_flag
+			has_global_flag = pfp_argentina_flag
 			has_full_control_of_state = 1070 #San Luis y La Pampa
 	
 			1070 = { #San Luis y La Pampa
 				NOT = { is_core_of = FROM }
 			}
 	
-			P55 = { #PFP Rio de la Plata
+			P55 = { #PFP Argentina
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_rio_de_la_plata_san_luis_y_la_pampa_flag }
+			NOT = { has_global_flag = pfp_argentina_san_luis_y_la_pampa_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 1070 } #San Luis y La Pampa
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_rio_de_la_plata_coring_states_san_luis_y_la_pampa
-			custom_effect_tooltip = pfp_rio_de_la_plata_transfer_states_san_luis_y_la_pampa
+			custom_effect_tooltip = pfp_argentina_coring_states_san_luis_y_la_pampa
+			custom_effect_tooltip = pfp_argentina_transfer_states_san_luis_y_la_pampa
 			hidden_effect = {
 				#San Luis y La Pampa
 				1070 = { add_core_of = P55 }
 				P55 = { transfer_state = 1070 }
-				set_global_flag = pfp_rio_de_la_plata_san_luis_y_la_pampa_flag
+				set_global_flag = pfp_argentina_san_luis_y_la_pampa_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_rio_de_la_plata_san_juan_y_la_rioja = {
+	pfp_argentina_san_juan_y_la_rioja = {
 		visible = { original_tag = PFP }
 		complete_effect = { }
 		ai_will_do = { factor = 0 }

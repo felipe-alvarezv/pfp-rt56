@@ -1,39 +1,39 @@
 pfp_category = {
-	pfp_caribbean = {
+	pfp_west_indies = {
 		allowed = {
 			NOT = {
 				original_tag = CUB #Cuba
 				original_tag = DOM #Dominican Republic
 				original_tag = HAI #Haiti
 				original_tag = JAM #Jamaica
-				original_tag = P06 #PFP Caribbean
+				original_tag = P06 #PFP West Indies
 			}
 		}
 		available = {
 			is_subject = no
 			#Cuba
 			custom_trigger_tooltip = {
-				tooltip = pfp_caribbean_required_states_cuba
+				tooltip = pfp_west_indies_required_states_cuba
 				has_full_control_of_state = 315 #Cuba
 			}
 			#Haiti
 			custom_trigger_tooltip = {
-				tooltip = pfp_caribbean_required_states_haiti
+				tooltip = pfp_west_indies_required_states_haiti
 				has_full_control_of_state = 318 #Haiti
 			}
 			#Dominican Republic
 			custom_trigger_tooltip = {
-				tooltip = pfp_caribbean_required_states_dominican_republic
+				tooltip = pfp_west_indies_required_states_dominican_republic
 				has_full_control_of_state = 319 #Dominican Republic
 			}
 			#Jamaica
 			custom_trigger_tooltip = {
-				tooltip = pfp_caribbean_required_states_jamaica
+				tooltip = pfp_west_indies_required_states_jamaica
 				has_full_control_of_state = 689 #Jamaica
 			}
 			#La Habana
 			custom_trigger_tooltip = {
-				tooltip = pfp_caribbean_required_states_la_habana
+				tooltip = pfp_west_indies_required_states_la_habana
 				has_full_control_of_state = 994 #La Habana
 			}
 		}
@@ -44,7 +44,7 @@ pfp_category = {
 				has_full_control_of_state = 319 #Dominican Republic
 				has_full_control_of_state = 689 #Jamaica
 			}
-			NOT = { has_global_flag = pfp_caribbean_flag }
+			NOT = { has_global_flag = pfp_west_indies_flag }
 		}
 		highlight_states = { 
 			highlight_state_targets = { 
@@ -57,13 +57,13 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_caribbean_coring_states
-			custom_effect_tooltip = pfp_caribbean_transfer_states
-			custom_effect_tooltip = pfp_caribbean_puppet
+			custom_effect_tooltip = pfp_west_indies_coring_states
+			custom_effect_tooltip = pfp_west_indies_transfer_states
+			custom_effect_tooltip = pfp_west_indies_puppet
 
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
-				pfp_release_caribbean = yes
+				pfp_release_west_indies = yes
 				set_autonomy = { target = P06 autonomy_state = autonomy_military_administration }
 
 				#Code to assign generic portraits

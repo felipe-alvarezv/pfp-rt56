@@ -1,0 +1,6 @@
+﻿#Argentina - P55 - Localisation
+l_english:
+	#Decisions Information
+	pfp_argentina_tucuman:0 "Transfer Tucuman"
+	pfp_argentina_coring_states_tucuman:0 "§YArgentina§! gains core on §YTucuman§!.\n"
+	pfp_argentina_transfer_states_tucuman:0 "§YArgentina§! becomes owner and controller of §YTucuman§!.\n"

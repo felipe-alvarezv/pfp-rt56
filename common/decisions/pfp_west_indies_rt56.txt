@@ -1,72 +1,72 @@
 pfp_puppet_management = {
-	pfp_caribbean_virgin_islands = {
+	pfp_west_indies_virgin_islands = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
-			has_global_flag = pfp_caribbean_flag
+			has_global_flag = pfp_west_indies_flag
 			has_full_control_of_state = 972 #Virgin Islands
 
 			972 = { #Virgin Islands
 				NOT = { is_core_of = FROM }
 			}
 
-			P06 = { #PFP Caribbean
+			P06 = { #PFP West Indies
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_caribbean_virgin_islands_flag }
+			NOT = { has_global_flag = pfp_west_indies_virgin_islands_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 972 } #Virgin Islands
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_caribbean_coring_states_virgin_islands
-			custom_effect_tooltip = pfp_caribbean_transfer_states_virgin_islands
+			custom_effect_tooltip = pfp_west_indies_coring_states_virgin_islands
+			custom_effect_tooltip = pfp_west_indies_transfer_states_virgin_islands
 			hidden_effect = {
 				#Virgin Islands
 				972 = { add_core_of = P06 }
 				P06 = { transfer_state = 972 }
-				set_global_flag = pfp_caribbean_virgin_islands_flag
+				set_global_flag = pfp_west_indies_virgin_islands_flag
 			}
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_caribbean_guantanamo_bay = {
+	pfp_west_indies_guantanamo_bay = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
-			has_global_flag = pfp_caribbean_flag
+			has_global_flag = pfp_west_indies_flag
 			has_full_control_of_state = 1050 #Guantanamo Bay
 
 			1050 = { #Guantanamo Bay
 				NOT = { is_core_of = FROM }
 			}
 
-			P06 = { #PFP Caribbean
+			P06 = { #PFP West Indies
 				OR = {
 					is_puppet_of = FROM
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_caribbean_guantanamo_bay_flag }
+			NOT = { has_global_flag = pfp_west_indies_guantanamo_bay_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { state = 1050 } #Guantanamo Bay
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_caribbean_coring_states_guantanamo_bay
-			custom_effect_tooltip = pfp_caribbean_transfer_states_guantanamo_bay
+			custom_effect_tooltip = pfp_west_indies_coring_states_guantanamo_bay
+			custom_effect_tooltip = pfp_west_indies_transfer_states_guantanamo_bay
 			hidden_effect = {
 				#Guantanamo Bay
 				1050 = { add_core_of = P06 }
 				P06 = { transfer_state = 1050 }
-				set_global_flag = pfp_caribbean_guantanamo_bay_flag
+				set_global_flag = pfp_west_indies_guantanamo_bay_flag
 			}
 		}
 		ai_will_do = { factor = 0 }

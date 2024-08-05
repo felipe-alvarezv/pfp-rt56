@@ -1,7 +1,7 @@
-#Scripted effect to release Caribbean (P06)
-pfp_release_caribbean = {
+#Scripted effect to release West Indies (P06)
+pfp_release_west_indies = {
 	hidden_effect = {
-		#Add cores to Caribbean territory
+		#Add cores to West Indies territory
 		315 = { add_core_of = P06 } #Cuba
 		318 = { add_core_of = P06 } #Haiti
 		319 = { add_core_of = P06 } #Dominican Republic
@@ -18,7 +18,7 @@ pfp_release_caribbean = {
 		P06 = { transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
-		set_global_flag = pfp_caribbean_flag
+		set_global_flag = pfp_west_indies_flag
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P06 }

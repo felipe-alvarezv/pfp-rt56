@@ -1,6 +1,0 @@
-﻿#Peru - P56 - Localisation
-l_english:
-	#Decisions Information
-	pfp_peru_choco:0 "Transfer Choco"
-	pfp_peru_coring_states_choco:0 "§YPeru§! gains core on §YChoco§!.\n"
-	pfp_peru_transfer_states_choco:0 "§YPeru§! becomes owner and controller of §YChoco§!.\n"

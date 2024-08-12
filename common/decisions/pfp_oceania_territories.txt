@@ -1,0 +1,939 @@
+pfp_puppet_management = {
+	pfp_oceania_papua = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 523 #Papua
+
+			523 = { #Papua
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_papua_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 523 } #Papua
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_papua
+			custom_effect_tooltip = pfp_oceania_transfer_states_papua
+			hidden_effect = {
+				#Papua
+				523 = { add_core_of = P27 }
+				P27 = { transfer_state = 523 }
+				set_global_flag = pfp_oceania_papua_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_solomon_islands = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 634 #Solomon Islands
+
+			634 = { #Solomon Islands
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_solomon_islands_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 634 } #Solomon Islands
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_solomon_islands
+			custom_effect_tooltip = pfp_oceania_transfer_states_solomon_islands
+			hidden_effect = {
+				#Solomon Islands
+				634 = { add_core_of = P27 }
+				P27 = { transfer_state = 634 }
+				set_global_flag = pfp_oceania_solomon_islands_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_west_papua = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 669 #West Papua
+
+			669 = { #West Papua
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_west_papua_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 669 } #West Papua
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_west_papua
+			custom_effect_tooltip = pfp_oceania_transfer_states_west_papua
+			hidden_effect = {
+				#West Papua
+				669 = { add_core_of = P27 }
+				P27 = { transfer_state = 669 }
+				set_global_flag = pfp_oceania_west_papua_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_bismarck = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 737 #Bismarck
+
+			737 = { #Bismarck
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_bismarck_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 737 } #Bismarck
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_bismarck
+			custom_effect_tooltip = pfp_oceania_transfer_states_bismarck
+			hidden_effect = {
+				#Bismarck
+				737 = { add_core_of = P27 }
+				P27 = { transfer_state = 737 }
+				set_global_flag = pfp_oceania_bismarck_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_new_caledonia = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 635 #New Caledonia
+
+			635 = { #New Caledonia
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_new_caledonia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 635 } #New Caledonia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_new_caledonia
+			custom_effect_tooltip = pfp_oceania_transfer_states_new_caledonia
+			hidden_effect = {
+				#New Caledonia
+				635 = { add_core_of = P27 }
+				P27 = { transfer_state = 635 }
+				set_global_flag = pfp_oceania_new_caledonia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_nendo = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 734 #Nendo
+
+			734 = { #Nendo
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_nendo_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 734 } #Nendo
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_nendo
+			custom_effect_tooltip = pfp_oceania_transfer_states_nendo
+			hidden_effect = {
+				#Nendo
+				734 = { add_core_of = P27 }
+				P27 = { transfer_state = 734 }
+				set_global_flag = pfp_oceania_nendo_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_palau = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 647 #Palau
+
+			647 = { #Palau
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_palau_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 647 } #Palau
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_palau
+			custom_effect_tooltip = pfp_oceania_transfer_states_palau
+			hidden_effect = {
+				#Palau
+				647 = { add_core_of = P27 }
+				P27 = { transfer_state = 647 }
+				set_global_flag = pfp_oceania_palau_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_caroline_islands = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 684 #Caroline Islands
+
+			684 = { #Caroline Islands
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_caroline_islands_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 684 } #Caroline Islands
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_caroline_islands
+			custom_effect_tooltip = pfp_oceania_transfer_states_caroline_islands
+			hidden_effect = {
+				#Caroline Islands
+				684 = { add_core_of = P27 }
+				P27 = { transfer_state = 684 }
+				set_global_flag = pfp_oceania_caroline_islands_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_nauru = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 725 #Nauru
+
+			725 = { #Nauru
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_nauru_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 725 } #Nauru
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_nauru
+			custom_effect_tooltip = pfp_oceania_transfer_states_nauru
+			hidden_effect = {
+				#Nauru
+				725 = { add_core_of = P27 }
+				P27 = { transfer_state = 725 }
+				set_global_flag = pfp_oceania_nauru_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_fiji = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 636 #Fiji
+
+			636 = { #Fiji
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_fiji_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 636 } #Fiji
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_fiji
+			custom_effect_tooltip = pfp_oceania_transfer_states_fiji
+			hidden_effect = {
+				#Fiji
+				636 = { add_core_of = P27 }
+				P27 = { transfer_state = 636 }
+				set_global_flag = pfp_oceania_fiji_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_ellice_islands = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 643 #Ellice Islands
+
+			643 = { #Ellice Islands
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_ellice_islands_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 643 } #Ellice Islands
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_ellice_islands
+			custom_effect_tooltip = pfp_oceania_transfer_states_ellice_islands
+			hidden_effect = {
+				#Ellice Islands
+				643 = { add_core_of = P27 }
+				P27 = { transfer_state = 643 }
+				set_global_flag = pfp_oceania_ellice_islands_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_samoa = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 726 #Samoa
+
+			726 = { #Samoa
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_samoa_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 726 } #Samoa
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_samoa
+			custom_effect_tooltip = pfp_oceania_transfer_states_samoa
+			hidden_effect = {
+				#Samoa
+				726 = { add_core_of = P27 }
+				P27 = { transfer_state = 726 }
+				set_global_flag = pfp_oceania_samoa_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_gilbert_islands = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 639 #Gilbert Islands
+
+			639 = { #Gilbert Islands
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_gilbert_islands_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 639 } #Gilbert Islands
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_gilbert_islands
+			custom_effect_tooltip = pfp_oceania_transfer_states_gilbert_islands
+			hidden_effect = {
+				#Gilbert Islands
+				639 = { add_core_of = P27 }
+				P27 = { transfer_state = 639 }
+				set_global_flag = pfp_oceania_gilbert_islands_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_guam = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 638 #Guam
+
+			638 = { #Guam
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_guam_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 638 } #Guam
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_guam
+			custom_effect_tooltip = pfp_oceania_transfer_states_guam
+			hidden_effect = {
+				#Guam
+				638 = { add_core_of = P27 }
+				P27 = { transfer_state = 638 }
+				set_global_flag = pfp_oceania_guam_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_saipan = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 646 #Saipan
+
+			646 = { #Saipan
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_saipan_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 646 } #Saipan
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_saipan
+			custom_effect_tooltip = pfp_oceania_transfer_states_saipan
+			hidden_effect = {
+				#Saipan
+				646 = { add_core_of = P27 }
+				P27 = { transfer_state = 646 }
+				set_global_flag = pfp_oceania_saipan_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_marcus_island = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 648 #Marcus Island
+
+			648 = { #Marcus Island
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_marcus_island_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 648 } #Marcus Island
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_marcus_island
+			custom_effect_tooltip = pfp_oceania_transfer_states_marcus_island
+			hidden_effect = {
+				#Marcus Island
+				648 = { add_core_of = P27 }
+				P27 = { transfer_state = 648 }
+				set_global_flag = pfp_oceania_marcus_island_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_marshall_islands = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 633 #Marshall Islands
+
+			633 = { #Marshall Islands
+				NOT = { is_core_of = FROM }
+			}
+			
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_marshall_islands_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 633 } #Marshall Islands
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_marshall_islands
+			custom_effect_tooltip = pfp_oceania_transfer_states_marshall_islands
+			hidden_effect = {
+				#Marshall Islands
+				633 = { add_core_of = P27 }
+				P27 = { transfer_state = 633 }
+				set_global_flag = pfp_oceania_marshall_islands_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_wake_island = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 632 #Wake Island
+
+			632 = { #Wake Island
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_wake_island_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 632 } #Wake Island
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_wake_island
+			custom_effect_tooltip = pfp_oceania_transfer_states_wake_island
+			hidden_effect = {
+				#Wake Island
+				632 = { add_core_of = P27 }
+				P27 = { transfer_state = 632 }
+				set_global_flag = pfp_oceania_wake_island_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_midway_island = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 631 #Midway Island
+
+			631 = { #Midway Island
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_midway_island_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 631 } #Midway Island
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_midway_island
+			custom_effect_tooltip = pfp_oceania_transfer_states_midway_island
+			hidden_effect = {
+				#Midway Island
+				631 = { add_core_of = P27 }
+				P27 = { transfer_state = 631 }
+				set_global_flag = pfp_oceania_midway_island_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_johnston_atoll = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 630 #Johnston Atoll
+
+			630 = { #Johnston Atoll
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_johnston_atoll_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 630 } #Johnston Atoll
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_johnston_atoll
+			custom_effect_tooltip = pfp_oceania_transfer_states_johnston_atoll
+			hidden_effect = {
+				#Johnston Atoll
+				630 = { add_core_of = P27 }
+				P27 = { transfer_state = 630 }
+				set_global_flag = pfp_oceania_johnston_atoll_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_phoenix_island = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 642 #Phoenix Island
+
+			642 = { #Phoenix Island
+				NOT = { is_core_of = FROM }
+			}
+			
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_phoenix_island_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 642 } #Phoenix Island
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_phoenix_island
+			custom_effect_tooltip = pfp_oceania_transfer_states_phoenix_island
+			hidden_effect = {
+				#Phoenix Island
+				642 = { add_core_of = P27 }
+				P27 = { transfer_state = 642 }
+				set_global_flag = pfp_oceania_phoenix_island_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_line_islands = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 727 #Line Islands
+
+			727 = { #Line Islands
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_line_islands_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 727 } #Line Islands
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_line_islands
+			custom_effect_tooltip = pfp_oceania_transfer_states_line_islands
+			hidden_effect = {
+				#Line Islands
+				727 = { add_core_of = P27 }
+				P27 = { transfer_state = 727 }
+				set_global_flag = pfp_oceania_line_islands_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_tahiti = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 641 #Tahiti
+
+			641 = { #Tahiti
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_tahiti_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 641 } #Tahiti
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_tahiti
+			custom_effect_tooltip = pfp_oceania_transfer_states_tahiti
+			hidden_effect = {
+				#Tahiti
+				641 = { add_core_of = P27 }
+				P27 = { transfer_state = 641 }
+				set_global_flag = pfp_oceania_tahiti_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_pitcairn_island = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 270 #Pitcairn Island
+
+			270 = { #Pitcairn Island
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = {
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_pitcairn_island_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 270 } #Pitcairn Island
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_pitcairn_island
+			custom_effect_tooltip = pfp_oceania_transfer_states_pitcairn_island
+			hidden_effect = {
+				#Pitcairn Island
+				270 = { add_core_of = P27 }
+				P27 = { transfer_state = 270 }
+				set_global_flag = pfp_oceania_pitcairn_island_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_oceania_hawaii = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 629 #Hawaii
+
+			629 = { #Hawaii
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #Oceania
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_hawaii_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 629 } #Hawaii
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_hawaii
+			custom_effect_tooltip = pfp_oceania_transfer_states_hawaii
+			hidden_effect = {
+				#Hawaii
+				629 = { add_core_of = P27 }
+				P27 = { transfer_state = 629 }
+				set_global_flag = pfp_oceania_hawaii_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#RT56
+	pfp_oceania_easter_island = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+            has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P27 }
+			has_global_flag = pfp_oceania_flag
+			has_full_control_of_state = 1074 #Easter Island
+
+			1074 = { #Easter Island
+				NOT = { is_core_of = FROM }
+			}
+
+			P27 = { #PFP Oceania
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_oceania_easter_island_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1074 } #Easter Island
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_oceania_coring_states_easter_island
+			custom_effect_tooltip = pfp_oceania_transfer_states_easter_island
+			hidden_effect = {
+				#Easter Island
+				1074 = { add_core_of = P27 }
+				P27 = { transfer_state = 1074 }
+				set_global_flag = pfp_oceania_easter_island_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

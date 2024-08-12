@@ -18,10 +18,10 @@ pfp_category = {
 				tooltip = pfp_argentina_required_states_chaco_austral
 				has_full_control_of_state = 509 #Chaco Austral
 			}
-			#Region Mesopotamica
+			#Mesopotamia
 			custom_trigger_tooltip = {
-				tooltip = pfp_argentina_required_states_region_mesopotamica
-				has_full_control_of_state = 510 #Region Mesopotamica
+				tooltip = pfp_argentina_required_states_mesopotamia
+				has_full_control_of_state = 510 #Mesopotamia
 			}
 			#Santa Fe
 			custom_trigger_tooltip = {
@@ -49,7 +49,7 @@ pfp_category = {
 			highlight_state_targets = { 
 				state = 278 #Buenos Aires
 				state = 509 #Chaco Austral
-				state = 510 #Region Mesopotamica
+				state = 510 #Mesopotamia
 				state = 1068 #Santa Fe
 				state = 1069 #Formosa
 				state = 1071 #Los Andes

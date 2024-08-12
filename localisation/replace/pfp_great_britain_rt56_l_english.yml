@@ -1,6 +1,0 @@
-﻿#Great Britain - P02 - Localisation
-l_english:
-	#Decisions Localisation
-	pfp_great_britain_orkney:0 "Transfer Orkney"
-  pfp_great_britain_coring_states_orkney:0 "§YGreat Britain§! gains core on §YOrkney§!.\n"
-  pfp_great_britain_transfer_states_orkney:0 "§YGreat Britain§! becomes owner and controller of §YOrkney§!.\n"

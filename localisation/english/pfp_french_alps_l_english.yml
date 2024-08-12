@@ -1,0 +1,32 @@
+﻿#French Alps - P64 - Localisation
+l_english:
+  P64_communism:0 "French Alps"
+  P64_communism_DEF:0 "French Alps"
+  P64_democratic:0 "French Alps"
+  P64_democratic_DEF:0 "French Alps"
+  P64_neutrality:1 "French Alps"
+  P64_neutrality_DEF:1 "French Alps"
+  P64_fascism:0 "French Alps"
+  P64_fascism_DEF:0 "French Alps"
+  P64_communism_ADJ:0 "French"
+  P64_democratic_ADJ:0 "French"
+  P64_neutrality_ADJ:0 "French"
+  P64_fascism_ADJ:0 "French"
+  P64:0 "French Alps"
+  P64_DEF:0 "French Alps"
+  P64_ADJ:0 "French"
+
+
+  pfp_french_alps:0 "Establish Military Administration in the French Alps"
+  pfp_french_alps_required_states_bouches_du_rhone:0 "Controls §YBouches-Du-Rhone§!."
+  pfp_french_alps_required_states_savoy:0 "Controls §YSavoy§!."
+  pfp_french_alps_required_states_var:0 "Controls §YVar§!."
+  pfp_french_alps_coring_states:0 "§YFrench Alps§! gains cores on all listed states.\n"
+  pfp_french_alps_transfer_states:0 "§YFrench Alps§! becomes owner and controller of all listed states.\n"
+  pfp_french_alps_puppet:0 "§YFrench Alps§! becomes a puppet of §Y[Root.GetName]§!.\n"
+
+
+  pfp_french_alps_required_states_alpes:0 "Controls §YRhône-Alpes§!."
+  pfp_french_alps_monaco:0 "Transfer Monaco"
+	pfp_french_alps_coring_states_monaco:0 "§YFrench Alps§! gains core on §YMonaco§!.\n"
+	pfp_french_alps_transfer_states_monaco:0 "§YFrench Alps§! becomes owner and controller of §YMonaco§!.\n"

@@ -1,0 +1,219 @@
+pfp_puppet_management = {
+	pfp_brazil_montevideo = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P57 } 
+			has_global_flag = pfp_brazil_flag
+			has_full_control_of_state = 300 #Montevideo
+	
+			300 = { #Montevideo
+				NOT = { is_core_of = FROM }
+			}
+	
+			P57 = { #Brazil
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_brazil_montevideo_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 300 } #Montevideo
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_brazil_coring_states_montevideo
+			custom_effect_tooltip = pfp_brazil_transfer_states_montevideo
+			hidden_effect = {
+				#Montevideo
+				300 = { add_core_of = P57 }
+				P57 = { transfer_state = 300 }
+				set_global_flag = pfp_brazil_montevideo_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_brazil_suriname = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P57 } 
+			has_global_flag = pfp_brazil_flag
+			has_full_control_of_state = 309 #Suriname
+	
+			309 = { #Suriname
+				NOT = { is_core_of = FROM }
+			}
+	
+			P57 = { #Brazil
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_brazil_suriname_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 309 } #Suriname
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_brazil_coring_states_suriname
+			custom_effect_tooltip = pfp_brazil_transfer_states_suriname
+			hidden_effect = {
+				#Suriname
+				309 = { add_core_of = P57 }
+				P57 = { transfer_state = 309 }
+				set_global_flag = pfp_brazil_suriname_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_brazil_french_guiana = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P57 } 
+			has_global_flag = pfp_brazil_flag
+			has_full_control_of_state = 310 #French Guiana
+	
+			310 = { #French Guiana
+				NOT = { is_core_of = FROM }
+			}
+	
+			P57 = { #Brazil
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_brazil_french_guiana_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 310 } #French Guiana
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_brazil_coring_states_french_guiana
+			custom_effect_tooltip = pfp_brazil_transfer_states_french_guiana
+			hidden_effect = {
+				#French Guiana
+				310 = { add_core_of = P57 }
+				P57 = { transfer_state = 310 }
+				set_global_flag = pfp_brazil_french_guiana_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_brazil_british_guyana = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P57 } 
+			has_global_flag = pfp_brazil_flag
+			has_full_control_of_state = 687 #British Guyana
+	
+			687 = { #British Guyana
+				NOT = { is_core_of = FROM }
+			}
+	
+			P57 = { #Brazil
+				OR = {
+					is_subject_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_brazil_british_guyana_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 687 } #British Guyana
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_brazil_coring_states_british_guyana
+			custom_effect_tooltip = pfp_brazil_transfer_states_british_guyana
+			hidden_effect = {
+				#British Guyana
+				687 = { add_core_of = P57 }
+				P57 = { transfer_state = 687 }
+				set_global_flag = pfp_brazil_british_guyana_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	#RT56
+	pfp_brazil_paysandu = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P57 } 
+			has_global_flag = pfp_brazil_flag
+			has_full_control_of_state = 1060 #Paysandu
+	
+			1060 = { #Paysandu
+				NOT = { is_core_of = FROM }
+			}
+	
+			P57 = { #Brazil
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_brazil_paysandu_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1060 } #Paysandu
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_brazil_coring_states_paysandu
+			custom_effect_tooltip = pfp_brazil_transfer_states_paysandu
+			hidden_effect = {
+				#Paysandu
+				1060 = { add_core_of = P57 }
+				P57 = { transfer_state = 1060 }
+				set_global_flag = pfp_brazil_paysandu_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_brazil_cerro_largo = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P57 } 
+			has_global_flag = pfp_brazil_flag
+			has_full_control_of_state = 1059 #Cerro Largo
+	
+			1059 = { #Cerro Largo
+				NOT = { is_core_of = FROM }
+			}
+	
+			P57 = { #Brazil
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_brazil_cerro_largo_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1059 } #Cerro Largo
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_brazil_coring_states_cerro_largo
+			custom_effect_tooltip = pfp_brazil_transfer_states_cerro_largo
+			hidden_effect = {
+				#Cerro Largo
+				1059 = { add_core_of = P57 }
+				P57 = { transfer_state = 1059 }
+				set_global_flag = pfp_brazil_cerro_largo_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

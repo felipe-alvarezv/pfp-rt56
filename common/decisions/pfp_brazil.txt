@@ -58,10 +58,10 @@ pfp_category = {
 				tooltip = pfp_brazil_required_states_santa_catarina
 				has_full_control_of_state = 503 #Santa Catarina
 			}
-			#Punta Pora
+			#Iguacu
 			custom_trigger_tooltip = {
-				tooltip = pfp_brazil_required_states_punta_pora
-				has_full_control_of_state = 504 #Punta Pora
+				tooltip = pfp_brazil_required_states_iguacu
+				has_full_control_of_state = 504 #Iguacu
 			}
 			#Goias
 			custom_trigger_tooltip = {
@@ -73,10 +73,10 @@ pfp_category = {
 				tooltip = pfp_brazil_required_states_espirito_santo
 				has_full_control_of_state = 999 #Espirito Santo
 			}
-			#Piaui
+			#Piauí
 			custom_trigger_tooltip = {
 				tooltip = pfp_brazil_required_states_piaui
-				has_full_control_of_state = 1000 #Piaui
+				has_full_control_of_state = 1000 #Piauí
 			}
 			#Maranhao
 			custom_trigger_tooltip = {
@@ -113,20 +113,20 @@ pfp_category = {
 				tooltip = pfp_brazil_required_states_acre
 				has_full_control_of_state = 1052 #Acre
 			}
-			#Amapa
+			#Amapá
 			custom_trigger_tooltip = {
 				tooltip = pfp_brazil_required_states_amapa
-				has_full_control_of_state = 1056 #Amapa
+				has_full_control_of_state = 1056 #Amapá
 			}
 			#Tocantins
 			custom_trigger_tooltip = {
 				tooltip = pfp_brazil_required_states_tocantins
 				has_full_control_of_state = 1057 #Tocatins
 			}
-			#Guapore
+			#Rondônia
 			custom_trigger_tooltip = {
 				tooltip = pfp_brazil_required_states_guapore
-				has_full_control_of_state = 1058 #Guapore
+				has_full_control_of_state = 1058 #Rondônia
 			}
 		}
 		visible = {
@@ -148,10 +148,10 @@ pfp_category = {
 				state = 501 #Sao Paulo
 				state = 502 #Rio Grande do Sul
 				state = 503 #Santa Catarina
-				state = 504 #Punta Pora
+				state = 504 #Iguacu
 				state = 505 #Goias
 				state = 999 #Espirito Santo
-				state = 1000 #Piaui
+				state = 1000 #Piauí
 				state = 1001 #Maranhao
 				state = 1002 #Parana
 				state = 1003 #Ceara
@@ -159,9 +159,9 @@ pfp_category = {
 				state = 1005 #Pernambuco
 				state = 1006 #Alagoas
 				state = 1052 #Acre
-				state = 1056 #Amapa
+				state = 1056 #Amapá
 				state = 1057 #Tocatins
-				state = 1058 #Guapore
+				state = 1058 #Rondônia
 			}
 		}
 		icon = generic_military

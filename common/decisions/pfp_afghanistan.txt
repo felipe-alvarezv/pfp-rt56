@@ -23,10 +23,10 @@ pfp_category = {
 				tooltip = pfp_afghanistan_required_states_faryab
 				has_full_control_of_state = 1008 #Faryab
 			}
-			#Basmian
+			#Bamian
 			custom_trigger_tooltip = {
-				tooltip = pfp_afghanistan_required_states_basmian
-				has_full_control_of_state = 1009 #Basmian
+				tooltip = pfp_afghanistan_required_states_bamian
+				has_full_control_of_state = 1009 #Bamian
 			}
 			#Kandahar
 			custom_trigger_tooltip = {
@@ -51,7 +51,7 @@ pfp_category = {
 				state = 267 #Kabulistan
 				state = 415 #Herat
 				state = 1008 #Faryab
-				state = 1009 #Basmian
+				state = 1009 #Bamian
 				state = 1010 #Kandahar
 				state = 1011 #Badakhshan
 			}

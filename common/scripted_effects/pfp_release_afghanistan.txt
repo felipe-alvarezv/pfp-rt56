@@ -5,7 +5,7 @@ pfp_release_afghanistan = {
 		267 = { add_core_of = P76 } #Kabulistan
 		415 = { add_core_of = P76 } #Herat
 		1008 = { add_core_of = P76 } #Faryab
-		1009 = { add_core_of = P76 } #Basmian
+		1009 = { add_core_of = P76 } #Bamian
 		1010 = { add_core_of = P76 } #Kandahar
 		1011 = { add_core_of = P76 } #Badakhshan
 

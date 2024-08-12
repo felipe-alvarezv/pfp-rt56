@@ -1,0 +1,31 @@
+﻿#Korea - P72 - Localisation
+l_english:
+  P72_communism:0 "Korea"
+  P72_communism_DEF:0 "Korea"
+  P72_democratic:0 "Korea"
+  P72_democratic_DEF:0 "Korea"
+  P72_neutrality:1 "Korea"
+  P72_neutrality_DEF:1 "Korea"
+  P72_fascism:0 "Korea"
+  P72_fascism_DEF:0 "Korea"
+  P72_communism_ADJ:0 "Korean"
+  P72_democratic_ADJ:0 "Korean"
+  P72_neutrality_ADJ:0 "Korean"
+  P72_fascism_ADJ:0 "Korean"
+  P72:0 "Korea"
+  P72_DEF:0 "Korea"
+  P72_ADJ:0 "Korean"
+
+  pfp_korea:0 "Establish Military Administration in Korea"
+  pfp_korea_coring_states:0 "§YKorea§! gains cores on all listed states.\n"
+  pfp_korea_transfer_states:0 "§YKorea§! becomes owner and controller of all listed states.\n"
+  pfp_korea_puppet:0 "§YKorea§! becomes a puppet of §Y[Root.GetName]§!.\n"
+
+
+
+  pfp_korea_required_states_gyonggi:0 "Controls §YGyonggi§!."
+  pfp_korea_required_states_pyeongan:0 "Controls §YPyeongan§!."
+  pfp_korea_required_states_hwanghae:0 "Controls §YHwanghae§!."
+  pfp_korea_required_states_hamgyong:0 "Controls §YHamgyong§!."
+  pfp_korea_required_states_jeolla:0 "Controls §YJeolla§!."
+  pfp_korea_required_states_gyeongsang:0 "Controls §YGyeongsang§!."

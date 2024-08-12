@@ -1,6 +1,0 @@
-﻿#Southern France - P63 - Localisation
-l_english:
-	#Decisions Information
-	pfp_southern_france_monaco:0 "Transfer Monaco"
-	pfp_southern_france_coring_states_monaco:0 "§YSouthern France§! gains core on §YMonaco§!.\n"
-	pfp_southern_france_transfer_states_monaco:0 "§YSouthern France§! becomes owner and controller of §YMonaco§!.\n"

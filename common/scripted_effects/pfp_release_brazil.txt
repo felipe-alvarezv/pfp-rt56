@@ -12,10 +12,10 @@ pfp_release_brazil = {
 		501 = { add_core_of = P57 } #Sao Paulo
 		502 = { add_core_of = P57 } #Rio Grande do Sul
 		503 = { add_core_of = P57 } #Santa Catarina
-		504 = { add_core_of = P57 } #Punta Pora
+		504 = { add_core_of = P57 } #Iguacu
 		505 = { add_core_of = P57 } #Goias
 		999 = { add_core_of = P57 } #Espirito Santo
-		1000 = { add_core_of = P57 } #Piaui
+		1000 = { add_core_of = P57 } #Piauí
 		1001 = { add_core_of = P57 } #Maranhao
 		1002 = { add_core_of = P57 } #Parana
 		1003 = { add_core_of = P57 } #Ceara
@@ -23,9 +23,9 @@ pfp_release_brazil = {
 		1005 = { add_core_of = P57 } #Pernambuco
 		1006 = { add_core_of = P57 } #Alagoas
 		1052 = { add_core_of = P57 } #Acre
-		1056 = { add_core_of = P57 } #Amapa
+		1056 = { add_core_of = P57 } #Amapá
 		1057 = { add_core_of = P57 } #Tocatins
-		1058 = { add_core_of = P57 } #Guapore
+		1058 = { add_core_of = P57 } #Rondônia
 
 		#Impassable Amazon Territories
 		1072 = { add_core_of = P57 } #Amazon

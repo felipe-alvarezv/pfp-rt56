@@ -1,8 +1,0 @@
-﻿#P05 - Netherlands - Localisation
-l_english:
-	#Decisions Localisation
-	pfp_netherlands_required_states_brabant:0 "Controls §YNoord-Brabant§!."
- 	pfp_netherlands_eupen_malmedy:0 "Transfer Eupen-Malmedy"
-	pfp_netherlands_required_states_eupen_malmedy:0 "Controls §YEupen-Malmedy§!."
-	pfp_netherlands_coring_states_eupen_malmedy:0 "§YNetherlands§! gains core on §YEupen-Malmedy§!.\n"
-	pfp_netherlands_transfer_states_eupen_malmedy:0 "§YNetherlands§! becomes owner and controller of §YEupen-Malmedy§!.\n"

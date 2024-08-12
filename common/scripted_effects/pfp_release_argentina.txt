@@ -4,7 +4,7 @@ pfp_release_argentina = {
 		#Add cores to Argentinian territory
 		278 = { add_core_of = P55 } #Buenos Aires
 		509 = { add_core_of = P55 } #Chaco Austral
-		510 = { add_core_of = P55 } #Region Mesopotamica
+		510 = { add_core_of = P55 } #Mesopotamia
 		1068 = { add_core_of = P55 } #Santa Fe
 		1069 = { add_core_of = P55 } #Formosa
 		1071 = { add_core_of = P55 } #Los Andes

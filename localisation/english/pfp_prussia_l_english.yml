@@ -89,3 +89,6 @@ l_english:
   pfp_prussia_required_states_schleswig:0 "Controls §YSouthern Schleswig§!."
   pfp_prussia_coring_states_schleswig:0 "§YPrussia§! gains core on §YSouthern Schleswig§!.\n"
   pfp_prussia_transfer_states_schleswig:0 "§YPrussia§! becomes owner and controller of §YSouthern Schleswig§!.\n"
+  pfp_prussia_memel:0 "Transfer Memel"
+  pfp_prussia_coring_states_memel:0 "§YPrussia§! gains core on §YMemel§!.\n"
+  pfp_prussia_transfer_states_memel:0 "§YPrussia§! becomes owner and controller of §YMemel§!.\n"

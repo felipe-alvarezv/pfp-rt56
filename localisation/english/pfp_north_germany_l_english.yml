@@ -73,3 +73,6 @@ l_english:
   pfp_north_germany_required_states_schleswig:0 "Controls §YSouthern Schleswig§!."
   pfp_north_germany_coring_states_schleswig:0 "§YNorth Germany§! gains core on §YSouthern Schleswig§!.\n"
   pfp_north_germany_transfer_states_schleswig:0 "§YNorth Germany§! becomes owner and controller of §YSouthern Schleswig§!.\n"
+  pfp_north_germany_memel:0 "Transfer Memel"
+  pfp_north_germany_coring_states_memel:0 "§YNetherlands§! gains core on §YMemel§!.\n"
+  pfp_north_germany_transfer_states_memel:0 "§YNetherlands§! becomes owner and controller of §YMemel§!.\n"

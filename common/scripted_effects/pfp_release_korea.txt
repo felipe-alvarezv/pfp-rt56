@@ -2,7 +2,7 @@
 pfp_release_korea = {
 	hidden_effect = {
 		#Add cores to Korea
-		525 = { add_core_of = P72 } #Gyonggi
+		525 = { add_core_of = P72 } #Gyeonggi
 		527 = { add_core_of = P72 } #Pyeongan
 		917 = { add_core_of = P72 } #Hwanghae
 		918 = { add_core_of = P72 } #Hamgyong

@@ -8,10 +8,10 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
-			#Gyonggi
+			#Gyeonggi
 			custom_trigger_tooltip = {
-				tooltip = pfp_korea_required_states_gyonggi
-				has_full_control_of_state = 525 #Gyonggi
+				tooltip = pfp_korea_required_states_gyeonggi
+				has_full_control_of_state = 525 #Gyeonggi
 			}
 			#Pyeongan
 			custom_trigger_tooltip = {
@@ -41,14 +41,14 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 525 #Gyonggi
+				has_full_control_of_state = 525 #Gyeonggi
 				has_full_control_of_state = 527 #Pyeongan
 			}
 			NOT = { has_global_flag = pfp_korea_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { 
-				state = 525 #Gyonggi
+				state = 525 #Gyeonggi
 				state = 527 #Pyeongan
 				state = 917 #Hwanghae
 				state = 918 #Hamgyong

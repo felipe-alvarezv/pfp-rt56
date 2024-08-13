@@ -69,3 +69,6 @@ l_english:
   pfp_south_africa_required_states_orange_free_state:0 "Controls §YOrange Free State§!."
   pfp_south_africa_required_states_basutoland:0 "Controls §YBasutoland§!."
   pfp_south_africa_required_states_swaziland:0 "Controls §YSwaziland§!."
+  pfp_south_africa_malawi:0 "Transfer Nyasaland"
+  pfp_south_africa_coring_states_malawi:0 "§YSouth Africa§! gains core on §YNyasaland§!.\n"
+  pfp_south_africa_transfer_states_malawi:0 "§YSouth Africa§! becomes owner and controller of §YNyasaland§!.\n"

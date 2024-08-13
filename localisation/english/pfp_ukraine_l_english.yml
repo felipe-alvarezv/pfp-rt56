@@ -77,3 +77,6 @@ l_english:
   pfp_ukraine_uzhorod:0 "Transfer Uzhorod"
   pfp_ukraine_coring_states_uzhorod:0 "§YUkraine§! gains core on §YUzhorod§!.\n"
   pfp_ukraine_transfer_states_uzhorod:0 "§YUkraine§! becomes owner and controller of §YUzhorod§!.\n"
+  pfp_ukraine_balta_tiraspol:0 "Transfer Tiraspol"
+  pfp_ukraine_coring_states_balta_tiraspol:0 "§YUkraine§! gains core on §YTiraspol§!.\n"
+  pfp_ukraine_transfer_states_balta_tiraspol:0 "§YUkraine§! becomes owner and controller of §YTiraspol§!.\n"

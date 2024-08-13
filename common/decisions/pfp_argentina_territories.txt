@@ -612,4 +612,40 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
+	pfp_argentina_chaco_boreal_bolivia = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P55 } 
+			has_global_flag = pfp_argentina_flag
+			has_full_control_of_state = 1077 #Chaco Boreal
+	
+			1077 = { #Chaco Boreal
+				NOT = { is_core_of = FROM }
+			}
+	
+			P55 = { #PFP Argentina
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_argentina_chaco_boreal_bolivia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1077 } #Chaco Boreal
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_argentina_coring_states_chaco_boreal_bolivia
+			custom_effect_tooltip = pfp_argentina_transfer_states_chaco_boreal_bolivia
+			hidden_effect = {
+				#Chaco Boreal
+				1077 = { add_core_of = P55 }
+				P55 = { transfer_state = 1077 }
+				set_global_flag = pfp_argentina_chaco_boreal_bolivia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
 }

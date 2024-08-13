@@ -74,3 +74,6 @@ l_english:
   pfp_indonesia_required_states_terengganu:0 "Controls §YTerengganu§!."
   pfp_indonesia_coring_states_terengganu:0 "§YIndonesia§! gains core on §YTerengganu§!.\n"
   pfp_indonesia_transfer_states_terengganu:0 "§YIndonesia§! becomes owner and controller of §YTerengganu§!.\n"
+  pfp_indonesia_portuguese_timor:0 "Transfer Timor-Leste"
+  pfp_indonesia_coring_states_portuguese_timor:0 "§YIndonesia§! gains core on §YTimor-Leste§!.\n"
+  pfp_indonesia_transfer_states_portuguese_timor:0 "§YIndonesia§! becomes owner and controller of §YTimor-Leste§!.\n"

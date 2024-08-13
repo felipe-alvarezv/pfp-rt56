@@ -85,3 +85,6 @@ l_english:
   pfp_mexico_northern_panama:0 "Transfer Northern Panama"
   pfp_mexico_coring_states_northern_panama:0 "§YMexico§! gains core on §YNorthern Panama§!.\n"
   pfp_mexico_transfer_states_northern_panama:0 "§YMexico§! becomes owner and controller of §YNorthern Panama§!.\n"
+  pfp_mexico_british_honduras:0 "Transfer Belize"
+  pfp_mexico_coring_states_british_honduras:0 "§YMexico§! gains core on §YBelize§!.\n"
+  pfp_mexico_transfer_states_british_honduras:0 "§YMexico§! becomes owner and controller of §YBelize§!.\n"

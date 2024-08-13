@@ -143,42 +143,6 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_denmark_sonderjylland = {
-		visible = {
-			has_country_flag = pfp_puppet_management_view
-            has_country_flag = pfp_puppet_selected
-			has_country_flag = pfp_puppet_management_options_territory
-			var:FROM.pfp_puppet_selection = { original_tag = P61 } 
-			has_global_flag = pfp_denmark_flag
-			has_full_control_of_state = 912 #Sonderjylland
-
-			912 = { #Sonderjylland
-				NOT = { is_core_of = FROM }
-			}
-
-			P61 = { #Denmark
-				OR = {
-					is_subject_of = FROM
-					is_in_faction_with = FROM
-				}
-			}
-			NOT = { has_global_flag = pfp_denmark_sonderjylland_flag }
-		}
-		highlight_states = {
-			highlight_state_targets = { state = 912 } #Sonderjylland
-		}
-		complete_effect = {
-			custom_effect_tooltip = pfp_denmark_coring_states_sonderjylland
-			custom_effect_tooltip = pfp_denmark_transfer_states_sonderjylland
-			hidden_effect = {
-				#Sonderjylland
-				912 = { add_core_of = P61 }
-				P61 = { transfer_state = 912 }
-				set_global_flag = pfp_denmark_sonderjylland_flag
-			}
-		}
-		ai_will_do = { factor = 0 }
-	}
 	#RT56
 	pfp_denmark_northern_schleswig = {
 		visible = {

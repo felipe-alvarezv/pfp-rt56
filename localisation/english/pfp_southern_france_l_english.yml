@@ -27,6 +27,9 @@ l_english:
   pfp_southern_france_coring_states:0 "§YSouthern France§! gains cores on all listed states.\n"
   pfp_southern_france_transfer_states:0 "§YSouthern France§! becomes owner and controller of all listed states.\n"
   pfp_southern_france_puppet:0 "§YSouthern France§! becomes a puppet of §Y[Root.GetName]§!.\n"
+  pfp_southern_france_corsica:0 "Transfer Corsica"
+  pfp_southern_france_coring_states_corsica:0 "§YSouthern France§! gains core on §YCorsica§!.\n"
+  pfp_southern_france_transfer_states_corsica:0 "§YSouthern France§! becomes owner and controller of §YCorsica§!.\n"
   pfp_southern_france_aquitaine:0 "Transfer Aquitaine"
   pfp_southern_france_coring_states_aquitaine:0 "§YSouthern France§! gains core on §YAquitaine§!.\n"
   pfp_southern_france_transfer_states_aquitaine:0 "§YSouthern France§! becomes owner and controller of §YAquitaine§!.\n"
@@ -47,6 +50,9 @@ l_english:
   pfp_southern_france_transfer_states_var:0 "§YSouthern France§! becomes owner and controller of §YVar§!.\n"
 
 
+  pfp_southern_france_alpes:0 "Transfer Rhône-Alpes"
+  pfp_southern_france_coring_states_alpes:0 "§YSouthern France§! gains core on §YRhône-Alpes§!.\n"
+  pfp_southern_france_transfer_states_alpes:0 "§YSouthern France§! becomes owner and controller of §YRhône-Alpes§!.\n"
   pfp_southern_france_monaco:0 "Transfer Monaco"
   pfp_southern_france_coring_states_monaco:0 "§YSouthern France§! gains core on §YMonaco§!.\n"
   pfp_southern_france_transfer_states_monaco:0 "§YSouthern France§! becomes owner and controller of §YMonaco§!.\n"

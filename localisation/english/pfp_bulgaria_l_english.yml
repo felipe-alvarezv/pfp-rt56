@@ -28,6 +28,9 @@ l_english:
   pfp_bulgaria_dobrudja:0 "Transfer Dobrudja"
   pfp_bulgaria_coring_states_dobrudja:0 "§YBulgaria§! gains core on §YDobrudja§!.\n"
   pfp_bulgaria_transfer_states_dobrudja:0 "§YBulgaria§! becomes owner and controller of §YDobrudja§!.\n"
+  pfp_bulgaria_macedonia:0 "Transfer Macedonia"
+  pfp_bulgaria_coring_states_macedonia:0 "§YBulgaria§! gains core on §YMacedonia§!.\n"
+  pfp_bulgaria_transfer_states_macedonia:0 "§YBulgaria§! becomes owner and controller of §YMacedonia§!.\n"
   pfp_bulgaria_thrace:0 "Transfer Thrace"
   pfp_bulgaria_coring_states_thrace:0 "§YBulgaria§! gains core on §YThrace§!.\n"
   pfp_bulgaria_transfer_states_thrace:0 "§YBulgaria§! becomes owner and controller of §YThrace§!.\n"
@@ -42,6 +45,6 @@ l_english:
   pfp_bulgaria_transfer_states_istanbul:0 "§YBulgaria§! becomes owner and controller of §YIstanbul§!.\n"
 
 
-  pfp_bulgaria_pirot:0 "Transfer Pirot"
-  pfp_bulgaria_coring_states_pirot:0 "§YBulgaria§! gains core on §YPirot§!.\n"
-  pfp_bulgaria_transfer_states_pirot:0 "§YBulgaria§! becomes owner and controller of §YPirot§!.\n"
+  pfp_bulgaria_southern_serbia:0 "Transfer Pirot"
+  pfp_bulgaria_coring_states_southern_serbia:0 "§YBulgaria§! gains core on §YPirot§!.\n"
+  pfp_bulgaria_transfer_states_southern_serbia:0 "§YBulgaria§! becomes owner and controller of §YPirot§!.\n"

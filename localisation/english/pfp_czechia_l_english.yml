@@ -42,6 +42,12 @@ l_english:
 
 
   pfp_czechia_required_states_bohemia:0 "Controls §YCzechia§!."
+  pfp_czechia_zaolzie:0 "Transfer Trans-Olza"
+  pfp_czechia_coring_states_zaolzie:0 "§YCzechia§! gains core on §YTrans-Olza§!.\n"
+  pfp_czechia_transfer_states_zaolzie:0 "§YCzechia§! becomes owner and controller of §YTrans-Olza§!.\n"
   pfp_czechia_uzhorod:0 "Transfer Uzhorod"
   pfp_czechia_coring_states_uzhorod:0 "§YCzechia§! gains core on §YUzhorod§!.\n"
   pfp_czechia_transfer_states_uzhorod:0 "§YCzechia§! becomes owner and controller of §YUzhorod§!.\n"
+  pfp_czechia_southern_sudetenland:0 "Transfer Southern Sudetenland"
+  pfp_czechia_coring_states_southern_sudetenland:0 "§YCzechia§! gains core on §YSouthern Sudetenland§!.\n"
+  pfp_czechia_transfer_states_southern_sudetenland:0 "§YCzechia§! becomes owner and controller of §YSouthern Sudetenland§!.\n"

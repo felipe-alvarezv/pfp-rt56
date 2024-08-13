@@ -71,4 +71,256 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
+	pfp_west_indies_grenada = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
+			has_global_flag = pfp_west_indies_flag
+			has_full_control_of_state = 1085 #Grenada
+	
+			1085 = { #Grenada
+				NOT = { is_core_of = FROM }
+			}
+	
+			P06 = { #PFP West Indies
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_west_indies_grenada_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1085 } #Grenada
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_west_indies_coring_states_grenada
+			custom_effect_tooltip = pfp_west_indies_transfer_states_grenada
+			hidden_effect = {
+				#Grenada
+				1085 = { add_core_of = P06 }
+				P06 = { transfer_state = 1085 }
+				set_global_flag = pfp_west_indies_grenada_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_west_indies_st_vincent_and_grenadines = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
+			has_global_flag = pfp_west_indies_flag
+			has_full_control_of_state = 1084 #St Vincent & the Grenadines
+	
+			1084 = { #St Vincent & the Grenadines
+				NOT = { is_core_of = FROM }
+			}
+	
+			P06 = { #PFP West Indies
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_west_indies_st_vincent_and_grenadines_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1084 } #St Vincent & the Grenadines
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_west_indies_coring_states_st_vincent_and_grenadines
+			custom_effect_tooltip = pfp_west_indies_transfer_states_st_vincent_and_grenadines
+			hidden_effect = {
+				#St Vincent & the Grenadines
+				1084 = { add_core_of = P06 }
+				P06 = { transfer_state = 1084 }
+				set_global_flag = pfp_west_indies_st_vincent_and_grenadines_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_west_indies_saint_lucia = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
+			has_global_flag = pfp_west_indies_flag
+			has_full_control_of_state = 1083 #Saint Lucia
+	
+			1083 = { #Saint Lucia
+				NOT = { is_core_of = FROM }
+			}
+	
+			P06 = { #PFP West Indies
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_west_indies_saint_lucia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1083 } #Saint Lucia
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_west_indies_coring_states_saint_lucia
+			custom_effect_tooltip = pfp_west_indies_transfer_states_saint_lucia
+			hidden_effect = {
+				#Saint Lucia
+				1083 = { add_core_of = P06 }
+				P06 = { transfer_state = 1083 }
+				set_global_flag = pfp_west_indies_saint_lucia_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_west_indies_martinique = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
+			has_global_flag = pfp_west_indies_flag
+			has_full_control_of_state = 1080 #Martinique
+	
+			1080 = { #Martinique
+				NOT = { is_core_of = FROM }
+			}
+	
+			P06 = { #PFP West Indies
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_west_indies_martinique_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1080 } #Martinique
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_west_indies_coring_states_martinique
+			custom_effect_tooltip = pfp_west_indies_transfer_states_martinique
+			hidden_effect = {
+				#Martinique
+				1080 = { add_core_of = P06 }
+				P06 = { transfer_state = 1080 }
+				set_global_flag = pfp_west_indies_martinique_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_west_indies_dominica = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
+			has_global_flag = pfp_west_indies_flag
+			has_full_control_of_state = 1082 #Dominica
+	
+			1082 = { #Dominica
+				NOT = { is_core_of = FROM }
+			}
+	
+			P06 = { #PFP West Indies
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_west_indies_dominica_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1082 } #Dominica
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_west_indies_coring_states_dominica
+			custom_effect_tooltip = pfp_west_indies_transfer_states_dominica
+			hidden_effect = {
+				#Dominica
+				1082 = { add_core_of = P06 }
+				P06 = { transfer_state = 1082 }
+				set_global_flag = pfp_west_indies_dominica_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_west_indies_st_kitts_and_nevis = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
+			has_global_flag = pfp_west_indies_flag
+			has_full_control_of_state = 1081 #St Kitts & Nevis
+	
+			1081 = { #St Kitts & Nevis
+				NOT = { is_core_of = FROM }
+			}
+	
+			P06 = { #PFP West Indies
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_west_indies_st_kitts_and_nevis_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1081 } #St Kitts & Nevis
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_west_indies_coring_states_st_kitts_and_nevis
+			custom_effect_tooltip = pfp_west_indies_transfer_states_st_kitts_and_nevis
+			hidden_effect = {
+				#St Kitts & Nevis
+				1081 = { add_core_of = P06 }
+				P06 = { transfer_state = 1081 }
+				set_global_flag = pfp_west_indies_st_kitts_and_nevis_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	pfp_west_indies_sint_maarten = {
+		visible = {
+			has_country_flag = pfp_puppet_management_view
+			has_country_flag = pfp_puppet_selected
+			has_country_flag = pfp_puppet_management_options_territory
+			var:FROM.pfp_puppet_selection = { original_tag = P06 } 
+			has_global_flag = pfp_west_indies_flag
+			has_full_control_of_state = 1079 #Sint Maarten
+	
+			1079 = { #Sint Maarten
+				NOT = { is_core_of = FROM }
+			}
+	
+			P06 = { #PFP West Indies
+				OR = {
+					is_puppet_of = FROM
+					is_in_faction_with = FROM
+				}
+			}
+			NOT = { has_global_flag = pfp_west_indies_sint_maarten_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { state = 1079 } #Sint Maarten
+		}
+		complete_effect = {
+			custom_effect_tooltip = pfp_west_indies_coring_states_sint_maarten
+			custom_effect_tooltip = pfp_west_indies_transfer_states_sint_maarten
+			hidden_effect = {
+				#Sint Maarten
+				1079 = { add_core_of = P06 }
+				P06 = { transfer_state = 1079 }
+				set_global_flag = pfp_west_indies_sint_maarten_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
 }

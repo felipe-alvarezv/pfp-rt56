@@ -16,7 +16,6 @@ l_english:
 	P76_DEF:0 "Afghanistan"
 	P76_ADJ:0 "Afghan"
 
-
 	pfp_afghanistan:0 "Establish Military Administration in Afghanistan"
 	pfp_afghanistan_required_states_herat:0 "Controls §YHerat§!."
 	pfp_afghanistan_coring_states:0 "§YAfghanistan§! gains cores on all listed states.\n"

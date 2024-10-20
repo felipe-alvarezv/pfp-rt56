@@ -3,11 +3,11 @@ pfp_release_levant = {
 	hidden_effect = {
 		#Add cores to Levant
 		454 = { add_core_of = P67 } #Coastal Plain
-		455 = { add_core_of = P67 } #Ammam
+		455 = { add_core_of = P67 } #Amman
 		553 = { add_core_of = P67 } #Lebanon
 		554 = { add_core_of = P67 } #Damascus
 		677 = { add_core_of = P67 } #Aleppo
-		680 = { add_core_of = P67 } #Deir-Az-Zur
+		680 = { add_core_of = P67 } #Deir-az-Zur
 		949 = { add_core_of = P67 } #Gaza
 		966 = { add_core_of = P67 } #West Bank
 		1016 = { add_core_of = P67 } #Jerusalem

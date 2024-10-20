@@ -21,7 +21,7 @@ l_english:
   pfp_levant_required_states_lebanon:0 "Controls §YLebanon§!."
   pfp_levant_required_states_damascus:0 "Controls §YDamascus§!."
   pfp_levant_required_states_aleppo:0 "Controls §YAleppo§!."
-  pfp_levant_required_states_deir_az_zur:0 "Controls §YDeir-Az-Zur§!."
+  pfp_levant_required_states_deir_az_zur:0 "Controls §YDeir-az-Zur§!."
   pfp_levant_coring_states:0 "§YLevant§! gains cores on all listed states.\n"
   pfp_levant_transfer_states:0 "§YLevant§! becomes owner and controller of all listed states.\n"
   pfp_levant_puppet:0 "§YLevant§! becomes a puppet of §Y[Root.GetName]§!.\n"
@@ -40,7 +40,7 @@ l_english:
 
 
   pfp_levant_required_states_coastal_plain:0 "Controls §YCoastal Plain§!."
-  pfp_levant_required_states_ammam:0 "Controls §YAmmam§!."
+  pfp_levant_required_states_amman:0 "Controls §YAmman§!."
   pfp_levant_required_states_gaza:0 "Controls §YGaza§!."
   pfp_levant_required_states_west_bank:0 "Controls §YWest Bank§!."
   pfp_levant_required_states_jerusalem:0 "Controls §YJerusalem§!."

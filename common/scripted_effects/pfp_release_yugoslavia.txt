@@ -12,17 +12,17 @@ pfp_release_yugoslavia = {
 		108 = { add_core_of = P50 } #Morava
 		109 = { add_core_of = P50 } #Croatia
 		764 = { add_core_of = P50 } #West Banat
-		802 = { add_core_of = P50 } #Kosovo
+		802 = { add_core_of = P50 } #Metohija
 		803 = { add_core_of = P50 } #Southern Serbia
 		804 = { add_core_of = P50 } #Herzegovina
 		853 = { add_core_of = P50 } #Ljubljana
 		959 = { add_core_of = P50 } #Slavonia
 		952 = { add_core_of = P50 } #Syrmia
 		962 = { add_core_of = P50 } #Posavina
-		961 = { add_core_of = P50 } #Banja Luka
+		961 = { add_core_of = P50 } #Krajina
 		958 = { add_core_of = P50 } #Kvarner
-		953 = { add_core_of = P50 } #Mitrovica
-		963 = { add_core_of = P50 } #West Sandzak
+		953 = { add_core_of = P50 } #Kosovo
+		963 = { add_core_of = P50 } #Raška
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {

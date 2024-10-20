@@ -71,16 +71,16 @@ pfp_puppet_management = {
 		}
 		ai_will_do = { factor = 0 }
 	}
-	pfp_hungary_banja_luka = {
+	pfp_hungary_krajina = {
 		visible = {
 			has_country_flag = pfp_puppet_management_view
             has_country_flag = pfp_puppet_selected
 			has_country_flag = pfp_puppet_management_options_territory
 			var:FROM.pfp_puppet_selection = { original_tag = P09 }
 			has_global_flag = pfp_hungary_flag
-			has_full_control_of_state = 961 #Banja Luka
+			has_full_control_of_state = 961 #Krajina
 
-			961 = { #Banja Luka
+			961 = { #Krajina
 				NOT = { is_core_of = FROM }
 			}
 
@@ -90,19 +90,19 @@ pfp_puppet_management = {
 					is_in_faction_with = FROM
 				}
 			}
-			NOT = { has_global_flag = pfp_hungary_banja_luka_flag }
+			NOT = { has_global_flag = pfp_hungary_krajina_flag }
 		}
 		highlight_states = {
-			highlight_state_targets = { state = 961 } #Banja Luka
+			highlight_state_targets = { state = 961 } #Krajina
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_hungary_coring_states_banja_luka
-			custom_effect_tooltip = pfp_hungary_transfer_states_banja_luka
+			custom_effect_tooltip = pfp_hungary_coring_states_krajina
+			custom_effect_tooltip = pfp_hungary_transfer_states_krajina
 			hidden_effect = {
-				#Banja Luka
+				#Krajina
 				961 = { add_core_of = P09 }
 				P09 = { transfer_state = 961 }
-				set_global_flag = pfp_hungary_banja_luka_flag
+				set_global_flag = pfp_hungary_krajina_flag
 			}
 		}
 		ai_will_do = { factor = 0 }

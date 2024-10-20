@@ -16,10 +16,10 @@ pfp_category = {
 				tooltip = pfp_levant_required_states_coastal_plain
 				has_full_control_of_state = 454 #Coastal Plain
 			}
-			#Ammam
+			#Amman
 			custom_trigger_tooltip = {
-				tooltip = pfp_levant_required_states_ammam
-				has_full_control_of_state = 455 #Ammam
+				tooltip = pfp_levant_required_states_amman
+				has_full_control_of_state = 455 #Amman
 			}
 			#Lebanon
 			custom_trigger_tooltip = {
@@ -31,10 +31,10 @@ pfp_category = {
 				tooltip = pfp_levant_required_states_aleppo
 				has_full_control_of_state = 677 #Aleppo
 			}
-			#Deir-Az-Zur
+			#Deir-az-Zur
 			custom_trigger_tooltip = {
 				tooltip = pfp_levant_required_states_deir_az_zur
-				has_full_control_of_state = 680 #Deir-Az-Zur
+				has_full_control_of_state = 680 #Deir-az-Zur
 			}
 			#Gaza
 			custom_trigger_tooltip = {
@@ -78,11 +78,11 @@ pfp_category = {
 		highlight_states = {
 			highlight_state_targets = { 
 				state = 454 #Coastal Plain
-				state = 455 #Ammam
+				state = 455 #Amman
 				state = 553 #Lebanon
 				state = 554 #Damascus
 				state = 677 #Aleppo
-				state = 680 #Deir-Az-Zur
+				state = 680 #Deir-az-Zur
 				state = 949 #Gaza
 				state = 966 #West Bank
 				state = 1016 #Jerusalem

@@ -17,7 +17,7 @@ l_english:
   P08_ADJ:0 "Central American"
 
   pfp_central_america:0 "Establish Military Administration in Central America"
-  pfp_central_america_required_states_panama:0 "Controls §YPanamá§!."
+  pfp_central_america_required_states_panama:0 "Controls §YPanama§!."
   pfp_central_america_required_states_honduras:0 "Controls §YHonduras§!."
   pfp_central_america_required_states_guatemala:0 "Controls §YGuatemala§!."
   pfp_central_america_required_states_el_salvador:0 "Controls §YEl Salvador§!."

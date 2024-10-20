@@ -55,10 +55,10 @@ pfp_category = {
                 tooltip = pfp_yugoslavia_required_states_west_banat
                 controls_state = 764 #West Banat
             }
-            #Kosovo
+            #Metohija
             custom_trigger_tooltip = {
                 tooltip = pfp_yugoslavia_required_states_kosovo
-                controls_state = 802 #Kosovo
+                controls_state = 802 #Metohija
             }
             #Southern Serbia
             custom_trigger_tooltip = {
@@ -90,25 +90,25 @@ pfp_category = {
                 tooltip = pfp_yugoslavia_required_states_posavina
                 controls_state = 962 #Posavina
             }
-            #Banja Luka
+            #Krajina
             custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_banja_luka
-                controls_state = 961 #Banja Luka
+                tooltip = pfp_yugoslavia_required_states_krajina
+                controls_state = 961 #Krajina
             }
             #Kvarner
             custom_trigger_tooltip = {
                 tooltip = pfp_yugoslavia_required_states_kvarner
                 controls_state = 958 #Kvarner
             }
-            #Mitrovica
+            #Kosovo
             custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_mitrovica
-                controls_state = 953 #Mitrovica
+                tooltip = pfp_yugoslavia_required_states_kosovo
+                controls_state = 953 #Kosovo
             }
-            #West Sandzak
+            #Raška
             custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_west_sandzak
-                controls_state = 963 #West Sandzak
+                tooltip = pfp_yugoslavia_required_states_raska
+                controls_state = 963 #Raška
             }
         }
         visible = {
@@ -132,17 +132,17 @@ pfp_category = {
                 state = 108 #Morava
                 state = 109 #Croatia
                 state = 764 #West Banat
-                state = 802 #Kosovo
+                state = 802 #Metohija
                 state = 803 #Southern Serbia
                 state = 804 #Herzegovina
                 state = 853 #Ljubljana
                 state = 959 #Slavonia
                 state = 952 #Syrmia
                 state = 962 #Posavina
-                state = 961 #Banja Luka
+                state = 961 #Krajina
                 state = 958 #Kvarner
-                state = 953 #Mitrovica
-                state = 963 #West Sandzak
+                state = 953 #Kosovo
+                state = 963 #Raška
                 
             }
         }

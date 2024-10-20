@@ -18,7 +18,7 @@ l_english:
 
 
   pfp_french_alps:0 "Establish Military Administration in the French Alps"
-  pfp_french_alps_required_states_bouches_du_rhone:0 "Controls §YBouches-Du-Rhone§!."
+  pfp_french_alps_required_states_bouches_du_rhone:0 "Controls §YBouches-Du-Rhône§!."
   pfp_french_alps_required_states_savoy:0 "Controls §YSavoy§!."
   pfp_french_alps_required_states_var:0 "Controls §YVar§!."
   pfp_french_alps_coring_states:0 "§YFrench Alps§! gains cores on all listed states.\n"

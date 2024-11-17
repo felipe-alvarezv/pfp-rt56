@@ -1,0 +1,31 @@
+﻿#Austria - P77 - Localisation
+l_english:
+#Country Information
+P77_communism:0 "Austria"
+P77_communism_DEF:0 "Austria"
+P77_democratic:0 "Austria"
+P77_democratic_DEF:0 "Austria"
+P77_neutrality:1 "Austria"
+P77_neutrality_DEF:1 "Austria"
+P77_fascism:0 "Austria"
+P77_fascism_DEF:0 "Austria"
+P77_communism_ADJ:0 "Austrian"
+P77_democratic_ADJ:0 "Austrian"
+P77_neutrality_ADJ:0 "Austrian"
+P77_fascism_ADJ:0 "Austrian"
+P77:0 "Austria"
+P77_DEF:0 "Austria"
+P77_ADJ:0 "Austrian"
+
+#Decisions Information
+pfp_austria:0 "Establish Military Administration in Austria"
+pfp_austria_required_states_lower_austria:0 "Controls §YLower Austria§!."
+pfp_austria_required_states_upper_austria:0 "Controls §YUpper Austria§!."
+pfp_austria_required_states_tyrol:0 "Controls §YTyrol§!."
+pfp_austria_required_states_vorarlberg:0 "Controls §YVorarlberg§!."
+pfp_austria_required_states_steiermark_karnten:0 "Controls §YSteiermark-Kärnten§!."
+pfp_austria_required_states_burgenland:0 "Controls §YBurgenland§!."
+pfp_austria_required_states_steiermark_karnten:0 "Controls §YSteiermark-Kärnten§!."
+pfp_austria_coring_states:0 "§YAustria§! gains cores on all listed states.\n"
+pfp_austria_transfer_states:0 "§YAustria§! becomes owner and controller of all listed states.\n"
+pfp_austria_puppet:0 "§YAustria§! becomes a puppet of §Y[Root.GetName]§!.\n"

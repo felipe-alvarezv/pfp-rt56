@@ -1,0 +1,67 @@
+pfp_category = {
+	pfp_belgium = {
+		allowed = {
+			NOT = {
+				original_tag = BEL #Belgium
+				original_tag = P60 #PFP Belgium
+			}
+		}
+		available = {
+			is_subject = no
+			#Vlaanderen
+			custom_trigger_tooltip = {
+				tooltip = pfp_belgium_required_states_vlaanderen
+				has_full_control_of_state = 6 #Vlaanderen
+			}
+			#Wallonie
+			custom_trigger_tooltip = {
+				tooltip = pfp_belgium_required_states_wallonie
+				has_full_control_of_state = 34 #Wallonie
+			}
+			#Antwerp
+			custom_trigger_tooltip = {
+				tooltip = pfp_belgium_required_states_antwerp
+				has_full_control_of_state = 1094 #Antwerp
+			}
+			#Ardennes
+			custom_trigger_tooltip = {
+				tooltip = pfp_belgium_required_states_ardennes
+				has_full_control_of_state = 1095 #Ardennes
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 6 #Vlaanderen
+				has_full_control_of_state = 34 #Wallonie
+				has_full_control_of_state = 1094 #Antwerp
+				has_full_control_of_state = 1095 #Ardennes
+			}
+			NOT = { has_global_flag = pfp_belgium_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 6 #Vlaanderen
+				state = 34 #Wallonie
+				state = 1094 #Antwerp
+				state = 1095 #Ardennes
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_belgium_coring_states
+			custom_effect_tooltip = pfp_belgium_transfer_states
+			custom_effect_tooltip = pfp_belgium_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_belgium = yes
+				set_autonomy = { target = P60 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P60 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

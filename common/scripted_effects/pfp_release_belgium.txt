@@ -1,0 +1,26 @@
+#Scripted effect to release Belgium (P60)
+pfp_release_belgium = {
+	hidden_effect = {
+		#Add cores to Belgian territory
+		6 = { add_core_of = P60 } #Vlaanderen
+		34 = { add_core_of = P60 } #Wallonie
+		1094 = { add_core_of = P60 } #Antwerp
+		1095 = { add_core_of = P60 } #Ardennes
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P60 }
+			transfer_state_to = P60
+		}
+
+		#Transfer all technology to formable puppet
+		P60 = { transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_belgium_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P60 }
+		news_event = { id = pfp_news.01 }
+	}
+}

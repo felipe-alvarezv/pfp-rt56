@@ -20,6 +20,8 @@ l_english:
   pfp_belgium:0 "Establish Military Administration in Belgium"
   pfp_belgium_required_states_vlaanderen:0 "Controls §YVlaanderen§!."
   pfp_belgium_required_states_wallonie:0 "Controls §YWallonie§!."
+  pfp_belgium_required_states_antwerp:0 "Controls §YAntwerp§!."
+  pfp_belgium_required_states_ardennes:0 "Controls §YArdennes§!."
   pfp_belgium_coring_states:0 "§YBelgium§! gains cores on all listed states.\n"
   pfp_belgium_transfer_states:0 "§YBelgium§! becomes owner and controller of all listed states.\n"
   pfp_belgium_puppet:0 "§YBelgium§! becomes a puppet of §Y[Root.GetName]§!.\n"

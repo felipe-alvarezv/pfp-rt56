@@ -6,7 +6,6 @@ pfp_category = {
 				original_tag = DOM #Dominican Republic
 				original_tag = HAI #Haiti
 				original_tag = JAM #Jamaica
-				original_tag = P06 #PFP West Indies
 			}
 		}
 		available = {
@@ -43,6 +42,7 @@ pfp_category = {
 				has_full_control_of_state = 318 #Haiti
 				has_full_control_of_state = 319 #Dominican Republic
 				has_full_control_of_state = 689 #Jamaica
+				has_full_control_of_state = 994 #La Habana
 			}
 			NOT = { has_global_flag = pfp_west_indies_flag }
 		}
@@ -57,7 +57,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_west_indies_coring_states
+			custom_effect_tooltip = pfp_west_indies_core_states
 			custom_effect_tooltip = pfp_west_indies_transfer_states
 			custom_effect_tooltip = pfp_west_indies_puppet
 

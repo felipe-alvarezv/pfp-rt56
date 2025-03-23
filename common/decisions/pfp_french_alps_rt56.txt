@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1012 } #Monaco
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_french_alps_coring_states_monaco
+			custom_effect_tooltip = pfp_french_alps_core_states_monaco
 			custom_effect_tooltip = pfp_french_alps_transfer_states_monaco
 			hidden_effect = {
 				#Monaco

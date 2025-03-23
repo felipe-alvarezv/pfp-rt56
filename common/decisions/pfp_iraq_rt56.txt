@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1048 } #Sulymaniyah
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_iraq_coring_states_sulymaniyah
+			custom_effect_tooltip = pfp_iraq_core_states_sulymaniyah
 			custom_effect_tooltip = pfp_iraq_transfer_states_sulymaniyah
 			hidden_effect = {
 				#Sulymaniyah
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1049 } #Erbil
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_iraq_coring_states_erbil
+			custom_effect_tooltip = pfp_iraq_core_states_erbil
 			custom_effect_tooltip = pfp_iraq_transfer_states_erbil
 			hidden_effect = {
 				#Erbil

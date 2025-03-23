@@ -22,7 +22,7 @@ pfp_release_sweden = {
 		}
 
 		#Transfer all technology to formable puppet
-		P74 = { transfer_technology = yes }
+		P74 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_sweden_flag

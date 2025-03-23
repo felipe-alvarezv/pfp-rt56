@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 5 } #Ermland-Masuren
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_ermland_masuren
+			custom_effect_tooltip = pfp_germany_core_states_ermland_masuren
 			custom_effect_tooltip = pfp_germany_transfer_states_ermland_masuren
 			hidden_effect = {
 				#Ermland-Masuren
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 63 } #Hinterpommern
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_hinterpommern
+			custom_effect_tooltip = pfp_germany_core_states_hinterpommern
 			custom_effect_tooltip = pfp_germany_transfer_states_hinterpommern
 			hidden_effect = {
 				#Hinterpommern
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 66 } #Niederschlesien
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_niederschlesien
+			custom_effect_tooltip = pfp_germany_core_states_niederschlesien
 			custom_effect_tooltip = pfp_germany_transfer_states_niederschlesien
 			hidden_effect = {
 				#Niederschlesien
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 67 } #Oberschlesien
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_oberschlesien
+			custom_effect_tooltip = pfp_germany_core_states_oberschlesien
 			custom_effect_tooltip = pfp_germany_transfer_states_oberschlesien
 			hidden_effect = {
 				#Oberschlesien
@@ -168,7 +168,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 68 } #Ostmark
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_ostmark
+			custom_effect_tooltip = pfp_germany_core_states_ostmark
 			custom_effect_tooltip = pfp_germany_transfer_states_ostmark
 			hidden_effect = {
 				#Ostmark
@@ -204,7 +204,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 85 } #Danzig
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_danzig
+			custom_effect_tooltip = pfp_germany_core_states_danzig
 			custom_effect_tooltip = pfp_germany_transfer_states_danzig
 			hidden_effect = {
 				#Danzig
@@ -240,7 +240,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 86 } #Poznan
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_poznan
+			custom_effect_tooltip = pfp_germany_core_states_poznan
 			custom_effect_tooltip = pfp_germany_transfer_states_poznan
 			hidden_effect = {
 				#Poznan
@@ -276,7 +276,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 188 } #Memel
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_memel
+			custom_effect_tooltip = pfp_germany_core_states_memel
 			custom_effect_tooltip = pfp_germany_transfer_states_memel
 			hidden_effect = {
 				#Memel
@@ -312,7 +312,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 762 } #Katowice
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_katowice
+			custom_effect_tooltip = pfp_germany_core_states_katowice
 			custom_effect_tooltip = pfp_germany_transfer_states_katowice
 			hidden_effect = {
 				#Katowice
@@ -348,7 +348,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 763 } #Konigsberg
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_konigsberg
+			custom_effect_tooltip = pfp_germany_core_states_konigsberg
 			custom_effect_tooltip = pfp_germany_transfer_states_konigsberg
 			hidden_effect = {
 				#Konigsberg
@@ -384,7 +384,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 4 } #Lower Austria
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_lower_austria
+			custom_effect_tooltip = pfp_germany_core_states_lower_austria
 			custom_effect_tooltip = pfp_germany_transfer_states_lower_austria
 			hidden_effect = {
 				#Lower Austria
@@ -420,7 +420,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 8 } #Luxemburg
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_luxemburg
+			custom_effect_tooltip = pfp_germany_core_states_luxemburg
 			custom_effect_tooltip = pfp_germany_transfer_states_luxemburg
 			hidden_effect = {
 				#Luxemburg
@@ -492,7 +492,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 28 } #Alsace-Lorraine
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_alsace_lorraine
+			custom_effect_tooltip = pfp_germany_core_states_alsace_lorraine
 			custom_effect_tooltip = pfp_germany_transfer_states_alsace_lorraine
 			hidden_effect = {
 				#Alsace-Lorraine
@@ -528,7 +528,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 39 } #Alto Adige
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_alto_adige
+			custom_effect_tooltip = pfp_germany_core_states_alto_adige
 			custom_effect_tooltip = pfp_germany_transfer_states_alto_adige
 			hidden_effect = {
 				#Alto Adige
@@ -564,7 +564,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 69 } #Sudetenland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_sudetenland
+			custom_effect_tooltip = pfp_germany_core_states_sudetenland
 			custom_effect_tooltip = pfp_germany_transfer_states_sudetenland
 			hidden_effect = {
 				#Sudetenland
@@ -600,7 +600,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 74 } #Eastern Sudetenland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_eastern_sudetenland
+			custom_effect_tooltip = pfp_germany_core_states_eastern_sudetenland
 			custom_effect_tooltip = pfp_germany_transfer_states_eastern_sudetenland
 			hidden_effect = {
 				#Eastern Sudetenland
@@ -672,7 +672,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 102 } #North Slovenia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_north_slovenia
+			custom_effect_tooltip = pfp_germany_core_states_north_slovenia
 			custom_effect_tooltip = pfp_germany_transfer_states_north_slovenia
 			hidden_effect = {
 				#North Slovenia
@@ -708,7 +708,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 152 } #Upper Austria
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_upper_austria
+			custom_effect_tooltip = pfp_germany_core_states_upper_austria
 			custom_effect_tooltip = pfp_germany_transfer_states_upper_austria
 			hidden_effect = {
 				#Upper Austria
@@ -744,7 +744,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 153 } #Tyrol
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_tyrol
+			custom_effect_tooltip = pfp_germany_core_states_tyrol
 			custom_effect_tooltip = pfp_germany_transfer_states_tyrol
 			hidden_effect = {
 				#Tyrol
@@ -780,7 +780,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 807 } #Gdynia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_gdynia
+			custom_effect_tooltip = pfp_germany_core_states_gdynia
 			custom_effect_tooltip = pfp_germany_transfer_states_gdynia
 			hidden_effect = {
 				#Gdynia
@@ -816,7 +816,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 848 } #Vorarlberg
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_vorarlberg
+			custom_effect_tooltip = pfp_germany_core_states_vorarlberg
 			custom_effect_tooltip = pfp_germany_transfer_states_vorarlberg
 			hidden_effect = {
 				#Vorarlberg
@@ -852,7 +852,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 853 } #Ljubljana
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_ljubljana
+			custom_effect_tooltip = pfp_germany_core_states_ljubljana
 			custom_effect_tooltip = pfp_germany_transfer_states_ljubljana
 			hidden_effect = {
 				#Ljubljana
@@ -889,7 +889,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1054 } #Styria
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_styria
+			custom_effect_tooltip = pfp_germany_core_states_styria
 			custom_effect_tooltip = pfp_germany_transfer_states_styria
 			hidden_effect = {
 				#Styria
@@ -925,7 +925,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 736 } #Litorale
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_litorale
+			custom_effect_tooltip = pfp_germany_core_states_litorale
 			custom_effect_tooltip = pfp_germany_transfer_states_litorale
 			hidden_effect = {
 				#Litorale
@@ -961,7 +961,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 965 } #Eupen-Malmedy
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_eupen_malmedy
+			custom_effect_tooltip = pfp_germany_core_states_eupen_malmedy
 			custom_effect_tooltip = pfp_germany_transfer_states_eupen_malmedy
 			hidden_effect = {
 				#Eupen-Malmedy
@@ -997,7 +997,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 964 } #Northern Schleswig
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_northern_schleswig
+			custom_effect_tooltip = pfp_germany_core_states_northern_schleswig
 			custom_effect_tooltip = pfp_germany_transfer_states_northern_schleswig
 			hidden_effect = {
 				#Northern Schleswig
@@ -1033,7 +1033,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 998 } #Schleswig
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_schleswig
+			custom_effect_tooltip = pfp_germany_core_states_schleswig
 			custom_effect_tooltip = pfp_germany_transfer_states_schleswig
 			hidden_effect = {
 				#Schleswig
@@ -1069,7 +1069,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1078 } #Southern Schleswig
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states_southern_sudetenland
+			custom_effect_tooltip = pfp_germany_core_states_southern_sudetenland
 			custom_effect_tooltip = pfp_germany_transfer_states_southern_sudetenland
 			hidden_effect = {
 				#Southern Schleswig

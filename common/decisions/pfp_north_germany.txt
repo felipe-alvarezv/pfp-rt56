@@ -4,8 +4,15 @@ pfp_category = {
 			NOT = {
 				original_tag = DDR #East Germany
 				original_tag = GER #Germany
+				original_tag = HAN #Westphalia
+				original_tag = HES #Hesse
+				original_tag = MEK #Mecklenburg
+				original_tag = PRE #Prussia
+				original_tag = RHI #Rhine
+				original_tag = SAX #Saxony
+				original_tag = SHL #Schleswig-Holstein
+				original_tag = THU #Thuringia
 				original_tag = WGR #West Germany
-				original_tag = P19 #North Germany
 			}
 		}
 		available = {
@@ -13,86 +20,103 @@ pfp_category = {
 			#Rhineland
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_rhineland
-				controls_state = 51 #Rhineland
+				has_full_control_of_state = 51 #Rhineland
 			}
 			#Hessen
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_hessen
-				controls_state = 55 #Hessen
+				has_full_control_of_state = 55 #Hessen
 			}
 			#Weser-Ems
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_weser_ems
-				controls_state = 56 #Weser-Ems
+				has_full_control_of_state = 56 #Weser-Ems
 			}
 			#Westfalen
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_westfalen
-				controls_state = 57 #Westfalen
+				has_full_control_of_state = 57 #Westfalen
 			}
 			#Holstein
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_holstein
-				controls_state = 58 #Holstein
+				has_full_control_of_state = 58 #Holstein
 			}
 			#Hannover
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_hannover
-				controls_state = 59 #Hannover
+				has_full_control_of_state = 59 #Hannover
 			}
 			#Thuringen
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_thuringen
-				controls_state = 60 #Thuringen
+				has_full_control_of_state = 60 #Thuringen
 			}
 			#Mecklenburg
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_mecklenburg
-				controls_state = 61 #Mecklenburg
+				has_full_control_of_state = 61 #Mecklenburg
 			}
 			#Vorpommern
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_vorpommern
-				controls_state = 62 #Vorpommern
+				has_full_control_of_state = 62 #Vorpommern
 			}
 			#Hinterpommern
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_hinterpommern
-				controls_state = 63 #Hinterpommern
+				has_full_control_of_state = 63 #Hinterpommern
 			}
 			#Brandenburg
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_brandenburg
-				controls_state = 64 #Brandenburg
+				has_full_control_of_state = 64 #Brandenburg
 			}
 			#Sachsen
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_sachsen
-				controls_state = 65 #Sachsen
+				has_full_control_of_state = 65 #Sachsen
 			}
 			#Niederschlesien
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_niederschlesien
-				controls_state = 66 #Niederschlesien
+				has_full_control_of_state = 66 #Niederschlesien
 			}
 			#Oberschlesien
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_oberschlesien
-				controls_state = 67 #Oberschlesien
+				has_full_control_of_state = 67 #Oberschlesien
 			}
 			#Ostmark
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_ostmark
-				controls_state = 68 #Ostmark
+				has_full_control_of_state = 68 #Ostmark
 			}
 			#Ostrhineland
 			custom_trigger_tooltip = {
 				tooltip = pfp_north_germany_required_states_ostrhineland
-				controls_state = 989 #Ostrhineland
+				has_full_control_of_state = 989 #Ostrhineland
 			}
 		}
 		visible = {
-			has_full_control_of_state = 64 #Brandenburg
+			OR = {
+				has_full_control_of_state = 51 #Rhineland
+				has_full_control_of_state = 55 #Hessen
+				has_full_control_of_state = 56 #Weser-Ems
+				has_full_control_of_state = 57 #Westfalen
+				has_full_control_of_state = 58 #Holstein
+				has_full_control_of_state = 59 #Hannover
+				has_full_control_of_state = 60 #Thuringen
+				has_full_control_of_state = 61 #Mecklenburg
+				has_full_control_of_state = 62 #Vorpommern
+				has_full_control_of_state = 63 #Hinterpommern
+				has_full_control_of_state = 64 #Brandenburg
+				has_full_control_of_state = 65 #Sachsen
+				has_full_control_of_state = 66 #Niederschlesien
+				has_full_control_of_state = 67 #Oberschlesien
+				has_full_control_of_state = 68 #Ostmark
+				has_full_control_of_state = 989 #Ostrhineland
+			}
 			NOT = { has_global_flag = pfp_north_germany_flag }
 		}
 		highlight_states = {
@@ -117,7 +141,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_germany_coring_states
+			custom_effect_tooltip = pfp_north_germany_core_states
 			custom_effect_tooltip = pfp_north_germany_transfer_states
 			custom_effect_tooltip = pfp_north_germany_puppet
 

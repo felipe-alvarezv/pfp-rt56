@@ -16,7 +16,6 @@ l_english:
   P65_DEF:0 "Norway"
   P65_ADJ:0 "Norwegian"
 
-
   pfp_norway:0 "Establish Military Administration in Norway"
   pfp_norway_required_states_vestlandet:0 "Controls §YVestlandet§!."
   pfp_norway_required_states_trondelag:0 "Controls §YTrøndelag§!."
@@ -25,14 +24,9 @@ l_english:
   pfp_norway_required_states_helgeland:0 "Controls §YHelgeland§!."
   pfp_norway_required_states_troms:0 "Controls §YTroms§!."
   pfp_norway_required_states_finnmark:0 "Controls §YFinnmark§!."
-  pfp_norway_coring_states:0 "§YNorway§! gains cores on all listed states.\n"
-  pfp_norway_transfer_states:0 "§YNorway§! becomes owner and controller of all listed states.\n"
-  pfp_norway_puppet:0 "§YNorway§! becomes a puppet of §Y[Root.GetName]§!.\n"
-  pfp_norway_jan_mayen:0 "Transfer Jan Mayen"
-  pfp_norway_coring_states_jan_mayen:0 "§YNorway§! gains core on §YJan Mayen§!.\n"
-  pfp_norway_transfer_states_jan_mayen:0 "§YNorway§! becomes owner and controller of §YJan Mayen§!.\n"
-
-
   pfp_norway_required_states_ostlandet:0 "Controls §YØstlandet§!."
   pfp_norway_required_states_nord_norge:0 "Controls §YNord-Norge§!."
   pfp_norway_required_states_sorlandet:0 "Controls §YSørlandet§!."
+  pfp_norway_core_states:0 "§YNorway§! gains cores on all listed states.\n"
+  pfp_norway_transfer_states:0 "§YNorway§! becomes owner and controller of all listed states.\n"
+  pfp_norway_puppet:0 "§YNorway§! becomes a puppet of §Y[Root.GetName]§!.\n"

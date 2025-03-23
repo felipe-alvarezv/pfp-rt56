@@ -32,7 +32,7 @@ pfp_release_turkestan = {
 		}
 
 		#Transfer all technology to formable puppet
-		P51 = { transfer_technology = yes }
+		P51 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_turkestan_flag

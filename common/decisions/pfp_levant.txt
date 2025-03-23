@@ -4,9 +4,9 @@ pfp_category = {
 			NOT = {
 				original_tag = ISR #Israel
 				original_tag = JOR #Jordan
+				original_tag = LEB #Lebanon
 				original_tag = PAL #Palestine
 				original_tag = SYR #Syria
-				original_tag = P67 #PFP Levant
 			}
 		}
 		available = {
@@ -69,9 +69,18 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
+				has_full_control_of_state = 454 #Coastal Plain
+				has_full_control_of_state = 455 #Amman
 				has_full_control_of_state = 553 #Lebanon
+				has_full_control_of_state = 554 #Damascus
 				has_full_control_of_state = 677 #Aleppo
+				has_full_control_of_state = 680 #Deir-az-Zur
+				has_full_control_of_state = 949 #Gaza
+				has_full_control_of_state = 966 #West Bank
 				has_full_control_of_state = 1016 #Jerusalem
+				has_full_control_of_state = 1017 #Beersheba
+				has_full_control_of_state = 1021 #Mafraq
+				has_full_control_of_state = 1022 #Ma'an
 			}
 			NOT = { has_global_flag = pfp_levant_flag }
 		}
@@ -93,7 +102,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_levant_coring_states
+			custom_effect_tooltip = pfp_levant_core_states
 			custom_effect_tooltip = pfp_levant_transfer_states
 			custom_effect_tooltip = pfp_levant_puppet
 

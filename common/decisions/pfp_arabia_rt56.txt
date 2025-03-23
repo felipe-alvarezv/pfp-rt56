@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1045 } #Basrah
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_arabia_coring_states_basrah
+			custom_effect_tooltip = pfp_arabia_core_states_basrah
 			custom_effect_tooltip = pfp_arabia_transfer_states_basrah
 			hidden_effect = {
 				#Basrah
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1046 } #Karbala-Najaf
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_arabia_coring_states_karbala_najaf
+			custom_effect_tooltip = pfp_arabia_core_states_karbala_najaf
 			custom_effect_tooltip = pfp_arabia_transfer_states_karbala_najaf
 			hidden_effect = {
 				#Karbala-Najaf
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1048 } #Sulymaniyah
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_arabia_coring_states_sulymaniyah
+			custom_effect_tooltip = pfp_arabia_core_states_sulymaniyah
 			custom_effect_tooltip = pfp_arabia_transfer_states_sulymaniyah
 			hidden_effect = {
 				#Sulymaniyah
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1049 } #Erbil
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_arabia_coring_states_erbil
+			custom_effect_tooltip = pfp_arabia_core_states_erbil
 			custom_effect_tooltip = pfp_arabia_transfer_states_erbil
 			hidden_effect = {
 				#Erbil
@@ -168,7 +168,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1047 } #Dulaim
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_arabia_coring_states_dulaim
+			custom_effect_tooltip = pfp_arabia_core_states_dulaim
 			custom_effect_tooltip = pfp_arabia_transfer_states_dulaim
 			hidden_effect = {
 				#Dulaim
@@ -204,7 +204,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1021 } #Mafraq
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_arabia_coring_states_mafraq
+			custom_effect_tooltip = pfp_arabia_core_states_mafraq
 			custom_effect_tooltip = pfp_arabia_transfer_states_mafraq
 			hidden_effect = {
 				#Mafraq
@@ -240,7 +240,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1022 } #Ma'an
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_arabia_coring_states_maan
+			custom_effect_tooltip = pfp_arabia_core_states_maan
 			custom_effect_tooltip = pfp_arabia_transfer_states_maan
 			hidden_effect = {
 				#Ma'an
@@ -276,7 +276,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1017 } #Beersheba
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_arabia_coring_states_beersheba
+			custom_effect_tooltip = pfp_arabia_core_states_beersheba
 			custom_effect_tooltip = pfp_arabia_transfer_states_beersheba
 			hidden_effect = {
 				#Beersheba
@@ -312,7 +312,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1016 } #Jerusalem
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_arabia_coring_states_jerusalem
+			custom_effect_tooltip = pfp_arabia_core_states_jerusalem
 			custom_effect_tooltip = pfp_arabia_transfer_states_jerusalem
 			hidden_effect = {
 				#Jerusalem
@@ -348,7 +348,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 966 } #West Bank
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_arabia_coring_states_west_bank
+			custom_effect_tooltip = pfp_arabia_core_states_west_bank
 			custom_effect_tooltip = pfp_arabia_transfer_states_west_bank
 			hidden_effect = {
 				#West Bank
@@ -384,7 +384,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 949 } #Gaza
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_arabia_coring_states_gaza
+			custom_effect_tooltip = pfp_arabia_core_states_gaza
 			custom_effect_tooltip = pfp_arabia_transfer_states_gaza
 			hidden_effect = {
 				#Gaza
@@ -420,7 +420,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 979 } #Khasab
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_arabia_coring_states_khasab
+			custom_effect_tooltip = pfp_arabia_core_states_khasab
 			custom_effect_tooltip = pfp_arabia_transfer_states_khasab
 			hidden_effect = {
 				#Khasab
@@ -456,7 +456,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1007 } #Bahrain
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_arabia_coring_states_bahrain
+			custom_effect_tooltip = pfp_arabia_core_states_bahrain
 			custom_effect_tooltip = pfp_arabia_transfer_states_bahrain
 			hidden_effect = {
 				#Bahrain

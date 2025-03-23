@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 5 } #Ermland-Masuren
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_germany_coring_states_ermland_masuren
+			custom_effect_tooltip = pfp_north_germany_core_states_ermland_masuren
 			custom_effect_tooltip = pfp_north_germany_transfer_states_ermland_masuren
 			hidden_effect = {
 				#Ermland-Masuren
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 85 }  #Danzig
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_germany_coring_states_danzig
+			custom_effect_tooltip = pfp_north_germany_core_states_danzig
 			custom_effect_tooltip = pfp_north_germany_transfer_states_danzig
 			hidden_effect = {
 				#Danzig
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 86 } #Poznan
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_germany_coring_states_poznan
+			custom_effect_tooltip = pfp_north_germany_core_states_poznan
 			custom_effect_tooltip = pfp_north_germany_transfer_states_poznan
 			hidden_effect = {
 				#Poznan
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 188 } #Memel
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_germany_coring_states_memel
+			custom_effect_tooltip = pfp_north_germany_core_states_memel
 			custom_effect_tooltip = pfp_north_germany_transfer_states_memel
 			hidden_effect = {
 				#Memel
@@ -168,7 +168,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 762 } #Katowice
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_germany_coring_states_katowice
+			custom_effect_tooltip = pfp_north_germany_core_states_katowice
 			custom_effect_tooltip = pfp_north_germany_transfer_states_katowice
 			hidden_effect = {
 				#Katowice
@@ -204,7 +204,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 763 } #Konigsberg
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_germany_coring_states_konigsberg
+			custom_effect_tooltip = pfp_north_germany_core_states_konigsberg
 			custom_effect_tooltip = pfp_north_germany_transfer_states_konigsberg
 			hidden_effect = {
 				#Konigsberg
@@ -240,7 +240,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 807 } #Gdynia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_germany_coring_states_gdynia
+			custom_effect_tooltip = pfp_north_germany_core_states_gdynia
 			custom_effect_tooltip = pfp_north_germany_transfer_states_gdynia
 			hidden_effect = {
 				#Gdynia
@@ -277,7 +277,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 42 } #Moselland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_germany_coring_states_moselland
+			custom_effect_tooltip = pfp_north_germany_core_states_moselland
 			custom_effect_tooltip = pfp_north_germany_transfer_states_moselland
 			hidden_effect = {
 				#Moselland
@@ -313,7 +313,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1053 } #Saarland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_germany_coring_states_saarland
+			custom_effect_tooltip = pfp_north_germany_core_states_saarland
 			custom_effect_tooltip = pfp_north_germany_transfer_states_saarland
 			hidden_effect = {
 				#Saarland
@@ -349,7 +349,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 922 } #Frankfurt
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_germany_coring_states_frankfurt
+			custom_effect_tooltip = pfp_north_germany_core_states_frankfurt
 			custom_effect_tooltip = pfp_north_germany_transfer_states_frankfurt
 			hidden_effect = {
 				#Frankfurt
@@ -385,7 +385,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 998 } #Schleswig
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_germany_coring_states_schleswig
+			custom_effect_tooltip = pfp_north_germany_core_states_schleswig
 			custom_effect_tooltip = pfp_north_germany_transfer_states_schleswig
 			hidden_effect = {
 				#Schleswig

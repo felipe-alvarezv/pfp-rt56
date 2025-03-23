@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 996 } #Uzhorod
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_ukraine_coring_states_uzhorod
+			custom_effect_tooltip = pfp_ukraine_core_states_uzhorod
 			custom_effect_tooltip = pfp_ukraine_transfer_states_uzhorod
 			hidden_effect = {
 				#Uzhorod

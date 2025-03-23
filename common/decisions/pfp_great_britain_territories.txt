@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 113 } #Leinster
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_great_britain_coring_states_leinster
+			custom_effect_tooltip = pfp_great_britain_core_states_leinster
 			custom_effect_tooltip = pfp_great_britain_transfer_states_leinster
 			hidden_effect = {
 				#Leinster
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 119 } #Northern Ireland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_great_britain_coring_states_northern_ireland
+			custom_effect_tooltip = pfp_great_britain_core_states_northern_ireland
 			custom_effect_tooltip = pfp_great_britain_transfer_states_northern_ireland
 			hidden_effect = {
 				#Northern Ireland
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 134 } #Connaught
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_great_britain_coring_states_connaught
+			custom_effect_tooltip = pfp_great_britain_core_states_connaught
 			custom_effect_tooltip = pfp_great_britain_transfer_states_connaught
 			hidden_effect = {
 				#Connaught
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 135 } #Munster
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_great_britain_coring_states_munster
+			custom_effect_tooltip = pfp_great_britain_core_states_munster
 			custom_effect_tooltip = pfp_great_britain_transfer_states_munster
 			hidden_effect = {
 				#Munster
@@ -169,7 +169,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 970 } #Shetland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_great_britain_coring_states_shetland_islands
+			custom_effect_tooltip = pfp_great_britain_core_states_shetland_islands
 			custom_effect_tooltip = pfp_great_britain_transfer_states_shetland_islands
 			hidden_effect = {
 				#Shetland
@@ -205,7 +205,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 971 } #Orkney
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_great_britain_coring_states_orkney
+			custom_effect_tooltip = pfp_great_britain_core_states_orkney
 			custom_effect_tooltip = pfp_great_britain_transfer_states_orkney
 			hidden_effect = {
 				#Orkney
@@ -241,7 +241,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1042 } #Isle of Man
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_great_britain_coring_states_isle_of_man
+			custom_effect_tooltip = pfp_great_britain_core_states_isle_of_man
 			custom_effect_tooltip = pfp_great_britain_transfer_states_isle_of_man
 			hidden_effect = {
 				#Isle of Man

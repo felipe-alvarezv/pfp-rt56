@@ -2,8 +2,19 @@ pfp_category = {
 	pfp_germany = {
 		allowed = {
 			NOT = {
+				original_tag = BAY #Bavaria
+				original_tag = DDR #East Germany
 				original_tag = GER #Germany
-				original_tag = P13 #Germany
+				original_tag = HAN #Westphalia
+				original_tag = HES #Hesse
+				original_tag = MEK #Mecklenburg
+				original_tag = PRE #Prussia
+				original_tag = RHI #Rhine
+				original_tag = SAX #Saxony
+				original_tag = SHL #Schleswig-Holstein
+				original_tag = THU #Thuringia
+				original_tag = WGR #West Germany
+				original_tag = WUR #Baden-Wurttemberg
 			}
 		}
 		available = {
@@ -111,11 +122,26 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
+				has_full_control_of_state = 42 #Moselland
 				has_full_control_of_state = 50 #Wurttemberg
+				has_full_control_of_state = 51 #Rhineland
 				has_full_control_of_state = 52 #Oberbayern
+				has_full_control_of_state = 53 #Niederbayern
+				has_full_control_of_state = 54 #Franken
 				has_full_control_of_state = 55 #Hessen
-				has_full_control_of_state = 58 #Schleswig-Holstein
+				has_full_control_of_state = 56 #Weser-Ems
+				has_full_control_of_state = 57 #Westfalen
+				has_full_control_of_state = 58 #Holstein
+				has_full_control_of_state = 59 #Hannover
+				has_full_control_of_state = 60 #Thuringen
+				has_full_control_of_state = 61 #Mecklenburg
+				has_full_control_of_state = 62 #Vorpommern
 				has_full_control_of_state = 64 #Brandenburg
+				has_full_control_of_state = 65 #Sachsen
+				has_full_control_of_state = 922 #Frankfurt
+				has_full_control_of_state = 923 #Baden
+				has_full_control_of_state = 989 #Ostrhineland
+				has_full_control_of_state = 1053 #Saarland
 			}
 			NOT = { has_global_flag = pfp_germany_flag }
 		}
@@ -145,7 +171,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_germany_coring_states
+			custom_effect_tooltip = pfp_germany_core_states
 			custom_effect_tooltip = pfp_germany_transfer_states
 			custom_effect_tooltip = pfp_germany_puppet
 

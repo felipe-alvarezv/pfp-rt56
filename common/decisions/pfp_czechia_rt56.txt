@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 996 } #Uzhorod
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_czechia_coring_states_uzhorod
+			custom_effect_tooltip = pfp_czechia_core_states_uzhorod
 			custom_effect_tooltip = pfp_czechia_transfer_states_uzhorod
 			hidden_effect = {
 				#Uzhorod
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1078 } #Southern Sudetenland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_czechia_coring_states_southern_sudetenland
+			custom_effect_tooltip = pfp_czechia_core_states_southern_sudetenland
 			custom_effect_tooltip = pfp_czechia_transfer_states_southern_sudetenland
 			hidden_effect = {
 				#Southern Sudetenland

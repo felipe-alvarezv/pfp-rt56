@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = IRQ #Iraq
-				original_tag = P69 #PFP Iraq
 			}
 		}
 		available = {
@@ -38,6 +37,9 @@ pfp_category = {
 			OR = {
 				has_full_control_of_state = 291 #Baghdad
 				has_full_control_of_state = 675 #Al Sahra'a Al Janubiyah
+				has_full_control_of_state = 1045 #Basrah
+				has_full_control_of_state = 1046 #Karbala-Najaf
+				has_full_control_of_state = 1047 #Dulaim
 			}
 			NOT = { has_global_flag = pfp_iraq_flag }
 		}
@@ -52,7 +54,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_iraq_coring_states
+			custom_effect_tooltip = pfp_iraq_core_states
 			custom_effect_tooltip = pfp_iraq_transfer_states
 			custom_effect_tooltip = pfp_iraq_puppet
 

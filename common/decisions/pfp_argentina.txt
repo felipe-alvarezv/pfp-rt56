@@ -3,7 +3,7 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = ARG #Argentina
-				original_tag = P55 #PFP Argentina
+				original_tag = WLA #Y Wladychfa Gymreig
 			}
 		}
 		available = {
@@ -42,6 +42,11 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 278 #Buenos Aires
+				has_full_control_of_state = 509 #Chaco Austral
+				has_full_control_of_state = 510 #Mesopotamia
+				has_full_control_of_state = 1068 #Santa Fe
+				has_full_control_of_state = 1069 #Formosa
+				has_full_control_of_state = 1071 #Los Andes
 			}
 			NOT = { has_global_flag = pfp_argentina_flag }
 		}
@@ -57,7 +62,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states
+			custom_effect_tooltip = pfp_argentina_core_states
 			custom_effect_tooltip = pfp_argentina_transfer_states
 			custom_effect_tooltip = pfp_argentina_puppet
 

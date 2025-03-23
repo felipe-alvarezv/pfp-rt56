@@ -15,7 +15,7 @@ pfp_release_transcaucasia = {
 		}
 
 		#Transfer all technology to formable puppet
-		P28 = { transfer_technology = yes }
+		P28 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_transcaucasia_flag

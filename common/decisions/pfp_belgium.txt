@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = BEL #Belgium
-				original_tag = P60 #PFP Belgium
 			}
 		}
 		available = {
@@ -48,7 +47,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_belgium_coring_states
+			custom_effect_tooltip = pfp_belgium_core_states
 			custom_effect_tooltip = pfp_belgium_transfer_states
 			custom_effect_tooltip = pfp_belgium_puppet
 

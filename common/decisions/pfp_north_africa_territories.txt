@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 290 } #Spanish Africa
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_africa_coring_states_spanish_africa
+			custom_effect_tooltip = pfp_north_africa_core_states_spanish_africa
 			custom_effect_tooltip = pfp_north_africa_transfer_states_spanish_africa
 			hidden_effect = {
 				#Spanish Africa
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 453 } #Sinai
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_africa_coring_states_sinai
+			custom_effect_tooltip = pfp_north_africa_core_states_sinai
 			custom_effect_tooltip = pfp_north_africa_transfer_states_sinai
 			hidden_effect = {
 				#Sinai
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 458 } #Tunisia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_africa_coring_states_tunisia
+			custom_effect_tooltip = pfp_north_africa_core_states_tunisia
 			custom_effect_tooltip = pfp_north_africa_transfer_states_tunisia
 			hidden_effect = {
 				#Tunisia
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 459 } #Algiers
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_africa_coring_states_algiers
+			custom_effect_tooltip = pfp_north_africa_core_states_algiers
 			custom_effect_tooltip = pfp_north_africa_transfer_states_algiers
 			hidden_effect = {
 				#Algiers
@@ -168,7 +168,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 460 } #Constantine
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_africa_coring_states_constantine
+			custom_effect_tooltip = pfp_north_africa_core_states_constantine
 			custom_effect_tooltip = pfp_north_africa_transfer_states_constantine
 			hidden_effect = {
 				#Constantine
@@ -204,7 +204,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 461 } #Casablanca
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_africa_coring_states_casablanca
+			custom_effect_tooltip = pfp_north_africa_core_states_casablanca
 			custom_effect_tooltip = pfp_north_africa_transfer_states_casablanca
 			hidden_effect = {
 				#Casablanca
@@ -240,7 +240,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 462 } #Marrakech
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_africa_coring_states_marrakech
+			custom_effect_tooltip = pfp_north_africa_core_states_marrakech
 			custom_effect_tooltip = pfp_north_africa_transfer_states_marrakech
 			hidden_effect = {
 				#Marrakech
@@ -276,7 +276,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 513 } #Tlemcen
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_africa_coring_states_tlemcen
+			custom_effect_tooltip = pfp_north_africa_core_states_tlemcen
 			custom_effect_tooltip = pfp_north_africa_transfer_states_tlemcen
 			hidden_effect = {
 				#Tlemcen
@@ -312,7 +312,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 514 } #Algerian Desert
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_africa_coring_states_algerian_desert
+			custom_effect_tooltip = pfp_north_africa_core_states_algerian_desert
 			custom_effect_tooltip = pfp_north_africa_transfer_states_algerian_desert
 			hidden_effect = {
 				#Algerian Desert
@@ -348,7 +348,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 665 } #Gabes
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_africa_coring_states_gabes
+			custom_effect_tooltip = pfp_north_africa_core_states_gabes
 			custom_effect_tooltip = pfp_north_africa_transfer_states_gabes
 			hidden_effect = {
 				#Gabes
@@ -384,7 +384,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 699 } #Rio de Oro
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_africa_coring_states_rio_de_oro
+			custom_effect_tooltip = pfp_north_africa_core_states_rio_de_oro
 			custom_effect_tooltip = pfp_north_africa_transfer_states_rio_de_oro
 			hidden_effect = {
 				#Rio de Oro
@@ -420,7 +420,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 783 } #Sidi Ifni
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_africa_coring_states_sidi_ifni
+			custom_effect_tooltip = pfp_north_africa_core_states_sidi_ifni
 			custom_effect_tooltip = pfp_north_africa_transfer_states_sidi_ifni
 			hidden_effect = {
 				#Sidi Ifni
@@ -457,7 +457,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 911 } #Suez
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_africa_coring_states_suez
+			custom_effect_tooltip = pfp_north_africa_core_states_suez
 			custom_effect_tooltip = pfp_north_africa_transfer_states_suez
 			hidden_effect = {
 				#Suez
@@ -493,7 +493,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 933 } #Batna
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_africa_coring_states_batna
+			custom_effect_tooltip = pfp_north_africa_core_states_batna
 			custom_effect_tooltip = pfp_north_africa_transfer_states_batna
 			hidden_effect = {
 				#Batna
@@ -529,7 +529,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 995 } #East Suez
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_north_africa_coring_states_east_suez
+			custom_effect_tooltip = pfp_north_africa_core_states_east_suez
 			custom_effect_tooltip = pfp_north_africa_transfer_states_east_suez
 			hidden_effect = {
 				#East Suez

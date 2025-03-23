@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = KOR #Korea
-				original_tag = P72 #PFP Korea
 			}
 		}
 		available = {
@@ -43,11 +42,15 @@ pfp_category = {
 			OR = {
 				has_full_control_of_state = 525 #Gyeonggi
 				has_full_control_of_state = 527 #Pyeongan
+				has_full_control_of_state = 917 #Hwanghae
+				has_full_control_of_state = 918 #Hamgyong
+				has_full_control_of_state = 919 #Jeolla
+				has_full_control_of_state = 920 #Gyeongsang
 			}
 			NOT = { has_global_flag = pfp_korea_flag }
 		}
 		highlight_states = {
-			highlight_state_targets = { 
+			highlight_state_targets = {
 				state = 525 #Gyeonggi
 				state = 527 #Pyeongan
 				state = 917 #Hwanghae
@@ -58,7 +61,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_korea_coring_states
+			custom_effect_tooltip = pfp_korea_core_states
 			custom_effect_tooltip = pfp_korea_transfer_states
 			custom_effect_tooltip = pfp_korea_puppet
 

@@ -16,7 +16,7 @@ pfp_release_afghanistan = {
 		}
 
 		#Transfer all technology to formable puppet
-		P76 = { transfer_technology = yes }
+		P76 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_afghanistan_flag

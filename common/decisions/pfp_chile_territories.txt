@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 299 } #Falkland Islands
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_falkland_islands
+			custom_effect_tooltip = pfp_chile_core_states_falkland_islands
 			custom_effect_tooltip = pfp_chile_transfer_states_falkland_islands
 			hidden_effect = {
 				#Falkland Islands
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 506 } #Antofagasta
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_antofagasta
+			custom_effect_tooltip = pfp_chile_core_states_antofagasta
 			custom_effect_tooltip = pfp_chile_transfer_states_antofagasta
 			hidden_effect = {
 				#Antofagasta
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 507 } #Magallanes
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_magallanes
+			custom_effect_tooltip = pfp_chile_core_states_magallanes
 			custom_effect_tooltip = pfp_chile_transfer_states_magallanes
 			hidden_effect = {
 				#Magallanes
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 511 } #Mendoza
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_mendoza
+			custom_effect_tooltip = pfp_chile_core_states_mendoza
 			custom_effect_tooltip = pfp_chile_transfer_states_mendoza
 			hidden_effect = {
 				#Mendoza
@@ -168,7 +168,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 512 } #Rio Negro
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_rio_negro
+			custom_effect_tooltip = pfp_chile_core_states_rio_negro
 			custom_effect_tooltip = pfp_chile_transfer_states_rio_negro
 			hidden_effect = {
 				#Rio Negro
@@ -204,7 +204,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 720 } #South Georgia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_south_georgia
+			custom_effect_tooltip = pfp_chile_core_states_south_georgia
 			custom_effect_tooltip = pfp_chile_transfer_states_south_georgia
 			hidden_effect = {
 				#South Georgia
@@ -241,7 +241,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 508 } #Tucuman
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_tucuman
+			custom_effect_tooltip = pfp_chile_core_states_tucuman
 			custom_effect_tooltip = pfp_chile_transfer_states_tucuman
 			hidden_effect = {
 				#Tucuman
@@ -277,7 +277,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1062 } #Aysen
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_aysen
+			custom_effect_tooltip = pfp_chile_core_states_aysen
 			custom_effect_tooltip = pfp_chile_transfer_states_aysen
 			hidden_effect = {
 				#Aysen
@@ -313,7 +313,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1063 } #Araucania
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_araucania
+			custom_effect_tooltip = pfp_chile_core_states_araucania
 			custom_effect_tooltip = pfp_chile_transfer_states_araucania
 			hidden_effect = {
 				#Araucania
@@ -349,7 +349,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1065 } #Tierra del Fuego
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_tierra_del_fuego
+			custom_effect_tooltip = pfp_chile_core_states_tierra_del_fuego
 			custom_effect_tooltip = pfp_chile_transfer_states_tierra_del_fuego
 			hidden_effect = {
 				#Tierra del Fuego
@@ -385,7 +385,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1066 } #Santa Cruz
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_santa_cruz
+			custom_effect_tooltip = pfp_chile_core_states_santa_cruz
 			custom_effect_tooltip = pfp_chile_transfer_states_santa_cruz
 			hidden_effect = {
 				#Santa Cruz
@@ -421,7 +421,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1067 } #Chubut
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_chubut
+			custom_effect_tooltip = pfp_chile_core_states_chubut
 			custom_effect_tooltip = pfp_chile_transfer_states_chubut
 			hidden_effect = {
 				#Chubut
@@ -457,7 +457,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1070 } #San Luis y La Pampa
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_san_luis_y_la_pampa_rt56
+			custom_effect_tooltip = pfp_chile_core_states_san_luis_y_la_pampa_rt56
 			custom_effect_tooltip = pfp_chile_transfer_states_san_luis_y_la_pampa_rt56
 			hidden_effect = {
 				#San Luis y La Pampa
@@ -493,7 +493,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1061 } #Tacna-Moquegua
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_tacna_moquegua
+			custom_effect_tooltip = pfp_chile_core_states_tacna_moquegua
 			custom_effect_tooltip = pfp_chile_transfer_states_tacna_moquegua
 			hidden_effect = {
 				#Tacna-Moquegua
@@ -529,7 +529,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1074 } #Easter Island
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_easter_island
+			custom_effect_tooltip = pfp_chile_core_states_easter_island
 			custom_effect_tooltip = pfp_chile_transfer_states_easter_island
 			hidden_effect = {
 				#Easter Island
@@ -565,7 +565,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1064 } #Arica y Tarapaca
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_chile_coring_states_arica_y_tarapaca
+			custom_effect_tooltip = pfp_chile_core_states_arica_y_tarapaca
 			custom_effect_tooltip = pfp_chile_transfer_states_arica_y_tarapaca
 			hidden_effect = {
 				#Arica y Tarapaca

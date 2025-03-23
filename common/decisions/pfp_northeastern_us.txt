@@ -2,8 +2,8 @@ pfp_category = {
 	pfp_northeastern_us = {
 		allowed = {
 			NOT = {
+				original_tag = CSA #Confederate States
 				original_tag = USA #United States
-				original_tag = P20 #Northeastern U.S.
 			}
 		}
 		available = {
@@ -11,66 +11,72 @@ pfp_category = {
 			#New England
 			custom_trigger_tooltip = {
 				tooltip = pfp_northeastern_us_required_states_new_england
-				controls_state = 357 #New England
+				has_full_control_of_state = 357 #New England
 			}
 			#New York
 			custom_trigger_tooltip = {
 				tooltip = pfp_northeastern_us_required_states_new_york
-				controls_state = 358 #New York
+				has_full_control_of_state = 358 #New York
 			}
 			#New Jersey
 			custom_trigger_tooltip = {
 				tooltip = pfp_northeastern_us_required_states_new_jersey
-				controls_state = 359 #New Jersey
+				has_full_control_of_state = 359 #New Jersey
 			}
 			#Pennsylvania
 			custom_trigger_tooltip = {
 				tooltip = pfp_northeastern_us_required_states_pennsylvania
-				controls_state = 360 #Pennsylvania
+				has_full_control_of_state = 360 #Pennsylvania
 			}
 			#Maryland
 			custom_trigger_tooltip = {
 				tooltip = pfp_northeastern_us_required_states_maryland
-				controls_state = 361 #Maryland
+				has_full_control_of_state = 361 #Maryland
 			}
 			#New Hampshire
 			custom_trigger_tooltip = {
 				tooltip = pfp_northeastern_us_required_states_new_hampshire
-				controls_state = 921 #New Hampshire
+				has_full_control_of_state = 921 #New Hampshire
 			}
 			#Vermont
 			custom_trigger_tooltip = {
 				tooltip = pfp_northeastern_us_required_states_vermont
-				controls_state = 990 #Vermont
+				has_full_control_of_state = 990 #Vermont
 			}
 			#Massachusetts
 			custom_trigger_tooltip = {
 				tooltip = pfp_northeastern_us_required_states_massachusetts
-				controls_state = 991 #Massachusetts
+				has_full_control_of_state = 991 #Massachusetts
 			}
 			#Connecticut
 			custom_trigger_tooltip = {
 				tooltip = pfp_northeastern_us_required_states_connecticut
-				controls_state = 993 #Connecticut
+				has_full_control_of_state = 993 #Connecticut
 			}
 			#Rhode Island
 			custom_trigger_tooltip = {
 				tooltip = pfp_northeastern_us_required_states_rhode_island
-				controls_state = 992 #Rhode Island
+				has_full_control_of_state = 992 #Rhode Island
 			}
 			#Delaware
 			custom_trigger_tooltip = {
 				tooltip = pfp_northeastern_us_required_states_delaware
-				controls_state = 1023 #Delaware
+				has_full_control_of_state = 1023 #Delaware
 			}
 		}
 		visible = {
 			OR = {
-				controls_state = 357 #New England
-				controls_state = 358 #New York
-				controls_state = 359 #New Jesey
-				controls_state = 360 #Pennsylvania
-				controls_state = 361 #Maryland
+				has_full_control_of_state = 357 #New England
+				has_full_control_of_state = 358 #New York
+				has_full_control_of_state = 359 #New Jersey
+				has_full_control_of_state = 360 #Pennsylvania
+				has_full_control_of_state = 361 #Maryland
+				has_full_control_of_state = 921 #New Hampshire
+				has_full_control_of_state = 990 #Vermont
+				has_full_control_of_state = 991 #Massachusetts
+				has_full_control_of_state = 993 #Connecticut
+				has_full_control_of_state = 992 #Rhode Island
+				has_full_control_of_state = 1023 #Delaware
 			}
 			NOT = { has_global_flag = pfp_northeastern_us_flag }
 		}
@@ -91,7 +97,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_northeastern_us_coring_states
+			custom_effect_tooltip = pfp_northeastern_us_core_states
 			custom_effect_tooltip = pfp_northeastern_us_transfer_states
 			custom_effect_tooltip = pfp_northeastern_us_puppet
 

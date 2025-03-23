@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1054 } #Styria
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_south_germany_coring_states_styria
+			custom_effect_tooltip = pfp_south_germany_core_states_styria
 			custom_effect_tooltip = pfp_south_germany_transfer_states_styria
 			hidden_effect = {
 				#Styria
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 736 } #Litorale
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_south_germany_coring_states_litorale
+			custom_effect_tooltip = pfp_south_germany_core_states_litorale
 			custom_effect_tooltip = pfp_south_germany_transfer_states_litorale
 			hidden_effect = {
 				#Litorale
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 922 } #Frankfurt
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_south_germany_coring_states_frankfurt
+			custom_effect_tooltip = pfp_south_germany_core_states_frankfurt
 			custom_effect_tooltip = pfp_south_germany_transfer_states_frankfurt
 			hidden_effect = {
 				#Frankfurt
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 42 } #Moselland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_south_germany_coring_states_moselland
+			custom_effect_tooltip = pfp_south_germany_core_states_moselland
 			custom_effect_tooltip = pfp_south_germany_transfer_states_moselland
 			hidden_effect = {
 				#Moselland
@@ -168,7 +168,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1053 } #Saarland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_south_germany_coring_states_saarland
+			custom_effect_tooltip = pfp_south_germany_core_states_saarland
 			custom_effect_tooltip = pfp_south_germany_transfer_states_saarland
 			hidden_effect = {
 				#Saarland

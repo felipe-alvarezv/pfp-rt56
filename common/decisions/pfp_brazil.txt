@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = BRA #Brazil
-				original_tag = P57 #PFP Brazil
 			}
 		}
 		available = {
@@ -131,8 +130,30 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
+				has_full_control_of_state = 280 #Mato Grosso
+				has_full_control_of_state = 495 #Amazonas
+				has_full_control_of_state = 496 #Minas Gerais
+				has_full_control_of_state = 497 #Para
+				has_full_control_of_state = 498 #Rio Grande do Norte
+				has_full_control_of_state = 499 #Bahia
 				has_full_control_of_state = 500 #Rio de Janeiro
 				has_full_control_of_state = 501 #Sao Paulo
+				has_full_control_of_state = 502 #Rio Grande do Sul
+				has_full_control_of_state = 503 #Santa Catarina
+				has_full_control_of_state = 504 #Iguacu
+				has_full_control_of_state = 505 #Goias
+				has_full_control_of_state = 999 #Espirito Santo
+				has_full_control_of_state = 1000 #Piauí
+				has_full_control_of_state = 1001 #Maranhao
+				has_full_control_of_state = 1002 #Parana
+				has_full_control_of_state = 1003 #Ceara
+				has_full_control_of_state = 1004 #Paraiba
+				has_full_control_of_state = 1005 #Pernambuco
+				has_full_control_of_state = 1006 #Alagoas
+				has_full_control_of_state = 1052 #Acre
+				has_full_control_of_state = 1056 #Amapá
+				has_full_control_of_state = 1057 #Tocatins
+				has_full_control_of_state = 1058 #Rondônia
 			}
 			NOT = { has_global_flag = pfp_brazil_flag }
 		}
@@ -166,7 +187,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_brazil_coring_states
+			custom_effect_tooltip = pfp_brazil_core_states
 			custom_effect_tooltip = pfp_brazil_transfer_states
 			custom_effect_tooltip = pfp_brazil_puppet
 

@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = PER #Iran
-				original_tag = P71 #PFP Iran
 			}
 		}
 		available = {
@@ -82,7 +81,19 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 266 #Tehran
+				has_full_control_of_state = 410 #Sistan o Balochistan
+				has_full_control_of_state = 411 #Esfahan o Yazd
 				has_full_control_of_state = 412 #Fars
+				has_full_control_of_state = 414 #Kerman
+				has_full_control_of_state = 416 #Khorasan-e Razavi
+				has_full_control_of_state = 417 #Markazi
+				has_full_control_of_state = 418 #Semnan
+				has_full_control_of_state = 980 #Hormozgan
+				has_full_control_of_state = 981 #Bandar-e Bushehr
+				has_full_control_of_state = 982 #Khorasan-e Jonubi
+				has_full_control_of_state = 983 #Golestan
+				has_full_control_of_state = 984 #Mazandaran
+				has_full_control_of_state = 986 #Qazvin
 			}
 			NOT = { has_global_flag = pfp_iran_flag }
 		}
@@ -106,7 +117,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_iran_coring_states
+			custom_effect_tooltip = pfp_iran_core_states
 			custom_effect_tooltip = pfp_iran_transfer_states
 			custom_effect_tooltip = pfp_iran_puppet
 

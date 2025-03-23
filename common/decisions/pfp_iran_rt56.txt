@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 987 } #Ardabil
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_iran_coring_states_ardabil
+			custom_effect_tooltip = pfp_iran_core_states_ardabil
 			custom_effect_tooltip = pfp_iran_transfer_states_ardabil
 			hidden_effect = {
 				#Ardabil
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 988 } #Azarbayjan-e Gharbi
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_iran_coring_states_azarbayjan_e_gharbi
+			custom_effect_tooltip = pfp_iran_core_states_azarbayjan_e_gharbi
 			custom_effect_tooltip = pfp_iran_transfer_states_azarbayjan_e_gharbi
 			hidden_effect = {
 				#Azarbayjan-e Gharbi

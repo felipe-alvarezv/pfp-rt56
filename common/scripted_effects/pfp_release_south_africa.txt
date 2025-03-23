@@ -17,7 +17,7 @@ pfp_release_south_africa = {
 		}
 
 		#Transfer all technology to formable puppet
-		P36 = { transfer_technology = yes }
+		P36 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_south_africa_flag

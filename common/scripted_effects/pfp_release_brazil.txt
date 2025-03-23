@@ -37,7 +37,7 @@ pfp_release_brazil = {
 		}
 
 		#Transfer all technology to formable puppet
-		P57 = { transfer_technology = yes }
+		P57 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_brazil_flag

@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1013 } #Sikkim
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_india_coring_states_sikkim
+			custom_effect_tooltip = pfp_india_core_states_sikkim
 			custom_effect_tooltip = pfp_india_transfer_states_sikkim
 			hidden_effect = {
 				#Sikkim
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1018 } #Shanland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_india_coring_states_shanland
+			custom_effect_tooltip = pfp_india_core_states_shanland
 			custom_effect_tooltip = pfp_india_transfer_states_shanland
 			hidden_effect = {
 				#Shanland
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1019 } #Sagaing
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_india_coring_states_sagaing
+			custom_effect_tooltip = pfp_india_core_states_sagaing
 			custom_effect_tooltip = pfp_india_transfer_states_sagaing
 			hidden_effect = {
 				#Sagaing
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1020 } #Bago
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_india_coring_states_bago
+			custom_effect_tooltip = pfp_india_core_states_bago
 			custom_effect_tooltip = pfp_india_transfer_states_bago
 			hidden_effect = {
 				#Bago

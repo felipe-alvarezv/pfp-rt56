@@ -3,7 +3,7 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = NOR #Norway
-				original_tag = P65 #PFP Norway
+				original_tag = SMI #Sapmi
 			}
 		}
 		available = {
@@ -61,8 +61,16 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 110 #Oslofjord
+				has_full_control_of_state = 110 #Ostlandet
 				has_full_control_of_state = 142 #Vestlandet
+				has_full_control_of_state = 143 #Trondelag
+				has_full_control_of_state = 144 #Nord-Norge
+				has_full_control_of_state = 967 #Sorlandet
+				has_full_control_of_state = 1031 #Opplandene
+				has_full_control_of_state = 1032 #Telemark
+				has_full_control_of_state = 1033 #Helgeland
+				has_full_control_of_state = 1034 #Troms
+				has_full_control_of_state = 1035 #Finnmark
 			}
 			NOT = { has_global_flag = pfp_norway_flag }
 		}
@@ -82,7 +90,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_norway_coring_states
+			custom_effect_tooltip = pfp_norway_core_states
 			custom_effect_tooltip = pfp_norway_transfer_states
 			custom_effect_tooltip = pfp_norway_puppet
 

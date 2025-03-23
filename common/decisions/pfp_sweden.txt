@@ -2,8 +2,8 @@ pfp_category = {
 	pfp_sweden = {
 		allowed = {
 			NOT = {
+				original_tag = SMI #Sapmi
 				original_tag = SWE #Sweden
-				original_tag = sweden #PFP Sweden
 			}
 		}
 		available = {
@@ -71,9 +71,18 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
+				has_full_control_of_state = 38 #Gavleborg
 				has_full_control_of_state = 138 #Skane
+				has_full_control_of_state = 139 #Smaland
 				has_full_control_of_state = 140 #Vastergotland
 				has_full_control_of_state = 141 #Sodermanland
+				has_full_control_of_state = 666 #Norbotten
+				has_full_control_of_state = 968 #Jamtland
+				has_full_control_of_state = 969 #Bohuslan
+				has_full_control_of_state = 1026 #Ostergotland
+				has_full_control_of_state = 1028 #Dalarna
+				has_full_control_of_state = 1029 #Vasterbotten
+				has_full_control_of_state = 1030 #Varmland
 			}
 			NOT = { has_global_flag = pfp_sweden_flag }
 		}
@@ -95,7 +104,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_sweden_coring_states
+			custom_effect_tooltip = pfp_sweden_core_states
 			custom_effect_tooltip = pfp_sweden_transfer_states
 			custom_effect_tooltip = pfp_sweden_puppet
 

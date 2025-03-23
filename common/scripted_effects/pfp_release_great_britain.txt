@@ -26,7 +26,7 @@ pfp_release_great_britain = {
 		}
 
 		#Transfer all technology to formable puppet
-		P02 = { transfer_technology = yes }
+		P02 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_great_britain_flag

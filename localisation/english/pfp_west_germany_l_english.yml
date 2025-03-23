@@ -16,7 +16,6 @@ l_english:
   P31_DEF:0 "West Germany"
   P31_ADJ:0 "West German"
 
-
   pfp_west_germany:0 "Establish Military Administration in West Germany"
   pfp_west_germany_required_states_moselland:0 "Controls §YMoselland§!."
   pfp_west_germany_required_states_wurttemberg:0 "Controls §YWürttemberg§!."
@@ -29,16 +28,10 @@ l_english:
   pfp_west_germany_required_states_westfalen:0 "Controls §YWestfalen§!."
   pfp_west_germany_required_states_holstein:0 "Controls §YHolstein§!."
   pfp_west_germany_required_states_hannover:0 "Controls §YHannover§!."
-  pfp_west_germany_coring_states:0 "§YWest Germany§! gains cores on all listed states.\n"
-  pfp_west_germany_transfer_states:0 "§YWest Germany§! becomes owner and controller of all listed states.\n"
-  pfp_west_germany_puppet:0 "§YWest Germany§! becomes a puppet of §Y[Root.GetName]§!.\n"
-
-
   pfp_west_germany_required_states_baden:0 "Controls §YBaden§!."
   pfp_west_germany_required_states_frankfurt:0 "Controls §YFrankfurt§!."
   pfp_west_germany_required_states_ostrhineland:0 "Controls §YOstrhineland§!."
   pfp_west_germany_required_states_saarland:0 "Controls §YSaarland§!."
-  pfp_west_germany_schleswig:0 "Transfer Southern Schleswig"
-  pfp_west_germany_coring_states_schleswig:0 "§YWest Germany§! gains core on §YSouthern Schleswig§!.\n"
-  pfp_west_germany_transfer_states_schleswig:0 "§YWest Germany§! becomes owner and controller of §YSouthern Schleswig§!.\n"
-
+  pfp_west_germany_core_states:0 "§YWest Germany§! gains cores on all listed states.\n"
+  pfp_west_germany_transfer_states:0 "§YWest Germany§! becomes owner and controller of all listed states.\n"
+  pfp_west_germany_puppet:0 "§YWest Germany§! becomes a puppet of §Y[Root.GetName]§!.\n"

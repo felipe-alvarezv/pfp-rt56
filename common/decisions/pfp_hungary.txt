@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = HUN #Hungary
-				original_tag = P09 #PFP Hungary
 			}
 		}
 		available = {
@@ -11,26 +10,31 @@ pfp_category = {
 			#Northern Hungary
 			custom_trigger_tooltip = {
 				tooltip = pfp_hungary_required_states_northern_hungary
-				controls_state = 43 #Northern Hungary
+				has_full_control_of_state = 43 #Northern Hungary
 			}
 			#Alföld
 			custom_trigger_tooltip = {
 				tooltip = pfp_hungary_required_states_alfold
-				controls_state = 154 #Alföld
+				has_full_control_of_state = 154 #Alföld
 			}
 			#Transdanubia
 			custom_trigger_tooltip = {
 				tooltip = pfp_hungary_required_states_transdanubia
-				controls_state = 155 #Transdunabia
+				has_full_control_of_state = 155 #Transdunabia
 			}
 			#Solt-Kiskun
 			custom_trigger_tooltip = {
 				tooltip = pfp_hungary_required_states_solt_kiskun
-				controls_state = 913 #Solt-Kiskun
+				has_full_control_of_state = 913 #Solt-Kiskun
 			}
 		}
 		visible = {
-			controls_state = 43 #Northern Hungary
+			OR = {
+				has_full_control_of_state = 43 #Northern Hungary
+				has_full_control_of_state = 154 #Alfold
+				has_full_control_of_state = 155 #Transdanubia
+				has_full_control_of_state = 913 #Solt-Kiskun
+			}
 			NOT = { has_global_flag = pfp_hungary_flag }
 		}
 		highlight_states = {
@@ -43,7 +47,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_hungary_coring_states
+			custom_effect_tooltip = pfp_hungary_core_states
 			custom_effect_tooltip = pfp_hungary_transfer_states
 			custom_effect_tooltip = pfp_hungary_puppet
 

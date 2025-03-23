@@ -16,20 +16,11 @@ l_english:
   P20_DEF:0 "the Northeastern U.S."
   P20_ADJ:0 "Northeastern American"
 
-
   pfp_northeastern_us:0 "Establish Military Administration in the Northeastern U.S."
   pfp_northeastern_us_required_states_new_york:0 "Controls §YNew York§!."
   pfp_northeastern_us_required_states_new_jersey:0 "Controls §YNew Jersey§!."
   pfp_northeastern_us_required_states_pennsylvania:0 "Controls §YPennsylvania§!."
   pfp_northeastern_us_required_states_maryland:0 "Controls §YMaryland§!."
-  pfp_northeastern_us_coring_states:0 "§YNortheastern U.S.§! gains cores on all listed states.\n"
-  pfp_northeastern_us_transfer_states:0 "§YNortheastern U.S.§! becomes owner and controller of all listed states.\n"
-  pfp_northeastern_us_puppet:0 "§YNortheastern U.S.§! becomes a puppet of §Y[Root.GetName]§!.\n"
-  pfp_northeastern_us_west_virginia:0 "Transfer West Virginia"
-  pfp_northeastern_us_coring_states_west_virginia:0 "§YNortheastern U.S.§! gains core on §YWest Virginia§!.\n"
-  pfp_northeastern_us_transfer_states_west_virginia:0 "§YNortheastern U.S.§! becomes owner and controller of §YWest Virginia§!.\n"
-
-
   pfp_northeastern_us_required_states_new_england:0 "Controls §YMaine§!."
   pfp_northeastern_us_required_states_new_hampshire:0 "Controls §YNew Hampshire§!."
   pfp_northeastern_us_required_states_vermont:0 "Controls §YVermont§!."
@@ -37,3 +28,6 @@ l_english:
   pfp_northeastern_us_required_states_connecticut:0 "Controls §YConnecticut§!."
   pfp_northeastern_us_required_states_rhode_island:0 "Controls §YRhode Island§!."
   pfp_northeastern_us_required_states_delaware:0 "Controls §YDelaware§!."
+  pfp_northeastern_us_core_states:0 "§YNortheastern U.S.§! gains cores on all listed states.\n"
+  pfp_northeastern_us_transfer_states:0 "§YNortheastern U.S.§! becomes owner and controller of all listed states.\n"
+  pfp_northeastern_us_puppet:0 "§YNortheastern U.S.§! becomes a puppet of §Y[Root.GetName]§!.\n"

@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = AFG #Afghanistan
-				original_tag = P76 #PFP Afghanistan
 			}
 		}
 		available = {
@@ -41,8 +40,12 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 267 #Kabul
+				has_full_control_of_state = 267 #Kabulistan
 				has_full_control_of_state = 415 #Herat
+				has_full_control_of_state = 1008 #Faryab
+				has_full_control_of_state = 1009 #Bamian
+				has_full_control_of_state = 1010 #Kandahar
+				has_full_control_of_state = 1011 #Badakhshan
 			}
 			NOT = { has_global_flag = pfp_afghanistan_flag }
 		}
@@ -58,7 +61,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_afghanistan_coring_states
+			custom_effect_tooltip = pfp_afghanistan_core_states
 			custom_effect_tooltip = pfp_afghanistan_transfer_states
 			custom_effect_tooltip = pfp_afghanistan_puppet
 

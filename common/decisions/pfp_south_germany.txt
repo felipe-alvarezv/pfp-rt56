@@ -1,7 +1,13 @@
 pfp_category = {
 	pfp_south_germany = {
 		allowed = {
-			NOT = { original_tag = GER } #Germany
+			NOT = { 
+				original_tag = BAY #Bavaria
+				original_tag = DDR #East Germany
+				original_tag = GER #Germany
+				original_tag = WGR #West Germany
+				original_tag = WUR #Baden-Wurttemberg
+			}
 		}
 		available = {
 			is_subject = no
@@ -32,7 +38,13 @@ pfp_category = {
 			}
 		}
 		visible = {
-			has_full_control_of_state = 52 #Oberbayern
+			OR = { 
+				has_full_control_of_state = 50 #Wurttemberg
+				has_full_control_of_state = 52 #Oberbayern
+				has_full_control_of_state = 53 #Niederbayern
+				has_full_control_of_state = 54 #Franken
+				has_full_control_of_state = 923 #Baden
+			}
 			NOT = { has_global_flag = pfp_south_germany_flag }
 		}
 		highlight_states = {
@@ -46,7 +58,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_south_germany_coring_states
+			custom_effect_tooltip = pfp_south_germany_core_states
 			custom_effect_tooltip = pfp_south_germany_transfer_states
 			custom_effect_tooltip = pfp_south_germany_puppet
 

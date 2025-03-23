@@ -3,7 +3,7 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = MEX #Mexico
-				original_tag = P58 #PFP Mexico
+				original_tag = YUC #Yucatan
 			}
 		}
 		available = {
@@ -97,9 +97,22 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 277 #Mexico City
+				has_full_control_of_state = 474 #Yucatan
+				has_full_control_of_state = 475 #Chiapas
+				has_full_control_of_state = 476 #Oaxaca
 				has_full_control_of_state = 477 #Veracruz
+				has_full_control_of_state = 478 #Jalisco
 				has_full_control_of_state = 479 #Tamaulipas
 				has_full_control_of_state = 480 #Coahuila
+				has_full_control_of_state = 481 #Sinaloa
+				has_full_control_of_state = 482 #Chihuahua
+				has_full_control_of_state = 483 #Sonora
+				has_full_control_of_state = 484 #Baja California
+				has_full_control_of_state = 485 #Guerrero
+				has_full_control_of_state = 929 #Durango
+				has_full_control_of_state = 930 #Zacatecas
+				has_full_control_of_state = 931 #San Luis Potosi
+				has_full_control_of_state = 932 #Puebla
 			}
 			NOT = { has_global_flag = pfp_mexico_flag }
 		}
@@ -126,7 +139,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_mexico_coring_states
+			custom_effect_tooltip = pfp_mexico_core_states
 			custom_effect_tooltip = pfp_mexico_transfer_states
 			custom_effect_tooltip = pfp_mexico_puppet
 

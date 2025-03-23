@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 333 } #North Borneo
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_indonesia_coring_states_north_borneo
+			custom_effect_tooltip = pfp_indonesia_core_states_north_borneo
 			custom_effect_tooltip = pfp_indonesia_transfer_states_north_borneo
 			hidden_effect = {
 				#North Borneo
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 916 } #Sabah
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_indonesia_coring_states_sabah
+			custom_effect_tooltip = pfp_indonesia_core_states_sabah
 			custom_effect_tooltip = pfp_indonesia_transfer_states_sabah
 			hidden_effect = {
 				#Sabah
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1014 } #Brunei
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_indonesia_coring_states_brunei
+			custom_effect_tooltip = pfp_indonesia_core_states_brunei
 			custom_effect_tooltip = pfp_indonesia_transfer_states_brunei
 			hidden_effect = {
 				#Brunei
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 951 } #Johor
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_indonesia_coring_states_johor
+			custom_effect_tooltip = pfp_indonesia_core_states_johor
 			custom_effect_tooltip = pfp_indonesia_transfer_states_johor
 			hidden_effect = {
 				#Johor
@@ -168,7 +168,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 909 } #Riau Islands
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_indonesia_coring_states_riau_islands
+			custom_effect_tooltip = pfp_indonesia_core_states_riau_islands
 			custom_effect_tooltip = pfp_indonesia_transfer_states_riau_islands
 			hidden_effect = {
 				#Riau Islands
@@ -204,7 +204,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 914 } #Kedah
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_indonesia_coring_states_kedah
+			custom_effect_tooltip = pfp_indonesia_core_states_kedah
 			custom_effect_tooltip = pfp_indonesia_transfer_states_kedah
 			hidden_effect = {
 				#Kedah
@@ -240,7 +240,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 915 } #Pahang
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_indonesia_coring_states_pahang
+			custom_effect_tooltip = pfp_indonesia_core_states_pahang
 			custom_effect_tooltip = pfp_indonesia_transfer_states_pahang
 			hidden_effect = {
 				#Pahang
@@ -276,7 +276,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 960 } #Terengganu
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_indonesia_coring_states_terengganu
+			custom_effect_tooltip = pfp_indonesia_core_states_terengganu
 			custom_effect_tooltip = pfp_indonesia_transfer_states_terengganu
 			hidden_effect = {
 				#Terengganu

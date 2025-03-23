@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = COL #Colombia
-				original_tag = P01 #PFP Colombia
 			}
 		}
 		available = {
@@ -32,7 +31,9 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 306 #Cundinamarca
+				has_full_control_of_state = 486 #Meta
 				has_full_control_of_state = 493 #La Libertad
+				has_full_control_of_state = 1051 #Choco
 			}
 			NOT = { has_global_flag = pfp_colombia_flag }
 		}
@@ -46,7 +47,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_colombia_coring_states
+			custom_effect_tooltip = pfp_colombia_core_states
 			custom_effect_tooltip = pfp_colombia_transfer_states
 			custom_effect_tooltip = pfp_colombia_puppet
 

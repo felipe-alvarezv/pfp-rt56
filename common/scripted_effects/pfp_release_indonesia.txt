@@ -23,7 +23,7 @@ pfp_release_indonesia = {
 		}
 
 		#Transfer all technology to formable puppet
-		P17 = { transfer_technology = yes }
+		P17 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_indonesia_flag

@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 42 } #Moselland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_moselland
+			custom_effect_tooltip = pfp_prussia_core_states_moselland
 			custom_effect_tooltip = pfp_prussia_transfer_states_moselland
 			hidden_effect = {
 				#Moselland
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 51 } #Rhineland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_rhineland
+			custom_effect_tooltip = pfp_prussia_core_states_rhineland
 			custom_effect_tooltip = pfp_prussia_transfer_states_rhineland
 			hidden_effect = {
 				#Rhineland
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 55 } #Hessen
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_hessen
+			custom_effect_tooltip = pfp_prussia_core_states_hessen
 			custom_effect_tooltip = pfp_prussia_transfer_states_hessen
 			hidden_effect = {
 				#Hessen
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 56 } #Weser-Ems
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_weser_ems
+			custom_effect_tooltip = pfp_prussia_core_states_weser_ems
 			custom_effect_tooltip = pfp_prussia_transfer_states_weser_ems
 			hidden_effect = {
 				#Weser-Ems
@@ -168,7 +168,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 57 } #Westfalen
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_westfalen
+			custom_effect_tooltip = pfp_prussia_core_states_westfalen
 			custom_effect_tooltip = pfp_prussia_transfer_states_westfalen
 			hidden_effect = {
 				#Westfalen
@@ -204,7 +204,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 58 } #Holstein
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_holstein
+			custom_effect_tooltip = pfp_prussia_core_states_holstein
 			custom_effect_tooltip = pfp_prussia_transfer_states_holstein
 			hidden_effect = {
 				#Holstein
@@ -240,7 +240,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 59 } #Hannover
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_hannover
+			custom_effect_tooltip = pfp_prussia_core_states_hannover
 			custom_effect_tooltip = pfp_prussia_transfer_states_hannover
 			hidden_effect = {
 				#Hannover
@@ -276,7 +276,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 60 } #Thuringen
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_thuringen
+			custom_effect_tooltip = pfp_prussia_core_states_thuringen
 			custom_effect_tooltip = pfp_prussia_transfer_states_thuringen
 			hidden_effect = {
 				#Thuringen
@@ -312,7 +312,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 61 } #Mecklenburg
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_mecklenburg
+			custom_effect_tooltip = pfp_prussia_core_states_mecklenburg
 			custom_effect_tooltip = pfp_prussia_transfer_states_mecklenburg
 			hidden_effect = {
 				#Mecklenburg
@@ -348,7 +348,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 65 } #Sachsen
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_sachsen
+			custom_effect_tooltip = pfp_prussia_core_states_sachsen
 			custom_effect_tooltip = pfp_prussia_transfer_states_sachsen
 			hidden_effect = {
 				#Sachsen
@@ -384,7 +384,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 85 } #Danzig
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_danzig
+			custom_effect_tooltip = pfp_prussia_core_states_danzig
 			custom_effect_tooltip = pfp_prussia_transfer_states_danzig
 			hidden_effect = {
 				#Danzig
@@ -420,7 +420,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 86 } #Poznan
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_poznan
+			custom_effect_tooltip = pfp_prussia_core_states_poznan
 			custom_effect_tooltip = pfp_prussia_transfer_states_poznan
 			hidden_effect = {
 				#Poznan
@@ -456,7 +456,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 188 } #Memel
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_memel
+			custom_effect_tooltip = pfp_prussia_core_states_memel
 			custom_effect_tooltip = pfp_prussia_transfer_states_memel
 			hidden_effect = {
 				#Memel
@@ -492,7 +492,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 762 } #Katowice
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_katowice
+			custom_effect_tooltip = pfp_prussia_core_states_katowice
 			custom_effect_tooltip = pfp_prussia_transfer_states_katowice
 			hidden_effect = {
 				#Katowice
@@ -528,7 +528,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 807 } #Gdynia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_gdynia
+			custom_effect_tooltip = pfp_prussia_core_states_gdynia
 			custom_effect_tooltip = pfp_prussia_transfer_states_gdynia
 			hidden_effect = {
 				#Gdynia
@@ -565,7 +565,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 989 } #Ostrhineland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_ostrhineland
+			custom_effect_tooltip = pfp_prussia_core_states_ostrhineland
 			custom_effect_tooltip = pfp_prussia_transfer_states_ostrhineland
 			hidden_effect = {
 				#Ostrhineland
@@ -601,7 +601,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1053 } #Saarland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_saarland
+			custom_effect_tooltip = pfp_prussia_core_states_saarland
 			custom_effect_tooltip = pfp_prussia_transfer_states_saarland
 			hidden_effect = {
 				#Saarland
@@ -637,7 +637,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 922 } #Frankfurt
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_frankfurt
+			custom_effect_tooltip = pfp_prussia_core_states_frankfurt
 			custom_effect_tooltip = pfp_prussia_transfer_states_frankfurt
 			hidden_effect = {
 				#Frankfurt
@@ -673,7 +673,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 998 } #Schleswig
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_prussia_coring_states_schleswig
+			custom_effect_tooltip = pfp_prussia_core_states_schleswig
 			custom_effect_tooltip = pfp_prussia_transfer_states_schleswig
 			hidden_effect = {
 				#Schleswig

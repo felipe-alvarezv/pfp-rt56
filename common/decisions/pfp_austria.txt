@@ -3,7 +3,6 @@ pfp_category = {
         allowed = {
             NOT = {
                 original_tag = AUS #Austria
-                original_tag = P77 #PFP Austria
             }
         }
         available = {
@@ -62,7 +61,7 @@ pfp_category = {
         }
         icon = generic_military
         complete_effect = {
-            custom_effect_tooltip = pfp_austria_coring_states
+            custom_effect_tooltip = pfp_austria_core_states
             custom_effect_tooltip = pfp_austria_transfer_states
             custom_effect_tooltip = pfp_austria_puppet
 

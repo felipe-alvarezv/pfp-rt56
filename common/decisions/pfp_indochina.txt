@@ -5,7 +5,6 @@ pfp_category = {
 				original_tag = CAM #Cambodia
 				original_tag = LAO #Laos
 				original_tag = VIN #Vietnam
-				original_tag = P16 #PFP Indochina
 			}
 		}
 		available = {
@@ -13,49 +12,53 @@ pfp_category = {
 			#Southern Indochina
 			custom_trigger_tooltip = {
 				tooltip = pfp_indochina_required_states_southern_indochina
-				controls_state = 286 #Southern Indochina
+				has_full_control_of_state = 286 #Southern Indochina
 			}
 			#Laos
 			custom_trigger_tooltip = {
 				tooltip = pfp_indochina_required_states_laos
-				controls_state = 670 #Laos
+				has_full_control_of_state = 670 #Laos
 			}
 			#Tonkin
 			custom_trigger_tooltip = {
 				tooltip = pfp_indochina_required_states_tonkin
-				controls_state = 671 #Tonkin
+				has_full_control_of_state = 671 #Tonkin
 			}
 			#Cambodia
 			custom_trigger_tooltip = {
 				tooltip = pfp_indochina_required_states_cambodia
-				controls_state = 741 #Cambodia
+				has_full_control_of_state = 741 #Cambodia
 			}
 			#Batambang
 			custom_trigger_tooltip = {
 				tooltip = pfp_indochina_required_states_batambang
-				controls_state = 925 #Batambang
+				has_full_control_of_state = 925 #Batambang
 			}
 			#South Annam
 			custom_trigger_tooltip = {
 				tooltip = pfp_indochina_required_states_south_annam
-				controls_state = 927 #South Annam
+				has_full_control_of_state = 927 #South Annam
 			}
 			#North Annam
 			custom_trigger_tooltip = {
 				tooltip = pfp_indochina_required_states_north_annam
-				controls_state = 928 #North Annam
+				has_full_control_of_state = 928 #North Annam
 			}
 		}
 		visible = {
 			OR = {
-				controls_state = 670 #Southern Indochina
-				controls_state = 671 #Tonkin
-				controls_state = 741 #Cambodia
+				has_full_control_of_state = 286 #Southern Indochina
+				has_full_control_of_state = 670 #Laos
+				has_full_control_of_state = 671 #Tonkin
+				has_full_control_of_state = 741 #Cambodia
+				has_full_control_of_state = 925 #Batambang
+				has_full_control_of_state = 927 #South Annam
+				has_full_control_of_state = 928 #North Annam
 			}
 			NOT = { has_global_flag = pfp_indochina_flag }
 		}
 		highlight_states = {
-			highlight_state_targets = { 
+			highlight_state_targets = {
 				state = 286 #Southern Indochina
 				state = 670 #Laos
 				state = 671 #Tonkin
@@ -67,7 +70,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_indochina_coring_states
+			custom_effect_tooltip = pfp_indochina_core_states
 			custom_effect_tooltip = pfp_indochina_transfer_states
 			custom_effect_tooltip = pfp_indochina_puppet
 

@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 965 } #Eupen-Malmedy
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_netherlands_coring_states_eupen_malmedy
+			custom_effect_tooltip = pfp_netherlands_core_states_eupen_malmedy
 			custom_effect_tooltip = pfp_netherlands_transfer_states_eupen_malmedy
 			hidden_effect = {
 				#Eupen-Malmedy

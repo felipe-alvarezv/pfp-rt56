@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 996 }
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_hungary_coring_states_uzhorod
+			custom_effect_tooltip = pfp_hungary_core_states_uzhorod
 			custom_effect_tooltip = pfp_hungary_transfer_states_uzhorod
 			hidden_effect = {
 				#Uzhorod
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 958 } #Kvarner
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_hungary_coring_states_kvarner
+			custom_effect_tooltip = pfp_hungary_core_states_kvarner
 			custom_effect_tooltip = pfp_hungary_transfer_states_kvarner
 			hidden_effect = {
 				#Kvarner
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 961 } #Krajina
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_hungary_coring_states_krajina
+			custom_effect_tooltip = pfp_hungary_core_states_krajina
 			custom_effect_tooltip = pfp_hungary_transfer_states_krajina
 			hidden_effect = {
 				#Krajina
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 962 } #Posavina
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_hungary_coring_states_posavina
+			custom_effect_tooltip = pfp_hungary_core_states_posavina
 			custom_effect_tooltip = pfp_hungary_transfer_states_posavina
 			hidden_effect = {
 				#Posavina
@@ -168,7 +168,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 959 } #Slavonia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_hungary_coring_states_slavonia
+			custom_effect_tooltip = pfp_hungary_core_states_slavonia
 			custom_effect_tooltip = pfp_hungary_transfer_states_slavonia
 			hidden_effect = {
 				#Slavonia
@@ -204,7 +204,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 952 } #Syrmia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_hungary_coring_states_syrmia
+			custom_effect_tooltip = pfp_hungary_core_states_syrmia
 			custom_effect_tooltip = pfp_hungary_transfer_states_syrmia
 			hidden_effect = {
 				#Syrmia

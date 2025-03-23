@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 934 } #Suwalki
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_baltic_coring_states_suwalki
+			custom_effect_tooltip = pfp_baltic_core_states_suwalki
 			custom_effect_tooltip = pfp_baltic_transfer_states_suwalki
 			hidden_effect = {
 				#Suwalki
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 935 } #Grodno
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_baltic_coring_states_grodno
+			custom_effect_tooltip = pfp_baltic_core_states_grodno
 			custom_effect_tooltip = pfp_baltic_transfer_states_grodno
 			hidden_effect = {
 				#Grodno
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 936 } #Outer Wilno
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_baltic_coring_states_outer_wilno
+			custom_effect_tooltip = pfp_baltic_core_states_outer_wilno
 			custom_effect_tooltip = pfp_baltic_transfer_states_outer_wilno
 			hidden_effect = {
 				#Outer Wilno

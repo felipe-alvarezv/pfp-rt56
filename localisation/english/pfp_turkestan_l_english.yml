@@ -16,7 +16,6 @@ l_english:
   P51_DEF:0 "Turkestan"
   P51_ADJ:0 "Turkic"
 
-
   pfp_turkestan:0 "Establish Military Administration in Turkestan"
   pfp_turkestan_required_states_akhtubinsk:0 "Controls §YAkhtubinsk§!."
   pfp_turkestan_required_states_kyzyl_orda:0 "Controls §YKyzyl Orda§!."
@@ -36,12 +35,10 @@ l_english:
   pfp_turkestan_required_states_tashauz:0 "Controls §YTashauz§!."
   pfp_turkestan_required_states_karagandy:0 "Controls §YKaragandy§!."
   pfp_turkestan_required_states_pavlodar:0 "Controls §YPavlodar§!."
-  pfp_turkestan_coring_states:0 "§YTurkestan§! gains cores on all listed states.\n"
-  pfp_turkestan_transfer_states:0 "§YTurkestan§! becomes owner and controller of all listed states.\n"
-  pfp_turkestan_puppet:0 "§YTurkestan§! becomes a puppet of §Y[Root.GetName]§!.\n"
-
-
   pfp_turkestan_required_states_ashkhabad:0 "Controls §YTurkmenia§!."
   pfp_turkestan_required_states_pamir:0 "Controls §YKyrgyztan§!."
   pfp_turkestan_required_states_stalinabad:0 "Controls §YTajikistan§!."
   pfp_turkestan_required_states_asgabat:0 "Controls §YAşgabat§!."
+  pfp_turkestan_core_states:0 "§YTurkestan§! gains cores on all listed states.\n"
+  pfp_turkestan_transfer_states:0 "§YTurkestan§! becomes owner and controller of all listed states.\n"
+  pfp_turkestan_puppet:0 "§YTurkestan§! becomes a puppet of §Y[Root.GetName]§!.\n"

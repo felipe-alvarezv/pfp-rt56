@@ -21,7 +21,7 @@ pfp_release_northeastern_us = {
 		}
 
 		#Transfer all technology to formable puppet
-		P20 = { transfer_technology = yes }
+		P20 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_northeastern_us_flag

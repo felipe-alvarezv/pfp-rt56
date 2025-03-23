@@ -27,7 +27,7 @@ pfp_release_mexico = {
 		}
 
 		#Transfer all technology to formable puppet
-		P58 = { transfer_technology = yes }
+		P58 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_mexico_flag

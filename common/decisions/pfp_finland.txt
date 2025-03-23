@@ -3,7 +3,7 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = FIN #Finland
-				original_tag = P12 #Greater Finland
+				original_tag = SMI #Sapmi
 			}
 		}
 		available = {
@@ -56,8 +56,15 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
-				controls_state = 111 #Uusimaa
-				controls_state = 150 #Kuopio
+				has_full_control_of_state = 111 #Uusimaa
+				has_full_control_of_state = 148 #Lappi
+				has_full_control_of_state = 149 #Vaasa
+				has_full_control_of_state = 150 #Kuopio
+				has_full_control_of_state = 1036 #Turku
+				has_full_control_of_state = 1037 #Hame
+				has_full_control_of_state = 1038 #Kymi
+				has_full_control_of_state = 1039 #Oulu
+				has_full_control_of_state = 1040 #Mikkeli
 			}
 			NOT = { has_global_flag = pfp_finland_flag }
 		}
@@ -76,7 +83,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_finland_coring_states
+			custom_effect_tooltip = pfp_finland_core_states
 			custom_effect_tooltip = pfp_finland_transfer_states
 			custom_effect_tooltip = pfp_finland_puppet
 

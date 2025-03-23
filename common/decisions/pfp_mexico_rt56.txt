@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 937 } #Northern Panama
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_mexico_coring_states_northern_panama
+			custom_effect_tooltip = pfp_mexico_core_states_northern_panama
 			custom_effect_tooltip = pfp_mexico_transfer_states_northern_panama
 			hidden_effect = {
 				#Northern Panama

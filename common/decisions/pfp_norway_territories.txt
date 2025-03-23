@@ -25,7 +25,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1027 } #Jan Mayen
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_norway_coring_states_jan_mayen
+			custom_effect_tooltip = pfp_norway_core_states_jan_mayen
 			custom_effect_tooltip = pfp_norway_transfer_states_jan_mayen
 			hidden_effect = {
 				#Jan Mayen

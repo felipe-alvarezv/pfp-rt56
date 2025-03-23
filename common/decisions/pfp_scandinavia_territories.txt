@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 100 } #Iceland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_scandinavia_coring_states_iceland
+			custom_effect_tooltip = pfp_scandinavia_core_states_iceland
 			custom_effect_tooltip = pfp_scandinavia_transfer_states_iceland
 			hidden_effect = {
 				#Iceland
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 101 } #Greenland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_scandinavia_coring_states_greenland
+			custom_effect_tooltip = pfp_scandinavia_core_states_greenland
 			custom_effect_tooltip = pfp_scandinavia_transfer_states_greenland
 			hidden_effect = {
 				#Greenland
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 124 } #Gotland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_scandinavia_coring_states_gotland
+			custom_effect_tooltip = pfp_scandinavia_core_states_gotland
 			custom_effect_tooltip = pfp_scandinavia_transfer_states_gotland
 			hidden_effect = {
 				#Gotland
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 145 } #Aland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_scandinavia_coring_states_aland
+			custom_effect_tooltip = pfp_scandinavia_core_states_aland
 			custom_effect_tooltip = pfp_scandinavia_transfer_states_aland
 			hidden_effect = {
 				#Aland
@@ -168,7 +168,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 337 } #Faroe Islands
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_scandinavia_coring_states_faroe_islands
+			custom_effect_tooltip = pfp_scandinavia_core_states_faroe_islands
 			custom_effect_tooltip = pfp_scandinavia_transfer_states_faroe_islands
 			hidden_effect = {
 				#Faroe Islands
@@ -205,7 +205,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1043 } #Sudurland
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_scandinavia_coring_states_sudurland
+			custom_effect_tooltip = pfp_scandinavia_core_states_sudurland
 			custom_effect_tooltip = pfp_scandinavia_transfer_states_sudurland
 			hidden_effect = {
 				#Sudurland
@@ -241,7 +241,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1024 } #Bornholm
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_scandinavia_coring_states_bornholm
+			custom_effect_tooltip = pfp_scandinavia_core_states_bornholm
 			custom_effect_tooltip = pfp_scandinavia_transfer_states_bornholm
 			hidden_effect = {
 				#Bornholm
@@ -277,7 +277,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 964 } #Northern Schleswig
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_scandinavia_coring_states_northern_schleswig
+			custom_effect_tooltip = pfp_scandinavia_core_states_northern_schleswig
 			custom_effect_tooltip = pfp_scandinavia_transfer_states_northern_schleswig
 			hidden_effect = {
 				#Northern Schleswig
@@ -313,7 +313,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 998 } #Southern Schleswig
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_scandinavia_coring_states_schleswig
+			custom_effect_tooltip = pfp_scandinavia_core_states_schleswig
 			custom_effect_tooltip = pfp_scandinavia_transfer_states_schleswig
 			hidden_effect = {
 				#Southern Schleswig
@@ -349,7 +349,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1027 } #Jan Mayen
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_scandinavia_coring_states_jan_mayen
+			custom_effect_tooltip = pfp_scandinavia_core_states_jan_mayen
 			custom_effect_tooltip = pfp_scandinavia_transfer_states_jan_mayen
 			hidden_effect = {
 				#Jan Mayen

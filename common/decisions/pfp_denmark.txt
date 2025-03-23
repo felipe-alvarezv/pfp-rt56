@@ -3,7 +3,6 @@ pfp_category = {
 		allowed = {
 			NOT = {
 				original_tag = DEN #Denmark
-				original_tag = P61 #PFP Denmark
 			}
 		}
 		available = {
@@ -34,7 +33,7 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_denmark_coring_states
+			custom_effect_tooltip = pfp_denmark_core_states
 			custom_effect_tooltip = pfp_denmark_transfer_states
 			custom_effect_tooltip = pfp_denmark_puppet
 

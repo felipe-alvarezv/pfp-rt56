@@ -15,7 +15,7 @@ pfp_release_south_germany = {
 		}
 
 		#Transfer all technology to formable puppet
-		P25 = { transfer_technology = yes }
+		P25 = { pfp_transfer_technology = yes }
 
 		#Set global flag to prevent future decision use
 		set_global_flag = pfp_south_germany_flag

@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 44 } #Albania
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_albania
+			custom_effect_tooltip = pfp_yugoslavia_core_states_albania
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_albania
 			hidden_effect = {
 				#Albania
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 48 } #Sofia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_sofia
+			custom_effect_tooltip = pfp_yugoslavia_core_states_sofia
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_sofia
 			hidden_effect = {
 				#Sofia
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 77 } #Dobrudja
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_dobrudja
+			custom_effect_tooltip = pfp_yugoslavia_core_states_dobrudja
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_dobrudja
 			hidden_effect = {
 				#Dobrudja
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 163 } #Zara
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_zara
+			custom_effect_tooltip = pfp_yugoslavia_core_states_zara
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_zara
 			hidden_effect = {
 				#Zara
@@ -168,7 +168,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 184 } #Thrace
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_thrace
+			custom_effect_tooltip = pfp_yugoslavia_core_states_thrace
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_thrace
 			hidden_effect = {
 				#Thrace
@@ -204,7 +204,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 211 } #Burgas
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_burgas
+			custom_effect_tooltip = pfp_yugoslavia_core_states_burgas
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_burgas
 			hidden_effect = {
 				#Burgas
@@ -240,7 +240,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 212 } #Plovdiv
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_plovdiv
+			custom_effect_tooltip = pfp_yugoslavia_core_states_plovdiv
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_plovdiv
 			hidden_effect = {
 				#Plovdiv
@@ -276,7 +276,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 341 } #Edirne
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_edirne
+			custom_effect_tooltip = pfp_yugoslavia_core_states_edirne
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_edirne
 			hidden_effect = {
 				#Edirne
@@ -312,7 +312,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 731 } #Central Macedonia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_central_macedonia
+			custom_effect_tooltip = pfp_yugoslavia_core_states_central_macedonia
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_central_macedonia
 			hidden_effect = {
 				#Central Macedonia
@@ -348,7 +348,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 736 } #Litorale
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_litorale
+			custom_effect_tooltip = pfp_yugoslavia_core_states_litorale
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_litorale
 			hidden_effect = {
 				#Litorale
@@ -384,7 +384,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 797 } #Istanbul
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_istanbul
+			custom_effect_tooltip = pfp_yugoslavia_core_states_istanbul
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_istanbul
 			hidden_effect = {
 				#Istanbul
@@ -420,7 +420,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 801 } #Moesia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_moesia
+			custom_effect_tooltip = pfp_yugoslavia_core_states_moesia
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_moesia
 			hidden_effect = {
 				#Moesia
@@ -456,7 +456,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 805 } #Northern Epirus
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_northern_epirus
+			custom_effect_tooltip = pfp_yugoslavia_core_states_northern_epirus
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_northern_epirus
 			hidden_effect = {
 				#Northern Epirus
@@ -492,7 +492,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 852 } #Istria
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_istria
+			custom_effect_tooltip = pfp_yugoslavia_core_states_istria
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_istria
 			hidden_effect = {
 				#Istria
@@ -529,7 +529,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 910 } #Shkoder
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_shkoder
+			custom_effect_tooltip = pfp_yugoslavia_core_states_shkoder
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_shkoder
 			hidden_effect = {
 				#Shkoder
@@ -565,7 +565,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 950 } #Debar
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_yugoslavia_coring_states_debar
+			custom_effect_tooltip = pfp_yugoslavia_core_states_debar
 			custom_effect_tooltip = pfp_yugoslavia_transfer_states_debar
 			hidden_effect = {
 				#Debar

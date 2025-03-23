@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 299 } #Falkland Islands
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_falkland_islands
+			custom_effect_tooltip = pfp_argentina_core_states_falkland_islands
 			custom_effect_tooltip = pfp_argentina_transfer_states_falkland_islands
 			hidden_effect = {
 				#Falkland Islands
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 300 } #Montevideo
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_montevideo
+			custom_effect_tooltip = pfp_argentina_core_states_montevideo
 			custom_effect_tooltip = pfp_argentina_transfer_states_montevideo
 			hidden_effect = {
 				#Montevideo
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 301 } #Paraguay
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_paraguay
+			custom_effect_tooltip = pfp_argentina_core_states_paraguay
 			custom_effect_tooltip = pfp_argentina_transfer_states_paraguay
 			hidden_effect = {
 				#Paraguay
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 302 } #La Paz
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_la_paz
+			custom_effect_tooltip = pfp_argentina_core_states_la_paz
 			custom_effect_tooltip = pfp_argentina_transfer_states_la_paz
 			hidden_effect = {
 				#La Paz
@@ -168,7 +168,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 487 } #Santa Cruz
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_santa_cruz_bolivia
+			custom_effect_tooltip = pfp_argentina_core_states_santa_cruz_bolivia
 			custom_effect_tooltip = pfp_argentina_transfer_states_santa_cruz_bolivia
 			hidden_effect = {
 				#Santa Cruz
@@ -204,7 +204,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 506 } #Antofagasta
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_antofagasta
+			custom_effect_tooltip = pfp_argentina_core_states_antofagasta
 			custom_effect_tooltip = pfp_argentina_transfer_states_antofagasta
 			hidden_effect = {
 				#Antofagasta
@@ -240,7 +240,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 511 } #Mendoza
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_mendoza
+			custom_effect_tooltip = pfp_argentina_core_states_mendoza
 			custom_effect_tooltip = pfp_argentina_transfer_states_mendoza
 			hidden_effect = {
 				#Mendoza
@@ -276,7 +276,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 512 } #Rio Negro
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_rio_negro
+			custom_effect_tooltip = pfp_argentina_core_states_rio_negro
 			custom_effect_tooltip = pfp_argentina_transfer_states_rio_negro
 			hidden_effect = {
 				#Rio Negro
@@ -312,7 +312,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 688 } #Chaco Boreal
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_chaco_boreal
+			custom_effect_tooltip = pfp_argentina_core_states_chaco_boreal
 			custom_effect_tooltip = pfp_argentina_transfer_states_chaco_boreal
 			hidden_effect = {
 				#Chaco Boreal
@@ -348,7 +348,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 720 } #South Georgia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_south_georgia
+			custom_effect_tooltip = pfp_argentina_core_states_south_georgia
 			custom_effect_tooltip = pfp_argentina_transfer_states_south_georgia
 			hidden_effect = {
 				#South Georgia
@@ -385,7 +385,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 508 } #Tucuman
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_tucuman
+			custom_effect_tooltip = pfp_argentina_core_states_tucuman
 			custom_effect_tooltip = pfp_argentina_transfer_states_tucuman
 			hidden_effect = {
 				#Tucuman
@@ -421,7 +421,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1059 } #Cerro Largo
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_cerro_largo
+			custom_effect_tooltip = pfp_argentina_core_states_cerro_largo
 			custom_effect_tooltip = pfp_argentina_transfer_states_cerro_largo
 			hidden_effect = {
 				#Cerro Largo
@@ -457,7 +457,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1060 } #Paysandu
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_paysandu
+			custom_effect_tooltip = pfp_argentina_core_states_paysandu
 			custom_effect_tooltip = pfp_argentina_transfer_states_paysandu
 			hidden_effect = {
 				#Paysandu
@@ -493,7 +493,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1065 } #Tierra del Fuego
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_tierra_del_fuego
+			custom_effect_tooltip = pfp_argentina_core_states_tierra_del_fuego
 			custom_effect_tooltip = pfp_argentina_transfer_states_tierra_del_fuego
 			hidden_effect = {
 				#Tierra del Fuego
@@ -529,7 +529,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1066 } #Santa Cruz
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_santa_cruz_argentina
+			custom_effect_tooltip = pfp_argentina_core_states_santa_cruz_argentina
 			custom_effect_tooltip = pfp_argentina_transfer_states_santa_cruz_argentina
 			hidden_effect = {
 				#Santa Cruz
@@ -565,7 +565,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1067 } #Chubut
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_chubut
+			custom_effect_tooltip = pfp_argentina_core_states_chubut
 			custom_effect_tooltip = pfp_argentina_transfer_states_chubut
 			hidden_effect = {
 				#Chubut
@@ -601,7 +601,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1070 } #San Luis y La Pampa
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_san_luis_y_la_pampa
+			custom_effect_tooltip = pfp_argentina_core_states_san_luis_y_la_pampa
 			custom_effect_tooltip = pfp_argentina_transfer_states_san_luis_y_la_pampa
 			hidden_effect = {
 				#San Luis y La Pampa
@@ -637,7 +637,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1077 } #Chaco Boreal
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_argentina_coring_states_chaco_boreal_bolivia
+			custom_effect_tooltip = pfp_argentina_core_states_chaco_boreal_bolivia
 			custom_effect_tooltip = pfp_argentina_transfer_states_chaco_boreal_bolivia
 			hidden_effect = {
 				#Chaco Boreal

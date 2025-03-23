@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 523 } #Papua
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_papua
+			custom_effect_tooltip = pfp_oceania_core_states_papua
 			custom_effect_tooltip = pfp_oceania_transfer_states_papua
 			hidden_effect = {
 				#Papua
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 634 } #Solomon Islands
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_solomon_islands
+			custom_effect_tooltip = pfp_oceania_core_states_solomon_islands
 			custom_effect_tooltip = pfp_oceania_transfer_states_solomon_islands
 			hidden_effect = {
 				#Solomon Islands
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 669 } #West Papua
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_west_papua
+			custom_effect_tooltip = pfp_oceania_core_states_west_papua
 			custom_effect_tooltip = pfp_oceania_transfer_states_west_papua
 			hidden_effect = {
 				#West Papua
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 737 } #Bismarck
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_bismarck
+			custom_effect_tooltip = pfp_oceania_core_states_bismarck
 			custom_effect_tooltip = pfp_oceania_transfer_states_bismarck
 			hidden_effect = {
 				#Bismarck
@@ -168,7 +168,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 635 } #New Caledonia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_new_caledonia
+			custom_effect_tooltip = pfp_oceania_core_states_new_caledonia
 			custom_effect_tooltip = pfp_oceania_transfer_states_new_caledonia
 			hidden_effect = {
 				#New Caledonia
@@ -204,7 +204,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 734 } #Nendo
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_nendo
+			custom_effect_tooltip = pfp_oceania_core_states_nendo
 			custom_effect_tooltip = pfp_oceania_transfer_states_nendo
 			hidden_effect = {
 				#Nendo
@@ -240,7 +240,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 647 } #Palau
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_palau
+			custom_effect_tooltip = pfp_oceania_core_states_palau
 			custom_effect_tooltip = pfp_oceania_transfer_states_palau
 			hidden_effect = {
 				#Palau
@@ -276,7 +276,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 684 } #Caroline Islands
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_caroline_islands
+			custom_effect_tooltip = pfp_oceania_core_states_caroline_islands
 			custom_effect_tooltip = pfp_oceania_transfer_states_caroline_islands
 			hidden_effect = {
 				#Caroline Islands
@@ -312,7 +312,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 725 } #Nauru
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_nauru
+			custom_effect_tooltip = pfp_oceania_core_states_nauru
 			custom_effect_tooltip = pfp_oceania_transfer_states_nauru
 			hidden_effect = {
 				#Nauru
@@ -348,7 +348,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 636 } #Fiji
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_fiji
+			custom_effect_tooltip = pfp_oceania_core_states_fiji
 			custom_effect_tooltip = pfp_oceania_transfer_states_fiji
 			hidden_effect = {
 				#Fiji
@@ -384,7 +384,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 643 } #Ellice Islands
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_ellice_islands
+			custom_effect_tooltip = pfp_oceania_core_states_ellice_islands
 			custom_effect_tooltip = pfp_oceania_transfer_states_ellice_islands
 			hidden_effect = {
 				#Ellice Islands
@@ -420,7 +420,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 726 } #Samoa
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_samoa
+			custom_effect_tooltip = pfp_oceania_core_states_samoa
 			custom_effect_tooltip = pfp_oceania_transfer_states_samoa
 			hidden_effect = {
 				#Samoa
@@ -456,7 +456,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 639 } #Gilbert Islands
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_gilbert_islands
+			custom_effect_tooltip = pfp_oceania_core_states_gilbert_islands
 			custom_effect_tooltip = pfp_oceania_transfer_states_gilbert_islands
 			hidden_effect = {
 				#Gilbert Islands
@@ -492,7 +492,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 638 } #Guam
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_guam
+			custom_effect_tooltip = pfp_oceania_core_states_guam
 			custom_effect_tooltip = pfp_oceania_transfer_states_guam
 			hidden_effect = {
 				#Guam
@@ -528,7 +528,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 646 } #Saipan
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_saipan
+			custom_effect_tooltip = pfp_oceania_core_states_saipan
 			custom_effect_tooltip = pfp_oceania_transfer_states_saipan
 			hidden_effect = {
 				#Saipan
@@ -564,7 +564,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 648 } #Marcus Island
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_marcus_island
+			custom_effect_tooltip = pfp_oceania_core_states_marcus_island
 			custom_effect_tooltip = pfp_oceania_transfer_states_marcus_island
 			hidden_effect = {
 				#Marcus Island
@@ -600,7 +600,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 633 } #Marshall Islands
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_marshall_islands
+			custom_effect_tooltip = pfp_oceania_core_states_marshall_islands
 			custom_effect_tooltip = pfp_oceania_transfer_states_marshall_islands
 			hidden_effect = {
 				#Marshall Islands
@@ -636,7 +636,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 632 } #Wake Island
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_wake_island
+			custom_effect_tooltip = pfp_oceania_core_states_wake_island
 			custom_effect_tooltip = pfp_oceania_transfer_states_wake_island
 			hidden_effect = {
 				#Wake Island
@@ -672,7 +672,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 631 } #Midway Island
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_midway_island
+			custom_effect_tooltip = pfp_oceania_core_states_midway_island
 			custom_effect_tooltip = pfp_oceania_transfer_states_midway_island
 			hidden_effect = {
 				#Midway Island
@@ -708,7 +708,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 630 } #Johnston Atoll
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_johnston_atoll
+			custom_effect_tooltip = pfp_oceania_core_states_johnston_atoll
 			custom_effect_tooltip = pfp_oceania_transfer_states_johnston_atoll
 			hidden_effect = {
 				#Johnston Atoll
@@ -744,7 +744,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 642 } #Phoenix Island
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_phoenix_island
+			custom_effect_tooltip = pfp_oceania_core_states_phoenix_island
 			custom_effect_tooltip = pfp_oceania_transfer_states_phoenix_island
 			hidden_effect = {
 				#Phoenix Island
@@ -780,7 +780,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 727 } #Line Islands
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_line_islands
+			custom_effect_tooltip = pfp_oceania_core_states_line_islands
 			custom_effect_tooltip = pfp_oceania_transfer_states_line_islands
 			hidden_effect = {
 				#Line Islands
@@ -816,7 +816,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 641 } #Tahiti
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_tahiti
+			custom_effect_tooltip = pfp_oceania_core_states_tahiti
 			custom_effect_tooltip = pfp_oceania_transfer_states_tahiti
 			hidden_effect = {
 				#Tahiti
@@ -852,7 +852,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 270 } #Pitcairn Island
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_pitcairn_island
+			custom_effect_tooltip = pfp_oceania_core_states_pitcairn_island
 			custom_effect_tooltip = pfp_oceania_transfer_states_pitcairn_island
 			hidden_effect = {
 				#Pitcairn Island
@@ -888,7 +888,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 629 } #Hawaii
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_hawaii
+			custom_effect_tooltip = pfp_oceania_core_states_hawaii
 			custom_effect_tooltip = pfp_oceania_transfer_states_hawaii
 			hidden_effect = {
 				#Hawaii
@@ -925,7 +925,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1074 } #Easter Island
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_oceania_coring_states_easter_island
+			custom_effect_tooltip = pfp_oceania_core_states_easter_island
 			custom_effect_tooltip = pfp_oceania_transfer_states_easter_island
 			hidden_effect = {
 				#Easter Island

@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 183 } #Cyprus
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_levant_coring_states_cyprus
+			custom_effect_tooltip = pfp_levant_core_states_cyprus
 			custom_effect_tooltip = pfp_levant_transfer_states_cyprus
 			hidden_effect = {
 				#Cyprus
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 453 } #Sinai
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_levant_coring_states_sinai
+			custom_effect_tooltip = pfp_levant_core_states_sinai
 			custom_effect_tooltip = pfp_levant_transfer_states_sinai
 			hidden_effect = {
 				#Sinai
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 799 } #Hatay
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_levant_coring_states_hatay
+			custom_effect_tooltip = pfp_levant_core_states_hatay
 			custom_effect_tooltip = pfp_levant_transfer_states_hatay
 			hidden_effect = {
 				#Hatay
@@ -133,7 +133,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 911 } #Suez
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_levant_coring_states_suez
+			custom_effect_tooltip = pfp_levant_core_states_suez
 			custom_effect_tooltip = pfp_levant_transfer_states_suez
 			hidden_effect = {
 				#Suez
@@ -169,7 +169,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 995 } #East Suez
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_levant_coring_states_east_suez
+			custom_effect_tooltip = pfp_levant_core_states_east_suez
 			custom_effect_tooltip = pfp_levant_transfer_states_east_suez
 			hidden_effect = {
 				#East Suez

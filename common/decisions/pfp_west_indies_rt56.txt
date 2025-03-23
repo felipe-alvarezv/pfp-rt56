@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 972 } #Virgin Islands
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_west_indies_coring_states_virgin_islands
+			custom_effect_tooltip = pfp_west_indies_core_states_virgin_islands
 			custom_effect_tooltip = pfp_west_indies_transfer_states_virgin_islands
 			hidden_effect = {
 				#Virgin Islands
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1050 } #Guantanamo Bay
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_west_indies_coring_states_guantanamo_bay
+			custom_effect_tooltip = pfp_west_indies_core_states_guantanamo_bay
 			custom_effect_tooltip = pfp_west_indies_transfer_states_guantanamo_bay
 			hidden_effect = {
 				#Guantanamo Bay
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1085 } #Grenada
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_west_indies_coring_states_grenada
+			custom_effect_tooltip = pfp_west_indies_core_states_grenada
 			custom_effect_tooltip = pfp_west_indies_transfer_states_grenada
 			hidden_effect = {
 				#Grenada
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1084 } #St Vincent & the Grenadines
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_west_indies_coring_states_st_vincent_and_grenadines
+			custom_effect_tooltip = pfp_west_indies_core_states_st_vincent_and_grenadines
 			custom_effect_tooltip = pfp_west_indies_transfer_states_st_vincent_and_grenadines
 			hidden_effect = {
 				#St Vincent & the Grenadines
@@ -168,7 +168,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1083 } #Saint Lucia
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_west_indies_coring_states_saint_lucia
+			custom_effect_tooltip = pfp_west_indies_core_states_saint_lucia
 			custom_effect_tooltip = pfp_west_indies_transfer_states_saint_lucia
 			hidden_effect = {
 				#Saint Lucia
@@ -204,7 +204,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1080 } #Martinique
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_west_indies_coring_states_martinique
+			custom_effect_tooltip = pfp_west_indies_core_states_martinique
 			custom_effect_tooltip = pfp_west_indies_transfer_states_martinique
 			hidden_effect = {
 				#Martinique
@@ -240,7 +240,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1082 } #Dominica
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_west_indies_coring_states_dominica
+			custom_effect_tooltip = pfp_west_indies_core_states_dominica
 			custom_effect_tooltip = pfp_west_indies_transfer_states_dominica
 			hidden_effect = {
 				#Dominica
@@ -276,7 +276,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1081 } #St Kitts & Nevis
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_west_indies_coring_states_st_kitts_and_nevis
+			custom_effect_tooltip = pfp_west_indies_core_states_st_kitts_and_nevis
 			custom_effect_tooltip = pfp_west_indies_transfer_states_st_kitts_and_nevis
 			hidden_effect = {
 				#St Kitts & Nevis
@@ -312,7 +312,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1079 } #Sint Maarten
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_west_indies_coring_states_sint_maarten
+			custom_effect_tooltip = pfp_west_indies_core_states_sint_maarten
 			custom_effect_tooltip = pfp_west_indies_transfer_states_sint_maarten
 			hidden_effect = {
 				#Sint Maarten

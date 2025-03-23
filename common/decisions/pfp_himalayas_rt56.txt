@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1013 } #Sikkim
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_himalayas_coring_states_sikkim
+			custom_effect_tooltip = pfp_himalayas_core_states_sikkim
 			custom_effect_tooltip = pfp_himalayas_transfer_states_sikkim
 			hidden_effect = {
 				#Sikkim

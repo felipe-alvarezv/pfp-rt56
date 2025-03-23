@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 300 } #Montevideo
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_brazil_coring_states_montevideo
+			custom_effect_tooltip = pfp_brazil_core_states_montevideo
 			custom_effect_tooltip = pfp_brazil_transfer_states_montevideo
 			hidden_effect = {
 				#Montevideo
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 309 } #Suriname
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_brazil_coring_states_suriname
+			custom_effect_tooltip = pfp_brazil_core_states_suriname
 			custom_effect_tooltip = pfp_brazil_transfer_states_suriname
 			hidden_effect = {
 				#Suriname
@@ -96,7 +96,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 310 } #French Guiana
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_brazil_coring_states_french_guiana
+			custom_effect_tooltip = pfp_brazil_core_states_french_guiana
 			custom_effect_tooltip = pfp_brazil_transfer_states_french_guiana
 			hidden_effect = {
 				#French Guiana
@@ -132,7 +132,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 687 } #British Guyana
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_brazil_coring_states_british_guyana
+			custom_effect_tooltip = pfp_brazil_core_states_british_guyana
 			custom_effect_tooltip = pfp_brazil_transfer_states_british_guyana
 			hidden_effect = {
 				#British Guyana
@@ -169,7 +169,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1060 } #Paysandu
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_brazil_coring_states_paysandu
+			custom_effect_tooltip = pfp_brazil_core_states_paysandu
 			custom_effect_tooltip = pfp_brazil_transfer_states_paysandu
 			hidden_effect = {
 				#Paysandu
@@ -205,7 +205,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 1059 } #Cerro Largo
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_brazil_coring_states_cerro_largo
+			custom_effect_tooltip = pfp_brazil_core_states_cerro_largo
 			custom_effect_tooltip = pfp_brazil_transfer_states_cerro_largo
 			hidden_effect = {
 				#Cerro Largo

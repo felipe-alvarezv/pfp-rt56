@@ -24,7 +24,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 937 } #Northern Panama
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_colombia_coring_states_northern_panama
+			custom_effect_tooltip = pfp_colombia_core_states_northern_panama
 			custom_effect_tooltip = pfp_colombia_transfer_states_northern_panama
 			hidden_effect = {
 				#Northern Panama
@@ -60,7 +60,7 @@ pfp_puppet_management = {
 			highlight_state_targets = { state = 948 } #Apure
 		}
 		complete_effect = {
-			custom_effect_tooltip = pfp_colombia_coring_states_apure
+			custom_effect_tooltip = pfp_colombia_core_states_apure
 			custom_effect_tooltip = pfp_colombia_transfer_states_apure
 			hidden_effect = {
 				#Apure

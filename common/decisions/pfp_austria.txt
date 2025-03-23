@@ -29,7 +29,7 @@ pfp_category = {
             }
             #Steiermark-Kärnten
             custom_trigger_tooltip = {
-                tooltip = pfp_austria_required_states_steirmark_karnten
+                tooltip = pfp_austria_required_states_steiermark_karnten
                 has_full_control_of_state = 1054 #Steiermark-Kärnten
             }
             #Burgenland

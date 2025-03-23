@@ -27,6 +27,11 @@ pfp_category = {
 				tooltip = pfp_hungary_required_states_solt_kiskun
 				has_full_control_of_state = 913 #Solt-Kiskun
 			}
+			#South Transdanubia
+			custom_trigger_tooltip = {
+				tooltip = pfp_hungary_required_states_south_transdanubia
+				has_full_control_of_state = 1104 #South Transdanubia
+			}
 		}
 		visible = {
 			OR = {
@@ -34,6 +39,7 @@ pfp_category = {
 				has_full_control_of_state = 154 #Alfold
 				has_full_control_of_state = 155 #Transdanubia
 				has_full_control_of_state = 913 #Solt-Kiskun
+				has_full_control_of_state = 1104 #South Transdanubia
 			}
 			NOT = { has_global_flag = pfp_hungary_flag }
 		}
@@ -43,6 +49,7 @@ pfp_category = {
 				state = 154 #Alfold
 				state = 155 #Transdanubia
 				state = 913 #Solt-Kiskun
+				state = 1104 #South Transdanubia
 			}
 		}
 		icon = generic_military

@@ -6,6 +6,7 @@ pfp_release_hungary = {
 		154 = { add_core_of = P09 } #Alföld
 		155 = { add_core_of = P09 } #Transdanubia
 		913 = { add_core_of = P09 } #Solt-Kiskun
+		1104 = { add_core_of = P09 } #South Transdanubia
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {

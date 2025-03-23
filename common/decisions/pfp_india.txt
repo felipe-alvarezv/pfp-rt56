@@ -1,0 +1,165 @@
+pfp_category = {
+	pfp_india = {
+		allowed = {
+			NOT = {
+				original_tag = CIP #Central India
+				original_tag = HYD #Hyderabad
+				original_tag = KOL #Kolhapur and Deccan
+				original_tag = KHL #Khalistan
+				original_tag = MYS #Mysore
+				original_tag = RAJ #India
+				original_tag = RAS #Madras
+				original_tag = RJP #Rajputana
+				original_tag = WIS #Western India
+			}
+		}
+		available = {
+			is_subject = no
+			#Madras
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_madras
+				has_full_control_of_state = 423 #Madras
+			}
+			#Abdhra
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_abdhra
+				has_full_control_of_state = 424 #Abdhra
+			}
+			#Mysore
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_mysore
+				has_full_control_of_state = 425 #Mysore
+			}
+			#Orissa
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_orissa
+				has_full_control_of_state = 426 #Orissa
+			}
+			#Hyderabad
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_hyderabad
+				has_full_control_of_state = 427 #Hyderabad
+			}
+			#Gujarat
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_gujarat
+				has_full_control_of_state = 428 #Gujarat
+			}
+			#Bombay
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_bombay
+				has_full_control_of_state = 429 #Bombay
+			}
+			#Rajahsthan
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_rajahsthan
+				has_full_control_of_state = 433 #Rajahsthan
+			}
+			#Jabulpur
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_jabalpur
+				has_full_control_of_state = 436 #Jabalpur
+			}
+			#Indore
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_indore
+				has_full_control_of_state = 437 #Indore
+			}
+			#Lucknow
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_lucknow
+				has_full_control_of_state = 438 #Lucknow
+			}
+			#Delhi
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_delhi
+				has_full_control_of_state = 439 #Delhi
+			}
+			#Uttarakhand
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_uttarakhand
+				has_full_control_of_state = 1090 #Uttarakhand
+			}
+			#Kochin
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_kochin
+				has_full_control_of_state = 1098 #Kochin
+			}
+			#Kolhapur and Deccan
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_kohalpur_and_deccan
+				has_full_control_of_state = 1099 #Kohalpur and Deccan
+			}
+			#Bastar
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_bastar
+				has_full_control_of_state = 1100 #Bastar
+			}
+			#East Punjab
+			custom_trigger_tooltip = {
+				tooltip = pfp_india_required_states_east_punjab
+				has_full_control_of_state = 1101 #East Punjab
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 423 #Madras
+				has_full_control_of_state = 424 #Abdhra
+				has_full_control_of_state = 425 #Mysore
+				has_full_control_of_state = 426 #Orissa
+				has_full_control_of_state = 427 #Hyderabad
+				has_full_control_of_state = 428 #Gujarat
+				has_full_control_of_state = 429 #Bombay
+				has_full_control_of_state = 433 #Rajahsthan
+				has_full_control_of_state = 436 #Jabalpur
+				has_full_control_of_state = 437 #Indore
+				has_full_control_of_state = 438 #Lucknow
+				has_full_control_of_state = 439 #Delhi
+				has_full_control_of_state = 1090 #Uttarakhand
+				has_full_control_of_state = 1098 #Kochin
+				has_full_control_of_state = 1099 #Kolhapur and Deccan
+				has_full_control_of_state = 1100 #Bastar
+				has_full_control_of_state = 1101 #East Punjab
+			}
+			NOT = { has_global_flag = pfp_india_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 423 #Madras
+				state = 424 #Abdhra
+				state = 425 #Mysore
+				state = 426 #Orissa
+				state = 427 #Hyderabad
+				state = 428 #Gujarat
+				state = 429 #Bombay
+				state = 433 #Rajahsthan
+				state = 436 #Jabalpur
+				state = 437 #Indore
+				state = 438 #Lucknow
+				state = 439 #Delhi
+				state = 1090 #Uttarakhand
+				state = 1098 #Kochin
+				state = 1099 #Kolhapur and Deccan
+				state = 1100 #Bastar
+				state = 1101 #East Punjab
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_india_core_states
+			custom_effect_tooltip = pfp_india_transfer_states
+			custom_effect_tooltip = pfp_india_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_india = yes
+				set_autonomy = { target = P37 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P37 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

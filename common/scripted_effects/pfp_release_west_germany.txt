@@ -32,6 +32,5 @@ pfp_release_west_germany = {
 
 		#Send event to all nations about the formable puppet
 		set_temp_variable = { temp_country_tag = P31 }
-		news_event = { id = pfp_news.01 }
 	}
 }

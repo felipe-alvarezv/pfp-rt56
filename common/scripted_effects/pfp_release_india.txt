@@ -1,0 +1,39 @@
+#Scripted effect to release India (P37)
+pfp_release_india = {
+	hidden_effect = {
+		#Add cores to India
+		423 = { add_core_of = P37 } #Madras
+		424 = { add_core_of = P37 } #Abdhra
+		425 = { add_core_of = P37 } #Mysore
+		426 = { add_core_of = P37 } #Orissa
+		427 = { add_core_of = P37 } #Hyderabad
+		428 = { add_core_of = P37 } #Gujarat
+		429 = { add_core_of = P37 } #Bombay
+		433 = { add_core_of = P37 } #Rajahsthan
+		436 = { add_core_of = P37 } #Jabalpur
+		437 = { add_core_of = P37 } #Indore
+		438 = { add_core_of = P37 } #Lucknow
+		439 = { add_core_of = P37 } #Delhi
+		1090 = { add_core_of = P37 } #Uttarakhand
+		1098 = { add_core_of = P37 } #Kochin
+		1099 = { add_core_of = P37 } #Kolhapur and Deccan
+		1100 = { add_core_of = P37 } #Bastar
+		1101 = { add_core_of = P37 } #East Punjab
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P37 }
+			add_contested_owner = P37
+			transfer_state_to = P37
+		}
+
+		#Transfer all technology to formable puppet
+		P37 = { pfp_transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_india_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P37 }
+	}
+}

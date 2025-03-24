@@ -13,30 +13,10 @@ pfp_category = {
                 tooltip = pfp_yugoslavia_required_states_vojvodina
                 has_full_control_of_state = 45 #Vojvodina
             }
-            #North Slovenia
-            custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_north_slovenia
-                has_full_control_of_state = 102 #North Slovenia
-            }
-            #Dalmatia
-            custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_dalmatia
-                has_full_control_of_state = 103 #Dalmatia
-            }
-            #Bosnia
-            custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_bosnia
-                has_full_control_of_state = 104 #Bosnia
-            }
             #Montenegro
             custom_trigger_tooltip = {
                 tooltip = pfp_yugoslavia_required_states_montenegro
                 has_full_control_of_state = 105 #Montenegro
-            }
-            #Macedonia
-            custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_macedonia
-                has_full_control_of_state = 106 #Macedonia
             }
             #Serbia
             custom_trigger_tooltip = {
@@ -48,65 +28,15 @@ pfp_category = {
                 tooltip = pfp_yugoslavia_required_states_morava
                 has_full_control_of_state = 108 #Morava
             }
-            #Croatia
-            custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_croatia
-                has_full_control_of_state = 109 #Croatia
-            }
             #West Banat
             custom_trigger_tooltip = {
                 tooltip = pfp_yugoslavia_required_states_west_banat
                 has_full_control_of_state = 764 #West Banat
             }
-            #Metohija
-            custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_kosovo
-                has_full_control_of_state = 802 #Metohija
-            }
-            #Southern Serbia
-            custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_southern_serbia
-                has_full_control_of_state = 803 #Southern Serbia
-            }
-            #Herzegovina
-            custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_herzegovina
-                has_full_control_of_state = 804 #Herzegovina
-            }
-            #Ljubljana
-            custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_ljubljana
-                has_full_control_of_state = 853 #Ljubljana
-            }
-            #Slavonia
-            custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_slavonia
-                has_full_control_of_state = 959 #Slavonia
-            }
             #Syrmia
             custom_trigger_tooltip = {
                 tooltip = pfp_yugoslavia_required_states_syrmia
                 has_full_control_of_state = 952 #Syrmia
-            }
-            #Posavina
-            custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_posavina
-                has_full_control_of_state = 962 #Posavina
-            }
-            #Krajina
-            custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_krajina
-                has_full_control_of_state = 961 #Krajina
-            }
-            #Kvarner
-            custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_kvarner
-                has_full_control_of_state = 958 #Kvarner
-            }
-            #Kosovo
-            custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_kosovo
-                has_full_control_of_state = 953 #Kosovo
             }
             #Raška
             custom_trigger_tooltip = {
@@ -117,25 +47,11 @@ pfp_category = {
         visible = {
             OR = {
                 has_full_control_of_state = 45 #Vojvodina
-                has_full_control_of_state = 102 #North Slovenia
-                has_full_control_of_state = 103 #Dalmatia
-                has_full_control_of_state = 104 #Bosnia
                 has_full_control_of_state = 105 #Montenegro
-                has_full_control_of_state = 106 #Macedonia
                 has_full_control_of_state = 107 #Serbia
                 has_full_control_of_state = 108 #Morava
-                has_full_control_of_state = 109 #Croatia
                 has_full_control_of_state = 764 #West Banat
-                has_full_control_of_state = 802 #Metohija
-                has_full_control_of_state = 803 #Southern Serbia
-                has_full_control_of_state = 804 #Herzegovina
-                has_full_control_of_state = 853 #Ljubljana
-                has_full_control_of_state = 959 #Slavonia
                 has_full_control_of_state = 952 #Syrmia
-                has_full_control_of_state = 962 #Posavina
-                has_full_control_of_state = 961 #Krajina
-                has_full_control_of_state = 958 #Kvarner
-                has_full_control_of_state = 953 #Kosovo
                 has_full_control_of_state = 963 #Raška
             }
             NOT = { has_global_flag = pfp_yugoslavia_flag }
@@ -143,25 +59,11 @@ pfp_category = {
         highlight_states = {
             highlight_state_targets = { 
                 state = 45 #Vojvodina
-                state = 102 #North Slovenia
-                state = 103 #Dalmatia
-                state = 104 #Bosnia
                 state = 105 #Montenegro
-                state = 106 #Macedonia
                 state = 107 #Serbia
                 state = 108 #Morava
-                state = 109 #Croatia
                 state = 764 #West Banat
-                state = 802 #Metohija
-                state = 803 #Southern Serbia
-                state = 804 #Herzegovina
-                state = 853 #Ljubljana
-                state = 959 #Slavonia
                 state = 952 #Syrmia
-                state = 962 #Posavina
-                state = 961 #Krajina
-                state = 958 #Kvarner
-                state = 953 #Kosovo
                 state = 963 #Raška
                 
             }

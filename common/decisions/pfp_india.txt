@@ -87,8 +87,8 @@ pfp_category = {
 			}
 			#Kolhapur and Deccan
 			custom_trigger_tooltip = {
-				tooltip = pfp_india_required_states_kohalpur_and_deccan
-				has_full_control_of_state = 1099 #Kohalpur and Deccan
+				tooltip = pfp_india_required_states_kolhapur_and_deccan
+				has_full_control_of_state = 1099 #Kolhapur and Deccan
 			}
 			#Bastar
 			custom_trigger_tooltip = {

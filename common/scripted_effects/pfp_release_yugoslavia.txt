@@ -3,25 +3,11 @@ pfp_release_yugoslavia = {
 	hidden_effect = {
 		#Add cores to Yugoslavian territory
 		45 = { add_core_of = P50 } #Vojvodina
-		102 = { add_core_of = P50 } #North Slovenia
-		103 = { add_core_of = P50 } #Dalmatia
-		104 = { add_core_of = P50 } #Bosnia
 		105 = { add_core_of = P50 } #Montenegro
-		106 = { add_core_of = P50 } #Macedonia
 		107 = { add_core_of = P50 } #Serbia
 		108 = { add_core_of = P50 } #Morava
-		109 = { add_core_of = P50 } #Croatia
 		764 = { add_core_of = P50 } #West Banat
-		802 = { add_core_of = P50 } #Metohija
-		803 = { add_core_of = P50 } #Southern Serbia
-		804 = { add_core_of = P50 } #Herzegovina
-		853 = { add_core_of = P50 } #Ljubljana
-		959 = { add_core_of = P50 } #Slavonia
 		952 = { add_core_of = P50 } #Syrmia
-		962 = { add_core_of = P50 } #Posavina
-		961 = { add_core_of = P50 } #Krajina
-		958 = { add_core_of = P50 } #Kvarner
-		953 = { add_core_of = P50 } #Kosovo
 		963 = { add_core_of = P50 } #Raška
 
 		#Set formable puppet as owner and controller of all its cored states

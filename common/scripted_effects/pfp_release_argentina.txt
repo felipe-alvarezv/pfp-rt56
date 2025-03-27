@@ -2,7 +2,7 @@
 pfp_release_argentina = {
 	hidden_effect = {
 		#Add cores to Argentinian territory
-		278 = { add_core_of = P55 } #Buenos Aires
+		278 = { add_core_of = P55 } #Pampas
 		509 = { add_core_of = P55 } #Chaco Austral
 		510 = { add_core_of = P55 } #Mesopotamia
 		1068 = { add_core_of = P55 } #Santa Fe

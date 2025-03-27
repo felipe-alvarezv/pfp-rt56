@@ -8,10 +8,10 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
-			#Buenos Aires
+			#Pampas
 			custom_trigger_tooltip = {
-				tooltip = pfp_argentina_required_states_buenos_aires
-				has_full_control_of_state = 278 #Buenos Aires
+				tooltip = pfp_argentina_required_states_pampas
+				has_full_control_of_state = 278 #Pampas
 			}
 			#Chaco Austral
 			custom_trigger_tooltip = {
@@ -41,7 +41,7 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 278 #Buenos Aires
+				has_full_control_of_state = 278 #Pampas
 				has_full_control_of_state = 509 #Chaco Austral
 				has_full_control_of_state = 510 #Mesopotamia
 				has_full_control_of_state = 1068 #Santa Fe
@@ -52,7 +52,7 @@ pfp_category = {
 		}
 		highlight_states = {
 			highlight_state_targets = { 
-				state = 278 #Buenos Aires
+				state = 278 #Pampas
 				state = 509 #Chaco Austral
 				state = 510 #Mesopotamia
 				state = 1068 #Santa Fe

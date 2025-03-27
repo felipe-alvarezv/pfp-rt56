@@ -1,0 +1,30 @@
+#Scripted effect to release Arabia (P03)
+pfp_release_arabia = {
+	hidden_effect = {
+		#Add cores to Arabia
+		292 = { add_core_of = P03 } #Nejd
+		678 = { add_core_of = P03 } #Rub Al Khali
+		679 = { add_core_of = P03 } #Madinah
+		854 = { add_core_of = P03 } #Jawf
+		855 = { add_core_of = P03 } #Tabuk
+		856 = { add_core_of = P03 } #Asir-Makkah
+		857 = { add_core_of = P03 } #Al-Qassim
+		859 = { add_core_of = P03 } #Dammam
+
+		#Set formable puppet as owner and controller of all its cored states
+		every_state = {
+			limit = { is_core_of = P03 }
+			add_contested_owner = P03
+			transfer_state_to = P03
+		}
+
+		#Transfer all technology to formable puppet
+		P03 = { pfp_transfer_technology = yes }
+
+		#Set global flag to prevent future decision use
+		set_global_flag = pfp_arabia_flag
+
+		#Send event to all nations about the formable puppet
+		set_temp_variable = { temp_country_tag = P03 }
+	}
+}

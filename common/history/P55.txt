@@ -1,0 +1,122 @@
+﻿#Argentina
+capital = 278 #Buenos Aires
+
+# Research Slots, Stability, War Support, and Ideas
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.5
+add_ideas = {
+	limited_conscription
+	export_focus
+	partial_economic_mobilisation
+}
+
+# Default Technology
+set_technology = {
+	support_weapons = 1
+ 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+# Naval Technology
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+
+		sonar = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+	}
+}
+
+# Tank Technology
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+
+	}
+}
+
+# PP and Convoys
+add_political_power = 600
+set_convoys = 100
+
+# Politics
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.11.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 25
+	democratic = 25
+	neutrality = 25
+	fascism = 25
+}
+
+#Characters
+recruit_character = P55_communism_leader
+recruit_character = P55_democratic_leader
+recruit_character = P55_neutrality_leader
+recruit_character = P55_fascism_leader
+
+#Argentina Initial States
+add_to_array = { pfp_argentina_integration_array = 278 } #Pampas
+add_to_array = { pfp_argentina_integration_array = 509 } #Chaco Austral
+add_to_array = { pfp_argentina_integration_array = 510 } #Mesopotamia
+add_to_array = { pfp_argentina_integration_array = 956 } #Santa Fe
+add_to_array = { pfp_argentina_integration_array = 957 } #Formosa
+add_to_array = { pfp_argentina_integration_array = 959 } #Los Andes
+
+#Argentina Territories
+add_to_array = { pfp_argentina_integration_array = 299 } #Falkland Islands
+add_to_array = { pfp_argentina_integration_array = 300 } #Montevideo
+add_to_array = { pfp_argentina_integration_array = 301 } #Paraguay
+add_to_array = { pfp_argentina_integration_array = 302 } #La Paz
+add_to_array = { pfp_argentina_integration_array = 487 } #Santa Cruz
+add_to_array = { pfp_argentina_integration_array = 506 } #Antofagasta
+add_to_array = { pfp_argentina_integration_array = 508 } #Tucuman
+add_to_array = { pfp_argentina_integration_array = 511 } #Mendoza
+add_to_array = { pfp_argentina_integration_array = 512 } #Rio Negro
+add_to_array = { pfp_argentina_integration_array = 688 } #Chaco Boreal
+add_to_array = { pfp_argentina_integration_array = 720 } #South Georgia
+add_to_array = { pfp_argentina_integration_array = 1059 } #Cerro Largo
+add_to_array = { pfp_argentina_integration_array = 1060 } #Paysandu
+add_to_array = { pfp_argentina_integration_array = 1065 } #Tierra del Fuego
+add_to_array = { pfp_argentina_integration_array = 1066 } #Santa Cruz
+add_to_array = { pfp_argentina_integration_array = 1067 } #Chubut
+add_to_array = { pfp_argentina_integration_array = 1070 } #San Luis y La Pampa
+add_to_array = { pfp_argentina_integration_array = 1077 } #Chaco Boreal

@@ -10,6 +10,7 @@ pfp_release_iran = {
 		416 = { add_core_of = P71 } #Khorasan-e Razavi
 		417 = { add_core_of = P71 } #Markazi
 		418 = { add_core_of = P71 } #Semnan
+		420 = { add_core_of = P71 } #Gilan
 		980 = { add_core_of = P71 } #Hormozgan
 		981 = { add_core_of = P71 } #Bandar-e Bushehr
 		982 = { add_core_of = P71 } #Khorasan-e Jonubi

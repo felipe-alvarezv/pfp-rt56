@@ -1,0 +1,116 @@
+﻿#Chile
+capital = 279 #Santiago
+
+# Research Slots, Stability, War Support, and Ideas
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.5
+add_ideas = {
+	limited_conscription
+	export_focus
+	partial_economic_mobilisation
+}
+
+# Default Technology
+set_technology = {
+	support_weapons = 1
+ 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+# Naval Technology
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+
+		sonar = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+	}
+}
+
+# Tank Technology
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+
+	}
+}
+
+# PP and Convoys
+add_political_power = 600
+set_convoys = 100
+
+# Politics
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.11.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 25
+	democratic = 25
+	neutrality = 25
+	fascism = 25
+}
+
+#Characters
+recruit_character = P54_communism_leader
+recruit_character = P54_democratic_leader
+recruit_character = P54_neutrality_leader
+recruit_character = P54_fascism_leader
+
+#Chile Initial States
+add_to_array = { pfp_chile_integration_array = 279 } #Santiago
+add_to_array = { pfp_chile_integration_array = 954 } #Atacama
+
+#Chile Territories
+add_to_array = { pfp_chile_integration_array = 299 } #Falkland Islands
+add_to_array = { pfp_chile_integration_array = 506 } #Antofagasta
+add_to_array = { pfp_chile_integration_array = 507 } #Magallanes
+add_to_array = { pfp_chile_integration_array = 508 } #Tucuman
+add_to_array = { pfp_chile_integration_array = 511 } #Mendoza
+add_to_array = { pfp_chile_integration_array = 512 } #Rio Negro
+add_to_array = { pfp_chile_integration_array = 720 } #South Georgia
+add_to_array = { pfp_chile_integration_array = 1061 } #Tacna-Moquegua
+add_to_array = { pfp_chile_integration_array = 1062 } #Aysen
+add_to_array = { pfp_chile_integration_array = 1063 } #Araucania
+add_to_array = { pfp_chile_integration_array = 1064 } #Arica y Tarapaca
+add_to_array = { pfp_chile_integration_array = 1065 } #Tierra del Fuego
+add_to_array = { pfp_chile_integration_array = 1066 } #Santa Cruz
+add_to_array = { pfp_chile_integration_array = 1067 } #Chubut
+add_to_array = { pfp_chile_integration_array = 1070 } #San Luis y La Pampa
+add_to_array = { pfp_chile_integration_array = 1074 } #Easter Island

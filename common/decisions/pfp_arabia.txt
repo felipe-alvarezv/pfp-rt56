@@ -1,0 +1,94 @@
+pfp_category = {
+	pfp_arabia = {
+		allowed = {
+			NOT = {
+				original_tag = SAU #Saudi Arabia
+			}
+		}
+		available = {
+			is_subject = no
+			#Nejd
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_nejd
+				has_full_control_of_state = 292 #Nejd
+			}
+			#Rub Al Khali
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_rub_al_khali
+				has_full_control_of_state = 678 #Rub Al Khali
+			}
+			#Madinah
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_madinah
+				has_full_control_of_state = 679 #Madinah
+			}
+			#Jawf
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_jawf
+				has_full_control_of_state = 854 #Jawf
+			}
+			#Tabuk
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_tabuk
+				has_full_control_of_state = 855 #Tabuk
+			}
+			#Asir-Makkah
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_asir_makkah
+				has_full_control_of_state = 856 #Asir-Makkah
+			}
+			#Al-Qassim
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_al_qassim
+				has_full_control_of_state = 857 #Al-Qassim
+			}
+			#Dammam
+			custom_trigger_tooltip = {
+				tooltip = pfp_arabia_required_states_dammam
+				has_full_control_of_state = 859 #Dammam
+			}
+		}
+		visible = {
+			OR = {
+				has_full_control_of_state = 292 #Nejd
+				has_full_control_of_state = 678 #Rub al Khali
+				has_full_control_of_state = 679 #Madinah
+				has_full_control_of_state = 854 #Jawf
+				has_full_control_of_state = 855 #Tabuk
+				has_full_control_of_state = 856 #Assir-Makkah
+				has_full_control_of_state = 857 #Al-Qassim
+				has_full_control_of_state = 859 #Dammam
+			}
+			NOT = { has_global_flag = pfp_arabia_flag }
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 292 #Nejd
+				state = 678 #Rub Al Khali
+				state = 679 #Madinah
+				state = 854 #Jawf
+				state = 855 #Tabuk
+				state = 856 #Asir-Makkah
+				state = 857 #Al-Qassim
+				state = 859 #Dammam
+			}
+		}
+		icon = generic_military
+		complete_effect = {
+			custom_effect_tooltip = pfp_arabia_core_states
+			custom_effect_tooltip = pfp_arabia_transfer_states
+			custom_effect_tooltip = pfp_arabia_puppet
+
+			#Create formable puppet with all its states and then puppet
+			hidden_effect = {
+				pfp_release_arabia = yes
+				set_autonomy = { target = P03 autonomy_state = autonomy_military_administration }
+
+				#Code to assign generic portraits
+				set_temp_variable = { pfp_portrait_tag = P03 }
+				pfp_set_generic_portrait = yes
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

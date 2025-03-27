@@ -47,6 +47,11 @@ pfp_category = {
 				tooltip = pfp_iran_required_states_semnan
 				has_full_control_of_state = 418 #Semnan
 			}
+			#Gilan
+			custom_trigger_tooltip = {
+				tooltip = pfp_iran_required_states_gilan
+				has_full_control_of_state = 420 #Gilan
+			}
 			#Hormozgan
 			custom_trigger_tooltip = {
 				tooltip = pfp_iran_required_states_hormozgan
@@ -88,6 +93,7 @@ pfp_category = {
 				has_full_control_of_state = 416 #Khorasan-e Razavi
 				has_full_control_of_state = 417 #Markazi
 				has_full_control_of_state = 418 #Semnan
+				has_full_control_of_state = 420 #Gilan
 				has_full_control_of_state = 980 #Hormozgan
 				has_full_control_of_state = 981 #Bandar-e Bushehr
 				has_full_control_of_state = 982 #Khorasan-e Jonubi
@@ -107,6 +113,7 @@ pfp_category = {
 				state = 416 #Khorasan-e Razavi
 				state = 417 #Markazi
 				state = 418 #Semnan
+				state = 420 #Gilan
 				state = 980 #Hormozgan
 				state = 981 #Bandar-e Bushehr
 				state = 982 #Khorasan-e Jonubi

@@ -3,7 +3,11 @@ pfp_release_germany = {
 	hidden_effect = {
 		#Add cores to German territory
 		42 = { add_core_of = P13 } #Moselland
+		50 = { add_core_of = P13 } #Wurttemberg
 		51 = { add_core_of = P13 } #Rhineland
+		52 = { add_core_of = P13 } #Oberbayern
+		53 = { add_core_of = P13 } #Niederbayern
+		54 = { add_core_of = P13 } #Franken
 		55 = { add_core_of = P13 } #Hessen
 		56 = { add_core_of = P13 } #Weser-Ems
 		57 = { add_core_of = P13 } #Westfalen
@@ -14,14 +18,10 @@ pfp_release_germany = {
 		62 = { add_core_of = P13 } #Vorpommern
 		64 = { add_core_of = P13 } #Brandenburg
 		65 = { add_core_of = P13 } #Sachsen
-		50 = { add_core_of = P13 } #Wurttemberg
-		52 = { add_core_of = P13 } #Oberbayern
-		53 = { add_core_of = P13 } #Niederbayern
-		54 = { add_core_of = P13 } #Franken
-		923 = { add_core_of = P13 } # Baden
 		922 = { add_core_of = P13 } #Frankfurt
-		1053 = { add_core_of = P13 } #Saarland
+		923 = { add_core_of = P13 } # Baden
 		989 = { add_core_of = P13 } #Ostrhineland
+		1053 = { add_core_of = P13 } #Saarland
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {

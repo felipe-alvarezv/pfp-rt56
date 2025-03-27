@@ -1,0 +1,119 @@
+#Indonesia
+capital = 335 #Java
+
+# Research Slots, Stability, War Support, and Ideas
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.5
+add_ideas = {
+	limited_conscription
+	export_focus
+	partial_economic_mobilisation
+}
+
+# Default Technology
+set_technology = {
+	support_weapons = 1
+ 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+# Naval Technology
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+
+		sonar = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+	}
+}
+
+# Tank Technology
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+
+	}
+}
+
+# PP and Convoys
+add_political_power = 600
+set_convoys = 100
+
+# Politics
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.11.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 25
+	democratic = 25
+	neutrality = 25
+	fascism = 25
+}
+
+#Characters
+recruit_character = P17_communism_leader
+recruit_character = P17_democratic_leader
+recruit_character = P17_neutrality_leader
+recruit_character = P17_fascism_leader
+
+#Indonesia Initial States
+add_to_array = { pfp_indonesia_integration_array = 334 } #East Kalimantan
+add_to_array = { pfp_indonesia_integration_array = 335 } #West Java
+add_to_array = { pfp_indonesia_integration_array = 446 } #East Java
+add_to_array = { pfp_indonesia_integration_array = 667 } #Lesser Sunda Islands
+add_to_array = { pfp_indonesia_integration_array = 668 } #Moluccan Islands
+add_to_array = { pfp_indonesia_integration_array = 672 } #South Sumatra
+add_to_array = { pfp_indonesia_integration_array = 673 } #South Sulawesi
+add_to_array = { pfp_indonesia_integration_array = 738 } #Aru Islands
+add_to_array = { pfp_indonesia_integration_array = 974 } #North Sumatra
+add_to_array = { pfp_indonesia_integration_array = 975 } #North Sulawesi
+add_to_array = { pfp_indonesia_integration_array = 976 } #Central Java
+add_to_array = { pfp_indonesia_integration_array = 977 } #Inner Borneo
+add_to_array = { pfp_indonesia_integration_array = 978 } #West Kalimantan
+
+#Indonesia Territories
+add_to_array = { pfp_indonesia_integration_array = 333 } #North Borneo
+add_to_array = { pfp_indonesia_integration_array = 909 } #Riau Islands
+add_to_array = { pfp_indonesia_integration_array = 914 } #Kedah
+add_to_array = { pfp_indonesia_integration_array = 915 } #Pahang
+add_to_array = { pfp_indonesia_integration_array = 916 } #Sabah
+add_to_array = { pfp_indonesia_integration_array = 951 } #Johor
+add_to_array = { pfp_indonesia_integration_array = 960 } #Terengganu
+add_to_array = { pfp_indonesia_integration_array = 1014 } #Brunei

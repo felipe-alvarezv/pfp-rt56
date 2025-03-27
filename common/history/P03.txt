@@ -1,0 +1,141 @@
+#Arabia
+capital = 292 #Nejd
+
+# Research Slots, Stability, War Support, and Ideas
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.5
+add_ideas = {
+	limited_conscription
+	export_focus
+	partial_economic_mobilisation
+}
+
+# Default Technology
+set_technology = {
+	support_weapons = 1
+ 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+# Naval Technology
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+
+		sonar = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+	}
+}
+
+# Tank Technology
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+
+	}
+}
+
+# PP and Convoys
+add_political_power = 600
+set_convoys = 100
+
+# Politics
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.11.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 25
+	democratic = 25
+	neutrality = 25
+	fascism = 25
+}
+
+#Characters
+recruit_character = P03_communism_leader
+recruit_character = P03_democratic_leader
+recruit_character = P03_neutrality_leader
+recruit_character = P03_fascism_leader
+
+#Arabia Initial States
+add_to_array = { pfp_arabia_integration_array = 292 } #Nejd
+add_to_array = { pfp_arabia_integration_array = 678 } #Rub' al Khali
+add_to_array = { pfp_arabia_integration_array = 679 } #Madinah
+add_to_array = { pfp_arabia_integration_array = 854 } #Jawf
+add_to_array = { pfp_arabia_integration_array = 855 } #Tabuk
+add_to_array = { pfp_arabia_integration_array = 856 } #Asir-Makkah
+add_to_array = { pfp_arabia_integration_array = 857 } #Al-Qassim
+add_to_array = { pfp_arabia_integration_array = 859 } #Dammam
+
+#Arabia Territories
+add_to_array = { pfp_arabia_integration_array = 291 } #Baghdad
+add_to_array = { pfp_arabia_integration_array = 293 } #Yemen
+add_to_array = { pfp_arabia_integration_array = 294 } #Muscat
+add_to_array = { pfp_arabia_integration_array = 453 } #Sinai
+add_to_array = { pfp_arabia_integration_array = 454 } #Coastal Plain
+add_to_array = { pfp_arabia_integration_array = 455 } #Amman
+add_to_array = { pfp_arabia_integration_array = 553 } #Lebanon
+add_to_array = { pfp_arabia_integration_array = 554 } #Damascus
+add_to_array = { pfp_arabia_integration_array = 656 } #Kuwait
+add_to_array = { pfp_arabia_integration_array = 658 } #Trucial Coast
+add_to_array = { pfp_arabia_integration_array = 659 } #Aden
+add_to_array = { pfp_arabia_integration_array = 675 } #Al Sahra'a Al Janubiyah
+add_to_array = { pfp_arabia_integration_array = 676 } #Mosul
+add_to_array = { pfp_arabia_integration_array = 677 } #Aleppo
+add_to_array = { pfp_arabia_integration_array = 680 } #Deir-Az-Zur
+add_to_array = { pfp_arabia_integration_array = 765 } #Qatar
+add_to_array = { pfp_arabia_integration_array = 799 } #Hatay
+add_to_array = { pfp_arabia_integration_array = 858 } #Jafurah
+add_to_array = { pfp_arabia_integration_array = 906 } #Socotra
+add_to_array = { pfp_arabia_integration_array = 949 } #Gaza
+add_to_array = { pfp_arabia_integration_array = 966 } #West Bank
+add_to_array = { pfp_arabia_integration_array = 979 } #Musandam
+add_to_array = { pfp_arabia_integration_array = 995 } #East Suez
+add_to_array = { pfp_arabia_integration_array = 1007 } #Bahrain
+add_to_array = { pfp_arabia_integration_array = 1016 } #Jerusalem
+add_to_array = { pfp_arabia_integration_array = 1017 } #Beersheba
+add_to_array = { pfp_arabia_integration_array = 1021 } #Mafraq
+add_to_array = { pfp_arabia_integration_array = 1022 } #Ma'an
+add_to_array = { pfp_arabia_integration_array = 1045 } #Basrah
+add_to_array = { pfp_arabia_integration_array = 1046 } #Karbala-Najaf
+add_to_array = { pfp_arabia_integration_array = 1047 } #Dulaim
+add_to_array = { pfp_arabia_integration_array = 1048 } #Sulymaniyah
+add_to_array = { pfp_arabia_integration_array = 1049 } #Erbil
+add_to_array = { pfp_arabia_integration_array = 1102 } #Oman
+add_to_array = { pfp_arabia_integration_array = 1103 } #Dhofar

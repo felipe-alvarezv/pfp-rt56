@@ -17,9 +17,9 @@ l_english:
   P52_ADJ:0 "Himalayan"
 
   pfp_himalayas:0 "Establish Military Administration in the Himalayas"
-  pfp_himalayas_required_states_nagqu:0 "Controls §YChang-Tang§!."
-  pfp_himalayas_required_states_shigatse:0 "Controls §YÜ-Tsang§!."
-  pfp_himalayas_required_states_ngari:0 "Controls §YNgari Khorsum§!."
+  pfp_himalayas_required_states_nagqu:0 "Controls §Y[322.GetName]§!."
+  pfp_himalayas_required_states_shigatse:0 "Controls §Y[757.GetName]§!."
+  pfp_himalayas_required_states_ngari:0 "Controls §Y[758.GetName]§!."
   pfp_himalayas_core_states:0 "§YHimalayas§! gains cores on all listed states.\n"
   pfp_himalayas_transfer_states:0 "§YHimalayas§! becomes owner and controller of all listed states.\n"
-  pfp_himalayas_puppet:0 "§YHimalayas§! becomes a puppet of §Y[Root.GetName]§!.\n"
+  pfp_himalayas_puppet:0 "§YHimalayas§! becomes a puppet of §Y[ROOT.GetName]§!.\n"

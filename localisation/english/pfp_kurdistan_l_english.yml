@@ -17,10 +17,9 @@ l_english:
   P70_ADJ:0 "Kurdish"
 
   pfp_kurdistan:0 "Establish Military Administration in Kurdistan"
-  pfp_kurdistan_required_states_diyarbakir:0 "Controls §YDiyarbakır§!."
-  pfp_kurdistan_required_states_hakkari:0 "Controls §YHakkari§!."
-  pfp_kurdistan_required_states_tunceli:0 "Controls §YTunceli§!."
-  pfp_kurdistan_required_states_tibriz:0 "Controls §YAzarbaijan-e Sharqui§!."
+  pfp_kurdistan_required_states_diyarbakir:0 "Controls §Y[350.GetName]§!."
+  pfp_kurdistan_required_states_hakkari:0 "Controls §Y[352.GetName]§!."
+  pfp_kurdistan_required_states_tunceli:0 "Controls §Y[353.GetName]§!."
   pfp_kurdistan_core_states:0 "§YKurdistan§! gains cores on all listed states.\n"
   pfp_kurdistan_transfer_states:0 "§YKurdistan§! becomes owner and controller of all listed states.\n"
   pfp_kurdistan_puppet:0 "§YKurdistan§! becomes a puppet of §Y[Root.GetName]§!.\n"

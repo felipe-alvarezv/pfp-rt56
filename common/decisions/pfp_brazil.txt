@@ -72,10 +72,10 @@ pfp_category = {
 				tooltip = pfp_brazil_required_states_espirito_santo
 				has_full_control_of_state = 999 #Espirito Santo
 			}
-			#Piauí
+			#Piaui
 			custom_trigger_tooltip = {
 				tooltip = pfp_brazil_required_states_piaui
-				has_full_control_of_state = 1000 #Piauí
+				has_full_control_of_state = 1000 #Piaui
 			}
 			#Maranhao
 			custom_trigger_tooltip = {
@@ -112,20 +112,20 @@ pfp_category = {
 				tooltip = pfp_brazil_required_states_acre
 				has_full_control_of_state = 1052 #Acre
 			}
-			#Amapá
+			#Amapa
 			custom_trigger_tooltip = {
 				tooltip = pfp_brazil_required_states_amapa
-				has_full_control_of_state = 1056 #Amapá
+				has_full_control_of_state = 1056 #Amapa
 			}
 			#Tocantins
 			custom_trigger_tooltip = {
 				tooltip = pfp_brazil_required_states_tocantins
 				has_full_control_of_state = 1057 #Tocatins
 			}
-			#Rondônia
+			#Rondonia
 			custom_trigger_tooltip = {
 				tooltip = pfp_brazil_required_states_guapore
-				has_full_control_of_state = 1058 #Rondônia
+				has_full_control_of_state = 1058 #Rondonia
 			}
 		}
 		visible = {
@@ -143,7 +143,7 @@ pfp_category = {
 				has_full_control_of_state = 504 #Iguacu
 				has_full_control_of_state = 505 #Goias
 				has_full_control_of_state = 999 #Espirito Santo
-				has_full_control_of_state = 1000 #Piauí
+				has_full_control_of_state = 1000 #Piaui
 				has_full_control_of_state = 1001 #Maranhao
 				has_full_control_of_state = 1002 #Parana
 				has_full_control_of_state = 1003 #Ceara
@@ -151,9 +151,9 @@ pfp_category = {
 				has_full_control_of_state = 1005 #Pernambuco
 				has_full_control_of_state = 1006 #Alagoas
 				has_full_control_of_state = 1052 #Acre
-				has_full_control_of_state = 1056 #Amapá
+				has_full_control_of_state = 1056 #Amapa
 				has_full_control_of_state = 1057 #Tocatins
-				has_full_control_of_state = 1058 #Rondônia
+				has_full_control_of_state = 1058 #Rondonia
 			}
 			NOT = { has_global_flag = pfp_brazil_flag }
 		}
@@ -172,7 +172,7 @@ pfp_category = {
 				state = 504 #Iguacu
 				state = 505 #Goias
 				state = 999 #Espirito Santo
-				state = 1000 #Piauí
+				state = 1000 #Piaui
 				state = 1001 #Maranhao
 				state = 1002 #Parana
 				state = 1003 #Ceara
@@ -180,9 +180,9 @@ pfp_category = {
 				state = 1005 #Pernambuco
 				state = 1006 #Alagoas
 				state = 1052 #Acre
-				state = 1056 #Amapá
+				state = 1056 #Amapa
 				state = 1057 #Tocatins
-				state = 1058 #Rondônia
+				state = 1058 #Rondonia
 			}
 		}
 		icon = generic_military

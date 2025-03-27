@@ -1,0 +1,121 @@
+#Yugoslavia
+capital = 107 #Serbia
+
+# Research Slots, Stability, War Support, and Ideas
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.5
+add_ideas = {
+	limited_conscription
+	export_focus
+	partial_economic_mobilisation
+}
+
+# Default Technology
+set_technology = {
+	support_weapons = 1
+ 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+# Naval Technology
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+
+		sonar = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+	}
+}
+
+# Tank Technology
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+
+	}
+}
+
+# PP and Convoys
+add_political_power = 600
+set_convoys = 100
+
+# Politics
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.11.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 25
+	democratic = 25
+	neutrality = 25
+	fascism = 25
+}
+
+#Characters
+recruit_character = P50_communism_leader
+recruit_character = P50_democratic_leader
+recruit_character = P50_neutrality_leader
+recruit_character = P50_fascism_leader
+
+#Yugoslavia Initial States
+add_to_array = { pfp_yugoslavia_integration_array = 45 } #Vojvodina
+add_to_array = { pfp_yugoslavia_integration_array = 105 } #Montenegro
+add_to_array = { pfp_yugoslavia_integration_array = 107 } #Serbia
+add_to_array = { pfp_yugoslavia_integration_array = 108 } #Morava
+add_to_array = { pfp_yugoslavia_integration_array = 764 } #West Banat
+add_to_array = { pfp_yugoslavia_integration_array = 952 } #Syrmia
+add_to_array = { pfp_yugoslavia_integration_array = 963 } #Raška
+
+#Yugoslavia Territories
+add_to_array = { pfp_yugoslavia_integration_array = 44 } #Albania
+add_to_array = { pfp_yugoslavia_integration_array = 48 } #Sofia
+add_to_array = { pfp_yugoslavia_integration_array = 77 } #Dobrudja
+add_to_array = { pfp_yugoslavia_integration_array = 163 } #Zara
+add_to_array = { pfp_yugoslavia_integration_array = 184 } #Thrace
+add_to_array = { pfp_yugoslavia_integration_array = 211 } #Burgas
+add_to_array = { pfp_yugoslavia_integration_array = 212 } #Plovdiv
+add_to_array = { pfp_yugoslavia_integration_array = 341 } #Edirne
+add_to_array = { pfp_yugoslavia_integration_array = 731 } #Central Macedonia
+add_to_array = { pfp_yugoslavia_integration_array = 736 } #Litorale
+add_to_array = { pfp_yugoslavia_integration_array = 797 } #Istanbul
+add_to_array = { pfp_yugoslavia_integration_array = 801 } #Moesia
+add_to_array = { pfp_yugoslavia_integration_array = 805 } #Northern Epirus
+add_to_array = { pfp_yugoslavia_integration_array = 852 } #Istria
+add_to_array = { pfp_yugoslavia_integration_array = 910 } #Shkoder
+add_to_array = { pfp_yugoslavia_integration_array = 950 } #Debar

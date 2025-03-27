@@ -1,0 +1,121 @@
+#West Indies
+capital = 315 #Cuba
+
+# Research Slots, Stability, War Support, and Ideas
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.5
+add_ideas = {
+	limited_conscription
+	export_focus
+	partial_economic_mobilisation
+}
+
+# Default Technology
+set_technology = {
+	support_weapons = 1
+ 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+# Naval Technology
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+
+		sonar = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+	}
+}
+
+# Tank Technology
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+
+	}
+}
+
+# PP and Convoys
+add_political_power = 600
+set_convoys = 100
+
+# Politics
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.11.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 25
+	democratic = 25
+	neutrality = 25
+	fascism = 25
+}
+
+#Characters
+recruit_character = P06_communism_leader
+recruit_character = P06_democratic_leader
+recruit_character = P06_neutrality_leader
+recruit_character = P06_fascism_leader
+
+#West Indies Initial States
+add_to_array = { pfp_west_indies_integration_array = 315 } #Cuba
+add_to_array = { pfp_west_indies_integration_array = 318 } #Haiti
+add_to_array = { pfp_west_indies_integration_array = 319 } #Dominican Republic
+add_to_array = { pfp_west_indies_integration_array = 689 } #Jamaica
+add_to_array = { pfp_west_indies_integration_array = 994 } #La Habana
+
+#West Indies Territories
+add_to_array = { pfp_west_indies_integration_array = 308 } #Leeward Islands
+add_to_array = { pfp_west_indies_integration_array = 686 } #Puerto Rico
+add_to_array = { pfp_west_indies_integration_array = 690 } #Northern Bahamas
+add_to_array = { pfp_west_indies_integration_array = 691 } #Trinidad
+add_to_array = { pfp_west_indies_integration_array = 692 } #Windward Islands
+add_to_array = { pfp_west_indies_integration_array = 693 } #Southern Bahamas
+add_to_array = { pfp_west_indies_integration_array = 694 } #French Caribbean
+add_to_array = { pfp_west_indies_integration_array = 695 } #Curacao
+add_to_array = { pfp_west_indies_integration_array = 696 } #Bermuda
+add_to_array = { pfp_west_indies_integration_array = 972 } #Virgin Islands
+add_to_array = { pfp_west_indies_integration_array = 1050 } #Guantanamo Bay
+add_to_array = { pfp_west_indies_integration_array = 1085 } #Grenada
+add_to_array = { pfp_west_indies_integration_array = 1084 } #St Vincent & the Grenadines
+add_to_array = { pfp_west_indies_integration_array = 1083 } #Saint Lucia
+add_to_array = { pfp_west_indies_integration_array = 1080 } #Martinique
+add_to_array = { pfp_west_indies_integration_array = 1082 } #Dominica
+add_to_array = { pfp_west_indies_integration_array = 1081 } #St Kitts & Nevis
+add_to_array = { pfp_west_indies_integration_array = 1079 } #Sint Maarten

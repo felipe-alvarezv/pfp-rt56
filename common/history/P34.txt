@@ -1,0 +1,150 @@
+#Poland
+capital = 10 #Warszawa
+
+# Research Slots, Stability, War Support, and Ideas
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.5
+add_ideas = {
+	limited_conscription
+	export_focus
+	partial_economic_mobilisation
+}
+
+# Default Technology
+set_technology = {
+	support_weapons = 1
+ 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+# Naval Technology
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+
+		sonar = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+	}
+}
+
+# Tank Technology
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+
+	}
+}
+
+# PP and Convoys
+add_political_power = 600
+set_convoys = 100
+
+# Politics
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.11.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 25
+	democratic = 25
+	neutrality = 25
+	fascism = 25
+}
+
+#Characters
+recruit_character = P34_communism_leader
+recruit_character = P34_democratic_leader
+recruit_character = P34_neutrality_leader
+recruit_character = P34_fascism_leader
+
+#Poland Initial States
+add_to_array = { pfp_poland_integration_array = 10 } #Warszawa
+add_to_array = { pfp_poland_integration_array = 87 } #Lodz
+add_to_array = { pfp_poland_integration_array = 90 } #Kielce
+add_to_array = { pfp_poland_integration_array = 92 } #Lublin
+add_to_array = { pfp_poland_integration_array = 98 } #Płock
+
+#Poland Territories
+add_to_array = { pfp_poland_integration_array = 5 } #Ermland-Masuren
+add_to_array = { pfp_poland_integration_array = 11 } #Kaunas
+add_to_array = { pfp_poland_integration_array = 12 } #Vidzeme
+add_to_array = { pfp_poland_integration_array = 63 } #Hinterpommern
+add_to_array = { pfp_poland_integration_array = 66 } #Niederschlesien
+add_to_array = { pfp_poland_integration_array = 67 } #Oberschlesien
+add_to_array = { pfp_poland_integration_array = 68 } #Ostmark
+add_to_array = { pfp_poland_integration_array = 72 } #Zaolzie
+add_to_array = { pfp_poland_integration_array = 85 } #Danzig
+add_to_array = { pfp_poland_integration_array = 86 } #Poznan
+add_to_array = { pfp_poland_integration_array = 88 } #Krakow
+add_to_array = { pfp_poland_integration_array = 89 } #Stanislawow
+add_to_array = { pfp_poland_integration_array = 91 } #Lwow
+add_to_array = { pfp_poland_integration_array = 93 } #Wolyn
+add_to_array = { pfp_poland_integration_array = 94 } #Polesie
+add_to_array = { pfp_poland_integration_array = 95 } #Nowogrodek
+add_to_array = { pfp_poland_integration_array = 96 } #Wilejka
+add_to_array = { pfp_poland_integration_array = 97 } #Białystok
+add_to_array = { pfp_poland_integration_array = 188 } #Memel
+add_to_array = { pfp_poland_integration_array = 189 } #Zemaitija
+add_to_array = { pfp_poland_integration_array = 190 } #Kurzeme
+add_to_array = { pfp_poland_integration_array = 193 } #Chernigov
+add_to_array = { pfp_poland_integration_array = 194 } #Mozyr
+add_to_array = { pfp_poland_integration_array = 198 } #Vinnytsia
+add_to_array = { pfp_poland_integration_array = 199 } #Khmelnytskyi
+add_to_array = { pfp_poland_integration_array = 201 } #Zhytomyr
+add_to_array = { pfp_poland_integration_array = 202 } #Kiev
+add_to_array = { pfp_poland_integration_array = 203 } #Cherkasy
+add_to_array = { pfp_poland_integration_array = 204 } #Bobruysk
+add_to_array = { pfp_poland_integration_array = 206 } #Minsk
+add_to_array = { pfp_poland_integration_array = 207 } #Vitebsk
+add_to_array = { pfp_poland_integration_array = 241 } #Gomel
+add_to_array = { pfp_poland_integration_array = 242 } #Smolensk
+add_to_array = { pfp_poland_integration_array = 243 } #Roslavl
+add_to_array = { pfp_poland_integration_array = 259 } #Poltava
+add_to_array = { pfp_poland_integration_array = 762 } #Katowice
+add_to_array = { pfp_poland_integration_array = 763 } #Konigsberg
+add_to_array = { pfp_poland_integration_array = 784 } #Wilno
+add_to_array = { pfp_poland_integration_array = 807 } #Gdynia
+add_to_array = { pfp_poland_integration_array = 808 } #Riga
+add_to_array = { pfp_poland_integration_array = 809 } #Zemgale
+add_to_array = { pfp_poland_integration_array = 810 } #Latgale
+add_to_array = { pfp_poland_integration_array = 814 } #Suduva
+add_to_array = { pfp_poland_integration_array = 815 } #Aukstaitija
+add_to_array = { pfp_poland_integration_array = 934 } #Suwalki
+add_to_array = { pfp_poland_integration_array = 935 } #Grodno
+add_to_array = { pfp_poland_integration_array = 936 } #Outer Wilno

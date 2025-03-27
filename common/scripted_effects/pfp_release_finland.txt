@@ -4,8 +4,8 @@ pfp_release_finland = {
 		#Add cores to Finnish territory
 		111 = { add_core_of = P12 } #Uusimaa
 		148 = { add_core_of = P12 } #Lappi
-		149 = { add_core_of = P12 } #Vaasa
-		150 = { add_core_of = P12 } #Kuopio
+		149 = { add_core_of = P12 } #Pohjanmaa
+		150 = { add_core_of = P12 } #Savo
 		1036 = { add_core_of = P12 } #Turku
 		1037 = { add_core_of = P12 } #Hame
 		1038 = { add_core_of = P12 } #Kymi

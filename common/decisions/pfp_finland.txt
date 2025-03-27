@@ -18,15 +18,15 @@ pfp_category = {
 				tooltip = pfp_finland_required_states_lappi
 				controls_state = 148 #Lappi
 			}
-			#Vaasa
+			#Pohjanmaa
 			custom_trigger_tooltip = {
-				tooltip = pfp_finland_required_states_vaasa
-				controls_state = 149 #Vaasa
+				tooltip = pfp_finland_required_states_pohjanmaa
+				controls_state = 149 #Pohjanmaa
 			}
-			#Kuopio
+			#Savo
 			custom_trigger_tooltip = {
-				tooltip = pfp_finland_required_states_kuopio
-				controls_state = 150 #Kuopio
+				tooltip = pfp_finland_required_states_savo
+				controls_state = 150 #Savo
 			}
 			#Turku
 			custom_trigger_tooltip = {
@@ -58,8 +58,8 @@ pfp_category = {
 			OR = {
 				has_full_control_of_state = 111 #Uusimaa
 				has_full_control_of_state = 148 #Lappi
-				has_full_control_of_state = 149 #Vaasa
-				has_full_control_of_state = 150 #Kuopio
+				has_full_control_of_state = 149 #Pohjanmaa
+				has_full_control_of_state = 150 #Savo
 				has_full_control_of_state = 1036 #Turku
 				has_full_control_of_state = 1037 #Hame
 				has_full_control_of_state = 1038 #Kymi
@@ -72,8 +72,8 @@ pfp_category = {
 			highlight_state_targets = { 
 				state = 111 #Uusimaa
 				state = 148 #Lappi
-				state = 149 #Vaasa
-				state = 150 #Kuopio
+				state = 149 #Pohjanmaa
+				state = 150 #Savo
 				state = 1036 #Turku
 				state = 1037 #Hame
 				state = 1038 #Kymi

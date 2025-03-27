@@ -1,0 +1,119 @@
+#South Africa
+capital = 275 #Transvaal
+
+# Research Slots, Stability, War Support, and Ideas
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.5
+add_ideas = {
+	limited_conscription
+	export_focus
+	partial_economic_mobilisation
+}
+
+# Default Technology
+set_technology = {
+	support_weapons = 1
+ 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+# Naval Technology
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		mtg_transport = 1
+
+		sonar = 1
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+	}
+}
+
+# Tank Technology
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+
+	}
+}
+
+# PP and Convoys
+add_political_power = 600
+set_convoys = 100
+
+# Politics
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.11.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 25
+	democratic = 25
+	neutrality = 25
+	fascism = 25
+}
+
+#Characters
+recruit_character = P36_communism_leader
+recruit_character = P36_democratic_leader
+recruit_character = P36_neutrality_leader
+recruit_character = P36_fascism_leader
+
+#South Africa Initial States
+add_to_array = { pfp_south_africa_integration_array = 275 } #Transvaal
+add_to_array = { pfp_south_africa_integration_array = 542 } #Becuanaland
+add_to_array = { pfp_south_africa_integration_array = 681 } #Cape
+add_to_array = { pfp_south_africa_integration_array = 719 } #Natal
+add_to_array = { pfp_south_africa_integration_array = 940 } #Orange Free State
+add_to_array = { pfp_south_africa_integration_array = 938 } #Basutoland
+add_to_array = { pfp_south_africa_integration_array = 939 } #Swaziland
+
+#South Africa Territories
+add_to_array = { pfp_south_africa_integration_array = 540 } #Luanda
+add_to_array = { pfp_south_africa_integration_array = 541 } #Khomas
+add_to_array = { pfp_south_africa_integration_array = 544 } #Lourenço Marques
+add_to_array = { pfp_south_africa_integration_array = 545 } #Rhodesia
+add_to_array = { pfp_south_africa_integration_array = 770 } #Malawi
+add_to_array = { pfp_south_africa_integration_array = 771 } #Zambia
+add_to_array = { pfp_south_africa_integration_array = 796 } #North Angola
+add_to_array = { pfp_south_africa_integration_array = 891 } #Zambesi
+add_to_array = { pfp_south_africa_integration_array = 892 } #South West Angola
+add_to_array = { pfp_south_africa_integration_array = 893 } #Karas
+add_to_array = { pfp_south_africa_integration_array = 894 } #Kunene
+add_to_array = { pfp_south_africa_integration_array = 895 } #Otjozondjupa
+add_to_array = { pfp_south_africa_integration_array = 896 } #Manica E Sofala
+add_to_array = { pfp_south_africa_integration_array = 897 } #Zambezia-Moçambique

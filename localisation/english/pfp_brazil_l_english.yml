@@ -27,7 +27,7 @@ l_english:
   pfp_brazil_required_states_sao_paulo:0 "Controls §Y[501.GetName]§!."
   pfp_brazil_required_states_rio_grande_do_sul:0 "Controls §Y[502.GetName]§!."
   pfp_brazil_required_states_santa_catarina:0 "Controls §Y[503.GetName]§!."
-  pfp_brazil_required_states_iguacu:0 "Controls §[504.GetName]§!."
+  pfp_brazil_required_states_iguacu:0 "Controls §Y[504.GetName]§!."
   pfp_brazil_required_states_goias:0 "Controls §Y[505.GetName]§!."
   pfp_brazil_required_states_espirito_santo:0 "Controls §Y[999.GetName]§!."
   pfp_brazil_required_states_piaui:0 "Controls §Y[1000.GetName]§!."

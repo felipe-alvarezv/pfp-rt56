@@ -18,7 +18,7 @@ l_english:
   
   pfp_india:0 "Establish Military Administration in India"
   pfp_india_required_states_madras:0 "Controls §Y[423.GetName]§!."
-  pfp_india_required_states_abdhra:0 "Controls §Y[424.Getname]§!."
+  pfp_india_required_states_andhra:0 "Controls §Y[424.Getname]§!."
   pfp_india_required_states_mysore:0 "Controls §Y[425.GetName]§!."
   pfp_india_required_states_orissa:0 "Controls §Y[426.GetName]§!."
   pfp_india_required_states_hyderabad:0 "Controls §Y[427.GetName]§!."

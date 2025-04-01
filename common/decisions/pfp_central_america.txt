@@ -42,10 +42,10 @@ pfp_category = {
 				tooltip = pfp_central_america_required_states_nicaragua
 				has_full_control_of_state = 317 #Nicaragua
 			}
-			#Northern Panama
+			#Western Panama
 			custom_trigger_tooltip = {
-				tooltip = pfp_central_america_required_states_northern_panama
-				has_full_control_of_state = 937 #Northern Panama
+				tooltip = pfp_central_america_required_states_western_panama
+				has_full_control_of_state = 937 #Western Panama
 			}
 		}
 		visible = {

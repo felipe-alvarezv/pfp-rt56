@@ -124,7 +124,7 @@ pfp_category = {
 			}
 			#Rondonia
 			custom_trigger_tooltip = {
-				tooltip = pfp_brazil_required_states_guapore
+				tooltip = pfp_brazil_required_states_rondonia
 				has_full_control_of_state = 1058 #Rondonia
 			}
 		}

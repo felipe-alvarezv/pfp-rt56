@@ -109,11 +109,11 @@ add_to_array = { pfp_indonesia_integration_array = 977 } #Inner Borneo
 add_to_array = { pfp_indonesia_integration_array = 978 } #West Kalimantan
 
 #Indonesia Territories
-add_to_array = { pfp_indonesia_integration_array = 333 } #North Borneo
+add_to_array = { pfp_indonesia_integration_array = 333 } #Sarawak
 add_to_array = { pfp_indonesia_integration_array = 909 } #Riau Islands
 add_to_array = { pfp_indonesia_integration_array = 914 } #Kedah
 add_to_array = { pfp_indonesia_integration_array = 915 } #Pahang
-add_to_array = { pfp_indonesia_integration_array = 916 } #Sabah
+add_to_array = { pfp_indonesia_integration_array = 916 } #North Borneo
 add_to_array = { pfp_indonesia_integration_array = 951 } #Johor
 add_to_array = { pfp_indonesia_integration_array = 960 } #Terengganu
 add_to_array = { pfp_indonesia_integration_array = 1014 } #Brunei

@@ -2,12 +2,12 @@
 pfp_release_sweden = {
 	hidden_effect = {
 		#Add cores to Sweden
-		38 = { add_core_of = P74 } #Gavleborg
-		138 = { add_core_of = P74 } #Skane
+		38 = { add_core_of = P74 } #Norrland
+		138 = { add_core_of = P74 } #Scania
 		139 = { add_core_of = P74 } #Smaland
 		140 = { add_core_of = P74 } #Vastergotland
-		141 = { add_core_of = P74 } #Sodermanland
-		666 = { add_core_of = P74 } #Norbotten
+		141 = { add_core_of = P74 } #Svealand
+		666 = { add_core_of = P74 } #Lappland
 		968 = { add_core_of = P74 } #Jamtland
 		969 = { add_core_of = P74 } #Bohuslan
 		1026 = { add_core_of = P74 } #Ostergotland

@@ -8,15 +8,15 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
-			#Gavleborg
+			#Norrland
 			custom_trigger_tooltip = {
-				tooltip = pfp_sweden_required_states_gavleborg
-				has_full_control_of_state = 38 #Gavleborg
+				tooltip = pfp_sweden_required_states_norrland
+				has_full_control_of_state = 38 #Norrland
 			}
-			#Skane
+			#Scania
 			custom_trigger_tooltip = {
-				tooltip = pfp_sweden_required_states_skane
-				has_full_control_of_state = 138 #Skane
+				tooltip = pfp_sweden_required_states_scania
+				has_full_control_of_state = 138 #Scania
 			}
 			#Smaland
 			custom_trigger_tooltip = {
@@ -28,15 +28,15 @@ pfp_category = {
 				tooltip = pfp_sweden_required_states_vastergotland
 				has_full_control_of_state = 140 #Vastergotland
 			}
-			#Sodermanland
+			#Svealand
 			custom_trigger_tooltip = {
-				tooltip = pfp_sweden_required_states_sodermanland
-				has_full_control_of_state = 141 #Sodermanland
+				tooltip = pfp_sweden_required_states_svealand
+				has_full_control_of_state = 141 #Svealand
 			}
-			#Norbotten
+			#Lappland
 			custom_trigger_tooltip = {
-				tooltip = pfp_sweden_required_states_norbotten
-				has_full_control_of_state = 666 #Norbotten
+				tooltip = pfp_sweden_required_states_lappland
+				has_full_control_of_state = 666 #Lappland
 			}
 			#Jamtland
 			custom_trigger_tooltip = {
@@ -71,12 +71,12 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 38 #Gavleborg
-				has_full_control_of_state = 138 #Skane
+				has_full_control_of_state = 38 #Norrland
+				has_full_control_of_state = 138 #Scania
 				has_full_control_of_state = 139 #Smaland
 				has_full_control_of_state = 140 #Vastergotland
-				has_full_control_of_state = 141 #Sodermanland
-				has_full_control_of_state = 666 #Norbotten
+				has_full_control_of_state = 141 #Svealand
+				has_full_control_of_state = 666 #Lappland
 				has_full_control_of_state = 968 #Jamtland
 				has_full_control_of_state = 969 #Bohuslan
 				has_full_control_of_state = 1026 #Ostergotland
@@ -88,12 +88,12 @@ pfp_category = {
 		}
 		highlight_states = {
 			highlight_state_targets = { 
-				state = 38 #Gavleborg
-				state = 138 #Skane
+				state = 38 #Norrland
+				state = 138 #Scania
 				state = 139 #Smaland
 				state = 140 #Vastergotland
-				state = 141 #Sodermanland
-				state = 666 #Norbotten
+				state = 141 #Svealand
+				state = 666 #Lappland
 				state = 968 #Jamtland
 				state = 969 #Bohuslan
 				state = 1026 #Ostergotland

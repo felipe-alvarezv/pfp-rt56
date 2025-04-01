@@ -17,10 +17,10 @@ pfp_category = {
 				tooltip = pfp_hungary_required_states_alfold
 				has_full_control_of_state = 154 #Alföld
 			}
-			#Transdanubia
+			#North Transdanubia
 			custom_trigger_tooltip = {
-				tooltip = pfp_hungary_required_states_transdanubia
-				has_full_control_of_state = 155 #Transdunabia
+				tooltip = pfp_hungary_required_states_north_transdanubia
+				has_full_control_of_state = 155 #North Transdunabia
 			}
 			#Solt-Kiskun
 			custom_trigger_tooltip = {
@@ -37,7 +37,7 @@ pfp_category = {
 			OR = {
 				has_full_control_of_state = 43 #Northern Hungary
 				has_full_control_of_state = 154 #Alfold
-				has_full_control_of_state = 155 #Transdanubia
+				has_full_control_of_state = 155 #North Transdanubia
 				has_full_control_of_state = 913 #Solt-Kiskun
 				has_full_control_of_state = 1104 #South Transdanubia
 			}
@@ -47,7 +47,7 @@ pfp_category = {
 			highlight_state_targets = {
 				state = 43 #Northern Hungary
 				state = 154 #Alfold
-				state = 155 #Transdanubia
+				state = 155 #North Transdanubia
 				state = 913 #Solt-Kiskun
 				state = 1104 #South Transdanubia
 			}

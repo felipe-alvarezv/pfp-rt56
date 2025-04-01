@@ -108,7 +108,7 @@ add_to_array = { pfp_north_germany_integration_array = 64 } #Brandenburg
 add_to_array = { pfp_north_germany_integration_array = 65 } #Sachsen
 add_to_array = { pfp_north_germany_integration_array = 66 } #Niederschlesien
 add_to_array = { pfp_north_germany_integration_array = 67 } #Oberschlesien
-add_to_array = { pfp_north_germany_integration_array = 68 } #Ostmark
+add_to_array = { pfp_north_germany_integration_array = 68 } #Neumark
 add_to_array = { pfp_north_germany_integration_array = 989 } #Ostrhineland
 
 #North Germany Territories
@@ -116,7 +116,7 @@ add_to_array = { pfp_north_germany_integration_array = 5 } #Ermland-Masuren
 add_to_array = { pfp_north_germany_integration_array = 42 } #Moselland
 add_to_array = { pfp_north_germany_integration_array = 85 } #Danzig
 add_to_array = { pfp_north_germany_integration_array = 86 } #Poznan
-add_to_array = { pfp_north_germany_integration_array = 188 } #Klaipeda
+add_to_array = { pfp_north_germany_integration_array = 188 } #Memel
 add_to_array = { pfp_north_germany_integration_array = 762 } #Katowice
 add_to_array = { pfp_north_germany_integration_array = 763 } #Konigsberg
 add_to_array = { pfp_north_germany_integration_array = 807 } #Gdynia

@@ -23,7 +23,7 @@ l_english:
   pfp_central_america_required_states_el_salvador:0 "Controls §Y[314.GetName]§!."
   pfp_central_america_required_states_costa_rica:0 "Controls §Y[316.GetName]§!."
   pfp_central_america_required_states_nicaragua:0 "Controls §Y[317.GetName]§!."
-  pfp_central_america_required_states_northern_panama:0 "Controls §Y[937.GetName]§!."
+  pfp_central_america_required_states_western_panama:0 "Controls §Y[937.GetName]§!."
   pfp_central_america_core_states:0 "§YCentral America§! gains cores on all listed states.\n"
   pfp_central_america_transfer_states:0 "§YCentral America§! becomes owner and controller of all listed states.\n"
   pfp_central_america_puppet:0 "§YCentral America§! becomes a puppet of §Y[ROOT.GetName]§!.\n"

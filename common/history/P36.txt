@@ -107,13 +107,13 @@ add_to_array = { pfp_south_africa_integration_array = 540 } #Luanda
 add_to_array = { pfp_south_africa_integration_array = 541 } #Khomas
 add_to_array = { pfp_south_africa_integration_array = 544 } #Lourenço Marques
 add_to_array = { pfp_south_africa_integration_array = 545 } #Rhodesia
-add_to_array = { pfp_south_africa_integration_array = 770 } #Malawi
-add_to_array = { pfp_south_africa_integration_array = 771 } #Zambia
+add_to_array = { pfp_south_africa_integration_array = 770 } #Nyasaland
+add_to_array = { pfp_south_africa_integration_array = 771 } #Northern Rhodesia
 add_to_array = { pfp_south_africa_integration_array = 796 } #North Angola
 add_to_array = { pfp_south_africa_integration_array = 891 } #Zambesi
 add_to_array = { pfp_south_africa_integration_array = 892 } #South West Angola
 add_to_array = { pfp_south_africa_integration_array = 893 } #Karas
 add_to_array = { pfp_south_africa_integration_array = 894 } #Kunene
 add_to_array = { pfp_south_africa_integration_array = 895 } #Otjozondjupa
-add_to_array = { pfp_south_africa_integration_array = 896 } #Manica E Sofala
+add_to_array = { pfp_south_africa_integration_array = 896 } #Manica e Sofala
 add_to_array = { pfp_south_africa_integration_array = 897 } #Zambezia-Moçambique

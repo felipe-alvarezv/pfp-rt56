@@ -98,10 +98,10 @@ add_to_array = { pfp_denmark_integration_array = 37 } #Sjaelland
 add_to_array = { pfp_denmark_integration_array = 911 } #Fyn
 
 #Denmark Territories
-add_to_array = { pfp_denmark_integration_array = 99 } #Jylland
-add_to_array = { pfp_denmark_integration_array = 100 } #Iceland
-add_to_array = { pfp_denmark_integration_array = 101 } #Greenland
+add_to_array = { pfp_denmark_integration_array = 99 } #Jutland
+add_to_array = { pfp_denmark_integration_array = 100 } #Höfuðborgarsvæðið
+add_to_array = { pfp_denmark_integration_array = 101 } #Grønland
 add_to_array = { pfp_denmark_integration_array = 337 } #Faroe Islands
 add_to_array = { pfp_denmark_integration_array = 964 } #Northern Schleswig
 add_to_array = { pfp_denmark_integration_array = 1024 } #Bornholm
-add_to_array = { pfp_denmark_integration_array = 1043 } #Suourland
+add_to_array = { pfp_denmark_integration_array = 1043 } #Suðurland

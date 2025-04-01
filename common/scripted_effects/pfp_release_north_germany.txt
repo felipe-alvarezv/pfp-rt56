@@ -17,7 +17,7 @@ pfp_release_north_germany = {
 		65 = { add_core_of = P19 } #Sachsen
 		66 = { add_core_of = P19 } #Niederschlesien
 		67 = { add_core_of = P19 } #Oberschlesien
-		68 = { add_core_of = P19 } #Ostmark
+		68 = { add_core_of = P19 } #Neumark
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {

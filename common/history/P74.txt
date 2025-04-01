@@ -94,12 +94,12 @@ recruit_character = P74_neutrality_leader
 recruit_character = P74_fascism_leader
 
 #Sweden Initial States
-add_to_array = { pfp_sweden_integration_array = 38 } #Gavleborg
-add_to_array = { pfp_sweden_integration_array = 138 } #Skane
+add_to_array = { pfp_sweden_integration_array = 38 } #Norrland
+add_to_array = { pfp_sweden_integration_array = 138 } #Scania
 add_to_array = { pfp_sweden_integration_array = 139 } #Smaland
 add_to_array = { pfp_sweden_integration_array = 140 } #Vastergotland
-add_to_array = { pfp_sweden_integration_array = 141 } #Sodermanland
-add_to_array = { pfp_sweden_integration_array = 666 } #Norbotten
+add_to_array = { pfp_sweden_integration_array = 141 } #Svealand
+add_to_array = { pfp_sweden_integration_array = 666 } #Lappland
 add_to_array = { pfp_sweden_integration_array = 968 } #Jamtland
 add_to_array = { pfp_sweden_integration_array = 969 } #Bohuslan
 add_to_array = { pfp_sweden_integration_array = 1026 } #Ostergotland

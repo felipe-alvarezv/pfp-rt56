@@ -3,17 +3,17 @@ pfp_release_scandinavia = {
 	hidden_effect = {
 		#Add cores to Scandinavian territory
 		37 = { add_core_of = P24 } #Sjaelland
-		38 = { add_core_of = P24 } #Gävleborg
-		99 = { add_core_of = P24 } #Jylland
-		110 = { add_core_of = P24 } #Oslofjord
-		138 = { add_core_of = P24 } #Skåne
+		38 = { add_core_of = P24 } #Norrland
+		99 = { add_core_of = P24 } #Jutland
+		110 = { add_core_of = P24 } #Ostlandet
+		138 = { add_core_of = P24 } #Scania
 		139 = { add_core_of = P24 } #Smaland
 		140 = { add_core_of = P24 } #Vastergotland
-		141 = { add_core_of = P24 } #Södermanland
+		141 = { add_core_of = P24 } #Svealand
 		142 = { add_core_of = P24 } #Vestlandet
 		143 = { add_core_of = P24 } #Trondelag
-		144 = { add_core_of = P24 } #Nordland
-		666 = { add_core_of = P24 } #Norrbotten
+		144 = { add_core_of = P24 } #Nord-Norge
+		666 = { add_core_of = P24 } #Lappland
 		1025 = { add_core_of = P24 } #Fyn
 		1026 = { add_core_of = P24 } #Östergötland
 		969 = { add_core_of = P24 } #Bohuslän

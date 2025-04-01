@@ -3,7 +3,7 @@ pfp_release_india = {
 	hidden_effect = {
 		#Add cores to India
 		423 = { add_core_of = P37 } #Madras
-		424 = { add_core_of = P37 } #Abdhra
+		424 = { add_core_of = P37 } #Andhra
 		425 = { add_core_of = P37 } #Mysore
 		426 = { add_core_of = P37 } #Orissa
 		427 = { add_core_of = P37 } #Hyderabad

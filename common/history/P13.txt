@@ -118,31 +118,31 @@ add_to_array = { pfp_germany_integration_array = 1053 } #Saarland
 #Germany Territories
 add_to_array = { pfp_germany_integration_array = 4 } #Lower Austria
 add_to_array = { pfp_germany_integration_array = 5 } #Ermland-Masuren
-add_to_array = { pfp_germany_integration_array = 8 } #Letzebuerg
-add_to_array = { pfp_germany_integration_array = 9 } #Cechy
+add_to_array = { pfp_germany_integration_array = 8 } #Luxembourg
+add_to_array = { pfp_germany_integration_array = 9 } #Czechia
 add_to_array = { pfp_germany_integration_array = 28 } #Alsace-Lorraine
 add_to_array = { pfp_germany_integration_array = 39 } #Alto Adige
 add_to_array = { pfp_germany_integration_array = 63 } #Hinterpommern
 add_to_array = { pfp_germany_integration_array = 66 } #Niederschlesien
 add_to_array = { pfp_germany_integration_array = 67 } #Oberschlesien
 add_to_array = { pfp_germany_integration_array = 68 } #Neumark
-add_to_array = { pfp_germany_integration_array = 69 } #Northern Czechia
-add_to_array = { pfp_germany_integration_array = 74 } #Ostrava
-add_to_array = { pfp_germany_integration_array = 75 } #Morava
+add_to_array = { pfp_germany_integration_array = 69 } #Sudetenland
+add_to_array = { pfp_germany_integration_array = 74 } #Eastern Sudetenland
+add_to_array = { pfp_germany_integration_array = 75 } #Moravia
 add_to_array = { pfp_germany_integration_array = 85 } #Danzig
 add_to_array = { pfp_germany_integration_array = 86 } #Poznan
-add_to_array = { pfp_germany_integration_array = 102 } #Podravska
+add_to_array = { pfp_germany_integration_array = 102 } #Drava
 add_to_array = { pfp_germany_integration_array = 152 } #Upper Austria
-add_to_array = { pfp_germany_integration_array = 153 } #Tirol
-add_to_array = { pfp_germany_integration_array = 188 } #Klaipeda
-add_to_array = { pfp_germany_integration_array = 736 } #Litorale
+add_to_array = { pfp_germany_integration_array = 153 } #Tyrol
+add_to_array = { pfp_germany_integration_array = 188 } #Memel
+add_to_array = { pfp_germany_integration_array = 736 } #Littoral
 add_to_array = { pfp_germany_integration_array = 762 } #Katowice
 add_to_array = { pfp_germany_integration_array = 763 } #Konigsberg
 add_to_array = { pfp_germany_integration_array = 807 } #Gdynia
 add_to_array = { pfp_germany_integration_array = 848 } #Vorarlberg
 add_to_array = { pfp_germany_integration_array = 853 } #Ljubljana
-add_to_array = { pfp_germany_integration_array = 964 } #Nordslesvig
+add_to_array = { pfp_germany_integration_array = 964 } #Nohrthern Schleswig
 add_to_array = { pfp_germany_integration_array = 965 } #Eupen-Malmedy
 add_to_array = { pfp_germany_integration_array = 998 } #Southern Schleswig
-add_to_array = { pfp_germany_integration_array = 1054 } #Steiermark
-add_to_array = { pfp_germany_integration_array = 1078 } #Southern Czechia
+add_to_array = { pfp_germany_integration_array = 1054 } #Styria
+add_to_array = { pfp_germany_integration_array = 1078 } #Southern Sudetenland

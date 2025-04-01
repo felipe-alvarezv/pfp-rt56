@@ -111,4 +111,4 @@ add_to_array = { pfp_west_germany_integration_array = 989 } #Ostrhineland
 add_to_array = { pfp_west_germany_integration_array = 1053 } #Saarland
 
 #West Germany Territories
-add_to_array = { pfp_west_germany_integration_array = 998 } #Schleswig
+add_to_array = { pfp_west_germany_integration_array = 998 } #Southern Schleswig

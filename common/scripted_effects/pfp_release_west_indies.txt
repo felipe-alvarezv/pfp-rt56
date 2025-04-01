@@ -2,7 +2,7 @@
 pfp_release_west_indies = {
 	hidden_effect = {
 		#Add cores to West Indies territory
-		315 = { add_core_of = P06 } #Cuba
+		315 = { add_core_of = P06 } #Santiago de Cuba
 		318 = { add_core_of = P06 } #Haiti
 		319 = { add_core_of = P06 } #Dominican Republic
 		689 = { add_core_of = P06 } #Jamaica

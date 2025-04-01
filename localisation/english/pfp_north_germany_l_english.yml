@@ -31,7 +31,7 @@ l_english:
   pfp_north_germany_required_states_sachsen:0 "Controls §Y[65.GetName]§!."
   pfp_north_germany_required_states_niederschlesien:0 "Controls §Y[66.GetName]§!."
   pfp_north_germany_required_states_oberschlesien:0 "Controls §Y[67.GetName]§!."
-  pfp_north_germany_required_states_ostmark:0 "Controls §Y[68.GetName]§!."
+  pfp_north_germany_required_states_neumark:0 "Controls §Y[68.GetName]§!."
   pfp_north_germany_required_states_ostrhineland:0 "Controls §Y[989.GetName]§!."
   pfp_north_germany_core_states:0 "§YNorth Germany§! gains cores on all listed states.\n"
   pfp_north_germany_transfer_states:0 "§YNorth Germany§! becomes owner and controller of all listed states.\n"

@@ -114,7 +114,7 @@ add_to_array = { pfp_mexico_integration_array = 932 } #Puebla
 
 #Mexico Territories
 add_to_array = { pfp_mexico_integration_array = 304 } #Panama
-add_to_array = { pfp_mexico_integration_array = 311 } #British Honduras
+add_to_array = { pfp_mexico_integration_array = 311 } #Belize
 add_to_array = { pfp_mexico_integration_array = 312 } #Honduras
 add_to_array = { pfp_mexico_integration_array = 313 } #Guatemala
 add_to_array = { pfp_mexico_integration_array = 314 } #El Salvador
@@ -128,4 +128,4 @@ add_to_array = { pfp_mexico_integration_array = 379 } #Nevada
 add_to_array = { pfp_mexico_integration_array = 380 } #Utah
 add_to_array = { pfp_mexico_integration_array = 382 } #Colorado
 add_to_array = { pfp_mexico_integration_array = 685 } #Panama Canal
-add_to_array = { pfp_mexico_integration_array = 937 } #Northern Panama
+add_to_array = { pfp_mexico_integration_array = 937 } #Western Panama

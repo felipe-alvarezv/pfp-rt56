@@ -10,10 +10,10 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
-			#Cuba
+			#Santiago de Cuba
 			custom_trigger_tooltip = {
-				tooltip = pfp_west_indies_required_states_cuba
-				has_full_control_of_state = 315 #Cuba
+				tooltip = pfp_west_indies_required_states_santiago_de_cuba
+				has_full_control_of_state = 315 #Santiago de Cuba
 			}
 			#Haiti
 			custom_trigger_tooltip = {
@@ -38,7 +38,7 @@ pfp_category = {
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 315 #Cuba
+				has_full_control_of_state = 315 #Santiago de Cuba
 				has_full_control_of_state = 318 #Haiti
 				has_full_control_of_state = 319 #Dominican Republic
 				has_full_control_of_state = 689 #Jamaica
@@ -48,7 +48,7 @@ pfp_category = {
 		}
 		highlight_states = { 
 			highlight_state_targets = { 
-				state = 315 #Cuba
+				state = 315 #Santiago de Cuba
 				state = 318 #Haiti
 				state = 319 #Dominican Republic
 				state = 689 #Jamaica

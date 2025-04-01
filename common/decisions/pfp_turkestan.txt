@@ -15,25 +15,25 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
-			#Akhtubinsk
+			#Aktobe
 			custom_trigger_tooltip = {
-				tooltip = pfp_turkestan_required_states_akhtubinsk
-				has_full_control_of_state = 402 #Akhtubinsk
+				tooltip = pfp_turkestan_required_states_aktobe
+				has_full_control_of_state = 402 #Aktobe
 			}
-			#Kyzyl Orda
+			#Kyzylorda
 			custom_trigger_tooltip = {
-				tooltip = pfp_turkestan_required_states_kyzyl_orda
-				has_full_control_of_state = 404 #Kyzyl Orda
+				tooltip = pfp_turkestan_required_states_kyzylorda
+				has_full_control_of_state = 404 #Kyzylorda
 			}
 			#Tashkent
 			custom_trigger_tooltip = {
 				tooltip = pfp_turkestan_required_states_tashkent
 				has_full_control_of_state = 405 #Tashkent
 			}
-			#Guryev
+			#Atyrau
 			custom_trigger_tooltip = {
-				tooltip = pfp_turkestan_required_states_guryev
-				has_full_control_of_state = 406 #Guryev
+				tooltip = pfp_turkestan_required_states_atyrau
+				has_full_control_of_state = 406 #Atyrau
 			}
 			#Ural'sk
 			custom_trigger_tooltip = {
@@ -45,50 +45,50 @@ pfp_category = {
 				tooltip = pfp_turkestan_required_states_kostanay
 				has_full_control_of_state = 583 #Kostanay
 			}
-			#Ashkhabad
+			#Turkmenia
 			custom_trigger_tooltip = {
-				tooltip = pfp_turkestan_required_states_ashkhabad
-				has_full_control_of_state = 584 #Ashkhabad
+				tooltip = pfp_turkestan_required_states_turkmenia
+				has_full_control_of_state = 584 #Turkmenia
 			}
-			#Navoi
+			#Navoiy
 			custom_trigger_tooltip = {
-				tooltip = pfp_turkestan_required_states_navoi
-				has_full_control_of_state = 585 #Navoi
+				tooltip = pfp_turkestan_required_states_navoiy
+				has_full_control_of_state = 585 #Navoiy
 			}
 			#Alma-Ata
 			custom_trigger_tooltip = {
 				tooltip = pfp_turkestan_required_states_alma_ata
 				has_full_control_of_state = 586 #Alma-Ata
 			}
-			#Ust Urt
+			#Mangystau
 			custom_trigger_tooltip = {
-				tooltip = pfp_turkestan_required_states_ust_urt
-				has_full_control_of_state = 587 #Ust Urt
+				tooltip = pfp_turkestan_required_states_mangystau
+				has_full_control_of_state = 587 #Mangystau
 			}
-			#Semipalatinsk
+			#Abay
 			custom_trigger_tooltip = {
-				tooltip = pfp_turkestan_required_states_semipalatinsk
-				has_full_control_of_state = 588 #Semipalatinsk
+				tooltip = pfp_turkestan_required_states_abay
+				has_full_control_of_state = 588 #Abay
 			}
-			#Ayaguz
+			#Zhetysu
 			custom_trigger_tooltip = {
-				tooltip = pfp_turkestan_required_states_ayaguz
-				has_full_control_of_state = 589 #Ayaguz
+				tooltip = pfp_turkestan_required_states_zhetysu
+				has_full_control_of_state = 589 #Zhetysu
 			}
-			#Akmolinsk
+			#Akmola-Karagandy
 			custom_trigger_tooltip = {
-				tooltip = pfp_turkestan_required_states_akmolinsk
-				has_full_control_of_state = 590 #Akmolinsk
+				tooltip = pfp_turkestan_required_states_akmola_karagandy
+				has_full_control_of_state = 590 #Akmola-Karagandy
 			}
-			#Pamir
+			#Kyrgyzstan
 			custom_trigger_tooltip = {
-				tooltip = pfp_turkestan_required_states_pamir
-				has_full_control_of_state = 732 #Pamir
+				tooltip = pfp_turkestan_required_states_kyrgyzstan
+				has_full_control_of_state = 732 #Kyrgyzstan
 			}
-			#Stalinabad
+			#Tajikistan
 			custom_trigger_tooltip = {
-				tooltip = pfp_turkestan_required_states_stalinabad
-				has_full_control_of_state = 742 #Stalinabad
+				tooltip = pfp_turkestan_required_states_tajikistan
+				has_full_control_of_state = 742 #Tajikistan
 			}
 			#Karakalpakstan
 			custom_trigger_tooltip = {
@@ -105,78 +105,78 @@ pfp_category = {
 				tooltip = pfp_turkestan_required_states_khiva
 				has_full_control_of_state = 831 #Khiva
 			}
-			#Tashauz
+			#Dashoguz
 			custom_trigger_tooltip = {
-				tooltip = pfp_turkestan_required_states_tashauz
-				has_full_control_of_state = 832 #Tashauz
+				tooltip = pfp_turkestan_required_states_dashoguz
+				has_full_control_of_state = 832 #Dashoguz
 			}
-			#Karagandy
+			#Ulytau
 			custom_trigger_tooltip = {
-				tooltip = pfp_turkestan_required_states_karagandy
-				has_full_control_of_state = 881 #Karagandy
+				tooltip = pfp_turkestan_required_states_ulytau
+				has_full_control_of_state = 881 #Ulytau
 			}
 			#Pavlodar
 			custom_trigger_tooltip = {
 				tooltip = pfp_turkestan_required_states_pavlodar
 				has_full_control_of_state = 882 #Pavlodar
 			}
-			#Asgabat
+			#Ashgabat
 			custom_trigger_tooltip = {
-				tooltip = pfp_turkestan_required_states_asgabat
-				has_full_control_of_state = 985 #Asgabat
+				tooltip = pfp_turkestan_required_states_ashgabat
+				has_full_control_of_state = 985 #Ashgabat
 			}
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 402 #Akhtubinsk
-				has_full_control_of_state = 404 #Kyzyl Orda
+				has_full_control_of_state = 402 #Aktobe
+				has_full_control_of_state = 404 #Kyzylorda
 				has_full_control_of_state = 405 #Tashkent
-				has_full_control_of_state = 406 #Guryev
+				has_full_control_of_state = 406 #Atyrau
 				has_full_control_of_state = 407 #Ural'sk
 				has_full_control_of_state = 583 #Kostanay
-				has_full_control_of_state = 584 #Ashkhabad
-				has_full_control_of_state = 585 #Navoi
+				has_full_control_of_state = 584 #Turkmenia
+				has_full_control_of_state = 585 #Navoiy
 				has_full_control_of_state = 586 #Alma-Ata
-				has_full_control_of_state = 587 #Ust Urt
-				has_full_control_of_state = 588 #Semipalatinsk
-				has_full_control_of_state = 589 #Ayaguz
-				has_full_control_of_state = 590 #Akmolinsk
-				has_full_control_of_state = 732 #Pamir
-				has_full_control_of_state = 742 #Stalinabad
+				has_full_control_of_state = 587 #Mangystau
+				has_full_control_of_state = 588 #Abay
+				has_full_control_of_state = 589 #Zhetysu
+				has_full_control_of_state = 590 #Akmola-Karagandy
+				has_full_control_of_state = 732 #Kyrgyzstan
+				has_full_control_of_state = 742 #Tajikistan
 				has_full_control_of_state = 823 #Karakalpakstan
 				has_full_control_of_state = 830 #Bukhara
 				has_full_control_of_state = 831 #Khiva
-				has_full_control_of_state = 832 #Tashauz
-				has_full_control_of_state = 881 #Karagandy
+				has_full_control_of_state = 832 #Dashoguz
+				has_full_control_of_state = 881 #Ulytau
 				has_full_control_of_state = 882 #Pavlodar
-				has_full_control_of_state = 985 #Asgabat
+				has_full_control_of_state = 985 #Ashgabat
 			}
 			NOT = { has_global_flag = pfp_turkestan_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = {
-				state = 402 #Akhtubinsk
-				state = 404 #Kyzyl Orda
+				state = 402 #Aktobe
+				state = 404 #Kyzylorda
 				state = 405 #Tashkent
-				state = 406 #Guryev
+				state = 406 #Atyrau
 				state = 407 #Ural'sk
 				state = 583 #Kostanay
-				state = 584 #Ashkhabad
-				state = 585 #Navoi
+				state = 584 #Turkmenia
+				state = 585 #Navoiy
 				state = 586 #Alma-Ata
-				state = 587 #Ust Urt
-				state = 588 #Semipalatinsk
-				state = 589 #Ayaguz
-				state = 590 #Akmolinsk
-				state = 732 #Pamir
-				state = 742 #Stalinabad
+				state = 587 #Mangystau
+				state = 588 #Abay
+				state = 589 #Zhetysu
+				state = 590 #Akmola-Karagandy
+				state = 732 #Kyrgyzstan
+				state = 742 #Tajikistan
 				state = 823 #Karakalpakstan
 				state = 830 #Bukhara
 				state = 831 #Khiva
-				state = 832 #Tashauz
-				state = 881 #Karagandy
+				state = 832 #Dashoguz
+				state = 881 #Ulytau
 				state = 882 #Pavlodar
-				state = 985 #Asgabat
+				state = 985 #Ashgabat
 			}
 		}
 		icon = generic_military

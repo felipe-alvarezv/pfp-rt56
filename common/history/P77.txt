@@ -97,7 +97,7 @@ add_to_array = { pfp_austria_integration_array = 4 } #Lower Austria
 add_to_array = { pfp_austria_integration_array = 152 } #Upper Austria
 add_to_array = { pfp_austria_integration_array = 153 } #Tirol
 add_to_array = { pfp_austria_integration_array = 848 } #Vorarlberg
-add_to_array = { pfp_austria_integration_array = 1054 } #Steiermark-Karnten
+add_to_array = { pfp_austria_integration_array = 1054 } #Steiermark
 add_to_array = { pfp_austria_integration_array = 1086 } #Burgenland
 
 #Austria Territories

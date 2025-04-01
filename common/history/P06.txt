@@ -94,26 +94,26 @@ recruit_character = P06_neutrality_leader
 recruit_character = P06_fascism_leader
 
 #West Indies Initial States
-add_to_array = { pfp_west_indies_integration_array = 315 } #Cuba
+add_to_array = { pfp_west_indies_integration_array = 315 } #Santiago de Cuba
 add_to_array = { pfp_west_indies_integration_array = 318 } #Haiti
 add_to_array = { pfp_west_indies_integration_array = 319 } #Dominican Republic
 add_to_array = { pfp_west_indies_integration_array = 689 } #Jamaica
 add_to_array = { pfp_west_indies_integration_array = 994 } #La Habana
 
 #West Indies Territories
-add_to_array = { pfp_west_indies_integration_array = 308 } #Leeward Islands
+add_to_array = { pfp_west_indies_integration_array = 308 } #Antigua & Barbuda
 add_to_array = { pfp_west_indies_integration_array = 686 } #Puerto Rico
 add_to_array = { pfp_west_indies_integration_array = 690 } #Northern Bahamas
 add_to_array = { pfp_west_indies_integration_array = 691 } #Trinidad
-add_to_array = { pfp_west_indies_integration_array = 692 } #Windward Islands
+add_to_array = { pfp_west_indies_integration_array = 692 } #Barbados
 add_to_array = { pfp_west_indies_integration_array = 693 } #Southern Bahamas
-add_to_array = { pfp_west_indies_integration_array = 694 } #French Caribbean
+add_to_array = { pfp_west_indies_integration_array = 694 } #Guadeloupe
 add_to_array = { pfp_west_indies_integration_array = 695 } #Curacao
 add_to_array = { pfp_west_indies_integration_array = 696 } #Bermuda
 add_to_array = { pfp_west_indies_integration_array = 972 } #Virgin Islands
 add_to_array = { pfp_west_indies_integration_array = 1050 } #Guantanamo Bay
 add_to_array = { pfp_west_indies_integration_array = 1085 } #Grenada
-add_to_array = { pfp_west_indies_integration_array = 1084 } #St Vincent & the Grenadines
+add_to_array = { pfp_west_indies_integration_array = 1084 } #Saint Vincent
 add_to_array = { pfp_west_indies_integration_array = 1083 } #Saint Lucia
 add_to_array = { pfp_west_indies_integration_array = 1080 } #Martinique
 add_to_array = { pfp_west_indies_integration_array = 1082 } #Dominica

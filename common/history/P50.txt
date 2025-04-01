@@ -94,28 +94,28 @@ recruit_character = P50_neutrality_leader
 recruit_character = P50_fascism_leader
 
 #Yugoslavia Initial States
-add_to_array = { pfp_yugoslavia_integration_array = 45 } #Vojvodina
-add_to_array = { pfp_yugoslavia_integration_array = 105 } #Montenegro
-add_to_array = { pfp_yugoslavia_integration_array = 107 } #Serbia
-add_to_array = { pfp_yugoslavia_integration_array = 108 } #Morava
+add_to_array = { pfp_yugoslavia_integration_array = 45 } #Batschka
+add_to_array = { pfp_yugoslavia_integration_array = 105 } #Crna Gora
+add_to_array = { pfp_yugoslavia_integration_array = 107 } #Šumadija
+add_to_array = { pfp_yugoslavia_integration_array = 108 } #Pomoravlje
 add_to_array = { pfp_yugoslavia_integration_array = 764 } #West Banat
 add_to_array = { pfp_yugoslavia_integration_array = 952 } #Syrmia
 add_to_array = { pfp_yugoslavia_integration_array = 963 } #Raška
 
 #Yugoslavia Territories
-add_to_array = { pfp_yugoslavia_integration_array = 44 } #Albania
+add_to_array = { pfp_yugoslavia_integration_array = 44 } #Toskëria
 add_to_array = { pfp_yugoslavia_integration_array = 48 } #Sofia
 add_to_array = { pfp_yugoslavia_integration_array = 77 } #Dobrudja
-add_to_array = { pfp_yugoslavia_integration_array = 163 } #Zara
+add_to_array = { pfp_yugoslavia_integration_array = 163 } #Zadar
 add_to_array = { pfp_yugoslavia_integration_array = 184 } #Thrace
 add_to_array = { pfp_yugoslavia_integration_array = 211 } #Burgas
 add_to_array = { pfp_yugoslavia_integration_array = 212 } #Plovdiv
 add_to_array = { pfp_yugoslavia_integration_array = 341 } #Edirne
 add_to_array = { pfp_yugoslavia_integration_array = 731 } #Central Macedonia
-add_to_array = { pfp_yugoslavia_integration_array = 736 } #Litorale
+add_to_array = { pfp_yugoslavia_integration_array = 736 } #Littoral
 add_to_array = { pfp_yugoslavia_integration_array = 797 } #Istanbul
 add_to_array = { pfp_yugoslavia_integration_array = 801 } #Moesia
 add_to_array = { pfp_yugoslavia_integration_array = 805 } #Northern Epirus
 add_to_array = { pfp_yugoslavia_integration_array = 852 } #Istria
-add_to_array = { pfp_yugoslavia_integration_array = 910 } #Shkoder
-add_to_array = { pfp_yugoslavia_integration_array = 950 } #Debar
+add_to_array = { pfp_yugoslavia_integration_array = 910 } #Gegëria
+add_to_array = { pfp_yugoslavia_integration_array = 950 } #Tetovo

@@ -20,7 +20,7 @@ l_english:
   pfp_west_indies_required_states_haiti:0 "Controls §Y[318.GetName]§!."
   pfp_west_indies_required_states_dominican_republic:0 "Controls §Y[319.GetName]§!."
   pfp_west_indies_required_states_jamaica:0 "Controls §Y[689.GetName]§!."
-  pfp_west_indies_required_states_cuba:0 "Controls §Y[315.GetName]§!."
+  pfp_west_indies_required_states_santiago_de_cuba:0 "Controls §Y[315.GetName]§!."
   pfp_west_indies_required_states_la_habana:0 "Controls §Y[994.GetName]§!."
   pfp_west_indies_core_states:0 "§YWest Indies§! gains cores on all listed states.\n"
   pfp_west_indies_transfer_states:0 "§YWest Indies§! becomes owner and controller of all listed states.\n"

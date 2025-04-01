@@ -20,10 +20,10 @@ pfp_category = {
 				tooltip = pfp_india_required_states_madras
 				has_full_control_of_state = 423 #Madras
 			}
-			#Abdhra
+			#Andhra
 			custom_trigger_tooltip = {
-				tooltip = pfp_india_required_states_abdhra
-				has_full_control_of_state = 424 #Abdhra
+				tooltip = pfp_india_required_states_andhra
+				has_full_control_of_state = 424 #Andhra
 			}
 			#Mysore
 			custom_trigger_tooltip = {
@@ -104,7 +104,7 @@ pfp_category = {
 		visible = {
 			OR = {
 				has_full_control_of_state = 423 #Madras
-				has_full_control_of_state = 424 #Abdhra
+				has_full_control_of_state = 424 #Andhra
 				has_full_control_of_state = 425 #Mysore
 				has_full_control_of_state = 426 #Orissa
 				has_full_control_of_state = 427 #Hyderabad
@@ -126,7 +126,7 @@ pfp_category = {
 		highlight_states = {
 			highlight_state_targets = { 
 				state = 423 #Madras
-				state = 424 #Abdhra
+				state = 424 #Andhra
 				state = 425 #Mysore
 				state = 426 #Orissa
 				state = 427 #Hyderabad

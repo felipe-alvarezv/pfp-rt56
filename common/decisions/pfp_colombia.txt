@@ -12,37 +12,37 @@ pfp_category = {
 				tooltip = pfp_colombia_required_states_cundinamarca
 				has_full_control_of_state = 306 #Cundinamarca
 			}
-			#Meta
+			#Orinoquia
 			custom_trigger_tooltip = {
-				tooltip = pfp_colombia_required_states_meta
-				has_full_control_of_state = 486 #Meta
+				tooltip = pfp_colombia_required_states_orinoquia
+				has_full_control_of_state = 486 #Orinoquia
 			}
-			#La Libertad
+			#Atlantico
 			custom_trigger_tooltip = {
-				tooltip = pfp_colombia_required_states_la_libertad
-				has_full_control_of_state = 493 #La Libertad
+				tooltip = pfp_colombia_required_states_atlantico
+				has_full_control_of_state = 493 #Atlantico
 			}
-			#Choco
+			#Antioquia
 			custom_trigger_tooltip = {
-				tooltip = pfp_colombia_required_states_choco
-				has_full_control_of_state = 1051 #Choco
+				tooltip = pfp_colombia_required_states_antioquia
+				has_full_control_of_state = 1051 #Antioquia
 			}
 		}
 		visible = {
 			OR = {
 				has_full_control_of_state = 306 #Cundinamarca
-				has_full_control_of_state = 486 #Meta
-				has_full_control_of_state = 493 #La Libertad
-				has_full_control_of_state = 1051 #Choco
+				has_full_control_of_state = 486 #Orinoquia
+				has_full_control_of_state = 493 #Atlantico
+				has_full_control_of_state = 1051 #Antioquia
 			}
 			NOT = { has_global_flag = pfp_colombia_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = {
 				state = 306 #Cundinamarca
-				state = 486 #Meta
-				state = 493 #La Libertad
-				state = 1051 #Choco
+				state = 486 #Orinoquia
+				state = 493 #Atlantico
+				state = 1051 #Antioquia
 			}
 		}
 		icon = generic_military

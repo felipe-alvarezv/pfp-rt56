@@ -18,9 +18,9 @@ l_english:
 
   pfp_colombia:0 "Establish Military Administration in Colombia"
   pfp_colombia_required_states_cundinamarca:0 "Controls §Y[306.GetName]§!."
-  pfp_colombia_required_states_meta:0 "Controls §Y[486.GetName]§!."
-  pfp_colombia_required_states_la_libertad:0 "Controls §Y[493.GetName]§!."
-  pfp_colombia_required_states_choco:0 "Controls §Y[1051.GetName]§!."
+  pfp_colombia_required_states_orinoquia:0 "Controls §Y[486.GetName]§!."
+  pfp_colombia_required_states_atlantico:0 "Controls §Y[493.GetName]§!."
+  pfp_colombia_required_states_antioquia:0 "Controls §Y[1051.GetName]§!."
   pfp_colombia_core_states:0 "§YColombia§! gains cores on all listed states.\n"
   pfp_colombia_transfer_states:0 "§YColombia§! becomes owner and controller of all listed states.\n"
   pfp_colombia_puppet:0 "§YColombia§! becomes a puppet of §Y[ROOT.GetName]§!.\n"

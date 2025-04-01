@@ -95,7 +95,7 @@ recruit_character = P37_fascism_leader
 
 #India Initial States
 add_to_array = { pfp_india_integration_array = 423 } #Madras
-add_to_array = { pfp_india_integration_array = 424 } #Abdhra
+add_to_array = { pfp_india_integration_array = 424 } #Andhra
 add_to_array = { pfp_india_integration_array = 425 } #Mysore
 add_to_array = { pfp_india_integration_array = 426 } #Orissa
 add_to_array = { pfp_india_integration_array = 427 } #Hyderabad

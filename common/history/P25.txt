@@ -104,7 +104,7 @@ add_to_array = { pfp_south_germany_integration_array = 923 } #Baden
 add_to_array = { pfp_south_germany_integration_array = 4 } #Lower Austria
 add_to_array = { pfp_south_germany_integration_array = 39 } #Alto Adige
 add_to_array = { pfp_south_germany_integration_array = 42 } #Moselland
-add_to_array = { pfp_south_germany_integration_array = 102 } #North Slovenia
+add_to_array = { pfp_south_germany_integration_array = 102 } #Drava
 add_to_array = { pfp_south_germany_integration_array = 152 } #Upper Austria
 add_to_array = { pfp_south_germany_integration_array = 153 } #Tyrol
 add_to_array = { pfp_south_germany_integration_array = 736 } #Litorale

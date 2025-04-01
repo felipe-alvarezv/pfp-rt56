@@ -100,8 +100,8 @@ add_to_array = { pfp_central_america_integration_array = 313 } #Guatemala
 add_to_array = { pfp_central_america_integration_array = 314 } #EL Salvador
 add_to_array = { pfp_central_america_integration_array = 316 } #Costa Rica
 add_to_array = { pfp_central_america_integration_array = 317 } #Nicaragua
-add_to_array = { pfp_central_america_integration_array = 937 } #Northern Panama
+add_to_array = { pfp_central_america_integration_array = 937 } #Western Panama
 
 #Central America Territories
-add_to_array = { pfp_central_america_integration_array = 311 } #British Honduras
+add_to_array = { pfp_central_america_integration_array = 311 } #Belize
 add_to_array = { pfp_central_america_integration_array = 685 } #Panama Canal

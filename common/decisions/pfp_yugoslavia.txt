@@ -8,25 +8,25 @@ pfp_category = {
         }
         available = {
             is_subject = no
-            #Vojvodina
+            #Batschka
             custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_vojvodina
-                has_full_control_of_state = 45 #Vojvodina
+                tooltip = pfp_yugoslavia_required_states_batschka
+                has_full_control_of_state = 45 #Batschka
             }
-            #Montenegro
+            #Crna Gora
             custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_montenegro
-                has_full_control_of_state = 105 #Montenegro
+                tooltip = pfp_yugoslavia_required_states_crna_gora
+                has_full_control_of_state = 105 #Crna Gora
             }
-            #Serbia
+            #Šumadija
             custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_serbia
-                has_full_control_of_state = 107 #Serbia
+                tooltip = pfp_yugoslavia_required_states_sumadija
+                has_full_control_of_state = 107 #Šumadija
             }
-            #Morava
+            #Pomoravlje
             custom_trigger_tooltip = {
-                tooltip = pfp_yugoslavia_required_states_morava
-                has_full_control_of_state = 108 #Morava
+                tooltip = pfp_yugoslavia_required_states_pomoravlje
+                has_full_control_of_state = 108 #Pomoravlje
             }
             #West Banat
             custom_trigger_tooltip = {
@@ -46,10 +46,10 @@ pfp_category = {
         }
         visible = {
             OR = {
-                has_full_control_of_state = 45 #Vojvodina
-                has_full_control_of_state = 105 #Montenegro
-                has_full_control_of_state = 107 #Serbia
-                has_full_control_of_state = 108 #Morava
+                has_full_control_of_state = 45 #Batschka
+                has_full_control_of_state = 105 #Crna Gora
+                has_full_control_of_state = 107 #Šumadija
+                has_full_control_of_state = 108 #Pomoravlje
                 has_full_control_of_state = 764 #West Banat
                 has_full_control_of_state = 952 #Syrmia
                 has_full_control_of_state = 963 #Raška
@@ -58,10 +58,10 @@ pfp_category = {
         }
         highlight_states = {
             highlight_state_targets = { 
-                state = 45 #Vojvodina
-                state = 105 #Montenegro
-                state = 107 #Serbia
-                state = 108 #Morava
+                state = 45 #Batschka
+                state = 105 #Crna Gora
+                state = 107 #Šumadija
+                state = 108 #Pomoravlje
                 state = 764 #West Banat
                 state = 952 #Syrmia
                 state = 963 #Raška

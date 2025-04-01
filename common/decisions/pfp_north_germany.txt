@@ -87,10 +87,10 @@ pfp_category = {
 				tooltip = pfp_north_germany_required_states_oberschlesien
 				has_full_control_of_state = 67 #Oberschlesien
 			}
-			#Ostmark
+			#Neumark
 			custom_trigger_tooltip = {
-				tooltip = pfp_north_germany_required_states_ostmark
-				has_full_control_of_state = 68 #Ostmark
+				tooltip = pfp_north_germany_required_states_neumark
+				has_full_control_of_state = 68 #Neumark
 			}
 			#Ostrhineland
 			custom_trigger_tooltip = {
@@ -114,7 +114,7 @@ pfp_category = {
 				has_full_control_of_state = 65 #Sachsen
 				has_full_control_of_state = 66 #Niederschlesien
 				has_full_control_of_state = 67 #Oberschlesien
-				has_full_control_of_state = 68 #Ostmark
+				has_full_control_of_state = 68 #Neumark
 				has_full_control_of_state = 989 #Ostrhineland
 			}
 			NOT = { has_global_flag = pfp_north_germany_flag }
@@ -135,7 +135,7 @@ pfp_category = {
 				state = 65 #Sachsen
 				state = 66 #Niederschlesien
 				state = 67 #Oberschlesien
-				state = 68 #Ostmark
+				state = 68 #Neumark
 				state = 989 #Ostrhineland
 			}
 		}

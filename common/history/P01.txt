@@ -94,9 +94,9 @@ recruit_character = P01_fascism_leader
 
 #Colombia Initial States
 add_to_array = { pfp_colombia_integration_array = 306 } #Cundinamarca
-add_to_array = { pfp_colombia_integration_array = 486 } #Meta
-add_to_array = { pfp_colombia_integration_array = 493 } #La Libertad
-add_to_array = { pfp_colombia_integration_array = 1051 } #Choco
+add_to_array = { pfp_colombia_integration_array = 486 } #Orinoquia
+add_to_array = { pfp_colombia_integration_array = 493 } #Atlantico
+add_to_array = { pfp_colombia_integration_array = 1051 } #Antioquia
 
 #Colombia Territories
 add_to_array = { pfp_colombia_integration_array = 304 } #Panama

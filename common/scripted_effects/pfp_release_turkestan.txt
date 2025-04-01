@@ -2,28 +2,28 @@
 pfp_release_turkestan = {
 	hidden_effect = {
 		#Add cores to Turkestann territory
-		402 = { add_core_of = P51 } #Akhtubinsk
-		404 = { add_core_of = P51 } #Kyzyl Orda
+		402 = { add_core_of = P51 } #Aktobe
+		404 = { add_core_of = P51 } #Kyzylorda
 		405 = { add_core_of = P51 } #Tashkent
-		406 = { add_core_of = P51 } #Guryev
+		406 = { add_core_of = P51 } #Atyrau
 		407 = { add_core_of = P51 } #Ural'sk
 		583 = { add_core_of = P51 } #Kostanay
-		584 = { add_core_of = P51 } #Ashkhabad
-		585 = { add_core_of = P51 } #Navoi
+		584 = { add_core_of = P51 } #Turkmenia
+		585 = { add_core_of = P51 } #Navoiy
 		586 = { add_core_of = P51 } #Alma-Ata
-		587 = { add_core_of = P51 } #Ust Urt
-		588 = { add_core_of = P51 } #Semipalatinsk
-		589 = { add_core_of = P51 } #Ayaguz
-		590 = { add_core_of = P51 } #Akmolinsk
-		732 = { add_core_of = P51 } #Pamir
-		742 = { add_core_of = P51 } #Stalinbad
+		587 = { add_core_of = P51 } #Mangystau
+		588 = { add_core_of = P51 } #Abay
+		589 = { add_core_of = P51 } #Zhetysu
+		590 = { add_core_of = P51 } #Akmola-Karagandy
+		732 = { add_core_of = P51 } #Kyrgyzstan
+		742 = { add_core_of = P51 } #Tajikistan
 		823 = { add_core_of = P51 } #Karakalpakstan
 		830 = { add_core_of = P51 } #Bukhara
 		831 = { add_core_of = P51 } #Khiva
-		832 = { add_core_of = P51 } #Tashauz
-		881 = { add_core_of = P51 } #Karagandy
+		832 = { add_core_of = P51 } #Dashoguz
+		881 = { add_core_of = P51 } #Ulytau
 		882 = { add_core_of = P51 } #Pavlodar
-		985 = { add_core_of = P51 } #Asgabat
+		985 = { add_core_of = P51 } #Ashgabat
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {

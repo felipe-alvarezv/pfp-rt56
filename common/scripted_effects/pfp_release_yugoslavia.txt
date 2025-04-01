@@ -2,10 +2,10 @@
 pfp_release_yugoslavia = {
 	hidden_effect = {
 		#Add cores to Yugoslavian territory
-		45 = { add_core_of = P50 } #Vojvodina
-		105 = { add_core_of = P50 } #Montenegro
-		107 = { add_core_of = P50 } #Serbia
-		108 = { add_core_of = P50 } #Morava
+		45 = { add_core_of = P50 } #Batschka
+		105 = { add_core_of = P50 } #Crna Gora
+		107 = { add_core_of = P50 } #Šumadija
+		108 = { add_core_of = P50 } #Pomoravlje
 		764 = { add_core_of = P50 } #West Banat
 		952 = { add_core_of = P50 } #Syrmia
 		963 = { add_core_of = P50 } #Raška

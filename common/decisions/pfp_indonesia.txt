@@ -7,35 +7,35 @@ pfp_category = {
 		}
 		available = {
 			is_subject = no
-			#Kalimantan
+			#East Kalimantan
 			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_kalimantan
-				has_full_control_of_state = 334 #Kalimantan
+				tooltip = pfp_indonesia_required_states_east_kalimantan
+				has_full_control_of_state = 334 #East Kalimantan
 			}
-			#Java
+			#West Java
 			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_java
-				has_full_control_of_state = 335 #Java	
+				tooltip = pfp_indonesia_required_states_west_java
+				has_full_control_of_state = 335 #West Java	
 			}
 			#Lesser Sunda Islands
 			custom_trigger_tooltip = {
 				tooltip = pfp_indonesia_required_states_lesser_sunda_islands
 				has_full_control_of_state = 667 #Lesser Sunda Islands
 			}
-			#The Moluccas
+			#Moluccan Islands
 			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_the_moluccas
-				has_full_control_of_state = 668 #The Moluccas
+				tooltip = pfp_indonesia_required_states_moluccan_islands
+				has_full_control_of_state = 668 #Moluccan Islands
 			}
-			#Sumatra
+			#South Sumatra
 			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_sumatra
-				has_full_control_of_state = 672 #Sumatra
+				tooltip = pfp_indonesia_required_states_south_sumatra
+				has_full_control_of_state = 672 #South Sumatra
 			}
-			#Sulawesi
+			#South Sulawesi
 			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_sulawesi
-				has_full_control_of_state = 673 #Sulawesi
+				tooltip = pfp_indonesia_required_states_south_sulawesi
+				has_full_control_of_state = 673 #South Sulawesi
 			}
 			#Aru Islads
 			custom_trigger_tooltip = {
@@ -67,45 +67,45 @@ pfp_category = {
 				tooltip = pfp_indonesia_required_states_inner_borneo
 				has_full_control_of_state = 977 #Inner Borneo
 			}
-			#East Kalimantan
+			#West Kalimantan
 			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_east_kalimantan
-				has_full_control_of_state = 978 #East Kalimantan
+				tooltip = pfp_indonesia_required_states_west_kalimantan
+				has_full_control_of_state = 978 #West Kalimantan
 			}
 		}
 		visible = {
 			OR = {
-				has_full_control_of_state = 334 #Kalimantan
-				has_full_control_of_state = 335 #Java
+				has_full_control_of_state = 334 #East Kalimantan
+				has_full_control_of_state = 335 #West Java
 				has_full_control_of_state = 667 #Lesser Sunda Islands
-				has_full_control_of_state = 668 #The Moluccas
-				has_full_control_of_state = 672 #Sumatra
-				has_full_control_of_state = 673 #Sulawesi
+				has_full_control_of_state = 668 #Moluccan Islands
+				has_full_control_of_state = 672 #South Sumatra
+				has_full_control_of_state = 673 #South Sulawesi
 				has_full_control_of_state = 738 #Aru Islands
 				has_full_control_of_state = 974 #North Sumatra
 				has_full_control_of_state = 976 #Central Java
 				has_full_control_of_state = 446 #East Java
 				has_full_control_of_state = 975 #North Sulawesi
 				has_full_control_of_state = 977 #Inner Borneo
-				has_full_control_of_state = 978 #East Kalimantan
+				has_full_control_of_state = 978 #West Kalimantan
 			}
 			NOT = { has_global_flag = pfp_indonesia_flag }
 		}
 		highlight_states = {
 			highlight_state_targets = { 
-				state = 334 #Kalimantan
-				state = 335 #Java
+				state = 334 #East Kalimantan
+				state = 335 #West Java
 				state = 667 #Lesser Sunda Islands
-				state = 668 #The Moluccas
-				state = 672 #Sumatra
-				state = 673 #Sulawesi
+				state = 668 #Moluccan Islands
+				state = 672 #South Sumatra
+				state = 673 #South Sulawesi
 				state = 738 #Aru Islands
 				state = 974 #North Sumatra
 				state = 976 #Central Java
 				state = 446 #East Java
 				state = 975 #North Sulawesi
 				state = 977 #Inner Borneo
-				state = 978 #East Kalimantan
+				state = 978 #West Kalimantan
 			}
 		}
 		icon = generic_military

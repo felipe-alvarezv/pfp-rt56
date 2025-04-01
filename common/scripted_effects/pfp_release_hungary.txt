@@ -4,7 +4,7 @@ pfp_release_hungary = {
 		#Add cores to Hungarian territory
 		43 = { add_core_of = P09 } #Northern Hungary
 		154 = { add_core_of = P09 } #Alföld
-		155 = { add_core_of = P09 } #Transdanubia
+		155 = { add_core_of = P09 } #North Transdanubia
 		913 = { add_core_of = P09 } #Solt-Kiskun
 		1104 = { add_core_of = P09 } #South Transdanubia
 

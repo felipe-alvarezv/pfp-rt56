@@ -3,9 +3,9 @@ pfp_release_colombia = {
 	hidden_effect = {
 		#Add cores to Colombia territory
 		306 = { add_core_of = P01 } #Cundinamarca
-		486 = { add_core_of = P01 } #Meta
-		493 = { add_core_of = P01 } #La Libertad
-		1051 = { add_core_of = P01 } #Choco
+		486 = { add_core_of = P01 } #Orinoquia
+		493 = { add_core_of = P01 } #Atlantico
+		1051 = { add_core_of = P01 } #Antioquia
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {

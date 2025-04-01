@@ -96,12 +96,12 @@ recruit_character = P09_fascism_leader
 #Hungary Initial States
 add_to_array = { pfp_hungary_integration_array = 43 } #Northern Hungary
 add_to_array = { pfp_hungary_integration_array = 154 } #Alfold
-add_to_array = { pfp_hungary_integration_array = 155 } #Transdanubia
+add_to_array = { pfp_hungary_integration_array = 155 } #North Transdanubia
 add_to_array = { pfp_hungary_integration_array = 913 } #Solt-Kiskun
 add_to_array = { pfp_hungary_integration_array = 1104 } #South Transdanubia
 
 #Hungary Territories
-add_to_array = { pfp_hungary_integration_array = 45 } #Vojvodina
+add_to_array = { pfp_hungary_integration_array = 45 } #Batschka
 add_to_array = { pfp_hungary_integration_array = 70 } #Western Slovakia
 add_to_array = { pfp_hungary_integration_array = 71 } #Eastern Slovakia
 add_to_array = { pfp_hungary_integration_array = 73 } #Carpathian Ruthenia
@@ -109,16 +109,16 @@ add_to_array = { pfp_hungary_integration_array = 76 } #North Transylvania
 add_to_array = { pfp_hungary_integration_array = 82 } #Banat
 add_to_array = { pfp_hungary_integration_array = 83 } #Crisana
 add_to_array = { pfp_hungary_integration_array = 84 } #Transylvania
-add_to_array = { pfp_hungary_integration_array = 103 } #Dalmatia
-add_to_array = { pfp_hungary_integration_array = 104 } #Bosnia
-add_to_array = { pfp_hungary_integration_array = 109 } #Croatia
-add_to_array = { pfp_hungary_integration_array = 163 } #Zara
+add_to_array = { pfp_hungary_integration_array = 103 } #Dalmacija
+add_to_array = { pfp_hungary_integration_array = 104 } #Podrinje
+add_to_array = { pfp_hungary_integration_array = 109 } #Zagreb
+add_to_array = { pfp_hungary_integration_array = 163 } #Zadar
 add_to_array = { pfp_hungary_integration_array = 664 } #Southern Slovakia
 add_to_array = { pfp_hungary_integration_array = 764 } #West Banat
 add_to_array = { pfp_hungary_integration_array = 804 } #Herzegovina
 add_to_array = { pfp_hungary_integration_array = 952 } #Syrmia
 add_to_array = { pfp_hungary_integration_array = 958 } #Kvarner
-add_to_array = { pfp_hungary_integration_array = 959 } #Slavonia
+add_to_array = { pfp_hungary_integration_array = 959 } #Slavonija
 add_to_array = { pfp_hungary_integration_array = 961 } #Krajina
 add_to_array = { pfp_hungary_integration_array = 962 } #Posavina
 add_to_array = { pfp_hungary_integration_array = 996 } #Uzhorod

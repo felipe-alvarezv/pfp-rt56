@@ -8,7 +8,7 @@ pfp_release_central_america = {
 		314 = { add_core_of = P08 } #El Salvador
 		316 = { add_core_of = P08 } #Costa Rica
 		317 = { add_core_of = P08 } #Nicaragua
-		937 = { add_core_of = P08 } #Northern Panama
+		937 = { add_core_of = P08 } #Western Panama
 
 		#Set formable puppet as owner and controller of all its cored states
 		every_state = {

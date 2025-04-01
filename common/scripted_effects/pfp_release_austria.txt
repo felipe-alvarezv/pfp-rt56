@@ -6,7 +6,7 @@ pfp_release_austria = {
         152 = { add_core_of = P77 } #Upper Austria
         153 = { add_core_of = P77 } #Tyrol
         848 = { add_core_of = P77 } #Vorarlberg
-        1054 = { add_core_of = P77 } #Steiermark
+        1054 = { add_core_of = P77 } #Styria
         1086 = { add_core_of = P77 } #Burgenland
         
         #Set formable puppet as owner and controller of all its cored states

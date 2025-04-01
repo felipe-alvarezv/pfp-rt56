@@ -56,7 +56,7 @@ pfp_category = {
 				has_full_control_of_state = 314 #El Salvador
 				has_full_control_of_state = 316 #Costa Rica
 				has_full_control_of_state = 317 #Nicaragua
-				has_full_control_of_state = 937 #Northern Panama
+				has_full_control_of_state = 937 #Western Panama
 			}
 			NOT = { has_global_flag = pfp_central_america_flag }
 		}
@@ -68,7 +68,7 @@ pfp_category = {
 				state = 314 #El Salvador
 				state = 316 #Costa Rica
 				state = 317 #Nicaragua
-				state = 937 #Northern Panama
+				state = 937 #Western Panama
 			}
 		}
 		icon = generic_military

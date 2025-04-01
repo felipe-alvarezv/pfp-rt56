@@ -27,10 +27,10 @@ pfp_category = {
                 tooltip = pfp_austria_required_states_vorarlberg
                 has_full_control_of_state = 848 #Vorarlberg
             }
-            #Steiermark
+            #Styria
             custom_trigger_tooltip = {
-                tooltip = pfp_austria_required_states_steiermark
-                has_full_control_of_state = 1054 #Steiermark
+                tooltip = pfp_austria_required_states_styria
+                has_full_control_of_state = 1054 #Styria
             }
             #Burgenland
             custom_trigger_tooltip = {
@@ -44,7 +44,7 @@ pfp_category = {
                 has_full_control_of_state = 152 #Upper Austria
                 has_full_control_of_state = 153 #Tyrol
                 has_full_control_of_state = 848 #Vorarlberg
-                has_full_control_of_state = 1054 #Steiermark
+                has_full_control_of_state = 1054 #Styria
                 has_full_control_of_state = 1086 #Burgenland
             }
             NOT = { has_global_flag = pfp_austria_flag }
@@ -55,7 +55,7 @@ pfp_category = {
                 state = 152 #Upper Austria
                 state = 153 #Tyrol
                 state = 848 #Vorarlberg
-                state = 1054 #Steiermark
+                state = 1054 #Styria
                 state = 1086 #Burgenland
             }
         }

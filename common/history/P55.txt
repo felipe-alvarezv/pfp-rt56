@@ -97,20 +97,20 @@ recruit_character = P55_fascism_leader
 add_to_array = { pfp_argentina_integration_array = 278 } #Pampas
 add_to_array = { pfp_argentina_integration_array = 509 } #Chaco Austral
 add_to_array = { pfp_argentina_integration_array = 510 } #Mesopotamia
-add_to_array = { pfp_argentina_integration_array = 956 } #Santa Fe
-add_to_array = { pfp_argentina_integration_array = 957 } #Formosa
-add_to_array = { pfp_argentina_integration_array = 959 } #Los Andes
+add_to_array = { pfp_argentina_integration_array = 1068 } #Santa Fe
+add_to_array = { pfp_argentina_integration_array = 1069 } #Formosa
+add_to_array = { pfp_argentina_integration_array = 1071 } #Los Andes
 
 #Argentina Territories
 add_to_array = { pfp_argentina_integration_array = 299 } #Falkland Islands
-add_to_array = { pfp_argentina_integration_array = 300 } #Montevideo
+add_to_array = { pfp_argentina_integration_array = 300 } #Uruguay
 add_to_array = { pfp_argentina_integration_array = 301 } #Paraguay
 add_to_array = { pfp_argentina_integration_array = 302 } #La Paz
 add_to_array = { pfp_argentina_integration_array = 487 } #Santa Cruz
 add_to_array = { pfp_argentina_integration_array = 506 } #Antofagasta
 add_to_array = { pfp_argentina_integration_array = 508 } #Tucuman
 add_to_array = { pfp_argentina_integration_array = 511 } #Mendoza
-add_to_array = { pfp_argentina_integration_array = 512 } #Rio Negro
+add_to_array = { pfp_argentina_integration_array = 512 } #Patagonia
 add_to_array = { pfp_argentina_integration_array = 688 } #Chaco Boreal
 add_to_array = { pfp_argentina_integration_array = 720 } #South Georgia
 add_to_array = { pfp_argentina_integration_array = 1059 } #Cerro Largo
@@ -118,5 +118,5 @@ add_to_array = { pfp_argentina_integration_array = 1060 } #Paysandu
 add_to_array = { pfp_argentina_integration_array = 1065 } #Tierra del Fuego
 add_to_array = { pfp_argentina_integration_array = 1066 } #Santa Cruz
 add_to_array = { pfp_argentina_integration_array = 1067 } #Chubut
-add_to_array = { pfp_argentina_integration_array = 1070 } #San Luis y La Pampa
+add_to_array = { pfp_argentina_integration_array = 1070 } #San Luis
 add_to_array = { pfp_argentina_integration_array = 1077 } #Chaco Boreal

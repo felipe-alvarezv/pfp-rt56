@@ -120,9 +120,9 @@ add_to_array = { pfp_brazil_integration_array = 1057 } #Tocatins
 add_to_array = { pfp_brazil_integration_array = 1058 } #Rodonia
 
 #Brazil Territories
-add_to_array = { pfp_brazil_integration_array = 300 } #Montevideo
+add_to_array = { pfp_brazil_integration_array = 300 } #Uruguay
 add_to_array = { pfp_brazil_integration_array = 309 } #Suriname
-add_to_array = { pfp_brazil_integration_array = 310 } #French Guiana
-add_to_array = { pfp_brazil_integration_array = 687 } #British Guyana
+add_to_array = { pfp_brazil_integration_array = 310 } #Guiana
+add_to_array = { pfp_brazil_integration_array = 687 } #Guyana
 add_to_array = { pfp_brazil_integration_array = 1059 } #Cerro Largo
 add_to_array = { pfp_brazil_integration_array = 1060 } #Paysandu

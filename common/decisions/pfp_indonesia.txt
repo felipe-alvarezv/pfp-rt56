@@ -17,6 +17,11 @@ pfp_category = {
 				tooltip = pfp_indonesia_required_states_west_java
 				has_full_control_of_state = 335 #West Java	
 			}
+			#East Java
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_east_java
+				has_full_control_of_state = 446 #East Java
+			}
 			#Lesser Sunda Islands
 			custom_trigger_tooltip = {
 				tooltip = pfp_indonesia_required_states_lesser_sunda_islands
@@ -47,20 +52,15 @@ pfp_category = {
 				tooltip = pfp_indonesia_required_states_north_sumatra
 				has_full_control_of_state = 974 #North Sumatra
 			}
-			#Central Java
-			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_central_java
-				has_full_control_of_state = 976 #Central Java
-			}
-			#East Java
-			custom_trigger_tooltip = {
-				tooltip = pfp_indonesia_required_states_east_java
-				has_full_control_of_state = 446 #East Java
-			}
 			#North Sulawesi
 			custom_trigger_tooltip = {
 				tooltip = pfp_indonesia_required_states_north_sulawesi
 				has_full_control_of_state = 975 #North Sulawesi
+			}
+			#Central Java
+			custom_trigger_tooltip = {
+				tooltip = pfp_indonesia_required_states_central_java
+				has_full_control_of_state = 976 #Central Java
 			}
 			#Inner Borneo
 			custom_trigger_tooltip = {
@@ -77,15 +77,15 @@ pfp_category = {
 			OR = {
 				has_full_control_of_state = 334 #East Kalimantan
 				has_full_control_of_state = 335 #West Java
+				has_full_control_of_state = 446 #East Java
 				has_full_control_of_state = 667 #Lesser Sunda Islands
 				has_full_control_of_state = 668 #Moluccan Islands
 				has_full_control_of_state = 672 #South Sumatra
 				has_full_control_of_state = 673 #South Sulawesi
 				has_full_control_of_state = 738 #Aru Islands
 				has_full_control_of_state = 974 #North Sumatra
-				has_full_control_of_state = 976 #Central Java
-				has_full_control_of_state = 446 #East Java
 				has_full_control_of_state = 975 #North Sulawesi
+				has_full_control_of_state = 976 #Central Java
 				has_full_control_of_state = 977 #Inner Borneo
 				has_full_control_of_state = 978 #West Kalimantan
 			}
@@ -95,15 +95,15 @@ pfp_category = {
 			highlight_state_targets = { 
 				state = 334 #East Kalimantan
 				state = 335 #West Java
+				state = 446 #East Java
 				state = 667 #Lesser Sunda Islands
 				state = 668 #Moluccan Islands
 				state = 672 #South Sumatra
 				state = 673 #South Sulawesi
 				state = 738 #Aru Islands
 				state = 974 #North Sumatra
-				state = 976 #Central Java
-				state = 446 #East Java
 				state = 975 #North Sulawesi
+				state = 976 #Central Java
 				state = 977 #Inner Borneo
 				state = 978 #West Kalimantan
 			}

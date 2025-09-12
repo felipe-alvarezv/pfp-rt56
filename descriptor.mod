@@ -10,5 +10,5 @@ dependencies={
 	"Pipe's Formable Puppets"
 	"The Road to 56"
 }
-supported_version="1.14.5"
+supported_version="1.16.9"
 remote_file_id="2249537694"

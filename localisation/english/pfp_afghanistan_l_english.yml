@@ -16,8 +16,6 @@ l_english:
 	P76_DEF:0 "Afghanistan"
 	P76_ADJ:0 "Afghan"
 
-  P76_GER_subject: "Afghanistan"
-
 	pfp_afghanistan:0 "Establish Military Administration in Afghanistan"
 	pfp_afghanistan_required_states_kabulistan:0 "Controls §Y[267.GetName]§!."
 	pfp_afghanistan_required_states_herat:0 "Controls §Y[415.GetName]§!."

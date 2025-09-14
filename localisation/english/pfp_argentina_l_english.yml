@@ -16,8 +16,6 @@ l_english:
 	P55_DEF:0 "Argentina"
 	P55_ADJ:0 "Argentinian"
 
-	P55_GER_subject: "Argentinien"
-
 	pfp_argentina:0 "Establish Military Administration in the Argentina"
 	pfp_argentina_required_states_pampas:0 "Controls §Y[278.GetName]§!."
 	pfp_argentina_required_states_chaco_austral:0 "Controls §Y[509.GetName]§!."

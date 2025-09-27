@@ -1,0 +1,26 @@
+#Scripted effect to release Croatia (P86)
+pfp_release_croatia = {
+    hidden_effect = {
+        #Add cores to Croatia
+        103 = { add_core_of = P86 } #Dalmacija
+        109 = { add_core_of = P86 } #Zagreb
+        958 = { add_core_of = P86 } #Kvarner
+        959 = { add_core_of = P86 } #Slavonija
+
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = P86 }
+            add_contested_owner = P86
+            transfer_state_to = P86
+        }
+
+        #Transfer all technology to formable puppet
+        P86 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_croatia_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = P86 }
+    }
+}

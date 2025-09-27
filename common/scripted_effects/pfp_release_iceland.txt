@@ -1,0 +1,24 @@
+#Scripted effect to release Iceland (P83)
+pfp_release_iceland = {
+    hidden_effect = {
+        #Add cores to Iceland
+        100 = { add_core_of = P83 } #Hofudborgarsvaedid
+        1043 = { add_core_of = P83 } #Sudurland
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = P83 }
+            add_contested_owner = P83
+            transfer_state_to = P83
+        }
+
+        #Transfer all technology to formable puppet
+        P83 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_iceland_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = P83 }
+    }
+}

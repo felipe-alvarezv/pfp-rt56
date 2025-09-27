@@ -1,0 +1,33 @@
+#Scripted effect to release England (P80)
+pfp_release_england = {
+    hidden_effect = {
+        #Add cores to England
+        123 = { add_core_of = P80 } #South-West England
+        125 = { add_core_of = P80 } #East Anglia
+        126 = { add_core_of = P80 } #Greater London Area
+        127 = { add_core_of = P80 } #Sussex
+        128 = { add_core_of = P80 } #West Midlands
+        129 = { add_core_of = P80 } #East Midlands
+        130 = { add_core_of = P80 } #Yorkshire
+        131 = { add_core_of = P80 } #Northumberland
+        132 = { add_core_of = P80 } #Lancashire
+        338 = { add_core_of = P80 } #Gloucestershire
+        1041 = { add_core_of = P80 } #Cumbria
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = P80 }
+            add_contested_owner = P80
+            transfer_state_to = P80
+        }
+
+        #Transfer all technology to formable puppet
+        P80 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_england_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = P80 }
+    }
+}

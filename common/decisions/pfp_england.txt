@@ -1,0 +1,116 @@
+pfp_category = {
+    pfp_england = {
+        allowed = {
+            NOT = {
+                original_tag = ENG #United Kingdom
+            }
+        }
+        available = {
+            is_subject = no
+            #South-West England
+            custom_trigger_tooltip = {
+                tooltip = pfp_england_required_states_south-west_england
+                has_full_control_of_state = 123 #South-West England
+            }
+            #East Anglia
+            custom_trigger_tooltip = {
+                tooltip = pfp_england_required_states_east_anglia
+                has_full_control_of_state = 125 #East Anglia
+            }
+            #Greater London Area
+            custom_trigger_tooltip = {
+                tooltip = pfp_england_required_states_greater_london_area
+                has_full_control_of_state = 126 #Greater London Area
+            }
+            #Sussex
+            custom_trigger_tooltip = {
+                tooltip = pfp_england_required_states_sussex
+                has_full_control_of_state = 127 #Sussex
+            }
+            #West Midlands
+            custom_trigger_tooltip = {
+                tooltip = pfp_england_required_states_west_midlands
+                has_full_control_of_state = 128 #West Midlands
+            }
+            #East Midlands
+            custom_trigger_tooltip = {
+                tooltip = pfp_england_required_states_east_midlands
+                has_full_control_of_state = 129 #East Midlands
+            }
+            #Yorkshire
+            custom_trigger_tooltip = {
+                tooltip = pfp_england_required_states_yorkshire
+                has_full_control_of_state = 130 #Yorkshire
+            }
+            #Northumberland
+            custom_trigger_tooltip = {
+                tooltip = pfp_england_required_states_northumberland
+                has_full_control_of_state = 131 #Northumberland
+            }
+            #Lancashire
+            custom_trigger_tooltip = {
+                tooltip = pfp_england_required_states_lancashire
+                has_full_control_of_state = 132 #Lancashire
+            }
+            #Gloucestershire
+            custom_trigger_tooltip = {
+                tooltip = pfp_england_required_states_gloucestershire
+                has_full_control_of_state = 338 #Gloucestershire
+            }
+            #Cumbria
+            custom_trigger_tooltip = {
+                tooltip = pfp_england_required_states_cumbria
+                has_full_control_of_state = 1041 #Cumbria
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 123 #South-West England
+                has_full_control_of_state = 125 #East Anglia
+                has_full_control_of_state = 126 #Greater London Area
+                has_full_control_of_state = 127 #Sussex
+                has_full_control_of_state = 128 #West Midlands
+                has_full_control_of_state = 129 #East Midlands
+                has_full_control_of_state = 130 #Yorkshire
+                has_full_control_of_state = 131 #Northumberland
+                has_full_control_of_state = 132 #Lancashire
+                has_full_control_of_state = 338 #Gloucestershire
+                has_full_control_of_state = 1041 #Cumbria
+            }
+            NOT = { has_global_flag = pfp_england_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 123 #South-West England
+                state = 125 #East Anglia
+                state = 126 #Greater London Area
+                state = 127 #Sussex
+                state = 128 #West Midlands
+                state = 129 #East Midlands
+                state = 130 #Yorkshire
+                state = 131 #Northumberland
+                state = 132 #Lancashire
+                state = 338 #Gloucestershire
+                state = 1041 #Cumbria
+                
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_england_core_states
+            custom_effect_tooltip = pfp_england_transfer_states
+            custom_effect_tooltip = pfp_england_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_england = yes
+                set_autonomy = { target = P80 autonomy_state = autonomy_military_administration }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = P80 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

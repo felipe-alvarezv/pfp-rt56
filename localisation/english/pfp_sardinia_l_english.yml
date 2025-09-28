@@ -1,0 +1,23 @@
+﻿#Sardinia - P94 - Localisation
+l_english:
+  P94_communism:0 "Sardinia"
+  P94_communism_DEF:0 "Sardinia"
+  P94_democratic:0 "Sardinia"
+  P94_democratic_DEF:0 "Sardinia"
+  P94_neutrality:1 "Sardinia"
+  P94_neutrality_DEF:1 "Sardinia"
+  P94_fascism:0 "Sardinia"
+  P94_fascism_DEF:0 "Sardinia"
+  P94_communism_ADJ:0 "Sardinian"
+  P94_democratic_ADJ:0 "Sardinian"
+  P94_neutrality_ADJ:0 "Sardinian"
+  P94_fascism_ADJ:0 "Sardinian"
+  P94:0 "Sardinia"
+  P94_DEF:0 "Sardinia"
+  P94_ADJ:0 "Sardinian"
+
+  pfp_sardinia:0 "Establish Military Administration in Sardinia"
+  pfp_sardinia_required_states_sardinia:0 "Controls §Y[114.GetName]§!."
+  pfp_sardinia_core_states:0 "§YSardinia§! gains cores on all listed states.\n"
+  pfp_sardinia_transfer_states:0 "§YSardinia§! becomes owner and controller of all listed states.\n"
+  pfp_sardinia_puppet:0 "§YSardinia§! becomes a puppet of §Y[Root.GetName]§!.\n"

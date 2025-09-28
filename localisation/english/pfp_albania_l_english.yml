@@ -17,8 +17,8 @@ l_english:
   P91_ADJ:0 "Albania"
 
   pfp_albania:0 "Establish Military Administration in Albania"
-  pfp_albania_required_states_toskeria:0 "Controls §YToskeria§!."
-  pfp_albania_required_states_gegeria:0 "Controls §YGegeria§!."
+  pfp_albania_required_states_toskeria:0 "Controls §Y[44.GetName]§!."
+  pfp_albania_required_states_gegeria:0 "Controls §Y[910.GetName]§!."
   pfp_albania_core_states:0 "§YAlbania§! gains cores on all listed states.\n"
   pfp_albania_transfer_states:0 "§YAlbania§! becomes owner and controller of all listed states.\n"
   pfp_albania_puppet:0 "§YAlbania§! becomes a puppet of §Y[Root.GetName]§!.\n"

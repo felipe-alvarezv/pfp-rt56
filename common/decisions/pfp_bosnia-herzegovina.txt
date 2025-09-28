@@ -1,0 +1,69 @@
+pfp_category = {
+    pfp_bosnia-herzegovina = {
+        allowed = {
+            NOT = {
+                original_tag = BOS #Bosnia
+                original_tag = HRZ #Herzegovina
+                original_tag = YUG #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            #Podrinje
+            custom_trigger_tooltip = {
+                tooltip = pfp_bosnia-herzegovina_required_states_podrinje
+                has_full_control_of_state = 104 #Podrinje
+            }
+            #Herzegovina
+            custom_trigger_tooltip = {
+                tooltip = pfp_bosnia-herzegovina_required_states_herzegovina
+                has_full_control_of_state = 804 #Herzegovina
+            }
+            #Krajina
+            custom_trigger_tooltip = {
+                tooltip = pfp_bosnia-herzegovina_required_states_krajina
+                has_full_control_of_state = 961 #Krajina
+            }
+            #Posavina
+            custom_trigger_tooltip = {
+                tooltip = pfp_bosnia-herzegovina_required_states_posavina
+                has_full_control_of_state = 962 #Posavina
+            }
+
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 104 #Bosnia
+                has_full_control_of_state = 804 #Herzegovina
+                has_full_control_of_state = 961 #Krajina
+                has_full_control_of_state = 962 #Posavina
+            }
+            NOT = { has_global_flag = pfp_bosnia-herzegovina_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 104 #Bosnia
+                state = 804 #Herzegovina
+                state = 961 #Krajina
+                state = 962 #Posavina
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_bosnia-herzegovina_core_states
+            custom_effect_tooltip = pfp_bosnia-herzegovina_transfer_states
+            custom_effect_tooltip = pfp_bosnia-herzegovina_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_bosnia-herzegovina = yes
+                set_autonomy = { target = P88 autonomy_state = autonomy_military_administration }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = P88 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

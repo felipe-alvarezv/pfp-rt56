@@ -1,0 +1,26 @@
+#Scripted effect to release Bosnia-Herzegovina (P88)
+pfp_release_bosnia-herzegovina = {
+    hidden_effect = {
+        #Add cores to Bosnia-Herzegovina
+        104 = { add_core_of = P88 } #Podrinje
+        804 = { add_core_of = P88 } #Herzegovina
+        961 = { add_core_of = P88 } #Krajina
+        962 = { add_core_of = P88 } #Posavina
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = P88 }
+            add_contested_owner = P88
+            transfer_state_to = P88
+        }
+
+        #Transfer all technology to formable puppet
+        P88 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_bosnia-herzegovina_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = P88 }
+    }
+}

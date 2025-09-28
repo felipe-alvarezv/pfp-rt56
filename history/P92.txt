@@ -1,0 +1,107 @@
+#Lombardy-Venetia
+capital = 160 #Veneto
+
+# Research Slots, Stability, War Support, and Ideas
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.5
+add_ideas = {
+    limited_conscription
+    export_focus
+    partial_economic_mobilisation
+}
+
+# Default Technology
+set_technology = {
+    support_weapons = 1
+    infantry_weapons = 1
+    infantry_weapons1 = 1
+    motorised_infantry = 1
+    tech_support = 1
+    tech_engineers = 1
+    tech_recon = 1
+    gw_artillery = 1
+    early_fighter = 1
+    early_bomber = 1
+}
+
+# Naval Technology
+if = {
+    limit = { not = { has_dlc = "Man the Guns" } }
+    set_technology = {
+        early_destroyer = 1
+        early_submarine = 1
+        transport = 1
+    }
+}
+if = {
+    limit = { has_dlc = "Man the Guns" }
+    set_technology = {
+        early_ship_hull_light = 1
+        early_ship_hull_submarine = 1
+        mtg_transport = 1
+
+        sonar = 1
+        basic_depth_charges = 1
+        basic_torpedo = 1
+        basic_battery = 1
+        basic_naval_mines = 1
+        submarine_mine_laying = 1
+    }
+}
+
+# Tank Technology
+if = {
+    limit = {
+        NOT = { has_dlc = "No Step Back" }
+    }
+    set_technology = {
+        gwtank = 1
+    }
+}
+if = {
+    limit = {
+        has_dlc = "No Step Back"
+    }
+    set_technology = {
+        gwtank_chassis = 1
+    }
+}
+
+# PP and Convoys
+add_political_power = 600
+set_convoys = 100
+
+# Politics
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1932.11.10"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    communism = 25
+    democratic = 25
+    neutrality = 25
+    fascism = 25
+}
+
+#Characters
+recruit_character = P92_communism_leader
+recruit_character = P92_democratic_leader
+recruit_character = P92_neutrality_leader
+recruit_character = P92_fascism_leader
+
+#Lombardy-Venetia Initial States
+add_to_array = { pfp_lombardy-venetia_integration_array = 159 } #Lombardia
+add_to_array = { pfp_lombardy-venetia_integration_array = 160 } #Veneto
+add_to_array = { pfp_lombardy-venetia_integration_array = 912 } #Friuli
+
+#Lombardy-Venetia Territories
+add_to_array = { pfp_lombardy-venetia_integration_array = 39 } #Alto Adige
+add_to_array = { pfp_lombardy-venetia_integration_array = 103 } #Dalmacija
+add_to_array = { pfp_lombardy-venetia_integration_array = 163 } #Zadar
+add_to_array = { pfp_lombardy-venetia_integration_array = 736 } #Littoral
+add_to_array = { pfp_lombardy-venetia_integration_array = 850 } #Trentino
+add_to_array = { pfp_lombardy-venetia_integration_array = 852 } #Istria
+add_to_array = { pfp_lombardy-venetia_integration_array = 958 } #Kvarner

@@ -1,0 +1,60 @@
+pfp_category = {
+    pfp_papal_states = {
+        allowed = {
+            NOT = {
+                original_tag = ITA #Italy
+                original_tag = PAP #Papal States
+            }
+        }
+        available = {
+            is_subject = no
+            #Lazio
+            custom_trigger_tooltip = {
+                tooltip = pfp_papal_states_required_states_lazio
+                has_full_control_of_state = 2 #Lazio
+            }
+            #Emilia Romagna
+            custom_trigger_tooltip = {
+                tooltip = pfp_papal_states_required_states_emilia_romagna
+                has_full_control_of_state = 161 #Emilia Romagna
+            }
+            #Marche
+            custom_trigger_tooltip = {
+                tooltip = pfp_papal_states_required_states_marche
+                has_full_control_of_state = 957 #Marche
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 2 #Lazio
+                has_full_control_of_state = 161 #Emilia Romagna
+                has_full_control_of_state = 957 #Marche
+            }
+            NOT = { has_global_flag = pfp_papal_states_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 2 #Lazio
+                state = 161 #Emilia Romagna
+                state = 957 #Marche
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_papal_states_core_states
+            custom_effect_tooltip = pfp_papal_states_transfer_states
+            custom_effect_tooltip = pfp_papal_states_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_papal_states = yes
+                set_autonomy = { target = P96 autonomy_state = autonomy_military_administration }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = P96 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

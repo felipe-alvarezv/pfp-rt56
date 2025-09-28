@@ -1,0 +1,25 @@
+#Scripted effect to release Papal States (P96)
+pfp_release_papal_states = {
+    hidden_effect = {
+        #Add cores to Papal States
+        2 = { add_core_of = P96 } #Lazio
+        161 = { add_core_of = P96 } #Emilia Romagna
+        957 = { add_core_of = P96 } #Marche
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = P96 }
+            add_contested_owner = P96
+            transfer_state_to = P96
+        }
+
+        #Transfer all technology to formable puppet
+        P96 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_papal_states_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = P96 }
+    }
+}

@@ -17,9 +17,9 @@ l_english:
   P14_ADJ:0 "Greek"
 
   pfp_greece:0 "Establish Military Administration in Greece"
-  pfp_greece_required_states_attica:0 "Controls §YCentral Greece§!."
-  pfp_greece_required_states_epirus:0 "Controls §YEpirus§!."
-  pfp_greece_required_states_peloponnese:0 "Controls §YPeloponnese§!."
+  pfp_greece_required_states_attica:0 "Controls §Y[47.GetName]§!."
+  pfp_greece_required_states_epirus:0 "Controls §Y[185.GetName]§!."
+  pfp_greece_required_states_peloponnese:0 "Controls §Y[186.GetName]§!."
   pfp_greece_core_states:0 "§YGreece§! gains cores on all listed states.\n"
   pfp_greece_transfer_states:0 "§YGreece§! becomes owner and controller of all listed states.\n"
   pfp_greece_puppet:0 "§YGreece§! becomes a puppet of §Y[Root.GetName]§!.\n"

@@ -1,0 +1,24 @@
+#Scripted effect to release Serbia (P89)
+pfp_release_serbia = {
+    hidden_effect = {
+        #Add cores to Serbia
+        107 = { add_core_of = P89 } #Sumadija
+        108 = { add_core_of = P89 } #Pomoravlje
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = P89 }
+            add_contested_owner = P89
+            transfer_state_to = P89
+        }
+
+        #Transfer all technology to formable puppet
+        P89 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_serbia_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = P89 }
+    }
+}

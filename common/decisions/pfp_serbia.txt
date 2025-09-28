@@ -1,0 +1,53 @@
+pfp_category = {
+    pfp_serbia = {
+        allowed = {
+            NOT = {
+                original_tag = SER #Serbia
+                original_tag = YUG #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            #Sumadija
+            custom_trigger_tooltip = {
+                tooltip = pfp_serbia_required_states_sumadija
+                has_full_control_of_state = 107 #Sumadija
+            }
+            #Pomoravlje
+            custom_trigger_tooltip = {
+                tooltip = pfp_serbia_required_states_pomoravlje
+                has_full_control_of_state = 108 #Pomoravlje
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 107 #Sumadija
+                has_full_control_of_state = 108 #Pomoravlje
+            }
+            NOT = { has_global_flag = pfp_serbia_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 107 #Sumadija
+                state = 108 #Pomoravlje
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_serbia_core_states
+            custom_effect_tooltip = pfp_serbia_transfer_states
+            custom_effect_tooltip = pfp_serbia_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_serbia = yes
+                set_autonomy = { target = P89 autonomy_state = autonomy_military_administration }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = P89 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

@@ -1,5 +1,5 @@
-#Serbia
-capital = 107 #Serbia
+#Macedonia
+capital = 106 #Macedonia
 
 # Research Slots, Stability, War Support, and Ideas
 set_research_slots = 3
@@ -87,23 +87,11 @@ set_popularities = {
 }
 
 #Characters
-recruit_character = P89_communism_leader
-recruit_character = P89_democratic_leader
-recruit_character = P89_neutrality_leader
-recruit_character = P89_fascism_leader
+recruit_character = P98_communism_leader
+recruit_character = P98_democratic_leader
+recruit_character = P98_neutrality_leader
+recruit_character = P98_fascism_leader
 
-#Serbia Initial States
-add_to_array = { pfp_serbia_integration_array = 107 } #Sumadija
-add_to_array = { pfp_serbia_integration_array = 108 } #Pomoravlje
-
-#Serbia Territories
-add_to_array = { pfp_serbia_integration_array = 45 } #Batschka
-add_to_array = { pfp_serbia_integration_array = 105 } #Crna Gora
-add_to_array = { pfp_serbia_integration_array = 106 } #Makedonija
-add_to_array = { pfp_serbia_integration_array = 764 } #West Banat
-add_to_array = { pfp_serbia_integration_array = 802 } #Metohija
-add_to_array = { pfp_serbia_integration_array = 803 } #Pirot
-add_to_array = { pfp_serbia_integration_array = 950 } #Tetovo
-add_to_array = { pfp_serbia_integration_array = 952 } #Srem
-add_to_array = { pfp_serbia_integration_array = 953 } #Kosovo
-add_to_array = { pfp_serbia_integration_array = 963 } #Raska
+#Macedonia Initial States
+add_to_array = { pfp_macedonia_integration_array = 106 } #Makedonija
+add_to_array = { pfp_macedonia_integration_array = 950 } #Tetovo

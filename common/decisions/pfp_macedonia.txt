@@ -1,0 +1,53 @@
+pfp_category = {
+    pfp_macedonia = {
+        allowed = {
+            NOT = {
+                original_tag = MAC #Macedonia
+                original_tag = YUG #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            #Makedonija
+            custom_trigger_tooltip = {
+                tooltip = pfp_macedonia_required_states_makedonija
+                has_full_control_of_state = 106 #Makedonija
+            }
+            #Tetovo
+            custom_trigger_tooltip = {
+                tooltip = pfp_macedonia_required_states_tetovo
+                has_full_control_of_state = 950 #Tetovo
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 106 #Makedonija
+                has_full_control_of_state = 950 #Tetovo
+            }
+            NOT = { has_global_flag = pfp_macedonia_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 106 #Makedonija
+                state = 950 #Tetovo
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_macedonia_core_states
+            custom_effect_tooltip = pfp_macedonia_transfer_states
+            custom_effect_tooltip = pfp_macedonia_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_macedonia = yes
+                set_autonomy = { target = P98 autonomy_state = autonomy_military_administration }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = P98 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

@@ -97,4 +97,6 @@ add_to_array = { pfp_albania_integration_array = 44 } #Toskeria
 add_to_array = { pfp_albania_integration_array = 910 } #Gegeria
 
 #Albania Territories
+add_to_array = { pfp_albania_integration_array = 802 } #Metohija
 add_to_array = { pfp_albania_integration_array = 805 } #Northern Epirus
+add_to_array = { pfp_albania_integration_array = 953 } #Kosovo

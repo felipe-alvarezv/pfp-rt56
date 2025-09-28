@@ -1,0 +1,24 @@
+#Scripted effect to release Albania (P91)
+pfp_release_albania = {
+    hidden_effect = {
+        #Add cores to Albania
+        44 = { add_core_of = P91 } #Toskeria
+        910 = { add_core_of = P91 } #Gegeria
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = P91 }
+            add_contested_owner = P91
+            transfer_state_to = P91
+        }
+
+        #Transfer all technology to formable puppet
+        P91 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_albania_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = P91 }
+    }
+}

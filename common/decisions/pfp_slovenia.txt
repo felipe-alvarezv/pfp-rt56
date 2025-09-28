@@ -1,0 +1,60 @@
+pfp_category = {
+    pfp_slovenia = {
+        allowed = {
+            NOT = {
+                original_tag = SLV #Slovenia
+                original_tag = YUG #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            #Podravska
+            custom_trigger_tooltip = {
+                tooltip = pfp_slovenia_required_states_podravska
+                has_full_control_of_state = 102 #Podravska
+            }
+            #Ljubljanas
+            custom_trigger_tooltip = {
+                tooltip = pfp_slovenia_required_states_ljubljana
+                has_full_control_of_state = 853 #Ljubljana
+            }
+            #Prekmurje
+            custom_trigger_tooltip = {
+                tooltip = pfp_slovenia_required_states_prekmurje
+                has_full_control_of_state = 956 #Prekmurje
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 102 #Podravska
+                has_full_control_of_state = 853 #Ljubljana
+                has_full_control_of_state = 956 #Prekmurje
+            }
+            NOT = { has_global_flag = pfp_slovenia_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 102 #Podravska
+                state = 853 #Ljubljana
+                state = 956 #Prekmurje
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_slovenia_core_states
+            custom_effect_tooltip = pfp_slovenia_transfer_states
+            custom_effect_tooltip = pfp_slovenia_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_slovenia = yes
+                set_autonomy = { target = P87 autonomy_state = autonomy_military_administration }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = P87 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

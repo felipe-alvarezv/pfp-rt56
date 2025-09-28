@@ -1,0 +1,25 @@
+#Scripted effect to release Slovenia (P87)
+pfp_release_slovenia = {
+    hidden_effect = {
+        #Add cores to Slovenia
+        102 = { add_core_of = P87 } #Podravska
+        853 = { add_core_of = P87 } #Ljubljana
+        956 = { add_core_of = P87 } #Prekmurje
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = P87 }
+            add_contested_owner = P87
+            transfer_state_to = P87
+        }
+
+        #Transfer all technology to formable puppet
+        P87 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_slovenia_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = P87 }
+    }
+}

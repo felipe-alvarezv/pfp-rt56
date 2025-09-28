@@ -1,0 +1,46 @@
+pfp_category = {
+    pfp_piedmont = {
+        allowed = {
+            NOT = {
+                original_tag = ITA #Italy
+                original_tag = SPM #Sardinia-Piedmont
+            }
+        }
+        available = {
+            is_subject = no
+            #Piedmonte
+            custom_trigger_tooltip = {
+                tooltip = pfp_piedmont_required_states_piedmonte
+                has_full_control_of_state = 158 #Piedmonte
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 158 #Piedmonte
+            }
+            NOT = { has_global_flag = pfp_piedmont_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 158 #Piedmonte
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_piedmont_core_states
+            custom_effect_tooltip = pfp_piedmont_transfer_states
+            custom_effect_tooltip = pfp_piedmont_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_piedmont = yes
+                set_autonomy = { target = P93 autonomy_state = autonomy_military_administration }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = P93 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

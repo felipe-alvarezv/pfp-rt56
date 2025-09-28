@@ -1,0 +1,27 @@
+#Scripted effect to release Two Sicilies (P97)
+pfp_release_two_sicilies = {
+    hidden_effect = {
+        #Add cores to Two Sicilies
+        115 = { add_core_of = P97 } #Sicily
+        117 = { add_core_of = P97 } #Campania
+        156 = { add_core_of = P97 } #Calabria
+        157 = { add_core_of = P97 } #Abruzzo
+        849 = { add_core_of = P97 } #Puglia
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = P97 }
+            add_contested_owner = P97
+            transfer_state_to = P97
+        }
+
+        #Transfer all technology to formable puppet
+        P97 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_two_sicilies_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = P97 }
+    }
+}

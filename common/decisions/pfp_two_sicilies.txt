@@ -1,0 +1,74 @@
+pfp_category = {
+    pfp_two_sicilies = {
+        allowed = {
+            NOT = {
+                original_tag = ITA #Italy
+                original_tag = TTS #The Two Sicilies
+            }
+        }
+        available = {
+            is_subject = no
+            #Sicily
+            custom_trigger_tooltip = {
+                tooltip = pfp_two_sicilies_required_states_sicily
+                has_full_control_of_state = 115 #Sicily
+            }
+            #Campania
+            custom_trigger_tooltip = {
+                tooltip = pfp_two_sicilies_required_states_campania
+                has_full_control_of_state = 117 #Campania
+            }
+            #Calabria
+            custom_trigger_tooltip = {
+                tooltip = pfp_two_sicilies_required_states_calabria
+                has_full_control_of_state = 156 #Calabria
+            }
+            #Abruzzo
+            custom_trigger_tooltip = {
+                tooltip = pfp_two_sicilies_required_states_abruzzo
+                has_full_control_of_state = 157 #Abruzzo
+            }
+            #Puglia
+            custom_trigger_tooltip = {
+                tooltip = pfp_two_sicilies_required_states_puglia
+                has_full_control_of_state = 849 #Puglia
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 115 #Sicily
+                has_full_control_of_state = 117 #Campania
+                has_full_control_of_state = 156 #Calabria
+                has_full_control_of_state = 157 #Abruzzo
+                has_full_control_of_state = 849 #Puglia
+            }
+            NOT = { has_global_flag = pfp_two_sicilies_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 115 #Sicily
+                state = 117 #Campania
+                state = 156 #Calabria
+                state = 157 #Abruzzo
+                state = 849 #Puglia
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_two_sicilies_core_states
+            custom_effect_tooltip = pfp_two_sicilies_transfer_states
+            custom_effect_tooltip = pfp_two_sicilies_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_two_sicilies = yes
+                set_autonomy = { target = P97 autonomy_state = autonomy_military_administration }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = P97 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

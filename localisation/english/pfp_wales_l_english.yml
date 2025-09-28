@@ -1,0 +1,23 @@
+﻿#Wales - P82 - Localisation
+l_english:
+  P82_communism:0 "Wales"
+  P82_communism_DEF:0 "Wales"
+  P82_democratic:0 "Wales"
+  P82_democratic_DEF:0 "Wales"
+  P82_neutrality:1 "Wales"
+  P82_neutrality_DEF:1 "Wales"
+  P82_fascism:0 "Wales"
+  P82_fascism_DEF:0 "Wales"
+  P82_communism_ADJ:0 "Welsh"
+  P82_democratic_ADJ:0 "Welsh"
+  P82_neutrality_ADJ:0 "Welsh"
+  P82_fascism_ADJ:0 "Welsh"
+  P82:0 "Wales"
+  P82_DEF:0 "Wales"
+  P82_ADJ:0 "Welsh"
+
+  pfp_wales:0 "Establish Military Administration in Wales"
+  pfp_wales_required_states_wales:0 "Controls §Y[122.GetName]§!."
+  pfp_wales_core_states:0 "§YWales§! gains cores on all listed states.\n"
+  pfp_wales_transfer_states:0 "§YWales§! becomes owner and controller of all listed states.\n"
+  pfp_wales_puppet:0 "§YWales§! becomes a puppet of §Y[Root.GetName]§!.\n"

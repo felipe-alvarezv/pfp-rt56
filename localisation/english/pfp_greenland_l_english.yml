@@ -1,0 +1,23 @@
+﻿#Greenland - P85 - Localisation
+l_english:
+  P85_communism:0 "Greenland"
+  P85_communism_DEF:0 "Greenland"
+  P85_democratic:0 "Greenland"
+  P85_democratic_DEF:0 "Greenland"
+  P85_neutrality:1 "Greenland"
+  P85_neutrality_DEF:1 "Greenland"
+  P85_fascism:0 "Greenland"
+  P85_fascism_DEF:0 "Greenland"
+  P85_communism_ADJ:0 "Greenlandic"
+  P85_democratic_ADJ:0 "Greenlandic"
+  P85_neutrality_ADJ:0 "Greenlandic"
+  P85_fascism_ADJ:0 "Greenlandic"
+  P85:0 "Greenland"
+  P85_DEF:0 "Greenland"
+  P85_ADJ:0 "Greenlandic"
+
+  pfp_greenland:0 "Establish Military Administration in Greenland"
+  pfp_greenland_required_states_greenland:0 "Controls §Y[101.GetName]§!."
+  pfp_greenland_core_states:0 "§YGreenland§! gains cores on all listed states.\n"
+  pfp_greenland_transfer_states:0 "§YGreenland§! becomes owner and controller of all listed states.\n"
+  pfp_greenland_puppet:0 "§YGreenland§! becomes a puppet of §Y[Root.GetName]§!.\n"

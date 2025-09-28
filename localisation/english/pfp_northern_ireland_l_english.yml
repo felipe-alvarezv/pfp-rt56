@@ -1,0 +1,23 @@
+﻿#Northern Ireland - P84 - Localisation
+l_english:
+  P84_communism:0 "Northern Ireland"
+  P84_communism_DEF:0 "Northern Ireland"
+  P84_democratic:0 "Northern Ireland"
+  P84_democratic_DEF:0 "Northern Ireland"
+  P84_neutrality:1 "Northern Ireland"
+  P84_neutrality_DEF:1 "Northern Ireland"
+  P84_fascism:0 "Northern Ireland"
+  P84_fascism_DEF:0 "Northern Ireland"
+  P84_communism_ADJ:0 "Northern Irish"
+  P84_democratic_ADJ:0 "Northern Irish"
+  P84_neutrality_ADJ:0 "Northern Irish"
+  P84_fascism_ADJ:0 "Northern Irish"
+  P84:0 "Northern Ireland"
+  P84_DEF:0 "Northern Ireland"
+  P84_ADJ:0 "Northern Irish"
+
+  pfp_northern_ireland:0 "Establish Military Administration in Northern Ireland"
+  pfp_northern_ireland_required_states_northern_ireland:0 "Controls §Y[119.GetName]§!."
+  pfp_northern_ireland_core_states:0 "§YNorthern Ireland§! gains cores on all listed states.\n"
+  pfp_northern_ireland_transfer_states:0 "§YNorthern Ireland§! becomes owner and controller of all listed states.\n"
+  pfp_northern_ireland_puppet:0 "§YNorthern Ireland§! becomes a puppet of §Y[Root.GetName]§!.\n"

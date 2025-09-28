@@ -1,0 +1,23 @@
+#Scripted effect to release Tuscany (P95)
+pfp_release_tuscany = {
+    hidden_effect = {
+        #Add cores to Tuscany
+        162 = { add_core_of = P95 } #Toscana
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = P95 }
+            add_contested_owner = P95
+            transfer_state_to = P95
+        }
+
+        #Transfer all technology to formable puppet
+        P95 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_tuscany_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = P95 }
+    }
+}

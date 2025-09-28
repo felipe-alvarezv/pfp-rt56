@@ -1,0 +1,53 @@
+pfp_category = {
+    pfp_montenegro = {
+        allowed = {
+            NOT = {
+                original_tag = MNT #Montenegro
+                original_tag = YUG #Yugoslavia
+            }
+        }
+        available = {
+            is_subject = no
+            #Crna Gora
+            custom_trigger_tooltip = {
+                tooltip = pfp_montenegro_required_states_crna_gora
+                has_full_control_of_state = 105 #Crna Gora
+            }
+            #Raska
+            custom_trigger_tooltip = {
+                tooltip = pfp_montenegro_required_states_raska
+                has_full_control_of_state = 963 #Raska
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 105 #Crna Gora
+                has_full_control_of_state = 963 #Raska
+            }
+            NOT = { has_global_flag = pfp_montenegro_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 105 #Crna Gora
+                state = 963 #Raska
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_montenegro_core_states
+            custom_effect_tooltip = pfp_montenegro_transfer_states
+            custom_effect_tooltip = pfp_montenegro_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_montenegro = yes
+                set_autonomy = { target = P90 autonomy_state = autonomy_military_administration }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = P90 }
+                pfp_set_generic_portrait = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

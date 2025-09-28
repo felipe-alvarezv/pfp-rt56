@@ -1,0 +1,24 @@
+#Scripted effect to release Montenegro (P90)
+pfp_release_montenegro = {
+    hidden_effect = {
+        #Add cores to Montenegro
+        105 = { add_core_of = P90 } #Crna Gora
+        963 = { add_core_of = P90 } #Raska
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = P90 }
+            add_contested_owner = P90
+            transfer_state_to = P90
+        }
+
+        #Transfer all technology to formable puppet
+        P90 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_montenegro_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = P90 }
+    }
+}

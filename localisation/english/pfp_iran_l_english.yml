@@ -16,7 +16,7 @@ l_english:
   P71_DEF:0 "Iran"
   P71_ADJ:0 "Iranian"
 
-  pfp_iran:0 "Establish Military Administration in Iran"
+  pfp_iran:0 "Establish Military Occupation in Iran"
   pfp_iran_required_states_tehran:0 "Controls §Y[266.GetName]§!."
   pfp_iran_required_states_sistan_o_balochistan:0 "Controls §Y[410.GetName]§!."
   pfp_iran_required_states_esfahan_o_yazd:0 "Controls §Y[411.GetName]§!."

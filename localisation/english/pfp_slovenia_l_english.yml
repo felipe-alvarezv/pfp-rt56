@@ -16,7 +16,7 @@ l_english:
   P87_DEF:0 "Slovenia"
   P87_ADJ:0 "Slovenian"
 
-  pfp_slovenia:0 "Establish Military Administration in Slovenia"
+  pfp_slovenia:0 "Establish Military Occupation in Slovenia"
   pfp_slovenia_required_states_podravska:0 "Controls §Y[102.GetName]§!."
   pfp_slovenia_required_states_ljubljana:0 "Controls §Y[853.GetName]§!."
   pfp_slovenia_required_states_prekmurje:0 "Controls §Y[956.GetName]§!."

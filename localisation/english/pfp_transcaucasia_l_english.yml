@@ -16,7 +16,7 @@ l_english:
   P28_DEF:0 "Transcaucasia"
   P28_ADJ:0 "Transcaucasian"
 
-  pfp_transcaucasia:0 "Establish Military Administration in Transcaucasia"
+  pfp_transcaucasia:0 "Establish Military Occupation in Transcaucasia"
   pfp_transcaucasia_required_states_azerbaijan:0 "Controls §Y[229.GetName]§!."
   pfp_transcaucasia_required_states_armenia:0 "Controls §Y[230.GetName]§!."
   pfp_transcaucasia_required_states_georgia:0 "Controls §Y[231.GetName]§!."

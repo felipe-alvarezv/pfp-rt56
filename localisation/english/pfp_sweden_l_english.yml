@@ -16,7 +16,7 @@ l_english:
   P74_DEF:0 "Sweden"
   P74_ADJ:0 "Swedish"
 
-  pfp_sweden:0 "Establish Military Administration in Sweden"
+  pfp_sweden:0 "Establish Military Occupation in Sweden"
   pfp_sweden_required_states_smaland:0 "Controls §Y[139.GetName]§!."
   pfp_sweden_required_states_vastergotland:0 "Controls §Y[140.GetName]§!."
   pfp_sweden_required_states_bohuslan:0 "Controls §Y[969.GetName]§!."

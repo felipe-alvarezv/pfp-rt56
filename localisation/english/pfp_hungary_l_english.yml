@@ -16,7 +16,7 @@ l_english:
   P09_DEF:0 "Hungary"
   P09_ADJ:0 "Hungarian"
 
-  pfp_hungary:0 "Establish Military Administration in Hungary"
+  pfp_hungary:0 "Establish Military Occupation in Hungary"
   pfp_hungary_required_states_northern_hungary:0 "Controls §Y[43.GetName]§!."
   pfp_hungary_required_states_alfold:0 "Controls §Y[154.GetName]§!."
   pfp_hungary_required_states_north_transdanubia:0 "Controls §Y[155.GetName]§!."

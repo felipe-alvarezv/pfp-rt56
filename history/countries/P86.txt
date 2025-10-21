@@ -100,4 +100,5 @@ add_to_array = { pfp_croatia_integration_array = 959 } #Slavonija
 
 #Croatia Territories
 add_to_array = { pfp_croatia_integration_array = 163 } #Zara
+add_to_array = { pfp_croatia_integration_array = 804 } #Herzegovina
 add_to_array = { pfp_croatia_integration_array = 852 } #Istria

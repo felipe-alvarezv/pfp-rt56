@@ -16,7 +16,7 @@ l_english:
   P56_DEF:0 "Peru"
   P56_ADJ:0 "Peruvian"
 
-  pfp_peru:0 "Establish Military Administration in the Peru"
+  pfp_peru:0 "Establish Military Occupation in the Peru"
   pfp_peru_required_states_lima:0 "Controls §Y[303.GetName]§!."
   pfp_peru_required_states_loreto:0 "Controls §Y[491.GetName]§!."
   pfp_peru_required_states_arequipa:0 "Controls §Y[492.GetName]§!."

@@ -16,7 +16,7 @@ l_english:
   P33_DEF:0 "Prussia"
   P33_ADJ:0 "Prussian"
 
-  pfp_prussia:0 "Establish Military Administration in Prussia"
+  pfp_prussia:0 "Establish Military Occupation in Prussia"
   pfp_prussia_required_states_ermland_masuren:0 "Controls §Y[5.GetName]§!."
   pfp_prussia_required_states_vorpommern:0 "Controls §Y[62.GetName]§!."
   pfp_prussia_required_states_hinterpommern:0 "Controls §Y[63.GetName]§!."

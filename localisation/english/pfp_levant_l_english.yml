@@ -16,7 +16,7 @@ l_english:
   P67_DEF:0 "Levant"
   P67_ADJ:0 "Levantine"
 
-  pfp_levant:0 "Establish Military Administration in the Levant"
+  pfp_levant:0 "Establish Military Occupation in the Levant"
   pfp_levant_required_states_coastal_plain:0 "Controls §Y[454.GetName]§!."
   pfp_levant_required_states_amman:0 "Controls §Y[455.GetName]§!."
   pfp_levant_required_states_lebanon:0 "Controls §Y[553.GetName]§!."

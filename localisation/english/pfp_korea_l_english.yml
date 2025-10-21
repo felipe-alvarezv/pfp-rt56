@@ -16,7 +16,7 @@ l_english:
   P72_DEF:0 "Korea"
   P72_ADJ:0 "Korean"
 
-  pfp_korea:0 "Establish Military Administration in Korea"
+  pfp_korea:0 "Establish Military Occupation in Korea"
   pfp_korea_required_states_gyeonggi:0 "Controls §Y[525.GetName]§!."
   pfp_korea_required_states_pyeongan:0 "Controls §Y[527.GetName]§!."
   pfp_korea_required_states_hwanghae:0 "Controls §Y[917.GetName]§!."

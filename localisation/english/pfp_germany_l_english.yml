@@ -16,7 +16,7 @@ l_english:
   P13_DEF:0 "Germany"
   P13_ADJ:0 "German"
 
-  pfp_germany:0 "Establish Military Administration in Germany"
+  pfp_germany:0 "Establish Military Occupation in Germany"
   pfp_germany_required_states_moselland:0 "Controls §Y[42.GetName]§!."
   pfp_germany_required_states_wurttemberg:0 "Controls §Y[50.GetName]§!."
   pfp_germany_required_states_rhineland:0 "Controls §Y[51.GetName]§!."

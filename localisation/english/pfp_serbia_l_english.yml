@@ -16,7 +16,7 @@ l_english:
   P89_DEF:0 "Serbia"
   P89_ADJ:0 "Serbian"
 
-  pfp_serbia:0 "Establish Military Administration in Serbia"
+  pfp_serbia:0 "Establish Military Occupation in Serbia"
   pfp_serbia_required_states_sumadija:0 "Controls §Y[107.GetName]§!."
   pfp_serbia_required_states_pomoravlje:0 "Controls §Y[108.GetName]§!."
   pfp_serbia_core_states:0 "§YSerbia§! gains cores on all listed states.\n"

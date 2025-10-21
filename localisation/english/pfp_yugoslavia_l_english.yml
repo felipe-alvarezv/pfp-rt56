@@ -16,7 +16,7 @@ l_english:
   P50_DEF:0 "Yugoslavia"
   P50_ADJ:0 "Yugoslav"
 
-  pfp_yugoslavia:0 "Establish Military Administration in Yugoslavia"
+  pfp_yugoslavia:0 "Establish Military Occupation in Yugoslavia"
   pfp_yugoslavia_required_states_batschka:0 "Controls §Y[45.GetName]§!."
   pfp_yugoslavia_required_states_crna_gora:0 "Controls §Y[105.GetName]§!."
   pfp_yugoslavia_required_states_sumadija:0 "Controls §Y[107.GetName]§!."

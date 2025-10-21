@@ -16,7 +16,7 @@ l_english:
   P75_DEF:0 "Pakistan"
   P75_ADJ:0 "Pakistani"
 
-  pfp_pakistan:0 "Establish Military Administration in Pakistan"
+  pfp_pakistan:0 "Establish Military Occupation in Pakistan"
   pfp_pakistan_required_states_sarhad:0 "Controls §Y[442.GetName]§!."
   pfp_pakistan_required_states_balochistan:0 "Controls §Y[444.GetName]§!."
   pfp_pakistan_required_states_quetta:0 "Controls §Y[445.GetName]§!."

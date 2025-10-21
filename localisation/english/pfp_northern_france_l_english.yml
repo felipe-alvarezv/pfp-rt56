@@ -16,7 +16,7 @@ l_english:
   P62_DEF:0 "Northern France"
   P62_ADJ:0 "French"
 
-  pfp_northern_france:0 "Establish Military Administration in Northern France"
+  pfp_northern_france:0 "Establish Military Occupation in Northern France"
   pfp_northern_france_required_states_ile_de_france:0 "Controls §Y[16.GetName]§!."
   pfp_northern_france_required_states_franche_comte:0 "Controls §Y[17.GetName]§!."
   pfp_northern_france_required_states_champagne:0 "Controls §Y[18.GetName]§!."

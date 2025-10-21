@@ -16,7 +16,7 @@ l_english:
   P88_DEF:0 "Bosnia-Herzegovina"
   P88_ADJ:0 "Bosnian"
 
-  pfp_bosnia-herzegovina:0 "Establish Military Administration in Bosnia-Herzegovina"
+  pfp_bosnia-herzegovina:0 "Establish Military Occupation in Bosnia-Herzegovina"
   pfp_bosnia-herzegovina_required_states_podrinje:0 "Controls §Y[104.GetName]§!."
   pfp_bosnia-herzegovina_required_states_herzegovina:0 "Controls §Y[804.GetName]§!."
   pfp_bosnia-herzegovina_required_states_krajina:0 "Controls §Y[961.GetName]§!."

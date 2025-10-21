@@ -16,7 +16,7 @@ l_english:
   P91_DEF:0 "Albania"
   P91_ADJ:0 "Albania"
 
-  pfp_albania:0 "Establish Military Administration in Albania"
+  pfp_albania:0 "Establish Military Occupation in Albania"
   pfp_albania_required_states_toskeria:0 "Controls §Y[44.GetName]§!."
   pfp_albania_required_states_gegeria:0 "Controls §Y[910.GetName]§!."
   pfp_albania_core_states:0 "§YAlbania§! gains cores on all listed states.\n"

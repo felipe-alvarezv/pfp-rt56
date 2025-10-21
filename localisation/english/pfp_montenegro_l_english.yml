@@ -16,7 +16,7 @@ l_english:
   P90_DEF:0 "Montenegro"
   P90_ADJ:0 "Montenegrin"
 
-  pfp_montenegro:0 "Establish Military Administration in Montenegro"
+  pfp_montenegro:0 "Establish Military Occupation in Montenegro"
   pfp_montenegro_required_states_crna_gora:0 "Controls §Y[105.GetName]§!."
   pfp_montenegro_required_states_raska:0 "Controls §Y[963.GetName]§!."
   pfp_montenegro_core_states:0 "§YMontenegro§! gains cores on all listed states.\n"

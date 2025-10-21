@@ -16,7 +16,7 @@ l_english:
 	P03_DEF:0 "Arabia"
 	P03_ADJ:0 "Arabian"
 
-	pfp_arabia:0 "Establish Military Administration in Arabia"
+	pfp_arabia:0 "Establish Military Occupation in Arabia"
 	pfp_arabia_required_states_nejd:0 "Controls §Y[292.GetName]§!."
 	pfp_arabia_required_states_rub_al_khali:0 "Controls §Y[678.GetName]§!."
 	pfp_arabia_required_states_madinah:0 "Controls §Y[679.GetName]§!."

@@ -16,7 +16,7 @@ l_english:
   P20_DEF:0 "the Northeastern U.S."
   P20_ADJ:0 "Northeastern American"
 
-  pfp_northeastern_us:0 "Establish Military Administration in the Northeastern U.S."
+  pfp_northeastern_us:0 "Establish Military Occupation in the Northeastern U.S."
   pfp_northeastern_us_required_states_new_york:0 "Controls §Y[357.GetName]§!."
   pfp_northeastern_us_required_states_new_jersey:0 "Controls §Y[359.GetName]§!."
   pfp_northeastern_us_required_states_pennsylvania:0 "Controls §Y[360.GetName]§!."

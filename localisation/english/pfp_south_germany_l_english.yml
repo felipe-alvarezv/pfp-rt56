@@ -16,7 +16,7 @@ l_english:
   P25_DEF:0 "South Germany"
   P25_ADJ:0 "South German"
 
-  pfp_south_germany:0 "Establish Military Administration in South Germany"
+  pfp_south_germany:0 "Establish Military Occupation in South Germany"
   pfp_south_germany_required_states_wurttemberg:0 "Controls §Y[50.GetName]§!."
   pfp_south_germany_required_states_oberbayern:0 "Controls §Y[52.GetName]§!."
   pfp_south_germany_required_states_niederbayern:0 "Controls §Y[53.GetName]§!."

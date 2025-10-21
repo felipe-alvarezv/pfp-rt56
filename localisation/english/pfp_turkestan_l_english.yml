@@ -16,7 +16,7 @@ l_english:
   P51_DEF:0 "Turkestan"
   P51_ADJ:0 "Turkic"
 
-  pfp_turkestan:0 "Establish Military Administration in Turkestan"
+  pfp_turkestan:0 "Establish Military Occupation in Turkestan"
   pfp_turkestan_required_states_aktobe:0 "Controls §Y[402.GetName]§!."
   pfp_turkestan_required_states_kyzylorda:0 "Controls §Y[404.GetName]§!."
   pfp_turkestan_required_states_tashkent:0 "Controls §Y[405.GetName]§!."

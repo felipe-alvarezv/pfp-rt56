@@ -16,7 +16,7 @@ l_english:
   P37_DEF:0 "India"
   P37_ADJ:0 "Indian"
   
-  pfp_india:0 "Establish Military Administration in India"
+  pfp_india:0 "Establish Military Occupation in India"
   pfp_india_required_states_madras:0 "Controls §Y[423.GetName]§!."
   pfp_india_required_states_andhra:0 "Controls §Y[424.Getname]§!."
   pfp_india_required_states_mysore:0 "Controls §Y[425.GetName]§!."

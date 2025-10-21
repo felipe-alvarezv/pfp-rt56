@@ -16,7 +16,7 @@ l_english:
   P57_DEF:0 "Brazil"
   P57_ADJ:0 "Brazilian"
 
-  pfp_brazil:0 "Establish Military Administration in the Brazil"
+  pfp_brazil:0 "Establish Military Occupation in the Brazil"
   pfp_brazil_required_states_mato_grosso:0 "Controls §Y[280.GetName]§!."
   pfp_brazil_required_states_amazonas:0 "Controls §Y[495.GetName]§!."
   pfp_brazil_required_states_minas_gerais:0 "Controls §Y[496.GetName]§!."

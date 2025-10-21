@@ -16,7 +16,7 @@ l_english:
   P81_DEF:0 "Scotland"
   P81_ADJ:0 "Scottish"
 
-  pfp_scotland:0 "Establish Military Administration in Scotland"
+  pfp_scotland:0 "Establish Military Occupation in Scotland"
   pfp_scotland_required_states_scottish_highlands:0 "Controls §Y[120.GetName]§!."
   pfp_scotland_required_states_lothian:0 "Controls §Y[121.GetName]§!."
   pfp_scotland_required_states_lanark:0 "Controls §Y[133.GetName]§!."

@@ -16,7 +16,7 @@ l_english:
   P58_DEF:0 "Mexico"
   P58_ADJ:0 "Mexican"
 
-  pfp_mexico:0 "Establish Military Administration in the Mexico"
+  pfp_mexico:0 "Establish Military Occupation in the Mexico"
   pfp_mexico_required_states_mexico_city:0 "Controls §Y[277.GetName]§!."
   pfp_mexico_required_states_yucatan:0 "Controls §Y[474.GetName]§!."
   pfp_mexico_required_states_chiapas:0 "Controls §Y[475.GetName]§!."

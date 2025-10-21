@@ -16,7 +16,7 @@ l_english:
   P66_DEF:0 "Ukraine"
   P66_ADJ:0 "Ukrainian"
 
-  pfp_ukraine:0 "Establish Military Administration in Ukraine"
+  pfp_ukraine:0 "Establish Military Occupation in Ukraine"
   pfp_ukraine_required_states_chernigov:0 "Controls §Y[193.GetName]§!."
   pfp_ukraine_required_states_kherson:0 "Controls §Y[196.GetName]§!."
   pfp_ukraine_required_states_mykolaiv:0 "Controls §Y[197.GetName]§!."

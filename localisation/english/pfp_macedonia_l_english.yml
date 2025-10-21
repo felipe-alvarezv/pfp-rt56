@@ -16,7 +16,7 @@ l_english:
   P98_DEF:0 "Macedonia"
   P98_ADJ:0 "Macedonian"
 
-  pfp_macedonia:0 "Establish Military Administration in Macedonia"
+  pfp_macedonia:0 "Establish Military Occupation in Macedonia"
   pfp_macedonia_required_states_makedonija:0 "Controls §Y[106.GetName]§!."
   pfp_macedonia_required_states_tetovo:0 "Controls §Y[950.GetName]§!."
   pfp_macedonia_core_states:0 "§YMacedonia§! gains cores on all listed states.\n"

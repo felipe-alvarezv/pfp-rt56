@@ -16,7 +16,7 @@ l_english:
   P52_DEF:0 "the Himalayas"
   P52_ADJ:0 "Himalayan"
 
-  pfp_himalayas:0 "Establish Military Administration in the Himalayas"
+  pfp_himalayas:0 "Establish Military Occupation in the Himalayas"
   pfp_himalayas_required_states_nagqu:0 "Controls §Y[322.GetName]§!."
   pfp_himalayas_required_states_shigatse:0 "Controls §Y[757.GetName]§!."
   pfp_himalayas_required_states_ngari:0 "Controls §Y[758.GetName]§!."

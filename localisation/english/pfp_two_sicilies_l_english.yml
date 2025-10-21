@@ -16,7 +16,7 @@ l_english:
   P97_DEF:0 "Two Sicilies"
   P97_ADJ:0 "Sicilian"
 
-  pfp_two_sicilies:0 "Establish Military Administration in Two Sicilies"
+  pfp_two_sicilies:0 "Establish Military Occupation in Two Sicilies"
   pfp_two_sicilies_required_states_sicily:0 "Controls §Y[115.GetName]§!."
   pfp_two_sicilies_required_states_campania:0 "Controls §Y[117.GetName]§!."
   pfp_two_sicilies_required_states_calabria:0 "Controls §Y[156.GetName]§!."

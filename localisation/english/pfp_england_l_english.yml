@@ -16,7 +16,7 @@ l_english:
   P80_DEF:0 "England"
   P80_ADJ:0 "English"
 
-  pfp_england:0 "Establish Military Administration in England"
+  pfp_england:0 "Establish Military Occupation in England"
   pfp_england_required_states_south-west_england:0 "Controls §Y[123.GetName]§!."
   pfp_england_required_states_east_anglia:0 "Controls §Y[125.GetName]§!."
   pfp_england_required_states_greater_london_area:0 "Controls §Y[126.GetName]§!."

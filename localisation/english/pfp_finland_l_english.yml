@@ -16,7 +16,7 @@ l_english:
   P12_DEF:0 "Finland"
   P12_ADJ:0 "Finnish"
 
-  pfp_finland:0 "Establish Military Administration in Finland"
+  pfp_finland:0 "Establish Military Occupation in Finland"
   pfp_finland_required_states_uusimaa:0 "Controls §Y[111.GetName]§!."
   pfp_finland_required_states_lappi:0 "Controls §Y[148.GetName]§!."
   pfp_finland_required_states_pohjanmaa:0 "Controls §Y[149.GetName]§!."

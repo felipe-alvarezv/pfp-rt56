@@ -16,7 +16,7 @@ l_english:
   P64_DEF:0 "French Alps"
   P64_ADJ:0 "French"
 
-  pfp_french_alps:0 "Establish Military Administration in the French Alps"
+  pfp_french_alps:0 "Establish Military Occupation in the French Alps"
   pfp_french_alps_required_states_bouches_du_rhone:0 "Controls §Y[21.GetName]§!."
   pfp_french_alps_required_states_alpes:0 "Controls §Y[32.GetName]§!."
   pfp_french_alps_required_states_savoy:0 "Controls §Y[735.GetName]§!."

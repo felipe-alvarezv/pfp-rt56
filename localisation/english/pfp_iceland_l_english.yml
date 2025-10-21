@@ -16,7 +16,7 @@ l_english:
   P83_DEF:0 "Iceland"
   P83_ADJ:0 "Icelandic"
 
-  pfp_iceland:0 "Establish Military Administration in Iceland"
+  pfp_iceland:0 "Establish Military Occupation in Iceland"
   pfp_iceland_required_states_hofudborgarsvaedid:0 "Controls §Y[100.GetName]§!."
   pfp_iceland_required_states_sudurland:0 "Controls §Y[1043.GetName]§!."
   pfp_iceland_core_states:0 "§YIceland§! gains cores on all listed states.\n"

@@ -41,11 +41,11 @@ pfp_category = {
 			hidden_effect = {
 				pfp_release_chile = yes
 				set_autonomy = { target = P54 autonomy_state = pfp_autonomy_military_occupation }
-				pfp_set_autonomy_colour = yes
 
-				#Code to assign generic portraits
+				#Code to assign generic portraits and set puppet colour
 				set_temp_variable = { pfp_portrait_tag = P54 }
 				pfp_set_generic_portrait = yes
+				pfp_set_autonomy_colour = yes
 			}
 		}
 		ai_will_do = { factor = 0 }

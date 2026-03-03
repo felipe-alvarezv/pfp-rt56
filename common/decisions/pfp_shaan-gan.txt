@@ -1,0 +1,99 @@
+pfp_category = {
+    pfp_shaan-gan = {
+        allowed = {
+            NOT = {
+                original_tag = CHI #China
+                original_tag = GSM #Gansu Ma
+                original_tag = NXM #Ningxia Ma
+                original_tag = PRC #Chinese Soviet Republic
+                original_tag = XIC #Northeastern Army
+            }
+        }
+        available = {
+            is_subject = no
+            #Gansu
+            custom_trigger_tooltip = {
+                tooltip = pfp_shaan-gan_required_states_gansu
+                has_full_control_of_state = 283 #Gansu
+            }
+            #Shaanbei
+            custom_trigger_tooltip = {
+                tooltip = pfp_shaan-gan_required_states_shaanbei
+                has_full_control_of_state = 622 #Shaanbei
+            }
+            #Xian
+            custom_trigger_tooltip = {
+                tooltip = pfp_shaan-gan_required_states_xian
+                has_full_control_of_state = 744 #Xian
+            }
+            #Jiuquan
+            custom_trigger_tooltip = {
+                tooltip = pfp_shaan-gan_required_states_jiuquan
+                has_full_control_of_state = 756 #Jiuquan
+            }
+            #Yan'an
+            custom_trigger_tooltip = {
+                tooltip = pfp_shaan-gan_required_states_yanan
+                has_full_control_of_state = 1111 #Yan'an
+            }
+            #Wuwei
+            custom_trigger_tooltip = {
+                tooltip = pfp_shaan-gan_required_states_wuwei
+                has_full_control_of_state = 1123 #Wuwei
+            }
+            #Guyuan
+            custom_trigger_tooltip = {
+                tooltip = pfp_shaan-gan_required_states_guyuan
+                has_full_control_of_state = 1124 #Guyuan
+            }
+            #Yulin
+            custom_trigger_tooltip = {
+                tooltip = pfp_shaan-gan_required_states_yulin
+                has_full_control_of_state = 1125 #Yulin
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 283 #Gansu
+                has_full_control_of_state = 622 #Shaanbei
+                has_full_control_of_state = 744 #Xian
+                has_full_control_of_state = 756 #Jiuquan
+                has_full_control_of_state = 1111 #Yan'an
+                has_full_control_of_state = 1123 #Wuwei
+                has_full_control_of_state = 1124 #Guyuan
+                has_full_control_of_state = 1125 #Yulin
+            }
+            NOT = { has_global_flag = pfp_shaan-gan_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 283 #Gansu
+                state = 622 #Shaanbei
+                state = 744 #Xian
+                state = 756 #Jiuquan
+                state = 1111 #Yan'an
+                state = 1123 #Wuwei
+                state = 1124 #Guyuan
+                state = 1125 #Yulin
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_shaan-gan_core_states
+            custom_effect_tooltip = pfp_shaan-gan_transfer_states
+            custom_effect_tooltip = pfp_shaan-gan_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_shaan-gan = yes
+                set_autonomy = { target = Q20 autonomy_state = pfp_autonomy_military_occupation }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = Q20 }
+                pfp_set_generic_portrait = yes
+                pfp_set_autonomy_colour = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

@@ -1,0 +1,36 @@
+#Scripted effect to release Manchuria (Q08)
+pfp_release_manchuria = {
+    hidden_effect = {
+        #Add cores to Manchuria
+        328 = { add_core_of = Q08 } #Kirin
+        610 = { add_core_of = Q08 } #Jehol
+        714 = { add_core_of = Q08 } #Heilungkiang
+        715 = { add_core_of = Q08 } #Liaobei
+        716 = { add_core_of = Q08 } #Liaoning
+        717 = { add_core_of = Q08 } #Sungkiang
+        761 = { add_core_of = Q08 } #Hulunbuir
+        941 = { add_core_of = Q08 } #Andong
+        942 = { add_core_of = Q08 } #Jiandao
+        943 = { add_core_of = Q08 } #Binjiang
+        944 = { add_core_of = Q08 } #Longjiang
+        945 = { add_core_of = Q08 } #Heihe
+        946 = { add_core_of = Q08 } #West Xing'an
+        947 = { add_core_of = Q08 } #Jinzhou
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = Q08 }
+            add_contested_owner = Q08
+            transfer_state_to = Q08
+        }
+
+        #Transfer all technology to formable puppet
+        Q08 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_manchuria_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = Q08 }
+    }
+}

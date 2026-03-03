@@ -1,0 +1,24 @@
+#Scripted effect to release Kyushu (Q07)
+pfp_release_kyushu = {
+    hidden_effect = {
+        #Add cores to Kyushu
+        528 = { add_core_of = Q07 } #Kitakyushu
+        1105 = { add_core_of = Q07 } #Minami Kyushu
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = Q07 }
+            add_contested_owner = Q07
+            transfer_state_to = Q07
+        }
+
+        #Transfer all technology to formable puppet
+        Q07 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_kyushu_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = Q07 }
+    }
+}

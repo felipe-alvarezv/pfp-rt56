@@ -1,0 +1,26 @@
+#Scripted effect to release Inner Mongolia (Q09)
+pfp_release_inner_mongolia = {
+    hidden_effect = {
+        #Add cores to Inner Mongolia
+        611 = { add_core_of = Q09 } #Chahar
+        612 = { add_core_of = Q09 } #Xilingol
+        621 = { add_core_of = Q09 } #Suiyuan
+        1122 = { add_core_of = Q09 } #Pailingmiao
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = Q09 }
+            add_contested_owner = Q09
+            transfer_state_to = Q09
+        }
+
+        #Transfer all technology to formable puppet
+        Q09 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_inner_mongolia_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = Q09 }
+    }
+}

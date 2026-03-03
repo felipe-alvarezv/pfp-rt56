@@ -3080,7 +3080,7 @@
   pfp_inner_mongolia_required_states_chahar:0 "Controls §Y[611.GetName]§!."
   pfp_inner_mongolia_required_states_xilingol:0 "Controls §Y[612.GetName]§!."
   pfp_inner_mongolia_required_states_suiyuan:0 "Controls §Y[621.GetName]§!."
-  pfp_inner_mongolia_required_states_pailingmiao:0 "Controls §Y[1043.GetName]§!."
+  pfp_inner_mongolia_required_states_pailingmiao:0 "Controls §Y[1122.GetName]§!."
   pfp_inner_mongolia_core_states:0 "§YInner Mongolia§! gains cores on all listed states.\n"
   pfp_inner_mongolia_transfer_states:0 "§YInner Mongolia§! becomes owner and controller of all listed states.\n"
   pfp_inner_mongolia_puppet:0 "§YInner Mongolia§! becomes a puppet of §Y[Root.GetName]§!.\n"

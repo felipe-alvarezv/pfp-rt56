@@ -1,0 +1,89 @@
+pfp_category = {
+    pfp_liangjiang = {
+        allowed = {
+            NOT = {
+                original_tag = CHI #China
+                original_tag = PRC #Chinese Soviet Republic
+            }
+        }
+        available = {
+            is_subject = no
+            #Jiangsu
+            custom_trigger_tooltip = {
+                tooltip = pfp_liangjiang_required_states_jiangsu
+                has_full_control_of_state = 598 #Jiangsu
+            }
+            #Jiangxi
+            custom_trigger_tooltip = {
+                tooltip = pfp_liangjiang_required_states_jiangxi
+                has_full_control_of_state = 600 #Jiangxi
+            }
+            #Anhui
+            custom_trigger_tooltip = {
+                tooltip = pfp_liangjiang_required_states_anhui
+                has_full_control_of_state = 606 #Anhui
+            }
+            #Shanghai
+            custom_trigger_tooltip = {
+                tooltip = pfp_liangjiang_required_states_shanghai
+                has_full_control_of_state = 613 #Shanghai
+            }
+            #Huangshan
+            custom_trigger_tooltip = {
+                tooltip = pfp_liangjiang_required_states_huangshan
+                has_full_control_of_state = 749 #Huangshan
+            }
+            #Suzhou
+            custom_trigger_tooltip = {
+                tooltip = pfp_liangjiang_required_states_suzhou
+                has_full_control_of_state = 1113 #Suzhou
+            }
+            #Nanjing
+            custom_trigger_tooltip = {
+                tooltip = pfp_liangjiang_required_states_nanjing
+                has_full_control_of_state = 1114 #Nanjing
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 598 #Jiangsu
+                has_full_control_of_state = 600 #Jiangxi
+                has_full_control_of_state = 606 #Anhui
+                has_full_control_of_state = 613 #Shanghai
+                has_full_control_of_state = 749 #Huangshan
+                has_full_control_of_state = 1113 #Suzhou
+                has_full_control_of_state = 1114 #Nanjing
+            }
+            NOT = { has_global_flag = pfp_liangjiang_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 598 #Jiangsu
+                state = 600 #Jiangxi
+                state = 606 #Anhui
+                state = 613 #Shanghai
+                state = 749 #Huangshan
+                state = 1113 #Suzhou
+                state = 1114 #Nanjing
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_liangjiang_core_states
+            custom_effect_tooltip = pfp_liangjiang_transfer_states
+            custom_effect_tooltip = pfp_liangjiang_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_liangjiang = yes
+                set_autonomy = { target = Q14 autonomy_state = pfp_autonomy_military_occupation }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = Q14 }
+                pfp_set_generic_portrait = yes
+                pfp_set_autonomy_colour = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

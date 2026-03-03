@@ -1,0 +1,29 @@
+#Scripted effect to release East Turkestan (Q23)
+pfp_release_east_turkestan = {
+    hidden_effect = {
+        #Add cores to East Turkestan
+        287 = { add_core_of = Q23 } #Taklamakan
+        617 = { add_core_of = Q23 } #Urumqi
+        618 = { add_core_of = Q23 } #Dzungaria
+        619 = { add_core_of = Q23 } #Yarkand
+        759 = { add_core_of = Q23 } #Ruoqiang
+        760 = { add_core_of = Q23 } #Dabacheng
+        1121 = { add_core_of = Q23 } #Kunlun Shan
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = Q23 }
+            add_contested_owner = Q23
+            transfer_state_to = Q23
+        }
+
+        #Transfer all technology to formable puppet
+        Q23 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_east_turkestan_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = Q23 }
+    }
+}

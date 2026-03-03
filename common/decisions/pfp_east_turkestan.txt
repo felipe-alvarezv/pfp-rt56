@@ -1,0 +1,91 @@
+pfp_category = {
+    pfp_east_turkestan = {
+        allowed = {
+            NOT = {
+                original_tag = CHI #China
+                original_tag = KHM #Kunlun Shan Ma
+                original_tag = PRC #Chinese Soviet Republic
+                original_tag = SIK #Sinkiang
+            }
+        }
+        available = {
+            is_subject = no
+            #Taklamakan
+            custom_trigger_tooltip = {
+                tooltip = pfp_east_turkestan_required_states_taklamakan
+                has_full_control_of_state = 287 #Taklamakan
+            }
+            #Urumqi
+            custom_trigger_tooltip = {
+                tooltip = pfp_east_turkestan_required_states_urumqi
+                has_full_control_of_state = 617 #Urumqi
+            }
+            #Dzungaria
+            custom_trigger_tooltip = {
+                tooltip = pfp_east_turkestan_required_states_dzungaria
+                has_full_control_of_state = 618 #Dzungaria
+            }
+            #Yarkand
+            custom_trigger_tooltip = {
+                tooltip = pfp_east_turkestan_required_states_yarkand
+                has_full_control_of_state = 619 #Yarkand
+            }
+            #Ruoqiang
+            custom_trigger_tooltip = {
+                tooltip = pfp_east_turkestan_required_states_ruoqiang
+                has_full_control_of_state = 759 #Ruoqiang
+            }
+            #Dabacheng
+            custom_trigger_tooltip = {
+                tooltip = pfp_east_turkestan_required_states_dabacheng
+                has_full_control_of_state = 760 #Dabacheng
+            }
+            #Kunlun Shan
+            custom_trigger_tooltip = {
+                tooltip = pfp_east_turkestan_required_states_khotan
+                has_full_control_of_state = 1121 #Kunlun Shan
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 287 #Taklamakan
+                has_full_control_of_state = 617 #Urumqi
+                has_full_control_of_state = 618 #Dzungaria
+                has_full_control_of_state = 619 #Yarkand
+                has_full_control_of_state = 759 #Ruoqiang
+                has_full_control_of_state = 760 #Dabacheng
+                has_full_control_of_state = 1121 #Kunlun Shan
+            }
+            NOT = { has_global_flag = pfp_east_turkestan_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 287 #Taklamakan
+                state = 617 #Urumqi
+                state = 618 #Dzungaria
+                state = 619 #Yarkand
+                state = 759 #Ruoqiang
+                state = 760 #Dabacheng
+                state = 1121 #Kunlun Shan
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_east_turkestan_core_states
+            custom_effect_tooltip = pfp_east_turkestan_transfer_states
+            custom_effect_tooltip = pfp_east_turkestan_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_east_turkestan = yes
+                set_autonomy = { target = Q23 autonomy_state = pfp_autonomy_military_occupation }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = Q23 }
+                pfp_set_generic_portrait = yes
+                pfp_set_autonomy_colour = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

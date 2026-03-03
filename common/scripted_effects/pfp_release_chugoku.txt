@@ -1,0 +1,24 @@
+#Scripted effect to release Chugoku (Q05)
+pfp_release_chugoku = {
+    hidden_effect = {
+        #Add cores to Chugoku
+        529 = { add_core_of = Q05 } #Sanyo
+        1107 = { add_core_of = Q05 } #Sanin
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = Q05 }
+            add_contested_owner = Q05
+            transfer_state_to = Q05
+        }
+
+        #Transfer all technology to formable puppet
+        Q05 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_chugoku_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = Q05 }
+    }
+}

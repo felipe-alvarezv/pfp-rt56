@@ -1,0 +1,53 @@
+pfp_category = {
+    pfp_chugoku = {
+        allowed = {
+            NOT = {
+                original_tag = JAP #Japan
+            }
+        }
+        available = {
+            is_subject = no
+            #Sanyo
+            custom_trigger_tooltip = {
+                tooltip = pfp_chugoku_required_states_sanyo
+                has_full_control_of_state = 529 #Sanyo
+            }
+            #Sanin
+            custom_trigger_tooltip = {
+                tooltip = pfp_chugoku_required_states_sanin
+                has_full_control_of_state = 1107 #Sanin
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 529 #Sanyo
+                has_full_control_of_state = 1107 #Sanin
+            }
+            NOT = { has_global_flag = pfp_chugoku_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 529 #Sanyo
+                state = 1107 #Sanin
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_chugoku_core_states
+            custom_effect_tooltip = pfp_chugoku_transfer_states
+            custom_effect_tooltip = pfp_chugoku_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_chugoku = yes
+                set_autonomy = { target = Q05 autonomy_state = pfp_autonomy_military_occupation }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = Q05 }
+                pfp_set_generic_portrait = yes
+                pfp_set_autonomy_colour = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

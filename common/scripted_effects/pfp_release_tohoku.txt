@@ -1,0 +1,24 @@
+#Scripted effect to release Tohoku (Q01)
+pfp_release_tohoku = {
+    hidden_effect = {
+        #Add cores to Tohoku
+        533 = { add_core_of = Q01 } #Kita-Tohoku
+        1106 = { add_core_of = Q01 } #Minami Tohoku
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = Q01 }
+            add_contested_owner = Q01
+            transfer_state_to = Q01
+        }
+
+        #Transfer all technology to formable puppet
+        Q01 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_tohoku_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = Q01 }
+    }
+}

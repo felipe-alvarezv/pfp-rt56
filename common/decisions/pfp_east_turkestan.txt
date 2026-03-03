@@ -42,7 +42,7 @@ pfp_category = {
             }
             #Kunlun Shan
             custom_trigger_tooltip = {
-                tooltip = pfp_east_turkestan_required_states_khotan
+                tooltip = pfp_east_turkestan_required_states_kunlun_shan
                 has_full_control_of_state = 1121 #Kunlun Shan
             }
         }

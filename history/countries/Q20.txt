@@ -103,6 +103,6 @@ add_to_array = { pfp_shaan-gan_integration_array = 1124 } #Guyuan
 add_to_array = { pfp_shaan-gan_integration_array = 1125 } #Yulin
 
 #Shaan-Gan Territories
-add_to_array = { pfp_shaan-gan_integration_array = 326 } #Ningxia
-add_to_array = { pfp_shaan-gan_integration_array = 591 } #Ordos
-add_to_array = { pfp_shaan-gan_integration_array = 728 } #Alxa
+add_to_array = { pfp_shaan-gan_integration_array = 616 } #Neimenggu
+add_to_array = { pfp_shaan-gan_integration_array = 746 } #Yikezhao
+add_to_array = { pfp_shaan-gan_integration_array = 1119 } #Alxa

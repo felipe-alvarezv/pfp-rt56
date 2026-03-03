@@ -3273,7 +3273,7 @@
   pfp_liangguang_required_states_guangdong:0 "Controls §Y[593.GetName]§!."
   pfp_liangguang_required_states_nanning:0 "Controls §Y[594.GetName]§!."
   pfp_liangguang_required_states_guangxi:0 "Controls §Y[599.GetName]§!."
-  pfp_liangguang_required_states_nanlu:0 "Controls §Y[1033.GetName]§!."
+  pfp_liangguang_required_states_nanlu:0 "Controls §Y[1112.GetName]§!."
   pfp_liangguang_core_states:0 "§YLiangguang§! gains cores on all listed states.\n"
   pfp_liangguang_transfer_states:0 "§YLiangguang§! becomes owner and controller of all listed states.\n"
   pfp_liangguang_puppet:0 "§YLiangguang§! becomes a puppet of §Y[Root.GetName]§!.\n"

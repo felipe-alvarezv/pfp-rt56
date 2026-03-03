@@ -1,0 +1,27 @@
+#Scripted effect to release Liangguang (Q17)
+pfp_release_liangguang = {
+    hidden_effect = {
+        #Add cores to Liangguang
+        592 = { add_core_of = Q17 } #Guangzhou
+        593 = { add_core_of = Q17 } #Guangdong
+        594 = { add_core_of = Q17 } #Nanning
+        599 = { add_core_of = Q17 } #Guangxi
+        1112 = { add_core_of = Q17 } #Nanlu
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = Q17 }
+            add_contested_owner = Q17
+            transfer_state_to = Q17
+        }
+
+        #Transfer all technology to formable puppet
+        Q17 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_liangguang_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = Q17 }
+    }
+}

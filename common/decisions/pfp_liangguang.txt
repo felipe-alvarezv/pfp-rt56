@@ -1,0 +1,77 @@
+pfp_category = {
+    pfp_liangguang = {
+        allowed = {
+            NOT = {
+                original_tag = CHI #China
+                original_tag = GDC #Guangdong Clique
+                original_tag = GXC #Guangxi Clique
+                original_tag = PRC #Chinese Soviet Republic
+            }
+        }
+        available = {
+            is_subject = no
+            #Guangzhou
+            custom_trigger_tooltip = {
+                tooltip = pfp_liangguang_required_states_guangzhou
+                has_full_control_of_state = 592 #Guangzhou
+            }
+            #Guangdong
+            custom_trigger_tooltip = {
+                tooltip = pfp_liangguang_required_states_guangdong
+                has_full_control_of_state = 593 #Guangdong
+            }
+            #Nanning
+            custom_trigger_tooltip = {
+                tooltip = pfp_liangguang_required_states_nanning
+                has_full_control_of_state = 594 #Nanning
+            }
+            #Guangxi
+            custom_trigger_tooltip = {
+                tooltip = pfp_liangguang_required_states_guangxi
+                has_full_control_of_state = 599 #Guangxi
+            }
+            #Nanlu
+            custom_trigger_tooltip = {
+                tooltip = pfp_liangguang_required_states_nanlu
+                has_full_control_of_state = 1112 #Nanlu
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 592 #Guangzhou
+                has_full_control_of_state = 593 #Guangdong
+                has_full_control_of_state = 594 #Nanning
+                has_full_control_of_state = 599 #Guangxi
+                has_full_control_of_state = 1112 #Nanlu
+            }
+            NOT = { has_global_flag = pfp_liangguang_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 592 #Guangzhou
+                state = 593 #Guangdong
+                state = 594 #Nanning
+                state = 599 #Guangxi
+                state = 1112 #Nanlu
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_liangguang_core_states
+            custom_effect_tooltip = pfp_liangguang_transfer_states
+            custom_effect_tooltip = pfp_liangguang_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_liangguang = yes
+                set_autonomy = { target = Q17 autonomy_state = pfp_autonomy_military_occupation }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = Q17 }
+                pfp_set_generic_portrait = yes
+                pfp_set_autonomy_colour = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

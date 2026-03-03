@@ -3386,6 +3386,7 @@
   pfp_qinghai_required_states_qinghai:0 "Controls §Y[604.GetName]§!."
   pfp_qinghai_required_states_golog:0 "Controls §Y[754.GetName]§!."
   pfp_qinghai_required_states_haixi:0 "Controls §Y[755.GetName]§!."
+  pfp_qinghai_required_states_gyarong:0 "Controls §Y[1075.GetName]§!."
   pfp_qinghai_core_states:0 "§YQinghai§! gains cores on all listed states.\n"
   pfp_qinghai_transfer_states:0 "§YQinghai§! becomes owner and controller of all listed states.\n"
   pfp_qinghai_puppet:0 "§YQinghai§! becomes a puppet of §Y[Root.GetName]§!.\n"

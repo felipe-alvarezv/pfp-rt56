@@ -1,0 +1,83 @@
+pfp_category = {
+    pfp_sichuan = {
+        allowed = {
+            NOT = {
+                original_tag = CHI #China
+                original_tag = PRC #Chinese Soviet Republic
+                original_tag = SIC #Sichuan Clique
+            }
+        }
+        available = {
+            is_subject = no
+            #Sichuan
+            custom_trigger_tooltip = {
+                tooltip = pfp_sichuan_required_states_sichuan
+                has_full_control_of_state = 605 #Sichuan
+            }
+            #Liangshan
+            custom_trigger_tooltip = {
+                tooltip = pfp_sichuan_required_states_liangshan
+                has_full_control_of_state = 751 #Liangshan
+            }
+            #Ganzi
+            custom_trigger_tooltip = {
+                tooltip = pfp_sichuan_required_states_ganzi
+                has_full_control_of_state = 752 #Ganzi
+            }
+            #Gannan
+            custom_trigger_tooltip = {
+                tooltip = pfp_sichuan_required_states_gannan
+                has_full_control_of_state = 753 #Gannan
+            }
+            #Chongqing
+            custom_trigger_tooltip = {
+                tooltip = pfp_sichuan_required_states_chongqing
+                has_full_control_of_state = 1116 #Chongqing
+            }
+            #Chengdu
+            custom_trigger_tooltip = {
+                tooltip = pfp_sichuan_required_states_chengdu
+                has_full_control_of_state = 1120 #Chengdu
+            }
+        }
+        visible = {
+            OR = {
+                has_full_control_of_state = 605 #Sichuan
+                has_full_control_of_state = 751 #Liangshan
+                has_full_control_of_state = 752 #Ganzi
+                has_full_control_of_state = 753 #Gannan
+                has_full_control_of_state = 1116 #Chongqing
+                has_full_control_of_state = 1120 #Chengdu
+            }
+            NOT = { has_global_flag = pfp_sichuan_flag }
+        }
+        highlight_states = {
+            highlight_state_targets = {
+                state = 605 #Sichuan
+                state = 751 #Liangshan
+                state = 752 #Ganzi
+                state = 753 #Gannan
+                state = 1116 #Chongqing
+                state = 1120 #Chengdu
+            }
+        }
+        icon = generic_military
+        complete_effect = {
+            custom_effect_tooltip = pfp_sichuan_core_states
+            custom_effect_tooltip = pfp_sichuan_transfer_states
+            custom_effect_tooltip = pfp_sichuan_puppet
+
+            #Create formable puppet with all its states and then puppet
+            hidden_effect = {
+                pfp_release_sichuan = yes
+                set_autonomy = { target = Q19 autonomy_state = pfp_autonomy_military_occupation }
+
+                #Code to assign generic portraits
+                set_temp_variable = { pfp_portrait_tag = Q19 }
+                pfp_set_generic_portrait = yes
+                pfp_set_autonomy_colour = yes
+            }
+        }
+        ai_will_do = { factor = 0 }
+    }
+}

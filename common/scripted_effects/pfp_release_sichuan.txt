@@ -1,0 +1,28 @@
+#Scripted effect to release Sichuan (Q19)
+pfp_release_sichuan = {
+    hidden_effect = {
+        #Add cores to Sichuan
+        605 = { add_core_of = Q19 } #Sichuan
+        751 = { add_core_of = Q19 } #Liangshan
+        752 = { add_core_of = Q19 } #Ganzi
+        753 = { add_core_of = Q19 } #Gannan
+        1116 = { add_core_of = Q19 } #Chongqing
+        1120 = { add_core_of = Q19 } #Chengdu
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = Q19 }
+            add_contested_owner = Q19
+            transfer_state_to = Q19
+        }
+
+        #Transfer all technology to formable puppet
+        Q19 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_sichuan_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = Q19 }
+    }
+}

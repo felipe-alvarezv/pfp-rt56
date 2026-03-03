@@ -1,0 +1,24 @@
+#Scripted effect to release Shandong (Q11)
+pfp_release_shandong = {
+    hidden_effect = {
+        #Add cores to Shandong
+        597 = { add_core_of = Q11 } #Shandong
+        1117 = { add_core_of = Q11 } #Jinan
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = Q11 }
+            add_contested_owner = Q11
+            transfer_state_to = Q11
+        }
+
+        #Transfer all technology to formable puppet
+        Q11 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_shandong_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = Q11 }
+    }
+}

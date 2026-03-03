@@ -3134,7 +3134,7 @@
 
   pfp_shandong:0 "Establish Military Occupation in Shandong"
   pfp_shandong_required_states_shandong:0 "Controls §Y[597.GetName]§!."
-  pfp_shandong_required_states_jinan:0 "Controls §Y[1038.GetName]§!."
+  pfp_shandong_required_states_jinan:0 "Controls §Y[1117.GetName]§!."
   pfp_shandong_core_states:0 "§YShandong§! gains cores on all listed states.\n"
   pfp_shandong_transfer_states:0 "§YShandong§! becomes owner and controller of all listed states.\n"
   pfp_shandong_puppet:0 "§YShandong§! becomes a puppet of §Y[Root.GetName]§!.\n"

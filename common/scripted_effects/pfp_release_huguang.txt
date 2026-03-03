@@ -1,0 +1,26 @@
+#Scripted effect to release Huguang (Q16)
+pfp_release_huguang = {
+    hidden_effect = {
+        #Add cores to Huguang
+        602 = { add_core_of = Q16 } #Hunan
+        620 = { add_core_of = Q16 } #Hubei
+        750 = { add_core_of = Q16 } #Changde
+        1115 = { add_core_of = Q16 } #Wuhan
+        
+        #Set formable puppet as owner and controller of all its cored states
+        every_state = {
+            limit = { is_core_of = Q16 }
+            add_contested_owner = Q16
+            transfer_state_to = Q16
+        }
+
+        #Transfer all technology to formable puppet
+        Q16 = { pfp_transfer_technology = yes }
+
+        #Set global flag to prevent future decision use
+        set_global_flag = pfp_huguang_flag
+
+        #Send event to all nations about the formable puppet
+        set_temp_variable = { temp_country_tag = Q16 }
+    }
+}

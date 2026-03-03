@@ -3247,7 +3247,7 @@
   pfp_huguang_required_states_hunan:0 "Controls §Y[602.GetName]§!."
   pfp_huguang_required_states_hubei:0 "Controls §Y[620.GetName]§!."
   pfp_huguang_required_states_changde:0 "Controls §Y[750.GetName]§!."
-  pfp_huguang_required_states_wuhan:0 "Controls §Y[1036.GetName]§!."
+  pfp_huguang_required_states_wuhan:0 "Controls §Y[1115.GetName]§!."
   pfp_huguang_core_states:0 "§YHuguang§! gains cores on all listed states.\n"
   pfp_huguang_transfer_states:0 "§YHuguang§! becomes owner and controller of all listed states.\n"
   pfp_huguang_puppet:0 "§YHuguang§! becomes a puppet of §Y[Root.GetName]§!.\n"

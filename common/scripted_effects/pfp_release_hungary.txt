@@ -1,26 +1,69 @@
-#Scripted effect to release Hungary (P09)
+﻿#Scripted effect to release Hungary (P09)
 pfp_release_hungary = {
 	hidden_effect = {
-		#Add cores to Hungarian territory
-		43 = { add_core_of = P09 } #Northern Hungary
-		154 = { add_core_of = P09 } #Alföld
-		155 = { add_core_of = P09 } #North Transdanubia
-		913 = { add_core_of = P09 } #Solt-Kiskun
-		1104 = { add_core_of = P09 } #South Transdanubia
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P09 }
-			transfer_state_to = P09
+			#Add contestion to formable puppet
+			43 = { add_contested_owner  = P09 } #Northern Hungary
+			154 = { add_contested_owner  = P09 } #Alföld
+			155 = { add_contested_owner  = P09 } #North Transdanubia
+			913 = { add_contested_owner  = P09 } #Solt-Kiskun
+			1104 = { add_contested_owner  = P09 } #South Transdanubia
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P09 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P09
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P09
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			P09 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			43 = { add_core_of = P09 } #Northern Hungary
+			154 = { add_core_of = P09 } #Alföld
+			155 = { add_core_of = P09 } #North Transdanubia
+			913 = { add_core_of = P09 } #Solt-Kiskun
+			1104 = { add_core_of = P09 } #South Transdanubia
 
-		#Transfer all technology to formable puppet
-		P09 = { pfp_transfer_technology = yes }
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P09 }
 
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_hungary_flag
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
 
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P09 }
+					add_contested_owner = P09
+					transfer_state_to = P09
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P09
+					set_state_controller_to = P09
+				}
+			}
+
+			P09 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
 	}
 }

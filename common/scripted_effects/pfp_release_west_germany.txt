@@ -1,36 +1,89 @@
-#Scripted effect to release West Germany (P31)
+﻿#Scripted effect to release West Germany (P31)
 pfp_release_west_germany = {
 	hidden_effect = {
-		#Add cores to West German territory
-		42 = { add_core_of = P31 } #Moselland
-		50 = { add_core_of = P31 } #Wurttemberg
-		51 = { add_core_of = P31 } #Rhineland
-		52 = { add_core_of = P31 } #Oberbayern
-		53 = { add_core_of = P31 } #Niederbayern
-		54 = { add_core_of = P31 } #Franken
-		55 = { add_core_of = P31 } #Hessen
-		56 = { add_core_of = P31 } #Weser-Ems
-		57 = { add_core_of = P31 } #Westfalen
-		58 = { add_core_of = P31 } #Holstein
-		59 = { add_core_of = P31 } #Hannover
-		923 = { add_core_of = P31 } #Baden
-		922 = { add_core_of = P31 } #Frankfurt
-		989 = { add_core_of = P31 } #Ostrhineland
-		1053 = { add_core_of = P31 } #Saarland
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P31 }
-			transfer_state_to = P31
+			#Add contestion to formable puppet
+			42 = { add_contested_owner  = P31 } #Moselland
+			50 = { add_contested_owner  = P31 } #Wurttemberg
+			51 = { add_contested_owner  = P31 } #Rhineland
+			52 = { add_contested_owner  = P31 } #Oberbayern
+			53 = { add_contested_owner  = P31 } #Niederbayern
+			54 = { add_contested_owner  = P31 } #Franken
+			55 = { add_contested_owner  = P31 } #Hessen
+			56 = { add_contested_owner  = P31 } #Weser-Ems
+			57 = { add_contested_owner  = P31 } #Westfalen
+			58 = { add_contested_owner  = P31 } #Holstein
+			59 = { add_contested_owner  = P31 } #Hannover
+			923 = { add_contested_owner  = P31 } #Baden
+			922 = { add_contested_owner  = P31 } #Frankfurt
+			989 = { add_contested_owner  = P31 } #Ostrhineland
+			1053 = { add_contested_owner  = P31 } #Saarland
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P31 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P31
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P31
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			P31 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			42 = { add_core_of = P31 } #Moselland
+			50 = { add_core_of = P31 } #Wurttemberg
+			51 = { add_core_of = P31 } #Rhineland
+			52 = { add_core_of = P31 } #Oberbayern
+			53 = { add_core_of = P31 } #Niederbayern
+			54 = { add_core_of = P31 } #Franken
+			55 = { add_core_of = P31 } #Hessen
+			56 = { add_core_of = P31 } #Weser-Ems
+			57 = { add_core_of = P31 } #Westfalen
+			58 = { add_core_of = P31 } #Holstein
+			59 = { add_core_of = P31 } #Hannover
+			923 = { add_core_of = P31 } #Baden
+			922 = { add_core_of = P31 } #Frankfurt
+			989 = { add_core_of = P31 } #Ostrhineland
+			1053 = { add_core_of = P31 } #Saarland
 
-		#Transfer all technology to formable puppet
-		P31 = { pfp_transfer_technology = yes }
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P31 }
 
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_west_germany_flag
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
 
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P31 }
+					add_contested_owner = P31
+					transfer_state_to = P31
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P31
+					set_state_controller_to = P31
+				}
+			}
+
+			P31 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
 	}
 }

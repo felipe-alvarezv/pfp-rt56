@@ -1,27 +1,71 @@
-#Scripted effect to release Korea (P72)
+﻿#Scripted effect to release Korea (P72)
 pfp_release_korea = {
 	hidden_effect = {
-		#Add cores to Korea
-		525 = { add_core_of = P72 } #Gyeonggi
-		527 = { add_core_of = P72 } #Pyeongan
-		917 = { add_core_of = P72 } #Hwanghae
-		918 = { add_core_of = P72 } #Hamgyong
-		919 = { add_core_of = P72 } #Jeolla
-		920 = { add_core_of = P72 } #Gyeongsang
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P72 }
-			transfer_state_to = P72
+			#Add contestion to formable puppet
+			525 = { add_contested_owner  = P72 } #Gyeonggi
+			527 = { add_contested_owner  = P72 } #Pyeongan
+			917 = { add_contested_owner  = P72 } #Hwanghae
+			918 = { add_contested_owner  = P72 } #Hamgyong
+			919 = { add_contested_owner  = P72 } #Jeolla
+			920 = { add_contested_owner  = P72 } #Gyeongsang
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P72 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P72
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P72
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			P72 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			525 = { add_core_of = P72 } #Gyeonggi
+			527 = { add_core_of = P72 } #Pyeongan
+			917 = { add_core_of = P72 } #Hwanghae
+			918 = { add_core_of = P72 } #Hamgyong
+			919 = { add_core_of = P72 } #Jeolla
+			920 = { add_core_of = P72 } #Gyeongsang
 
-		#Transfer all technology to formable puppet
-		P72 = { pfp_transfer_technology = yes }
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P72 }
 
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_korea_flag
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
 
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P72 }
+					add_contested_owner = P72
+					transfer_state_to = P72
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P72
+					set_state_controller_to = P72
+				}
+			}
+
+			P72 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
 	}
 }

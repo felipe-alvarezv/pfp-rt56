@@ -1,26 +1,67 @@
-#Scripted effect to release Qinghai (Q21)
+﻿#Scripted effect to release Qinghai (Q21)
 pfp_release_qinghai = {
-    hidden_effect = {
-        #Add cores to Qinghai
-        604 = { add_core_of = Q21 } #Qinghai
-        754 = { add_core_of = Q21 } #Golog
-        755 = { add_core_of = Q21 } #Haixi
-        1075 = { add_core_of = Q21 } #Gyarong
-        
-        #Set formable puppet as owner and controller of all its cored states
-        every_state = {
-            limit = { is_core_of = Q21 }
-            add_contested_owner = Q21
-            transfer_state_to = Q21
-        }
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-        #Transfer all technology to formable puppet
-        Q21 = { pfp_transfer_technology = yes }
+			#Add contestion to formable puppet
+			604 = { add_contested_owner  = Q21 } #Qinghai
+			754 = { add_contested_owner  = Q21 } #Golog
+			755 = { add_contested_owner  = Q21 } #Haixi
+			1075 = { add_contested_owner  = Q21 } #Gyarong
 
-        #Set global flag to prevent future decision use
-        set_global_flag = pfp_qinghai_flag
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = Q21 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = Q21
+				}
 
-        #Send event to all nations about the formable puppet
-        set_temp_variable = { temp_country_tag = Q21 }
-    }
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = Q21
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			Q21 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			604 = { add_core_of = Q21 } #Qinghai
+			754 = { add_core_of = Q21 } #Golog
+			755 = { add_core_of = Q21 } #Haixi
+			1075 = { add_core_of = Q21 } #Gyarong
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = Q21 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = Q21
+					transfer_state_to = Q21
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = Q21
+					set_state_controller_to = Q21
+				}
+			}
+
+			Q21 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

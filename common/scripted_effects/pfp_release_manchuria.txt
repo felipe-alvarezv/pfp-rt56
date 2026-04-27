@@ -1,36 +1,87 @@
-#Scripted effect to release Manchuria (Q08)
+﻿#Scripted effect to release Manchuria (Q08)
 pfp_release_manchuria = {
-    hidden_effect = {
-        #Add cores to Manchuria
-        328 = { add_core_of = Q08 } #Kirin
-        610 = { add_core_of = Q08 } #Jehol
-        714 = { add_core_of = Q08 } #Heilungkiang
-        715 = { add_core_of = Q08 } #Liaobei
-        716 = { add_core_of = Q08 } #Liaoning
-        717 = { add_core_of = Q08 } #Sungkiang
-        761 = { add_core_of = Q08 } #Hulunbuir
-        941 = { add_core_of = Q08 } #Andong
-        942 = { add_core_of = Q08 } #Jiandao
-        943 = { add_core_of = Q08 } #Binjiang
-        944 = { add_core_of = Q08 } #Longjiang
-        945 = { add_core_of = Q08 } #Heihe
-        946 = { add_core_of = Q08 } #West Xing'an
-        947 = { add_core_of = Q08 } #Jinzhou
-        
-        #Set formable puppet as owner and controller of all its cored states
-        every_state = {
-            limit = { is_core_of = Q08 }
-            add_contested_owner = Q08
-            transfer_state_to = Q08
-        }
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-        #Transfer all technology to formable puppet
-        Q08 = { pfp_transfer_technology = yes }
+			#Add contestion to formable puppet
+			328 = { add_contested_owner  = Q08 } #Kirin
+			610 = { add_contested_owner  = Q08 } #Jehol
+			714 = { add_contested_owner  = Q08 } #Heilungkiang
+			715 = { add_contested_owner  = Q08 } #Liaobei
+			716 = { add_contested_owner  = Q08 } #Liaoning
+			717 = { add_contested_owner  = Q08 } #Sungkiang
+			761 = { add_contested_owner  = Q08 } #Hulunbuir
+			941 = { add_contested_owner  = Q08 } #Andong
+			942 = { add_contested_owner  = Q08 } #Jiandao
+			943 = { add_contested_owner  = Q08 } #Binjiang
+			944 = { add_contested_owner  = Q08 } #Longjiang
+			945 = { add_contested_owner  = Q08 } #Heihe
+			946 = { add_contested_owner  = Q08 } #West Xing'an
+			947 = { add_contested_owner  = Q08 } #Jinzhou
 
-        #Set global flag to prevent future decision use
-        set_global_flag = pfp_manchuria_flag
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = Q08 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = Q08
+				}
 
-        #Send event to all nations about the formable puppet
-        set_temp_variable = { temp_country_tag = Q08 }
-    }
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = Q08
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			Q08 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			328 = { add_core_of = Q08 } #Kirin
+			610 = { add_core_of = Q08 } #Jehol
+			714 = { add_core_of = Q08 } #Heilungkiang
+			715 = { add_core_of = Q08 } #Liaobei
+			716 = { add_core_of = Q08 } #Liaoning
+			717 = { add_core_of = Q08 } #Sungkiang
+			761 = { add_core_of = Q08 } #Hulunbuir
+			941 = { add_core_of = Q08 } #Andong
+			942 = { add_core_of = Q08 } #Jiandao
+			943 = { add_core_of = Q08 } #Binjiang
+			944 = { add_core_of = Q08 } #Longjiang
+			945 = { add_core_of = Q08 } #Heihe
+			946 = { add_core_of = Q08 } #West Xing'an
+			947 = { add_core_of = Q08 } #Jinzhou
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = Q08 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = Q08
+					transfer_state_to = Q08
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = Q08
+					set_state_controller_to = Q08
+				}
+			}
+
+			Q08 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

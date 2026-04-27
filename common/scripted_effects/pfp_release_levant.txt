@@ -1,33 +1,83 @@
-#Scripted effect to release Levant (P67)
+﻿#Scripted effect to release Levant (P67)
 pfp_release_levant = {
 	hidden_effect = {
-		#Add cores to Levant
-		454 = { add_core_of = P67 } #Coastal Plain
-		455 = { add_core_of = P67 } #Amman
-		553 = { add_core_of = P67 } #Lebanon
-		554 = { add_core_of = P67 } #Damascus
-		677 = { add_core_of = P67 } #Aleppo
-		680 = { add_core_of = P67 } #Deir-az-Zur
-		949 = { add_core_of = P67 } #Gaza
-		966 = { add_core_of = P67 } #West Bank
-		1016 = { add_core_of = P67 } #Jerusalem
-		1017 = { add_core_of = P67 } #Beersheba
-		1021 = { add_core_of = P67 } #Mafraq
-		1022 = { add_core_of = P67 } #Ma'an
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P67 }
-			transfer_state_to = P67
+			#Add contestion to formable puppet
+			454 = { add_contested_owner  = P67 } #Coastal Plain
+			455 = { add_contested_owner  = P67 } #Amman
+			553 = { add_contested_owner  = P67 } #Lebanon
+			554 = { add_contested_owner  = P67 } #Damascus
+			677 = { add_contested_owner  = P67 } #Aleppo
+			680 = { add_contested_owner  = P67 } #Deir-az-Zur
+			949 = { add_contested_owner  = P67 } #Gaza
+			966 = { add_contested_owner  = P67 } #West Bank
+			1016 = { add_contested_owner  = P67 } #Jerusalem
+			1017 = { add_contested_owner  = P67 } #Beersheba
+			1021 = { add_contested_owner  = P67 } #Mafraq
+			1022 = { add_contested_owner  = P67 } #Ma'an
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P67 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P67
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P67
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			P67 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			454 = { add_core_of = P67 } #Coastal Plain
+			455 = { add_core_of = P67 } #Amman
+			553 = { add_core_of = P67 } #Lebanon
+			554 = { add_core_of = P67 } #Damascus
+			677 = { add_core_of = P67 } #Aleppo
+			680 = { add_core_of = P67 } #Deir-az-Zur
+			949 = { add_core_of = P67 } #Gaza
+			966 = { add_core_of = P67 } #West Bank
+			1016 = { add_core_of = P67 } #Jerusalem
+			1017 = { add_core_of = P67 } #Beersheba
+			1021 = { add_core_of = P67 } #Mafraq
+			1022 = { add_core_of = P67 } #Ma'an
 
-		#Transfer all technology to formable puppet
-		P67 = { pfp_transfer_technology = yes }
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P67 }
 
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_levant_flag
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
 
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P67 }
+					add_contested_owner = P67
+					transfer_state_to = P67
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P67
+					set_state_controller_to = P67
+				}
+			}
+
+			P67 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
 	}
 }

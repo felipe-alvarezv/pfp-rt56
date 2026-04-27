@@ -1,27 +1,71 @@
-#Scripted effect to release Argentina (P55)
+﻿#Scripted effect to release Argentina (P55)
 pfp_release_argentina = {
 	hidden_effect = {
-		#Add cores to Argentinian territory
-		278 = { add_core_of = P55 } #Pampas
-		509 = { add_core_of = P55 } #Chaco Austral
-		510 = { add_core_of = P55 } #Mesopotamia
-		1068 = { add_core_of = P55 } #Santa Fe
-		1069 = { add_core_of = P55 } #Formosa
-		1071 = { add_core_of = P55 } #Los Andes
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P55 }
-			transfer_state_to = P55
+			#Add contestion to formable puppet
+			278 = { add_contested_owner  = P55 } #Pampas
+			509 = { add_contested_owner  = P55 } #Chaco Austral
+			510 = { add_contested_owner  = P55 } #Mesopotamia
+			1068 = { add_contested_owner  = P55 } #Santa Fe
+			1069 = { add_contested_owner  = P55 } #Formosa
+			1071 = { add_contested_owner  = P55 } #Los Andes
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P55 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P55
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P55
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			P55 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			278 = { add_core_of = P55 } #Pampas
+			509 = { add_core_of = P55 } #Chaco Austral
+			510 = { add_core_of = P55 } #Mesopotamia
+			1068 = { add_core_of = P55 } #Santa Fe
+			1069 = { add_core_of = P55 } #Formosa
+			1071 = { add_core_of = P55 } #Los Andes
 
-		#Transfer all technology to formable puppet
-		P55 = { pfp_transfer_technology = yes }
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P55 }
 
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_argentina_flag
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
 
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P55 }
+					add_contested_owner = P55
+					transfer_state_to = P55
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P55
+					set_state_controller_to = P55
+				}
+			}
+
+			P55 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
 	}
 }

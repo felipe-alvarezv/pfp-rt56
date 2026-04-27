@@ -1,25 +1,67 @@
-#Scripted effect to release Colombia (P01)
+﻿#Scripted effect to release Colombia (P01)
 pfp_release_colombia = {
 	hidden_effect = {
-		#Add cores to Colombia territory
-		306 = { add_core_of = P01 } #Cundinamarca
-		486 = { add_core_of = P01 } #Orinoquia
-		493 = { add_core_of = P01 } #Atlantico
-		1051 = { add_core_of = P01 } #Antioquia
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P01 }
-			transfer_state_to = P01
+			#Add contestion to formable puppet
+			306 = { add_contested_owner  = P01 } #Cundinamarca
+			486 = { add_contested_owner  = P01 } #Orinoquia
+			493 = { add_contested_owner  = P01 } #Atlantico
+			1051 = { add_contested_owner  = P01 } #Antioquia
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P01 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P01
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P01
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			P01 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			306 = { add_core_of = P01 } #Cundinamarca
+			486 = { add_core_of = P01 } #Orinoquia
+			493 = { add_core_of = P01 } #Atlantico
+			1051 = { add_core_of = P01 } #Antioquia
 
-		#Transfer all technology to formable puppet
-		P01 = { pfp_transfer_technology = yes }
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P01 }
 
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_colombia_flag
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
 
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P01 }
+					add_contested_owner = P01
+					transfer_state_to = P01
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P01
+					set_state_controller_to = P01
+				}
+			}
+
+			P01 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
 	}
 }

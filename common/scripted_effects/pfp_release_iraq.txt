@@ -1,26 +1,69 @@
-#Scripted effect to release Iraq (P69)
+﻿#Scripted effect to release Iraq (P69)
 pfp_release_iraq = {
 	hidden_effect = {
-		#Add cores to Iraq
-		291 = { add_core_of = P69 } #Baghdad
-		675 = { add_core_of = P69 } #Al Sahra'a Al Janubiyah
-		1045 = { add_core_of = P69 } #Basrah
-		1046 = { add_core_of = P69 } #Karbala-Najaf
-		1047 = { add_core_of = P69 } #Dulaim
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P69 }
-			transfer_state_to = P69
+			#Add contestion to formable puppet
+			291 = { add_contested_owner  = P69 } #Baghdad
+			675 = { add_contested_owner  = P69 } #Al Sahra'a Al Janubiyah
+			1045 = { add_contested_owner  = P69 } #Basrah
+			1046 = { add_contested_owner  = P69 } #Karbala-Najaf
+			1047 = { add_contested_owner  = P69 } #Dulaim
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P69 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P69
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P69
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			P69 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			291 = { add_core_of = P69 } #Baghdad
+			675 = { add_core_of = P69 } #Al Sahra'a Al Janubiyah
+			1045 = { add_core_of = P69 } #Basrah
+			1046 = { add_core_of = P69 } #Karbala-Najaf
+			1047 = { add_core_of = P69 } #Dulaim
 
-		#Transfer all technology to formable puppet
-		P69 = { pfp_transfer_technology = yes }
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P69 }
 
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_iraq_flag
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
 
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P69 }
+					add_contested_owner = P69
+					transfer_state_to = P69
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P69
+					set_state_controller_to = P69
+				}
+			}
+
+			P69 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
 	}
 }

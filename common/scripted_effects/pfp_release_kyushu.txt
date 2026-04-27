@@ -1,24 +1,63 @@
-#Scripted effect to release Kyushu (Q07)
+﻿#Scripted effect to release Kyushu (Q07)
 pfp_release_kyushu = {
-    hidden_effect = {
-        #Add cores to Kyushu
-        528 = { add_core_of = Q07 } #Kitakyushu
-        1105 = { add_core_of = Q07 } #Minami Kyushu
-        
-        #Set formable puppet as owner and controller of all its cored states
-        every_state = {
-            limit = { is_core_of = Q07 }
-            add_contested_owner = Q07
-            transfer_state_to = Q07
-        }
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-        #Transfer all technology to formable puppet
-        Q07 = { pfp_transfer_technology = yes }
+			#Add contestion to formable puppet
+			528 = { add_contested_owner  = Q07 } #Kitakyushu
+			1105 = { add_contested_owner  = Q07 } #Minami Kyushu
 
-        #Set global flag to prevent future decision use
-        set_global_flag = pfp_kyushu_flag
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = Q07 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = Q07
+				}
 
-        #Send event to all nations about the formable puppet
-        set_temp_variable = { temp_country_tag = Q07 }
-    }
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = Q07
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			Q07 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			528 = { add_core_of = Q07 } #Kitakyushu
+			1105 = { add_core_of = Q07 } #Minami Kyushu
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = Q07 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = Q07
+					transfer_state_to = Q07
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = Q07
+					set_state_controller_to = Q07
+				}
+			}
+
+			Q07 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

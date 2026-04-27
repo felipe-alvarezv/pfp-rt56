@@ -1,25 +1,65 @@
-#Scripted effect to release Papal States (P96)
+﻿#Scripted effect to release Papal States (P96)
 pfp_release_papal_states = {
-    hidden_effect = {
-        #Add cores to Papal States
-        2 = { add_core_of = P96 } #Lazio
-        161 = { add_core_of = P96 } #Emilia Romagna
-        957 = { add_core_of = P96 } #Marche
-        
-        #Set formable puppet as owner and controller of all its cored states
-        every_state = {
-            limit = { is_core_of = P96 }
-            add_contested_owner = P96
-            transfer_state_to = P96
-        }
+	hidden_effect = {
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-        #Transfer all technology to formable puppet
-        P96 = { pfp_transfer_technology = yes }
+			#Add contestion to formable puppet
+			2 = { add_contested_owner  = P96 } #Lazio
+			161 = { add_contested_owner  = P96 } #Emilia Romagna
+			957 = { add_contested_owner  = P96 } #Marche
 
-        #Set global flag to prevent future decision use
-        set_global_flag = pfp_papal_states_flag
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P96 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P96
+				}
 
-        #Send event to all nations about the formable puppet
-        set_temp_variable = { temp_country_tag = P96 }
-    }
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P96
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			P96 = { load_focus_tree = pfp_formable_puppet_focus }
+		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			2 = { add_core_of = P96 } #Lazio
+			161 = { add_core_of = P96 } #Emilia Romagna
+			957 = { add_core_of = P96 } #Marche
+
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P96 }
+
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+
+					add_contested_owner = P96
+					transfer_state_to = P96
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P96
+					set_state_controller_to = P96
+				}
+			}
+
+			P96 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
+	}
 }

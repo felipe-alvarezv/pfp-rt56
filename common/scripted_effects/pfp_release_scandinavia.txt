@@ -1,49 +1,115 @@
-#Scripted effect to release Scandinavia (P24)
+﻿#Scripted effect to release Scandinavia (P24)
 pfp_release_scandinavia = {
 	hidden_effect = {
-		#Add cores to Scandinavian territory
-		37 = { add_core_of = P24 } #Sjaelland
-		38 = { add_core_of = P24 } #Norrland
-		99 = { add_core_of = P24 } #Jutland
-		110 = { add_core_of = P24 } #Ostlandet
-		138 = { add_core_of = P24 } #Scania
-		139 = { add_core_of = P24 } #Smaland
-		140 = { add_core_of = P24 } #Vastergotland
-		141 = { add_core_of = P24 } #Svealand
-		142 = { add_core_of = P24 } #Vestlandet
-		143 = { add_core_of = P24 } #Trondelag
-		144 = { add_core_of = P24 } #Nord-Norge
-		666 = { add_core_of = P24 } #Lappland
-		1025 = { add_core_of = P24 } #Fyn
-		1026 = { add_core_of = P24 } #Östergötland
-		969 = { add_core_of = P24 } #Bohuslän
-		1030 = { add_core_of = P24 } #Värmland
-		1028 = { add_core_of = P24 } #Dalarna
-		1031 = { add_core_of = P24 } #Opplandene
-		1032 = { add_core_of = P24 } #Telemark
-		967 = { add_core_of = P24 } #Sørlandet
-		968 = { add_core_of = P24 } #Jämtland
-		1025 = { add_core_of = P24 } #Fyn
-		1026 = { add_core_of = P24 } #Östergötland
-		969 = { add_core_of = P24 } #Bohuslän
-		1029 = { add_core_of = P24 } #Västerbotten
-		1033 = { add_core_of = P24 } #Helgeland
-		1034 = { add_core_of = P24 } #Troms
-		1035 = { add_core_of = P24 } #Finnmark
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P24 }
-			transfer_state_to = P24
+			#Add contestion to formable puppet
+			37 = { add_contested_owner  = P24 } #Sjaelland
+			38 = { add_contested_owner  = P24 } #Norrland
+			99 = { add_contested_owner  = P24 } #Jutland
+			110 = { add_contested_owner  = P24 } #Ostlandet
+			138 = { add_contested_owner  = P24 } #Scania
+			139 = { add_contested_owner  = P24 } #Smaland
+			140 = { add_contested_owner  = P24 } #Vastergotland
+			141 = { add_contested_owner  = P24 } #Svealand
+			142 = { add_contested_owner  = P24 } #Vestlandet
+			143 = { add_contested_owner  = P24 } #Trondelag
+			144 = { add_contested_owner  = P24 } #Nord-Norge
+			666 = { add_contested_owner  = P24 } #Lappland
+			1025 = { add_contested_owner  = P24 } #Fyn
+			1026 = { add_contested_owner  = P24 } #Östergötland
+			969 = { add_contested_owner  = P24 } #Bohuslän
+			1030 = { add_contested_owner  = P24 } #Värmland
+			1028 = { add_contested_owner  = P24 } #Dalarna
+			1031 = { add_contested_owner  = P24 } #Opplandene
+			1032 = { add_contested_owner  = P24 } #Telemark
+			967 = { add_contested_owner  = P24 } #Sørlandet
+			968 = { add_contested_owner  = P24 } #Jämtland
+			1025 = { add_contested_owner  = P24 } #Fyn
+			1026 = { add_contested_owner  = P24 } #Östergötland
+			969 = { add_contested_owner  = P24 } #Bohuslän
+			1029 = { add_contested_owner  = P24 } #Västerbotten
+			1033 = { add_contested_owner  = P24 } #Helgeland
+			1034 = { add_contested_owner  = P24 } #Troms
+			1035 = { add_contested_owner  = P24 } #Finnmark
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P24 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P24
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P24
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			P24 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			37 = { add_core_of = P24 } #Sjaelland
+			38 = { add_core_of = P24 } #Norrland
+			99 = { add_core_of = P24 } #Jutland
+			110 = { add_core_of = P24 } #Ostlandet
+			138 = { add_core_of = P24 } #Scania
+			139 = { add_core_of = P24 } #Smaland
+			140 = { add_core_of = P24 } #Vastergotland
+			141 = { add_core_of = P24 } #Svealand
+			142 = { add_core_of = P24 } #Vestlandet
+			143 = { add_core_of = P24 } #Trondelag
+			144 = { add_core_of = P24 } #Nord-Norge
+			666 = { add_core_of = P24 } #Lappland
+			1025 = { add_core_of = P24 } #Fyn
+			1026 = { add_core_of = P24 } #Östergötland
+			969 = { add_core_of = P24 } #Bohuslän
+			1030 = { add_core_of = P24 } #Värmland
+			1028 = { add_core_of = P24 } #Dalarna
+			1031 = { add_core_of = P24 } #Opplandene
+			1032 = { add_core_of = P24 } #Telemark
+			967 = { add_core_of = P24 } #Sørlandet
+			968 = { add_core_of = P24 } #Jämtland
+			1025 = { add_core_of = P24 } #Fyn
+			1026 = { add_core_of = P24 } #Östergötland
+			969 = { add_core_of = P24 } #Bohuslän
+			1029 = { add_core_of = P24 } #Västerbotten
+			1033 = { add_core_of = P24 } #Helgeland
+			1034 = { add_core_of = P24 } #Troms
+			1035 = { add_core_of = P24 } #Finnmark
 
-		#Transfer all technology to formable puppet
-		P24 = { pfp_transfer_technology = yes }
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P24 }
 
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_scandinavia_flag
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
 
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P24 }
+					add_contested_owner = P24
+					transfer_state_to = P24
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P24
+					set_state_controller_to = P24
+				}
+			}
+
+			P24 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
 	}
 }

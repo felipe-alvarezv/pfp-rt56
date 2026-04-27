@@ -1,37 +1,91 @@
-#Scripted effect to release Great Britain (P02)
+﻿#Scripted effect to release Great Britain (P02)
 pfp_release_great_britain = {
 	hidden_effect = {
-		#Add cores to Great Britain territory
-		120 = { add_core_of = P02 } #Scottish Highlands
-		121 = { add_core_of = P02 } #Lothian
-		122 = { add_core_of = P02 } #Wales
-		123 = { add_core_of = P02 } #South-West England
-		125 = { add_core_of = P02 } #East Anglia
-		126 = { add_core_of = P02 } #Greater London Area
-		127 = { add_core_of = P02 } #Sussex
-		128 = { add_core_of = P02 } #West Midlands
-		129 = { add_core_of = P02 } #East Midlands
-		130 = { add_core_of = P02 } #Yorkshire
-		131 = { add_core_of = P02 } #Northumberland
-		132 = { add_core_of = P02 } #Lancashire
-		133 = { add_core_of = P02 } #Lanark
-		136 = { add_core_of = P02 } #Aberdeenshire
-		338 = { add_core_of = P02 } #Gloucestershire
-		1041 = { add_core_of = P02 } #Cumbria
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P02 }
-			transfer_state_to = P02
+			#Add contestion to formable puppet
+			120 = { add_contested_owner  = P02 } #Scottish Highlands
+			121 = { add_contested_owner  = P02 } #Lothian
+			122 = { add_contested_owner  = P02 } #Wales
+			123 = { add_contested_owner  = P02 } #South-West England
+			125 = { add_contested_owner  = P02 } #East Anglia
+			126 = { add_contested_owner  = P02 } #Greater London Area
+			127 = { add_contested_owner  = P02 } #Sussex
+			128 = { add_contested_owner  = P02 } #West Midlands
+			129 = { add_contested_owner  = P02 } #East Midlands
+			130 = { add_contested_owner  = P02 } #Yorkshire
+			131 = { add_contested_owner  = P02 } #Northumberland
+			132 = { add_contested_owner  = P02 } #Lancashire
+			133 = { add_contested_owner  = P02 } #Lanark
+			136 = { add_contested_owner  = P02 } #Aberdeenshire
+			338 = { add_contested_owner  = P02 } #Gloucestershire
+			1041 = { add_contested_owner  = P02 } #Cumbria
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P02 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P02
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P02
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			P02 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			120 = { add_core_of = P02 } #Scottish Highlands
+			121 = { add_core_of = P02 } #Lothian
+			122 = { add_core_of = P02 } #Wales
+			123 = { add_core_of = P02 } #South-West England
+			125 = { add_core_of = P02 } #East Anglia
+			126 = { add_core_of = P02 } #Greater London Area
+			127 = { add_core_of = P02 } #Sussex
+			128 = { add_core_of = P02 } #West Midlands
+			129 = { add_core_of = P02 } #East Midlands
+			130 = { add_core_of = P02 } #Yorkshire
+			131 = { add_core_of = P02 } #Northumberland
+			132 = { add_core_of = P02 } #Lancashire
+			133 = { add_core_of = P02 } #Lanark
+			136 = { add_core_of = P02 } #Aberdeenshire
+			338 = { add_core_of = P02 } #Gloucestershire
+			1041 = { add_core_of = P02 } #Cumbria
 
-		#Transfer all technology to formable puppet
-		P02 = { pfp_transfer_technology = yes }
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P02 }
 
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_great_britain_flag
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
 
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P02 }
+					add_contested_owner = P02
+					transfer_state_to = P02
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P02
+					set_state_controller_to = P02
+				}
+			}
+
+			P02 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
 	}
 }

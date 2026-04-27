@@ -1,33 +1,83 @@
-#Scripted effect to release Sweden (P74)
+﻿#Scripted effect to release Sweden (P74)
 pfp_release_sweden = {
 	hidden_effect = {
-		#Add cores to Sweden
-		38 = { add_core_of = P74 } #Norrland
-		138 = { add_core_of = P74 } #Scania
-		139 = { add_core_of = P74 } #Smaland
-		140 = { add_core_of = P74 } #Vastergotland
-		141 = { add_core_of = P74 } #Svealand
-		666 = { add_core_of = P74 } #Lappland
-		968 = { add_core_of = P74 } #Jamtland
-		969 = { add_core_of = P74 } #Bohuslan
-		1026 = { add_core_of = P74 } #Ostergotland
-		1028 = { add_core_of = P74 } #Dalarna
-		1029 = { add_core_of = P74 } #Vasterbotten
-		1030 = { add_core_of = P74 } #Varmland
-		
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P74 }
-			transfer_state_to = P74
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
+
+			#Add contestion to formable puppet
+			38 = { add_contested_owner  = P74 } #Norrland
+			138 = { add_contested_owner  = P74 } #Scania
+			139 = { add_contested_owner  = P74 } #Smaland
+			140 = { add_contested_owner  = P74 } #Vastergotland
+			141 = { add_contested_owner  = P74 } #Svealand
+			666 = { add_contested_owner  = P74 } #Lappland
+			968 = { add_contested_owner  = P74 } #Jamtland
+			969 = { add_contested_owner  = P74 } #Bohuslan
+			1026 = { add_contested_owner  = P74 } #Ostergotland
+			1028 = { add_contested_owner  = P74 } #Dalarna
+			1029 = { add_contested_owner  = P74 } #Vasterbotten
+			1030 = { add_contested_owner  = P74 } #Varmland
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P74 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P74
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P74
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			P74 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			38 = { add_core_of = P74 } #Norrland
+			138 = { add_core_of = P74 } #Scania
+			139 = { add_core_of = P74 } #Smaland
+			140 = { add_core_of = P74 } #Vastergotland
+			141 = { add_core_of = P74 } #Svealand
+			666 = { add_core_of = P74 } #Lappland
+			968 = { add_core_of = P74 } #Jamtland
+			969 = { add_core_of = P74 } #Bohuslan
+			1026 = { add_core_of = P74 } #Ostergotland
+			1028 = { add_core_of = P74 } #Dalarna
+			1029 = { add_core_of = P74 } #Vasterbotten
+			1030 = { add_core_of = P74 } #Varmland
 
-		#Transfer all technology to formable puppet
-		P74 = { pfp_transfer_technology = yes }
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P74 }
 
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_sweden_flag
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
 
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P74 }
+					add_contested_owner = P74
+					transfer_state_to = P74
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P74
+					set_state_controller_to = P74
+				}
+			}
+
+			P74 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
 	}
 }

@@ -1,41 +1,99 @@
-#Scripted effect to release Germany (P13)
+﻿#Scripted effect to release Germany (P13)
 pfp_release_germany = {
 	hidden_effect = {
-		#Add cores to German territory
-		42 = { add_core_of = P13 } #Moselland
-		50 = { add_core_of = P13 } #Wurttemberg
-		51 = { add_core_of = P13 } #Rhineland
-		52 = { add_core_of = P13 } #Oberbayern
-		53 = { add_core_of = P13 } #Niederbayern
-		54 = { add_core_of = P13 } #Franken
-		55 = { add_core_of = P13 } #Hessen
-		56 = { add_core_of = P13 } #Weser-Ems
-		57 = { add_core_of = P13 } #Westfalen
-		58 = { add_core_of = P13 } #Holstein
-		59 = { add_core_of = P13 } #Hannover
-		60 = { add_core_of = P13 } #Thuringen
-		61 = { add_core_of = P13 } #Mecklenburg
-		62 = { add_core_of = P13 } #Vorpommern
-		64 = { add_core_of = P13 } #Brandenburg
-		65 = { add_core_of = P13 } #Sachsen
-		922 = { add_core_of = P13 } #Frankfurt
-		923 = { add_core_of = P13 } # Baden
-		989 = { add_core_of = P13 } #Ostrhineland
-		1053 = { add_core_of = P13 } #Saarland
+		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.
+		if = {
+			limit = { has_global_flag = pfp_management_resistance_enabled }
 
-		#Set formable puppet as owner and controller of all its cored states
-		every_state = {
-			limit = { is_core_of = P13 }
-			transfer_state_to = P13
+			#Add contestion to formable puppet
+			42 = { add_contested_owner  = P13 } #Moselland
+			50 = { add_contested_owner  = P13 } #Wurttemberg
+			51 = { add_contested_owner  = P13 } #Rhineland
+			52 = { add_contested_owner  = P13 } #Oberbayern
+			53 = { add_contested_owner  = P13 } #Niederbayern
+			54 = { add_contested_owner  = P13 } #Franken
+			55 = { add_contested_owner  = P13 } #Hessen
+			56 = { add_contested_owner  = P13 } #Weser-Ems
+			57 = { add_contested_owner  = P13 } #Westfalen
+			58 = { add_contested_owner  = P13 } #Holstein
+			59 = { add_contested_owner  = P13 } #Hannover
+			60 = { add_contested_owner  = P13 } #Thuringen
+			61 = { add_contested_owner  = P13 } #Mecklenburg
+			62 = { add_contested_owner  = P13 } #Vorpommern
+			64 = { add_contested_owner  = P13 } #Brandenburg
+			65 = { add_contested_owner  = P13 } #Sachsen
+			922 = { add_contested_owner  = P13 } #Frankfurt
+			923 = { add_contested_owner  = P13 } # Baden
+			989 = { add_contested_owner  = P13 } #Ostrhineland
+			1053 = { add_contested_owner  = P13 } #Saarland
+
+			#Set formable puppet as controller of contested state
+			every_state = {
+				limit = { has_contested_owner = P13 }
+				
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
+					transfer_state_to = P13
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					set_state_controller_to  = P13
+				}
+			}
+
+			#Set custom focus tree to combat resistance
+			P13 = { load_focus_tree = pfp_formable_puppet_focus }
 		}
+		#If resistance mechanics are disabled, formable puppets will control and core its corresponding states.
+		else = {
+			#Add cores to formable puppet
+			42 = { add_core_of = P13 } #Moselland
+			50 = { add_core_of = P13 } #Wurttemberg
+			51 = { add_core_of = P13 } #Rhineland
+			52 = { add_core_of = P13 } #Oberbayern
+			53 = { add_core_of = P13 } #Niederbayern
+			54 = { add_core_of = P13 } #Franken
+			55 = { add_core_of = P13 } #Hessen
+			56 = { add_core_of = P13 } #Weser-Ems
+			57 = { add_core_of = P13 } #Westfalen
+			58 = { add_core_of = P13 } #Holstein
+			59 = { add_core_of = P13 } #Hannover
+			60 = { add_core_of = P13 } #Thuringen
+			61 = { add_core_of = P13 } #Mecklenburg
+			62 = { add_core_of = P13 } #Vorpommern
+			64 = { add_core_of = P13 } #Brandenburg
+			65 = { add_core_of = P13 } #Sachsen
+			922 = { add_core_of = P13 } #Frankfurt
+			923 = { add_core_of = P13 } # Baden
+			989 = { add_core_of = P13 } #Ostrhineland
+			1053 = { add_core_of = P13 } #Saarland
 
-		#Transfer all technology to formable puppet
-		P13 = { pfp_transfer_technology = yes }
+			#Set formable puppet as owner and controller of core state
+			every_state = {
+				limit = { is_core_of = P13 }
 
-		#Set global flag to prevent future decision use
-		set_global_flag = pfp_germany_flag
+				#If ROOT owns the state, transfer control and ownership to formable puppet
+				if = { 
+					limit = { is_owned_by = ROOT }
 
-		#Send event to all nations about the formable puppet
-		set_temp_variable = { temp_country_tag = P13 }
+					add_contested_owner = P13
+					transfer_state_to = P13
+				}
+
+				#If ROOT does not own the state, transfer control to formable puppet
+				else = {
+					add_contested_owner = P13
+					set_state_controller_to = P13
+				}
+			}
+
+			P13 = {
+				remove_ideas = {
+					pfp_puppet_resistance_idea_1
+				}
+			}
+		}
 	}
 }

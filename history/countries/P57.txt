@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,35 +95,35 @@ recruit_character = P57_neutrality_leader
 recruit_character = P57_fascism_leader
 
 #Brazil Initial States
-add_to_array = { pfp_brazil_integration_array = 280 } #Mato Grosso
-add_to_array = { pfp_brazil_integration_array = 495 } #Amazonas
-add_to_array = { pfp_brazil_integration_array = 496 } #Minas Gerais
-add_to_array = { pfp_brazil_integration_array = 497 } #Para
-add_to_array = { pfp_brazil_integration_array = 498 } #Rio Grande do Norte
-add_to_array = { pfp_brazil_integration_array = 499 } #Bahia
-add_to_array = { pfp_brazil_integration_array = 500 } #Rio de Janeiro
-add_to_array = { pfp_brazil_integration_array = 501 } #Sao Paulo
-add_to_array = { pfp_brazil_integration_array = 502 } #Rio Grande do Sul
-add_to_array = { pfp_brazil_integration_array = 503 } #Santa Catarina
-add_to_array = { pfp_brazil_integration_array = 504 } #Iguacu
-add_to_array = { pfp_brazil_integration_array = 505 } #Goias
-add_to_array = { pfp_brazil_integration_array = 999 } #Espirito Santo
-add_to_array = { pfp_brazil_integration_array = 1000 } #Piaui
-add_to_array = { pfp_brazil_integration_array = 1001 } #Maranhao
-add_to_array = { pfp_brazil_integration_array = 1002 } #Parana
-add_to_array = { pfp_brazil_integration_array = 1003 } #Ceara
-add_to_array = { pfp_brazil_integration_array = 1004 } #Paraiba
-add_to_array = { pfp_brazil_integration_array = 1005 } #Pernambuco
-add_to_array = { pfp_brazil_integration_array = 1006 } #Alagoas
-add_to_array = { pfp_brazil_integration_array = 1052 } #Acre
-add_to_array = { pfp_brazil_integration_array = 1056 } #Amapa
-add_to_array = { pfp_brazil_integration_array = 1057 } #Tocatins
-add_to_array = { pfp_brazil_integration_array = 1058 } #Rodonia
+add_to_array = { P57.pfp_possible_cores = 280 } #Mato Grosso
+add_to_array = { P57.pfp_possible_cores = 495 } #Amazonas
+add_to_array = { P57.pfp_possible_cores = 496 } #Minas Gerais
+add_to_array = { P57.pfp_possible_cores = 497 } #Para
+add_to_array = { P57.pfp_possible_cores = 498 } #Rio Grande do Norte
+add_to_array = { P57.pfp_possible_cores = 499 } #Bahia
+add_to_array = { P57.pfp_possible_cores = 500 } #Rio de Janeiro
+add_to_array = { P57.pfp_possible_cores = 501 } #Sao Paulo
+add_to_array = { P57.pfp_possible_cores = 502 } #Rio Grande do Sul
+add_to_array = { P57.pfp_possible_cores = 503 } #Santa Catarina
+add_to_array = { P57.pfp_possible_cores = 504 } #Iguacu
+add_to_array = { P57.pfp_possible_cores = 505 } #Goias
+add_to_array = { P57.pfp_possible_cores = 999 } #Espirito Santo
+add_to_array = { P57.pfp_possible_cores = 1000 } #Piaui
+add_to_array = { P57.pfp_possible_cores = 1001 } #Maranhao
+add_to_array = { P57.pfp_possible_cores = 1002 } #Parana
+add_to_array = { P57.pfp_possible_cores = 1003 } #Ceara
+add_to_array = { P57.pfp_possible_cores = 1004 } #Paraiba
+add_to_array = { P57.pfp_possible_cores = 1005 } #Pernambuco
+add_to_array = { P57.pfp_possible_cores = 1006 } #Alagoas
+add_to_array = { P57.pfp_possible_cores = 1052 } #Acre
+add_to_array = { P57.pfp_possible_cores = 1056 } #Amapa
+add_to_array = { P57.pfp_possible_cores = 1057 } #Tocatins
+add_to_array = { P57.pfp_possible_cores = 1058 } #Rodonia
 
 #Brazil Territories
-add_to_array = { pfp_brazil_integration_array = 300 } #Uruguay
-add_to_array = { pfp_brazil_integration_array = 309 } #Suriname
-add_to_array = { pfp_brazil_integration_array = 310 } #Guiana
-add_to_array = { pfp_brazil_integration_array = 687 } #Guyana
-add_to_array = { pfp_brazil_integration_array = 1059 } #Cerro Largo
-add_to_array = { pfp_brazil_integration_array = 1060 } #Paysandu
+add_to_array = { P57.pfp_possible_cores = 300 } #Uruguay
+add_to_array = { P57.pfp_possible_cores = 309 } #Suriname
+add_to_array = { P57.pfp_possible_cores = 310 } #Guiana
+add_to_array = { P57.pfp_possible_cores = 687 } #Guyana
+add_to_array = { P57.pfp_possible_cores = 1059 } #Cerro Largo
+add_to_array = { P57.pfp_possible_cores = 1060 } #Paysandu

@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,18 +95,18 @@ recruit_character = P70_neutrality_leader
 recruit_character = P70_fascism_leader
 
 #Kurdistan Initial States
-add_to_array = { pfp_kurdistan_integration_array = 350 } #Diyarbakir
-add_to_array = { pfp_kurdistan_integration_array = 352 } #Hakkari
-add_to_array = { pfp_kurdistan_integration_array = 353 } #Tunceli
+add_to_array = { P70.pfp_possible_cores = 350 } #Diyarbakir
+add_to_array = { P70.pfp_possible_cores = 352 } #Hakkari
+add_to_array = { P70.pfp_possible_cores = 353 } #Tunceli
 
 #Kurdistan Territories
-add_to_array = { pfp_kurdistan_integration_array = 291 } #Baghdad
-add_to_array = { pfp_kurdistan_integration_array = 344 } #Malatya
-add_to_array = { pfp_kurdistan_integration_array = 419 } #Azerbaijan-e Sharqui
-add_to_array = { pfp_kurdistan_integration_array = 421 } #Kordestan
-add_to_array = { pfp_kurdistan_integration_array = 676 } #Mosul
-add_to_array = { pfp_kurdistan_integration_array = 680 } #Deir-Az-Zur
-add_to_array = { pfp_kurdistan_integration_array = 800 } #Van
-add_to_array = { pfp_kurdistan_integration_array = 988 } #Azarbayjan-e Gharbi
-add_to_array = { pfp_kurdistan_integration_array = 1048 } #Sulymaniyah
-add_to_array = { pfp_kurdistan_integration_array = 1049 } #Erbil
+add_to_array = { P70.pfp_possible_cores = 291 } #Baghdad
+add_to_array = { P70.pfp_possible_cores = 344 } #Malatya
+add_to_array = { P70.pfp_possible_cores = 419 } #Azerbaijan-e Sharqui
+add_to_array = { P70.pfp_possible_cores = 421 } #Kordestan
+add_to_array = { P70.pfp_possible_cores = 676 } #Mosul
+add_to_array = { P70.pfp_possible_cores = 680 } #Deir-Az-Zur
+add_to_array = { P70.pfp_possible_cores = 800 } #Van
+add_to_array = { P70.pfp_possible_cores = 988 } #Azarbayjan-e Gharbi
+add_to_array = { P70.pfp_possible_cores = 1048 } #Sulymaniyah
+add_to_array = { P70.pfp_possible_cores = 1049 } #Erbil

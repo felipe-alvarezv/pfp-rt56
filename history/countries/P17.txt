@@ -1,4 +1,4 @@
-#Indonesia
+﻿#Indonesia
 capital = 335 #Java
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,26 +95,26 @@ recruit_character = P17_neutrality_leader
 recruit_character = P17_fascism_leader
 
 #Indonesia Initial States
-add_to_array = { pfp_indonesia_integration_array = 334 } #East Kalimantan
-add_to_array = { pfp_indonesia_integration_array = 335 } #West Java
-add_to_array = { pfp_indonesia_integration_array = 446 } #East Java
-add_to_array = { pfp_indonesia_integration_array = 667 } #Lesser Sunda Islands
-add_to_array = { pfp_indonesia_integration_array = 668 } #Moluccan Islands
-add_to_array = { pfp_indonesia_integration_array = 672 } #South Sumatra
-add_to_array = { pfp_indonesia_integration_array = 673 } #South Sulawesi
-add_to_array = { pfp_indonesia_integration_array = 738 } #Aru Islands
-add_to_array = { pfp_indonesia_integration_array = 974 } #North Sumatra
-add_to_array = { pfp_indonesia_integration_array = 975 } #North Sulawesi
-add_to_array = { pfp_indonesia_integration_array = 976 } #Central Java
-add_to_array = { pfp_indonesia_integration_array = 977 } #Inner Borneo
-add_to_array = { pfp_indonesia_integration_array = 978 } #West Kalimantan
+add_to_array = { P17.pfp_possible_cores = 334 } #East Kalimantan
+add_to_array = { P17.pfp_possible_cores = 335 } #West Java
+add_to_array = { P17.pfp_possible_cores = 446 } #East Java
+add_to_array = { P17.pfp_possible_cores = 667 } #Lesser Sunda Islands
+add_to_array = { P17.pfp_possible_cores = 668 } #Moluccan Islands
+add_to_array = { P17.pfp_possible_cores = 672 } #South Sumatra
+add_to_array = { P17.pfp_possible_cores = 673 } #South Sulawesi
+add_to_array = { P17.pfp_possible_cores = 738 } #Aru Islands
+add_to_array = { P17.pfp_possible_cores = 974 } #North Sumatra
+add_to_array = { P17.pfp_possible_cores = 975 } #North Sulawesi
+add_to_array = { P17.pfp_possible_cores = 976 } #Central Java
+add_to_array = { P17.pfp_possible_cores = 977 } #Inner Borneo
+add_to_array = { P17.pfp_possible_cores = 978 } #West Kalimantan
 
 #Indonesia Territories
-add_to_array = { pfp_indonesia_integration_array = 333 } #Sarawak
-add_to_array = { pfp_indonesia_integration_array = 909 } #Riau Islands
-add_to_array = { pfp_indonesia_integration_array = 914 } #Kedah
-add_to_array = { pfp_indonesia_integration_array = 915 } #Pahang
-add_to_array = { pfp_indonesia_integration_array = 916 } #North Borneo
-add_to_array = { pfp_indonesia_integration_array = 951 } #Johor
-add_to_array = { pfp_indonesia_integration_array = 960 } #Terengganu
-add_to_array = { pfp_indonesia_integration_array = 1014 } #Brunei
+add_to_array = { P17.pfp_possible_cores = 333 } #Sarawak
+add_to_array = { P17.pfp_possible_cores = 909 } #Riau Islands
+add_to_array = { P17.pfp_possible_cores = 914 } #Kedah
+add_to_array = { P17.pfp_possible_cores = 915 } #Pahang
+add_to_array = { P17.pfp_possible_cores = 916 } #North Borneo
+add_to_array = { P17.pfp_possible_cores = 951 } #Johor
+add_to_array = { P17.pfp_possible_cores = 960 } #Terengganu
+add_to_array = { P17.pfp_possible_cores = 1014 } #Brunei

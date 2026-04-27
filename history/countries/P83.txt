@@ -1,4 +1,4 @@
-#Iceland
+﻿#Iceland
 capital = 100 #Iceland
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,5 +94,5 @@ recruit_character = P83_neutrality_leader
 recruit_character = P83_fascism_leader
 
 #Iceland Initial States
-add_to_array = { pfp_iceland_integration_array = 100 } #Hofudborgarsvaedid
-add_to_array = { pfp_iceland_integration_array = 1043 } #Sudurland
+add_to_array = { P83.pfp_possible_cores = 100 } #Hofudborgarsvaedid
+add_to_array = { P83.pfp_possible_cores = 1043 } #Sudurland

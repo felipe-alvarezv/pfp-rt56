@@ -1,4 +1,4 @@
-#Two Sicilies
+﻿#Two Sicilies
 capital = 117 #Campania
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,8 +94,8 @@ recruit_character = P97_neutrality_leader
 recruit_character = P97_fascism_leader
 
 #Two Sicilies Initial States
-add_to_array = { pfp_two_sicilies_integration_array = 115 } #Sicily
-add_to_array = { pfp_two_sicilies_integration_array = 117 } #Campania
-add_to_array = { pfp_two_sicilies_integration_array = 156 } #Calabria
-add_to_array = { pfp_two_sicilies_integration_array = 157 } #Abruzzo
-add_to_array = { pfp_two_sicilies_integration_array = 849 } #Puglia
+add_to_array = { P97.pfp_possible_cores = 115 } #Sicily
+add_to_array = { P97.pfp_possible_cores = 117 } #Campania
+add_to_array = { P97.pfp_possible_cores = 156 } #Calabria
+add_to_array = { P97.pfp_possible_cores = 157 } #Abruzzo
+add_to_array = { P97.pfp_possible_cores = 849 } #Puglia

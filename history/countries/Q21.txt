@@ -1,4 +1,4 @@
-#Qinghai
+﻿#Qinghai
 capital = 754 #Golog
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,7 +94,7 @@ recruit_character = Q21_neutrality_leader
 recruit_character = Q21_fascism_leader
 
 #Qinghai Initial States
-add_to_array = { pfp_qinghai_integration_array = 604 } #Qinghai
-add_to_array = { pfp_qinghai_integration_array = 754 } #Golog
-add_to_array = { pfp_qinghai_integration_array = 755 } #Haixi
-add_to_array = { pfp_qinghai_integration_array = 1075 } #Gyarong
+add_to_array = { Q21.pfp_possible_cores = 604 } #Qinghai
+add_to_array = { Q21.pfp_possible_cores = 754 } #Golog
+add_to_array = { Q21.pfp_possible_cores = 755 } #Haixi
+add_to_array = { Q21.pfp_possible_cores = 1075 } #Gyarong

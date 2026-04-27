@@ -1,4 +1,4 @@
-#Slovenia
+﻿#Slovenia
 capital = 853 #Ljubljana
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,9 +94,9 @@ recruit_character = P87_neutrality_leader
 recruit_character = P87_fascism_leader
 
 #Slovenia Initial States
-add_to_array = { pfp_slovenia_integration_array = 102 } #Podravkska
-add_to_array = { pfp_slovenia_integration_array = 853 } #Ljubljana
-add_to_array = { pfp_slovenia_integration_array = 956 } #Prekmurje
+add_to_array = { P87.pfp_possible_cores = 102 } #Podravkska
+add_to_array = { P87.pfp_possible_cores = 853 } #Ljubljana
+add_to_array = { P87.pfp_possible_cores = 956 } #Prekmurje
 
 #Slovenia Territories
-add_to_array = { pfp_slovenia_integration_array = 736 } #Litorale
+add_to_array = { P87.pfp_possible_cores = 736 } #Litorale

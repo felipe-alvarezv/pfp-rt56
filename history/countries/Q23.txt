@@ -1,4 +1,4 @@
-#East Turkestan
+﻿#East Turkestan
 capital = 617 #Urumqi
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,10 +94,10 @@ recruit_character = Q23_neutrality_leader
 recruit_character = Q23_fascism_leader
 
 #East Turkestan Initial States
-add_to_array = { pfp_east_turkestan_integration_array = 287 } #Taklamakan
-add_to_array = { pfp_east_turkestan_integration_array = 617 } #Urumqi
-add_to_array = { pfp_east_turkestan_integration_array = 618 } #Dzungaria 
-add_to_array = { pfp_east_turkestan_integration_array = 619 } #Yarkand
-add_to_array = { pfp_east_turkestan_integration_array = 759 } #Ruoqiang
-add_to_array = { pfp_east_turkestan_integration_array = 760 } #Dabancheng
-add_to_array = { pfp_east_turkestan_integration_array = 1121 } #Kunlun Shan
+add_to_array = { Q23.pfp_possible_cores = 287 } #Taklamakan
+add_to_array = { Q23.pfp_possible_cores = 617 } #Urumqi
+add_to_array = { Q23.pfp_possible_cores = 618 } #Dzungaria 
+add_to_array = { Q23.pfp_possible_cores = 619 } #Yarkand
+add_to_array = { Q23.pfp_possible_cores = 759 } #Ruoqiang
+add_to_array = { Q23.pfp_possible_cores = 760 } #Dabancheng
+add_to_array = { Q23.pfp_possible_cores = 1121 } #Kunlun Shan

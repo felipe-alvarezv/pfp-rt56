@@ -1,4 +1,4 @@
-#South Germany
+﻿#South Germany
 capital = 4 #Vienna
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,22 +95,22 @@ recruit_character = P25_neutrality_leader
 recruit_character = P25_fascism_leader
 
 #South Germany Initial States
-add_to_array = { pfp_south_germany_integration_array = 50 } #Wurttemberg
-add_to_array = { pfp_south_germany_integration_array = 52 } #Oberbayern
-add_to_array = { pfp_south_germany_integration_array = 53 } #Niederbayern
-add_to_array = { pfp_south_germany_integration_array = 54 } #Franken
-add_to_array = { pfp_south_germany_integration_array = 923 } #Baden
+add_to_array = { P25.pfp_possible_cores = 50 } #Wurttemberg
+add_to_array = { P25.pfp_possible_cores = 52 } #Oberbayern
+add_to_array = { P25.pfp_possible_cores = 53 } #Niederbayern
+add_to_array = { P25.pfp_possible_cores = 54 } #Franken
+add_to_array = { P25.pfp_possible_cores = 923 } #Baden
 
 #South Germany Territories
-add_to_array = { pfp_south_germany_integration_array = 4 } #Lower Austria
-add_to_array = { pfp_south_germany_integration_array = 39 } #Alto Adige
-add_to_array = { pfp_south_germany_integration_array = 42 } #Moselland
-add_to_array = { pfp_south_germany_integration_array = 102 } #Drava
-add_to_array = { pfp_south_germany_integration_array = 152 } #Upper Austria
-add_to_array = { pfp_south_germany_integration_array = 153 } #Tyrol
-add_to_array = { pfp_south_germany_integration_array = 736 } #Litorale
-add_to_array = { pfp_south_germany_integration_array = 848 } #Vorarlberg
-add_to_array = { pfp_south_germany_integration_array = 853 } #Ljubljana
-add_to_array = { pfp_south_germany_integration_array = 922 } #Frankfurt
-add_to_array = { pfp_south_germany_integration_array = 1053 } #Saarland
-add_to_array = { pfp_south_germany_integration_array = 1054 } #Styria
+add_to_array = { P25.pfp_possible_cores = 4 } #Lower Austria
+add_to_array = { P25.pfp_possible_cores = 39 } #Alto Adige
+add_to_array = { P25.pfp_possible_cores = 42 } #Moselland
+add_to_array = { P25.pfp_possible_cores = 102 } #Drava
+add_to_array = { P25.pfp_possible_cores = 152 } #Upper Austria
+add_to_array = { P25.pfp_possible_cores = 153 } #Tyrol
+add_to_array = { P25.pfp_possible_cores = 736 } #Litorale
+add_to_array = { P25.pfp_possible_cores = 848 } #Vorarlberg
+add_to_array = { P25.pfp_possible_cores = 853 } #Ljubljana
+add_to_array = { P25.pfp_possible_cores = 922 } #Frankfurt
+add_to_array = { P25.pfp_possible_cores = 1053 } #Saarland
+add_to_array = { P25.pfp_possible_cores = 1054 } #Styria

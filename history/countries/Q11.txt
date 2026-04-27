@@ -1,4 +1,4 @@
-#Shandong
+﻿#Shandong
 capital = 597 #Shandong
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,8 +94,8 @@ recruit_character = Q11_neutrality_leader
 recruit_character = Q11_fascism_leader
 
 #Shandong Initial States
-add_to_array = { pfp_shandong_integration_array = 597 } #Shandong
-add_to_array = { pfp_shandong_integration_array = 1117 } #Jinan
+add_to_array = { Q11.pfp_possible_cores = 597 } #Shandong
+add_to_array = { Q11.pfp_possible_cores = 1117 } #Jinan
 
 #Shandong Territories
-add_to_array = { pfp_shandong_integration_array = 743 } #Qingdao
+add_to_array = { Q11.pfp_possible_cores = 743 } #Qingdao

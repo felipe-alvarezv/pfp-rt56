@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,20 +95,20 @@ recruit_character = P63_neutrality_leader
 recruit_character = P63_fascism_leader
 
 #Southern France Initial States
-add_to_array = { pfp_southern_france_integration_array = 20 } #Rhone
-add_to_array = { pfp_southern_france_integration_array = 22 } #Languedoc
-add_to_array = { pfp_southern_france_integration_array = 25 } #Limousin
-add_to_array = { pfp_southern_france_integration_array = 26 } #Auvergne
-add_to_array = { pfp_southern_france_integration_array = 31 } #Midi Pyrenees
-add_to_array = { pfp_southern_france_integration_array = 33 } #Centre-Sud
+add_to_array = { P63.pfp_possible_cores = 20 } #Rhone
+add_to_array = { P63.pfp_possible_cores = 22 } #Languedoc
+add_to_array = { P63.pfp_possible_cores = 25 } #Limousin
+add_to_array = { P63.pfp_possible_cores = 26 } #Auvergne
+add_to_array = { P63.pfp_possible_cores = 31 } #Midi Pyrenees
+add_to_array = { P63.pfp_possible_cores = 33 } #Centre-Sud
 
 #Southern France Territories
-add_to_array = { pfp_southern_france_integration_array = 1 } #Corsica
-add_to_array = { pfp_southern_france_integration_array = 19 } #Aquitaine
-add_to_array = { pfp_southern_france_integration_array = 21 } #Bouches-Du-Rhone
-add_to_array = { pfp_southern_france_integration_array = 23 } #Poitou
-add_to_array = { pfp_southern_france_integration_array = 32 } #Alpes
-add_to_array = { pfp_southern_france_integration_array = 735 } #Savoy
-add_to_array = { pfp_southern_france_integration_array = 806 } #Pyrenees-Atlantiques
-add_to_array = { pfp_southern_france_integration_array = 851 } #Var
-add_to_array = { pfp_southern_france_integration_array = 1012 } #Monaco
+add_to_array = { P63.pfp_possible_cores = 1 } #Corsica
+add_to_array = { P63.pfp_possible_cores = 19 } #Aquitaine
+add_to_array = { P63.pfp_possible_cores = 21 } #Bouches-Du-Rhone
+add_to_array = { P63.pfp_possible_cores = 23 } #Poitou
+add_to_array = { P63.pfp_possible_cores = 32 } #Alpes
+add_to_array = { P63.pfp_possible_cores = 735 } #Savoy
+add_to_array = { P63.pfp_possible_cores = 806 } #Pyrenees-Atlantiques
+add_to_array = { P63.pfp_possible_cores = 851 } #Var
+add_to_array = { P63.pfp_possible_cores = 1012 } #Monaco

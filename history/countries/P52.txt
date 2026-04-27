@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,17 +95,17 @@ recruit_character = P52_neutrality_leader
 recruit_character = P52_fascism_leader
 
 #Himalayas Initial States
-add_to_array = { pfp_himalayas_integration_array = 322 } #Chang-Tang
-add_to_array = { pfp_himalayas_integration_array = 757 } #U-Tsang
-add_to_array = { pfp_himalayas_integration_array = 758 } #Ngari Khorsum
+add_to_array = { P52.pfp_possible_cores = 322 } #Chang-Tang
+add_to_array = { P52.pfp_possible_cores = 757 } #U-Tsang
+add_to_array = { P52.pfp_possible_cores = 758 } #Ngari Khorsum
 
 #Himalayas Territories
-add_to_array = { pfp_himalayas_integration_array = 323 } #Bagmati
-add_to_array = { pfp_himalayas_integration_array = 324 } #Bhutan
-add_to_array = { pfp_himalayas_integration_array = 432 } #Assam
-add_to_array = { pfp_himalayas_integration_array = 434 } #Lhoyu
-add_to_array = { pfp_himalayas_integration_array = 441 } #Kashmir
-add_to_array = { pfp_himalayas_integration_array = 601 } #Western Kham
-add_to_array = { pfp_himalayas_integration_array = 787 } #Northern Kashmir
-add_to_array = { pfp_himalayas_integration_array = 1013 } #Sikkim
-add_to_array = { pfp_himalayas_integration_array = 1091 } #Gandaki
+add_to_array = { P52.pfp_possible_cores = 323 } #Bagmati
+add_to_array = { P52.pfp_possible_cores = 324 } #Bhutan
+add_to_array = { P52.pfp_possible_cores = 432 } #Assam
+add_to_array = { P52.pfp_possible_cores = 434 } #Lhoyu
+add_to_array = { P52.pfp_possible_cores = 441 } #Kashmir
+add_to_array = { P52.pfp_possible_cores = 601 } #Western Kham
+add_to_array = { P52.pfp_possible_cores = 787 } #Northern Kashmir
+add_to_array = { P52.pfp_possible_cores = 1013 } #Sikkim
+add_to_array = { P52.pfp_possible_cores = 1091 } #Gandaki

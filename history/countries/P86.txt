@@ -1,4 +1,4 @@
-#Croatia
+﻿#Croatia
 capital = 109 #Croatia
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,12 +94,12 @@ recruit_character = P86_neutrality_leader
 recruit_character = P86_fascism_leader
 
 #Croatia Initial States
-add_to_array = { pfp_croatia_integration_array = 103 } #Dalmacija
-add_to_array = { pfp_croatia_integration_array = 109 } #Zagreb
-add_to_array = { pfp_croatia_integration_array = 958 } #Kvarner
-add_to_array = { pfp_croatia_integration_array = 959 } #Slavonija
+add_to_array = { P86.pfp_possible_cores = 103 } #Dalmacija
+add_to_array = { P86.pfp_possible_cores = 109 } #Zagreb
+add_to_array = { P86.pfp_possible_cores = 958 } #Kvarner
+add_to_array = { P86.pfp_possible_cores = 959 } #Slavonija
 
 #Croatia Territories
-add_to_array = { pfp_croatia_integration_array = 163 } #Zara
-add_to_array = { pfp_croatia_integration_array = 804 } #Herzegovina
-add_to_array = { pfp_croatia_integration_array = 852 } #Istria
+add_to_array = { P86.pfp_possible_cores = 163 } #Zara
+add_to_array = { P86.pfp_possible_cores = 804 } #Herzegovina
+add_to_array = { P86.pfp_possible_cores = 852 } #Istria

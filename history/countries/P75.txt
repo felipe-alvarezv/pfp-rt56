@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,21 +95,21 @@ recruit_character = P75_neutrality_leader
 recruit_character = P75_fascism_leader
 
 #Pakistan Initial States
-add_to_array = { pfp_pakistan_integration_array = 442 } #Sarhad
-add_to_array = { pfp_pakistan_integration_array = 444 } #Balochistan
-add_to_array = { pfp_pakistan_integration_array = 445 } #Quetta
-add_to_array = { pfp_pakistan_integration_array = 1093 } #West Sind
+add_to_array = { P75.pfp_possible_cores = 442 } #Sarhad
+add_to_array = { P75.pfp_possible_cores = 444 } #Balochistan
+add_to_array = { P75.pfp_possible_cores = 445 } #Quetta
+add_to_array = { P75.pfp_possible_cores = 1093 } #West Sind
 
 #Pakistan Territories
-add_to_array = { pfp_pakistan_integration_array = 324 } #Bhutan
-add_to_array = { pfp_pakistan_integration_array = 430 } #East Bengal
-add_to_array = { pfp_pakistan_integration_array = 431 } #West Bengal
-add_to_array = { pfp_pakistan_integration_array = 432 } #Assam
-add_to_array = { pfp_pakistan_integration_array = 434 } #Lhoyu
-add_to_array = { pfp_pakistan_integration_array = 435 } #Jharkhand
-add_to_array = { pfp_pakistan_integration_array = 440 } #West Punjab
-add_to_array = { pfp_pakistan_integration_array = 441 } #Kashmir
-add_to_array = { pfp_pakistan_integration_array = 443 } #East Sind
-add_to_array = { pfp_pakistan_integration_array = 787 } #Northern Kashmir
-add_to_array = { pfp_pakistan_integration_array = 1013 } #Sikkim
-add_to_array = { pfp_pakistan_integration_array = 1092 } #Bihar
+add_to_array = { P75.pfp_possible_cores = 324 } #Bhutan
+add_to_array = { P75.pfp_possible_cores = 430 } #East Bengal
+add_to_array = { P75.pfp_possible_cores = 431 } #West Bengal
+add_to_array = { P75.pfp_possible_cores = 432 } #Assam
+add_to_array = { P75.pfp_possible_cores = 434 } #Lhoyu
+add_to_array = { P75.pfp_possible_cores = 435 } #Jharkhand
+add_to_array = { P75.pfp_possible_cores = 440 } #West Punjab
+add_to_array = { P75.pfp_possible_cores = 441 } #Kashmir
+add_to_array = { P75.pfp_possible_cores = 443 } #East Sind
+add_to_array = { P75.pfp_possible_cores = 787 } #Northern Kashmir
+add_to_array = { P75.pfp_possible_cores = 1013 } #Sikkim
+add_to_array = { P75.pfp_possible_cores = 1092 } #Bihar

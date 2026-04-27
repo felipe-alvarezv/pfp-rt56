@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,16 +95,16 @@ recruit_character = P59_neutrality_leader
 recruit_character = P59_fascism_leader
 
 #Czechia Initial States
-add_to_array = { pfp_czechia_integration_array = 9 } #Cechy
-add_to_array = { pfp_czechia_integration_array = 75 } #Morava
+add_to_array = { P59.pfp_possible_cores = 9 } #Cechy
+add_to_array = { P59.pfp_possible_cores = 75 } #Morava
 
 #Czechia Territories
-add_to_array = { pfp_czechia_integration_array = 69 } #Sudetenland
-add_to_array = { pfp_czechia_integration_array = 70 } #Western Slovakia
-add_to_array = { pfp_czechia_integration_array = 71 } #Eastern Slovakia
-add_to_array = { pfp_czechia_integration_array = 72 } #Zaolzie
-add_to_array = { pfp_czechia_integration_array = 73 } #Carpathian Ruthenia
-add_to_array = { pfp_czechia_integration_array = 74 } #Eastern Sudetenland
-add_to_array = { pfp_czechia_integration_array = 664 } #Southern Slovakia
-add_to_array = { pfp_czechia_integration_array = 996 } #Uzhorod
-add_to_array = { pfp_czechia_integration_array = 1078 } #Southern Sudetenland
+add_to_array = { P59.pfp_possible_cores = 69 } #Sudetenland
+add_to_array = { P59.pfp_possible_cores = 70 } #Western Slovakia
+add_to_array = { P59.pfp_possible_cores = 71 } #Eastern Slovakia
+add_to_array = { P59.pfp_possible_cores = 72 } #Zaolzie
+add_to_array = { P59.pfp_possible_cores = 73 } #Carpathian Ruthenia
+add_to_array = { P59.pfp_possible_cores = 74 } #Eastern Sudetenland
+add_to_array = { P59.pfp_possible_cores = 664 } #Southern Slovakia
+add_to_array = { P59.pfp_possible_cores = 996 } #Uzhorod
+add_to_array = { P59.pfp_possible_cores = 1078 } #Southern Sudetenland

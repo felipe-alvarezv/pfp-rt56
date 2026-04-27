@@ -1,4 +1,4 @@
-#Netherlands
+﻿#Netherlands
 capital = 7 #Holland
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,14 +95,14 @@ recruit_character = P05_neutrality_leader
 recruit_character = P05_fascism_leader
 
 #Netherlands Initial States
-add_to_array = { pfp_netherlands_integration_array = 7 } #Holland
-add_to_array = { pfp_netherlands_integration_array = 35 } #Brabant
-add_to_array = { pfp_netherlands_integration_array = 36 } #Friesland
+add_to_array = { P05.pfp_possible_cores = 7 } #Holland
+add_to_array = { P05.pfp_possible_cores = 35 } #Brabant
+add_to_array = { P05.pfp_possible_cores = 36 } #Friesland
 
 #Netherlands Territories
-add_to_array = { pfp_netherlands_integration_array = 6 } #Vlaanderen
-add_to_array = { pfp_netherlands_integration_array = 8 } #Luxemburg
-add_to_array = { pfp_netherlands_integration_array = 34 } #Wallonie
-add_to_array = { pfp_netherlands_integration_array = 965 } #Eupen-Malmedy
-add_to_array = { pfp_netherlands_integration_array = 977 } #Antwerp
-add_to_array = { pfp_netherlands_integration_array = 980 } #Ardennes
+add_to_array = { P05.pfp_possible_cores = 6 } #Vlaanderen
+add_to_array = { P05.pfp_possible_cores = 8 } #Luxemburg
+add_to_array = { P05.pfp_possible_cores = 34 } #Wallonie
+add_to_array = { P05.pfp_possible_cores = 965 } #Eupen-Malmedy
+add_to_array = { P05.pfp_possible_cores = 977 } #Antwerp
+add_to_array = { P05.pfp_possible_cores = 980 } #Ardennes

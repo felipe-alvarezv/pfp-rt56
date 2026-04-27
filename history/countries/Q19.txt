@@ -1,4 +1,4 @@
-#Sichuan
+﻿#Sichuan
 capital = 1120 #Chengdu
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,9 +94,9 @@ recruit_character = Q19_neutrality_leader
 recruit_character = Q19_fascism_leader
 
 #Sichuan Initial States
-add_to_array = { pfp_sichuan_integration_array = 605 } #Sichuan
-add_to_array = { pfp_sichuan_integration_array = 751 } #Liangshan
-add_to_array = { pfp_sichuan_integration_array = 752 } #Ganzi
-add_to_array = { pfp_sichuan_integration_array = 753 } #Gannan
-add_to_array = { pfp_sichuan_integration_array = 1116 } #Chongqing
-add_to_array = { pfp_sichuan_integration_array = 1120 } #Chengdu
+add_to_array = { Q19.pfp_possible_cores = 605 } #Sichuan
+add_to_array = { Q19.pfp_possible_cores = 751 } #Liangshan
+add_to_array = { Q19.pfp_possible_cores = 752 } #Ganzi
+add_to_array = { Q19.pfp_possible_cores = 753 } #Gannan
+add_to_array = { Q19.pfp_possible_cores = 1116 } #Chongqing
+add_to_array = { Q19.pfp_possible_cores = 1120 } #Chengdu

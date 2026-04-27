@@ -1,4 +1,4 @@
-#Tohoku
+﻿#Tohoku
 capital = 533 #Kita-Tohoku
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,5 +94,5 @@ recruit_character = Q01_neutrality_leader
 recruit_character = Q01_fascism_leader
 
 #Tohoku Initial States
-add_to_array = { pfp_tohoku_integration_array = 533 } #Kita-Tohoku
-add_to_array = { pfp_tohoku_integration_array = 1106 } #Minami Tohoku
+add_to_array = { Q01.pfp_possible_cores = 533 } #Kita-Tohoku
+add_to_array = { Q01.pfp_possible_cores = 1106 } #Minami Tohoku

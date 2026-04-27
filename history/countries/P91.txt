@@ -1,4 +1,4 @@
-#Albania
+﻿#Albania
 capital = 44 #Central Albania
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,11 +94,11 @@ recruit_character = P91_neutrality_leader
 recruit_character = P91_fascism_leader
 
 #Albania Initial States
-add_to_array = { pfp_albania_integration_array = 44 } #Toskeria
-add_to_array = { pfp_albania_integration_array = 910 } #Gegeria
+add_to_array = { P91.pfp_possible_cores = 44 } #Toskeria
+add_to_array = { P91.pfp_possible_cores = 910 } #Gegeria
 
 #Albania Territories
-add_to_array = { pfp_albania_integration_array = 802 } #Metohija
-add_to_array = { pfp_albania_integration_array = 805 } #Northern Epirus
-add_to_array = { pfp_albania_integration_array = 950 } #Tetovo
-add_to_array = { pfp_albania_integration_array = 953 } #Kosovo
+add_to_array = { P91.pfp_possible_cores = 802 } #Metohija
+add_to_array = { P91.pfp_possible_cores = 805 } #Northern Epirus
+add_to_array = { P91.pfp_possible_cores = 950 } #Tetovo
+add_to_array = { P91.pfp_possible_cores = 953 } #Kosovo

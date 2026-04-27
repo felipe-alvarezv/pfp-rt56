@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,14 +95,14 @@ recruit_character = P61_neutrality_leader
 recruit_character = P61_fascism_leader
 
 #Denmark Initial States
-add_to_array = { pfp_denmark_integration_array = 37 } #Sjaelland
-add_to_array = { pfp_denmark_integration_array = 911 } #Fyn
+add_to_array = { P61.pfp_possible_cores = 37 } #Sjaelland
+add_to_array = { P61.pfp_possible_cores = 911 } #Fyn
 
 #Denmark Territories
-add_to_array = { pfp_denmark_integration_array = 99 } #Jutland
-add_to_array = { pfp_denmark_integration_array = 100 } #Höfuðborgarsvæðið
-add_to_array = { pfp_denmark_integration_array = 101 } #Grønland
-add_to_array = { pfp_denmark_integration_array = 337 } #Faroe Islands
-add_to_array = { pfp_denmark_integration_array = 964 } #Northern Schleswig
-add_to_array = { pfp_denmark_integration_array = 1024 } #Bornholm
-add_to_array = { pfp_denmark_integration_array = 1043 } #Suðurland
+add_to_array = { P61.pfp_possible_cores = 99 } #Jutland
+add_to_array = { P61.pfp_possible_cores = 100 } #Höfuðborgarsvæðið
+add_to_array = { P61.pfp_possible_cores = 101 } #Grønland
+add_to_array = { P61.pfp_possible_cores = 337 } #Faroe Islands
+add_to_array = { P61.pfp_possible_cores = 964 } #Northern Schleswig
+add_to_array = { P61.pfp_possible_cores = 1024 } #Bornholm
+add_to_array = { P61.pfp_possible_cores = 1043 } #Suðurland

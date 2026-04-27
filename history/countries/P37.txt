@@ -1,4 +1,4 @@
-#India
+﻿#India
 capital = 439 #Delhi
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,49 +95,49 @@ recruit_character = P37_neutrality_leader
 recruit_character = P37_fascism_leader
 
 #India Initial States
-add_to_array = { pfp_india_integration_array = 423 } #Madras
-add_to_array = { pfp_india_integration_array = 424 } #Andhra
-add_to_array = { pfp_india_integration_array = 425 } #Mysore
-add_to_array = { pfp_india_integration_array = 426 } #Orissa
-add_to_array = { pfp_india_integration_array = 427 } #Hyderabad
-add_to_array = { pfp_india_integration_array = 428 } #Gujarat
-add_to_array = { pfp_india_integration_array = 429 } #Bombay
-add_to_array = { pfp_india_integration_array = 433 } #Rajahsthan
-add_to_array = { pfp_india_integration_array = 436 } #Jabalpur
-add_to_array = { pfp_india_integration_array = 437 } #Indore
-add_to_array = { pfp_india_integration_array = 438 } #Lucknow
-add_to_array = { pfp_india_integration_array = 439 } #Delhi
-add_to_array = { pfp_india_integration_array = 1090 } #Uttarakhand
-add_to_array = { pfp_india_integration_array = 1098 } #Kochin
-add_to_array = { pfp_india_integration_array = 1099 } #Kohalpur and Deccan
-add_to_array = { pfp_india_integration_array = 1100 } #Bastar
-add_to_array = { pfp_india_integration_array = 1101 } #East Punjab
+add_to_array = { P37.pfp_possible_cores = 423 } #Madras
+add_to_array = { P37.pfp_possible_cores = 424 } #Andhra
+add_to_array = { P37.pfp_possible_cores = 425 } #Mysore
+add_to_array = { P37.pfp_possible_cores = 426 } #Orissa
+add_to_array = { P37.pfp_possible_cores = 427 } #Hyderabad
+add_to_array = { P37.pfp_possible_cores = 428 } #Gujarat
+add_to_array = { P37.pfp_possible_cores = 429 } #Bombay
+add_to_array = { P37.pfp_possible_cores = 433 } #Rajahsthan
+add_to_array = { P37.pfp_possible_cores = 436 } #Jabalpur
+add_to_array = { P37.pfp_possible_cores = 437 } #Indore
+add_to_array = { P37.pfp_possible_cores = 438 } #Lucknow
+add_to_array = { P37.pfp_possible_cores = 439 } #Delhi
+add_to_array = { P37.pfp_possible_cores = 1090 } #Uttarakhand
+add_to_array = { P37.pfp_possible_cores = 1098 } #Kochin
+add_to_array = { P37.pfp_possible_cores = 1099 } #Kohalpur and Deccan
+add_to_array = { P37.pfp_possible_cores = 1100 } #Bastar
+add_to_array = { P37.pfp_possible_cores = 1101 } #East Punjab
 
 #India Territories
-add_to_array = { pfp_india_integration_array = 281 } #Maldive Islands
-add_to_array = { pfp_india_integration_array = 288 } #Magway
-add_to_array = { pfp_india_integration_array = 320 } #Pondicherry
-add_to_array = { pfp_india_integration_array = 321 } #Goa
-add_to_array = { pfp_india_integration_array = 323 } #Bagmati
-add_to_array = { pfp_india_integration_array = 324 } #Bhutan
-add_to_array = { pfp_india_integration_array = 422 } #Ceylon
-add_to_array = { pfp_india_integration_array = 430 } #East Bengal
-add_to_array = { pfp_india_integration_array = 431 } #West Bengal
-add_to_array = { pfp_india_integration_array = 432 } #Assam
-add_to_array = { pfp_india_integration_array = 434 } #Lhoyu
-add_to_array = { pfp_india_integration_array = 435 } #Jharkhand
-add_to_array = { pfp_india_integration_array = 440 } #West Punjab
-add_to_array = { pfp_india_integration_array = 441 } #Kashmir
-add_to_array = { pfp_india_integration_array = 442 } #Sarhad
-add_to_array = { pfp_india_integration_array = 443 } #East Sind
-add_to_array = { pfp_india_integration_array = 444 } #Balochistan
-add_to_array = { pfp_india_integration_array = 445 } #Quetta
-add_to_array = { pfp_india_integration_array = 640 } #Mandalay
-add_to_array = { pfp_india_integration_array = 733 } #Andaman
-add_to_array = { pfp_india_integration_array = 787 } #Northern Kashmir
-add_to_array = { pfp_india_integration_array = 1013 } #Sikkim
-add_to_array = { pfp_india_integration_array = 1019 } #Sagaing
-add_to_array = { pfp_india_integration_array = 1020 } #Bago
-add_to_array = { pfp_india_integration_array = 1091 } #Gandaki
-add_to_array = { pfp_india_integration_array = 1092 } #Bihar
-add_to_array = { pfp_india_integration_array = 1093 } #West Sind
+add_to_array = { P37.pfp_possible_cores = 281 } #Maldive Islands
+add_to_array = { P37.pfp_possible_cores = 288 } #Magway
+add_to_array = { P37.pfp_possible_cores = 320 } #Pondicherry
+add_to_array = { P37.pfp_possible_cores = 321 } #Goa
+add_to_array = { P37.pfp_possible_cores = 323 } #Bagmati
+add_to_array = { P37.pfp_possible_cores = 324 } #Bhutan
+add_to_array = { P37.pfp_possible_cores = 422 } #Ceylon
+add_to_array = { P37.pfp_possible_cores = 430 } #East Bengal
+add_to_array = { P37.pfp_possible_cores = 431 } #West Bengal
+add_to_array = { P37.pfp_possible_cores = 432 } #Assam
+add_to_array = { P37.pfp_possible_cores = 434 } #Lhoyu
+add_to_array = { P37.pfp_possible_cores = 435 } #Jharkhand
+add_to_array = { P37.pfp_possible_cores = 440 } #West Punjab
+add_to_array = { P37.pfp_possible_cores = 441 } #Kashmir
+add_to_array = { P37.pfp_possible_cores = 442 } #Sarhad
+add_to_array = { P37.pfp_possible_cores = 443 } #East Sind
+add_to_array = { P37.pfp_possible_cores = 444 } #Balochistan
+add_to_array = { P37.pfp_possible_cores = 445 } #Quetta
+add_to_array = { P37.pfp_possible_cores = 640 } #Mandalay
+add_to_array = { P37.pfp_possible_cores = 733 } #Andaman
+add_to_array = { P37.pfp_possible_cores = 787 } #Northern Kashmir
+add_to_array = { P37.pfp_possible_cores = 1013 } #Sikkim
+add_to_array = { P37.pfp_possible_cores = 1019 } #Sagaing
+add_to_array = { P37.pfp_possible_cores = 1020 } #Bago
+add_to_array = { P37.pfp_possible_cores = 1091 } #Gandaki
+add_to_array = { P37.pfp_possible_cores = 1092 } #Bihar
+add_to_array = { P37.pfp_possible_cores = 1093 } #West Sind

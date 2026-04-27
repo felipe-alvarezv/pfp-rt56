@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,11 +95,11 @@ recruit_character = P64_neutrality_leader
 recruit_character = P64_fascism_leader
 
 #French Alps Initial States
-add_to_array = { pfp_french_alps_integration_array = 21 } #Bouches-Du-Rhone
-add_to_array = { pfp_french_alps_integration_array = 32 } #Alpes
-add_to_array = { pfp_french_alps_integration_array = 735 } #Savoy
-add_to_array = { pfp_french_alps_integration_array = 851 } #Var
+add_to_array = { P64.pfp_possible_cores = 21 } #Bouches-Du-Rhone
+add_to_array = { P64.pfp_possible_cores = 32 } #Alpes
+add_to_array = { P64.pfp_possible_cores = 735 } #Savoy
+add_to_array = { P64.pfp_possible_cores = 851 } #Var
 
 #French Alps Territories
-add_to_array = { pfp_french_alps_integration_array = 1 } #Corsica
-add_to_array = { pfp_french_alps_integration_array = 1012 } #Monaco
+add_to_array = { P64.pfp_possible_cores = 1 } #Corsica
+add_to_array = { P64.pfp_possible_cores = 1012 } #Monaco

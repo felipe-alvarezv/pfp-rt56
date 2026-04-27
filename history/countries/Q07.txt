@@ -1,4 +1,4 @@
-#Kyushu
+﻿#Kyushu
 capital = 528 #Kitakyushu
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,8 +94,8 @@ recruit_character = Q07_neutrality_leader
 recruit_character = Q07_fascism_leader
 
 #Kyushu Initial States
-add_to_array = { pfp_kyushu_integration_array = 528 } #Kitakyushu
-add_to_array = { pfp_kyushu_integration_array = 1105 } #Minami Kyushu
+add_to_array = { Q07.pfp_possible_cores = 528 } #Kitakyushu
+add_to_array = { Q07.pfp_possible_cores = 1105 } #Minami Kyushu
 
 #Kyushu Territories
-add_to_array = { pfp_kyushu_integration_array = 526 } #Okinawa
+add_to_array = { Q07.pfp_possible_cores = 526 } #Okinawa

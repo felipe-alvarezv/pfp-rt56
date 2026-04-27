@@ -1,4 +1,4 @@
-#North Africa
+﻿#North Africa
 capital = 907 #Cairo
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,34 +95,34 @@ recruit_character = P30_neutrality_leader
 recruit_character = P30_fascism_leader
 
 #North Africa Initial States
-add_to_array = { pfp_north_africa_integration_array = 273 } #Libyan Desert
-add_to_array = { pfp_north_africa_integration_array = 447 } #Alexandria
-add_to_array = { pfp_north_africa_integration_array = 448 } #Tripoli
-add_to_array = { pfp_north_africa_integration_array = 449 } #El Agheila
-add_to_array = { pfp_north_africa_integration_array = 450 } #Benghasi
-add_to_array = { pfp_north_africa_integration_array = 451 } #Derna
-add_to_array = { pfp_north_africa_integration_array = 452 } #Matrouh
-add_to_array = { pfp_north_africa_integration_array = 456 } #Aswan
-add_to_array = { pfp_north_africa_integration_array = 457 } #Eastern Desert
-add_to_array = { pfp_north_africa_integration_array = 552 } #Western Desert
-add_to_array = { pfp_north_africa_integration_array = 661 } #Tripolitania
-add_to_array = { pfp_north_africa_integration_array = 662 } #Sirte
-add_to_array = { pfp_north_africa_integration_array = 663 } #Cyrenaica
-add_to_array = { pfp_north_africa_integration_array = 907 } #Cairo
+add_to_array = { P30.pfp_possible_cores = 273 } #Libyan Desert
+add_to_array = { P30.pfp_possible_cores = 447 } #Alexandria
+add_to_array = { P30.pfp_possible_cores = 448 } #Tripoli
+add_to_array = { P30.pfp_possible_cores = 449 } #El Agheila
+add_to_array = { P30.pfp_possible_cores = 450 } #Benghasi
+add_to_array = { P30.pfp_possible_cores = 451 } #Derna
+add_to_array = { P30.pfp_possible_cores = 452 } #Matrouh
+add_to_array = { P30.pfp_possible_cores = 456 } #Aswan
+add_to_array = { P30.pfp_possible_cores = 457 } #Eastern Desert
+add_to_array = { P30.pfp_possible_cores = 552 } #Western Desert
+add_to_array = { P30.pfp_possible_cores = 661 } #Tripolitania
+add_to_array = { P30.pfp_possible_cores = 662 } #Sirte
+add_to_array = { P30.pfp_possible_cores = 663 } #Cyrenaica
+add_to_array = { P30.pfp_possible_cores = 907 } #Cairo
 
 #North Africa Territories
-add_to_array = { pfp_north_africa_integration_array = 290 } #Spanish Africa
-add_to_array = { pfp_north_africa_integration_array = 453 } #Sinai
-add_to_array = { pfp_north_africa_integration_array = 458 } #Tunisia
-add_to_array = { pfp_north_africa_integration_array = 459 } #Algiers
-add_to_array = { pfp_north_africa_integration_array = 460 } #Constantine
-add_to_array = { pfp_north_africa_integration_array = 461 } #Casablanca
-add_to_array = { pfp_north_africa_integration_array = 462 } #Marrakech
-add_to_array = { pfp_north_africa_integration_array = 513 } #Tlemcen
-add_to_array = { pfp_north_africa_integration_array = 514 } #Algerian Desert
-add_to_array = { pfp_north_africa_integration_array = 665 } #Gabes
-add_to_array = { pfp_north_africa_integration_array = 699 } #Rio de Oro
-add_to_array = { pfp_north_africa_integration_array = 783 } #Sidi Ifni
-add_to_array = { pfp_north_africa_integration_array = 911 } #Suez
-add_to_array = { pfp_north_africa_integration_array = 933 } #Batna
-add_to_array = { pfp_north_africa_integration_array = 995 } #East Suez
+add_to_array = { P30.pfp_possible_cores = 290 } #Spanish Africa
+add_to_array = { P30.pfp_possible_cores = 453 } #Sinai
+add_to_array = { P30.pfp_possible_cores = 458 } #Tunisia
+add_to_array = { P30.pfp_possible_cores = 459 } #Algiers
+add_to_array = { P30.pfp_possible_cores = 460 } #Constantine
+add_to_array = { P30.pfp_possible_cores = 461 } #Casablanca
+add_to_array = { P30.pfp_possible_cores = 462 } #Marrakech
+add_to_array = { P30.pfp_possible_cores = 513 } #Tlemcen
+add_to_array = { P30.pfp_possible_cores = 514 } #Algerian Desert
+add_to_array = { P30.pfp_possible_cores = 665 } #Gabes
+add_to_array = { P30.pfp_possible_cores = 699 } #Rio de Oro
+add_to_array = { P30.pfp_possible_cores = 783 } #Sidi Ifni
+add_to_array = { P30.pfp_possible_cores = 911 } #Suez
+add_to_array = { P30.pfp_possible_cores = 933 } #Batna
+add_to_array = { P30.pfp_possible_cores = 995 } #East Suez

@@ -1,4 +1,4 @@
-#Liangguang
+﻿#Liangguang
 capital = 592 #Guangzhou
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,14 +94,14 @@ recruit_character = Q17_neutrality_leader
 recruit_character = Q17_fascism_leader
 
 #Liangguang Initial States
-add_to_array = { pfp_liangguang_integration_array = 592 } #Guangzhou
-add_to_array = { pfp_liangguang_integration_array = 593 } #Guangdong
-add_to_array = { pfp_liangguang_integration_array = 594 } #Nanning
-add_to_array = { pfp_liangguang_integration_array = 599 } #Guangxi
-add_to_array = { pfp_liangguang_integration_array = 1112 } #Nanlu
+add_to_array = { Q17.pfp_possible_cores = 592 } #Guangzhou
+add_to_array = { Q17.pfp_possible_cores = 593 } #Guangdong
+add_to_array = { Q17.pfp_possible_cores = 594 } #Nanning
+add_to_array = { Q17.pfp_possible_cores = 599 } #Guangxi
+add_to_array = { Q17.pfp_possible_cores = 1112 } #Nanlu
 
 #Liangguang Territories
-add_to_array = { pfp_liangguang_integration_array = 326 } #Hong Kong
-add_to_array = { pfp_liangguang_integration_array = 591 } #Hainan
-add_to_array = { pfp_liangguang_integration_array = 728 } #Guangzhouwan
-add_to_array = { pfp_liangguang_integration_array = 729 } #Macau
+add_to_array = { Q17.pfp_possible_cores = 326 } #Hong Kong
+add_to_array = { Q17.pfp_possible_cores = 591 } #Hainan
+add_to_array = { Q17.pfp_possible_cores = 728 } #Guangzhouwan
+add_to_array = { Q17.pfp_possible_cores = 729 } #Macau

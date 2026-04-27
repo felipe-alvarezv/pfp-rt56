@@ -1,4 +1,4 @@
-#Papal States
+﻿#Papal States
 capital = 2 #Lazio
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,9 +94,9 @@ recruit_character = P96_neutrality_leader
 recruit_character = P96_fascism_leader
 
 #Papal States Initial States
-add_to_array = { pfp_papal_states_integration_array = 2 } #Lazio
-add_to_array = { pfp_papal_states_integration_array = 161 } #Emilia Romagna
-add_to_array = { pfp_papal_states_integration_array = 957 } #Marche
+add_to_array = { P96.pfp_possible_cores = 2 } #Lazio
+add_to_array = { P96.pfp_possible_cores = 161 } #Emilia Romagna
+add_to_array = { P96.pfp_possible_cores = 957 } #Marche
 
 #Papal States Territories
-add_to_array = { pfp_papal_states_integration_array = 1015 } #San Marino
+add_to_array = { P96.pfp_possible_cores = 1015 } #San Marino

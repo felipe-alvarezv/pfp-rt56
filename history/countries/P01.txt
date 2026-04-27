@@ -1,4 +1,4 @@
-#Colombia
+﻿#Colombia
 capital = 306 #Cundinamarca
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,18 +94,18 @@ recruit_character = P01_neutrality_leader
 recruit_character = P01_fascism_leader
 
 #Colombia Initial States
-add_to_array = { pfp_colombia_integration_array = 306 } #Cundinamarca
-add_to_array = { pfp_colombia_integration_array = 486 } #Orinoquia
-add_to_array = { pfp_colombia_integration_array = 493 } #Atlantico
-add_to_array = { pfp_colombia_integration_array = 1051 } #Antioquia
+add_to_array = { P01.pfp_possible_cores = 306 } #Cundinamarca
+add_to_array = { P01.pfp_possible_cores = 486 } #Orinoquia
+add_to_array = { P01.pfp_possible_cores = 493 } #Atlantico
+add_to_array = { P01.pfp_possible_cores = 1051 } #Antioquia
 
 #Colombia Territories
-add_to_array = { pfp_colombia_integration_array = 304 } #Panama
-add_to_array = { pfp_colombia_integration_array = 307 } #Miranda
-add_to_array = { pfp_colombia_integration_array = 488 } #Bolivar
-add_to_array = { pfp_colombia_integration_array = 489 } #Zulia
-add_to_array = { pfp_colombia_integration_array = 685 } #Panama Canal
-add_to_array = { pfp_colombia_integration_array = 691 } #Trinidad
-add_to_array = { pfp_colombia_integration_array = 695 } #Curacao
-add_to_array = { pfp_colombia_integration_array = 937 } #Northern Panama
-add_to_array = { pfp_colombia_integration_array = 948 } #Apure
+add_to_array = { P01.pfp_possible_cores = 304 } #Panama
+add_to_array = { P01.pfp_possible_cores = 307 } #Miranda
+add_to_array = { P01.pfp_possible_cores = 488 } #Bolivar
+add_to_array = { P01.pfp_possible_cores = 489 } #Zulia
+add_to_array = { P01.pfp_possible_cores = 685 } #Panama Canal
+add_to_array = { P01.pfp_possible_cores = 691 } #Trinidad
+add_to_array = { P01.pfp_possible_cores = 695 } #Curacao
+add_to_array = { P01.pfp_possible_cores = 937 } #Northern Panama
+add_to_array = { P01.pfp_possible_cores = 948 } #Apure

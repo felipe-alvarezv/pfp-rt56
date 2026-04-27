@@ -1,4 +1,4 @@
-#West Germany
+﻿#West Germany
 capital = 51 #Rhineland
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,21 +95,21 @@ recruit_character = P31_neutrality_leader
 recruit_character = P31_fascism_leader
 
 #West Germany Initial States
-add_to_array = { pfp_west_germany_integration_array = 42 } #Moselland
-add_to_array = { pfp_west_germany_integration_array = 50 } #Wurttemberg
-add_to_array = { pfp_west_germany_integration_array = 51 } #Rhineland
-add_to_array = { pfp_west_germany_integration_array = 52 } #Oberbayern
-add_to_array = { pfp_west_germany_integration_array = 53 } #Niederbayern
-add_to_array = { pfp_west_germany_integration_array = 54 } #Franken
-add_to_array = { pfp_west_germany_integration_array = 55 } #Hessen
-add_to_array = { pfp_west_germany_integration_array = 56 } #Weser-Ems
-add_to_array = { pfp_west_germany_integration_array = 57 } #Westfalen
-add_to_array = { pfp_west_germany_integration_array = 58 } #Holstein
-add_to_array = { pfp_west_germany_integration_array = 59 } #Hannover
-add_to_array = { pfp_west_germany_integration_array = 923 } #Baden
-add_to_array = { pfp_west_germany_integration_array = 922 } #Frankfurt
-add_to_array = { pfp_west_germany_integration_array = 989 } #Ostrhineland
-add_to_array = { pfp_west_germany_integration_array = 1053 } #Saarland
+add_to_array = { P31.pfp_possible_cores = 42 } #Moselland
+add_to_array = { P31.pfp_possible_cores = 50 } #Wurttemberg
+add_to_array = { P31.pfp_possible_cores = 51 } #Rhineland
+add_to_array = { P31.pfp_possible_cores = 52 } #Oberbayern
+add_to_array = { P31.pfp_possible_cores = 53 } #Niederbayern
+add_to_array = { P31.pfp_possible_cores = 54 } #Franken
+add_to_array = { P31.pfp_possible_cores = 55 } #Hessen
+add_to_array = { P31.pfp_possible_cores = 56 } #Weser-Ems
+add_to_array = { P31.pfp_possible_cores = 57 } #Westfalen
+add_to_array = { P31.pfp_possible_cores = 58 } #Holstein
+add_to_array = { P31.pfp_possible_cores = 59 } #Hannover
+add_to_array = { P31.pfp_possible_cores = 923 } #Baden
+add_to_array = { P31.pfp_possible_cores = 922 } #Frankfurt
+add_to_array = { P31.pfp_possible_cores = 989 } #Ostrhineland
+add_to_array = { P31.pfp_possible_cores = 1053 } #Saarland
 
 #West Germany Territories
-add_to_array = { pfp_west_germany_integration_array = 998 } #Southern Schleswig
+add_to_array = { P31.pfp_possible_cores = 998 } #Southern Schleswig

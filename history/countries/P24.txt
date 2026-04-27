@@ -1,4 +1,4 @@
-#Scandinavia
+﻿#Scandinavia
 capital = 141 #Stockholm
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,40 +95,40 @@ recruit_character = P24_neutrality_leader
 recruit_character = P24_fascism_leader
 
 #Scandinavia Initial States
-add_to_array = { pfp_scandinavia_integration_array = 37 } #Sjaelland
-add_to_array = { pfp_scandinavia_integration_array = 38 } #Norrland
-add_to_array = { pfp_scandinavia_integration_array = 99 } #Jutland
-add_to_array = { pfp_scandinavia_integration_array = 110 } #Ostlandet
-add_to_array = { pfp_scandinavia_integration_array = 138 } #Scania
-add_to_array = { pfp_scandinavia_integration_array = 139 } #Smaland
-add_to_array = { pfp_scandinavia_integration_array = 140 } #Vastergotland
-add_to_array = { pfp_scandinavia_integration_array = 141 } #Svealand
-add_to_array = { pfp_scandinavia_integration_array = 142 } #Vestlandet
-add_to_array = { pfp_scandinavia_integration_array = 143 } #Trondelag
-add_to_array = { pfp_scandinavia_integration_array = 144 } #Nord-Norge
-add_to_array = { pfp_scandinavia_integration_array = 666 } #Lappland
-add_to_array = { pfp_scandinavia_integration_array = 1025 } #Fyn
-add_to_array = { pfp_scandinavia_integration_array = 1026 } #Östergötland
-add_to_array = { pfp_scandinavia_integration_array = 969 } #Bohuslän
-add_to_array = { pfp_scandinavia_integration_array = 1030 } #Värmland
-add_to_array = { pfp_scandinavia_integration_array = 1028 } #Dalarna
-add_to_array = { pfp_scandinavia_integration_array = 1031 } #Opplandene
-add_to_array = { pfp_scandinavia_integration_array = 1032 } #Telemark
-add_to_array = { pfp_scandinavia_integration_array = 967 } #Sørlandet
-add_to_array = { pfp_scandinavia_integration_array = 968 }  #Jämtland
-add_to_array = { pfp_scandinavia_integration_array = 1029 } #Västerbotten
-add_to_array = { pfp_scandinavia_integration_array = 1033 } #Helgeland
-add_to_array = { pfp_scandinavia_integration_array = 1034 } #Troms
-add_to_array = { pfp_scandinavia_integration_array = 1035 } #Finnmark
+add_to_array = { P24.pfp_possible_cores = 37 } #Sjaelland
+add_to_array = { P24.pfp_possible_cores = 38 } #Norrland
+add_to_array = { P24.pfp_possible_cores = 99 } #Jutland
+add_to_array = { P24.pfp_possible_cores = 110 } #Ostlandet
+add_to_array = { P24.pfp_possible_cores = 138 } #Scania
+add_to_array = { P24.pfp_possible_cores = 139 } #Smaland
+add_to_array = { P24.pfp_possible_cores = 140 } #Vastergotland
+add_to_array = { P24.pfp_possible_cores = 141 } #Svealand
+add_to_array = { P24.pfp_possible_cores = 142 } #Vestlandet
+add_to_array = { P24.pfp_possible_cores = 143 } #Trondelag
+add_to_array = { P24.pfp_possible_cores = 144 } #Nord-Norge
+add_to_array = { P24.pfp_possible_cores = 666 } #Lappland
+add_to_array = { P24.pfp_possible_cores = 1025 } #Fyn
+add_to_array = { P24.pfp_possible_cores = 1026 } #Östergötland
+add_to_array = { P24.pfp_possible_cores = 969 } #Bohuslän
+add_to_array = { P24.pfp_possible_cores = 1030 } #Värmland
+add_to_array = { P24.pfp_possible_cores = 1028 } #Dalarna
+add_to_array = { P24.pfp_possible_cores = 1031 } #Opplandene
+add_to_array = { P24.pfp_possible_cores = 1032 } #Telemark
+add_to_array = { P24.pfp_possible_cores = 967 } #Sørlandet
+add_to_array = { P24.pfp_possible_cores = 968 }  #Jämtland
+add_to_array = { P24.pfp_possible_cores = 1029 } #Västerbotten
+add_to_array = { P24.pfp_possible_cores = 1033 } #Helgeland
+add_to_array = { P24.pfp_possible_cores = 1034 } #Troms
+add_to_array = { P24.pfp_possible_cores = 1035 } #Finnmark
 
 #Scandinavia Territories
-add_to_array = { pfp_scandinavia_integration_array = 100 } #Höfuðborgarsvæðið
-add_to_array = { pfp_scandinavia_integration_array = 101 } #Grønland
-add_to_array = { pfp_scandinavia_integration_array = 124 } #Gotland
-add_to_array = { pfp_scandinavia_integration_array = 145 } #Aland
-add_to_array = { pfp_scandinavia_integration_array = 337 } #Faroe Islands
-add_to_array = { pfp_scandinavia_integration_array = 964 } #Northern Schleswig
-add_to_array = { pfp_scandinavia_integration_array = 998 } #Southern Schleswig
-add_to_array = { pfp_scandinavia_integration_array = 1024 } #Bornholm
-add_to_array = { pfp_scandinavia_integration_array = 1027 } #Jan Mayen
-add_to_array = { pfp_scandinavia_integration_array = 1043 } #Sudurland
+add_to_array = { P24.pfp_possible_cores = 100 } #Höfuðborgarsvæðið
+add_to_array = { P24.pfp_possible_cores = 101 } #Grønland
+add_to_array = { P24.pfp_possible_cores = 124 } #Gotland
+add_to_array = { P24.pfp_possible_cores = 145 } #Aland
+add_to_array = { P24.pfp_possible_cores = 337 } #Faroe Islands
+add_to_array = { P24.pfp_possible_cores = 964 } #Northern Schleswig
+add_to_array = { P24.pfp_possible_cores = 998 } #Southern Schleswig
+add_to_array = { P24.pfp_possible_cores = 1024 } #Bornholm
+add_to_array = { P24.pfp_possible_cores = 1027 } #Jan Mayen
+add_to_array = { P24.pfp_possible_cores = 1043 } #Sudurland

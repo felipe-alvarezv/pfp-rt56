@@ -1,4 +1,4 @@
-#Hungary
+﻿#Hungary
 capital = 43 #Northern Hungary
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,31 +95,31 @@ recruit_character = P09_neutrality_leader
 recruit_character = P09_fascism_leader
 
 #Hungary Initial States
-add_to_array = { pfp_hungary_integration_array = 43 } #Northern Hungary
-add_to_array = { pfp_hungary_integration_array = 154 } #Alfold
-add_to_array = { pfp_hungary_integration_array = 155 } #North Transdanubia
-add_to_array = { pfp_hungary_integration_array = 913 } #Solt-Kiskun
-add_to_array = { pfp_hungary_integration_array = 1104 } #South Transdanubia
+add_to_array = { P09.pfp_possible_cores = 43 } #Northern Hungary
+add_to_array = { P09.pfp_possible_cores = 154 } #Alfold
+add_to_array = { P09.pfp_possible_cores = 155 } #North Transdanubia
+add_to_array = { P09.pfp_possible_cores = 913 } #Solt-Kiskun
+add_to_array = { P09.pfp_possible_cores = 1104 } #South Transdanubia
 
 #Hungary Territories
-add_to_array = { pfp_hungary_integration_array = 45 } #Batschka
-add_to_array = { pfp_hungary_integration_array = 70 } #Western Slovakia
-add_to_array = { pfp_hungary_integration_array = 71 } #Eastern Slovakia
-add_to_array = { pfp_hungary_integration_array = 73 } #Carpathian Ruthenia
-add_to_array = { pfp_hungary_integration_array = 76 } #North Transylvania
-add_to_array = { pfp_hungary_integration_array = 82 } #Banat
-add_to_array = { pfp_hungary_integration_array = 83 } #Crisana
-add_to_array = { pfp_hungary_integration_array = 84 } #Transylvania
-add_to_array = { pfp_hungary_integration_array = 103 } #Dalmacija
-add_to_array = { pfp_hungary_integration_array = 104 } #Podrinje
-add_to_array = { pfp_hungary_integration_array = 109 } #Zagreb
-add_to_array = { pfp_hungary_integration_array = 163 } #Zadar
-add_to_array = { pfp_hungary_integration_array = 664 } #Southern Slovakia
-add_to_array = { pfp_hungary_integration_array = 764 } #West Banat
-add_to_array = { pfp_hungary_integration_array = 804 } #Herzegovina
-add_to_array = { pfp_hungary_integration_array = 952 } #Syrmia
-add_to_array = { pfp_hungary_integration_array = 958 } #Kvarner
-add_to_array = { pfp_hungary_integration_array = 959 } #Slavonija
-add_to_array = { pfp_hungary_integration_array = 961 } #Krajina
-add_to_array = { pfp_hungary_integration_array = 962 } #Posavina
-add_to_array = { pfp_hungary_integration_array = 996 } #Uzhorod
+add_to_array = { P09.pfp_possible_cores = 45 } #Batschka
+add_to_array = { P09.pfp_possible_cores = 70 } #Western Slovakia
+add_to_array = { P09.pfp_possible_cores = 71 } #Eastern Slovakia
+add_to_array = { P09.pfp_possible_cores = 73 } #Carpathian Ruthenia
+add_to_array = { P09.pfp_possible_cores = 76 } #North Transylvania
+add_to_array = { P09.pfp_possible_cores = 82 } #Banat
+add_to_array = { P09.pfp_possible_cores = 83 } #Crisana
+add_to_array = { P09.pfp_possible_cores = 84 } #Transylvania
+add_to_array = { P09.pfp_possible_cores = 103 } #Dalmacija
+add_to_array = { P09.pfp_possible_cores = 104 } #Podrinje
+add_to_array = { P09.pfp_possible_cores = 109 } #Zagreb
+add_to_array = { P09.pfp_possible_cores = 163 } #Zadar
+add_to_array = { P09.pfp_possible_cores = 664 } #Southern Slovakia
+add_to_array = { P09.pfp_possible_cores = 764 } #West Banat
+add_to_array = { P09.pfp_possible_cores = 804 } #Herzegovina
+add_to_array = { P09.pfp_possible_cores = 952 } #Syrmia
+add_to_array = { P09.pfp_possible_cores = 958 } #Kvarner
+add_to_array = { P09.pfp_possible_cores = 959 } #Slavonija
+add_to_array = { P09.pfp_possible_cores = 961 } #Krajina
+add_to_array = { P09.pfp_possible_cores = 962 } #Posavina
+add_to_array = { P09.pfp_possible_cores = 996 } #Uzhorod

@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,15 +95,15 @@ recruit_character = P69_neutrality_leader
 recruit_character = P69_fascism_leader
 
 #Iraq Initial States
-add_to_array = { pfp_iraq_integration_array = 291 } #Baghdad
-add_to_array = { pfp_iraq_integration_array = 675 } #Al Sahra'a Al Janubiyah
-add_to_array = { pfp_iraq_integration_array = 1045 } #Basrah
-add_to_array = { pfp_iraq_integration_array = 1046 } #Karbala-Najaf
-add_to_array = { pfp_iraq_integration_array = 1047 } #Dulaim
+add_to_array = { P69.pfp_possible_cores = 291 } #Baghdad
+add_to_array = { P69.pfp_possible_cores = 675 } #Al Sahra'a Al Janubiyah
+add_to_array = { P69.pfp_possible_cores = 1045 } #Basrah
+add_to_array = { P69.pfp_possible_cores = 1046 } #Karbala-Najaf
+add_to_array = { P69.pfp_possible_cores = 1047 } #Dulaim
 
 #Iraq Territories
-add_to_array = { pfp_iraq_integration_array = 413 } #Khuzestan
-add_to_array = { pfp_iraq_integration_array = 656 } #Kuwait
-add_to_array = { pfp_iraq_integration_array = 676 } #Mosul
-add_to_array = { pfp_iraq_integration_array = 1048 } #Sulymaniyah
-add_to_array = { pfp_iraq_integration_array = 1049 } #Erbil
+add_to_array = { P69.pfp_possible_cores = 413 } #Khuzestan
+add_to_array = { P69.pfp_possible_cores = 656 } #Kuwait
+add_to_array = { P69.pfp_possible_cores = 676 } #Mosul
+add_to_array = { P69.pfp_possible_cores = 1048 } #Sulymaniyah
+add_to_array = { P69.pfp_possible_cores = 1049 } #Erbil

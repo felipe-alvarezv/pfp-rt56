@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,30 +95,30 @@ recruit_character = P66_neutrality_leader
 recruit_character = P66_fascism_leader
 
 #Ukraine Initial States
-add_to_array = { pfp_ukraine_integration_array = 193 } #Chernigov
-add_to_array = { pfp_ukraine_integration_array = 196 } #Kherson
-add_to_array = { pfp_ukraine_integration_array = 197 } #Mykolaiv
-add_to_array = { pfp_ukraine_integration_array = 200 } #Zaporozhe
-add_to_array = { pfp_ukraine_integration_array = 201 } #Zhytomyr
-add_to_array = { pfp_ukraine_integration_array = 202 } #Kiev
-add_to_array = { pfp_ukraine_integration_array = 203 } #Cherkasy
-add_to_array = { pfp_ukraine_integration_array = 226 } #Dnipropetrovsk
-add_to_array = { pfp_ukraine_integration_array = 259 } #Poltava
+add_to_array = { P66.pfp_possible_cores = 193 } #Chernigov
+add_to_array = { P66.pfp_possible_cores = 196 } #Kherson
+add_to_array = { P66.pfp_possible_cores = 197 } #Mykolaiv
+add_to_array = { P66.pfp_possible_cores = 200 } #Zaporozhe
+add_to_array = { P66.pfp_possible_cores = 201 } #Zhytomyr
+add_to_array = { P66.pfp_possible_cores = 202 } #Kiev
+add_to_array = { P66.pfp_possible_cores = 203 } #Cherkasy
+add_to_array = { P66.pfp_possible_cores = 226 } #Dnipropetrovsk
+add_to_array = { P66.pfp_possible_cores = 259 } #Poltava
 
 #Ukraine Territories
-add_to_array = { pfp_ukraine_integration_array = 73 } #Carpathian Ruthenia
-add_to_array = { pfp_ukraine_integration_array = 80 } #Bucovina
-add_to_array = { pfp_ukraine_integration_array = 89 } #Stanislawow
-add_to_array = { pfp_ukraine_integration_array = 91 } #Lwow
-add_to_array = { pfp_ukraine_integration_array = 93 } #Wolyn
-add_to_array = { pfp_ukraine_integration_array = 137 } #Crimea
-add_to_array = { pfp_ukraine_integration_array = 192 } #Odessa
-add_to_array = { pfp_ukraine_integration_array = 198 } #Vinnytsia
-add_to_array = { pfp_ukraine_integration_array = 199 } #Khmelnytskyi
-add_to_array = { pfp_ukraine_integration_array = 221 } #Kharkov
-add_to_array = { pfp_ukraine_integration_array = 225 } #Sumy
-add_to_array = { pfp_ukraine_integration_array = 227 } #Stalino
-add_to_array = { pfp_ukraine_integration_array = 228 } #Voroshilovgrad
-add_to_array = { pfp_ukraine_integration_array = 766 } #Southern Bessarabia
-add_to_array = { pfp_ukraine_integration_array = 834 } #Balta-Tiraspol
-add_to_array = { pfp_ukraine_integration_array = 996 } #Uzhorod
+add_to_array = { P66.pfp_possible_cores = 73 } #Carpathian Ruthenia
+add_to_array = { P66.pfp_possible_cores = 80 } #Bucovina
+add_to_array = { P66.pfp_possible_cores = 89 } #Stanislawow
+add_to_array = { P66.pfp_possible_cores = 91 } #Lwow
+add_to_array = { P66.pfp_possible_cores = 93 } #Wolyn
+add_to_array = { P66.pfp_possible_cores = 137 } #Crimea
+add_to_array = { P66.pfp_possible_cores = 192 } #Odessa
+add_to_array = { P66.pfp_possible_cores = 198 } #Vinnytsia
+add_to_array = { P66.pfp_possible_cores = 199 } #Khmelnytskyi
+add_to_array = { P66.pfp_possible_cores = 221 } #Kharkov
+add_to_array = { P66.pfp_possible_cores = 225 } #Sumy
+add_to_array = { P66.pfp_possible_cores = 227 } #Stalino
+add_to_array = { P66.pfp_possible_cores = 228 } #Voroshilovgrad
+add_to_array = { P66.pfp_possible_cores = 766 } #Southern Bessarabia
+add_to_array = { P66.pfp_possible_cores = 834 } #Balta-Tiraspol
+add_to_array = { P66.pfp_possible_cores = 996 } #Uzhorod

@@ -1,4 +1,4 @@
-#Prussia
+﻿#Prussia
 capital = 64 #Brandenburg
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,32 +95,32 @@ recruit_character = P33_neutrality_leader
 recruit_character = P33_fascism_leader
 
 #Prussia Initial States
-add_to_array = { pfp_prussia_integration_array = 5 } #Ermland-Masuren
-add_to_array = { pfp_prussia_integration_array = 62 } #Vorpommern
-add_to_array = { pfp_prussia_integration_array = 63 } #Hinterpommern
-add_to_array = { pfp_prussia_integration_array = 64 } #Brandenburg
-add_to_array = { pfp_prussia_integration_array = 66 } #Niederschlesien
-add_to_array = { pfp_prussia_integration_array = 67 } #Oberschlesien
-add_to_array = { pfp_prussia_integration_array = 68 } #Ostmark
-add_to_array = { pfp_prussia_integration_array = 763 } #Konigsberg
+add_to_array = { P33.pfp_possible_cores = 5 } #Ermland-Masuren
+add_to_array = { P33.pfp_possible_cores = 62 } #Vorpommern
+add_to_array = { P33.pfp_possible_cores = 63 } #Hinterpommern
+add_to_array = { P33.pfp_possible_cores = 64 } #Brandenburg
+add_to_array = { P33.pfp_possible_cores = 66 } #Niederschlesien
+add_to_array = { P33.pfp_possible_cores = 67 } #Oberschlesien
+add_to_array = { P33.pfp_possible_cores = 68 } #Ostmark
+add_to_array = { P33.pfp_possible_cores = 763 } #Konigsberg
 
 #Prussia Territories
-add_to_array = { pfp_prussia_integration_array = 42 } #Moselland
-add_to_array = { pfp_prussia_integration_array = 51 } #Rhineland
-add_to_array = { pfp_prussia_integration_array = 55 } #Hessen
-add_to_array = { pfp_prussia_integration_array = 56 } #Weser-Ems
-add_to_array = { pfp_prussia_integration_array = 57 } #Westfalen
-add_to_array = { pfp_prussia_integration_array = 58 } #Holstein
-add_to_array = { pfp_prussia_integration_array = 59 } #Hannover
-add_to_array = { pfp_prussia_integration_array = 60 } #Thuringen
-add_to_array = { pfp_prussia_integration_array = 61 } #Mecklenburg
-add_to_array = { pfp_prussia_integration_array = 65 } #Sachsen
-add_to_array = { pfp_prussia_integration_array = 85 } #Danzig
-add_to_array = { pfp_prussia_integration_array = 86 } #Poznan
-add_to_array = { pfp_prussia_integration_array = 188 } #Memel
-add_to_array = { pfp_prussia_integration_array = 762 } #Katowice
-add_to_array = { pfp_prussia_integration_array = 807 } #Gdynia
-add_to_array = { pfp_prussia_integration_array = 922 } #Frankfurt
-add_to_array = { pfp_prussia_integration_array = 989 } #Ostrhineland
-add_to_array = { pfp_prussia_integration_array = 998 } #Schleswig
-add_to_array = { pfp_prussia_integration_array = 1053 } #Saarland
+add_to_array = { P33.pfp_possible_cores = 42 } #Moselland
+add_to_array = { P33.pfp_possible_cores = 51 } #Rhineland
+add_to_array = { P33.pfp_possible_cores = 55 } #Hessen
+add_to_array = { P33.pfp_possible_cores = 56 } #Weser-Ems
+add_to_array = { P33.pfp_possible_cores = 57 } #Westfalen
+add_to_array = { P33.pfp_possible_cores = 58 } #Holstein
+add_to_array = { P33.pfp_possible_cores = 59 } #Hannover
+add_to_array = { P33.pfp_possible_cores = 60 } #Thuringen
+add_to_array = { P33.pfp_possible_cores = 61 } #Mecklenburg
+add_to_array = { P33.pfp_possible_cores = 65 } #Sachsen
+add_to_array = { P33.pfp_possible_cores = 85 } #Danzig
+add_to_array = { P33.pfp_possible_cores = 86 } #Poznan
+add_to_array = { P33.pfp_possible_cores = 188 } #Memel
+add_to_array = { P33.pfp_possible_cores = 762 } #Katowice
+add_to_array = { P33.pfp_possible_cores = 807 } #Gdynia
+add_to_array = { P33.pfp_possible_cores = 922 } #Frankfurt
+add_to_array = { P33.pfp_possible_cores = 989 } #Ostrhineland
+add_to_array = { P33.pfp_possible_cores = 998 } #Schleswig
+add_to_array = { P33.pfp_possible_cores = 1053 } #Saarland

@@ -1,4 +1,4 @@
-#West Indies
+﻿#West Indies
 capital = 315 #Cuba
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,28 +95,28 @@ recruit_character = P06_neutrality_leader
 recruit_character = P06_fascism_leader
 
 #West Indies Initial States
-add_to_array = { pfp_west_indies_integration_array = 315 } #Santiago de Cuba
-add_to_array = { pfp_west_indies_integration_array = 318 } #Haiti
-add_to_array = { pfp_west_indies_integration_array = 319 } #Dominican Republic
-add_to_array = { pfp_west_indies_integration_array = 689 } #Jamaica
-add_to_array = { pfp_west_indies_integration_array = 994 } #La Habana
+add_to_array = { P06.pfp_possible_cores = 315 } #Santiago de Cuba
+add_to_array = { P06.pfp_possible_cores = 318 } #Haiti
+add_to_array = { P06.pfp_possible_cores = 319 } #Dominican Republic
+add_to_array = { P06.pfp_possible_cores = 689 } #Jamaica
+add_to_array = { P06.pfp_possible_cores = 994 } #La Habana
 
 #West Indies Territories
-add_to_array = { pfp_west_indies_integration_array = 308 } #Antigua & Barbuda
-add_to_array = { pfp_west_indies_integration_array = 686 } #Puerto Rico
-add_to_array = { pfp_west_indies_integration_array = 690 } #Northern Bahamas
-add_to_array = { pfp_west_indies_integration_array = 691 } #Trinidad
-add_to_array = { pfp_west_indies_integration_array = 692 } #Barbados
-add_to_array = { pfp_west_indies_integration_array = 693 } #Southern Bahamas
-add_to_array = { pfp_west_indies_integration_array = 694 } #Guadeloupe
-add_to_array = { pfp_west_indies_integration_array = 695 } #Curacao
-add_to_array = { pfp_west_indies_integration_array = 696 } #Bermuda
-add_to_array = { pfp_west_indies_integration_array = 972 } #Virgin Islands
-add_to_array = { pfp_west_indies_integration_array = 1050 } #Guantanamo Bay
-add_to_array = { pfp_west_indies_integration_array = 1085 } #Grenada
-add_to_array = { pfp_west_indies_integration_array = 1084 } #Saint Vincent
-add_to_array = { pfp_west_indies_integration_array = 1083 } #Saint Lucia
-add_to_array = { pfp_west_indies_integration_array = 1080 } #Martinique
-add_to_array = { pfp_west_indies_integration_array = 1082 } #Dominica
-add_to_array = { pfp_west_indies_integration_array = 1081 } #St Kitts & Nevis
-add_to_array = { pfp_west_indies_integration_array = 1079 } #Sint Maarten
+add_to_array = { P06.pfp_possible_cores = 308 } #Antigua & Barbuda
+add_to_array = { P06.pfp_possible_cores = 686 } #Puerto Rico
+add_to_array = { P06.pfp_possible_cores = 690 } #Northern Bahamas
+add_to_array = { P06.pfp_possible_cores = 691 } #Trinidad
+add_to_array = { P06.pfp_possible_cores = 692 } #Barbados
+add_to_array = { P06.pfp_possible_cores = 693 } #Southern Bahamas
+add_to_array = { P06.pfp_possible_cores = 694 } #Guadeloupe
+add_to_array = { P06.pfp_possible_cores = 695 } #Curacao
+add_to_array = { P06.pfp_possible_cores = 696 } #Bermuda
+add_to_array = { P06.pfp_possible_cores = 972 } #Virgin Islands
+add_to_array = { P06.pfp_possible_cores = 1050 } #Guantanamo Bay
+add_to_array = { P06.pfp_possible_cores = 1085 } #Grenada
+add_to_array = { P06.pfp_possible_cores = 1084 } #Saint Vincent
+add_to_array = { P06.pfp_possible_cores = 1083 } #Saint Lucia
+add_to_array = { P06.pfp_possible_cores = 1080 } #Martinique
+add_to_array = { P06.pfp_possible_cores = 1082 } #Dominica
+add_to_array = { P06.pfp_possible_cores = 1081 } #St Kitts & Nevis
+add_to_array = { P06.pfp_possible_cores = 1079 } #Sint Maarten

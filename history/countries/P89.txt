@@ -1,4 +1,4 @@
-#Serbia
+﻿#Serbia
 capital = 107 #Serbia
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,17 +94,17 @@ recruit_character = P89_neutrality_leader
 recruit_character = P89_fascism_leader
 
 #Serbia Initial States
-add_to_array = { pfp_serbia_integration_array = 107 } #Sumadija
-add_to_array = { pfp_serbia_integration_array = 108 } #Pomoravlje
+add_to_array = { P89.pfp_possible_cores = 107 } #Sumadija
+add_to_array = { P89.pfp_possible_cores = 108 } #Pomoravlje
 
 #Serbia Territories
-add_to_array = { pfp_serbia_integration_array = 45 } #Batschka
-add_to_array = { pfp_serbia_integration_array = 105 } #Crna Gora
-add_to_array = { pfp_serbia_integration_array = 106 } #Makedonija
-add_to_array = { pfp_serbia_integration_array = 764 } #West Banat
-add_to_array = { pfp_serbia_integration_array = 802 } #Metohija
-add_to_array = { pfp_serbia_integration_array = 803 } #Pirot
-add_to_array = { pfp_serbia_integration_array = 950 } #Tetovo
-add_to_array = { pfp_serbia_integration_array = 952 } #Srem
-add_to_array = { pfp_serbia_integration_array = 953 } #Kosovo
-add_to_array = { pfp_serbia_integration_array = 963 } #Raska
+add_to_array = { P89.pfp_possible_cores = 45 } #Batschka
+add_to_array = { P89.pfp_possible_cores = 105 } #Crna Gora
+add_to_array = { P89.pfp_possible_cores = 106 } #Makedonija
+add_to_array = { P89.pfp_possible_cores = 764 } #West Banat
+add_to_array = { P89.pfp_possible_cores = 802 } #Metohija
+add_to_array = { P89.pfp_possible_cores = 803 } #Pirot
+add_to_array = { P89.pfp_possible_cores = 950 } #Tetovo
+add_to_array = { P89.pfp_possible_cores = 952 } #Srem
+add_to_array = { P89.pfp_possible_cores = 953 } #Kosovo
+add_to_array = { P89.pfp_possible_cores = 963 } #Raska

@@ -1,4 +1,4 @@
-#Piedmont
+﻿#Piedmont
 capital = 158 #Piedmont
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,8 +94,8 @@ recruit_character = P93_neutrality_leader
 recruit_character = P93_fascism_leader
 
 #Piedmont Initial States
-add_to_array = { pfp_piedmont_integration_array = 158 } #Piedmonte
+add_to_array = { P93.pfp_possible_cores = 158 } #Piedmonte
 
 #Piedmont Territories
-add_to_array = { pfp_piedmont_integration_array = 735 } #Savoy
-add_to_array = { pfp_piedmont_integration_array = 1012 } #Monaco
+add_to_array = { P93.pfp_possible_cores = 735 } #Savoy
+add_to_array = { P93.pfp_possible_cores = 1012 } #Monaco

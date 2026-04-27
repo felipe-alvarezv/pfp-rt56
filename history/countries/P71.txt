@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,34 +95,34 @@ recruit_character = P71_neutrality_leader
 recruit_character = P71_fascism_leader
 
 #Iran Initial States
-add_to_array = { pfp_iran_integration_array = 266 } #Tehran
-add_to_array = { pfp_iran_integration_array = 410 } #Sistan o Balochistan
-add_to_array = { pfp_iran_integration_array = 411 } #Esfahan o Yazd
-add_to_array = { pfp_iran_integration_array = 412 } #Fars
-add_to_array = { pfp_iran_integration_array = 414 } #Kerman
-add_to_array = { pfp_iran_integration_array = 416 } #Khorasan-e Razavi
-add_to_array = { pfp_iran_integration_array = 417 } #Markazi
-add_to_array = { pfp_iran_integration_array = 418 } #Semnan
-add_to_array = { pfp_iran_integration_array = 420 } #Gilan
-add_to_array = { pfp_iran_integration_array = 980 } #Hormozgan
-add_to_array = { pfp_iran_integration_array = 981 } #Bandar-e Bushehr
-add_to_array = { pfp_iran_integration_array = 982 } #Khorasan-e Jonubi
-add_to_array = { pfp_iran_integration_array = 983 } #Golestan
-add_to_array = { pfp_iran_integration_array = 984 } #Mazandaran
-add_to_array = { pfp_iran_integration_array = 986 } #Qazvin
+add_to_array = { P71.pfp_possible_cores = 266 } #Tehran
+add_to_array = { P71.pfp_possible_cores = 410 } #Sistan o Balochistan
+add_to_array = { P71.pfp_possible_cores = 411 } #Esfahan o Yazd
+add_to_array = { P71.pfp_possible_cores = 412 } #Fars
+add_to_array = { P71.pfp_possible_cores = 414 } #Kerman
+add_to_array = { P71.pfp_possible_cores = 416 } #Khorasan-e Razavi
+add_to_array = { P71.pfp_possible_cores = 417 } #Markazi
+add_to_array = { P71.pfp_possible_cores = 418 } #Semnan
+add_to_array = { P71.pfp_possible_cores = 420 } #Gilan
+add_to_array = { P71.pfp_possible_cores = 980 } #Hormozgan
+add_to_array = { P71.pfp_possible_cores = 981 } #Bandar-e Bushehr
+add_to_array = { P71.pfp_possible_cores = 982 } #Khorasan-e Jonubi
+add_to_array = { P71.pfp_possible_cores = 983 } #Golestan
+add_to_array = { P71.pfp_possible_cores = 984 } #Mazandaran
+add_to_array = { P71.pfp_possible_cores = 986 } #Qazvin
 
 #Iran Territories
-add_to_array = { pfp_iran_integration_array = 291 } #Baghdad
-add_to_array = { pfp_iran_integration_array = 413 } #Khuzestan
-add_to_array = { pfp_iran_integration_array = 419 } #Azarbaijan-e Sharqi
-add_to_array = { pfp_iran_integration_array = 421 } #Kordestan
-add_to_array = { pfp_iran_integration_array = 656 } #Kuwait
-add_to_array = { pfp_iran_integration_array = 675 } #Al Sahra'a Al Janubiyah
-add_to_array = { pfp_iran_integration_array = 676 } #Mosul
-add_to_array = { pfp_iran_integration_array = 987 } #Ardabil
-add_to_array = { pfp_iran_integration_array = 988 } #Azarbayjan-e Gharbi
-add_to_array = { pfp_iran_integration_array = 1045 } #Basrah
-add_to_array = { pfp_iran_integration_array = 1046 } #Karbala-Najaf
-add_to_array = { pfp_iran_integration_array = 1047 } #Dulaim
-add_to_array = { pfp_iran_integration_array = 1048 } #Sulymaniyah
-add_to_array = { pfp_iran_integration_array = 1049 } #Erbil
+add_to_array = { P71.pfp_possible_cores = 291 } #Baghdad
+add_to_array = { P71.pfp_possible_cores = 413 } #Khuzestan
+add_to_array = { P71.pfp_possible_cores = 419 } #Azarbaijan-e Sharqi
+add_to_array = { P71.pfp_possible_cores = 421 } #Kordestan
+add_to_array = { P71.pfp_possible_cores = 656 } #Kuwait
+add_to_array = { P71.pfp_possible_cores = 675 } #Al Sahra'a Al Janubiyah
+add_to_array = { P71.pfp_possible_cores = 676 } #Mosul
+add_to_array = { P71.pfp_possible_cores = 987 } #Ardabil
+add_to_array = { P71.pfp_possible_cores = 988 } #Azarbayjan-e Gharbi
+add_to_array = { P71.pfp_possible_cores = 1045 } #Basrah
+add_to_array = { P71.pfp_possible_cores = 1046 } #Karbala-Najaf
+add_to_array = { P71.pfp_possible_cores = 1047 } #Dulaim
+add_to_array = { P71.pfp_possible_cores = 1048 } #Sulymaniyah
+add_to_array = { P71.pfp_possible_cores = 1049 } #Erbil

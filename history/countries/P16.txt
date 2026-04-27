@@ -1,4 +1,4 @@
-#Indochina
+﻿#Indochina
 capital = 671 #Tonkin
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,29 +95,29 @@ recruit_character = P16_neutrality_leader
 recruit_character = P16_fascism_leader
 
 #Indochina Initial States
-add_to_array = { pfp_indochina_integration_array = 286 } #Cochinchina
-add_to_array = { pfp_indochina_integration_array = 670 } #Laos
-add_to_array = { pfp_indochina_integration_array = 671 } #Tonkin
-add_to_array = { pfp_indochina_integration_array = 741 } #Cambodia
-add_to_array = { pfp_indochina_integration_array = 925 } #Batambang
-add_to_array = { pfp_indochina_integration_array = 927 } #South Annam
-add_to_array = { pfp_indochina_integration_array = 928 } #North Annam
+add_to_array = { P16.pfp_possible_cores = 286 } #Cochinchina
+add_to_array = { P16.pfp_possible_cores = 670 } #Laos
+add_to_array = { P16.pfp_possible_cores = 671 } #Tonkin
+add_to_array = { P16.pfp_possible_cores = 741 } #Cambodia
+add_to_array = { P16.pfp_possible_cores = 925 } #Batambang
+add_to_array = { P16.pfp_possible_cores = 927 } #South Annam
+add_to_array = { P16.pfp_possible_cores = 928 } #North Annam
 
 #Indochina Territories
-add_to_array = { pfp_indochina_integration_array = 288 } #Magwe
-add_to_array = { pfp_indochina_integration_array = 289 } #Siam
-add_to_array = { pfp_indochina_integration_array = 336 } #Singapore
-add_to_array = { pfp_indochina_integration_array = 640 } #Mandalay
-add_to_array = { pfp_indochina_integration_array = 724 } #Kra Isthmus
-add_to_array = { pfp_indochina_integration_array = 868 } #Isan
-add_to_array = { pfp_indochina_integration_array = 869 } #Lanna
-add_to_array = { pfp_indochina_integration_array = 909 } #Riau Islands
-add_to_array = { pfp_indochina_integration_array = 914 } #Kedah
-add_to_array = { pfp_indochina_integration_array = 915 } #Pahang
-add_to_array = { pfp_indochina_integration_array = 924 } #Champasak
-add_to_array = { pfp_indochina_integration_array = 926 } #Luang Prabang
-add_to_array = { pfp_indochina_integration_array = 951 } #Johor
-add_to_array = { pfp_indochina_integration_array = 960 } #Terengganu
-add_to_array = { pfp_indochina_integration_array = 1018 } #Shanland
-add_to_array = { pfp_indochina_integration_array = 1019 } #Sagaing
-add_to_array = { pfp_indochina_integration_array = 1020 } #Bago
+add_to_array = { P16.pfp_possible_cores = 288 } #Magwe
+add_to_array = { P16.pfp_possible_cores = 289 } #Siam
+add_to_array = { P16.pfp_possible_cores = 336 } #Singapore
+add_to_array = { P16.pfp_possible_cores = 640 } #Mandalay
+add_to_array = { P16.pfp_possible_cores = 724 } #Kra Isthmus
+add_to_array = { P16.pfp_possible_cores = 868 } #Isan
+add_to_array = { P16.pfp_possible_cores = 869 } #Lanna
+add_to_array = { P16.pfp_possible_cores = 909 } #Riau Islands
+add_to_array = { P16.pfp_possible_cores = 914 } #Kedah
+add_to_array = { P16.pfp_possible_cores = 915 } #Pahang
+add_to_array = { P16.pfp_possible_cores = 924 } #Champasak
+add_to_array = { P16.pfp_possible_cores = 926 } #Luang Prabang
+add_to_array = { P16.pfp_possible_cores = 951 } #Johor
+add_to_array = { P16.pfp_possible_cores = 960 } #Terengganu
+add_to_array = { P16.pfp_possible_cores = 1018 } #Shanland
+add_to_array = { P16.pfp_possible_cores = 1019 } #Sagaing
+add_to_array = { P16.pfp_possible_cores = 1020 } #Bago

@@ -1,4 +1,4 @@
-#Inner Mongolia
+﻿#Inner Mongolia
 capital = 1122 #Pailingmiao
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,10 +94,10 @@ recruit_character = Q09_neutrality_leader
 recruit_character = Q09_fascism_leader
 
 #Inner Mongolia Initial States
-add_to_array = { pfp_inner_mongolia_integration_array = 611 } #Chahar
-add_to_array = { pfp_inner_mongolia_integration_array = 612 } #Xilinghol
-add_to_array = { pfp_inner_mongolia_integration_array = 621 } #Suiyuan
-add_to_array = { pfp_inner_mongolia_integration_array = 1122 } #Pailingmiao
+add_to_array = { Q09.pfp_possible_cores = 611 } #Chahar
+add_to_array = { Q09.pfp_possible_cores = 612 } #Xilinghol
+add_to_array = { Q09.pfp_possible_cores = 621 } #Suiyuan
+add_to_array = { Q09.pfp_possible_cores = 1122 } #Pailingmiao
 
 #Inner Mongolia Territories
-add_to_array = { pfp_inner_mongolia_integration_array = 746 } #Ordos
+add_to_array = { Q09.pfp_possible_cores = 746 } #Ordos

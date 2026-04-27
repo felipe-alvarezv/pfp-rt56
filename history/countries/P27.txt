@@ -1,4 +1,4 @@
-#Oceania
+﻿#Oceania
 capital = 285 #New South Wales
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,45 +95,45 @@ recruit_character = P27_neutrality_leader
 recruit_character = P27_fascism_leader
 
 #Oceania Initial States
-add_to_array = { pfp_oceania_integration_array = 284 } #North Island
-add_to_array = { pfp_oceania_integration_array = 285 } #New South Wales
-add_to_array = { pfp_oceania_integration_array = 517 } #Victoria
-add_to_array = { pfp_oceania_integration_array = 518 } #Tasmania
-add_to_array = { pfp_oceania_integration_array = 519 } #South Australia
-add_to_array = { pfp_oceania_integration_array = 520 } #Northern Territory
-add_to_array = { pfp_oceania_integration_array = 521 } #Queensland
-add_to_array = { pfp_oceania_integration_array = 522 } #West Australia
-add_to_array = { pfp_oceania_integration_array = 674 } #Central Australia
-add_to_array = { pfp_oceania_integration_array = 723 } #South Island
-add_to_array = { pfp_oceania_integration_array = 870 } #North West Australia
-add_to_array = { pfp_oceania_integration_array = 871 } #South West Australia
-add_to_array = { pfp_oceania_integration_array = 872 } #North Queensland
-add_to_array = { pfp_oceania_integration_array = 873 } #South West Queensland
+add_to_array = { P27.pfp_possible_cores = 284 } #North Island
+add_to_array = { P27.pfp_possible_cores = 285 } #New South Wales
+add_to_array = { P27.pfp_possible_cores = 517 } #Victoria
+add_to_array = { P27.pfp_possible_cores = 518 } #Tasmania
+add_to_array = { P27.pfp_possible_cores = 519 } #South Australia
+add_to_array = { P27.pfp_possible_cores = 520 } #Northern Territory
+add_to_array = { P27.pfp_possible_cores = 521 } #Queensland
+add_to_array = { P27.pfp_possible_cores = 522 } #West Australia
+add_to_array = { P27.pfp_possible_cores = 674 } #Central Australia
+add_to_array = { P27.pfp_possible_cores = 723 } #South Island
+add_to_array = { P27.pfp_possible_cores = 870 } #North West Australia
+add_to_array = { P27.pfp_possible_cores = 871 } #South West Australia
+add_to_array = { P27.pfp_possible_cores = 872 } #North Queensland
+add_to_array = { P27.pfp_possible_cores = 873 } #South West Queensland
 
 #Oceania Territories
-add_to_array = { pfp_oceania_integration_array = 270 } #Pitcairn Island
-add_to_array = { pfp_oceania_integration_array = 523 } #Papua
-add_to_array = { pfp_oceania_integration_array = 629 } #Hawaii
-add_to_array = { pfp_oceania_integration_array = 630 } #Johnston Atoll
-add_to_array = { pfp_oceania_integration_array = 631 } #Midway Island
-add_to_array = { pfp_oceania_integration_array = 632 } #Wake Island
-add_to_array = { pfp_oceania_integration_array = 633 } #Marshall Islands
-add_to_array = { pfp_oceania_integration_array = 634 } #Solomon Islands
-add_to_array = { pfp_oceania_integration_array = 635 } #New Caledonia
-add_to_array = { pfp_oceania_integration_array = 636 } #Fiji
-add_to_array = { pfp_oceania_integration_array = 638 } #Guam
-add_to_array = { pfp_oceania_integration_array = 639 } #Gilbert Islands
-add_to_array = { pfp_oceania_integration_array = 641 } #Tahiti
-add_to_array = { pfp_oceania_integration_array = 642 } #Phoenix Island
-add_to_array = { pfp_oceania_integration_array = 643 } #Ellice Islands
-add_to_array = { pfp_oceania_integration_array = 646 } #Saipan
-add_to_array = { pfp_oceania_integration_array = 647 } #Palau
-add_to_array = { pfp_oceania_integration_array = 648 } #Marcus Island
-add_to_array = { pfp_oceania_integration_array = 669 } #West Papua
-add_to_array = { pfp_oceania_integration_array = 684 } #Caroline Islands
-add_to_array = { pfp_oceania_integration_array = 725 } #Nuauru
-add_to_array = { pfp_oceania_integration_array = 726 } #Samoa
-add_to_array = { pfp_oceania_integration_array = 727 } #Line Islands
-add_to_array = { pfp_oceania_integration_array = 734 } #Nendo
-add_to_array = { pfp_oceania_integration_array = 737 } #Bismarck
-add_to_array = { pfp_oceania_integration_array = 1074 } #Easter Island
+add_to_array = { P27.pfp_possible_cores = 270 } #Pitcairn Island
+add_to_array = { P27.pfp_possible_cores = 523 } #Papua
+add_to_array = { P27.pfp_possible_cores = 629 } #Hawaii
+add_to_array = { P27.pfp_possible_cores = 630 } #Johnston Atoll
+add_to_array = { P27.pfp_possible_cores = 631 } #Midway Island
+add_to_array = { P27.pfp_possible_cores = 632 } #Wake Island
+add_to_array = { P27.pfp_possible_cores = 633 } #Marshall Islands
+add_to_array = { P27.pfp_possible_cores = 634 } #Solomon Islands
+add_to_array = { P27.pfp_possible_cores = 635 } #New Caledonia
+add_to_array = { P27.pfp_possible_cores = 636 } #Fiji
+add_to_array = { P27.pfp_possible_cores = 638 } #Guam
+add_to_array = { P27.pfp_possible_cores = 639 } #Gilbert Islands
+add_to_array = { P27.pfp_possible_cores = 641 } #Tahiti
+add_to_array = { P27.pfp_possible_cores = 642 } #Phoenix Island
+add_to_array = { P27.pfp_possible_cores = 643 } #Ellice Islands
+add_to_array = { P27.pfp_possible_cores = 646 } #Saipan
+add_to_array = { P27.pfp_possible_cores = 647 } #Palau
+add_to_array = { P27.pfp_possible_cores = 648 } #Marcus Island
+add_to_array = { P27.pfp_possible_cores = 669 } #West Papua
+add_to_array = { P27.pfp_possible_cores = 684 } #Caroline Islands
+add_to_array = { P27.pfp_possible_cores = 725 } #Nuauru
+add_to_array = { P27.pfp_possible_cores = 726 } #Samoa
+add_to_array = { P27.pfp_possible_cores = 727 } #Line Islands
+add_to_array = { P27.pfp_possible_cores = 734 } #Nendo
+add_to_array = { P27.pfp_possible_cores = 737 } #Bismarck
+add_to_array = { P27.pfp_possible_cores = 1074 } #Easter Island

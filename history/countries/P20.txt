@@ -1,4 +1,4 @@
-#Northeastern U.S.
+﻿#Northeastern U.S.
 capital = 358 #New York
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,17 +95,17 @@ recruit_character = P20_neutrality_leader
 recruit_character = P20_fascism_leader
 
 #Northeast U.S. Initial State
-add_to_array = { pfp_northeastern_us_integration_array = 357 } #Maine
-add_to_array = { pfp_northeastern_us_integration_array = 358 } #New York
-add_to_array = { pfp_northeastern_us_integration_array = 359 } #New Jersey
-add_to_array = { pfp_northeastern_us_integration_array = 360 } #Pennsylvania
-add_to_array = { pfp_northeastern_us_integration_array = 361 } #Maryland
-add_to_array = { pfp_northeastern_us_integration_array = 921 } #New Hampshire
-add_to_array = { pfp_northeastern_us_integration_array = 990 } #Vermont
-add_to_array = { pfp_northeastern_us_integration_array = 991 } #Massachusetts
-add_to_array = { pfp_northeastern_us_integration_array = 993 } #Connecticut
-add_to_array = { pfp_northeastern_us_integration_array = 992 } #Rhode Island
-add_to_array = { pfp_northeastern_us_integration_array = 1023 } #Delaware
+add_to_array = { P20.pfp_possible_cores = 357 } #Maine
+add_to_array = { P20.pfp_possible_cores = 358 } #New York
+add_to_array = { P20.pfp_possible_cores = 359 } #New Jersey
+add_to_array = { P20.pfp_possible_cores = 360 } #Pennsylvania
+add_to_array = { P20.pfp_possible_cores = 361 } #Maryland
+add_to_array = { P20.pfp_possible_cores = 921 } #New Hampshire
+add_to_array = { P20.pfp_possible_cores = 990 } #Vermont
+add_to_array = { P20.pfp_possible_cores = 991 } #Massachusetts
+add_to_array = { P20.pfp_possible_cores = 993 } #Connecticut
+add_to_array = { P20.pfp_possible_cores = 992 } #Rhode Island
+add_to_array = { P20.pfp_possible_cores = 1023 } #Delaware
 
 #Northeast U.S. Territories
-add_to_array = { pfp_northeastern_us_integration_array = 816 } #West Virginia
+add_to_array = { P20.pfp_possible_cores = 816 } #West Virginia

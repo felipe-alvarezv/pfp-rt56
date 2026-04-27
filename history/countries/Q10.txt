@@ -1,4 +1,4 @@
-#Zhili
+﻿#Zhili
 capital = 608 #Beiping
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,9 +94,9 @@ recruit_character = Q10_neutrality_leader
 recruit_character = Q10_fascism_leader
 
 #Zhili Initial States
-add_to_array = { pfp_zhili_integration_array = 608 } #Beiping
-add_to_array = { pfp_zhili_integration_array = 614 } #Hebei
-add_to_array = { pfp_zhili_integration_array = 1118 } #Hebei-Chahar
+add_to_array = { Q10.pfp_possible_cores = 608 } #Beiping
+add_to_array = { Q10.pfp_possible_cores = 614 } #Hebei
+add_to_array = { Q10.pfp_possible_cores = 1118 } #Hebei-Chahar
 
 #Zhili Territories
-add_to_array = { pfp_zhili_integration_array = 609 } #East Hebei
+add_to_array = { Q10.pfp_possible_cores = 609 } #East Hebei

@@ -1,4 +1,4 @@
-#Scotland
+﻿#Scotland
 capital = 121 #Lothian
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,11 +94,11 @@ recruit_character = P81_neutrality_leader
 recruit_character = P81_fascism_leader
 
 #Scotland Initial States
-add_to_array = { pfp_scotland_integration_array = 120 } #Scottish Highlands
-add_to_array = { pfp_scotland_integration_array = 121 } #Lothian
-add_to_array = { pfp_scotland_integration_array = 133 } #Lanark
-add_to_array = { pfp_scotland_integration_array = 136 } #Aberdeenshire
+add_to_array = { P81.pfp_possible_cores = 120 } #Scottish Highlands
+add_to_array = { P81.pfp_possible_cores = 121 } #Lothian
+add_to_array = { P81.pfp_possible_cores = 133 } #Lanark
+add_to_array = { P81.pfp_possible_cores = 136 } #Aberdeenshire
 
 #Scotland Territories
-add_to_array = { pfp_scotland_integration_array = 970 } #Shetland
-add_to_array = { pfp_scotland_integration_array = 971 } #Orkney
+add_to_array = { P81.pfp_possible_cores = 970 } #Shetland
+add_to_array = { P81.pfp_possible_cores = 971 } #Orkney

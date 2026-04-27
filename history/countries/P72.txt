@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,9 +95,9 @@ recruit_character = P72_neutrality_leader
 recruit_character = P72_fascism_leader
 
 #Korea Initial States
-add_to_array = { pfp_korea_integration_array = 525 } #Gyeonggi
-add_to_array = { pfp_korea_integration_array = 527 } #Pyeongan
-add_to_array = { pfp_korea_integration_array = 917 } #Hwanghae
-add_to_array = { pfp_korea_integration_array = 918 } #Hamgyong
-add_to_array = { pfp_korea_integration_array = 919 } #Jeolla
-add_to_array = { pfp_korea_integration_array = 920 } #Gyeongsang
+add_to_array = { P72.pfp_possible_cores = 525 } #Gyeonggi
+add_to_array = { P72.pfp_possible_cores = 527 } #Pyeongan
+add_to_array = { P72.pfp_possible_cores = 917 } #Hwanghae
+add_to_array = { P72.pfp_possible_cores = 918 } #Hamgyong
+add_to_array = { P72.pfp_possible_cores = 919 } #Jeolla
+add_to_array = { P72.pfp_possible_cores = 920 } #Gyeongsang

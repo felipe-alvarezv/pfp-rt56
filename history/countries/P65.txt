@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,16 +95,16 @@ recruit_character = P65_neutrality_leader
 recruit_character = P65_fascism_leader
 
 #Norway Initial States
-add_to_array = { pfp_norway_integration_array = 110 } #Ostlandet
-add_to_array = { pfp_norway_integration_array = 142 } #Vestlandet
-add_to_array = { pfp_norway_integration_array = 143 } #Trondelag
-add_to_array = { pfp_norway_integration_array = 144 } #Nord-Norge
-add_to_array = { pfp_norway_integration_array = 967 } #Sorlandet
-add_to_array = { pfp_norway_integration_array = 1031 } #Opplandene
-add_to_array = { pfp_norway_integration_array = 1032 } #Telemark
-add_to_array = { pfp_norway_integration_array = 1033 } #Helgeland
-add_to_array = { pfp_norway_integration_array = 1034 } #Troms
-add_to_array = { pfp_norway_integration_array = 1035 } #Finnmark
+add_to_array = { P65.pfp_possible_cores = 110 } #Ostlandet
+add_to_array = { P65.pfp_possible_cores = 142 } #Vestlandet
+add_to_array = { P65.pfp_possible_cores = 143 } #Trondelag
+add_to_array = { P65.pfp_possible_cores = 144 } #Nord-Norge
+add_to_array = { P65.pfp_possible_cores = 967 } #Sorlandet
+add_to_array = { P65.pfp_possible_cores = 1031 } #Opplandene
+add_to_array = { P65.pfp_possible_cores = 1032 } #Telemark
+add_to_array = { P65.pfp_possible_cores = 1033 } #Helgeland
+add_to_array = { P65.pfp_possible_cores = 1034 } #Troms
+add_to_array = { P65.pfp_possible_cores = 1035 } #Finnmark
 
 #Norway Territories
-add_to_array = { pfp_norway_integration_array = 1027 } #Jan Mayen
+add_to_array = { P65.pfp_possible_cores = 1027 } #Jan Mayen

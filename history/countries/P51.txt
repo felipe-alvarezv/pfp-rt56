@@ -1,4 +1,4 @@
-#Turkestan
+﻿#Turkestan
 capital = 590 #Akmolinsk
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,25 +95,25 @@ recruit_character = P51_neutrality_leader
 recruit_character = P51_fascism_leader
 
 #Turkestan Initial States
-add_to_array = { pfp_turkestan_integration_array = 402 } #Aktobe
-add_to_array = { pfp_turkestan_integration_array = 404 } #Kyzylorda
-add_to_array = { pfp_turkestan_integration_array = 405 } #Tashkent
-add_to_array = { pfp_turkestan_integration_array = 406 } #Atyrau
-add_to_array = { pfp_turkestan_integration_array = 407 } #Ural'sk
-add_to_array = { pfp_turkestan_integration_array = 583 } #Kostanay
-add_to_array = { pfp_turkestan_integration_array = 584 } #Turkmenia
-add_to_array = { pfp_turkestan_integration_array = 585 } #Navoiy
-add_to_array = { pfp_turkestan_integration_array = 586 } #Alma-Ata
-add_to_array = { pfp_turkestan_integration_array = 587 } #Mangystau
-add_to_array = { pfp_turkestan_integration_array = 588 } #Abay
-add_to_array = { pfp_turkestan_integration_array = 589 } #Zhetysu
-add_to_array = { pfp_turkestan_integration_array = 590 } #Akmola-Karagandy
-add_to_array = { pfp_turkestan_integration_array = 732 } #Kyrgyzstan
-add_to_array = { pfp_turkestan_integration_array = 742 } #Tajikistan
-add_to_array = { pfp_turkestan_integration_array = 823 } #Karakalpakstan
-add_to_array = { pfp_turkestan_integration_array = 830 } #Bukhara
-add_to_array = { pfp_turkestan_integration_array = 831 } #Khiva
-add_to_array = { pfp_turkestan_integration_array = 832 } #Dashoguz
-add_to_array = { pfp_turkestan_integration_array = 881 } #Ulytau
-add_to_array = { pfp_turkestan_integration_array = 882 } #Pavlodar
-add_to_array = { pfp_turkestan_integration_array = 985 } #Ashgabat
+add_to_array = { P51.pfp_possible_cores = 402 } #Aktobe
+add_to_array = { P51.pfp_possible_cores = 404 } #Kyzylorda
+add_to_array = { P51.pfp_possible_cores = 405 } #Tashkent
+add_to_array = { P51.pfp_possible_cores = 406 } #Atyrau
+add_to_array = { P51.pfp_possible_cores = 407 } #Ural'sk
+add_to_array = { P51.pfp_possible_cores = 583 } #Kostanay
+add_to_array = { P51.pfp_possible_cores = 584 } #Turkmenia
+add_to_array = { P51.pfp_possible_cores = 585 } #Navoiy
+add_to_array = { P51.pfp_possible_cores = 586 } #Alma-Ata
+add_to_array = { P51.pfp_possible_cores = 587 } #Mangystau
+add_to_array = { P51.pfp_possible_cores = 588 } #Abay
+add_to_array = { P51.pfp_possible_cores = 589 } #Zhetysu
+add_to_array = { P51.pfp_possible_cores = 590 } #Akmola-Karagandy
+add_to_array = { P51.pfp_possible_cores = 732 } #Kyrgyzstan
+add_to_array = { P51.pfp_possible_cores = 742 } #Tajikistan
+add_to_array = { P51.pfp_possible_cores = 823 } #Karakalpakstan
+add_to_array = { P51.pfp_possible_cores = 830 } #Bukhara
+add_to_array = { P51.pfp_possible_cores = 831 } #Khiva
+add_to_array = { P51.pfp_possible_cores = 832 } #Dashoguz
+add_to_array = { P51.pfp_possible_cores = 881 } #Ulytau
+add_to_array = { P51.pfp_possible_cores = 882 } #Pavlodar
+add_to_array = { P51.pfp_possible_cores = 985 } #Ashgabat

@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,12 +95,12 @@ recruit_character = P60_neutrality_leader
 recruit_character = P60_fascism_leader
 
 #Belgium Initial States
-add_to_array = { pfp_belgium_integration_array = 6 } #Vlaanderen
-add_to_array = { pfp_belgium_integration_array = 34 } #Wallonie
-add_to_array = { pfp_belgium_integration_array = 1094 } #Antwerp
-add_to_array = { pfp_belgium_integration_array = 1095 } #Ardennes
+add_to_array = { P60.pfp_possible_cores = 6 } #Vlaanderen
+add_to_array = { P60.pfp_possible_cores = 34 } #Wallonie
+add_to_array = { P60.pfp_possible_cores = 1094 } #Antwerp
+add_to_array = { P60.pfp_possible_cores = 1095 } #Ardennes
 
 #Belgium Territories
-add_to_array = { pfp_belgium_integration_array = 8 } #Luxembourg
-add_to_array = { pfp_belgium_integration_array = 29 } #Nord-Pas-de-Calais
-add_to_array = { pfp_belgium_integration_array = 965 } #Eupen-Malmedy
+add_to_array = { P60.pfp_possible_cores = 8 } #Luxembourg
+add_to_array = { P60.pfp_possible_cores = 29 } #Nord-Pas-de-Calais
+add_to_array = { P60.pfp_possible_cores = 965 } #Eupen-Malmedy

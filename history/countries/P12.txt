@@ -1,4 +1,4 @@
-#Finland
+﻿#Finland
 capital = 111 #Uusimaa
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,21 +95,21 @@ recruit_character = P12_neutrality_leader
 recruit_character = P12_fascism_leader
 
 #Finland Initial States
-add_to_array = { pfp_finland_integration_array = 111 } #Uusimaa
-add_to_array = { pfp_finland_integration_array = 148 } #Lappi
-add_to_array = { pfp_finland_integration_array = 149 } #Pohjanmaa
-add_to_array = { pfp_finland_integration_array = 150 } #Savo
-add_to_array = { pfp_finland_integration_array = 1036 } #Turku
-add_to_array = { pfp_finland_integration_array = 1037 } #Hame
-add_to_array = { pfp_finland_integration_array = 1038 } #Kymi
-add_to_array = { pfp_finland_integration_array = 1039 } #Oulu
-add_to_array = { pfp_finland_integration_array = 1040 } #Mikkeli
+add_to_array = { P12.pfp_possible_cores = 111 } #Uusimaa
+add_to_array = { P12.pfp_possible_cores = 148 } #Lappi
+add_to_array = { P12.pfp_possible_cores = 149 } #Pohjanmaa
+add_to_array = { P12.pfp_possible_cores = 150 } #Savo
+add_to_array = { P12.pfp_possible_cores = 1036 } #Turku
+add_to_array = { P12.pfp_possible_cores = 1037 } #Hame
+add_to_array = { P12.pfp_possible_cores = 1038 } #Kymi
+add_to_array = { P12.pfp_possible_cores = 1039 } #Oulu
+add_to_array = { P12.pfp_possible_cores = 1040 } #Mikkeli
 
 #Finland Territories
-add_to_array = { pfp_finland_integration_array = 146 } #Karjala
-add_to_array = { pfp_finland_integration_array = 145 } #Aland
-add_to_array = { pfp_finland_integration_array = 147 } #Salla
-add_to_array = { pfp_finland_integration_array = 213 } #Murmansk
-add_to_array = { pfp_finland_integration_array = 215 } #Onega
-add_to_array = { pfp_finland_integration_array = 216 } #Olonets
-add_to_array = { pfp_finland_integration_array = 722 } #Petsamo
+add_to_array = { P12.pfp_possible_cores = 146 } #Karjala
+add_to_array = { P12.pfp_possible_cores = 145 } #Aland
+add_to_array = { P12.pfp_possible_cores = 147 } #Salla
+add_to_array = { P12.pfp_possible_cores = 213 } #Murmansk
+add_to_array = { P12.pfp_possible_cores = 215 } #Onega
+add_to_array = { P12.pfp_possible_cores = 216 } #Olonets
+add_to_array = { P12.pfp_possible_cores = 722 } #Petsamo

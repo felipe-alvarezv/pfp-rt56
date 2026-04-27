@@ -1,4 +1,4 @@
-#Shaan-Gan
+﻿#Shaan-Gan
 capital = 283 #Gansu
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology

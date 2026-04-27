@@ -1,4 +1,4 @@
-#Macedonia
+﻿#Macedonia
 capital = 106 #Macedonia
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,5 +94,5 @@ recruit_character = P98_neutrality_leader
 recruit_character = P98_fascism_leader
 
 #Macedonia Initial States
-add_to_array = { pfp_macedonia_integration_array = 106 } #Makedonija
-add_to_array = { pfp_macedonia_integration_array = 950 } #Tetovo
+add_to_array = { P98.pfp_possible_cores = 106 } #Makedonija
+add_to_array = { P98.pfp_possible_cores = 950 } #Tetovo

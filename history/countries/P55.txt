@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,29 +95,29 @@ recruit_character = P55_neutrality_leader
 recruit_character = P55_fascism_leader
 
 #Argentina Initial States
-add_to_array = { pfp_argentina_integration_array = 278 } #Pampas
-add_to_array = { pfp_argentina_integration_array = 509 } #Chaco Austral
-add_to_array = { pfp_argentina_integration_array = 510 } #Mesopotamia
-add_to_array = { pfp_argentina_integration_array = 1068 } #Santa Fe
-add_to_array = { pfp_argentina_integration_array = 1069 } #Formosa
-add_to_array = { pfp_argentina_integration_array = 1071 } #Los Andes
+add_to_array = { P55.pfp_possible_cores = 278 } #Pampas
+add_to_array = { P55.pfp_possible_cores = 509 } #Chaco Austral
+add_to_array = { P55.pfp_possible_cores = 510 } #Mesopotamia
+add_to_array = { P55.pfp_possible_cores = 1068 } #Santa Fe
+add_to_array = { P55.pfp_possible_cores = 1069 } #Formosa
+add_to_array = { P55.pfp_possible_cores = 1071 } #Los Andes
 
 #Argentina Territories
-add_to_array = { pfp_argentina_integration_array = 299 } #Falkland Islands
-add_to_array = { pfp_argentina_integration_array = 300 } #Uruguay
-add_to_array = { pfp_argentina_integration_array = 301 } #Paraguay
-add_to_array = { pfp_argentina_integration_array = 302 } #La Paz
-add_to_array = { pfp_argentina_integration_array = 487 } #Santa Cruz
-add_to_array = { pfp_argentina_integration_array = 506 } #Antofagasta
-add_to_array = { pfp_argentina_integration_array = 508 } #Tucuman
-add_to_array = { pfp_argentina_integration_array = 511 } #Mendoza
-add_to_array = { pfp_argentina_integration_array = 512 } #Patagonia
-add_to_array = { pfp_argentina_integration_array = 688 } #Chaco Boreal
-add_to_array = { pfp_argentina_integration_array = 720 } #South Georgia
-add_to_array = { pfp_argentina_integration_array = 1059 } #Cerro Largo
-add_to_array = { pfp_argentina_integration_array = 1060 } #Paysandu
-add_to_array = { pfp_argentina_integration_array = 1065 } #Tierra del Fuego
-add_to_array = { pfp_argentina_integration_array = 1066 } #Santa Cruz
-add_to_array = { pfp_argentina_integration_array = 1067 } #Chubut
-add_to_array = { pfp_argentina_integration_array = 1070 } #San Luis
-add_to_array = { pfp_argentina_integration_array = 1077 } #Chaco Boreal
+add_to_array = { P55.pfp_possible_cores = 299 } #Falkland Islands
+add_to_array = { P55.pfp_possible_cores = 300 } #Uruguay
+add_to_array = { P55.pfp_possible_cores = 301 } #Paraguay
+add_to_array = { P55.pfp_possible_cores = 302 } #La Paz
+add_to_array = { P55.pfp_possible_cores = 487 } #Santa Cruz
+add_to_array = { P55.pfp_possible_cores = 506 } #Antofagasta
+add_to_array = { P55.pfp_possible_cores = 508 } #Tucuman
+add_to_array = { P55.pfp_possible_cores = 511 } #Mendoza
+add_to_array = { P55.pfp_possible_cores = 512 } #Patagonia
+add_to_array = { P55.pfp_possible_cores = 688 } #Chaco Boreal
+add_to_array = { P55.pfp_possible_cores = 720 } #South Georgia
+add_to_array = { P55.pfp_possible_cores = 1059 } #Cerro Largo
+add_to_array = { P55.pfp_possible_cores = 1060 } #Paysandu
+add_to_array = { P55.pfp_possible_cores = 1065 } #Tierra del Fuego
+add_to_array = { P55.pfp_possible_cores = 1066 } #Santa Cruz
+add_to_array = { P55.pfp_possible_cores = 1067 } #Chubut
+add_to_array = { P55.pfp_possible_cores = 1070 } #San Luis
+add_to_array = { P55.pfp_possible_cores = 1077 } #Chaco Boreal

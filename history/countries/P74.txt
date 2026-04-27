@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,19 +95,19 @@ recruit_character = P74_neutrality_leader
 recruit_character = P74_fascism_leader
 
 #Sweden Initial States
-add_to_array = { pfp_sweden_integration_array = 38 } #Norrland
-add_to_array = { pfp_sweden_integration_array = 138 } #Scania
-add_to_array = { pfp_sweden_integration_array = 139 } #Smaland
-add_to_array = { pfp_sweden_integration_array = 140 } #Vastergotland
-add_to_array = { pfp_sweden_integration_array = 141 } #Svealand
-add_to_array = { pfp_sweden_integration_array = 666 } #Lappland
-add_to_array = { pfp_sweden_integration_array = 968 } #Jamtland
-add_to_array = { pfp_sweden_integration_array = 969 } #Bohuslan
-add_to_array = { pfp_sweden_integration_array = 1026 } #Ostergotland
-add_to_array = { pfp_sweden_integration_array = 1028 } #Dalarna
-add_to_array = { pfp_sweden_integration_array = 1029 } #Vasterbotten
-add_to_array = { pfp_sweden_integration_array = 1030 } #Varmland
+add_to_array = { P74.pfp_possible_cores = 38 } #Norrland
+add_to_array = { P74.pfp_possible_cores = 138 } #Scania
+add_to_array = { P74.pfp_possible_cores = 139 } #Smaland
+add_to_array = { P74.pfp_possible_cores = 140 } #Vastergotland
+add_to_array = { P74.pfp_possible_cores = 141 } #Svealand
+add_to_array = { P74.pfp_possible_cores = 666 } #Lappland
+add_to_array = { P74.pfp_possible_cores = 968 } #Jamtland
+add_to_array = { P74.pfp_possible_cores = 969 } #Bohuslan
+add_to_array = { P74.pfp_possible_cores = 1026 } #Ostergotland
+add_to_array = { P74.pfp_possible_cores = 1028 } #Dalarna
+add_to_array = { P74.pfp_possible_cores = 1029 } #Vasterbotten
+add_to_array = { P74.pfp_possible_cores = 1030 } #Varmland
 
 #Sweden Territories
-add_to_array = { pfp_sweden_integration_array = 124 } #Gotland
-add_to_array = { pfp_sweden_integration_array = 145 } #Aland
+add_to_array = { P74.pfp_possible_cores = 124 } #Gotland
+add_to_array = { P74.pfp_possible_cores = 145 } #Aland

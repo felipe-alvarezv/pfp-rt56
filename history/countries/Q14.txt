@@ -1,4 +1,4 @@
-#Liangjiang
+﻿#Liangjiang
 capital = 1114 #Nanjing
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,10 +94,10 @@ recruit_character = Q14_neutrality_leader
 recruit_character = Q14_fascism_leader
 
 #Liangjiang Initial States
-add_to_array = { pfp_liangjiang_integration_array = 598 } #Jiangsu
-add_to_array = { pfp_liangjiang_integration_array = 600 } #Jiangxi
-add_to_array = { pfp_liangjiang_integration_array = 606 } #Anhui
-add_to_array = { pfp_liangjiang_integration_array = 613 } #Shanghai
-add_to_array = { pfp_liangjiang_integration_array = 749 } #Huangshan
-add_to_array = { pfp_liangjiang_integration_array = 1113 } #Suzhou
-add_to_array = { pfp_liangjiang_integration_array = 1114 } #Nanjing
+add_to_array = { Q14.pfp_possible_cores = 598 } #Jiangsu
+add_to_array = { Q14.pfp_possible_cores = 600 } #Jiangxi
+add_to_array = { Q14.pfp_possible_cores = 606 } #Anhui
+add_to_array = { Q14.pfp_possible_cores = 613 } #Shanghai
+add_to_array = { Q14.pfp_possible_cores = 749 } #Huangshan
+add_to_array = { Q14.pfp_possible_cores = 1113 } #Suzhou
+add_to_array = { Q14.pfp_possible_cores = 1114 } #Nanjing

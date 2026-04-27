@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,38 +95,38 @@ recruit_character = P58_neutrality_leader
 recruit_character = P58_fascism_leader
 
 #Mexico Initial States
-add_to_array = { pfp_mexico_integration_array = 277 } #Mexico City
-add_to_array = { pfp_mexico_integration_array = 474 } #Yucatan
-add_to_array = { pfp_mexico_integration_array = 475 } #Chiapas
-add_to_array = { pfp_mexico_integration_array = 476 } #Oaxaca
-add_to_array = { pfp_mexico_integration_array = 477 } #Veracruz
-add_to_array = { pfp_mexico_integration_array = 478 } #Jalisco
-add_to_array = { pfp_mexico_integration_array = 479 } #Tamaulipas
-add_to_array = { pfp_mexico_integration_array = 480 } #Coahuila
-add_to_array = { pfp_mexico_integration_array = 481 } #Sinaloa
-add_to_array = { pfp_mexico_integration_array = 482 } #Chihuahua
-add_to_array = { pfp_mexico_integration_array = 483 } #Sonora
-add_to_array = { pfp_mexico_integration_array = 484 } #Baja California
-add_to_array = { pfp_mexico_integration_array = 485 } #Guerrero
-add_to_array = { pfp_mexico_integration_array = 929 } #Durango
-add_to_array = { pfp_mexico_integration_array = 930 } #Zacatecas
-add_to_array = { pfp_mexico_integration_array = 931 } #San Luis Potosi
-add_to_array = { pfp_mexico_integration_array = 932 } #Puebla
+add_to_array = { P58.pfp_possible_cores = 277 } #Mexico City
+add_to_array = { P58.pfp_possible_cores = 474 } #Yucatan
+add_to_array = { P58.pfp_possible_cores = 475 } #Chiapas
+add_to_array = { P58.pfp_possible_cores = 476 } #Oaxaca
+add_to_array = { P58.pfp_possible_cores = 477 } #Veracruz
+add_to_array = { P58.pfp_possible_cores = 478 } #Jalisco
+add_to_array = { P58.pfp_possible_cores = 479 } #Tamaulipas
+add_to_array = { P58.pfp_possible_cores = 480 } #Coahuila
+add_to_array = { P58.pfp_possible_cores = 481 } #Sinaloa
+add_to_array = { P58.pfp_possible_cores = 482 } #Chihuahua
+add_to_array = { P58.pfp_possible_cores = 483 } #Sonora
+add_to_array = { P58.pfp_possible_cores = 484 } #Baja California
+add_to_array = { P58.pfp_possible_cores = 485 } #Guerrero
+add_to_array = { P58.pfp_possible_cores = 929 } #Durango
+add_to_array = { P58.pfp_possible_cores = 930 } #Zacatecas
+add_to_array = { P58.pfp_possible_cores = 931 } #San Luis Potosi
+add_to_array = { P58.pfp_possible_cores = 932 } #Puebla
 
 #Mexico Territories
-add_to_array = { pfp_mexico_integration_array = 304 } #Panama
-add_to_array = { pfp_mexico_integration_array = 311 } #Belize
-add_to_array = { pfp_mexico_integration_array = 312 } #Honduras
-add_to_array = { pfp_mexico_integration_array = 313 } #Guatemala
-add_to_array = { pfp_mexico_integration_array = 314 } #El Salvador
-add_to_array = { pfp_mexico_integration_array = 316 } #Costa Rica
-add_to_array = { pfp_mexico_integration_array = 317 } #Nicaragua
-add_to_array = { pfp_mexico_integration_array = 375 } #Texas
-add_to_array = { pfp_mexico_integration_array = 376 } #New Mexico
-add_to_array = { pfp_mexico_integration_array = 377 } #Arizona
-add_to_array = { pfp_mexico_integration_array = 378 } #California
-add_to_array = { pfp_mexico_integration_array = 379 } #Nevada
-add_to_array = { pfp_mexico_integration_array = 380 } #Utah
-add_to_array = { pfp_mexico_integration_array = 382 } #Colorado
-add_to_array = { pfp_mexico_integration_array = 685 } #Panama Canal
-add_to_array = { pfp_mexico_integration_array = 937 } #Western Panama
+add_to_array = { P58.pfp_possible_cores = 304 } #Panama
+add_to_array = { P58.pfp_possible_cores = 311 } #Belize
+add_to_array = { P58.pfp_possible_cores = 312 } #Honduras
+add_to_array = { P58.pfp_possible_cores = 313 } #Guatemala
+add_to_array = { P58.pfp_possible_cores = 314 } #El Salvador
+add_to_array = { P58.pfp_possible_cores = 316 } #Costa Rica
+add_to_array = { P58.pfp_possible_cores = 317 } #Nicaragua
+add_to_array = { P58.pfp_possible_cores = 375 } #Texas
+add_to_array = { P58.pfp_possible_cores = 376 } #New Mexico
+add_to_array = { P58.pfp_possible_cores = 377 } #Arizona
+add_to_array = { P58.pfp_possible_cores = 378 } #California
+add_to_array = { P58.pfp_possible_cores = 379 } #Nevada
+add_to_array = { P58.pfp_possible_cores = 380 } #Utah
+add_to_array = { P58.pfp_possible_cores = 382 } #Colorado
+add_to_array = { P58.pfp_possible_cores = 685 } #Panama Canal
+add_to_array = { P58.pfp_possible_cores = 937 } #Western Panama

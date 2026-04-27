@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,22 +95,22 @@ recruit_character = P67_neutrality_leader
 recruit_character = P67_fascism_leader
 
 #Levant Initial States
-add_to_array = { pfp_levant_integration_array = 454 } #Coastal Plain
-add_to_array = { pfp_levant_integration_array = 455 } #Amman
-add_to_array = { pfp_levant_integration_array = 553 } #Lebanon
-add_to_array = { pfp_levant_integration_array = 554 } #Damascus
-add_to_array = { pfp_levant_integration_array = 677 } #Aleppo
-add_to_array = { pfp_levant_integration_array = 680 } #Deir-az-Zur
-add_to_array = { pfp_levant_integration_array = 949 } #Gaza
-add_to_array = { pfp_levant_integration_array = 966 } #West Bank
-add_to_array = { pfp_levant_integration_array = 1016 } #Jerusalem
-add_to_array = { pfp_levant_integration_array = 1017 } #Beersheba
-add_to_array = { pfp_levant_integration_array = 1021 } #Mafraq
-add_to_array = { pfp_levant_integration_array = 1022 } #Ma'an
+add_to_array = { P67.pfp_possible_cores = 454 } #Coastal Plain
+add_to_array = { P67.pfp_possible_cores = 455 } #Amman
+add_to_array = { P67.pfp_possible_cores = 553 } #Lebanon
+add_to_array = { P67.pfp_possible_cores = 554 } #Damascus
+add_to_array = { P67.pfp_possible_cores = 677 } #Aleppo
+add_to_array = { P67.pfp_possible_cores = 680 } #Deir-az-Zur
+add_to_array = { P67.pfp_possible_cores = 949 } #Gaza
+add_to_array = { P67.pfp_possible_cores = 966 } #West Bank
+add_to_array = { P67.pfp_possible_cores = 1016 } #Jerusalem
+add_to_array = { P67.pfp_possible_cores = 1017 } #Beersheba
+add_to_array = { P67.pfp_possible_cores = 1021 } #Mafraq
+add_to_array = { P67.pfp_possible_cores = 1022 } #Ma'an
 
 #Levant Territories
-add_to_array = { pfp_levant_integration_array = 183 } #Cyprus
-add_to_array = { pfp_levant_integration_array = 453 } #Sinai
-add_to_array = { pfp_levant_integration_array = 799 } #Hatay
-add_to_array = { pfp_levant_integration_array = 911 } #Suez
-add_to_array = { pfp_levant_integration_array = 995 } #East Suez
+add_to_array = { P67.pfp_possible_cores = 183 } #Cyprus
+add_to_array = { P67.pfp_possible_cores = 453 } #Sinai
+add_to_array = { P67.pfp_possible_cores = 799 } #Hatay
+add_to_array = { P67.pfp_possible_cores = 911 } #Suez
+add_to_array = { P67.pfp_possible_cores = 995 } #East Suez

@@ -1,4 +1,4 @@
-#Mongolia
+﻿#Mongolia
 capital = 330 #Mongolia
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,25 +95,25 @@ recruit_character = P47_neutrality_leader
 recruit_character = P47_fascism_leader
 
 #Mongolia Initial States
-add_to_array = { pfp_mongolia_integration_array = 330 } #Ulaanbaatar
-add_to_array = { pfp_mongolia_integration_array = 817 } #Gobi
-add_to_array = { pfp_mongolia_integration_array = 818 } #Khovd
-add_to_array = { pfp_mongolia_integration_array = 819 } #Dornod
-add_to_array = { pfp_mongolia_integration_array = 820 } #Khovsgol
+add_to_array = { P47.pfp_possible_cores = 330 } #Ulaanbaatar
+add_to_array = { P47.pfp_possible_cores = 817 } #Gobi
+add_to_array = { P47.pfp_possible_cores = 818 } #Khovd
+add_to_array = { P47.pfp_possible_cores = 819 } #Dornod
+add_to_array = { P47.pfp_possible_cores = 820 } #Khovsgol
 
 #Mongolia Territories
-add_to_array = { pfp_mongolia_integration_array = 329 } #Tannu Tuva
-add_to_array = { pfp_mongolia_integration_array = 563 } #Chita
-add_to_array = { pfp_mongolia_integration_array = 564 } #Buryatia
-add_to_array = { pfp_mongolia_integration_array = 566 } #Irkutsk
-add_to_array = { pfp_mongolia_integration_array = 611 } #Chahar
-add_to_array = { pfp_mongolia_integration_array = 612 } #Xilingol
-add_to_array = { pfp_mongolia_integration_array = 616 } #Ningxia
-add_to_array = { pfp_mongolia_integration_array = 621 } #Suiyuan
-add_to_array = { pfp_mongolia_integration_array = 654 } #Oryot Region
-add_to_array = { pfp_mongolia_integration_array = 746 } #Ordos
-add_to_array = { pfp_mongolia_integration_array = 756 } #Jiuquan
-add_to_array = { pfp_mongolia_integration_array = 760 } #Dabacheng
-add_to_array = { pfp_mongolia_integration_array = 761 } #Hulunbuir
-add_to_array = { pfp_mongolia_integration_array = 1119 } #Alxa
-add_to_array = { pfp_mongolia_integration_array = 1122 } #Pailingmiao
+add_to_array = { P47.pfp_possible_cores = 329 } #Tannu Tuva
+add_to_array = { P47.pfp_possible_cores = 563 } #Chita
+add_to_array = { P47.pfp_possible_cores = 564 } #Buryatia
+add_to_array = { P47.pfp_possible_cores = 566 } #Irkutsk
+add_to_array = { P47.pfp_possible_cores = 611 } #Chahar
+add_to_array = { P47.pfp_possible_cores = 612 } #Xilingol
+add_to_array = { P47.pfp_possible_cores = 616 } #Ningxia
+add_to_array = { P47.pfp_possible_cores = 621 } #Suiyuan
+add_to_array = { P47.pfp_possible_cores = 654 } #Oryot Region
+add_to_array = { P47.pfp_possible_cores = 746 } #Ordos
+add_to_array = { P47.pfp_possible_cores = 756 } #Jiuquan
+add_to_array = { P47.pfp_possible_cores = 760 } #Dabacheng
+add_to_array = { P47.pfp_possible_cores = 761 } #Hulunbuir
+add_to_array = { P47.pfp_possible_cores = 1119 } #Alxa
+add_to_array = { P47.pfp_possible_cores = 1122 } #Pailingmiao

@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,20 +95,20 @@ recruit_character = P76_neutrality_leader
 recruit_character = P76_fascism_leader
 
 #Afghanistan Initial States
-add_to_array = { pfp_afghanistan_integration_array = 267 } #Kabulistan
-add_to_array = { pfp_afghanistan_integration_array = 415 } #Herat
-add_to_array = { pfp_afghanistan_integration_array = 1008 } #Faryab
-add_to_array = { pfp_afghanistan_integration_array = 1009 } #Bamian
-add_to_array = { pfp_afghanistan_integration_array = 1010 } #Kandahar
-add_to_array = { pfp_afghanistan_integration_array = 1011 } #Badakhshan
+add_to_array = { P76.pfp_possible_cores = 267 } #Kabulistan
+add_to_array = { P76.pfp_possible_cores = 415 } #Herat
+add_to_array = { P76.pfp_possible_cores = 1008 } #Faryab
+add_to_array = { P76.pfp_possible_cores = 1009 } #Bamian
+add_to_array = { P76.pfp_possible_cores = 1010 } #Kandahar
+add_to_array = { P76.pfp_possible_cores = 1011 } #Badakhshan
 
 #Afghanistan Territories
-add_to_array = { pfp_afghanistan_integration_array = 410 } #Sistan o Balochistan
-add_to_array = { pfp_afghanistan_integration_array = 440 } #West Punjab
-add_to_array = { pfp_afghanistan_integration_array = 441 } #Kashmir
-add_to_array = { pfp_afghanistan_integration_array = 442 } #Sarhad
-add_to_array = { pfp_afghanistan_integration_array = 443 } #East Sind
-add_to_array = { pfp_afghanistan_integration_array = 444 } #Balochistan
-add_to_array = { pfp_afghanistan_integration_array = 445 } #Quetta
-add_to_array = { pfp_afghanistan_integration_array = 787 } #Northern Kashmir
-add_to_array = { pfp_afghanistan_integration_array = 1093 } #West Sind
+add_to_array = { P76.pfp_possible_cores = 410 } #Sistan o Balochistan
+add_to_array = { P76.pfp_possible_cores = 440 } #West Punjab
+add_to_array = { P76.pfp_possible_cores = 441 } #Kashmir
+add_to_array = { P76.pfp_possible_cores = 442 } #Sarhad
+add_to_array = { P76.pfp_possible_cores = 443 } #East Sind
+add_to_array = { P76.pfp_possible_cores = 444 } #Balochistan
+add_to_array = { P76.pfp_possible_cores = 445 } #Quetta
+add_to_array = { P76.pfp_possible_cores = 787 } #Northern Kashmir
+add_to_array = { P76.pfp_possible_cores = 1093 } #West Sind

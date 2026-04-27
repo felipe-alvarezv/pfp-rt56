@@ -1,4 +1,4 @@
-#Chugoku
+﻿#Chugoku
 capital = 529 #Sanyo
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,5 +94,5 @@ recruit_character = Q05_neutrality_leader
 recruit_character = Q05_fascism_leader
 
 #Chugoku Initial States
-add_to_array = { pfp_chugoku_integration_array = 529 } #San'yo
-add_to_array = { pfp_chugoku_integration_array = 1107 } #San'in
+add_to_array = { Q05.pfp_possible_cores = 529 } #San'yo
+add_to_array = { Q05.pfp_possible_cores = 1107 } #San'in

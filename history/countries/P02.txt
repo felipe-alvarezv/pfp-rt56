@@ -1,4 +1,4 @@
-#Great Britain
+﻿#Great Britain
 capital = 126 #London
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,28 +95,28 @@ recruit_character = P02_neutrality_leader
 recruit_character = P02_fascism_leader
 
 #Great Britain Initial States
-add_to_array = { pfp_great_britain_integration_array = 120 } #Scottish Highlands
-add_to_array = { pfp_great_britain_integration_array = 121 } #Lothian
-add_to_array = { pfp_great_britain_integration_array = 122 } #Wales
-add_to_array = { pfp_great_britain_integration_array = 123 } #South-West England
-add_to_array = { pfp_great_britain_integration_array = 125 } #East Anglia
-add_to_array = { pfp_great_britain_integration_array = 126 } #Greater London Area
-add_to_array = { pfp_great_britain_integration_array = 127 } #Sussex
-add_to_array = { pfp_great_britain_integration_array = 128 } #West Midlands
-add_to_array = { pfp_great_britain_integration_array = 129 } #East Midlands
-add_to_array = { pfp_great_britain_integration_array = 130 } #Yorkshire
-add_to_array = { pfp_great_britain_integration_array = 131 } #Northumberland
-add_to_array = { pfp_great_britain_integration_array = 132 } #Lancashire
-add_to_array = { pfp_great_britain_integration_array = 133 } #Lanark
-add_to_array = { pfp_great_britain_integration_array = 136 } #Aberdeenshire
-add_to_array = { pfp_great_britain_integration_array = 338 } #Gloucestershire
-add_to_array = { pfp_great_britain_integration_array = 1041 } #Cumbria
+add_to_array = { P02.pfp_possible_cores = 120 } #Scottish Highlands
+add_to_array = { P02.pfp_possible_cores = 121 } #Lothian
+add_to_array = { P02.pfp_possible_cores = 122 } #Wales
+add_to_array = { P02.pfp_possible_cores = 123 } #South-West England
+add_to_array = { P02.pfp_possible_cores = 125 } #East Anglia
+add_to_array = { P02.pfp_possible_cores = 126 } #Greater London Area
+add_to_array = { P02.pfp_possible_cores = 127 } #Sussex
+add_to_array = { P02.pfp_possible_cores = 128 } #West Midlands
+add_to_array = { P02.pfp_possible_cores = 129 } #East Midlands
+add_to_array = { P02.pfp_possible_cores = 130 } #Yorkshire
+add_to_array = { P02.pfp_possible_cores = 131 } #Northumberland
+add_to_array = { P02.pfp_possible_cores = 132 } #Lancashire
+add_to_array = { P02.pfp_possible_cores = 133 } #Lanark
+add_to_array = { P02.pfp_possible_cores = 136 } #Aberdeenshire
+add_to_array = { P02.pfp_possible_cores = 338 } #Gloucestershire
+add_to_array = { P02.pfp_possible_cores = 1041 } #Cumbria
 
 #Great Britain Territories
-add_to_array = { pfp_great_britain_integration_array = 113 } #Leinster
-add_to_array = { pfp_great_britain_integration_array = 119 } #Northern Ireland
-add_to_array = { pfp_great_britain_integration_array = 134 } #Connaught
-add_to_array = { pfp_great_britain_integration_array = 135 } #Munster
-add_to_array = { pfp_great_britain_integration_array = 970 } #Shetland
-add_to_array = { pfp_great_britain_integration_array = 971 } #Orkney
-add_to_array = { pfp_great_britain_integration_array = 1042 } #Isle of Man
+add_to_array = { P02.pfp_possible_cores = 113 } #Leinster
+add_to_array = { P02.pfp_possible_cores = 119 } #Northern Ireland
+add_to_array = { P02.pfp_possible_cores = 134 } #Connaught
+add_to_array = { P02.pfp_possible_cores = 135 } #Munster
+add_to_array = { P02.pfp_possible_cores = 970 } #Shetland
+add_to_array = { P02.pfp_possible_cores = 971 } #Orkney
+add_to_array = { P02.pfp_possible_cores = 1042 } #Isle of Man

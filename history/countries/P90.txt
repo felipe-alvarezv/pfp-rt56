@@ -1,4 +1,4 @@
-#Montenegro
+﻿#Montenegro
 capital = 105 #Montenegro
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,5 +94,5 @@ recruit_character = P90_neutrality_leader
 recruit_character = P90_fascism_leader
 
 #Montenegro Initial States
-add_to_array = { pfp_montenegro_integration_array = 105 } #Crna Gora
-add_to_array = { pfp_montenegro_integration_array = 963 } #Raska
+add_to_array = { P90.pfp_possible_cores = 105 } #Crna Gora
+add_to_array = { P90.pfp_possible_cores = 963 } #Raska

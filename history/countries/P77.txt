@@ -1,4 +1,4 @@
-#Austria
+﻿#Austria
 capital = 4 #Lower Austria
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,16 +94,16 @@ recruit_character = P77_neutrality_leader
 recruit_character = P77_fascism_leader
 
 #Austria Initial States
-add_to_array = { pfp_austria_integration_array = 4 } #Lower Austria
-add_to_array = { pfp_austria_integration_array = 152 } #Upper Austria
-add_to_array = { pfp_austria_integration_array = 153 } #Tyrol
-add_to_array = { pfp_austria_integration_array = 848 } #Vorarlberg
-add_to_array = { pfp_austria_integration_array = 1054 } #Styria
-add_to_array = { pfp_austria_integration_array = 1086 } #Burgenland
+add_to_array = { P77.pfp_possible_cores = 4 } #Lower Austria
+add_to_array = { P77.pfp_possible_cores = 152 } #Upper Austria
+add_to_array = { P77.pfp_possible_cores = 153 } #Tyrol
+add_to_array = { P77.pfp_possible_cores = 848 } #Vorarlberg
+add_to_array = { P77.pfp_possible_cores = 1054 } #Styria
+add_to_array = { P77.pfp_possible_cores = 1086 } #Burgenland
 
 #Austria Territories
-add_to_array = { pfp_austria_integration_array = 39 } #Alto Adige
-add_to_array = { pfp_austria_integration_array = 102 } #Drava
-add_to_array = { pfp_austria_integration_array = 736 } #Littoral
-add_to_array = { pfp_austria_integration_array = 850 } #Trentino
-add_to_array = { pfp_austria_integration_array = 853 } #Ljubljana
+add_to_array = { P77.pfp_possible_cores = 39 } #Alto Adige
+add_to_array = { P77.pfp_possible_cores = 102 } #Drava
+add_to_array = { P77.pfp_possible_cores = 736 } #Littoral
+add_to_array = { P77.pfp_possible_cores = 850 } #Trentino
+add_to_array = { P77.pfp_possible_cores = 853 } #Ljubljana

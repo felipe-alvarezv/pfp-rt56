@@ -1,4 +1,4 @@
-#Manchuria
+﻿#Manchuria
 capital = 716 #Liaoning
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
     limited_conscription
     export_focus
     partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -93,20 +94,20 @@ recruit_character = Q08_neutrality_leader
 recruit_character = Q08_fascism_leader
 
 #Manchuria Initial States
-add_to_array = { pfp_manchuria_integration_array = 328 } #Kirin
-add_to_array = { pfp_manchuria_integration_array = 610 } #Jehol
-add_to_array = { pfp_manchuria_integration_array = 714 } #Heilungkiang
-add_to_array = { pfp_manchuria_integration_array = 715 } #Liaobei
-add_to_array = { pfp_manchuria_integration_array = 716 } #Liaoning
-add_to_array = { pfp_manchuria_integration_array = 717 } #Sungkiang
-add_to_array = { pfp_manchuria_integration_array = 761 } #Hulunbuir
-add_to_array = { pfp_manchuria_integration_array = 941 } #Andong
-add_to_array = { pfp_manchuria_integration_array = 942 } #Jiandao
-add_to_array = { pfp_manchuria_integration_array = 943 } #Binjiang
-add_to_array = { pfp_manchuria_integration_array = 944 } #Longjiang
-add_to_array = { pfp_manchuria_integration_array = 945 } #Heihe
-add_to_array = { pfp_manchuria_integration_array = 946 } #West Xing'an
-add_to_array = { pfp_manchuria_integration_array = 947 } #Jinzhou
+add_to_array = { Q08.pfp_possible_cores = 328 } #Kirin
+add_to_array = { Q08.pfp_possible_cores = 610 } #Jehol
+add_to_array = { Q08.pfp_possible_cores = 714 } #Heilungkiang
+add_to_array = { Q08.pfp_possible_cores = 715 } #Liaobei
+add_to_array = { Q08.pfp_possible_cores = 716 } #Liaoning
+add_to_array = { Q08.pfp_possible_cores = 717 } #Sungkiang
+add_to_array = { Q08.pfp_possible_cores = 761 } #Hulunbuir
+add_to_array = { Q08.pfp_possible_cores = 941 } #Andong
+add_to_array = { Q08.pfp_possible_cores = 942 } #Jiandao
+add_to_array = { Q08.pfp_possible_cores = 943 } #Binjiang
+add_to_array = { Q08.pfp_possible_cores = 944 } #Longjiang
+add_to_array = { Q08.pfp_possible_cores = 945 } #Heihe
+add_to_array = { Q08.pfp_possible_cores = 946 } #West Xing'an
+add_to_array = { Q08.pfp_possible_cores = 947 } #Jinzhou
 
 #Manchuria Territories
-add_to_array = { pfp_manchuria_integration_array = 745 } #Dalian
+add_to_array = { Q08.pfp_possible_cores = 745 } #Dalian

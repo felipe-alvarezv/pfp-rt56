@@ -1,4 +1,4 @@
-#Poland
+﻿#Poland
 capital = 10 #Warszawa
 
 # Research Slots, Stability, War Support, and Ideas
@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	export_focus
 	partial_economic_mobilisation
+	pfp_puppet_resistance_idea_1
 }
 
 # Default Technology
@@ -94,57 +95,57 @@ recruit_character = P34_neutrality_leader
 recruit_character = P34_fascism_leader
 
 #Poland Initial States
-add_to_array = { pfp_poland_integration_array = 10 } #Warszawa
-add_to_array = { pfp_poland_integration_array = 87 } #Lodz
-add_to_array = { pfp_poland_integration_array = 90 } #Kielce
-add_to_array = { pfp_poland_integration_array = 92 } #Lublin
-add_to_array = { pfp_poland_integration_array = 98 } #Płock
+add_to_array = { P34.pfp_possible_cores = 10 } #Warszawa
+add_to_array = { P34.pfp_possible_cores = 87 } #Lodz
+add_to_array = { P34.pfp_possible_cores = 90 } #Kielce
+add_to_array = { P34.pfp_possible_cores = 92 } #Lublin
+add_to_array = { P34.pfp_possible_cores = 98 } #Płock
 
 #Poland Territories
-add_to_array = { pfp_poland_integration_array = 5 } #Ermland-Masuren
-add_to_array = { pfp_poland_integration_array = 11 } #Kaunas
-add_to_array = { pfp_poland_integration_array = 12 } #Vidzeme
-add_to_array = { pfp_poland_integration_array = 63 } #Hinterpommern
-add_to_array = { pfp_poland_integration_array = 66 } #Niederschlesien
-add_to_array = { pfp_poland_integration_array = 67 } #Oberschlesien
-add_to_array = { pfp_poland_integration_array = 68 } #Ostmark
-add_to_array = { pfp_poland_integration_array = 72 } #Zaolzie
-add_to_array = { pfp_poland_integration_array = 85 } #Danzig
-add_to_array = { pfp_poland_integration_array = 86 } #Poznan
-add_to_array = { pfp_poland_integration_array = 88 } #Krakow
-add_to_array = { pfp_poland_integration_array = 89 } #Stanislawow
-add_to_array = { pfp_poland_integration_array = 91 } #Lwow
-add_to_array = { pfp_poland_integration_array = 93 } #Wolyn
-add_to_array = { pfp_poland_integration_array = 94 } #Polesie
-add_to_array = { pfp_poland_integration_array = 95 } #Nowogrodek
-add_to_array = { pfp_poland_integration_array = 96 } #Wilejka
-add_to_array = { pfp_poland_integration_array = 97 } #Białystok
-add_to_array = { pfp_poland_integration_array = 188 } #Memel
-add_to_array = { pfp_poland_integration_array = 189 } #Zemaitija
-add_to_array = { pfp_poland_integration_array = 190 } #Kurzeme
-add_to_array = { pfp_poland_integration_array = 193 } #Chernigov
-add_to_array = { pfp_poland_integration_array = 194 } #Mozyr
-add_to_array = { pfp_poland_integration_array = 198 } #Vinnytsia
-add_to_array = { pfp_poland_integration_array = 199 } #Khmelnytskyi
-add_to_array = { pfp_poland_integration_array = 201 } #Zhytomyr
-add_to_array = { pfp_poland_integration_array = 202 } #Kiev
-add_to_array = { pfp_poland_integration_array = 203 } #Cherkasy
-add_to_array = { pfp_poland_integration_array = 204 } #Bobruysk
-add_to_array = { pfp_poland_integration_array = 206 } #Minsk
-add_to_array = { pfp_poland_integration_array = 207 } #Vitebsk
-add_to_array = { pfp_poland_integration_array = 241 } #Gomel
-add_to_array = { pfp_poland_integration_array = 242 } #Smolensk
-add_to_array = { pfp_poland_integration_array = 243 } #Roslavl
-add_to_array = { pfp_poland_integration_array = 259 } #Poltava
-add_to_array = { pfp_poland_integration_array = 762 } #Katowice
-add_to_array = { pfp_poland_integration_array = 763 } #Konigsberg
-add_to_array = { pfp_poland_integration_array = 784 } #Wilno
-add_to_array = { pfp_poland_integration_array = 807 } #Gdynia
-add_to_array = { pfp_poland_integration_array = 808 } #Riga
-add_to_array = { pfp_poland_integration_array = 809 } #Zemgale
-add_to_array = { pfp_poland_integration_array = 810 } #Latgale
-add_to_array = { pfp_poland_integration_array = 814 } #Suduva
-add_to_array = { pfp_poland_integration_array = 815 } #Aukstaitija
-add_to_array = { pfp_poland_integration_array = 934 } #Suwalki
-add_to_array = { pfp_poland_integration_array = 935 } #Grodno
-add_to_array = { pfp_poland_integration_array = 936 } #Outer Wilno
+add_to_array = { P34.pfp_possible_cores = 5 } #Ermland-Masuren
+add_to_array = { P34.pfp_possible_cores = 11 } #Kaunas
+add_to_array = { P34.pfp_possible_cores = 12 } #Vidzeme
+add_to_array = { P34.pfp_possible_cores = 63 } #Hinterpommern
+add_to_array = { P34.pfp_possible_cores = 66 } #Niederschlesien
+add_to_array = { P34.pfp_possible_cores = 67 } #Oberschlesien
+add_to_array = { P34.pfp_possible_cores = 68 } #Ostmark
+add_to_array = { P34.pfp_possible_cores = 72 } #Zaolzie
+add_to_array = { P34.pfp_possible_cores = 85 } #Danzig
+add_to_array = { P34.pfp_possible_cores = 86 } #Poznan
+add_to_array = { P34.pfp_possible_cores = 88 } #Krakow
+add_to_array = { P34.pfp_possible_cores = 89 } #Stanislawow
+add_to_array = { P34.pfp_possible_cores = 91 } #Lwow
+add_to_array = { P34.pfp_possible_cores = 93 } #Wolyn
+add_to_array = { P34.pfp_possible_cores = 94 } #Polesie
+add_to_array = { P34.pfp_possible_cores = 95 } #Nowogrodek
+add_to_array = { P34.pfp_possible_cores = 96 } #Wilejka
+add_to_array = { P34.pfp_possible_cores = 97 } #Białystok
+add_to_array = { P34.pfp_possible_cores = 188 } #Memel
+add_to_array = { P34.pfp_possible_cores = 189 } #Zemaitija
+add_to_array = { P34.pfp_possible_cores = 190 } #Kurzeme
+add_to_array = { P34.pfp_possible_cores = 193 } #Chernigov
+add_to_array = { P34.pfp_possible_cores = 194 } #Mozyr
+add_to_array = { P34.pfp_possible_cores = 198 } #Vinnytsia
+add_to_array = { P34.pfp_possible_cores = 199 } #Khmelnytskyi
+add_to_array = { P34.pfp_possible_cores = 201 } #Zhytomyr
+add_to_array = { P34.pfp_possible_cores = 202 } #Kiev
+add_to_array = { P34.pfp_possible_cores = 203 } #Cherkasy
+add_to_array = { P34.pfp_possible_cores = 204 } #Bobruysk
+add_to_array = { P34.pfp_possible_cores = 206 } #Minsk
+add_to_array = { P34.pfp_possible_cores = 207 } #Vitebsk
+add_to_array = { P34.pfp_possible_cores = 241 } #Gomel
+add_to_array = { P34.pfp_possible_cores = 242 } #Smolensk
+add_to_array = { P34.pfp_possible_cores = 243 } #Roslavl
+add_to_array = { P34.pfp_possible_cores = 259 } #Poltava
+add_to_array = { P34.pfp_possible_cores = 762 } #Katowice
+add_to_array = { P34.pfp_possible_cores = 763 } #Konigsberg
+add_to_array = { P34.pfp_possible_cores = 784 } #Wilno
+add_to_array = { P34.pfp_possible_cores = 807 } #Gdynia
+add_to_array = { P34.pfp_possible_cores = 808 } #Riga
+add_to_array = { P34.pfp_possible_cores = 809 } #Zemgale
+add_to_array = { P34.pfp_possible_cores = 810 } #Latgale
+add_to_array = { P34.pfp_possible_cores = 814 } #Suduva
+add_to_array = { P34.pfp_possible_cores = 815 } #Aukstaitija
+add_to_array = { P34.pfp_possible_cores = 934 } #Suwalki
+add_to_array = { P34.pfp_possible_cores = 935 } #Grodno
+add_to_array = { P34.pfp_possible_cores = 936 } #Outer Wilno

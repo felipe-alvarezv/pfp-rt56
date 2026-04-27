@@ -1,4 +1,4 @@
-﻿#Scripted effect to release South Africa (P36)
+#Scripted effect to release South Africa (P36)
 pfp_release_south_africa = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

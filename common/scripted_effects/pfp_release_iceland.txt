@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Iceland (P83)
+#Scripted effect to release Iceland (P83)
 pfp_release_iceland = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Norway (P65)
+#Scripted effect to release Norway (P65)
 pfp_release_norway = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Korea (P72)
+#Scripted effect to release Korea (P72)
 pfp_release_korea = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

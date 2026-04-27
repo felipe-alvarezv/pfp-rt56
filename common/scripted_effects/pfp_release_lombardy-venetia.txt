@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Lombardy-Venetia (P92)
+#Scripted effect to release Lombardy-Venetia (P92)
 pfp_release_lombardy-venetia = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Scandinavia (P24)
+#Scripted effect to release Scandinavia (P24)
 pfp_release_scandinavia = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Argentina (P55)
+#Scripted effect to release Argentina (P55)
 pfp_release_argentina = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

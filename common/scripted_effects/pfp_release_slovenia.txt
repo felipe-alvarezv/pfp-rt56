@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Slovenia (P87)
+#Scripted effect to release Slovenia (P87)
 pfp_release_slovenia = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

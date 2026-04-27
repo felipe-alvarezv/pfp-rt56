@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Sweden (P74)
+#Scripted effect to release Sweden (P74)
 pfp_release_sweden = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

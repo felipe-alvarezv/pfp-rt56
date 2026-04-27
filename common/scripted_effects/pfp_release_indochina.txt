@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Indochina (P16)
+#Scripted effect to release Indochina (P16)
 pfp_release_indochina = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

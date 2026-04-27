@@ -1,4 +1,4 @@
-﻿#Scripted effect to release East Turkestan (Q23)
+#Scripted effect to release East Turkestan (Q23)
 pfp_release_east_turkestan = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

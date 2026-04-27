@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Levant (P67)
+#Scripted effect to release Levant (P67)
 pfp_release_levant = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

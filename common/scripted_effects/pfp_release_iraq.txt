@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Iraq (P69)
+#Scripted effect to release Iraq (P69)
 pfp_release_iraq = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

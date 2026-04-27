@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Papal States (P96)
+#Scripted effect to release Papal States (P96)
 pfp_release_papal_states = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

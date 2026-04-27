@@ -1,4 +1,4 @@
-﻿#Scripted effect to release West Germany (P31)
+#Scripted effect to release West Germany (P31)
 pfp_release_west_germany = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

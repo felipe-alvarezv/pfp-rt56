@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Pakistan (P75)
+#Scripted effect to release Pakistan (P75)
 pfp_release_pakistan = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

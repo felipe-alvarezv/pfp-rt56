@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Macedonia (P98)
+#Scripted effect to release Macedonia (P98)
 pfp_release_macedonia = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

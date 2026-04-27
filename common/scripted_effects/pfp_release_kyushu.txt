@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Kyushu (Q07)
+#Scripted effect to release Kyushu (Q07)
 pfp_release_kyushu = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

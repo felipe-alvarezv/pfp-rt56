@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Iran (P71)
+#Scripted effect to release Iran (P71)
 pfp_release_iran = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

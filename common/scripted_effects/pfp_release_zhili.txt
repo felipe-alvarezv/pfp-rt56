@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Zhili (Q10)
+#Scripted effect to release Zhili (Q10)
 pfp_release_zhili = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

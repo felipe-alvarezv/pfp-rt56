@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Bosnia-Herzegovina (P88)
+#Scripted effect to release Bosnia-Herzegovina (P88)
 pfp_release_bosnia-herzegovina = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

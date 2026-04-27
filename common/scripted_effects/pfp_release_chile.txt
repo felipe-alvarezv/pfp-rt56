@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Chile (P54)
+#Scripted effect to release Chile (P54)
 pfp_release_chile = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

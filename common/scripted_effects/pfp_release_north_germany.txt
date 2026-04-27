@@ -1,4 +1,4 @@
-﻿#Scripted effect to release North Germany (P19)
+#Scripted effect to release North Germany (P19)
 pfp_release_north_germany = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

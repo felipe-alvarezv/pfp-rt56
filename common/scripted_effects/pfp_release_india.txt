@@ -1,4 +1,4 @@
-﻿#Scripted effect to release India (P37)
+#Scripted effect to release India (P37)
 pfp_release_india = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

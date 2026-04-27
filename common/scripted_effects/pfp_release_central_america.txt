@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Central America (P08)
+#Scripted effect to release Central America (P08)
 pfp_release_central_america = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

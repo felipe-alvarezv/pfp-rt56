@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Shaan-Gan (Q20)
+#Scripted effect to release Shaan-Gan (Q20)
 pfp_release_shaan-gan = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

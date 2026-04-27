@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Transcaucasia (P28)
+#Scripted effect to release Transcaucasia (P28)
 pfp_release_transcaucasia = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

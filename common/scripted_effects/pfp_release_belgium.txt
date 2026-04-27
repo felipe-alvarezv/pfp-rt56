@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Belgium (P60)
+#Scripted effect to release Belgium (P60)
 pfp_release_belgium = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Turkestan (P51)
+#Scripted effect to release Turkestan (P51)
 pfp_release_turkestan = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

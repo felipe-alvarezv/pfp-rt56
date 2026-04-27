@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Germany (P13)
+#Scripted effect to release Germany (P13)
 pfp_release_germany = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

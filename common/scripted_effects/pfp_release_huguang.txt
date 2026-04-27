@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Huguang (Q16)
+#Scripted effect to release Huguang (Q16)
 pfp_release_huguang = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Albania (P91)
+#Scripted effect to release Albania (P91)
 pfp_release_albania = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

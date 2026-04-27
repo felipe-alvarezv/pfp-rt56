@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Liangguang (Q17)
+#Scripted effect to release Liangguang (Q17)
 pfp_release_liangguang = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

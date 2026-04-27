@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Great Britain (P02)
+#Scripted effect to release Great Britain (P02)
 pfp_release_great_britain = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

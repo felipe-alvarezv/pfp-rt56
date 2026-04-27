@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Colombia (P01)
+#Scripted effect to release Colombia (P01)
 pfp_release_colombia = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

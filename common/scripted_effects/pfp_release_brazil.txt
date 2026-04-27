@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Brazil (P57)
+#Scripted effect to release Brazil (P57)
 pfp_release_brazil = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

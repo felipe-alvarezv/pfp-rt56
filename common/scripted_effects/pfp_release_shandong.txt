@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Shandong (Q11)
+#Scripted effect to release Shandong (Q11)
 pfp_release_shandong = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

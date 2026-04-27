@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Qinghai (Q21)
+#Scripted effect to release Qinghai (Q21)
 pfp_release_qinghai = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

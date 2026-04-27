@@ -1,4 +1,4 @@
-﻿#Scripted effect to release England (P80)
+#Scripted effect to release England (P80)
 pfp_release_england = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

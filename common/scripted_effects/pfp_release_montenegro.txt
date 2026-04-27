@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Montenegro (P90)
+#Scripted effect to release Montenegro (P90)
 pfp_release_montenegro = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

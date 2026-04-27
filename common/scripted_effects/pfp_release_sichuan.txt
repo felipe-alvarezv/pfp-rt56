@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Sichuan (Q19)
+#Scripted effect to release Sichuan (Q19)
 pfp_release_sichuan = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

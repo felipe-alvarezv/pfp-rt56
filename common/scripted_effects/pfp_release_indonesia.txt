@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Indonesia (P17)
+#Scripted effect to release Indonesia (P17)
 pfp_release_indonesia = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

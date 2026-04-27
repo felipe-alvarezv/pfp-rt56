@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Inner Mongolia (Q09)
+#Scripted effect to release Inner Mongolia (Q09)
 pfp_release_inner_mongolia = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

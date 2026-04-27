@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Northeastern U.S. (P20)
+#Scripted effect to release Northeastern U.S. (P20)
 pfp_release_northeastern_us = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

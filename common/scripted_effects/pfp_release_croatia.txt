@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Croatia (P86)
+#Scripted effect to release Croatia (P86)
 pfp_release_croatia = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

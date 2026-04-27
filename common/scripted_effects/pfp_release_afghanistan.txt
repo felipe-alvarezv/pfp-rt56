@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Afghanistan (P76)
+#Scripted effect to release Afghanistan (P76)
 pfp_release_afghanistan = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

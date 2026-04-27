@@ -1,4 +1,4 @@
-﻿#Scripted effect to release West Indies (P06)
+#Scripted effect to release West Indies (P06)
 pfp_release_west_indies = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

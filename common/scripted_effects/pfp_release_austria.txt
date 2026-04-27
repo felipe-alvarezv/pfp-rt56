@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Austria (P77)
+#Scripted effect to release Austria (P77)
 pfp_release_austria = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

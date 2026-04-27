@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Arabia (P03)
+#Scripted effect to release Arabia (P03)
 pfp_release_arabia = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

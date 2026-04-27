@@ -1,4 +1,4 @@
-﻿#Scripted effect to release South Germany (P25)
+#Scripted effect to release South Germany (P25)
 pfp_release_south_germany = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Two Sicilies (P97)
+#Scripted effect to release Two Sicilies (P97)
 pfp_release_two_sicilies = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

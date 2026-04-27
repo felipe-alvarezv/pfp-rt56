@@ -1,4 +1,4 @@
-﻿#Scripted effect to release Yugoslavia (P50)
+#Scripted effect to release Yugoslavia (P50)
 pfp_release_yugoslavia = {
 	hidden_effect = {
 		#If resistance mechanics are enabled, formable puppets will contest and control its corresponding states.

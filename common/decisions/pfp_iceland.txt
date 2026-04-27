@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
     pfp_iceland = {
         allowed = {
             NOT = {
@@ -33,19 +33,32 @@ pfp_category = {
         }
         icon = generic_military
         complete_effect = {
-            custom_effect_tooltip = pfp_iceland_core_states
-            custom_effect_tooltip = pfp_iceland_transfer_states
+            custom_effect_tooltip = pfp_iceland_transfer_capital
             custom_effect_tooltip = pfp_iceland_puppet
+            custom_effect_tooltip = pfp_iceland_occupation_type
+            custom_effect_tooltip = pfp_iceland_state_controller
 
             #Create formable puppet with all its states and then puppet
             hidden_effect = {
-                pfp_release_iceland = yes
-                set_autonomy = { target = P83 autonomy_state = pfp_autonomy_military_occupation }
+                #Transfer control and ownership of capital to formable puppet
+                100 = { transfer_state_to = P83 } #Iceland
 
-                #Code to assign generic portraits and set puppet colour
+                #Formable puppet becomes a puppet of ROOT
+                puppet = P83
+
+                #Code to assign generic portraits and set puppet color
                 set_temp_variable = { pfp_portrait_tag = P83 }
                 pfp_set_generic_portrait = yes
-                pfp_set_autonomy_colour = yes
+                pfp_set_autonomy_color = yes
+
+                #Formable puppet will core or contest its designated territory
+                pfp_release_iceland = yes
+
+                #Transfer all technology from ROOT to formable puppet
+                P83 = { pfp_transfer_technology = yes }
+
+                #Set global flag to prevent future decision use
+                set_global_flag = pfp_iceland_flag
             }
         }
         ai_will_do = { factor = 0 }

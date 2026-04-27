@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
     pfp_zhili = {
         allowed = {
             NOT = {
@@ -42,19 +42,32 @@ pfp_category = {
         }
         icon = generic_military
         complete_effect = {
-            custom_effect_tooltip = pfp_zhili_core_states
-            custom_effect_tooltip = pfp_zhili_transfer_states
+            custom_effect_tooltip = pfp_zhili_transfer_capital
             custom_effect_tooltip = pfp_zhili_puppet
+            custom_effect_tooltip = pfp_zhili_occupation_type
+            custom_effect_tooltip = pfp_zhili_state_controller
 
             #Create formable puppet with all its states and then puppet
             hidden_effect = {
-                pfp_release_zhili = yes
-                set_autonomy = { target = Q10 autonomy_state = pfp_autonomy_military_occupation }
+                #Transfer control and ownership of capital to formable puppet
+                608 = { transfer_state_to = Q10 } #Beiping
 
-                #Code to assign generic portraits
+                #Formable puppet becomes a puppet of ROOT
+                puppet = Q10
+
+                #Code to assign generic portraits and set puppet color
                 set_temp_variable = { pfp_portrait_tag = Q10 }
                 pfp_set_generic_portrait = yes
-                pfp_set_autonomy_colour = yes
+                pfp_set_autonomy_color = yes
+
+                #Formable puppet will core or contest its designated territory
+                pfp_release_zhili = yes
+
+                #Transfer all technology from ROOT to formable puppet
+                Q10 = { pfp_transfer_technology = yes }
+
+                #Set global flag to prevent future decision use
+                set_global_flag = pfp_zhili_flag
             }
         }
         ai_will_do = { factor = 0 }

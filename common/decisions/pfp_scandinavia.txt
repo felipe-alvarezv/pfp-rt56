@@ -1,4 +1,4 @@
-pfp_category = {
+﻿pfp_category = {
 	pfp_scandinavia = {
 		allowed = {
 			NOT = {
@@ -197,19 +197,32 @@ pfp_category = {
 		}
 		icon = generic_military
 		complete_effect = {
-			custom_effect_tooltip = pfp_scandinavia_core_states
-			custom_effect_tooltip = pfp_scandinavia_transfer_states
+			custom_effect_tooltip = pfp_scandinavia_transfer_capital
 			custom_effect_tooltip = pfp_scandinavia_puppet
+			custom_effect_tooltip = pfp_scandinavia_occupation_type
+			custom_effect_tooltip = pfp_scandinavia_state_controller
 
 			#Create formable puppet with all its states and then puppet
 			hidden_effect = {
-				pfp_release_scandinavia = yes
-				set_autonomy = { target = P24 autonomy_state = pfp_autonomy_military_occupation }
-				
-				#Code to assign generic portraits and set puppet colour
+				#Transfer control and ownership of capital to formable puppet
+				141 = { transfer_state_to = P24 } #Stockholm
+
+				#Formable puppet becomes a puppet of ROOT
+				puppet = P24
+
+				#Code to assign generic portraits and set puppet color
 				set_temp_variable = { pfp_portrait_tag = P24 }
 				pfp_set_generic_portrait = yes
-				pfp_set_autonomy_colour = yes
+				pfp_set_autonomy_color = yes
+
+				#Formable puppet will core or contest its designated territory
+				pfp_release_scandinavia = yes
+
+				#Transfer all technology from ROOT to formable puppet
+				P24 = { pfp_transfer_technology = yes }
+
+				#Set global flag to prevent future decision use
+				set_global_flag = pfp_scandinavia_flag
 			}
 		}
 		ai_will_do = { factor = 0 }

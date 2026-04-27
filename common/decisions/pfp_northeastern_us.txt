@@ -1,4 +1,4 @@
-﻿pfp_category = {
+pfp_category = {
 	pfp_northeastern_us = {
 		allowed = {
 			NOT = {

@@ -1,4 +1,4 @@
-﻿#Piedmont
+#Piedmont
 capital = 158 #Piedmont
 
 # Research Slots, Stability, War Support, and Ideas

@@ -1,4 +1,4 @@
-﻿#Montenegro
+#Montenegro
 capital = 105 #Montenegro
 
 # Research Slots, Stability, War Support, and Ideas

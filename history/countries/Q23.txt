@@ -1,4 +1,4 @@
-﻿#East Turkestan
+#East Turkestan
 capital = 617 #Urumqi
 
 # Research Slots, Stability, War Support, and Ideas

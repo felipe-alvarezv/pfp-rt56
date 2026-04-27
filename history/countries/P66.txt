@@ -1,4 +1,4 @@
-﻿#Ukraine
+#Ukraine
 capital = 202 #Kiev
 
 # Research Slots, Stability, War Support, and Ideas

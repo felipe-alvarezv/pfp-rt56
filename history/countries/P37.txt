@@ -1,4 +1,4 @@
-﻿#India
+#India
 capital = 439 #Delhi
 
 # Research Slots, Stability, War Support, and Ideas

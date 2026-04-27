@@ -1,4 +1,4 @@
-﻿#Kyushu
+#Kyushu
 capital = 528 #Kitakyushu
 
 # Research Slots, Stability, War Support, and Ideas

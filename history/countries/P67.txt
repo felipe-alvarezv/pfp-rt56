@@ -1,4 +1,4 @@
-﻿#Levant
+#Levant
 capital = 454 #Palestine
 
 # Research Slots, Stability, War Support, and Ideas

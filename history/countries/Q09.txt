@@ -1,4 +1,4 @@
-﻿#Inner Mongolia
+#Inner Mongolia
 capital = 1122 #Pailingmiao
 
 # Research Slots, Stability, War Support, and Ideas

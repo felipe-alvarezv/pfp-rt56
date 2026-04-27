@@ -1,4 +1,4 @@
-﻿#Qinghai
+#Qinghai
 capital = 754 #Golog
 
 # Research Slots, Stability, War Support, and Ideas

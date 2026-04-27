@@ -1,4 +1,4 @@
-﻿#Turkestan
+#Turkestan
 capital = 590 #Akmolinsk
 
 # Research Slots, Stability, War Support, and Ideas

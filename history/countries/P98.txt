@@ -1,4 +1,4 @@
-﻿#Macedonia
+#Macedonia
 capital = 106 #Macedonia
 
 # Research Slots, Stability, War Support, and Ideas

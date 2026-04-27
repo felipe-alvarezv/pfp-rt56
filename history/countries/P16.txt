@@ -1,4 +1,4 @@
-﻿#Indochina
+#Indochina
 capital = 671 #Tonkin
 
 # Research Slots, Stability, War Support, and Ideas

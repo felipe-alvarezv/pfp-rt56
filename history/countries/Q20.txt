@@ -1,4 +1,4 @@
-﻿#Shaan-Gan
+#Shaan-Gan
 capital = 283 #Gansu
 
 # Research Slots, Stability, War Support, and Ideas

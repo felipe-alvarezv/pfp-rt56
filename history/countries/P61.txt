@@ -1,4 +1,4 @@
-﻿#Denmark
+#Denmark
 capital = 37 #Sjaelland
 
 # Research Slots, Stability, War Support, and Ideas

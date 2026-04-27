@@ -1,4 +1,4 @@
-﻿#Iran
+#Iran
 capital = 266 #Tehran
 
 # Research Slots, Stability, War Support, and Ideas

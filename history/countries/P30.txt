@@ -1,4 +1,4 @@
-﻿#North Africa
+#North Africa
 capital = 907 #Cairo
 
 # Research Slots, Stability, War Support, and Ideas

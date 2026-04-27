@@ -1,4 +1,4 @@
-﻿#Bosnia-Herzegovina
+#Bosnia-Herzegovina
 capital = 104 #Bosnia
 
 # Research Slots, Stability, War Support, and Ideas

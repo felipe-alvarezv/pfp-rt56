@@ -1,4 +1,4 @@
-﻿#Papal States
+#Papal States
 capital = 2 #Lazio
 
 # Research Slots, Stability, War Support, and Ideas

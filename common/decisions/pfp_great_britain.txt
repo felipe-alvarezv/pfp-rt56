@@ -1,4 +1,4 @@
-﻿pfp_category = {
+pfp_category = {
     pfp_great_britain = {
         allowed = {
             NOT = {

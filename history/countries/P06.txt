@@ -1,4 +1,4 @@
-﻿#West Indies
+#West Indies
 capital = 315 #Cuba
 
 # Research Slots, Stability, War Support, and Ideas

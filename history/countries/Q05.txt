@@ -1,4 +1,4 @@
-﻿#Chugoku
+#Chugoku
 capital = 529 #Sanyo
 
 # Research Slots, Stability, War Support, and Ideas

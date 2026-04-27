@@ -1,4 +1,4 @@
-﻿#Korea
+#Korea
 capital = 525 #South Korea
 
 # Research Slots, Stability, War Support, and Ideas

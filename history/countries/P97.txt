@@ -1,4 +1,4 @@
-﻿#Two Sicilies
+#Two Sicilies
 capital = 117 #Campania
 
 # Research Slots, Stability, War Support, and Ideas

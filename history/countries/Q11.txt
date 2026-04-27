@@ -1,4 +1,4 @@
-﻿#Shandong
+#Shandong
 capital = 597 #Shandong
 
 # Research Slots, Stability, War Support, and Ideas

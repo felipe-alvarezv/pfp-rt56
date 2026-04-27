@@ -1,4 +1,4 @@
-﻿#Argentina
+#Argentina
 capital = 278 #Buenos Aires
 
 # Research Slots, Stability, War Support, and Ideas

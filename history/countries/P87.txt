@@ -1,4 +1,4 @@
-﻿#Slovenia
+#Slovenia
 capital = 853 #Ljubljana
 
 # Research Slots, Stability, War Support, and Ideas

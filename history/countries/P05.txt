@@ -1,4 +1,4 @@
-﻿#Netherlands
+#Netherlands
 capital = 7 #Holland
 
 # Research Slots, Stability, War Support, and Ideas

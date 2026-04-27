@@ -1,4 +1,4 @@
-﻿#Sichuan
+#Sichuan
 capital = 1120 #Chengdu
 
 # Research Slots, Stability, War Support, and Ideas

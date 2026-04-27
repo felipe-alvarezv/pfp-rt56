@@ -1,4 +1,4 @@
-﻿#South Germany
+#South Germany
 capital = 4 #Vienna
 
 # Research Slots, Stability, War Support, and Ideas

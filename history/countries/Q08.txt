@@ -1,4 +1,4 @@
-﻿#Manchuria
+#Manchuria
 capital = 716 #Liaoning
 
 # Research Slots, Stability, War Support, and Ideas

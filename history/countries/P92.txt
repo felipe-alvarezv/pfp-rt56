@@ -1,4 +1,4 @@
-﻿#Lombardy-Venetia
+#Lombardy-Venetia
 capital = 160 #Veneto
 
 # Research Slots, Stability, War Support, and Ideas

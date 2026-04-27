@@ -1,4 +1,4 @@
-﻿#Oceania
+#Oceania
 capital = 285 #New South Wales
 
 # Research Slots, Stability, War Support, and Ideas

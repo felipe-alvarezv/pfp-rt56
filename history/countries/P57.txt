@@ -1,4 +1,4 @@
-﻿#Brazil
+#Brazil
 capital = 500 #Rio de Janeiro
 
 # Research Slots, Stability, War Support, and Ideas

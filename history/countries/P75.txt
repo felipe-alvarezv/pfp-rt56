@@ -1,4 +1,4 @@
-﻿#Pakistan
+#Pakistan
 capital = 440 #Punjab
 
 # Research Slots, Stability, War Support, and Ideas

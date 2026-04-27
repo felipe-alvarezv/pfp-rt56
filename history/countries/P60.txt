@@ -1,4 +1,4 @@
-﻿#Belgium
+#Belgium
 capital = 6 #Vlaanderen
 
 # Research Slots, Stability, War Support, and Ideas

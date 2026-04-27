@@ -1,4 +1,4 @@
-﻿#England
+#England
 capital = 126 #Greater London Area
 
 # Research Slots, Stability, War Support, and Ideas

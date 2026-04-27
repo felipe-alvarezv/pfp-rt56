@@ -1,4 +1,4 @@
-﻿#Liangjiang
+#Liangjiang
 capital = 1114 #Nanjing
 
 # Research Slots, Stability, War Support, and Ideas

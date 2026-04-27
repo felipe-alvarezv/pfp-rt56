@@ -1,4 +1,4 @@
-﻿#Croatia
+#Croatia
 capital = 109 #Croatia
 
 # Research Slots, Stability, War Support, and Ideas

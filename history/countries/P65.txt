@@ -1,4 +1,4 @@
-﻿#Norway
+#Norway
 capital = 110 #Oslofjord
 
 # Research Slots, Stability, War Support, and Ideas

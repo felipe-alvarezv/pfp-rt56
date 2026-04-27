@@ -1,4 +1,4 @@
-﻿#West Germany
+#West Germany
 capital = 51 #Rhineland
 
 # Research Slots, Stability, War Support, and Ideas

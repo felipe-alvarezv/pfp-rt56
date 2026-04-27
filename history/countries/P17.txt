@@ -1,4 +1,4 @@
-﻿#Indonesia
+#Indonesia
 capital = 335 #Java
 
 # Research Slots, Stability, War Support, and Ideas

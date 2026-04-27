@@ -1,4 +1,4 @@
-﻿#Arabia
+#Arabia
 capital = 292 #Nejd
 
 # Research Slots, Stability, War Support, and Ideas

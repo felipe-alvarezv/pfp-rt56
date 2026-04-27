@@ -1,4 +1,4 @@
-﻿#Baltic
+#Baltic
 capital = 812 #Harju
 
 # Research Slots, Stability, War Support, and Ideas

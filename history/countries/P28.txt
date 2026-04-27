@@ -1,4 +1,4 @@
-﻿#Transcaucasia
+#Transcaucasia
 capital = 231 #Georgia
 
 # Research Slots, Stability, War Support, and Ideas

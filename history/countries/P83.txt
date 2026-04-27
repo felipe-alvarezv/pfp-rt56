@@ -1,4 +1,4 @@
-﻿#Iceland
+#Iceland
 capital = 100 #Iceland
 
 # Research Slots, Stability, War Support, and Ideas

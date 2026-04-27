@@ -1,4 +1,4 @@
-﻿#Serbia
+#Serbia
 capital = 107 #Serbia
 
 # Research Slots, Stability, War Support, and Ideas

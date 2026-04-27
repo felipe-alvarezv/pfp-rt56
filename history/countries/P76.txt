@@ -1,4 +1,4 @@
-﻿#Afghanistan
+#Afghanistan
 capital = 267 #Kabul
 
 # Research Slots, Stability, War Support, and Ideas

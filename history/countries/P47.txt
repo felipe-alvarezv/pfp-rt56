@@ -1,4 +1,4 @@
-﻿#Mongolia
+#Mongolia
 capital = 330 #Mongolia
 
 # Research Slots, Stability, War Support, and Ideas

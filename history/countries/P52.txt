@@ -1,4 +1,4 @@
-﻿#Himalayas
+#Himalayas
 capital = 757 #Shitgatse
 
 # Research Slots, Stability, War Support, and Ideas

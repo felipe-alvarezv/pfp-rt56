@@ -1,4 +1,4 @@
-﻿#South Africa
+#South Africa
 capital = 275 #Transvaal
 
 # Research Slots, Stability, War Support, and Ideas

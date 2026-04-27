@@ -1,4 +1,4 @@
-﻿#Northeastern U.S.
+#Northeastern U.S.
 capital = 358 #New York
 
 # Research Slots, Stability, War Support, and Ideas

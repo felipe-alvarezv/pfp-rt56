@@ -1,4 +1,4 @@
-﻿#Austria
+#Austria
 capital = 4 #Lower Austria
 
 # Research Slots, Stability, War Support, and Ideas

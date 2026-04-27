@@ -1,4 +1,4 @@
-﻿#Zhili
+#Zhili
 capital = 608 #Beiping
 
 # Research Slots, Stability, War Support, and Ideas

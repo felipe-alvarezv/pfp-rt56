@@ -1,4 +1,4 @@
-﻿#Colombia
+#Colombia
 capital = 306 #Cundinamarca
 
 # Research Slots, Stability, War Support, and Ideas

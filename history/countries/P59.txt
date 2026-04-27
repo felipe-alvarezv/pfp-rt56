@@ -1,4 +1,4 @@
-﻿#Czechia
+#Czechia
 capital = 9 #Bohemia
 
 # Research Slots, Stability, War Support, and Ideas

@@ -1,4 +1,4 @@
-﻿#Tohoku
+#Tohoku
 capital = 533 #Kita-Tohoku
 
 # Research Slots, Stability, War Support, and Ideas

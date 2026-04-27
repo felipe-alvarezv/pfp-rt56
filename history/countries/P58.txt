@@ -1,4 +1,4 @@
-﻿#Mexico
+#Mexico
 capital = 277 #Mexico City
 
 # Research Slots, Stability, War Support, and Ideas

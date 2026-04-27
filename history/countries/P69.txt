@@ -1,4 +1,4 @@
-﻿#Iraq
+#Iraq
 capital = 291 #Baghdad
 
 # Research Slots, Stability, War Support, and Ideas

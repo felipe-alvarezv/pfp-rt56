@@ -1,4 +1,4 @@
-﻿#Albania
+#Albania
 capital = 44 #Central Albania
 
 # Research Slots, Stability, War Support, and Ideas

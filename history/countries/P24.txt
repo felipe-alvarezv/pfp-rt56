@@ -1,4 +1,4 @@
-﻿#Scandinavia
+#Scandinavia
 capital = 141 #Stockholm
 
 # Research Slots, Stability, War Support, and Ideas

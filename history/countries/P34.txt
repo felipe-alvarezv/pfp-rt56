@@ -1,4 +1,4 @@
-﻿#Poland
+#Poland
 capital = 10 #Warszawa
 
 # Research Slots, Stability, War Support, and Ideas

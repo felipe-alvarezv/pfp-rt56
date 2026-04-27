@@ -1,4 +1,4 @@
-﻿#Liangguang
+#Liangguang
 capital = 592 #Guangzhou
 
 # Research Slots, Stability, War Support, and Ideas

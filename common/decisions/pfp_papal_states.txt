@@ -1,4 +1,4 @@
-﻿pfp_category = {
+pfp_category = {
     pfp_papal_states = {
         allowed = {
             NOT = {

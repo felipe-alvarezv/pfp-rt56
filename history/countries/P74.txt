@@ -1,4 +1,4 @@
-﻿#Sweden
+#Sweden
 capital = 141 #Sodermanland
 
 # Research Slots, Stability, War Support, and Ideas

@@ -1,4 +1,4 @@
-﻿#French Alps
+#French Alps
 capital = 21 #Bouches-Du-Rhone
 
 # Research Slots, Stability, War Support, and Ideas

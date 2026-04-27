@@ -1,4 +1,4 @@
-﻿#Kurdistan
+#Kurdistan
 capital = 350 #Diyarbakir
 
 # Research Slots, Stability, War Support, and Ideas

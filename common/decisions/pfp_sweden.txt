@@ -1,4 +1,4 @@
-﻿pfp_category = {
+pfp_category = {
 	pfp_sweden = {
 		allowed = {
 			NOT = {

@@ -1,4 +1,4 @@
-﻿#Great Britain
+#Great Britain
 capital = 126 #London
 
 # Research Slots, Stability, War Support, and Ideas

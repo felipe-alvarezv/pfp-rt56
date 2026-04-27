@@ -1,4 +1,4 @@
-﻿#Southern France
+#Southern France
 capital = 26 #Auvergne
 
 # Research Slots, Stability, War Support, and Ideas

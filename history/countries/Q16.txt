@@ -1,4 +1,4 @@
-﻿#Huguang
+#Huguang
 capital = 1115 #Wuhan
 
 # Research Slots, Stability, War Support, and Ideas

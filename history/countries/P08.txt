@@ -1,4 +1,4 @@
-﻿#Central America
+#Central America
 capital = 317 #Nicaragua
 
 # Research Slots, Stability, War Support, and Ideas

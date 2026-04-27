@@ -1,4 +1,4 @@
-﻿#Germany
+#Germany
 capital = 64 #Brandenburg
 
 # Research Slots, Stability, War Support, and Ideas

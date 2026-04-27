@@ -1,4 +1,4 @@
-﻿#Peru
+#Peru
 capital = 303 #Lima
 
 # Research Slots, Stability, War Support, and Ideas

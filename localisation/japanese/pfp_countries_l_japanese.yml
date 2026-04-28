@@ -143,8 +143,8 @@
 
   pfp_netherlands:0 "オランダに軍事占領を確立する"
   pfp_netherlands_required_states_holland:0 "支配中 §Y[7.GetName]§!."
-  pfp_netherlands_required_states_brabant:0 "支配中 §Y[36.GetName]§!."
   pfp_netherlands_required_states_friesland:0 "支配中 §Y[35.GetName]§!."
+  pfp_netherlands_required_states_brabant:0 "支配中 §Y[36.GetName]§!."
   pfp_netherlands_transfer_capital:0 "§Yオランダ§!は§Y[7.GetName]§!の所有者となる。"
   pfp_netherlands_puppet:0 "§Yオランダ§! は §Y[Root.GetName]§! の傀儡国家となる。\n"
   pfp_netherlands_occupation_type:0 "§Yオランダ§!はすべての記載された州に[pfp_contest_or_core_status]を獲得する。\n"

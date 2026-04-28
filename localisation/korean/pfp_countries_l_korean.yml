@@ -143,8 +143,8 @@
 
   pfp_netherlands:0 "네덜란드에 군사 점령을 수립"
   pfp_netherlands_required_states_holland:0 "점령 중 §Y[7.GetName]§!."
-  pfp_netherlands_required_states_brabant:0 "점령 중 §Y[36.GetName]§!."
   pfp_netherlands_required_states_friesland:0 "점령 중 §Y[35.GetName]§!."
+  pfp_netherlands_required_states_brabant:0 "점령 중 §Y[36.GetName]§!."
   pfp_netherlands_transfer_capital:0 "§Y네덜란드§!이(가) §Y[7.GetName]§!의 소유자가 됩니다."
   pfp_netherlands_puppet:0 "§Y네덜란드§! 이(가) §Y[Root.GetName]§! 의 괴뢰국이 됩니다.\n"
   pfp_netherlands_occupation_type:0 "§Y네덜란드§!이(가) 열거된 모든 주에 [pfp_contest_or_core_status]을(를) 획득합니다.\n"

@@ -143,8 +143,8 @@
 
   pfp_netherlands:0 "Estabelecer Ocupação Militar nos Países Baixos"
   pfp_netherlands_required_states_holland:0 "Controla §Y[7.GetName]§!."
-  pfp_netherlands_required_states_brabant:0 "Controla §Y[36.GetName]§!."
   pfp_netherlands_required_states_friesland:0 "Controla §Y[35.GetName]§!."
+  pfp_netherlands_required_states_brabant:0 "Controla §Y[36.GetName]§!."
   pfp_netherlands_transfer_capital:0 "§YPaíses Baixos§! torna-se proprietário de §Y[7.GetName]§!."
   pfp_netherlands_puppet:0 "§YPaíses Baixos§! torna-se um estado fantoche de §Y[Root.GetName]§!.\n"
   pfp_netherlands_occupation_type:0 "§YPaíses Baixos§! ganha [pfp_contest_or_core_status] em todos os estados listados.\n"

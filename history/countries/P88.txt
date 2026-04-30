@@ -94,7 +94,7 @@ recruit_character = P88_neutrality_leader
 recruit_character = P88_fascism_leader
 
 #Bosnia-Herzegovina Initial States
-add_to_array = { pfp_bosnia-herzegovina_integration_array = 104 } #Podrinje
-add_to_array = { pfp_bosnia-herzegovina_integration_array = 804 } #Herzegovina
-add_to_array = { pfp_bosnia-herzegovina_integration_array = 961 } #Krajina
-add_to_array = { pfp_bosnia-herzegovina_integration_array = 962 } #Posavina
+add_to_array = { P88.pfp_possible_cores = 104 } #Podrinje
+add_to_array = { P88.pfp_possible_cores = 804 } #Herzegovina
+add_to_array = { P88.pfp_possible_cores = 961 } #Krajina
+add_to_array = { P88.pfp_possible_cores = 962 } #Posavina

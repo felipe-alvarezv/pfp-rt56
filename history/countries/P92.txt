@@ -94,15 +94,15 @@ recruit_character = P92_neutrality_leader
 recruit_character = P92_fascism_leader
 
 #Lombardy-Venetia Initial States
-add_to_array = { pfp_lombardy-venetia_integration_array = 159 } #Lombardia
-add_to_array = { pfp_lombardy-venetia_integration_array = 160 } #Veneto
-add_to_array = { pfp_lombardy-venetia_integration_array = 912 } #Friuli
+add_to_array = { P92.pfp_possible_cores = 159 } #Lombardia
+add_to_array = { P92.pfp_possible_cores = 160 } #Veneto
+add_to_array = { P92.pfp_possible_cores = 912 } #Friuli
 
 #Lombardy-Venetia Territories
-add_to_array = { pfp_lombardy-venetia_integration_array = 39 } #Alto Adige
-add_to_array = { pfp_lombardy-venetia_integration_array = 103 } #Dalmacija
-add_to_array = { pfp_lombardy-venetia_integration_array = 163 } #Zadar
-add_to_array = { pfp_lombardy-venetia_integration_array = 736 } #Littoral
-add_to_array = { pfp_lombardy-venetia_integration_array = 850 } #Trentino
-add_to_array = { pfp_lombardy-venetia_integration_array = 852 } #Istria
-add_to_array = { pfp_lombardy-venetia_integration_array = 958 } #Kvarner
+add_to_array = { P92.pfp_possible_cores = 39 } #Alto Adige
+add_to_array = { P92.pfp_possible_cores = 103 } #Dalmacija
+add_to_array = { P92.pfp_possible_cores = 163 } #Zadar
+add_to_array = { P92.pfp_possible_cores = 736 } #Littoral
+add_to_array = { P92.pfp_possible_cores = 850 } #Trentino
+add_to_array = { P92.pfp_possible_cores = 852 } #Istria
+add_to_array = { P92.pfp_possible_cores = 958 } #Kvarner

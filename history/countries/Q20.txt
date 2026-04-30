@@ -94,16 +94,16 @@ recruit_character = Q20_neutrality_leader
 recruit_character = Q20_fascism_leader
 
 #Shaan-Gan Initial States
-add_to_array = { pfp_shaan-gan_integration_array = 283 } #Gansu
-add_to_array = { pfp_shaan-gan_integration_array = 622 } #Shaanbei
-add_to_array = { pfp_shaan-gan_integration_array = 744 } #Xian
-add_to_array = { pfp_shaan-gan_integration_array = 756 } #Jiuquan
-add_to_array = { pfp_shaan-gan_integration_array = 1111 } #Yan'an
-add_to_array = { pfp_shaan-gan_integration_array = 1123 } #Wuwei
-add_to_array = { pfp_shaan-gan_integration_array = 1124 } #Guyuan
-add_to_array = { pfp_shaan-gan_integration_array = 1125 } #Yulin
+add_to_array = { Q20.pfp_possible_cores = 283 } #Gansu
+add_to_array = { Q20.pfp_possible_cores = 622 } #Shaanbei
+add_to_array = { Q20.pfp_possible_cores = 744 } #Xian
+add_to_array = { Q20.pfp_possible_cores = 756 } #Jiuquan
+add_to_array = { Q20.pfp_possible_cores = 1111 } #Yan'an
+add_to_array = { Q20.pfp_possible_cores = 1123 } #Wuwei
+add_to_array = { Q20.pfp_possible_cores = 1124 } #Guyuan
+add_to_array = { Q20.pfp_possible_cores = 1125 } #Yulin
 
 #Shaan-Gan Territories
-add_to_array = { pfp_shaan-gan_integration_array = 616 } #Neimenggu
-add_to_array = { pfp_shaan-gan_integration_array = 746 } #Yikezhao
-add_to_array = { pfp_shaan-gan_integration_array = 1119 } #Alxa
+add_to_array = { Q20.pfp_possible_cores = 616 } #Neimenggu
+add_to_array = { Q20.pfp_possible_cores = 746 } #Yikezhao
+add_to_array = { Q20.pfp_possible_cores = 1119 } #Alxa

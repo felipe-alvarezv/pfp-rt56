@@ -6,21 +6,21 @@ pfp_release_iran = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			266 = { add_contested_owner  = P71 } #Tehran
-			410 = { add_contested_owner  = P71 } #Sistan o Balochistan
-			411 = { add_contested_owner  = P71 } #Esfahan o Yazd
-			412 = { add_contested_owner  = P71 } #Fars
-			414 = { add_contested_owner  = P71 } #Kerman
-			416 = { add_contested_owner  = P71 } #Khorasan-e Razavi
-			417 = { add_contested_owner  = P71 } #Markazi
-			418 = { add_contested_owner  = P71 } #Semnan
-			420 = { add_contested_owner  = P71 } #Gilan
-			980 = { add_contested_owner  = P71 } #Hormozgan
-			981 = { add_contested_owner  = P71 } #Bandar-e Bushehr
-			982 = { add_contested_owner  = P71 } #Khorasan-e Jonubi
-			983 = { add_contested_owner  = P71 } #Golestan
-			984 = { add_contested_owner  = P71 } #Mazandaran
-			986 = { add_contested_owner  = P71 } #Qazvin
+			266 = { add_contested_owner = P71 } #Tehran
+			410 = { add_contested_owner = P71 } #Sistan o Balochistan
+			411 = { add_contested_owner = P71 } #Esfahan o Yazd
+			412 = { add_contested_owner = P71 } #Fars
+			414 = { add_contested_owner = P71 } #Kerman
+			416 = { add_contested_owner = P71 } #Khorasan-e Razavi
+			417 = { add_contested_owner = P71 } #Markazi
+			418 = { add_contested_owner = P71 } #Semnan
+			420 = { add_contested_owner = P71 } #Gilan
+			980 = { add_contested_owner = P71 } #Hormozgan
+			981 = { add_contested_owner = P71 } #Bandar-e Bushehr
+			982 = { add_contested_owner = P71 } #Khorasan-e Jonubi
+			983 = { add_contested_owner = P71 } #Golestan
+			984 = { add_contested_owner = P71 } #Mazandaran
+			986 = { add_contested_owner = P71 } #Qazvin
 
 			#Set formable puppet as controller of contested state
 			every_state = {

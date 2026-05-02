@@ -6,8 +6,8 @@ pfp_release_denmark = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			37 = { add_contested_owner  = P61 } #Sjaelland
-			1025 = { add_contested_owner  = P61 } #Fyn
+			37 = { add_contested_owner = P61 } #Sjaelland
+			1025 = { add_contested_owner = P61 } #Fyn
 
 			#Set formable puppet as controller of contested state
 			every_state = {

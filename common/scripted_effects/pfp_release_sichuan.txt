@@ -6,12 +6,12 @@ pfp_release_sichuan = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			605 = { add_contested_owner  = Q19 } #Sichuan
-			751 = { add_contested_owner  = Q19 } #Liangshan
-			752 = { add_contested_owner  = Q19 } #Ganzi
-			753 = { add_contested_owner  = Q19 } #Gannan
-			1116 = { add_contested_owner  = Q19 } #Chongqing
-			1120 = { add_contested_owner  = Q19 } #Chengdu
+			605 = { add_contested_owner = Q19 } #Sichuan
+			751 = { add_contested_owner = Q19 } #Liangshan
+			752 = { add_contested_owner = Q19 } #Ganzi
+			753 = { add_contested_owner = Q19 } #Gannan
+			1116 = { add_contested_owner = Q19 } #Chongqing
+			1120 = { add_contested_owner = Q19 } #Chengdu
 
 			#Set formable puppet as controller of contested state
 			every_state = {

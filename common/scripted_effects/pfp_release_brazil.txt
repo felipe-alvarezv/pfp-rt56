@@ -6,31 +6,31 @@ pfp_release_brazil = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			280 = { add_contested_owner  = P57 } #Mato Grosso
-			495 = { add_contested_owner  = P57 } #Amazonas
-			496 = { add_contested_owner  = P57 } #Minas Gerais
-			497 = { add_contested_owner  = P57 } #Para
-			498 = { add_contested_owner  = P57 } #Rio Grande do Norte
-			499 = { add_contested_owner  = P57 } #Bahia
-			500 = { add_contested_owner  = P57 } #Rio de Janeiro
-			501 = { add_contested_owner  = P57 } #Sao Paulo
-			502 = { add_contested_owner  = P57 } #Rio Grande do Sul
-			503 = { add_contested_owner  = P57 } #Santa Catarina
-			504 = { add_contested_owner  = P57 } #Iguacu
-			505 = { add_contested_owner  = P57 } #Goias
-			999 = { add_contested_owner  = P57 } #Espirito Santo
-			1000 = { add_contested_owner  = P57 } #Piaui
-			1001 = { add_contested_owner  = P57 } #Maranhao
-			1002 = { add_contested_owner  = P57 } #Parana
-			1003 = { add_contested_owner  = P57 } #Ceara
-			1004 = { add_contested_owner  = P57 } #Paraiba
-			1005 = { add_contested_owner  = P57 } #Pernambuco
-			1006 = { add_contested_owner  = P57 } #Alagoas
-			1052 = { add_contested_owner  = P57 } #Acre
-			1056 = { add_contested_owner  = P57 } #Amapa
-			1057 = { add_contested_owner  = P57 } #Tocatins
-			1058 = { add_contested_owner  = P57 } #Rondonia
-			1072 = { add_contested_owner  = P57 } #Amazon
+			280 = { add_contested_owner = P57 } #Mato Grosso
+			495 = { add_contested_owner = P57 } #Amazonas
+			496 = { add_contested_owner = P57 } #Minas Gerais
+			497 = { add_contested_owner = P57 } #Para
+			498 = { add_contested_owner = P57 } #Rio Grande do Norte
+			499 = { add_contested_owner = P57 } #Bahia
+			500 = { add_contested_owner = P57 } #Rio de Janeiro
+			501 = { add_contested_owner = P57 } #Sao Paulo
+			502 = { add_contested_owner = P57 } #Rio Grande do Sul
+			503 = { add_contested_owner = P57 } #Santa Catarina
+			504 = { add_contested_owner = P57 } #Iguacu
+			505 = { add_contested_owner = P57 } #Goias
+			999 = { add_contested_owner = P57 } #Espirito Santo
+			1000 = { add_contested_owner = P57 } #Piaui
+			1001 = { add_contested_owner = P57 } #Maranhao
+			1002 = { add_contested_owner = P57 } #Parana
+			1003 = { add_contested_owner = P57 } #Ceara
+			1004 = { add_contested_owner = P57 } #Paraiba
+			1005 = { add_contested_owner = P57 } #Pernambuco
+			1006 = { add_contested_owner = P57 } #Alagoas
+			1052 = { add_contested_owner = P57 } #Acre
+			1056 = { add_contested_owner = P57 } #Amapa
+			1057 = { add_contested_owner = P57 } #Tocatins
+			1058 = { add_contested_owner = P57 } #Rondonia
+			1072 = { add_contested_owner = P57 } #Amazon
 
 			#Set formable puppet as controller of contested state
 			every_state = {

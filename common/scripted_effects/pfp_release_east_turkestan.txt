@@ -6,13 +6,13 @@ pfp_release_east_turkestan = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			287 = { add_contested_owner  = Q23 } #Taklamakan
-			617 = { add_contested_owner  = Q23 } #Urumqi
-			618 = { add_contested_owner  = Q23 } #Dzungaria
-			619 = { add_contested_owner  = Q23 } #Yarkand
-			759 = { add_contested_owner  = Q23 } #Ruoqiang
-			760 = { add_contested_owner  = Q23 } #Dabacheng
-			1121 = { add_contested_owner  = Q23 } #Kunlun Shan
+			287 = { add_contested_owner = Q23 } #Taklamakan
+			617 = { add_contested_owner = Q23 } #Urumqi
+			618 = { add_contested_owner = Q23 } #Dzungaria
+			619 = { add_contested_owner = Q23 } #Yarkand
+			759 = { add_contested_owner = Q23 } #Ruoqiang
+			760 = { add_contested_owner = Q23 } #Dabacheng
+			1121 = { add_contested_owner = Q23 } #Kunlun Shan
 
 			#Set formable puppet as controller of contested state
 			every_state = {

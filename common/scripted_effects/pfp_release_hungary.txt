@@ -6,11 +6,11 @@ pfp_release_hungary = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			43 = { add_contested_owner  = P09 } #Northern Hungary
-			154 = { add_contested_owner  = P09 } #Alföld
-			155 = { add_contested_owner  = P09 } #North Transdanubia
-			913 = { add_contested_owner  = P09 } #Solt-Kiskun
-			1104 = { add_contested_owner  = P09 } #South Transdanubia
+			43 = { add_contested_owner = P09 } #Northern Hungary
+			154 = { add_contested_owner = P09 } #Alföld
+			155 = { add_contested_owner = P09 } #North Transdanubia
+			913 = { add_contested_owner = P09 } #Solt-Kiskun
+			1104 = { add_contested_owner = P09 } #South Transdanubia
 
 			#Set formable puppet as controller of contested state
 			every_state = {

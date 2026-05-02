@@ -6,10 +6,10 @@ pfp_release_bosnia-herzegovina = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			104 = { add_contested_owner  = P88 } #Podrinje
-			804 = { add_contested_owner  = P88 } #Herzegovina
-			961 = { add_contested_owner  = P88 } #Krajina
-			962 = { add_contested_owner  = P88 } #Posavina
+			104 = { add_contested_owner = P88 } #Podrinje
+			804 = { add_contested_owner = P88 } #Herzegovina
+			961 = { add_contested_owner = P88 } #Krajina
+			962 = { add_contested_owner = P88 } #Posavina
 
 			#Set formable puppet as controller of contested state
 			every_state = {

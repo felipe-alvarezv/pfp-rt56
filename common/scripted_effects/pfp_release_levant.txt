@@ -6,18 +6,18 @@ pfp_release_levant = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			454 = { add_contested_owner  = P67 } #Coastal Plain
-			455 = { add_contested_owner  = P67 } #Amman
-			553 = { add_contested_owner  = P67 } #Lebanon
-			554 = { add_contested_owner  = P67 } #Damascus
-			677 = { add_contested_owner  = P67 } #Aleppo
-			680 = { add_contested_owner  = P67 } #Deir-az-Zur
-			949 = { add_contested_owner  = P67 } #Gaza
-			966 = { add_contested_owner  = P67 } #West Bank
-			1016 = { add_contested_owner  = P67 } #Jerusalem
-			1017 = { add_contested_owner  = P67 } #Beersheba
-			1021 = { add_contested_owner  = P67 } #Mafraq
-			1022 = { add_contested_owner  = P67 } #Ma'an
+			454 = { add_contested_owner = P67 } #Coastal Plain
+			455 = { add_contested_owner = P67 } #Amman
+			553 = { add_contested_owner = P67 } #Lebanon
+			554 = { add_contested_owner = P67 } #Damascus
+			677 = { add_contested_owner = P67 } #Aleppo
+			680 = { add_contested_owner = P67 } #Deir-az-Zur
+			949 = { add_contested_owner = P67 } #Gaza
+			966 = { add_contested_owner = P67 } #West Bank
+			1016 = { add_contested_owner = P67 } #Jerusalem
+			1017 = { add_contested_owner = P67 } #Beersheba
+			1021 = { add_contested_owner = P67 } #Mafraq
+			1022 = { add_contested_owner = P67 } #Ma'an
 
 			#Set formable puppet as controller of contested state
 			every_state = {

@@ -6,9 +6,9 @@ pfp_release_zhili = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			608 = { add_contested_owner  = Q10 } #Beiping
-			614 = { add_contested_owner  = Q10 } #Hebei
-			1118 = { add_contested_owner  = Q10 } #Hebei-Chahar
+			608 = { add_contested_owner = Q10 } #Beiping
+			614 = { add_contested_owner = Q10 } #Hebei
+			1118 = { add_contested_owner = Q10 } #Hebei-Chahar
 
 			#Set formable puppet as controller of contested state
 			every_state = {

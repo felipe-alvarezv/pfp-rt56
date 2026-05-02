@@ -6,10 +6,10 @@ pfp_release_belgium = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			6 = { add_contested_owner  = P60 } #Vlaanderen
-			34 = { add_contested_owner  = P60 } #Wallonie
-			1094 = { add_contested_owner  = P60 } #Antwerp
-			1095 = { add_contested_owner  = P60 } #Ardennes
+			6 = { add_contested_owner = P60 } #Vlaanderen
+			34 = { add_contested_owner = P60 } #Wallonie
+			1094 = { add_contested_owner = P60 } #Antwerp
+			1095 = { add_contested_owner = P60 } #Ardennes
 
 			#Set formable puppet as controller of contested state
 			every_state = {

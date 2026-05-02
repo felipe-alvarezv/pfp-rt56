@@ -6,19 +6,19 @@ pfp_release_indonesia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			334 = { add_contested_owner  = P17 } #East Kalimantan
-			335 = { add_contested_owner  = P17 } #West Java
-			667 = { add_contested_owner  = P17 } #Lesser Sunda Islands
-			668 = { add_contested_owner  = P17 } #Moluccan Islands
-			672 = { add_contested_owner  = P17 } #South Sumatra
-			673 = { add_contested_owner  = P17 } #South Sulawesi
-			738 = { add_contested_owner  = P17 } #Aru Islands
-			974 = { add_contested_owner  = P17 } #North Sumatra
-			976 = { add_contested_owner  = P17 } #Central Java
-			446 = { add_contested_owner  = P17 } #East Java
-			975 = { add_contested_owner  = P17 } #North Sulawesi
-			977 = { add_contested_owner  = P17 } #Inner Borneo
-			978 = { add_contested_owner  = P17 } #West Kalimantan
+			334 = { add_contested_owner = P17 } #East Kalimantan
+			335 = { add_contested_owner = P17 } #West Java
+			667 = { add_contested_owner = P17 } #Lesser Sunda Islands
+			668 = { add_contested_owner = P17 } #Moluccan Islands
+			672 = { add_contested_owner = P17 } #South Sumatra
+			673 = { add_contested_owner = P17 } #South Sulawesi
+			738 = { add_contested_owner = P17 } #Aru Islands
+			974 = { add_contested_owner = P17 } #North Sumatra
+			976 = { add_contested_owner = P17 } #Central Java
+			446 = { add_contested_owner = P17 } #East Java
+			975 = { add_contested_owner = P17 } #North Sulawesi
+			977 = { add_contested_owner = P17 } #Inner Borneo
+			978 = { add_contested_owner = P17 } #West Kalimantan
 
 			#Set formable puppet as controller of contested state
 			every_state = {

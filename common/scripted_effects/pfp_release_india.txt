@@ -6,23 +6,23 @@ pfp_release_india = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			423 = { add_contested_owner  = P37 } #Madras
-			424 = { add_contested_owner  = P37 } #Andhra
-			425 = { add_contested_owner  = P37 } #Mysore
-			426 = { add_contested_owner  = P37 } #Orissa
-			427 = { add_contested_owner  = P37 } #Hyderabad
-			428 = { add_contested_owner  = P37 } #Gujarat
-			429 = { add_contested_owner  = P37 } #Bombay
-			433 = { add_contested_owner  = P37 } #Rajahsthan
-			436 = { add_contested_owner  = P37 } #Jabalpur
-			437 = { add_contested_owner  = P37 } #Indore
-			438 = { add_contested_owner  = P37 } #Lucknow
-			439 = { add_contested_owner  = P37 } #Delhi
-			1090 = { add_contested_owner  = P37 } #Uttarakhand
-			1098 = { add_contested_owner  = P37 } #Kochin
-			1099 = { add_contested_owner  = P37 } #Kolhapur and Deccan
-			1100 = { add_contested_owner  = P37 } #Bastar
-			1101 = { add_contested_owner  = P37 } #East Punjab
+			423 = { add_contested_owner = P37 } #Madras
+			424 = { add_contested_owner = P37 } #Andhra
+			425 = { add_contested_owner = P37 } #Mysore
+			426 = { add_contested_owner = P37 } #Orissa
+			427 = { add_contested_owner = P37 } #Hyderabad
+			428 = { add_contested_owner = P37 } #Gujarat
+			429 = { add_contested_owner = P37 } #Bombay
+			433 = { add_contested_owner = P37 } #Rajahsthan
+			436 = { add_contested_owner = P37 } #Jabalpur
+			437 = { add_contested_owner = P37 } #Indore
+			438 = { add_contested_owner = P37 } #Lucknow
+			439 = { add_contested_owner = P37 } #Delhi
+			1090 = { add_contested_owner = P37 } #Uttarakhand
+			1098 = { add_contested_owner = P37 } #Kochin
+			1099 = { add_contested_owner = P37 } #Kolhapur and Deccan
+			1100 = { add_contested_owner = P37 } #Bastar
+			1101 = { add_contested_owner = P37 } #East Punjab
 
 			#Set formable puppet as controller of contested state
 			every_state = {

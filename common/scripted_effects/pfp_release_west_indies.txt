@@ -6,11 +6,11 @@ pfp_release_west_indies = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			315 = { add_contested_owner  = P06 } #Santiago de Cuba
-			318 = { add_contested_owner  = P06 } #Haiti
-			319 = { add_contested_owner  = P06 } #Dominican Republic
-			689 = { add_contested_owner  = P06 } #Jamaica
-			994 = { add_contested_owner  = P06 } #La Habana
+			315 = { add_contested_owner = P06 } #Santiago de Cuba
+			318 = { add_contested_owner = P06 } #Haiti
+			319 = { add_contested_owner = P06 } #Dominican Republic
+			689 = { add_contested_owner = P06 } #Jamaica
+			994 = { add_contested_owner = P06 } #La Habana
 
 			#Set formable puppet as controller of contested state
 			every_state = {

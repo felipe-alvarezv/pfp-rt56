@@ -6,21 +6,21 @@ pfp_release_west_germany = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			42 = { add_contested_owner  = P31 } #Moselland
-			50 = { add_contested_owner  = P31 } #Wurttemberg
-			51 = { add_contested_owner  = P31 } #Rhineland
-			52 = { add_contested_owner  = P31 } #Oberbayern
-			53 = { add_contested_owner  = P31 } #Niederbayern
-			54 = { add_contested_owner  = P31 } #Franken
-			55 = { add_contested_owner  = P31 } #Hessen
-			56 = { add_contested_owner  = P31 } #Weser-Ems
-			57 = { add_contested_owner  = P31 } #Westfalen
-			58 = { add_contested_owner  = P31 } #Holstein
-			59 = { add_contested_owner  = P31 } #Hannover
-			923 = { add_contested_owner  = P31 } #Baden
-			922 = { add_contested_owner  = P31 } #Frankfurt
-			989 = { add_contested_owner  = P31 } #Ostrhineland
-			1053 = { add_contested_owner  = P31 } #Saarland
+			42 = { add_contested_owner = P31 } #Moselland
+			50 = { add_contested_owner = P31 } #Wurttemberg
+			51 = { add_contested_owner = P31 } #Rhineland
+			52 = { add_contested_owner = P31 } #Oberbayern
+			53 = { add_contested_owner = P31 } #Niederbayern
+			54 = { add_contested_owner = P31 } #Franken
+			55 = { add_contested_owner = P31 } #Hessen
+			56 = { add_contested_owner = P31 } #Weser-Ems
+			57 = { add_contested_owner = P31 } #Westfalen
+			58 = { add_contested_owner = P31 } #Holstein
+			59 = { add_contested_owner = P31 } #Hannover
+			923 = { add_contested_owner = P31 } #Baden
+			922 = { add_contested_owner = P31 } #Frankfurt
+			989 = { add_contested_owner = P31 } #Ostrhineland
+			1053 = { add_contested_owner = P31 } #Saarland
 
 			#Set formable puppet as controller of contested state
 			every_state = {

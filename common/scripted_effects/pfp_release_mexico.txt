@@ -6,23 +6,23 @@ pfp_release_mexico = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			277 = { add_contested_owner  = P58 } #Mexico City
-			474 = { add_contested_owner  = P58 } #Yucatan
-			475 = { add_contested_owner  = P58 } #Chiapas
-			476 = { add_contested_owner  = P58 } #Oaxaca
-			477 = { add_contested_owner  = P58 } #Veracruz
-			478 = { add_contested_owner  = P58 } #Jalisco
-			479 = { add_contested_owner  = P58 } #Tamauolipas
-			480 = { add_contested_owner  = P58 } #Coahuila
-			481 = { add_contested_owner  = P58 } #Sinaloa
-			482 = { add_contested_owner  = P58 } #Chihuahua
-			483 = { add_contested_owner  = P58 } #Sonora
-			484 = { add_contested_owner  = P58 } #Baja California
-			485 = { add_contested_owner  = P58 } #Guerrero
-			929 = { add_contested_owner  = P58 } #Durango
-			930 = { add_contested_owner  = P58 } #Zacatecas
-			931 = { add_contested_owner  = P58 } #San Luis Potosi
-			932 = { add_contested_owner  = P58 } #Puebla
+			277 = { add_contested_owner = P58 } #Mexico City
+			474 = { add_contested_owner = P58 } #Yucatan
+			475 = { add_contested_owner = P58 } #Chiapas
+			476 = { add_contested_owner = P58 } #Oaxaca
+			477 = { add_contested_owner = P58 } #Veracruz
+			478 = { add_contested_owner = P58 } #Jalisco
+			479 = { add_contested_owner = P58 } #Tamauolipas
+			480 = { add_contested_owner = P58 } #Coahuila
+			481 = { add_contested_owner = P58 } #Sinaloa
+			482 = { add_contested_owner = P58 } #Chihuahua
+			483 = { add_contested_owner = P58 } #Sonora
+			484 = { add_contested_owner = P58 } #Baja California
+			485 = { add_contested_owner = P58 } #Guerrero
+			929 = { add_contested_owner = P58 } #Durango
+			930 = { add_contested_owner = P58 } #Zacatecas
+			931 = { add_contested_owner = P58 } #San Luis Potosi
+			932 = { add_contested_owner = P58 } #Puebla
 
 			#Set formable puppet as controller of contested state
 			every_state = {

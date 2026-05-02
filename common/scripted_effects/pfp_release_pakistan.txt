@@ -6,10 +6,10 @@ pfp_release_pakistan = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			442 = { add_contested_owner  = P75 } #Sarhad
-			444 = { add_contested_owner  = P75 } #Balochistan
-			445 = { add_contested_owner  = P75 } #Quetta
-			1093 = { add_contested_owner  = P75 } #West Sind
+			442 = { add_contested_owner = P75 } #Sarhad
+			444 = { add_contested_owner = P75 } #Balochistan
+			445 = { add_contested_owner = P75 } #Quetta
+			1093 = { add_contested_owner = P75 } #West Sind
 
 			#Set formable puppet as controller of contested state
 			every_state = {

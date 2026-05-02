@@ -6,12 +6,12 @@ pfp_release_argentina = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			278 = { add_contested_owner  = P55 } #Pampas
-			509 = { add_contested_owner  = P55 } #Chaco Austral
-			510 = { add_contested_owner  = P55 } #Mesopotamia
-			1068 = { add_contested_owner  = P55 } #Santa Fe
-			1069 = { add_contested_owner  = P55 } #Formosa
-			1071 = { add_contested_owner  = P55 } #Los Andes
+			278 = { add_contested_owner = P55 } #Pampas
+			509 = { add_contested_owner = P55 } #Chaco Austral
+			510 = { add_contested_owner = P55 } #Mesopotamia
+			1068 = { add_contested_owner = P55 } #Santa Fe
+			1069 = { add_contested_owner = P55 } #Formosa
+			1071 = { add_contested_owner = P55 } #Los Andes
 
 			#Set formable puppet as controller of contested state
 			every_state = {

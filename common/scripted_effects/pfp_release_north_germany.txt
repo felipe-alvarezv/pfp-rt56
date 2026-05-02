@@ -6,22 +6,22 @@ pfp_release_north_germany = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			989 = { add_contested_owner  = P19 } #Ostrhineland
-			51 = { add_contested_owner  = P19 } #Rhineland
-			55 = { add_contested_owner  = P19 } #Hessen
-			56 = { add_contested_owner  = P19 } #Weser-Ems
-			57 = { add_contested_owner  = P19 } #Westfalen
-			58 = { add_contested_owner  = P19 } #Holstein
-			59 = { add_contested_owner  = P19 } #Hannover
-			60 = { add_contested_owner  = P19 } #Thuringen
-			61 = { add_contested_owner  = P19 } #Mecklenburg
-			62 = { add_contested_owner  = P19 } #Vorpommern
-			63 = { add_contested_owner  = P19 } #Hinterpommern
-			64 = { add_contested_owner  = P19 } #Brandenburg
-			65 = { add_contested_owner  = P19 } #Sachsen
-			66 = { add_contested_owner  = P19 } #Niederschlesien
-			67 = { add_contested_owner  = P19 } #Oberschlesien
-			68 = { add_contested_owner  = P19 } #Neumark
+			989 = { add_contested_owner = P19 } #Ostrhineland
+			51 = { add_contested_owner = P19 } #Rhineland
+			55 = { add_contested_owner = P19 } #Hessen
+			56 = { add_contested_owner = P19 } #Weser-Ems
+			57 = { add_contested_owner = P19 } #Westfalen
+			58 = { add_contested_owner = P19 } #Holstein
+			59 = { add_contested_owner = P19 } #Hannover
+			60 = { add_contested_owner = P19 } #Thuringen
+			61 = { add_contested_owner = P19 } #Mecklenburg
+			62 = { add_contested_owner = P19 } #Vorpommern
+			63 = { add_contested_owner = P19 } #Hinterpommern
+			64 = { add_contested_owner = P19 } #Brandenburg
+			65 = { add_contested_owner = P19 } #Sachsen
+			66 = { add_contested_owner = P19 } #Niederschlesien
+			67 = { add_contested_owner = P19 } #Oberschlesien
+			68 = { add_contested_owner = P19 } #Neumark
 
 			#Set formable puppet as controller of contested state
 			every_state = {

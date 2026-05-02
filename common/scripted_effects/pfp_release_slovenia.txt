@@ -6,9 +6,9 @@ pfp_release_slovenia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			102 = { add_contested_owner  = P87 } #Podravska
-			853 = { add_contested_owner  = P87 } #Ljubljana
-			956 = { add_contested_owner  = P87 } #Prekmurje
+			102 = { add_contested_owner = P87 } #Podravska
+			853 = { add_contested_owner = P87 } #Ljubljana
+			956 = { add_contested_owner = P87 } #Prekmurje
 
 			#Set formable puppet as controller of contested state
 			every_state = {

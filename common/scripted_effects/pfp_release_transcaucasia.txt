@@ -6,11 +6,11 @@ pfp_release_transcaucasia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			229 = { add_contested_owner  = P28 } #Azerbaijan
-			230 = { add_contested_owner  = P28 } #Armenia
-			231 = { add_contested_owner  = P28 } #Georgia
-			826 = { add_contested_owner  = P28 } #Abkhazia
-			1044 = { add_contested_owner  = P28 } #Nakhchivan
+			229 = { add_contested_owner = P28 } #Azerbaijan
+			230 = { add_contested_owner = P28 } #Armenia
+			231 = { add_contested_owner = P28 } #Georgia
+			826 = { add_contested_owner = P28 } #Abkhazia
+			1044 = { add_contested_owner = P28 } #Nakhchivan
 
 			#Set formable puppet as controller of contested state
 			every_state = {

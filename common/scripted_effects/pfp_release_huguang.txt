@@ -6,10 +6,10 @@ pfp_release_huguang = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			602 = { add_contested_owner  = Q16 } #Hunan
-			620 = { add_contested_owner  = Q16 } #Hubei
-			750 = { add_contested_owner  = Q16 } #Changde
-			1115 = { add_contested_owner  = Q16 } #Wuhan
+			602 = { add_contested_owner = Q16 } #Hunan
+			620 = { add_contested_owner = Q16 } #Hubei
+			750 = { add_contested_owner = Q16 } #Changde
+			1115 = { add_contested_owner = Q16 } #Wuhan
 
 			#Set formable puppet as controller of contested state
 			every_state = {

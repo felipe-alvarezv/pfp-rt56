@@ -6,11 +6,11 @@ pfp_release_south_germany = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			50 = { add_contested_owner  = P25 } #Wurttemberg
-			52 = { add_contested_owner  = P25 } #Oberbayern
-			53 = { add_contested_owner  = P25 } #Niederbayern
-			54 = { add_contested_owner  = P25 } #Franken
-			923 = { add_contested_owner  = P25 } #Baden
+			50 = { add_contested_owner = P25 } #Wurttemberg
+			52 = { add_contested_owner = P25 } #Oberbayern
+			53 = { add_contested_owner = P25 } #Niederbayern
+			54 = { add_contested_owner = P25 } #Franken
+			923 = { add_contested_owner = P25 } #Baden
 
 			#Set formable puppet as controller of contested state
 			every_state = {

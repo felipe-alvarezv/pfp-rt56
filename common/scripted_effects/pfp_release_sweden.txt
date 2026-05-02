@@ -6,18 +6,18 @@ pfp_release_sweden = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			38 = { add_contested_owner  = P74 } #Norrland
-			138 = { add_contested_owner  = P74 } #Scania
-			139 = { add_contested_owner  = P74 } #Smaland
-			140 = { add_contested_owner  = P74 } #Vastergotland
-			141 = { add_contested_owner  = P74 } #Svealand
-			666 = { add_contested_owner  = P74 } #Lappland
-			968 = { add_contested_owner  = P74 } #Jamtland
-			969 = { add_contested_owner  = P74 } #Bohuslan
-			1026 = { add_contested_owner  = P74 } #Ostergotland
-			1028 = { add_contested_owner  = P74 } #Dalarna
-			1029 = { add_contested_owner  = P74 } #Vasterbotten
-			1030 = { add_contested_owner  = P74 } #Varmland
+			38 = { add_contested_owner = P74 } #Norrland
+			138 = { add_contested_owner = P74 } #Scania
+			139 = { add_contested_owner = P74 } #Smaland
+			140 = { add_contested_owner = P74 } #Vastergotland
+			141 = { add_contested_owner = P74 } #Svealand
+			666 = { add_contested_owner = P74 } #Lappland
+			968 = { add_contested_owner = P74 } #Jamtland
+			969 = { add_contested_owner = P74 } #Bohuslan
+			1026 = { add_contested_owner = P74 } #Ostergotland
+			1028 = { add_contested_owner = P74 } #Dalarna
+			1029 = { add_contested_owner = P74 } #Vasterbotten
+			1030 = { add_contested_owner = P74 } #Varmland
 
 			#Set formable puppet as controller of contested state
 			every_state = {

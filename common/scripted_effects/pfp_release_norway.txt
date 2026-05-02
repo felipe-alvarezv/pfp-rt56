@@ -6,16 +6,16 @@ pfp_release_norway = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			110 = { add_contested_owner  = P65 } #Ostlandet
-			142 = { add_contested_owner  = P65 } #Vestlandet
-			143 = { add_contested_owner  = P65 } #Trondelag
-			144 = { add_contested_owner  = P65 } #Nord-Norge
-			967 = { add_contested_owner  = P65 } #Sorlandet
-			1031 = { add_contested_owner  = P65 } #Opplandene
-			1032 = { add_contested_owner  = P65 } #Telemark
-			1033 = { add_contested_owner  = P65 } #Helgeland
-			1034 = { add_contested_owner  = P65 } #Troms
-			1035 = { add_contested_owner  = P65 } #Finnmark
+			110 = { add_contested_owner = P65 } #Ostlandet
+			142 = { add_contested_owner = P65 } #Vestlandet
+			143 = { add_contested_owner = P65 } #Trondelag
+			144 = { add_contested_owner = P65 } #Nord-Norge
+			967 = { add_contested_owner = P65 } #Sorlandet
+			1031 = { add_contested_owner = P65 } #Opplandene
+			1032 = { add_contested_owner = P65 } #Telemark
+			1033 = { add_contested_owner = P65 } #Helgeland
+			1034 = { add_contested_owner = P65 } #Troms
+			1035 = { add_contested_owner = P65 } #Finnmark
 
 			#Set formable puppet as controller of contested state
 			every_state = {

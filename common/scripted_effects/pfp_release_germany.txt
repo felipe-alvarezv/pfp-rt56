@@ -6,26 +6,26 @@ pfp_release_germany = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			42 = { add_contested_owner  = P13 } #Moselland
-			50 = { add_contested_owner  = P13 } #Wurttemberg
-			51 = { add_contested_owner  = P13 } #Rhineland
-			52 = { add_contested_owner  = P13 } #Oberbayern
-			53 = { add_contested_owner  = P13 } #Niederbayern
-			54 = { add_contested_owner  = P13 } #Franken
-			55 = { add_contested_owner  = P13 } #Hessen
-			56 = { add_contested_owner  = P13 } #Weser-Ems
-			57 = { add_contested_owner  = P13 } #Westfalen
-			58 = { add_contested_owner  = P13 } #Holstein
-			59 = { add_contested_owner  = P13 } #Hannover
-			60 = { add_contested_owner  = P13 } #Thuringen
-			61 = { add_contested_owner  = P13 } #Mecklenburg
-			62 = { add_contested_owner  = P13 } #Vorpommern
-			64 = { add_contested_owner  = P13 } #Brandenburg
-			65 = { add_contested_owner  = P13 } #Sachsen
-			922 = { add_contested_owner  = P13 } #Frankfurt
-			923 = { add_contested_owner  = P13 } # Baden
-			989 = { add_contested_owner  = P13 } #Ostrhineland
-			1053 = { add_contested_owner  = P13 } #Saarland
+			42 = { add_contested_owner = P13 } #Moselland
+			50 = { add_contested_owner = P13 } #Wurttemberg
+			51 = { add_contested_owner = P13 } #Rhineland
+			52 = { add_contested_owner = P13 } #Oberbayern
+			53 = { add_contested_owner = P13 } #Niederbayern
+			54 = { add_contested_owner = P13 } #Franken
+			55 = { add_contested_owner = P13 } #Hessen
+			56 = { add_contested_owner = P13 } #Weser-Ems
+			57 = { add_contested_owner = P13 } #Westfalen
+			58 = { add_contested_owner = P13 } #Holstein
+			59 = { add_contested_owner = P13 } #Hannover
+			60 = { add_contested_owner = P13 } #Thuringen
+			61 = { add_contested_owner = P13 } #Mecklenburg
+			62 = { add_contested_owner = P13 } #Vorpommern
+			64 = { add_contested_owner = P13 } #Brandenburg
+			65 = { add_contested_owner = P13 } #Sachsen
+			922 = { add_contested_owner = P13 } #Frankfurt
+			923 = { add_contested_owner = P13 } # Baden
+			989 = { add_contested_owner = P13 } #Ostrhineland
+			1053 = { add_contested_owner = P13 } #Saarland
 
 			#Set formable puppet as controller of contested state
 			every_state = {

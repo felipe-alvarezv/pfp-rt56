@@ -6,14 +6,14 @@ pfp_release_arabia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			292 = { add_contested_owner  = P03 } #Nejd
-			678 = { add_contested_owner  = P03 } #Rub Al Khali
-			679 = { add_contested_owner  = P03 } #Madinah
-			854 = { add_contested_owner  = P03 } #Jawf
-			855 = { add_contested_owner  = P03 } #Tabuk
-			856 = { add_contested_owner  = P03 } #Asir-Makkah
-			857 = { add_contested_owner  = P03 } #Al-Qassim
-			859 = { add_contested_owner  = P03 } #Dammam
+			292 = { add_contested_owner = P03 } #Nejd
+			678 = { add_contested_owner = P03 } #Rub Al Khali
+			679 = { add_contested_owner = P03 } #Madinah
+			854 = { add_contested_owner = P03 } #Jawf
+			855 = { add_contested_owner = P03 } #Tabuk
+			856 = { add_contested_owner = P03 } #Asir-Makkah
+			857 = { add_contested_owner = P03 } #Al-Qassim
+			859 = { add_contested_owner = P03 } #Dammam
 
 			#Set formable puppet as controller of contested state
 			every_state = {

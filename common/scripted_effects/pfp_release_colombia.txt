@@ -6,10 +6,10 @@ pfp_release_colombia = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			306 = { add_contested_owner  = P01 } #Cundinamarca
-			486 = { add_contested_owner  = P01 } #Orinoquia
-			493 = { add_contested_owner  = P01 } #Atlantico
-			1051 = { add_contested_owner  = P01 } #Antioquia
+			306 = { add_contested_owner = P01 } #Cundinamarca
+			486 = { add_contested_owner = P01 } #Orinoquia
+			493 = { add_contested_owner = P01 } #Atlantico
+			1051 = { add_contested_owner = P01 } #Antioquia
 
 			#Set formable puppet as controller of contested state
 			every_state = {

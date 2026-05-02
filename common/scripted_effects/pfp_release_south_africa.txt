@@ -6,13 +6,13 @@ pfp_release_south_africa = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			275 = { add_contested_owner  = P36 } #Transvaal
-			542 = { add_contested_owner  = P36 } #Bechuanaland
-			681 = { add_contested_owner  = P36 } #Cape
-			719 = { add_contested_owner  = P36 } #Natal
-			940 = { add_contested_owner  = P36 } #Orange Free State
-			938 = { add_contested_owner  = P36 } #Basutoland
-			939 = { add_contested_owner  = P36 } #Swaziland
+			275 = { add_contested_owner = P36 } #Transvaal
+			542 = { add_contested_owner = P36 } #Bechuanaland
+			681 = { add_contested_owner = P36 } #Cape
+			719 = { add_contested_owner = P36 } #Natal
+			940 = { add_contested_owner = P36 } #Orange Free State
+			938 = { add_contested_owner = P36 } #Basutoland
+			939 = { add_contested_owner = P36 } #Swaziland
 
 			#Set formable puppet as controller of contested state
 			every_state = {

@@ -6,17 +6,17 @@ pfp_release_england = {
 			limit = { has_global_flag = pfp_management_resistance_enabled }
 
 			#Add contestion to formable puppet
-			123 = { add_contested_owner  = P80 } #South-West England
-			125 = { add_contested_owner  = P80 } #East Anglia
-			126 = { add_contested_owner  = P80 } #Greater London Area
-			127 = { add_contested_owner  = P80 } #Sussex
-			128 = { add_contested_owner  = P80 } #West Midlands
-			129 = { add_contested_owner  = P80 } #East Midlands
-			130 = { add_contested_owner  = P80 } #Yorkshire
-			131 = { add_contested_owner  = P80 } #Northumberland
-			132 = { add_contested_owner  = P80 } #Lancashire
-			338 = { add_contested_owner  = P80 } #Gloucestershire
-			1041 = { add_contested_owner  = P80 } #Cumbria
+			123 = { add_contested_owner = P80 } #South-West England
+			125 = { add_contested_owner = P80 } #East Anglia
+			126 = { add_contested_owner = P80 } #Greater London Area
+			127 = { add_contested_owner = P80 } #Sussex
+			128 = { add_contested_owner = P80 } #West Midlands
+			129 = { add_contested_owner = P80 } #East Midlands
+			130 = { add_contested_owner = P80 } #Yorkshire
+			131 = { add_contested_owner = P80 } #Northumberland
+			132 = { add_contested_owner = P80 } #Lancashire
+			338 = { add_contested_owner = P80 } #Gloucestershire
+			1041 = { add_contested_owner = P80 } #Cumbria
 
 			#Set formable puppet as controller of contested state
 			every_state = {

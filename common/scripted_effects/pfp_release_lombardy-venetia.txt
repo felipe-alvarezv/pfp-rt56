@@ -10,6 +10,11 @@ pfp_release_lombardy-venetia = {
 			160 = { add_contested_owner = P92 } #Veneto
 			912 = { add_contested_owner = P92 } #Friuli
 
+			#Add claims to formable puppet
+			159 = { add_claim_by = P92 } #Lombardia
+			160 = { add_claim_by = P92 } #Veneto
+			912 = { add_claim_by = P92 } #Friuli
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P92 }

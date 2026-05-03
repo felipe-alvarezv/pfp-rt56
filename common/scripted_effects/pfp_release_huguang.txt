@@ -11,6 +11,12 @@ pfp_release_huguang = {
 			750 = { add_contested_owner = Q16 } #Changde
 			1115 = { add_contested_owner = Q16 } #Wuhan
 
+			#Add claims to formable puppet
+			602 = { add_claim_by = Q16 } #Hunan
+			620 = { add_claim_by = Q16 } #Hubei
+			750 = { add_claim_by = Q16 } #Changde
+			1115 = { add_claim_by = Q16 } #Wuhan
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = Q16 }

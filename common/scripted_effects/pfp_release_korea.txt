@@ -13,6 +13,14 @@ pfp_release_korea = {
 			919 = { add_contested_owner = P72 } #Jeolla
 			920 = { add_contested_owner = P72 } #Gyeongsang
 
+			#Add claims to formable puppet
+			525 = { add_claim_by = P72 } #Gyeonggi
+			527 = { add_claim_by = P72 } #Pyeongan
+			917 = { add_claim_by = P72 } #Hwanghae
+			918 = { add_claim_by = P72 } #Hamgyong
+			919 = { add_claim_by = P72 } #Jeolla
+			920 = { add_claim_by = P72 } #Gyeongsang
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P72 }

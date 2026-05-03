@@ -23,6 +23,24 @@ pfp_release_north_germany = {
 			67 = { add_contested_owner = P19 } #Oberschlesien
 			68 = { add_contested_owner = P19 } #Neumark
 
+			#Add claims to formable puppet
+			989 = { add_claim_by = P19 } #Ostrhineland
+			51 = { add_claim_by = P19 } #Rhineland
+			55 = { add_claim_by = P19 } #Hessen
+			56 = { add_claim_by = P19 } #Weser-Ems
+			57 = { add_claim_by = P19 } #Westfalen
+			58 = { add_claim_by = P19 } #Holstein
+			59 = { add_claim_by = P19 } #Hannover
+			60 = { add_claim_by = P19 } #Thuringen
+			61 = { add_claim_by = P19 } #Mecklenburg
+			62 = { add_claim_by = P19 } #Vorpommern
+			63 = { add_claim_by = P19 } #Hinterpommern
+			64 = { add_claim_by = P19 } #Brandenburg
+			65 = { add_claim_by = P19 } #Sachsen
+			66 = { add_claim_by = P19 } #Niederschlesien
+			67 = { add_claim_by = P19 } #Oberschlesien
+			68 = { add_claim_by = P19 } #Neumark
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P19 }

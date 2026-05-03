@@ -15,6 +15,16 @@ pfp_release_arabia = {
 			857 = { add_contested_owner = P03 } #Al-Qassim
 			859 = { add_contested_owner = P03 } #Dammam
 
+			#Add claims to formable puppet
+			292 = { add_claim_by = P03 } #Nejd
+			678 = { add_claim_by = P03 } #Rub Al Khali
+			679 = { add_claim_by = P03 } #Madinah
+			854 = { add_claim_by = P03 } #Jawf
+			855 = { add_claim_by = P03 } #Tabuk
+			856 = { add_claim_by = P03 } #Asir-Makkah
+			857 = { add_claim_by = P03 } #Al-Qassim
+			859 = { add_claim_by = P03 } #Dammam
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P03 }

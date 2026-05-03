@@ -10,6 +10,11 @@ pfp_release_papal_states = {
 			161 = { add_contested_owner = P96 } #Emilia Romagna
 			957 = { add_contested_owner = P96 } #Marche
 
+			#Add claims to formable puppet
+			2 = { add_claim_by = P96 } #Lazio
+			161 = { add_claim_by = P96 } #Emilia Romagna
+			957 = { add_claim_by = P96 } #Marche
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P96 }

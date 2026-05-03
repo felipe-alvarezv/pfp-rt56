@@ -10,6 +10,11 @@ pfp_release_zhili = {
 			614 = { add_contested_owner = Q10 } #Hebei
 			1118 = { add_contested_owner = Q10 } #Hebei-Chahar
 
+			#Add claims to formable puppet
+			608 = { add_claim_by = Q10 } #Beiping
+			614 = { add_claim_by = Q10 } #Hebei
+			1118 = { add_claim_by = Q10 } #Hebei-Chahar
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = Q10 }

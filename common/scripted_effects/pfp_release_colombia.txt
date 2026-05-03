@@ -11,6 +11,12 @@ pfp_release_colombia = {
 			493 = { add_contested_owner = P01 } #Atlantico
 			1051 = { add_contested_owner = P01 } #Antioquia
 
+			#Add claims to formable puppet
+			306 = { add_claim_by = P01 } #Cundinamarca
+			486 = { add_claim_by = P01 } #Orinoquia
+			493 = { add_claim_by = P01 } #Atlantico
+			1051 = { add_claim_by = P01 } #Antioquia
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P01 }

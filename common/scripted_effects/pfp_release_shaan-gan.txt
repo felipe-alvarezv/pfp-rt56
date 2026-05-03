@@ -15,6 +15,16 @@ pfp_release_shaan-gan = {
 			1124 = { add_contested_owner = Q20 } #Guyuan
 			1125 = { add_contested_owner = Q20 } #Yulin
 
+			#Add claims to formable puppet
+			283 = { add_claim_by = Q20 } #Gansu
+			622 = { add_claim_by = Q20 } #Shaanbei
+			744 = { add_claim_by = Q20 } #Xian
+			756 = { add_claim_by = Q20 } #Jiuquan
+			1111 = { add_claim_by = Q20 } #Yan'an
+			1123 = { add_claim_by = Q20 } #Wuwei
+			1124 = { add_claim_by = Q20 } #Guyuan
+			1125 = { add_claim_by = Q20 } #Yulin
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = Q20 }

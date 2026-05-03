@@ -14,6 +14,15 @@ pfp_release_yugoslavia = {
 			952 = { add_contested_owner = P50 } #Syrmia
 			963 = { add_contested_owner = P50 } #Raška
 
+			#Add claims to formable puppet
+			45 = { add_claim_by = P50 } #Batschka
+			105 = { add_claim_by = P50 } #Crna Gora
+			107 = { add_claim_by = P50 } #Šumadija
+			108 = { add_claim_by = P50 } #Pomoravlje
+			764 = { add_claim_by = P50 } #West Banat
+			952 = { add_claim_by = P50 } #Syrmia
+			963 = { add_claim_by = P50 } #Raška
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P50 }

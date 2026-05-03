@@ -35,6 +35,36 @@ pfp_release_scandinavia = {
 			1034 = { add_contested_owner = P24 } #Troms
 			1035 = { add_contested_owner = P24 } #Finnmark
 
+			#Add claims to formable puppet
+			37 = { add_claim_by = P24 } #Sjaelland
+			38 = { add_claim_by = P24 } #Norrland
+			99 = { add_claim_by = P24 } #Jutland
+			110 = { add_claim_by = P24 } #Ostlandet
+			138 = { add_claim_by = P24 } #Scania
+			139 = { add_claim_by = P24 } #Smaland
+			140 = { add_claim_by = P24 } #Vastergotland
+			141 = { add_claim_by = P24 } #Svealand
+			142 = { add_claim_by = P24 } #Vestlandet
+			143 = { add_claim_by = P24 } #Trondelag
+			144 = { add_claim_by = P24 } #Nord-Norge
+			666 = { add_claim_by = P24 } #Lappland
+			1025 = { add_claim_by = P24 } #Fyn
+			1026 = { add_claim_by = P24 } #Östergötland
+			969 = { add_claim_by = P24 } #Bohuslän
+			1030 = { add_claim_by = P24 } #Värmland
+			1028 = { add_claim_by = P24 } #Dalarna
+			1031 = { add_claim_by = P24 } #Opplandene
+			1032 = { add_claim_by = P24 } #Telemark
+			967 = { add_claim_by = P24 } #Sørlandet
+			968 = { add_claim_by = P24 } #Jämtland
+			1025 = { add_claim_by = P24 } #Fyn
+			1026 = { add_claim_by = P24 } #Östergötland
+			969 = { add_claim_by = P24 } #Bohuslän
+			1029 = { add_claim_by = P24 } #Västerbotten
+			1033 = { add_claim_by = P24 } #Helgeland
+			1034 = { add_claim_by = P24 } #Troms
+			1035 = { add_claim_by = P24 } #Finnmark
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P24 }

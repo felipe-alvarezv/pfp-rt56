@@ -14,6 +14,15 @@ pfp_release_indochina = {
 			927 = { add_contested_owner = P16 } #South Annam
 			928 = { add_contested_owner = P16 } #North Annam
 
+			#Add claims to formable puppet
+			286 = { add_claim_by = P16 } #Southern Indochina
+			670 = { add_claim_by = P16 } #Laos
+			671 = { add_claim_by = P16 } #Tonkin
+			741 = { add_claim_by = P16 } #Cambodia
+			925 = { add_claim_by = P16 } #Batambang
+			927 = { add_claim_by = P16 } #South Annam
+			928 = { add_claim_by = P16 } #North Annam
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P16 }

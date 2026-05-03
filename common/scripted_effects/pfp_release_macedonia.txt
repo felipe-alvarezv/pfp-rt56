@@ -9,6 +9,10 @@ pfp_release_macedonia = {
 			106 = { add_contested_owner = P98 } #Makedonija
 			950 = { add_contested_owner = P98 } #Tetovo
 
+			#Add claims to formable puppet
+			106 = { add_claim_by = P98 } #Makedonija
+			950 = { add_claim_by = P98 } #Tetovo
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P98 }

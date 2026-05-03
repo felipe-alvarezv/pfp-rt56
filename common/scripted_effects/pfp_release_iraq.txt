@@ -12,6 +12,13 @@ pfp_release_iraq = {
 			1046 = { add_contested_owner = P69 } #Karbala-Najaf
 			1047 = { add_contested_owner = P69 } #Dulaim
 
+			#Add claims to formable puppet
+			291 = { add_claim_by = P69 } #Baghdad
+			675 = { add_claim_by = P69 } #Al Sahra'a Al Janubiyah
+			1045 = { add_claim_by = P69 } #Basrah
+			1046 = { add_claim_by = P69 } #Karbala-Najaf
+			1047 = { add_claim_by = P69 } #Dulaim
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P69 }

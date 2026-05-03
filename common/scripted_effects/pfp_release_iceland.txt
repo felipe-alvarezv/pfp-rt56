@@ -9,6 +9,10 @@ pfp_release_iceland = {
 			100 = { add_contested_owner = P83 } #Hofudborgarsvaedid
 			1043 = { add_contested_owner = P83 } #Sudurland
 
+			#Add claims to formable puppet
+			100 = { add_claim_by = P83 } #Hofudborgarsvaedid
+			1043 = { add_claim_by = P83 } #Sudurland
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P83 }

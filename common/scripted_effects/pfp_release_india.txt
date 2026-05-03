@@ -24,6 +24,25 @@ pfp_release_india = {
 			1100 = { add_contested_owner = P37 } #Bastar
 			1101 = { add_contested_owner = P37 } #East Punjab
 
+			#Add claims to formable puppet
+			423 = { add_claim_by = P37 } #Madras
+			424 = { add_claim_by = P37 } #Andhra
+			425 = { add_claim_by = P37 } #Mysore
+			426 = { add_claim_by = P37 } #Orissa
+			427 = { add_claim_by = P37 } #Hyderabad
+			428 = { add_claim_by = P37 } #Gujarat
+			429 = { add_claim_by = P37 } #Bombay
+			433 = { add_claim_by = P37 } #Rajahsthan
+			436 = { add_claim_by = P37 } #Jabalpur
+			437 = { add_claim_by = P37 } #Indore
+			438 = { add_claim_by = P37 } #Lucknow
+			439 = { add_claim_by = P37 } #Delhi
+			1090 = { add_claim_by = P37 } #Uttarakhand
+			1098 = { add_claim_by = P37 } #Kochin
+			1099 = { add_claim_by = P37 } #Kolhapur and Deccan
+			1100 = { add_claim_by = P37 } #Bastar
+			1101 = { add_claim_by = P37 } #East Punjab
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P37 }

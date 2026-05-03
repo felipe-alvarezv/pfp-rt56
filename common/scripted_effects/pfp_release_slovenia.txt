@@ -10,6 +10,11 @@ pfp_release_slovenia = {
 			853 = { add_contested_owner = P87 } #Ljubljana
 			956 = { add_contested_owner = P87 } #Prekmurje
 
+			#Add claims to formable puppet
+			102 = { add_claim_by = P87 } #Podravska
+			853 = { add_claim_by = P87 } #Ljubljana
+			956 = { add_claim_by = P87 } #Prekmurje
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P87 }

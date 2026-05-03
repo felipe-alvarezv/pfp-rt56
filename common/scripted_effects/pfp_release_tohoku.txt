@@ -9,6 +9,10 @@ pfp_release_tohoku = {
 			533 = { add_contested_owner = Q01 } #Kita-Tohoku
 			1106 = { add_contested_owner = Q01 } #Minami Tohoku
 
+			#Add claims to formable puppet
+			533 = { add_claim_by = Q01 } #Kita-Tohoku
+			1106 = { add_claim_by = Q01 } #Minami Tohoku
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = Q01 }

@@ -22,6 +22,23 @@ pfp_release_west_germany = {
 			989 = { add_contested_owner = P31 } #Ostrhineland
 			1053 = { add_contested_owner = P31 } #Saarland
 
+			#Add claims to formable puppet
+			42 = { add_claim_by = P31 } #Moselland
+			50 = { add_claim_by = P31 } #Wurttemberg
+			51 = { add_claim_by = P31 } #Rhineland
+			52 = { add_claim_by = P31 } #Oberbayern
+			53 = { add_claim_by = P31 } #Niederbayern
+			54 = { add_claim_by = P31 } #Franken
+			55 = { add_claim_by = P31 } #Hessen
+			56 = { add_claim_by = P31 } #Weser-Ems
+			57 = { add_claim_by = P31 } #Westfalen
+			58 = { add_claim_by = P31 } #Holstein
+			59 = { add_claim_by = P31 } #Hannover
+			923 = { add_claim_by = P31 } #Baden
+			922 = { add_claim_by = P31 } #Frankfurt
+			989 = { add_claim_by = P31 } #Ostrhineland
+			1053 = { add_claim_by = P31 } #Saarland
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P31 }

@@ -20,6 +20,21 @@ pfp_release_indonesia = {
 			977 = { add_contested_owner = P17 } #Inner Borneo
 			978 = { add_contested_owner = P17 } #West Kalimantan
 
+			#Add claims to formable puppet
+			334 = { add_claim_by = P17 } #East Kalimantan
+			335 = { add_claim_by = P17 } #West Java
+			667 = { add_claim_by = P17 } #Lesser Sunda Islands
+			668 = { add_claim_by = P17 } #Moluccan Islands
+			672 = { add_claim_by = P17 } #South Sumatra
+			673 = { add_claim_by = P17 } #South Sulawesi
+			738 = { add_claim_by = P17 } #Aru Islands
+			974 = { add_claim_by = P17 } #North Sumatra
+			976 = { add_claim_by = P17 } #Central Java
+			446 = { add_claim_by = P17 } #East Java
+			975 = { add_claim_by = P17 } #North Sulawesi
+			977 = { add_claim_by = P17 } #Inner Borneo
+			978 = { add_claim_by = P17 } #West Kalimantan
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P17 }

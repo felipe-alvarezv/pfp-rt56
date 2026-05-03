@@ -19,6 +19,20 @@ pfp_release_sweden = {
 			1029 = { add_contested_owner = P74 } #Vasterbotten
 			1030 = { add_contested_owner = P74 } #Varmland
 
+			#Add claims to formable puppet
+			38 = { add_claim_by = P74 } #Norrland
+			138 = { add_claim_by = P74 } #Scania
+			139 = { add_claim_by = P74 } #Smaland
+			140 = { add_claim_by = P74 } #Vastergotland
+			141 = { add_claim_by = P74 } #Svealand
+			666 = { add_claim_by = P74 } #Lappland
+			968 = { add_claim_by = P74 } #Jamtland
+			969 = { add_claim_by = P74 } #Bohuslan
+			1026 = { add_claim_by = P74 } #Ostergotland
+			1028 = { add_claim_by = P74 } #Dalarna
+			1029 = { add_claim_by = P74 } #Vasterbotten
+			1030 = { add_claim_by = P74 } #Varmland
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P74 }

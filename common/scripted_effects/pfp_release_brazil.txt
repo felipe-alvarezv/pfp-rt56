@@ -32,6 +32,33 @@ pfp_release_brazil = {
 			1058 = { add_contested_owner = P57 } #Rondonia
 			1072 = { add_contested_owner = P57 } #Amazon
 
+			#Add claims to formable puppet
+			280 = { add_claim_by = P57 } #Mato Grosso
+			495 = { add_claim_by = P57 } #Amazonas
+			496 = { add_claim_by = P57 } #Minas Gerais
+			497 = { add_claim_by = P57 } #Para
+			498 = { add_claim_by = P57 } #Rio Grande do Norte
+			499 = { add_claim_by = P57 } #Bahia
+			500 = { add_claim_by = P57 } #Rio de Janeiro
+			501 = { add_claim_by = P57 } #Sao Paulo
+			502 = { add_claim_by = P57 } #Rio Grande do Sul
+			503 = { add_claim_by = P57 } #Santa Catarina
+			504 = { add_claim_by = P57 } #Iguacu
+			505 = { add_claim_by = P57 } #Goias
+			999 = { add_claim_by = P57 } #Espirito Santo
+			1000 = { add_claim_by = P57 } #Piaui
+			1001 = { add_claim_by = P57 } #Maranhao
+			1002 = { add_claim_by = P57 } #Parana
+			1003 = { add_claim_by = P57 } #Ceara
+			1004 = { add_claim_by = P57 } #Paraiba
+			1005 = { add_claim_by = P57 } #Pernambuco
+			1006 = { add_claim_by = P57 } #Alagoas
+			1052 = { add_claim_by = P57 } #Acre
+			1056 = { add_claim_by = P57 } #Amapa
+			1057 = { add_claim_by = P57 } #Tocatins
+			1058 = { add_claim_by = P57 } #Rondonia
+			1072 = { add_claim_by = P57 } #Amazon
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P57 }

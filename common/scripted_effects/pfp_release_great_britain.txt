@@ -23,6 +23,24 @@ pfp_release_great_britain = {
 			338 = { add_contested_owner = P02 } #Gloucestershire
 			1041 = { add_contested_owner = P02 } #Cumbria
 
+			#Add claims to formable puppet
+			120 = { add_claim_by = P02 } #Scottish Highlands
+			121 = { add_claim_by = P02 } #Lothian
+			122 = { add_claim_by = P02 } #Wales
+			123 = { add_claim_by = P02 } #South-West England
+			125 = { add_claim_by = P02 } #East Anglia
+			126 = { add_claim_by = P02 } #Greater London Area
+			127 = { add_claim_by = P02 } #Sussex
+			128 = { add_claim_by = P02 } #West Midlands
+			129 = { add_claim_by = P02 } #East Midlands
+			130 = { add_claim_by = P02 } #Yorkshire
+			131 = { add_claim_by = P02 } #Northumberland
+			132 = { add_claim_by = P02 } #Lancashire
+			133 = { add_claim_by = P02 } #Lanark
+			136 = { add_claim_by = P02 } #Aberdeenshire
+			338 = { add_claim_by = P02 } #Gloucestershire
+			1041 = { add_claim_by = P02 } #Cumbria
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P02 }

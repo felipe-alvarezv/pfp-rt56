@@ -9,6 +9,10 @@ pfp_release_denmark = {
 			37 = { add_contested_owner = P61 } #Sjaelland
 			1025 = { add_contested_owner = P61 } #Fyn
 
+			#Add claims to formable puppet
+			37 = { add_claim_by = P61 } #Sjaelland
+			1025 = { add_claim_by = P61 } #Fyn
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P61 }

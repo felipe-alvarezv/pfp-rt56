@@ -18,6 +18,19 @@ pfp_release_northeastern_us = {
 			992 = { add_contested_owner = P20 } #Rhode Island
 			1023 = { add_contested_owner = P20 } #Delaware
 
+			#Add claims to formable puppet
+			357 = { add_claim_by = P20 } #New England
+			358 = { add_claim_by = P20 } #New York
+			359 = { add_claim_by = P20 } #New Jersey
+			360 = { add_claim_by = P20 } #Pennsylvania
+			361 = { add_claim_by = P20 } #Maryland
+			921 = { add_claim_by = P20 } #New Hampshire
+			990 = { add_claim_by = P20 } #Vermont
+			991 = { add_claim_by = P20 } #Massachusetts
+			993 = { add_claim_by = P20 } #Connecticut
+			992 = { add_claim_by = P20 } #Rhode Island
+			1023 = { add_claim_by = P20 } #Delaware
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P20 }

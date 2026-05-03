@@ -9,6 +9,10 @@ pfp_release_shandong = {
 			597 = { add_contested_owner = Q11 } #Shandong
 			1117 = { add_contested_owner = Q11 } #Jinan
 
+			#Add claims to formable puppet
+			597 = { add_claim_by = Q11 } #Shandong
+			1117 = { add_claim_by = Q11 } #Jinan
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = Q11 }

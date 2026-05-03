@@ -12,6 +12,13 @@ pfp_release_two_sicilies = {
 			157 = { add_contested_owner = P97 } #Abruzzo
 			849 = { add_contested_owner = P97 } #Puglia
 
+			#Add claims to formable puppet
+			115 = { add_claim_by = P97 } #Sicily
+			117 = { add_claim_by = P97 } #Campania
+			156 = { add_claim_by = P97 } #Calabria
+			157 = { add_claim_by = P97 } #Abruzzo
+			849 = { add_claim_by = P97 } #Puglia
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P97 }

@@ -12,6 +12,13 @@ pfp_release_south_germany = {
 			54 = { add_contested_owner = P25 } #Franken
 			923 = { add_contested_owner = P25 } #Baden
 
+			#Add claims to formable puppet
+			50 = { add_claim_by = P25 } #Wurttemberg
+			52 = { add_claim_by = P25 } #Oberbayern
+			53 = { add_claim_by = P25 } #Niederbayern
+			54 = { add_claim_by = P25 } #Franken
+			923 = { add_claim_by = P25 } #Baden
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P25 }

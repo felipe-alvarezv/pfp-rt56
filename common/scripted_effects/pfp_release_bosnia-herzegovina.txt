@@ -11,6 +11,12 @@ pfp_release_bosnia-herzegovina = {
 			961 = { add_contested_owner = P88 } #Krajina
 			962 = { add_contested_owner = P88 } #Posavina
 
+			#Add claims to formable puppet
+			104 = { add_claim_by = P88 } #Podrinje
+			804 = { add_claim_by = P88 } #Herzegovina
+			961 = { add_claim_by = P88 } #Krajina
+			962 = { add_claim_by = P88 } #Posavina
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P88 }

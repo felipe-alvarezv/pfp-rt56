@@ -11,6 +11,12 @@ pfp_release_pakistan = {
 			445 = { add_contested_owner = P75 } #Quetta
 			1093 = { add_contested_owner = P75 } #West Sind
 
+			#Add claims to formable puppet
+			442 = { add_claim_by = P75 } #Sarhad
+			444 = { add_claim_by = P75 } #Balochistan
+			445 = { add_claim_by = P75 } #Quetta
+			1093 = { add_claim_by = P75 } #West Sind
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P75 }

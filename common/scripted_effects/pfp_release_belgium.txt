@@ -11,6 +11,12 @@ pfp_release_belgium = {
 			1094 = { add_contested_owner = P60 } #Antwerp
 			1095 = { add_contested_owner = P60 } #Ardennes
 
+			#Add claims to formable puppet
+			6 = { add_claim_by = P60 } #Vlaanderen
+			34 = { add_claim_by = P60 } #Wallonie
+			1094 = { add_claim_by = P60 } #Antwerp
+			1095 = { add_claim_by = P60 } #Ardennes
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P60 }

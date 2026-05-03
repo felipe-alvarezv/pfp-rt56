@@ -9,6 +9,10 @@ pfp_release_chugoku = {
 			529 = { add_contested_owner = Q05 } #Sanyo
 			1107 = { add_contested_owner = Q05 } #Sanin
 
+			#Add claims to formable puppet
+			529 = { add_claim_by = Q05 } #Sanyo
+			1107 = { add_claim_by = Q05 } #Sanin
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = Q05 }

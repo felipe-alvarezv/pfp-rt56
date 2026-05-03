@@ -12,6 +12,13 @@ pfp_release_hungary = {
 			913 = { add_contested_owner = P09 } #Solt-Kiskun
 			1104 = { add_contested_owner = P09 } #South Transdanubia
 
+			#Add claims to formable puppet
+			43 = { add_claim_by = P09 } #Northern Hungary
+			154 = { add_claim_by = P09 } #Alföld
+			155 = { add_claim_by = P09 } #North Transdanubia
+			913 = { add_claim_by = P09 } #Solt-Kiskun
+			1104 = { add_claim_by = P09 } #South Transdanubia
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P09 }

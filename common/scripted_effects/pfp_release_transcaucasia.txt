@@ -12,6 +12,13 @@ pfp_release_transcaucasia = {
 			826 = { add_contested_owner = P28 } #Abkhazia
 			1044 = { add_contested_owner = P28 } #Nakhchivan
 
+			#Add claims to formable puppet
+			229 = { add_claim_by = P28 } #Azerbaijan
+			230 = { add_claim_by = P28 } #Armenia
+			231 = { add_claim_by = P28 } #Georgia
+			826 = { add_claim_by = P28 } #Abkhazia
+			1044 = { add_claim_by = P28 } #Nakhchivan
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P28 }

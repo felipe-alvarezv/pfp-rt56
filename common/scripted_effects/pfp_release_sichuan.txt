@@ -13,6 +13,14 @@ pfp_release_sichuan = {
 			1116 = { add_contested_owner = Q19 } #Chongqing
 			1120 = { add_contested_owner = Q19 } #Chengdu
 
+			#Add claims to formable puppet
+			605 = { add_claim_by = Q19 } #Sichuan
+			751 = { add_claim_by = Q19 } #Liangshan
+			752 = { add_claim_by = Q19 } #Ganzi
+			753 = { add_claim_by = Q19 } #Gannan
+			1116 = { add_claim_by = Q19 } #Chongqing
+			1120 = { add_claim_by = Q19 } #Chengdu
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = Q19 }

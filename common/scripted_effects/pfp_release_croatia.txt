@@ -11,6 +11,12 @@ pfp_release_croatia = {
 			958 = { add_contested_owner = P86 } #Kvarner
 			959 = { add_contested_owner = P86 } #Slavonija
 
+			#Add claims to formable puppet
+			103 = { add_claim_by = P86 } #Dalmacija
+			109 = { add_claim_by = P86 } #Zagreb
+			958 = { add_claim_by = P86 } #Kvarner
+			959 = { add_claim_by = P86 } #Slavonija
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P86 }

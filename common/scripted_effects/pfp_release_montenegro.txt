@@ -9,6 +9,10 @@ pfp_release_montenegro = {
 			105 = { add_contested_owner = P90 } #Crna Gora
 			963 = { add_contested_owner = P90 } #Raska
 
+			#Add claims to formable puppet
+			105 = { add_claim_by = P90 } #Crna Gora
+			963 = { add_claim_by = P90 } #Raska
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P90 }

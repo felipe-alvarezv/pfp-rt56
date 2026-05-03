@@ -13,6 +13,14 @@ pfp_release_austria = {
 			1054 = { add_contested_owner = P77 } #Styria
 			1086 = { add_contested_owner = P77 } #Burgenland
 
+			#Add claims to formable puppet
+			4 = { add_claim_by = P77 } #Lower Austria
+			152 = { add_claim_by = P77 } #Upper Austria
+			153 = { add_claim_by = P77 } #Tyrol
+			848 = { add_claim_by = P77 } #Vorarlberg
+			1054 = { add_claim_by = P77 } #Styria
+			1086 = { add_claim_by = P77 } #Burgenland
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P77 }

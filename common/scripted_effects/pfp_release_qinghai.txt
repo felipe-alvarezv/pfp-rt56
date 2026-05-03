@@ -11,6 +11,12 @@ pfp_release_qinghai = {
 			755 = { add_contested_owner = Q21 } #Haixi
 			1075 = { add_contested_owner = Q21 } #Gyarong
 
+			#Add claims to formable puppet
+			604 = { add_claim_by = Q21 } #Qinghai
+			754 = { add_claim_by = Q21 } #Golog
+			755 = { add_claim_by = Q21 } #Haixi
+			1075 = { add_claim_by = Q21 } #Gyarong
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = Q21 }

@@ -21,6 +21,22 @@ pfp_release_manchuria = {
 			946 = { add_contested_owner = Q08 } #West Xing'an
 			947 = { add_contested_owner = Q08 } #Jinzhou
 
+			#Add claims to formable puppet
+			328 = { add_claim_by = Q08 } #Kirin
+			610 = { add_claim_by = Q08 } #Jehol
+			714 = { add_claim_by = Q08 } #Heilungkiang
+			715 = { add_claim_by = Q08 } #Liaobei
+			716 = { add_claim_by = Q08 } #Liaoning
+			717 = { add_claim_by = Q08 } #Sungkiang
+			761 = { add_claim_by = Q08 } #Hulunbuir
+			941 = { add_claim_by = Q08 } #Andong
+			942 = { add_claim_by = Q08 } #Jiandao
+			943 = { add_claim_by = Q08 } #Binjiang
+			944 = { add_claim_by = Q08 } #Longjiang
+			945 = { add_claim_by = Q08 } #Heihe
+			946 = { add_claim_by = Q08 } #West Xing'an
+			947 = { add_claim_by = Q08 } #Jinzhou
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = Q08 }

@@ -19,6 +19,20 @@ pfp_release_levant = {
 			1021 = { add_contested_owner = P67 } #Mafraq
 			1022 = { add_contested_owner = P67 } #Ma'an
 
+			#Add claims to formable puppet
+			454 = { add_claim_by = P67 } #Coastal Plain
+			455 = { add_claim_by = P67 } #Amman
+			553 = { add_claim_by = P67 } #Lebanon
+			554 = { add_claim_by = P67 } #Damascus
+			677 = { add_claim_by = P67 } #Aleppo
+			680 = { add_claim_by = P67 } #Deir-az-Zur
+			949 = { add_claim_by = P67 } #Gaza
+			966 = { add_claim_by = P67 } #West Bank
+			1016 = { add_claim_by = P67 } #Jerusalem
+			1017 = { add_claim_by = P67 } #Beersheba
+			1021 = { add_claim_by = P67 } #Mafraq
+			1022 = { add_claim_by = P67 } #Ma'an
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P67 }

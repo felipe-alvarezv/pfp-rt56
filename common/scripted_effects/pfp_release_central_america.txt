@@ -14,6 +14,15 @@ pfp_release_central_america = {
 			317 = { add_contested_owner = P08 } #Nicaragua
 			937 = { add_contested_owner = P08 } #Western Panama
 
+			#Add claims to formable puppet
+			304 = { add_claim_by = P08 } #Panama
+			312 = { add_claim_by = P08 } #Honduras
+			313 = { add_claim_by = P08 } #Guatemala
+			314 = { add_claim_by = P08 } #El Salvador
+			316 = { add_claim_by = P08 } #Costa Rica
+			317 = { add_claim_by = P08 } #Nicaragua
+			937 = { add_claim_by = P08 } #Western Panama
+
 			#Set formable puppet as controller of contested state
 			every_state = {
 				limit = { has_contested_owner = P08 }

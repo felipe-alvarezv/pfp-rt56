@@ -7,7 +7,6 @@ pfp_category = {
 				original_tag = KHI #Khiva
 				original_tag = KKP #Karakalpakstan
 				original_tag = KYR #Kyrgyzstan
-				original_tag = SOV #Soviet Union
 				original_tag = TAJ #Tajikistan
 				original_tag = TMS #Turkmenistan
 				original_tag = UZB #Uzbekistan
